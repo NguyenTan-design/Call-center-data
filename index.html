@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+>
+
+<title>CC Management</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+    margin:0;
+    padding:15px;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    background:#f5f5f5;
+
+}
+
+h1{
+
+    margin:0 0 15px 0;
+
+    text-align:center;
+
+    color:#333;
+
+}
+
+.toolbar{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+}
+
+#search{
+
+    flex:1;
+
+    padding:10px;
+
+    font-size:14px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+}
+
+.table-wrapper{
+
+    background:white;
+
+    border-radius:8px;
+
+    overflow:auto;
+
+    height:calc(100vh - 150px);
+
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    table-layout:fixed;
+
+}
+
+thead th{
+
+    position:sticky;
+
+    top:0;
+
+    background:#1976d2;
+
+    color:white;
+
+    z-index:10;
+
+}
+
+th,
+td{
+
+    border:1px solid #ddd;
+
+    padding:8px;
+
+    font-size:13px;
+
+    vertical-align:top;
+
+    word-break:break-word;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#fafafa;
+
+}
+
+tbody tr:hover{
+
+    background:#eef6ff;
+
+}
+
+th:nth-child(1),
+td:nth-child(1){
+
+    width:10%;
+
+}
+
+th:nth-child(2),
+td:nth-child(2){
+
+    width:10%;
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+th:nth-child(3),
+td:nth-child(3){
+
+    width:15%;
+
+}
+
+th:nth-child(4),
+td:nth-child(4){
+
+    width:25%;
+
+}
+
+th:nth-child(5),
+td:nth-child(5){
+
+    width:25%;
+
+}
+
+th:nth-child(6),
+td:nth-child(6){
+
+    width:8%;
+
+}
+
+th:nth-child(7),
+td:nth-child(7){
+
+    width:7%;
+
+    text-align:center;
+
+}
+
+.action-btn{
+
+    display:inline-block;
+
+    background:#1976d2;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:6px 10px;
+
+    border-radius:5px;
+
+}
+
+.action-btn:hover{
+
+    background:#0d5db8;
+
+}
+
+#pagination{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:10px 0;
+
+}
+
+#pagination button{
+
+    padding:6px 12px;
+
+    cursor:pointer;
+
+}
+
+@media(max-width:768px){
+
+body{
+
+    padding:5px;
+
+}
+
+th,
+td{
+
+    font-size:10px;
+
+    padding:4px;
+
+}
+
+#search{
+
+    font-size:12px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>CC Management</h1>
+
+<div class="toolbar">
+
+<input
+
+id="search"
+
+type="text"
+
+placeholder="Search CC Number / Topic / Communication Content"
+
+>
+
+</div>
+
+<div id="pagination"></div>
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>DATE</th>
+
+<th>CC NUMBER</th>
+
+<th>CUSTOMER</th>
+
+<th>TOPIC</th>
+
+<th>COMMUNICATION CONTENT</th>
+
+<th>FMV PIC</th>
+
+<th>ACTION</th>
+
+</tr>
+
+</thead>
+
+<tbody id="tbody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script>
+
+const ROWS_PER_PAGE = 50;
+
+let allData = [];
+
+let filteredData = [];
+
+let currentPage = 1;
+
+const tbody = document.getElementById("tbody");
+
+const search = document.getElementById("search");
+
+const pagination = document.getElementById("pagination");
+fetch("data.json")
+.then(res => res.json())
+.then(data=>{
+
+    allData=data;
+    filteredData=[...data];
+
+    renderTable();
+
+})
+.catch(err=>{
+
+    console.error(err);
+
+    alert("Cannot load data.json");
+
+});
+
+
+function escapeHTML(text){
+
+    return String(text ?? "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+
+}
+
+
+search.addEventListener("input",()=>{
+
+    const keyword=search.value.trim().toLowerCase();
+
+    if(keyword===""){
+
+        filteredData=[...allData];
+
+    }else{
+
+        filteredData=allData.filter(item=>{
+
+            return(
+
+                String(item["CC NUMBER"]||"")
+                .toLowerCase()
+                .includes(keyword)
+
+                ||
+
+                String(item["TOPIC"]||"")
+                .toLowerCase()
+                .includes(keyword)
+
+                ||
+
+                String(item["Communication Content"]||"")
+                .toLowerCase()
+                .includes(keyword)
+
+            );
+
+        });
+
+    }
+
+    currentPage=1;
+
+    renderTable();
+
+});
+
+
+function renderTable(){
+
+    tbody.innerHTML="";
+
+    const start=(currentPage-1)*ROWS_PER_PAGE;
+
+    const end=start+ROWS_PER_PAGE;
+
+    const pageData=filteredData.slice(start,end);
+
+    const fragment=document.createDocumentFragment();
+
+    pageData.forEach(item=>{
+
+        const tr=document.createElement("tr");
+
+        tr.innerHTML=`
+
+<td>${escapeHTML(item["DATE"])}</td>
+
+<td>${escapeHTML(item["CC NUMBER"])}</td>
+
+<td>${escapeHTML(item["Customer"])}</td>
+
+<td>${escapeHTML(item["TOPIC"])}</td>
+
+<td>${escapeHTML(item["Communication Content"])}</td>
+
+<td>${escapeHTML(item["FMV PIC"])}</td>
+
+<td>
+
+<a
+class="action-btn"
+href="${item["GO TO WEB"]}"
+target="_blank">
+
+Open
+
+</a>
+
+</td>
+
+`;
+
+        fragment.appendChild(tr);
+
+    });
+
+    tbody.appendChild(fragment);
+
+    renderPagination();
+
+}
+function renderPagination(){
+
+    pagination.innerHTML="";
+
+    const totalPages=Math.ceil(filteredData.length/ROWS_PER_PAGE);
+
+    if(totalPages<=1){
+
+        pagination.innerHTML=`<strong>Total : ${filteredData.length} records</strong>`;
+
+        return;
+
+    }
+
+    const prev=document.createElement("button");
+
+    prev.textContent="Prev";
+
+    prev.disabled=currentPage===1;
+
+    prev.onclick=()=>{
+
+        currentPage--;
+
+        renderTable();
+
+    };
+
+    pagination.appendChild(prev);
+
+    const info=document.createElement("span");
+
+    info.innerHTML=`
+        <strong>
+        Page ${currentPage} / ${totalPages}
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Total ${filteredData.length} records
+        </strong>
+    `;
+
+    pagination.appendChild(info);
+
+    const next=document.createElement("button");
+
+    next.textContent="Next";
+
+    next.disabled=currentPage===totalPages;
+
+    next.onclick=()=>{
+
+        currentPage++;
+
+        renderTable();
+
+    };
+
+    pagination.appendChild(next);
+
+}
+
+</script>
+
+</body>
+
+</html>
