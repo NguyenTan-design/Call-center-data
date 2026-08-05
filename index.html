@@ -1,520 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
-<meta
-name="viewport"
-content="width=device-width, initial-scale=1.0"
->
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CC Management</title>
-
 <style>
-
-*{
-    box-sizing:border-box;
-}
-
-body{
-
-    margin:0;
-    padding:15px;
-
-    font-family:Arial,Helvetica,sans-serif;
-
-    background:#f5f5f5;
-
-}
-
-h1{
-
-    margin:0 0 15px 0;
-
-    text-align:center;
-
-    color:#333;
-
-}
-
-.toolbar{
-
-    display:flex;
-
-    gap:10px;
-
-    margin-bottom:15px;
-
-}
-
-#search{
-
-    flex:1;
-
-    padding:10px;
-
-    font-size:14px;
-
-    border:1px solid #ccc;
-
-    border-radius:6px;
-
-}
-
-.table-wrapper{
-
-    background:white;
-
-    border-radius:8px;
-
-    overflow:auto;
-
-    height:calc(100vh - 150px);
-
-    box-shadow:0 2px 8px rgba(0,0,0,.15);
-
-}
-
-table{
-
-    width:100%;
-
-    border-collapse:collapse;
-
-    table-layout:fixed;
-
-}
-
-thead th{
-
-    position:sticky;
-
-    top:0;
-
-    background:#1976d2;
-
-    color:white;
-
-    z-index:10;
-
-}
-
-th,
-td{
-
-    border:1px solid #ddd;
-
-    padding:8px;
-
-    font-size:13px;
-
-    vertical-align:top;
-
-    word-break:break-word;
-
-}
-
-tbody tr:nth-child(even){
-
-    background:#fafafa;
-
-}
-
-tbody tr:hover{
-
-    background:#eef6ff;
-
-}
-
-th:nth-child(1),
-td:nth-child(1){
-
-    width:10%;
-
-}
-
-th:nth-child(2),
-td:nth-child(2){
-
-    width:10%;
-
-    color:red;
-
-    font-weight:bold;
-
-}
-
-th:nth-child(3),
-td:nth-child(3){
-
-    width:15%;
-
-}
-
-th:nth-child(4),
-td:nth-child(4){
-
-    width:25%;
-
-}
-
-th:nth-child(5),
-td:nth-child(5){
-
-    width:25%;
-
-}
-
-th:nth-child(6),
-td:nth-child(6){
-
-    width:8%;
-
-}
-
-th:nth-child(7),
-td:nth-child(7){
-
-    width:7%;
-
-    text-align:center;
-
-}
-
-.action-btn{
-
-    display:inline-block;
-
-    background:#1976d2;
-
-    color:white;
-
-    text-decoration:none;
-
-    padding:6px 10px;
-
-    border-radius:5px;
-
-}
-
-.action-btn:hover{
-
-    background:#0d5db8;
-
-}
-
-#pagination{
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    align-items:center;
-
-    gap:10px;
-
-    margin:10px 0;
-
-}
-
-#pagination button{
-
-    padding:6px 12px;
-
-    cursor:pointer;
-
-}
-
-@media(max-width:768px){
-
-body{
-
-    padding:5px;
-
-}
-
-th,
-td{
-
-    font-size:10px;
-
-    padding:4px;
-
-}
-
-#search{
-
-    font-size:12px;
-
-}
-
-}
-
+  :root {
+    --primary: #1976d2;
+    --primary-dark: #0d5db8;
+    --border: #ddd;
+    --row-alt: #fafafa;
+    --row-hover: #eef6ff;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+  }
+
+  h1 {
+    margin: 0 0 15px;
+    text-align: center;
+    color: #333;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .toolbar input[type="text"] {
+    flex: 1 1 200px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  #filter-new {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--primary);
+    cursor: pointer;
+  }
+
+  #filter-new:hover {
+    background: #eaf3fd;
+  }
+
+  #filter-new.active {
+    background: var(--primary);
+    color: #fff;
+  }
+
+  #clear-filters {
+    flex: 0 0 auto;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    color: #555;
+    cursor: pointer;
+  }
+
+  #clear-filters:hover {
+    background: #f0f0f0;
+  }
+
+  #status {
+    font-size: 13px;
+    color: #777;
+    margin: 0 0 8px;
+    text-align: center;
+  }
+
+  .table-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    overflow: auto;
+    height: calc(100vh - 190px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--primary);
+    color: #fff;
+    z-index: 10;
+  }
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 8px;
+    font-size: 13px;
+    vertical-align: top;
+    word-break: break-word;
+  }
+
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  tbody tr:hover { background: var(--row-hover); }
+
+  th:nth-child(1), td:nth-child(1) { width: 10%; }
+  th:nth-child(2), td:nth-child(2) { width: 10%; color: red; font-weight: bold; }
+  th:nth-child(3), td:nth-child(3) { width: 15%; }
+  th:nth-child(4), td:nth-child(4) { width: 25%; }
+  th:nth-child(5), td:nth-child(5) { width: 25%; }
+  th:nth-child(6), td:nth-child(6) { width: 8%; }
+  th:nth-child(7), td:nth-child(7) { width: 7%; text-align: center; }
+
+  .action-btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+
+  .action-btn:hover { background: var(--primary-dark); }
+
+  .empty-row td {
+    text-align: center;
+    color: #999;
+    padding: 20px;
+  }
+
+  #pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  #pagination button {
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+  }
+
+  #pagination button:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 5px; }
+    th, td { font-size: 10px; padding: 4px; }
+    .toolbar input[type="text"] { font-size: 12px; }
+    .table-wrapper { height: calc(100vh - 230px); }
+  }
 </style>
-
 </head>
-
 <body>
 
 <h1>CC Management</h1>
 
 <div class="toolbar">
-
-<input
-
-id="search"
-
-type="text"
-
-placeholder="Search CC Number / Topic / Communication Content"
-
->
-
+  <input id="search-cc" type="text" placeholder="Search CC Number">
+  <input id="search-topic" type="text" placeholder="Search Topic">
+  <input id="search-content" type="text" placeholder="Search Communication Content">
+  <button id="filter-new" type="button" aria-pressed="false">NEW only</button>
+  <button id="clear-filters" type="button">Clear</button>
 </div>
+
+<p id="status">Loading data...</p>
 
 <div id="pagination"></div>
 
 <div class="table-wrapper">
-
-<table>
-
-<thead>
-
-<tr>
-
-<th>DATE</th>
-
-<th>CC NUMBER</th>
-
-<th>CUSTOMER</th>
-
-<th>TOPIC</th>
-
-<th>COMMUNICATION CONTENT</th>
-
-<th>FMV PIC</th>
-
-<th>ACTION</th>
-
-</tr>
-
-</thead>
-
-<tbody id="tbody">
-
-</tbody>
-
-</table>
-
+  <table>
+    <thead>
+      <tr>
+        <th>DATE</th>
+        <th>CC NUMBER</th>
+        <th>CUSTOMER</th>
+        <th>TOPIC</th>
+        <th>COMMUNICATION CONTENT</th>
+        <th>FMV PIC</th>
+        <th>ACTION</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
 </div>
 
 <script>
+(() => {
+  "use strict";
 
-const ROWS_PER_PAGE = 50;
+  const ROWS_PER_PAGE = 50;
+  const SEARCH_DEBOUNCE_MS = 200;
+  const NEW_KEYWORD = "new";
 
-let allData = [];
+  // Fields shown in each row, in column order.
+  const COLUMNS = ["DATE", "CC NUMBER", "Customer", "TOPIC", "Communication Content", "FMV PIC"];
 
-let filteredData = [];
+  // Maps each per-column search box to the precomputed lowercase key on a record.
+  const FIELD_MAP = {
+    cc: { field: "CC NUMBER", key: "__cc" },
+    topic: { field: "TOPIC", key: "__topic" },
+    content: { field: "Communication Content", key: "__content" }
+  };
 
-let currentPage = 1;
+  let allData = [];       // raw records, pre-tagged with lowercase search fields
+  let filteredData = [];  // current filtered view
+  let currentPage = 1;
 
-const tbody = document.getElementById("tbody");
+  const filters = {
+    cc: "",
+    topic: "",
+    content: "",
+    newOnly: false
+  };
 
-const search = document.getElementById("search");
+  const tbody = document.getElementById("tbody");
+  const pagination = document.getElementById("pagination");
+  const status = document.getElementById("status");
 
-const pagination = document.getElementById("pagination");
-fetch("data.json")
-.then(res => res.json())
-.then(data=>{
+  const ccInput = document.getElementById("search-cc");
+  const topicInput = document.getElementById("search-topic");
+  const contentInput = document.getElementById("search-content");
+  const newBtn = document.getElementById("filter-new");
+  const clearBtn = document.getElementById("clear-filters");
 
-    allData=data;
-    filteredData=[...data];
+  init();
 
+  async function init() {
+    try {
+      const res = await fetch("data.json");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      // Precompute lowercase values once, instead of on every keystroke.
+      allData = data.map(item => ({
+        ...item,
+        __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
+        __topic: String(item["TOPIC"] ?? "").toLowerCase(),
+        __content: String(item["Communication Content"] ?? "").toLowerCase()
+      }));
+
+      filteredData = allData;
+      status.remove();
+      renderTable();
+    } catch (err) {
+      console.error(err);
+      status.textContent = "Failed to load data.json.";
+    }
+  }
+
+  ccInput.addEventListener("input", debounce(() => {
+    filters.cc = ccInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  topicInput.addEventListener("input", debounce(() => {
+    filters.topic = topicInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  contentInput.addEventListener("input", debounce(() => {
+    filters.content = contentInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  newBtn.addEventListener("click", () => {
+    filters.newOnly = !filters.newOnly;
+    newBtn.classList.toggle("active", filters.newOnly);
+    newBtn.setAttribute("aria-pressed", String(filters.newOnly));
+    applyFilters();
+  });
+
+  clearBtn.addEventListener("click", () => {
+    filters.cc = "";
+    filters.topic = "";
+    filters.content = "";
+    filters.newOnly = false;
+
+    ccInput.value = "";
+    topicInput.value = "";
+    contentInput.value = "";
+    newBtn.classList.remove("active");
+    newBtn.setAttribute("aria-pressed", "false");
+
+    applyFilters();
+  });
+
+  function debounce(fn, delay) {
+    let timer = null;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), delay);
+    };
+  }
+
+  function applyFilters() {
+    filteredData = allData.filter(item =>
+      (filters.cc === "" || item[FIELD_MAP.cc.key].includes(filters.cc)) &&
+      (filters.topic === "" || item[FIELD_MAP.topic.key].includes(filters.topic)) &&
+      (filters.content === "" || item[FIELD_MAP.content.key].includes(filters.content)) &&
+      (!filters.newOnly || item[FIELD_MAP.cc.key].includes(NEW_KEYWORD))
+    );
+
+    currentPage = 1;
     renderTable();
+  }
 
-})
-.catch(err=>{
+  function renderTable() {
+    const start = (currentPage - 1) * ROWS_PER_PAGE;
+    const pageData = filteredData.slice(start, start + ROWS_PER_PAGE);
+    const fragment = document.createDocumentFragment();
 
-    console.error(err);
-
-    alert("Cannot load data.json");
-
-});
-
-
-function escapeHTML(text){
-
-    return String(text ?? "")
-    .replace(/&/g,"&amp;")
-    .replace(/</g,"&lt;")
-    .replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;")
-    .replace(/'/g,"&#039;");
-
-}
-
-
-search.addEventListener("input",()=>{
-
-    const keyword=search.value.trim().toLowerCase();
-
-    if(keyword===""){
-
-        filteredData=[...allData];
-
-    }else{
-
-        filteredData=allData.filter(item=>{
-
-            return(
-
-                String(item["CC NUMBER"]||"")
-                .toLowerCase()
-                .includes(keyword)
-
-                ||
-
-                String(item["TOPIC"]||"")
-                .toLowerCase()
-                .includes(keyword)
-
-                ||
-
-                String(item["Communication Content"]||"")
-                .toLowerCase()
-                .includes(keyword)
-
-            );
-
-        });
-
+    if (pageData.length === 0) {
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.colSpan = COLUMNS.length + 1;
+      td.textContent = "No matching records.";
+      tr.appendChild(td);
+      fragment.appendChild(tr);
+    } else {
+      for (const item of pageData) {
+        fragment.appendChild(buildRow(item));
+      }
     }
 
-    currentPage=1;
-
-    renderTable();
-
-});
-
-
-function renderTable(){
-
-    tbody.innerHTML="";
-
-    const start=(currentPage-1)*ROWS_PER_PAGE;
-
-    const end=start+ROWS_PER_PAGE;
-
-    const pageData=filteredData.slice(start,end);
-
-    const fragment=document.createDocumentFragment();
-
-    pageData.forEach(item=>{
-
-        const tr=document.createElement("tr");
-
-        tr.innerHTML=`
-
-<td>${escapeHTML(item["DATE"])}</td>
-
-<td>${escapeHTML(item["CC NUMBER"])}</td>
-
-<td>${escapeHTML(item["Customer"])}</td>
-
-<td>${escapeHTML(item["TOPIC"])}</td>
-
-<td>${escapeHTML(item["Communication Content"])}</td>
-
-<td>${escapeHTML(item["FMV PIC"])}</td>
-
-<td>
-
-<a
-class="action-btn"
-href="${item["GO TO WEB"]}"
-target="_blank">
-
-Open
-
-</a>
-
-</td>
-
-`;
-
-        fragment.appendChild(tr);
-
-    });
-
-    tbody.appendChild(fragment);
-
+    tbody.replaceChildren(fragment);
     renderPagination();
+  }
 
-}
-function renderPagination(){
+  function buildRow(item) {
+    const tr = document.createElement("tr");
 
-    pagination.innerHTML="";
-
-    const totalPages=Math.ceil(filteredData.length/ROWS_PER_PAGE);
-
-    if(totalPages<=1){
-
-        pagination.innerHTML=`<strong>Total : ${filteredData.length} records</strong>`;
-
-        return;
-
+    for (const field of COLUMNS) {
+      const td = document.createElement("td");
+      td.textContent = item[field] ?? "";
+      tr.appendChild(td);
     }
 
-    const prev=document.createElement("button");
+    const actionTd = document.createElement("td");
+    const link = document.createElement("a");
+    link.className = "action-btn";
+    link.href = item["GO TO WEB"] || "#";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Open";
+    actionTd.appendChild(link);
+    tr.appendChild(actionTd);
 
-    prev.textContent="Prev";
+    return tr;
+  }
 
-    prev.disabled=currentPage===1;
+  function renderPagination() {
+    const totalPages = Math.max(1, Math.ceil(filteredData.length / ROWS_PER_PAGE));
+    pagination.replaceChildren();
 
-    prev.onclick=()=>{
+    if (filteredData.length <= ROWS_PER_PAGE) {
+      const strong = document.createElement("strong");
+      strong.textContent = `Total: ${filteredData.length} records`;
+      pagination.appendChild(strong);
+      return;
+    }
 
-        currentPage--;
+    const prev = document.createElement("button");
+    prev.textContent = "Prev";
+    prev.disabled = currentPage === 1;
+    prev.onclick = () => { currentPage--; renderTable(); };
 
-        renderTable();
+    const info = document.createElement("strong");
+    info.textContent = `Page ${currentPage} / ${totalPages}  |  Total ${filteredData.length} records`;
 
-    };
+    const next = document.createElement("button");
+    next.textContent = "Next";
+    next.disabled = currentPage === totalPages;
+    next.onclick = () => { currentPage++; renderTable(); };
 
-    pagination.appendChild(prev);
-
-    const info=document.createElement("span");
-
-    info.innerHTML=`
-        <strong>
-        Page ${currentPage} / ${totalPages}
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        Total ${filteredData.length} records
-        </strong>
-    `;
-
-    pagination.appendChild(info);
-
-    const next=document.createElement("button");
-
-    next.textContent="Next";
-
-    next.disabled=currentPage===totalPages;
-
-    next.onclick=()=>{
-
-        currentPage++;
-
-        renderTable();
-
-    };
-
-    pagination.appendChild(next);
-
-}
-
+    pagination.append(prev, info, next);
+  }
+})();
 </script>
 
 </body>
-
 </html>
