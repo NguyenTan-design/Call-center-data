@@ -27,13 +27,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017hrkUYAQ"
     },
     {
-        "DATE": "2026-08-06T07:45:54+00:00",
-        "CC NUMBER": "NEW:CC-0080670",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
-        "Communication Content": "* Dear Call Center,\n\n- We have recently completed the installation of a new NXTR line and are currently performing the CPK run.\n\nHowever, we have encountered the following issues on Module 1R:\n\nThe mark camera cannot read the barcode on the nozzle station (Error Code: 93F8D716).\n\nThe mark camera cannot detect the pitch lane mark (Error Code: 96E5D713).\n\nThe following troubleshooting steps have been performed:\n\n+ Cleaned all mark points on the machine → Issue remained.\n\n+ Checked all mark points again to ensure none were obstructed → No abnormality found.\n\n+ Replace the nozzle station with another one → Issue remained.\n\n+ Restarted the machine → Issue remained.\n\n+ Replaced the head with another one → Issue remained.\n\n+ Observed the brightness of the mark LED while the machine was capturing the marks → The LED brightness was significantly weaker than that of the other modules.\n\n+ Swapped the board LED and the part camera lens with another module → The issue on the current module was resolved, but the same issue appeared on the module that received the swapped parts.\n\n- We have collected the relevant trace data and logs for analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We would appreciate your insights regarding the possible root cause, as well as any additional checks or corrective actions that should be taken.\n\nThank you for your support",
-        "FMV PIC": "Nguyen Thong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+        "DATE": "2026-08-06T09:25:11+00:00",
+        "CC NUMBER": "CC-0077628",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH28 head RETAINER lossen_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nAdditional information from designer team.\n\nThey evaluate countermeasure parts in their environment and the result is good so far.\n\nWe will make official countermeasure parts for the customer and arrange it.\n\nPlease kindly give a time for us until 19.August.\n\nThank you very much for your understanding.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011pJvZYAU"
     },
     {
         "DATE": "2026-08-06T07:03:05+00:00",
@@ -234,13 +234,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BD1lYAG"
     },
     {
-        "DATE": "2026-08-05T09:44:39+00:00",
-        "CC NUMBER": "NEW:CC-0080612",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nWe are currently encountering multiple NXTR application errors at Luxshare Precision (Yi'an). During the troubleshooting process, we have observed two different scenarios in which these application errors occur.\n\nI will describe the two cases below, which occurred on **Line 1** and **Line 2**, respectively.\n\nError Code 00EB0009 – NXTR Application Error (Purple Screen) occurred at Module 9-D7 when the panel entered the module.\n\nActions:\n\n* Case1 : Line 2, Module 1R, SN: 1269\n\n-  Rebooted the module → the error reoccurred when the panel entered the module.\n\n- Emergency Installation (V2.2Bn) → no improvement.\n\n- Replaced CPU cards from Line 1 and Line 6, restored Data Matrix, and performed Head Calibration → the module booted normally, but the Purple Screen still occurred during panel processing.\n\n- Performed cfRepair on the faulty CPU → completed successfully, but after reboot, Data Matrix Load Failed occurred.\n\n- Finally, the entire module was replaced with one from Line 6 to maintain production.\n\n* Case 2: Line 1, Module 1R, SN: 1188\n\n- Rebooted the module → the error reoccurred.\n\n- Emergency Installation (V2.2Bq and V2.2Bn) → no improvement; Purple Screen appeared immediately after boot.\n\n- Backed up data and performed cfRepair → completed successfully, and the module booted normally.\n\nPlease review the attached files and help analyze the root cause so that we can identify the underlying cause of this issue.",
-        "FMV PIC": "Ha Son",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU"
+        "DATE": "2026-08-06T09:30:41+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Nguyen Thong-san\n\nIt appears that the trace data was not attached.\n\nHas the issue been resolved at this time?\n\nCall center Amano",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
     },
     {
         "DATE": "2026-08-05T09:27:00+00:00",
@@ -270,13 +270,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xUhlaYAC"
     },
     {
-        "DATE": "2026-08-05T08:44:10+00:00",
-        "CC NUMBER": "NEW:CC-0080607",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
-        "Communication Content": "Dear Call Center,\n\n- We have recently completed the installation of a new NXTR production line and are currently performing APAM.\n\n- During the APAM process, three Module 1R units reported Error Code 3A16 with Subcodes 00000000 and 00000006.\n\n- The error occurs after the head has completed the nozzle check. When the head moves to the rear position to capture the Pitch Lane Mark, the machine immediately reports the error.\n\n- The following troubleshooting steps have been performed:\n\n+ Checked the head stopping position when the error occurred. The head always stopped at the same position.\n\n+ Powered the machine OFF and ON. The error remained.\n\n+ Removed the head and inspected the Q-axis. No abnormality was found. Reinstalled the head, but the error remained.\n\n+ Reconnected the flat cable. The error remained.\n\n+ Measured the input voltage supplied to the base. The measured voltage was 230 V, which is normal.\n\n+ Reconnected the Module Servo Box. The error remained.\n\n+ Inspected the linear guide and linear scale. No abnormalities were found.\n\n+ Replaced the head with another one. The error remained.\n\n+ Swapped the Module Servo Box. The error remained.\n\n+ Swapped the servo board on the Module CPU. The error remained.\n\n+ Swapped the BTK power supply of the base. The error remained.\n\n+ Installed the module on another base. The error was cleared.\n\n- However, after moving the faulty module back to a different base, the same error still occurs.\n\n- We have collected the Trace data captured at the time the error occurred and have attached it for your analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We look forward to your insights regarding potential root causes, as well as any additional checks or corrective measures that should be taken.\n\nThank you for your support.",
-        "FMV PIC": "Nguyen Thong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+        "DATE": "2026-08-06T09:35:13+00:00",
+        "CC NUMBER": "CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "Dear Nam Nguyen-san,\n\nIf we do not receive a response by August 15, we will assume that this issue has been resolved and will close this case.\n\nBest regards,\n\nHirabayashi",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
     },
     {
         "DATE": "2026-08-05T06:40:13+00:00",
@@ -324,13 +324,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019WOZNYA4"
     },
     {
-        "DATE": "2026-08-05T01:31:36+00:00",
-        "CC NUMBER": "NEW:CC-0080574",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
-        "Communication Content": "Dear Call center\n\nRegarding to pair module production issue that we submitted CC-0072091, and Call center provided NXTR 2.2Bn version\n\nMy question : What standard version will include the pair module production issue correction in 2.2Bn\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+        "DATE": "2026-08-06T09:54:37+00:00",
+        "CC NUMBER": "CC-0076980",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nSince the customer's production plan is not too much on this time\n\nWe plan to continue monitoring the machine for approximately two months to confirm that the issue does not reoccur.\n\nWe will keep you updated if there are any new findings during the monitoring period.\n\nThanks!\n\nBest regards,\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
     },
     {
         "DATE": "2026-08-04T22:05:06+00:00",
@@ -450,22 +450,22 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
     },
     {
-        "DATE": "2026-08-03T16:26:26+00:00",
-        "CC NUMBER": "NEW:CC-0080483",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nIssue:\n\nFor small components such as R0201, R0402, C0201, and C0402, when the Part Height/Thickness is set to > 2 mm (exceeding the allowable limit of Module 2RV), the error displayed in Optimize does not reflect the actual root cause.\n\nAction:\n\n1. Do Part Height Check = YES\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running Optimize, the system reports:\n\n“No nozzle to pick-up”.\n\n* However, when running Data Check, the system reports:\n\n“Part Size”.\n\n2. Do Part Height Check = NO\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running both Optimize and Data Check, the system reports:\n\n“Part Size”.\n\nWe want Center to support the analysis and clarification of the following points:\n\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\n\" The program is attached above for your reference and further analysis.\"\n\nThank you for your support,\n\nBest regards,\n\nFMV-NAM，",
-        "FMV PIC": "Nam Nguyen",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG"
+        "DATE": "2026-08-06T07:45:54+00:00",
+        "CC NUMBER": "NEW:CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
+        "Communication Content": "* Dear Call Center,\n\n- We have recently completed the installation of a new NXTR line and are currently performing the CPK run.\n\nHowever, we have encountered the following issues on Module 1R:\n\nThe mark camera cannot read the barcode on the nozzle station (Error Code: 93F8D716).\n\nThe mark camera cannot detect the pitch lane mark (Error Code: 96E5D713).\n\nThe following troubleshooting steps have been performed:\n\n+ Cleaned all mark points on the machine → Issue remained.\n\n+ Checked all mark points again to ensure none were obstructed → No abnormality found.\n\n+ Replace the nozzle station with another one → Issue remained.\n\n+ Restarted the machine → Issue remained.\n\n+ Replaced the head with another one → Issue remained.\n\n+ Observed the brightness of the mark LED while the machine was capturing the marks → The LED brightness was significantly weaker than that of the other modules.\n\n+ Swapped the board LED and the part camera lens with another module → The issue on the current module was resolved, but the same issue appeared on the module that received the swapped parts.\n\n- We have collected the relevant trace data and logs for analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We would appreciate your insights regarding the possible root cause, as well as any additional checks or corrective actions that should be taken.\n\nThank you for your support",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
     },
     {
-        "DATE": "2026-08-03T15:23:32+00:00",
-        "CC NUMBER": "NEW:CC-0080480",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
-        "Communication Content": "Dear Call Center,\n\nRecently, our customer has encountered an issue with the vacuum pump of the NXTR machine.\n\n- Symptom\n\nModule 1 Right on Line V1-02 repeatedly generated error codes 80001203 and 80001204. Initial inspection found that the vacuum pressure was insufficient, preventing the machine from operating normally.\n\n- Inspection and Troubleshooting Process\n\nThe vacuum pressure was checked first and confirmed to be below the required level. The head was then inspected, and all nozzles/covers were properly sealed, eliminating the possibility of vacuum leakage from the head.\n\nNext, the vacuum pump was activated through the I/O screen; however, the right-side vacuum pump did not operate. The machine was restarted, but the same errors remained.\n\nThe module was pulled out for further inspection, confirming that the right-side vacuum pump was not running. The pump filter was cleaned, but the issue persisted, ruling out a clogged filter as the cause.\n\nTo maintain production, the module was temporarily set to \"Skip Module\", allowing the production line to continue running.\n\nAfter production stopped, the inverter boards on the left and right sides were swapped for verification. The fault remained on the right side, indicating that the inverter board was not the root cause.\n\nThe left and right vacuum pumps were then swapped. At the same time, all pneumatic tubes were reconnected, and all fuses and connectors on the interface board were reinstalled. After completing these actions, the vacuum pump returned to normal operation.\n\nThe machine was then run in \"Idle\" mode for observation. It operated normally, and no further errors were detected.\n\n- Additional Verification\n\nOn the following day, the \"Do Part Height Check\" and \"Do Place Check\" functions were enabled in the production program, and the machine operated normally.\n\nA different program with these two functions disabled was then tested, and the same error reoccurred.\n\nFinally, \"Do Part Height Check\" and \"Do Place Check\" were enabled again for production. During subsequent monitoring, the machine operated stably, and no recurrence of the error was observed.\n\n- Could you please clarify:\n\nDo these functions change the vacuum control sequence or the timing of vacuum pressure monitoring?\n\nDo they introduce additional delays that allow the vacuum pressure to stabilize before the system performs the vacuum check?\n\nIs there any known relationship between these two functions and the vacuum pump control logic or the generation of error codes 80001203 and 80001204?\n\n- We would appreciate your explanation of the underlying control logic and any recommendations for further troubleshooting.\n\nDetail error:\n\n- Module type: 2RV\n\n- Module SN: 1-L 0000731\n\n- Base SN: 0202163\n\n- Version: (V2.2Bm)\n\n- The trace was collected from 5:15 pm to 5:30pm Aug 3,2026",
-        "FMV PIC": "Au Trung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+        "DATE": "2026-08-05T09:44:39+00:00",
+        "CC NUMBER": "NEW:CC-0080612",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently encountering multiple NXTR application errors at Luxshare Precision (Yi'an). During the troubleshooting process, we have observed two different scenarios in which these application errors occur.\n\nI will describe the two cases below, which occurred on **Line 1** and **Line 2**, respectively.\n\nError Code 00EB0009 – NXTR Application Error (Purple Screen) occurred at Module 9-D7 when the panel entered the module.\n\nActions:\n\n* Case1 : Line 2, Module 1R, SN: 1269\n\n-  Rebooted the module → the error reoccurred when the panel entered the module.\n\n- Emergency Installation (V2.2Bn) → no improvement.\n\n- Replaced CPU cards from Line 1 and Line 6, restored Data Matrix, and performed Head Calibration → the module booted normally, but the Purple Screen still occurred during panel processing.\n\n- Performed cfRepair on the faulty CPU → completed successfully, but after reboot, Data Matrix Load Failed occurred.\n\n- Finally, the entire module was replaced with one from Line 6 to maintain production.\n\n* Case 2: Line 1, Module 1R, SN: 1188\n\n- Rebooted the module → the error reoccurred.\n\n- Emergency Installation (V2.2Bq and V2.2Bn) → no improvement; Purple Screen appeared immediately after boot.\n\n- Backed up data and performed cfRepair → completed successfully, and the module booted normally.\n\nPlease review the attached files and help analyze the root cause so that we can identify the underlying cause of this issue.",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU"
     },
     {
         "DATE": "2026-08-03T10:07:50+00:00",
@@ -639,13 +639,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
     },
     {
-        "DATE": "2026-08-03T02:02:33+00:00",
-        "CC NUMBER": "NEW:CC-0080429",
+        "DATE": "2026-08-05T08:44:10+00:00",
+        "CC NUMBER": "NEW:CC-0080607",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_[NXTR]",
-        "Communication Content": "Dear Call center\n\nCustomer inform that  the adhesive used to bond the rails on tray drawers peels off occurred with tray RM. The number of abnormal tray drawer is large.\n\nWe found that Fuji released Rep News 26006 for same issue, customer will claim warranty for tray drawer. please advice\n\nI attached picture of customer complain about the tray drawer issue, please check.\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG"
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
+        "Communication Content": "Dear Call Center,\n\n- We have recently completed the installation of a new NXTR production line and are currently performing APAM.\n\n- During the APAM process, three Module 1R units reported Error Code 3A16 with Subcodes 00000000 and 00000006.\n\n- The error occurs after the head has completed the nozzle check. When the head moves to the rear position to capture the Pitch Lane Mark, the machine immediately reports the error.\n\n- The following troubleshooting steps have been performed:\n\n+ Checked the head stopping position when the error occurred. The head always stopped at the same position.\n\n+ Powered the machine OFF and ON. The error remained.\n\n+ Removed the head and inspected the Q-axis. No abnormality was found. Reinstalled the head, but the error remained.\n\n+ Reconnected the flat cable. The error remained.\n\n+ Measured the input voltage supplied to the base. The measured voltage was 230 V, which is normal.\n\n+ Reconnected the Module Servo Box. The error remained.\n\n+ Inspected the linear guide and linear scale. No abnormalities were found.\n\n+ Replaced the head with another one. The error remained.\n\n+ Swapped the Module Servo Box. The error remained.\n\n+ Swapped the servo board on the Module CPU. The error remained.\n\n+ Swapped the BTK power supply of the base. The error remained.\n\n+ Installed the module on another base. The error was cleared.\n\n- However, after moving the faulty module back to a different base, the same error still occurs.\n\n- We have collected the Trace data captured at the time the error occurred and have attached it for your analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We look forward to your insights regarding potential root causes, as well as any additional checks or corrective measures that should be taken.\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
     },
     {
         "DATE": "2026-08-03T00:14:15+00:00",
@@ -1350,13 +1350,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
     },
     {
-        "DATE": "2026-07-28T08:55:49+00:00",
-        "CC NUMBER": "NEW:CC-0080164",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
-        "Communication Content": "Dear Call Center,\n\nWe are currently encountering an issue at our customer, **Luxshare Technology Nghe An**.\n\nWhen the **Pick - Offset Z** value in **Shape Data** is adjusted from -00.2mm  to 6 mm for a component, both **Optimize** and **Data Check** complete without reporting any errors. However, after continue operation , the machine occour error code **8EC10000**.\n\nAccording to document **CNT-NXTRA-04E**, for the **NXTR 2RV** machine equipped with an **RH28** head, the maximum allowable component thickness is **2 mm**.\n\nIs there any way to have the software validate this parameter and issue a warning when the configured **Pick - Offset Z** exceeds the allowable specification for the component, before the program is transferred to the production line?\n\nThank you and Best regards,",
-        "FMV PIC": "Au Trung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE"
+        "DATE": "2026-08-05T01:31:36+00:00",
+        "CC NUMBER": "NEW:CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Call center\n\nRegarding to pair module production issue that we submitted CC-0072091, and Call center provided NXTR 2.2Bn version\n\nMy question : What standard version will include the pair module production issue correction in 2.2Bn\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
     },
     {
         "DATE": "2026-07-28T07:34:55+00:00",
@@ -1638,13 +1638,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000185jyhYAA"
     },
     {
-        "DATE": "2026-07-24T09:17:31+00:00",
-        "CC NUMBER": "NEW:CC-0079996",
+        "DATE": "2026-08-03T16:26:26+00:00",
+        "CC NUMBER": "NEW:CC-0080483",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nCurrently, our customer is using the component verification function for Tray-M.\n\nObserved behavior:\n\n-When the operator presses Cycle Stop and then resumes production, the components used in Tray-M do not require re-verification.\n\n-However, when the job is updated through LCU Web, all components used in Tray-M are required to be re-verified before production can continue.\n\nWe have collected trace data from the machine, please analysis and help us to fix this issue.\n\nDetail error:\n\n- Module type: 1R\n\n- Module S/N: NXTR-1R(S)0001187\n\n- Version: 2.2Bq\n\n- The trace was collected at 3:15 Pm on July 24, 2026\n\nThank you.",
-        "FMV PIC": "Hoang Kha",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nIssue:\n\nFor small components such as R0201, R0402, C0201, and C0402, when the Part Height/Thickness is set to > 2 mm (exceeding the allowable limit of Module 2RV), the error displayed in Optimize does not reflect the actual root cause.\n\nAction:\n\n1. Do Part Height Check = YES\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running Optimize, the system reports:\n\n“No nozzle to pick-up”.\n\n* However, when running Data Check, the system reports:\n\n“Part Size”.\n\n2. Do Part Height Check = NO\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running both Optimize and Data Check, the system reports:\n\n“Part Size”.\n\nWe want Center to support the analysis and clarification of the following points:\n\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\n\" The program is attached above for your reference and further analysis.\"\n\nThank you for your support,\n\nBest regards,\n\nFMV-NAM，",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG"
     },
     {
         "DATE": "2026-07-24T08:26:13+00:00",
@@ -2277,13 +2277,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017e3QrYAI"
     },
     {
-        "DATE": "2026-07-22T01:23:18+00:00",
-        "CC NUMBER": "NEW:CC-0079816",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nThe customer is using the Mark camera to read the panel ID, Panel ID reading sometimes failed due to the panel material.\n\nThe issue was resolved after specifying \"Sidelight2\" for [Lighting Pattern for Panel ID]. However, on Module 1R, no image is displayed on the monitor when \"Sidelight2\" is selected as the [Lighting Pattern for Panel ID] for panel ID reading.\n\nI have collected trace data from the machine, please find the data link below for your analysis and help us to fix this issue.\n\nDetail error:\n\n- Module type: 1R\n\n- Module S/N: NXTR-1R(S)0001187\n\n- Version: 2.2Bn\n\n- The trace was collected at 4:12 Pm on July 20, 2026\n\nThank you.\n\nFMV-DUC",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+        "DATE": "2026-08-03T15:23:32+00:00",
+        "CC NUMBER": "NEW:CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
+        "Communication Content": "Dear Call Center,\n\nRecently, our customer has encountered an issue with the vacuum pump of the NXTR machine.\n\n- Symptom\n\nModule 1 Right on Line V1-02 repeatedly generated error codes 80001203 and 80001204. Initial inspection found that the vacuum pressure was insufficient, preventing the machine from operating normally.\n\n- Inspection and Troubleshooting Process\n\nThe vacuum pressure was checked first and confirmed to be below the required level. The head was then inspected, and all nozzles/covers were properly sealed, eliminating the possibility of vacuum leakage from the head.\n\nNext, the vacuum pump was activated through the I/O screen; however, the right-side vacuum pump did not operate. The machine was restarted, but the same errors remained.\n\nThe module was pulled out for further inspection, confirming that the right-side vacuum pump was not running. The pump filter was cleaned, but the issue persisted, ruling out a clogged filter as the cause.\n\nTo maintain production, the module was temporarily set to \"Skip Module\", allowing the production line to continue running.\n\nAfter production stopped, the inverter boards on the left and right sides were swapped for verification. The fault remained on the right side, indicating that the inverter board was not the root cause.\n\nThe left and right vacuum pumps were then swapped. At the same time, all pneumatic tubes were reconnected, and all fuses and connectors on the interface board were reinstalled. After completing these actions, the vacuum pump returned to normal operation.\n\nThe machine was then run in \"Idle\" mode for observation. It operated normally, and no further errors were detected.\n\n- Additional Verification\n\nOn the following day, the \"Do Part Height Check\" and \"Do Place Check\" functions were enabled in the production program, and the machine operated normally.\n\nA different program with these two functions disabled was then tested, and the same error reoccurred.\n\nFinally, \"Do Part Height Check\" and \"Do Place Check\" were enabled again for production. During subsequent monitoring, the machine operated stably, and no recurrence of the error was observed.\n\n- Could you please clarify:\n\nDo these functions change the vacuum control sequence or the timing of vacuum pressure monitoring?\n\nDo they introduce additional delays that allow the vacuum pressure to stabilize before the system performs the vacuum check?\n\nIs there any known relationship between these two functions and the vacuum pump control logic or the generation of error codes 80001203 and 80001204?\n\n- We would appreciate your explanation of the underlying control logic and any recommendations for further troubleshooting.\n\nDetail error:\n\n- Module type: 2RV\n\n- Module SN: 1-L 0000731\n\n- Base SN: 0202163\n\n- Version: (V2.2Bm)\n\n- The trace was collected from 5:15 pm to 5:30pm Aug 3,2026",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
     },
     {
         "DATE": "2026-07-21T17:33:11+00:00",
@@ -3465,13 +3465,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BZWxYAO"
     },
     {
-        "DATE": "2026-07-09T14:57:52+00:00",
-        "CC NUMBER": "NEW:CC-0079174",
+        "DATE": "2026-08-03T02:02:33+00:00",
+        "CC NUMBER": "NEW:CC-0080429",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_LINE NXTR (VS1-03) Module 1L - Feeder Information Not Detected When Replacing Component_[NXTR-S]",
-        "Communication Content": "Machine:\n\nNXTR\n\nLine:\n\nVS1-03\n\nModule:\n\n1L\n\nPhenomenon:\n\nWhen replacing a component during production, Module 1L does not recognize the feeder information.\n\nAs a result, the replacement component cannot be registered and production cannot continue.\n\nTroubleshooting performed:\n\n1. Replaced with a new component reel.\n\n→ Same issue.\n\n2. Replaced with another feeder.\n\n→ Same issue.\n\n3. Replaced the MFU.\n\n→ Same issue.\n\n4. Updated the module software version from Ver.2.2Bc to Ver.2.2Bq.\n\n→ Same issue.\n\n5. After the issue occurs, retransferring the production program to the module via the LCU Web allows production to resume normally.\n\nHowever, the same issue occurs again when the next component reel is replaced.\n\nThe problem always occurs on Module 1L regardless of the feeder, component reel, or MFU used.\n\nFor your investigation, we have attached the following files:\n\n- Machine trace data\n\n- Current production program\n\n- Video showing the issue\n\nCould you please advise what should be checked next?\n\nIs there any known issue related to this symptom or any recommended diagnostic procedure?\n\nThank you.",
-        "FMV PIC": "Pham Thoi",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015v5zYYAQ"
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_[NXTR]",
+        "Communication Content": "Dear Call center\n\nCustomer inform that  the adhesive used to bond the rails on tray drawers peels off occurred with tray RM. The number of abnormal tray drawer is large.\n\nWe found that Fuji released Rep News 26006 for same issue, customer will claim warranty for tray drawer. please advice\n\nI attached picture of customer complain about the tray drawer issue, please check.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG"
     },
     {
         "DATE": "2026-07-09T10:25:33+00:00",
@@ -4284,13 +4284,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000013SdQwYAK"
     },
     {
-        "DATE": "2026-07-04T07:15:39+00:00",
-        "CC NUMBER": "NEW:CC-0078811",
+        "DATE": "2026-07-28T08:55:49+00:00",
+        "CC NUMBER": "NEW:CC-0080164",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nOur customer want to use the cover for waste tape box to hidden the waste tape inside. As my understanding, this is new part and can not find in part list document\n\n1. Can you confirm the below part is correct and can use for any NXTR module?\n\nWaste tape box cover\n\nP/N: 2AHEPG0088**\n\n2. Customer feedback : Could Fuji modify the edge of the waste tape cover shown above to make it less sharp? Additionally, could the front, left, and right edges of the cover be bent downward? According to the customer's feedback, the current design has sharp edges that the is possibility that it can injure workers during operation.\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI"
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently encountering an issue at our customer, **Luxshare Technology Nghe An**.\n\nWhen the **Pick - Offset Z** value in **Shape Data** is adjusted from -00.2mm  to 6 mm for a component, both **Optimize** and **Data Check** complete without reporting any errors. However, after continue operation , the machine occour error code **8EC10000**.\n\nAccording to document **CNT-NXTRA-04E**, for the **NXTR 2RV** machine equipped with an **RH28** head, the maximum allowable component thickness is **2 mm**.\n\nIs there any way to have the software validate this parameter and issue a warning when the configured **Pick - Offset Z** exceeds the allowable specification for the component, before the program is transferred to the production line?\n\nThank you and Best regards,",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE"
     },
     {
         "DATE": "2026-07-04T03:12:06+00:00",
@@ -4482,13 +4482,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014iCCQYA2"
     },
     {
-        "DATE": "2026-07-03T05:40:04+00:00",
-        "CC NUMBER": "NEW:CC-0078771",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
-        "Communication Content": "Machine: NXTR-S\n\nThe machine is running in dual-lane production.\n\nLane 1 has component placement.\n\nLane 2 has no placement points and only transfers the PCB after solder paste printing.\n\nWhen the PCB on Lane 2 reaches the last module, it stops and does not transfer to the downstream conveyor. Instead, it waits until the PCB on Lane 1 completes component placement. Both PCBs are then discharged from the machine simultaneously.\n\nWe expected the PCB on Lane 2 to be transferred to the downstream conveyor immediately because there are no placement operations on Lane 2.\n\nQuestions:\n\nIs this the standard machine specification?\n\nIf not, is there any machine parameter or setting that allows Lane 2 to unload independently without waiting for Lane 1?\n\nIf this behavior can be changed, please advise the required setting or software version.",
-        "FMV PIC": "Pham Thoi",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ"
+        "DATE": "2026-07-24T09:17:31+00:00",
+        "CC NUMBER": "NEW:CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, our customer is using the component verification function for Tray-M.\n\nObserved behavior:\n\n-When the operator presses Cycle Stop and then resumes production, the components used in Tray-M do not require re-verification.\n\n-However, when the job is updated through LCU Web, all components used in Tray-M are required to be re-verified before production can continue.\n\nWe have collected trace data from the machine, please analysis and help us to fix this issue.\n\nDetail error:\n\n- Module type: 1R\n\n- Module S/N: NXTR-1R(S)0001187\n\n- Version: 2.2Bq\n\n- The trace was collected at 3:15 Pm on July 24, 2026\n\nThank you.",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
     },
     {
         "DATE": "2026-07-03T05:15:55+00:00",
@@ -4572,13 +4572,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011pJvZYAU"
     },
     {
-        "DATE": "2026-07-02T13:26:40+00:00",
-        "CC NUMBER": "NEW:CC-0078722",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Panel ID Changed to NOREAD_Q0 / NOREAD_QE in Traceability data file_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nWe are currently experiencing the following issue at the LUXVISION NGHE AN factory.\n\n-When a PCB enters Module 1, the Panel ID is read correctly, and the production line operates normally. However, when the traceability file is created, most of the Panel IDs are changed to NOREAD_Q0... and NOREAD_QE...\n\n-The issue occurs on both existing NXTR lines.\n\nThe following actions have already been performed:\n\n- Restarted the NXTR machine, LCU PC, Line Server PC, System Server PC, and Database Server PC. The issue still persists.\n\n- Deleted the production job, turned off Verifier and Profiler, switched the line to Virtual Line and then back to Real Line, turned on Verifier and Profiler. The issue still persists.\n\n-We have updated the trace data. Please check the attached trace data and assist us in investigating and resolving this issue.\n\nThank you for your support.\n\nBest regards,\n\nViet",
-        "FMV PIC": "Tran Viet",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014oZEJYA2"
+        "DATE": "2026-07-22T01:23:18+00:00",
+        "CC NUMBER": "NEW:CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThe customer is using the Mark camera to read the panel ID, Panel ID reading sometimes failed due to the panel material.\n\nThe issue was resolved after specifying \"Sidelight2\" for [Lighting Pattern for Panel ID]. However, on Module 1R, no image is displayed on the monitor when \"Sidelight2\" is selected as the [Lighting Pattern for Panel ID] for panel ID reading.\n\nI have collected trace data from the machine, please find the data link below for your analysis and help us to fix this issue.\n\nDetail error:\n\n- Module type: 1R\n\n- Module S/N: NXTR-1R(S)0001187\n\n- Version: 2.2Bn\n\n- The trace was collected at 4:12 Pm on July 20, 2026\n\nThank you.\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
     },
     {
         "DATE": "2026-07-02T11:32:08+00:00",
@@ -6849,13 +6849,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012GAszYAG"
     },
     {
-        "DATE": "2026-06-17T02:51:33+00:00",
-        "CC NUMBER": "NEW:CC-0077799",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[NXT]",
-        "Communication Content": "Dear Call Center,\n\nWhen the customer accesses Nexim Progress, Monitor, Analyze → Report to gather part usage; no data is displayed or the displayed data is incomplete on all SMT lines.\n\nWe have collected trace data from the Line Server PCs and the System Server PC, please find the data link below for your analysis and help us to fix this issue.\n\nhttps://fujimachineasia-my.sharepoint.com/shared?id=%2Fpersonal%2Ftan%5Ffuji%2Dsmt%5Fcom%5Fsg%2FDocuments%2FLUXSHARE%20NGHE%20AN%2FISSUE%20TRACKER%2FLuxshare%20Nghe%20An%20Merry%20BU4%20Issue%20tracker%2FIssure%20tracker%20data%2FThere%20is%20no%20data%20in%20the%20Report%20function%20in%20Nexim&listurl=%2Fpersonal%2Ftan%5Ffuji%2Dsmt%5Fcom%5Fsg%2FDocuments&viewid=23c1e583%2D95d6%2D4930%2D9b52%2Df014a6912bc7\n\nThank you!\n\nFMV-DUC",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+        "DATE": "2026-07-09T14:57:52+00:00",
+        "CC NUMBER": "NEW:CC-0079174",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_LINE NXTR (VS1-03) Module 1L - Feeder Information Not Detected When Replacing Component_[NXTR-S]",
+        "Communication Content": "Machine:\n\nNXTR\n\nLine:\n\nVS1-03\n\nModule:\n\n1L\n\nPhenomenon:\n\nWhen replacing a component during production, Module 1L does not recognize the feeder information.\n\nAs a result, the replacement component cannot be registered and production cannot continue.\n\nTroubleshooting performed:\n\n1. Replaced with a new component reel.\n\n→ Same issue.\n\n2. Replaced with another feeder.\n\n→ Same issue.\n\n3. Replaced the MFU.\n\n→ Same issue.\n\n4. Updated the module software version from Ver.2.2Bc to Ver.2.2Bq.\n\n→ Same issue.\n\n5. After the issue occurs, retransferring the production program to the module via the LCU Web allows production to resume normally.\n\nHowever, the same issue occurs again when the next component reel is replaced.\n\nThe problem always occurs on Module 1L regardless of the feeder, component reel, or MFU used.\n\nFor your investigation, we have attached the following files:\n\n- Machine trace data\n\n- Current production program\n\n- Video showing the issue\n\nCould you please advise what should be checked next?\n\nIs there any known issue related to this symptom or any recommended diagnostic procedure?\n\nThank you.",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015v5zYYAQ"
     },
     {
         "DATE": "2026-06-17T02:44:51+00:00",
@@ -7191,13 +7191,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
     },
     {
-        "DATE": "2026-06-15T03:07:36+00:00",
-        "CC NUMBER": "NEW:CC-0077651",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The Head encountered an error during production._[NXTR-S]",
-        "Communication Content": "During operation, Module 2RV generated error 88D41930 on the Head RH28. After an on-site inspection, it was found that the detect sensor on the Head was broken and deformed. In addition, one feeder being used on the same module was also found to be damaged.\n\nThe factory reviewed the camera footage from the period before the error occurred; however, no operator actions or abnormal impact on the equipment were observed.\n\nAt present, the direct cause of the Head damage has not yet been identified. To support the root cause investigation, I have attached the Trace file and related data. We kindly request your support in analyzing the information to determine the failure mechanism and identify the root cause of the equipment damage",
-        "FMV PIC": "Nam Nguyen",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011tm7wYAA"
+        "DATE": "2026-07-04T07:15:39+00:00",
+        "CC NUMBER": "NEW:CC-0078811",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nOur customer want to use the cover for waste tape box to hidden the waste tape inside. As my understanding, this is new part and can not find in part list document\n\n1. Can you confirm the below part is correct and can use for any NXTR module?\n\nWaste tape box cover\n\nP/N: 2AHEPG0088**\n\n2. Customer feedback : Could Fuji modify the edge of the waste tape cover shown above to make it less sharp? Additionally, could the front, left, and right edges of the cover be bent downward? According to the customer's feedback, the current design has sharp edges that the is possibility that it can injure workers during operation.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI"
     },
     {
         "DATE": "2026-06-15T03:00:24+00:00",
@@ -7686,13 +7686,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010lSQBYA2"
     },
     {
-        "DATE": "2026-06-11T01:26:59+00:00",
-        "CC NUMBER": "NEW:CC-0077486",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about splicing event in Nexim_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nPlease advise on the following inquiry.\n\nBackground:\n\nThe customer use a 3rd-party splicing machine and would like to connect it to the NEXIM system. They requested our support regarding the following questions:\n\n1. When the customer performs a splicing operation using 3rd-party equipment, what actions need to be performed in NEXIM?\n\nI checked the manual and found that when a splicing operation is performed, the T_LOC, OperatorTrace, T_RSV, and T_DID tables are updated.\n\nCould you please confirm this and provide details on:\n\nWhich tables need to be updated?\n\nWhich fields within those tables need to be updated?\n\n2. What communication protocol should be used?\n\nMy understanding is that TCP/IP communication is used. Could you please confirm whether this is correct?\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011M1UfYAK"
+        "DATE": "2026-07-03T05:40:04+00:00",
+        "CC NUMBER": "NEW:CC-0078771",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
+        "Communication Content": "Machine: NXTR-S\n\nThe machine is running in dual-lane production.\n\nLane 1 has component placement.\n\nLane 2 has no placement points and only transfers the PCB after solder paste printing.\n\nWhen the PCB on Lane 2 reaches the last module, it stops and does not transfer to the downstream conveyor. Instead, it waits until the PCB on Lane 1 completes component placement. Both PCBs are then discharged from the machine simultaneously.\n\nWe expected the PCB on Lane 2 to be transferred to the downstream conveyor immediately because there are no placement operations on Lane 2.\n\nQuestions:\n\nIs this the standard machine specification?\n\nIf not, is there any machine parameter or setting that allows Lane 2 to unload independently without waiting for Lane 1?\n\nIf this behavior can be changed, please advise the required setting or software version.",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ"
     },
     {
         "DATE": "2026-06-11T01:05:59+00:00",
@@ -7812,13 +7812,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
     },
     {
-        "DATE": "2026-06-10T08:11:59+00:00",
-        "CC NUMBER": "NEW:CC-0077445",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_MFU had no power when connected to the OCPU._[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nWhen we supported the customer with the installation of the Offline Change Over Unit (S/N 328), an issue occurred: the MFU had no power when connected to the OCPU.\n\nWe have found that the 220VAC-to-36VDC power converter is not providing any output voltage. Currently, we do not have a spare part available for replacement.\n\nCould you please advise us on how to troubleshoot and resolve this issue?\n\nThank you!\n\nFMV- KHA",
-        "FMV PIC": "Hoang Kha",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011F5rBYAS"
+        "DATE": "2026-07-02T13:26:40+00:00",
+        "CC NUMBER": "NEW:CC-0078722",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Panel ID Changed to NOREAD_Q0 / NOREAD_QE in Traceability data file_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently experiencing the following issue at the LUXVISION NGHE AN factory.\n\n-When a PCB enters Module 1, the Panel ID is read correctly, and the production line operates normally. However, when the traceability file is created, most of the Panel IDs are changed to NOREAD_Q0... and NOREAD_QE...\n\n-The issue occurs on both existing NXTR lines.\n\nThe following actions have already been performed:\n\n- Restarted the NXTR machine, LCU PC, Line Server PC, System Server PC, and Database Server PC. The issue still persists.\n\n- Deleted the production job, turned off Verifier and Profiler, switched the line to Virtual Line and then back to Real Line, turned on Verifier and Profiler. The issue still persists.\n\n-We have updated the trace data. Please check the attached trace data and assist us in investigating and resolving this issue.\n\nThank you for your support.\n\nBest regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014oZEJYA2"
     },
     {
         "DATE": "2026-06-10T07:44:00+00:00",
@@ -8613,13 +8613,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
     },
     {
-        "DATE": "2026-06-04T10:00:12+00:00",
-        "CC NUMBER": "NEW:CC-0077152",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 8F5A occurred while the module was operating normally_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nWe encountered an issue with the 2RV module. Error 8F5A occurred while the module was operating normally.\n\n8F5A error comes only when PCB is in the module, the issue was resolved after re-optimize the program and transmit it to the module. The customer is requesting an explanation of the root cause of Error 8F5A.\n\nPlease analyze the trace data to identify the root cause so that we can provide an explanation to the customer.\n\nThank you.",
+        "DATE": "2026-06-17T02:51:33+00:00",
+        "CC NUMBER": "NEW:CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[NXT]",
+        "Communication Content": "Dear Call Center,\n\nWhen the customer accesses Nexim Progress, Monitor, Analyze → Report to gather part usage; no data is displayed or the displayed data is incomplete on all SMT lines.\n\nWe have collected trace data from the Line Server PCs and the System Server PC, please find the data link below for your analysis and help us to fix this issue.\n\nhttps://fujimachineasia-my.sharepoint.com/shared?id=%2Fpersonal%2Ftan%5Ffuji%2Dsmt%5Fcom%5Fsg%2FDocuments%2FLUXSHARE%20NGHE%20AN%2FISSUE%20TRACKER%2FLuxshare%20Nghe%20An%20Merry%20BU4%20Issue%20tracker%2FIssure%20tracker%20data%2FThere%20is%20no%20data%20in%20the%20Report%20function%20in%20Nexim&listurl=%2Fpersonal%2Ftan%5Ffuji%2Dsmt%5Fcom%5Fsg%2FDocuments&viewid=23c1e583%2D95d6%2D4930%2D9b52%2Df014a6912bc7\n\nThank you!\n\nFMV-DUC",
         "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010HdENYA0"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
     },
     {
         "DATE": "2026-06-04T09:39:50+00:00",
@@ -8892,31 +8892,31 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ylZz5YAE"
     },
     {
-        "DATE": "2026-06-03T00:40:24+00:00",
-        "CC NUMBER": "NEW:CC-0077012",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Machine AIMEXIII displayed Error 8000202F on Side 2 during operation_[AIMEXIII]",
-        "Communication Content": "Dear Call Center,\n\nWe are currently encountering an issue while operating the AIMEX III machine. Detail in below:\n\n- Module 3 on Side 2 of the AIMEX line displayed Error 8000202F with Sub Code 05000081 during operation.\n\n- When the error occurs, pressing the Ready ON button to clear the error causes the machine to freeze, and a restart is required.\n\n- The machine operates normally when the Verify and Profiler functions are turned off.\n\nWe have collected the trace data at the time the error occurred. Please help us analyze it and identify the root cause so that the issue can be resolved.\n\nThank you!",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zv45RYAQ"
+        "DATE": "2026-06-15T03:07:36+00:00",
+        "CC NUMBER": "NEW:CC-0077651",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The Head encountered an error during production._[NXTR-S]",
+        "Communication Content": "During operation, Module 2RV generated error 88D41930 on the Head RH28. After an on-site inspection, it was found that the detect sensor on the Head was broken and deformed. In addition, one feeder being used on the same module was also found to be damaged.\n\nThe factory reviewed the camera footage from the period before the error occurred; however, no operator actions or abnormal impact on the equipment were observed.\n\nAt present, the direct cause of the Head damage has not yet been identified. To support the root cause investigation, I have attached the Trace file and related data. We kindly request your support in analyzing the information to determine the failure mechanism and identify the root cause of the equipment damage",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011tm7wYAA"
     },
     {
-        "DATE": "2026-06-02T23:59:01+00:00",
-        "CC NUMBER": "NEW:CC-0077010",
+        "DATE": "2026-06-11T01:26:59+00:00",
+        "CC NUMBER": "NEW:CC-0077486",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\n* The customer requested us to use the TVR function on RH02 for picking components from RM trays. The purpose is to identify the component orientation and prevent incorrect placement when the supplied orientation is wrong.\n\n- We have enabled the TVR function in the Shape Data settings and configured it according to the instructions in the FNC-NXTR manual, section 5.7.\n\n- However, the marking image on the component surface is too dark, and the Mark Camera cannot reliably detect the reference mark on the component surface.\n\n* Actions taken:\n\nTVR enabled in Shape Data\n\nConfigured according to FNC-NXTR Section 5.7\n\nAdjusted shutter speed and lighting conditions\n\nWe have already tried adjusting various parameters, including:\n\n    Shutter speed\n\n   Lighting mode\n\n   Illumination settings\n\n- the recognition performance has not improved.\n\n- We have collected the program backup data and component images for analysis.\n\n-Could you please help us analyze the attached data and advise on possible improvements to increase the TVR recognition performance?\n\nThank you for your support.",
-        "FMV PIC": "Nam Nguyen",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zurhdYAA"
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about splicing event in Nexim_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nPlease advise on the following inquiry.\n\nBackground:\n\nThe customer use a 3rd-party splicing machine and would like to connect it to the NEXIM system. They requested our support regarding the following questions:\n\n1. When the customer performs a splicing operation using 3rd-party equipment, what actions need to be performed in NEXIM?\n\nI checked the manual and found that when a splicing operation is performed, the T_LOC, OperatorTrace, T_RSV, and T_DID tables are updated.\n\nCould you please confirm this and provide details on:\n\nWhich tables need to be updated?\n\nWhich fields within those tables need to be updated?\n\n2. What communication protocol should be used?\n\nMy understanding is that TCP/IP communication is used. Could you please confirm whether this is correct?\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011M1UfYAK"
     },
     {
-        "DATE": "2026-06-02T23:58:10+00:00",
-        "CC NUMBER": "NEW:CC-0077009",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\n* The customer requested us to use the TVR function on RH02 for picking components from RM trays. The purpose is to identify the component orientation and prevent incorrect placement when the supplied orientation is wrong.\n\n- We have enabled the TVR function in the Shape Data settings and configured it according to the instructions in the FNC-NXTR manual, section 5.7.\n\n- However, the marking image on the component surface is too dark, and the Mark Camera cannot reliably detect the reference mark on the component surface.\n\n* Actions taken:\n\nTVR enabled in Shape Data\n\nConfigured according to FNC-NXTR Section 5.7\n\nAdjusted shutter speed and lighting conditions\n\nWe have already tried adjusting various parameters, including:\n\n    Shutter speed\n\n   Lighting mode\n\n   Illumination settings\n\n- the recognition performance has not improved.\n\n- We have collected the program backup data and component images for analysis.\n\n-Could you please help us analyze the attached data and advise on possible improvements to increase the TVR recognition performance?\n\nThank you for your support.",
-        "FMV PIC": "Nam Nguyen",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
+        "DATE": "2026-06-10T08:11:59+00:00",
+        "CC NUMBER": "NEW:CC-0077445",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_MFU had no power when connected to the OCPU._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWhen we supported the customer with the installation of the Offline Change Over Unit (S/N 328), an issue occurred: the MFU had no power when connected to the OCPU.\n\nWe have found that the 220VAC-to-36VDC power converter is not providing any output voltage. Currently, we do not have a spare part available for replacement.\n\nCould you please advise us on how to troubleshoot and resolve this issue?\n\nThank you!\n\nFMV- KHA",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011F5rBYAS"
     },
     {
         "DATE": "2026-06-02T23:28:01+00:00",
@@ -9171,13 +9171,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000UJHDdYAP"
     },
     {
-        "DATE": "2026-06-01T12:17:26+00:00",
-        "CC NUMBER": "NEW:CC-0076908",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The system was installed with Win11_24H2_Chinese_Simplified_x64.  After completing the Data Check, the report could not be opened._[Nexim]",
-        "Communication Content": "Installed the system using Win11_24H2_Chinese_Simplified_x64. After running Data Check, the report could not be opened.\n\nReinstalled the system with the same OS version, but the issue persisted.\n\nRemoved and reinstalled Data Check; however, the report still could not be opened.\n\nWe have collected the relevant tracking data, including screenshots and video recordings, for your reference.\n\nWe would greatly appreciate your support in analyzing this issue and identifying the root cause.\n\nThank you very much for your assistance.",
-        "FMV PIC": "Pham Thoi",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zceFwYAI"
+        "DATE": "2026-06-04T10:00:12+00:00",
+        "CC NUMBER": "NEW:CC-0077152",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 8F5A occurred while the module was operating normally_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe encountered an issue with the 2RV module. Error 8F5A occurred while the module was operating normally.\n\n8F5A error comes only when PCB is in the module, the issue was resolved after re-optimize the program and transmit it to the module. The customer is requesting an explanation of the root cause of Error 8F5A.\n\nPlease analyze the trace data to identify the root cause so that we can provide an explanation to the customer.\n\nThank you.",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010HdENYA0"
     },
     {
         "DATE": "2026-06-01T11:20:58+00:00",
@@ -10125,13 +10125,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000y9CIoYAM"
     },
     {
-        "DATE": "2026-05-25T01:45:54+00:00",
-        "CC NUMBER": "NEW:CC-0076424",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR waste tape box_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nOur customer inform that during production, NXTR machine waste tape box is easy to damaged when they put other object other than waste tape (For example : part reels. Please refer to attached picture). We adviced customer that, waste tape box is designed to put waste tape only,and can not put too heavy object inside, to advoid any damage to waste tape box,customer need to use it in the right way.\n\nRegarding to this matter, can you provide the maximum load capacity of waste tape box\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000yIn7tYAC"
+        "DATE": "2026-06-03T00:40:24+00:00",
+        "CC NUMBER": "NEW:CC-0077012",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Machine AIMEXIII displayed Error 8000202F on Side 2 during operation_[AIMEXIII]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently encountering an issue while operating the AIMEX III machine. Detail in below:\n\n- Module 3 on Side 2 of the AIMEX line displayed Error 8000202F with Sub Code 05000081 during operation.\n\n- When the error occurs, pressing the Ready ON button to clear the error causes the machine to freeze, and a restart is required.\n\n- The machine operates normally when the Verify and Profiler functions are turned off.\n\nWe have collected the trace data at the time the error occurred. Please help us analyze it and identify the root cause so that the issue can be resolved.\n\nThank you!",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zv45RYAQ"
     },
     {
         "DATE": "2026-05-25T01:32:38+00:00",
@@ -10530,13 +10530,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000s9oMiYAI"
     },
     {
-        "DATE": "2026-05-20T09:56:26+00:00",
-        "CC NUMBER": "NEW:CC-0076237",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request setting : Turn off operation of NXTR module tape cutter_[NXTR]",
-        "Communication Content": "Dear Call Center,\n\nDue to production demands, our customer has requested the ability to disable the NXTR machine tape cutter operation at any time, similar to the “Tape Cutter” disable function on the NXT3. Currently, when an error occurs, the machine cannot continue operating (In case error occur, the customer will temporarily disable the tape cutter and continue production).\n\nFor safety reasons, we advised the customer that there is a possibility of interference between placing head and tape when the tape cutter operation is disabled on the NXTR machine.\n\nThe customer still insists on applying this function. Please advise, is this possible that FUJI will apply special patch to customer.\n\nBR,\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xeE5aYAE"
+        "DATE": "2026-06-02T23:59:01+00:00",
+        "CC NUMBER": "NEW:CC-0077010",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\n* The customer requested us to use the TVR function on RH02 for picking components from RM trays. The purpose is to identify the component orientation and prevent incorrect placement when the supplied orientation is wrong.\n\n- We have enabled the TVR function in the Shape Data settings and configured it according to the instructions in the FNC-NXTR manual, section 5.7.\n\n- However, the marking image on the component surface is too dark, and the Mark Camera cannot reliably detect the reference mark on the component surface.\n\n* Actions taken:\n\nTVR enabled in Shape Data\n\nConfigured according to FNC-NXTR Section 5.7\n\nAdjusted shutter speed and lighting conditions\n\nWe have already tried adjusting various parameters, including:\n\n    Shutter speed\n\n   Lighting mode\n\n   Illumination settings\n\n- the recognition performance has not improved.\n\n- We have collected the program backup data and component images for analysis.\n\n-Could you please help us analyze the attached data and advise on possible improvements to increase the TVR recognition performance?\n\nThank you for your support.",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zurhdYAA"
     },
     {
         "DATE": "2026-05-20T09:28:05+00:00",
@@ -10782,13 +10782,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Sc7XPYAZ"
     },
     {
-        "DATE": "2026-05-19T03:08:39+00:00",
-        "CC NUMBER": "NEW:CC-0076129",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about panel rotation setting in Nexim dual lane job_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nThe customer has a request regarding the \"Panel Rotation\" setting in a Nexim job. Please advise:\n\n1. Previously, the customer used Flexa. In a dual-lane Flexa job (Top-Bot side), the panel rotation of each lane could be set independently.\n\n2. Now, in a Nexim job (Top-Bot side), when changing the \"Panel Rotation\" setting on the top or bottom side, the other side changes as well.\n\n3. Customer's question: Is it possible to set the \"Panel Rotation\" independently for the top and bottom sides in a Nexim dual-lane job? I checked the Nexim settings but could not find a solution to separate this setting for each side.\n\nBR\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xOcyHYAS"
+        "DATE": "2026-06-02T23:58:10+00:00",
+        "CC NUMBER": "NEW:CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\n* The customer requested us to use the TVR function on RH02 for picking components from RM trays. The purpose is to identify the component orientation and prevent incorrect placement when the supplied orientation is wrong.\n\n- We have enabled the TVR function in the Shape Data settings and configured it according to the instructions in the FNC-NXTR manual, section 5.7.\n\n- However, the marking image on the component surface is too dark, and the Mark Camera cannot reliably detect the reference mark on the component surface.\n\n* Actions taken:\n\nTVR enabled in Shape Data\n\nConfigured according to FNC-NXTR Section 5.7\n\nAdjusted shutter speed and lighting conditions\n\nWe have already tried adjusting various parameters, including:\n\n    Shutter speed\n\n   Lighting mode\n\n   Illumination settings\n\n- the recognition performance has not improved.\n\n- We have collected the program backup data and component images for analysis.\n\n-Could you please help us analyze the attached data and advise on possible improvements to increase the TVR recognition performance?\n\nThank you for your support.",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
     },
     {
         "DATE": "2026-05-19T02:35:57+00:00",
@@ -11754,13 +11754,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vvLF8YAM"
     },
     {
-        "DATE": "2026-05-08T07:15:34+00:00",
-        "CC NUMBER": "NEW:CC-0075609",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim application hang out_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nThe customer informed us that they frequently face an issue where the Nexim software hangs when opening Nexim Shape.\n\nThe issue can be resolved after restarting the PC.\n\nThis issue does not occur on only one PC; it happens on several PCs.\n\nAt the customer site, we already updated the Nexim version from 3.0 to 3.2. However, the issue still occurs in both old and new version. We assume that the reason could be related to the PCs.\n\nPlease help analyze the log files with the below information:\n\nOccurred time: 2026/08/05 around 8:01 AM\n\nTrace files: Windows Event Log and Nexim log\n\nBR\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vwkBKYAY"
+        "DATE": "2026-06-01T12:17:26+00:00",
+        "CC NUMBER": "NEW:CC-0076908",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The system was installed with Win11_24H2_Chinese_Simplified_x64.  After completing the Data Check, the report could not be opened._[Nexim]",
+        "Communication Content": "Installed the system using Win11_24H2_Chinese_Simplified_x64. After running Data Check, the report could not be opened.\n\nReinstalled the system with the same OS version, but the issue persisted.\n\nRemoved and reinstalled Data Check; however, the report still could not be opened.\n\nWe have collected the relevant tracking data, including screenshots and video recordings, for your reference.\n\nWe would greatly appreciate your support in analyzing this issue and identifying the root cause.\n\nThank you very much for your assistance.",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zceFwYAI"
     },
     {
         "DATE": "2026-05-08T03:56:56+00:00",
@@ -12078,13 +12078,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU"
     },
     {
-        "DATE": "2026-05-05T02:29:30+00:00",
-        "CC NUMBER": "NEW:CC-0075429",
+        "DATE": "2026-05-25T01:45:54+00:00",
+        "CC NUMBER": "NEW:CC-0076424",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Tray RM calibration data recovery_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nAs previous call center ( CC-0075078 ) that i already rised, we got the calibration file with format .YMW7 from Call center.\n\nWe refer to training text ( Tray RM repair training text manual ) and perform load tray proper to controller. But it seems that some abnormal issue happens. Below is my question, please check the videos and help to answer:\n\n1. Can you check the video \"1. Load calibration data\"\n\nRefer to manual, i perform tray RM calibration data recovery,please check and confirm any problem with my operation process?\n\n2. Can you check the video \"2.Fail to view calibration data\"\n\nRefer to manual, i want to check the calibration data of  \"MW04004 axis\" after calibration recovery, but i can not see any number,what is reason\n\n3. Can you check the video \"3. Motion parameter warning\"\n\nEvery time i connect to tray RM PLC, this alarm occurred, can you check what is this alarm?is this normal\n\n4. Because the tray RM PLC is fail, we need to replace the whole PLC, can you confirm below 4 operation is enough for tray RM to recover and can work normally after PLC replacement:\n\n- Load tray calibration data ( TA0101 0000501.YMW7) to PLC\n\n- Set origin for TY axis\n\n- Set origin for TZ axis ( lower magazine )\n\n- Set origin for TZ axis ( upper magazine )\n\nBR\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR waste tape box_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nOur customer inform that during production, NXTR machine waste tape box is easy to damaged when they put other object other than waste tape (For example : part reels. Please refer to attached picture). We adviced customer that, waste tape box is designed to put waste tape only,and can not put too heavy object inside, to advoid any damage to waste tape box,customer need to use it in the right way.\n\nRegarding to this matter, can you provide the maximum load capacity of waste tape box\n\nBR,\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vWPx2YAG"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000yIn7tYAC"
     },
     {
         "DATE": "2026-05-04T15:06:59+00:00",
@@ -12393,13 +12393,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pg0W5YAI"
     },
     {
-        "DATE": "2026-04-29T04:32:43+00:00",
-        "CC NUMBER": "NEW:CC-0075317",
+        "DATE": "2026-05-20T09:56:26+00:00",
+        "CC NUMBER": "NEW:CC-0076237",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about RH28 placing head error code 0000B134_[NXTR-S]",
-        "Communication Content": "Dear Call center\n\nOur customer informed that their RH28 placing head occurred error with below information:\n\nHead SN: RH28  2473\n\nError code : 0000B134 Subcode : 00000000\n\nWe take the placing head to other module and the same error still happen.\n\nThis is under warranty equipment, to solve the issue, we going to request WR claim for led board (2AHEHF0084**).\n\nCan you check the log file and give the advice on what part need to replaced for this case? or any solution to solve issue without replace led board?\n\nBR\n\nTan",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request setting : Turn off operation of NXTR module tape cutter_[NXTR]",
+        "Communication Content": "Dear Call Center,\n\nDue to production demands, our customer has requested the ability to disable the NXTR machine tape cutter operation at any time, similar to the “Tape Cutter” disable function on the NXT3. Currently, when an error occurs, the machine cannot continue operating (In case error occur, the customer will temporarily disable the tape cutter and continue production).\n\nFor safety reasons, we advised the customer that there is a possibility of interference between placing head and tape when the tape cutter operation is disabled on the NXTR machine.\n\nThe customer still insists on applying this function. Please advise, is this possible that FUJI will apply special patch to customer.\n\nBR,\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xeE5aYAE"
     },
     {
         "DATE": "2026-04-29T03:03:39+00:00",
@@ -12897,13 +12897,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000u8WLpYAM"
     },
     {
-        "DATE": "2026-04-24T00:43:24+00:00",
-        "CC NUMBER": "NEW:CC-0075078",
+        "DATE": "2026-05-19T03:08:39+00:00",
+        "CC NUMBER": "NEW:CC-0076129",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Request Tray RM calibration data_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nAfter replacement of tray RM PLC unit, we are recovering tray unit RM calibration data\n\nTray unit RM SN : 501\n\nAs manual information, we need to use calibration file with extension  .YMW7. But in fuji community i just can down load the calibration file with .dat format.\n\nCan you check again and please help to provide the .YMW7 calibration file of tray Unit RM SN 501 to me.\n\nBR\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about panel rotation setting in Nexim dual lane job_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nThe customer has a request regarding the \"Panel Rotation\" setting in a Nexim job. Please advise:\n\n1. Previously, the customer used Flexa. In a dual-lane Flexa job (Top-Bot side), the panel rotation of each lane could be set independently.\n\n2. Now, in a Nexim job (Top-Bot side), when changing the \"Panel Rotation\" setting on the top or bottom side, the other side changes as well.\n\n3. Customer's question: Is it possible to set the \"Panel Rotation\" independently for the top and bottom sides in a Nexim dual-lane job? I checked the Nexim settings but could not find a solution to separate this setting for each side.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uFyRtYAK"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xOcyHYAS"
     },
     {
         "DATE": "2026-04-23T15:23:45+00:00",
@@ -13293,13 +13293,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI"
     },
     {
-        "DATE": "2026-04-21T06:23:02+00:00",
-        "CC NUMBER": "NEW:CC-0074899",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECS/GEM Error 18098026 when executing S2F41 (PPLISTN and GET_JOBDATA)_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nAt LuxVision Innovation customer, the customer is currently using the SECS/GEM interface.\n\n-They want to send S2F41 commands (PPLISTN and GET_JOBDATA) to retrieve job list and part data. However, when sending these commands, the SECS/GEM system does not return the required information, and the log shows error 18098026.\n\n-I have checked the OPT-NEXIM manual, which mentions that this error may occur when there are no licenses, or the license settings are invalid.\n\n-I have also checked the customer’s license, and the SECS/GEM Additional Option license is already available.\n\n-I have attached the SECS/GEM log file and the license screenshot for your reference.\n\nPlease support to check this issue.\n\nBest regards,\n\nThanks\n\nViet",
-        "FMV PIC": "Tran Viet",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000tp6jhYAA"
+        "DATE": "2026-05-08T07:15:34+00:00",
+        "CC NUMBER": "NEW:CC-0075609",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim application hang out_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nThe customer informed us that they frequently face an issue where the Nexim software hangs when opening Nexim Shape.\n\nThe issue can be resolved after restarting the PC.\n\nThis issue does not occur on only one PC; it happens on several PCs.\n\nAt the customer site, we already updated the Nexim version from 3.0 to 3.2. However, the issue still occurs in both old and new version. We assume that the reason could be related to the PCs.\n\nPlease help analyze the log files with the below information:\n\nOccurred time: 2026/08/05 around 8:01 AM\n\nTrace files: Windows Event Log and Nexim log\n\nBR\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vwkBKYAY"
     },
     {
         "DATE": "2026-04-21T05:33:30+00:00",
@@ -13824,13 +13824,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000kcV5EYAU"
     },
     {
-        "DATE": "2026-04-15T11:03:51+00:00",
-        "CC NUMBER": "NEW:CC-0074584",
-        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Normal[LEADER TECH VIETNAM COMPANY LIMITED]_Can not open inventory function_[Nexim]",
-        "Communication Content": "Dear Call center\n\nI faced the issue that Nexim suddenly can not open inventory functions ( DID, Feeder, Part master...) several times .The issue can be solved after re-installation of Nexim suite.\n\nCan you answer what is root cause? Any other solution to quickly solve this type of issue?\n\nI add video of phenomenon and trace data as well for your reference ,please help to analyze.\n\nBR\n\nTan",
+        "DATE": "2026-05-05T02:29:30+00:00",
+        "CC NUMBER": "NEW:CC-0075429",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Tray RM calibration data recovery_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAs previous call center ( CC-0075078 ) that i already rised, we got the calibration file with format .YMW7 from Call center.\n\nWe refer to training text ( Tray RM repair training text manual ) and perform load tray proper to controller. But it seems that some abnormal issue happens. Below is my question, please check the videos and help to answer:\n\n1. Can you check the video \"1. Load calibration data\"\n\nRefer to manual, i perform tray RM calibration data recovery,please check and confirm any problem with my operation process?\n\n2. Can you check the video \"2.Fail to view calibration data\"\n\nRefer to manual, i want to check the calibration data of  \"MW04004 axis\" after calibration recovery, but i can not see any number,what is reason\n\n3. Can you check the video \"3. Motion parameter warning\"\n\nEvery time i connect to tray RM PLC, this alarm occurred, can you check what is this alarm?is this normal\n\n4. Because the tray RM PLC is fail, we need to replace the whole PLC, can you confirm below 4 operation is enough for tray RM to recover and can work normally after PLC replacement:\n\n- Load tray calibration data ( TA0101 0000501.YMW7) to PLC\n\n- Set origin for TY axis\n\n- Set origin for TZ axis ( lower magazine )\n\n- Set origin for TZ axis ( upper magazine )\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t4HiXYAU"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vWPx2YAG"
     },
     {
         "DATE": "2026-04-15T10:54:44+00:00",
@@ -13842,13 +13842,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHVP8YAP"
     },
     {
-        "DATE": "2026-04-15T10:38:08+00:00",
-        "CC NUMBER": "NEW:CC-0074583",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Procedure to back up and restore Pronavi database, FIDB database_[Nexim]",
-        "Communication Content": "Dear call center\n\nCan you please help to answer this questions :\n\n1. Customer want to do monthly back up FIDB database and Pronavi database. How should we perform this action?\n\n2. Detail about procedure to restore FIDB database and Pronavi database that we get in question 1\n\nBR\n\nTan",
+        "DATE": "2026-04-29T04:32:43+00:00",
+        "CC NUMBER": "NEW:CC-0075317",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about RH28 placing head error code 0000B134_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nOur customer informed that their RH28 placing head occurred error with below information:\n\nHead SN: RH28  2473\n\nError code : 0000B134 Subcode : 00000000\n\nWe take the placing head to other module and the same error still happen.\n\nThis is under warranty equipment, to solve the issue, we going to request WR claim for led board (2AHEHF0084**).\n\nCan you check the log file and give the advice on what part need to replaced for this case? or any solution to solve issue without replace led board?\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t3aDqYAI"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU"
     },
     {
         "DATE": "2026-04-15T10:18:31+00:00",
@@ -13950,13 +13950,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA"
     },
     {
-        "DATE": "2026-04-15T01:45:49+00:00",
-        "CC NUMBER": "NEW:CC-0074525",
+        "DATE": "2026-04-24T00:43:24+00:00",
+        "CC NUMBER": "NEW:CC-0075078",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Cannot optimize with Head RH02_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nAt Luxshare Precision (Yi an), the customer is facing an issue with Module 1R - NXTR 1B:\n\n-When using the RH01 head, optimization works normally.\n\n-However, when using the RH02 head and performing optimization, the optimize screen shows the error \"An application error\", and error 670A0203 \"Communication error\" also appears.\n\nI have attached the job file and error images.\n\nPlease advise.\n\nThanks\n\nViet",
-        "FMV PIC": "Tran Viet",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000syamIYAQ"
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Request Tray RM calibration data_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAfter replacement of tray RM PLC unit, we are recovering tray unit RM calibration data\n\nTray unit RM SN : 501\n\nAs manual information, we need to use calibration file with extension  .YMW7. But in fuji community i just can down load the calibration file with .dat format.\n\nCan you check again and please help to provide the .YMW7 calibration file of tray Unit RM SN 501 to me.\n\nBR\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uFyRtYAK"
     },
     {
         "DATE": "2026-04-14T22:45:08+00:00",
@@ -13995,13 +13995,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA"
     },
     {
-        "DATE": "2026-04-14T12:45:30+00:00",
-        "CC NUMBER": "NEW:CC-0074485",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Host error_[NXT]",
-        "Communication Content": "- Host error often  did appeared on the produced execution.",
-        "FMV PIC": "Doan Nhon",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sueqKYAQ"
+        "DATE": "2026-04-21T06:23:02+00:00",
+        "CC NUMBER": "NEW:CC-0074899",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECS/GEM Error 18098026 when executing S2F41 (PPLISTN and GET_JOBDATA)_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt LuxVision Innovation customer, the customer is currently using the SECS/GEM interface.\n\n-They want to send S2F41 commands (PPLISTN and GET_JOBDATA) to retrieve job list and part data. However, when sending these commands, the SECS/GEM system does not return the required information, and the log shows error 18098026.\n\n-I have checked the OPT-NEXIM manual, which mentions that this error may occur when there are no licenses, or the license settings are invalid.\n\n-I have also checked the customer’s license, and the SECS/GEM Additional Option license is already available.\n\n-I have attached the SECS/GEM log file and the license screenshot for your reference.\n\nPlease support to check this issue.\n\nBest regards,\n\nThanks\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000tp6jhYAA"
     },
     {
         "DATE": "2026-04-14T12:30:10+00:00",
@@ -14445,13 +14445,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sm25TYAQ"
     },
     {
-        "DATE": "2026-04-13T15:45:27+00:00",
-        "CC NUMBER": "NEW:CC-0074398",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Install the splicing double-check function for NXTR_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nThe customer would like to use the splicing double-check function on the NXTR machine; however, Nexim currently does not support this function. Could you please let me know if there is any way to use this function on Nexim?\n\nThank you!",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA"
+        "DATE": "2026-04-15T11:03:51+00:00",
+        "CC NUMBER": "NEW:CC-0074584",
+        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[LEADER TECH VIETNAM COMPANY LIMITED]_Can not open inventory function_[Nexim]",
+        "Communication Content": "Dear Call center\n\nI faced the issue that Nexim suddenly can not open inventory functions ( DID, Feeder, Part master...) several times .The issue can be solved after re-installation of Nexim suite.\n\nCan you answer what is root cause? Any other solution to quickly solve this type of issue?\n\nI add video of phenomenon and trace data as well for your reference ,please help to analyze.\n\nBR\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t4HiXYAU"
     },
     {
         "DATE": "2026-04-13T15:45:10+00:00",
@@ -14679,13 +14679,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000heO1FYAU"
     },
     {
-        "DATE": "2026-04-11T06:44:46+00:00",
-        "CC NUMBER": "NEW:CC-0074315",
+        "DATE": "2026-04-15T10:38:08+00:00",
+        "CC NUMBER": "NEW:CC-0074583",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim funtion error : 1. Nexim management monitor,  2. Nexim report_[Nexim]",
-        "Communication Content": "Dear Call center\n\nPlease help to advice with below issues:\n\nPhenomenon :\n\n1. Can not open Nexim management monitor, Nexim report function\n\n2. Fuji Nexim Floor Insight  Notice Service is automatically stopped\n\nAction:\n\n1. Re-install Nexim system server suite => Same issue\n\n2. Check and confirm fujidb\n\nrole table : role 13 = Floor Insight Web Server\n\ncomputer table : computer ID = 3 = NEXIM SYSTEM SERVER\n\nComrole table : role 13 = 3\n\nNote : The error occurred after we upgrade nexim from 3.0 to 3.2.\n\nPlease check attached file for Nexim log file\n\nBR\n\nTan",
+        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Procedure to back up and restore Pronavi database, FIDB database_[Nexim]",
+        "Communication Content": "Dear call center\n\nCan you please help to answer this questions :\n\n1. Customer want to do monthly back up FIDB database and Pronavi database. How should we perform this action?\n\n2. Detail about procedure to restore FIDB database and Pronavi database that we get in question 1\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sW9lsYAC"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t3aDqYAI"
     },
     {
         "DATE": "2026-04-10T14:44:17+00:00",
@@ -15723,13 +15723,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mIdfGYAS"
     },
     {
-        "DATE": "2026-04-03T05:02:59+00:00",
-        "CC NUMBER": "NEW:CC-0073655",
+        "DATE": "2026-04-15T01:45:49+00:00",
+        "CC NUMBER": "NEW:CC-0074525",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently._[NXTR-S]",
-        "Communication Content": "Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently.\n\nActions taken:\n\n- Checked network connections.\n\n- Verified Host Interface connection time in the layout is set to 60 seconds.\n\n- At the time of the error, pressing “Ready On” allowed the machine to read the panel ID normally.\n\nPerformed reset of machine LCU and Line Server PC.\n\nAfter restart, the issue still occurred, but with lower frequency.\n\nWe have collected the trace data and the customer’s production program currently in use.\n\nKindly support the analysis. Thank you very much!",
-        "FMV PIC": "Pham Thoi",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000r4bnMYAQ"
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Cannot optimize with Head RH02_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAt Luxshare Precision (Yi an), the customer is facing an issue with Module 1R - NXTR 1B:\n\n-When using the RH01 head, optimization works normally.\n\n-However, when using the RH02 head and performing optimization, the optimize screen shows the error \"An application error\", and error 670A0203 \"Communication error\" also appears.\n\nI have attached the job file and error images.\n\nPlease advise.\n\nThanks\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000syamIYAQ"
     },
     {
         "DATE": "2026-04-03T01:59:16+00:00",
@@ -16713,13 +16713,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHVP8YAP"
     },
     {
-        "DATE": "2026-03-20T05:05:01+00:00",
-        "CC NUMBER": "NEW:CC-0073059",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
-        "Communication Content": "Dear call center\n\nWe need to perform PAM measurement for customer. Can you please answer below question about this procedure\n1. About the note : \" The \"Left\" and \"Right\" in the list indicate left and right robots. The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis. \" in page 189 of manual \"FNC-NXTR-017E0\"\n=> What does this mean \"The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis\",please help to explain\n2. We perform PAM test for module 1R, reference manual is FNC-NXTR-017E0, chap 3.10. We use the \"PAM_Result.xlsm\" tool to caculate the result data ,but the cpk result is bad. Please help to check the Pam job and result data as attached file and explain, what could be the reason that the result is bad\n3. Manual FNC-NXTR-017E0 page  154 : placement accuracy spec\nHeightened accuracy mode (15 um)  ±0.015 (Cpk ≥ 11.00)\nHeightened accuracy mode (10 um) ±0.010 (Cpk ≥ 11.00)\n=> Please confirm the \"Cpk ≥ 11.00\" value\n\nBR\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI"
+        "DATE": "2026-04-14T12:45:30+00:00",
+        "CC NUMBER": "NEW:CC-0074485",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Host error_[NXT]",
+        "Communication Content": "- Host error often  did appeared on the produced execution.",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sueqKYAQ"
     },
     {
         "DATE": "2026-03-20T04:25:24+00:00",
@@ -16740,13 +16740,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000heO1FYAU"
     },
     {
-        "DATE": "2026-03-20T02:24:57+00:00",
-        "CC NUMBER": "NEW:CC-0073059",
+        "DATE": "2026-04-13T15:45:27+00:00",
+        "CC NUMBER": "NEW:CC-0074398",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
-        "Communication Content": "Dear call center\n\nWe need to perform PAM measurement for customer. Can you please answer below question about this procedure\n\n1. About the note : \" The \"Left\" and \"Right\" in the list indicate left and right robots. The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis. \" in page 189 of manual \"FNC-NXTR-017E0\"\n\n=> What does this mean \"The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis\",please help to explain\n\n2. We perform PAM test for module 1R, reference manual is FNC-NXTR-017E0, chap 3.10. We use the \"PAM_Result.xlsm\" tool to caculate the result data ,but the cpk result is bad. Please help to check the Pam job and result data as attached file and explain, what could be the reason that the result is bad\n\n3. Manual FNC-NXTR-017E0 page  154 : placement accuracy spec\n\nHeightened accuracy mode (15 um)  ±0.015 (Cpk ≥ 11.00)\n\nHeightened accuracy mode (10 um) ±0.010 (Cpk ≥ 11.00)\n\n=> Please confirm the \"Cpk ≥ 11.00\" value\n\nBR\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI"
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Install the splicing double-check function for NXTR_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThe customer would like to use the splicing double-check function on the NXTR machine; however, Nexim currently does not support this function. Could you please let me know if there is any way to use this function on Nexim?\n\nThank you!",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA"
     },
     {
         "DATE": "2026-03-20T02:09:42+00:00",
@@ -18054,13 +18054,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000heO1FYAU"
     },
     {
-        "DATE": "2026-03-07T04:23:38+00:00",
-        "CC NUMBER": "NEW:CC-0072320",
-        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Urgent[LEADER TECH VIETNAM COMPANY LIMITED]_NXTR module error 00003A31_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nPlease help to give advice about this machine error\n\nPhenomenon :\n\nMachine error : 00003A31\n\nSub code : 00000001\n\nTroubleshoot action :\n\n1. Reset module : same error\n\n2. Replace head : same error\n\n3. Check and Re-connect all module CPU box cable : same error\n\n4. Check X axis pulse by Motion tool : normal\n\n5. Perform MT reset, then restart module : OS error occur\n\n6. Do machine emergency installation : Ok\n\nNote : This error happen to this module several time before, we need to restart machine 1-3 time then the issue will be cleared. Please check the trace data and help to analyze the root cause.\n\nBR\n\nTan",
+        "DATE": "2026-04-11T06:44:46+00:00",
+        "CC NUMBER": "NEW:CC-0074315",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim funtion error : 1. Nexim management monitor,  2. Nexim report_[Nexim]",
+        "Communication Content": "Dear Call center\n\nPlease help to advice with below issues:\n\nPhenomenon :\n\n1. Can not open Nexim management monitor, Nexim report function\n\n2. Fuji Nexim Floor Insight  Notice Service is automatically stopped\n\nAction:\n\n1. Re-install Nexim system server suite => Same issue\n\n2. Check and confirm fujidb\n\nrole table : role 13 = Floor Insight Web Server\n\ncomputer table : computer ID = 3 = NEXIM SYSTEM SERVER\n\nComrole table : role 13 = 3\n\nNote : The error occurred after we upgrade nexim from 3.0 to 3.2.\n\nPlease check attached file for Nexim log file\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000o1Nx7YAE"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sW9lsYAC"
     },
     {
         "DATE": "2026-03-06T20:52:45+00:00",
@@ -18099,13 +18099,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000n7OHXYA2"
     },
     {
-        "DATE": "2026-03-06T07:12:05+00:00",
-        "CC NUMBER": "NEW:CC-0072294",
+        "DATE": "2026-04-03T05:02:59+00:00",
+        "CC NUMBER": "NEW:CC-0073655",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Remote Etool software_[NXTR]",
-        "Communication Content": "Dear call center\n\nCan you please help to answer below question related to Remote Etool :\n\n1. For example : If i need to take and swap the module CPU box from \"A module\"(type 2R) to \"B module\"(type 1R) for error identify . How to use Remote Etool to re-write calib data for module CPU box?\n\nPlease check the attached picture. The error happen when i try to use calib data of \"B module \"(type 1R) to restore in module CPU box of \"A module\"(type 2R)\n\n2. Because the error in question 1, (Backup/restore) function can not work. So i try to use \"Force overwrite\" function of Remote Etool to overwrite calib data , the module serial number change to format (______0000000.dat) (Please check attached file also). Can you explain. Even after this action. i checked and find that B module(type 1R) still operate normal.\n\nBR\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nwAEAYA2"
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently._[NXTR-S]",
+        "Communication Content": "Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently.\n\nActions taken:\n\n- Checked network connections.\n\n- Verified Host Interface connection time in the layout is set to 60 seconds.\n\n- At the time of the error, pressing “Ready On” allowed the machine to read the panel ID normally.\n\nPerformed reset of machine LCU and Line Server PC.\n\nAfter restart, the issue still occurred, but with lower frequency.\n\nWe have collected the trace data and the customer’s production program currently in use.\n\nKindly support the analysis. Thank you very much!",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000r4bnMYAQ"
     },
     {
         "DATE": "2026-03-06T03:12:46+00:00",
@@ -18441,13 +18441,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000iSWwVYAW"
     },
     {
-        "DATE": "2026-03-04T06:19:43+00:00",
-        "CC NUMBER": "NEW:CC-0072091",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nCurrently, customer at Nghe An site is an issue with Module 2RV.\n\nWhen running the pair module program on both lanes, the module only clamps the panel but does not mount components onto the PCB. The issue only occurs on lane 2 (bottom side) of the 2RV modules\n\nThe problem is temporarily resolved by press Cycle Stop button and then Start button, but it reoccurs when the next panel enters the machine.\n\nActions Taken:\n\n- Check the program and machine configuration: Normal\n\n- Restart all machines NXTR, LCU PC, Line Server PC: same error\n\n- Imported machine configuration from another module: same error\n\nWe have acquired the trace data and program file. Kindly review the trace data and support us in investigating this issue\n\nThank you!",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nXR3iYAG"
+        "DATE": "2026-03-20T05:05:01+00:00",
+        "CC NUMBER": "NEW:CC-0073059",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nWe need to perform PAM measurement for customer. Can you please answer below question about this procedure\n1. About the note : \" The \"Left\" and \"Right\" in the list indicate left and right robots. The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis. \" in page 189 of manual \"FNC-NXTR-017E0\"\n=> What does this mean \"The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis\",please help to explain\n2. We perform PAM test for module 1R, reference manual is FNC-NXTR-017E0, chap 3.10. We use the \"PAM_Result.xlsm\" tool to caculate the result data ,but the cpk result is bad. Please help to check the Pam job and result data as attached file and explain, what could be the reason that the result is bad\n3. Manual FNC-NXTR-017E0 page  154 : placement accuracy spec\nHeightened accuracy mode (15 um)  ±0.015 (Cpk ≥ 11.00)\nHeightened accuracy mode (10 um) ±0.010 (Cpk ≥ 11.00)\n=> Please confirm the \"Cpk ≥ 11.00\" value\n\nBR\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI"
     },
     {
         "DATE": "2026-03-04T06:16:16+00:00",
@@ -18738,13 +18738,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000iSWwVYAW"
     },
     {
-        "DATE": "2026-03-02T01:08:53+00:00",
-        "CC NUMBER": "NEW:CC-0071951",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Nexim software_[Nexim]",
-        "Communication Content": "Dear Call center\n\nCan you please help to explain the usage of these two applications in Nexim software, and under what circumstances we can use them?\n\n1. NeximDeleteAllComponentTool.exe (patch : C:\\Nexim\\Client\\Bin\\.. )\n\n2.NCDeleteTool.exe (patch : C:\\Nexim\\Common\\bin\\.. )\n\nBR\n\nTan",
+        "DATE": "2026-03-20T02:24:57+00:00",
+        "CC NUMBER": "NEW:CC-0073059",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nWe need to perform PAM measurement for customer. Can you please answer below question about this procedure\n\n1. About the note : \" The \"Left\" and \"Right\" in the list indicate left and right robots. The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis. \" in page 189 of manual \"FNC-NXTR-017E0\"\n\n=> What does this mean \"The \"Up\" and \"Down\" indicate the upper side of the Zs axis and the lower side ofthe Zs axis\",please help to explain\n\n2. We perform PAM test for module 1R, reference manual is FNC-NXTR-017E0, chap 3.10. We use the \"PAM_Result.xlsm\" tool to caculate the result data ,but the cpk result is bad. Please help to check the Pam job and result data as attached file and explain, what could be the reason that the result is bad\n\n3. Manual FNC-NXTR-017E0 page  154 : placement accuracy spec\n\nHeightened accuracy mode (15 um)  ±0.015 (Cpk ≥ 11.00)\n\nHeightened accuracy mode (10 um) ±0.010 (Cpk ≥ 11.00)\n\n=> Please confirm the \"Cpk ≥ 11.00\" value\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nFE4uYAG"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI"
     },
     {
         "DATE": "2026-03-02T00:23:05+00:00",
@@ -18792,13 +18792,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mhnQ2YAI"
     },
     {
-        "DATE": "2026-02-28T01:37:07+00:00",
-        "CC NUMBER": "NEW:CC-0071919",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bc  and version 2.3_[NXTR-S]",
-        "Communication Content": "Dear call center,\n\nI have a question and need your advice, please help.\n\nWe are planning to install NXTR version 2.3 from current special version 2.2Bc. Can you confirm that the change of software in 2.3 will be carried over to version 2.2 Bc ?\n\nThank\n\nTan",
+        "DATE": "2026-03-07T04:23:38+00:00",
+        "CC NUMBER": "NEW:CC-0072320",
+        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[LEADER TECH VIETNAM COMPANY LIMITED]_NXTR module error 00003A31_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nPlease help to give advice about this machine error\n\nPhenomenon :\n\nMachine error : 00003A31\n\nSub code : 00000001\n\nTroubleshoot action :\n\n1. Reset module : same error\n\n2. Replace head : same error\n\n3. Check and Re-connect all module CPU box cable : same error\n\n4. Check X axis pulse by Motion tool : normal\n\n5. Perform MT reset, then restart module : OS error occur\n\n6. Do machine emergency installation : Ok\n\nNote : This error happen to this module several time before, we need to restart machine 1-3 time then the issue will be cleared. Please check the trace data and help to analyze the root cause.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000n62NzYAI"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000o1Nx7YAE"
     },
     {
         "DATE": "2026-02-28T01:31:07+00:00",
@@ -18855,13 +18855,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE"
     },
     {
-        "DATE": "2026-02-26T09:51:26+00:00",
-        "CC NUMBER": "NEW:CC-0071860",
+        "DATE": "2026-03-06T07:12:05+00:00",
+        "CC NUMBER": "NEW:CC-0072294",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Interference caused the part camera glass cover to break_[NXTR-S]",
-        "Communication Content": "Dear call center\n\nI would like to inform the interference issue as below:\n\n1. Information of machine\n\nCustomer : Luxshare Yian\n\nLine : Line 6\n\nOccurred module : Module 4\n\nPlacing head : RH08\n\nModule type : 1R\n\nNexim job : SMT06-8009-0000506R-J1-BT-1.2-0+6 (attached file)\n\n2. Phenomenon\n\nDuring production, the part camera glass cover is broken. We found part (Aluminum capacitor) that was deformed and was in part camera\n\n3. Summary of our on site investigation:\n\nPossible cause:\n\nThe aluminum capacitor part is the cause of the issue. The part weight is over the specification, and it falls onto the part camera glass cover. Interference occurs between the head cover, the part, and the part camera glass cover ( Please see attached report for more detail )\n\nWe are not sure about investigation result in customer site. We need you advice about this case, what could be the reason.\n\nBecause of customer policy, we can not record any photo or video. All related part picture i already included in report. Please check the trace data also.\n\nBR\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Remote Etool software_[NXTR]",
+        "Communication Content": "Dear call center\n\nCan you please help to answer below question related to Remote Etool :\n\n1. For example : If i need to take and swap the module CPU box from \"A module\"(type 2R) to \"B module\"(type 1R) for error identify . How to use Remote Etool to re-write calib data for module CPU box?\n\nPlease check the attached picture. The error happen when i try to use calib data of \"B module \"(type 1R) to restore in module CPU box of \"A module\"(type 2R)\n\n2. Because the error in question 1, (Backup/restore) function can not work. So i try to use \"Force overwrite\" function of Remote Etool to overwrite calib data , the module serial number change to format (______0000000.dat) (Please check attached file also). Can you explain. Even after this action. i checked and find that B module(type 1R) still operate normal.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mtBqPYAU"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nwAEAYA2"
     },
     {
         "DATE": "2026-02-26T08:59:53+00:00",
@@ -20133,13 +20133,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000jxEfOYAU"
     },
     {
-        "DATE": "2026-02-10T01:27:20+00:00",
-        "CC NUMBER": "NEW:CC-0071029",
+        "DATE": "2026-03-04T06:19:43+00:00",
+        "CC NUMBER": "NEW:CC-0072091",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Fail to update system layout after Nexim patch installation_[Nexim]",
-        "Communication Content": "Dear Call center\n\nI would like to inform the issue of Nexim as below :\n\nPhenomenon : Can not update system layout, error code 67290008\n\nTrigger : Issue occurred after installation of patch 5001_V3.1.0_Plan_Patch. Computer without patch installation can update system layout normally.\n\nWe now stop to install patch 5001_V3.1.0_Plan_Patch. Please check Nexim log file, can you answer what is the root cause of issue.\n\nBR\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000keb4sYAA"
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, customer at Nghe An site is an issue with Module 2RV.\n\nWhen running the pair module program on both lanes, the module only clamps the panel but does not mount components onto the PCB. The issue only occurs on lane 2 (bottom side) of the 2RV modules\n\nThe problem is temporarily resolved by press Cycle Stop button and then Start button, but it reoccurs when the next panel enters the machine.\n\nActions Taken:\n\n- Check the program and machine configuration: Normal\n\n- Restart all machines NXTR, LCU PC, Line Server PC: same error\n\n- Imported machine configuration from another module: same error\n\nWe have acquired the trace data and program file. Kindly review the trace data and support us in investigating this issue\n\nThank you!",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nXR3iYAG"
     },
     {
         "DATE": "2026-02-10T00:48:10+00:00",
@@ -20574,13 +20574,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHVP8YAP"
     },
     {
-        "DATE": "2026-02-05T02:02:35+00:00",
-        "CC NUMBER": "NEW:CC-0070820",
+        "DATE": "2026-03-02T01:08:53+00:00",
+        "CC NUMBER": "NEW:CC-0071951",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Mark camera error_[NXTR]",
-        "Communication Content": "Dear call center\n\nIn our customer site, the NXTR module mark camera was unable to operate with error code 91D6D545. We checked and found that :\n\n1. Swap module CPU box vision board ---> The error is fixed\n\n2. Install NG vision board to other CPU box to test ---> The error 91D6D545 occurred in this machine\n\nPlease check the attached log file and advice. If there is no way to solve the error, we will perform warranty process for module CPU. This is urgent case since customer machine is in breakdown mode.\n\nBR\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Nexim software_[Nexim]",
+        "Communication Content": "Dear Call center\n\nCan you please help to explain the usage of these two applications in Nexim software, and under what circumstances we can use them?\n\n1. NeximDeleteAllComponentTool.exe (patch : C:\\Nexim\\Client\\Bin\\.. )\n\n2.NCDeleteTool.exe (patch : C:\\Nexim\\Common\\bin\\.. )\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000k1wqiYAA"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nFE4uYAG"
     },
     {
         "DATE": "2026-02-04T18:23:58+00:00",
@@ -22374,13 +22374,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hccoHYAQ"
     },
     {
-        "DATE": "2026-01-19T08:44:59+00:00",
-        "CC NUMBER": "NEW:CC-0069895",
-        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
-        "TOPIC": "Urgent[GOERTEK MICROELECTRONICS VINA CO., LTD.]_M2M cannot transmit board skip information to the LCU._[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\n-At GoerMicro Vietnam, M2M and SECS/GEM are used to perform remote board skip.\n\n-After connecting M2M and completing all related settings, we tested M2M panel ID reading. The panel ID was read normally, and board skip information was successfully sent to the remote board skip folder on the LCU via SECS/GEM.\n\n-However, when the NXTR machine is started for production testing, although M2M can read the panel ID successfully, the board skip information is not transferred to the LCU RemoteBS folder.\n\n-When disconnecting M2M and switching to the NXTR mark camera to read the panel ID, the board skip information is transferred to the LCU normally via SECS/GEM, and the production line operates normally.\n\n-When switching back to M2M panel ID reading, currently, regardless of whether the NXTR machine is started or not, no board skip information is transferred to the LCU folder.\n\n-Currently, the NXTR mark camera is being used to read the panel ID for board skip in the production line.\n\nThank\n\nViet",
-        "FMV PIC": "Tran Viet",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE"
+        "DATE": "2026-02-28T01:37:07+00:00",
+        "CC NUMBER": "NEW:CC-0071919",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bc  and version 2.3_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nI have a question and need your advice, please help.\n\nWe are planning to install NXTR version 2.3 from current special version 2.2Bc. Can you confirm that the change of software in 2.3 will be carried over to version 2.2 Bc ?\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000n62NzYAI"
     },
     {
         "DATE": "2026-01-19T08:25:46+00:00",
@@ -22653,13 +22653,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZoL3WYAV"
     },
     {
-        "DATE": "2026-01-15T08:21:01+00:00",
-        "CC NUMBER": "NEW:CC-0069740",
+        "DATE": "2026-02-26T09:51:26+00:00",
+        "CC NUMBER": "NEW:CC-0071860",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_[NXTR]",
-        "Communication Content": "Dear call center\n\nOur customer have a lot of malfunction feeders W08t. After investigation we found some information as below:\n\n1. There are many W08t feeders that are set on the module, the red LED on the feeders turns on and the feeder\n\ndoes not operate. => After swap feeder main control board, the feeder can operate normally\n\n2. There are many W08t feeders that are set on the module, no LED turns on and the feeder\n\ndoes not operate as well. => After swap main control board fuse F1 only ( plese see the attached picture),the fuse will be blown again =>  After swap feeder main control board, the feeder can operate normally\n\nBased on Technical report  24014, we believe that customer worker 's mistake in operation with W08t feeder might be the cause of issue.\n\nPlease help to answer in these question :\n\n1. In what circumstance, the F1 and F2 of W08t main control board will be blown, can you share the electrical schematic of W08t that show the circuit of F1 and F2, what do F1 and F2 protect?\n\n2. Based on T24014, if worker pull on the tape instead of using the operation panel. We know that the control board will be damaged . Besides , what will happen to the F1, F2 at that time. It will be blown or not?\n\n3. For the damaged of board cause by pulling on the tape, can we recovery the board by replacing the fuse F1, F2?\n\nThank\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Interference caused the part camera glass cover to break_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI would like to inform the interference issue as below:\n\n1. Information of machine\n\nCustomer : Luxshare Yian\n\nLine : Line 6\n\nOccurred module : Module 4\n\nPlacing head : RH08\n\nModule type : 1R\n\nNexim job : SMT06-8009-0000506R-J1-BT-1.2-0+6 (attached file)\n\n2. Phenomenon\n\nDuring production, the part camera glass cover is broken. We found part (Aluminum capacitor) that was deformed and was in part camera\n\n3. Summary of our on site investigation:\n\nPossible cause:\n\nThe aluminum capacitor part is the cause of the issue. The part weight is over the specification, and it falls onto the part camera glass cover. Interference occurs between the head cover, the part, and the part camera glass cover ( Please see attached report for more detail )\n\nWe are not sure about investigation result in customer site. We need you advice about this case, what could be the reason.\n\nBecause of customer policy, we can not record any photo or video. All related part picture i already included in report. Please check the trace data also.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mtBqPYAU"
     },
     {
         "DATE": "2026-01-15T08:01:22+00:00",
@@ -22986,13 +22986,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gnMaHYAU"
     },
     {
-        "DATE": "2026-01-13T04:34:11+00:00",
-        "CC NUMBER": "NEW:CC-0069571",
+        "DATE": "2026-02-10T01:27:20+00:00",
+        "CC NUMBER": "NEW:CC-0071029",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about \"Nexim Database Backup and Restore Tool\"_[Nexim]",
-        "Communication Content": "Dear Call Center\n\nOur customer create many table in fujidb Oracle database. They use \"Nexim Database Backup and Restore Tool\" that storage in \"C:\\Nexim\\Client\\Bin\\NeximDBManagement.exe\" to daily back up fujidb data. Can you please advice, if we use the tool, all table of fujidb included tables that customer created will be exported or just original tables will be exported ?\n\nThank\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Fail to update system layout after Nexim patch installation_[Nexim]",
+        "Communication Content": "Dear Call center\n\nI would like to inform the issue of Nexim as below :\n\nPhenomenon : Can not update system layout, error code 67290008\n\nTrigger : Issue occurred after installation of patch 5001_V3.1.0_Plan_Patch. Computer without patch installation can update system layout normally.\n\nWe now stop to install patch 5001_V3.1.0_Plan_Patch. Please check Nexim log file, can you answer what is the root cause of issue.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gly2CYAQ"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000keb4sYAA"
     },
     {
         "DATE": "2026-01-13T04:19:11+00:00",
@@ -23355,13 +23355,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gCMClYAO"
     },
     {
-        "DATE": "2026-01-07T11:50:58+00:00",
-        "CC NUMBER": "NEW:CC-0069339",
+        "DATE": "2026-02-05T02:02:35+00:00",
+        "CC NUMBER": "NEW:CC-0070820",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Patch to solve error 6709ffff happened when open Nexim job_[NXTR]",
-        "Communication Content": "Dear Call center\n\nOur customer encounter error 6709ffff when opening nexim job data. I search from Fuji community and found that in the CC-0026806, the path to solve this issue is \"2047_DBUpdate_DeleteErrorTrackChange.zip\". Can you please provide this patch.\n\nThank\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Mark camera error_[NXTR]",
+        "Communication Content": "Dear call center\n\nIn our customer site, the NXTR module mark camera was unable to operate with error code 91D6D545. We checked and found that :\n\n1. Swap module CPU box vision board ---> The error is fixed\n\n2. Install NG vision board to other CPU box to test ---> The error 91D6D545 occurred in this machine\n\nPlease check the attached log file and advice. If there is no way to solve the error, we will perform warranty process for module CPU. This is urgent case since customer machine is in breakdown mode.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gDvhqYAC"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000k1wqiYAA"
     },
     {
         "DATE": "2026-01-07T09:22:32+00:00",
@@ -23895,13 +23895,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000c12BrYAI"
     },
     {
-        "DATE": "2025-12-24T02:08:12+00:00",
-        "CC NUMBER": "NEW:CC-0068958",
+        "DATE": "2026-01-19T08:44:59+00:00",
+        "CC NUMBER": "NEW:CC-0069895",
         "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
-        "TOPIC": "Normal[GOERTEK MICROELECTRONICS VINA CO., LTD.]_Question about NXTR floor conditions for machine installation_[NXTR]",
-        "Communication Content": "Dear call center\n\nWe have new machines installation in customer site. But after installation, due to customer factory 's floor condition, the machines vibration is too high to operate.\n\nRefer to NXTR specification manual. The condition for NXTR installation is : \"Flat concrete floor, Maximum load capacity (load capacity):4,900 N/m2 or more (6,800 N/m2 or more is recommended)\".\n\nFrom my visual check in customer site, customer floor type is \"raised floor\" type, it is not \"Flat concrete\" type.  We already informed customer this point. Look like the floor condition is not qualified for installation\n\nMy question is about the term \"Load capacity):4,900 N/m2 or more (6,800 N/m2 or more is recommended)\". Can you advice what instrument to measure the \"Load capacity\" spec ? For NXTR installation with \"raised floor\" type , can you advice the solution to decrease vibration?\n\nThank\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000evAeoYAE"
+        "TOPIC": "Urgent[GOERTEK MICROELECTRONICS VINA CO., LTD.]_M2M cannot transmit board skip information to the LCU._[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\n-At GoerMicro Vietnam, M2M and SECS/GEM are used to perform remote board skip.\n\n-After connecting M2M and completing all related settings, we tested M2M panel ID reading. The panel ID was read normally, and board skip information was successfully sent to the remote board skip folder on the LCU via SECS/GEM.\n\n-However, when the NXTR machine is started for production testing, although M2M can read the panel ID successfully, the board skip information is not transferred to the LCU RemoteBS folder.\n\n-When disconnecting M2M and switching to the NXTR mark camera to read the panel ID, the board skip information is transferred to the LCU normally via SECS/GEM, and the production line operates normally.\n\n-When switching back to M2M panel ID reading, currently, regardless of whether the NXTR machine is started or not, no board skip information is transferred to the LCU folder.\n\n-Currently, the NXTR mark camera is being used to read the panel ID for board skip in the production line.\n\nThank\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE"
     },
     {
         "DATE": "2025-12-24T00:48:23+00:00",
@@ -27000,13 +27000,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SSBoVYAX"
     },
     {
-        "DATE": "2025-11-18T04:54:38+00:00",
-        "CC NUMBER": "NEW:CC-0067181",
+        "DATE": "2026-01-15T08:21:01+00:00",
+        "CC NUMBER": "NEW:CC-0069740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_HOSTIF issue -Machine didn't stop after receive STOPEQUIP command from upper host_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nI would like to inform the issue of Luxshare Nghe An as below info:\n\n1. Phenomenon : NXTR machine didn't stop after customer EAP system sent STOPEQUIP command to machine.\n\n2. Machine information :\n\nLine : Line 6             Machine : NXTR-6B\n\n3. Time of issue : 17/11/2025 ~ 15:10\n\n4. Environment detail :\n\nNexim version : 3.1.20          NXTR version: 2.2Bc\n\nPlease refer to attached file for trace data and help to advice this case.\n\n1. Central server log\n\n2. MC log file of 17/11/2025 (Copied from LCU PC)\n\n3. Nexim log file\n\n4. HostIF log file\n\nNote : Customer inform that after we upgrade Nexim from 3.0 to 3.1.20, the NXTR machine couldn't stop after receiving stop command from customer host. There is no similar issue happen to NXT3 machine.\n\nThank and BR\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_[NXTR]",
+        "Communication Content": "Dear call center\n\nOur customer have a lot of malfunction feeders W08t. After investigation we found some information as below:\n\n1. There are many W08t feeders that are set on the module, the red LED on the feeders turns on and the feeder\n\ndoes not operate. => After swap feeder main control board, the feeder can operate normally\n\n2. There are many W08t feeders that are set on the module, no LED turns on and the feeder\n\ndoes not operate as well. => After swap main control board fuse F1 only ( plese see the attached picture),the fuse will be blown again =>  After swap feeder main control board, the feeder can operate normally\n\nBased on Technical report  24014, we believe that customer worker 's mistake in operation with W08t feeder might be the cause of issue.\n\nPlease help to answer in these question :\n\n1. In what circumstance, the F1 and F2 of W08t main control board will be blown, can you share the electrical schematic of W08t that show the circuit of F1 and F2, what do F1 and F2 protect?\n\n2. Based on T24014, if worker pull on the tape instead of using the operation panel. We know that the control board will be damaged . Besides , what will happen to the F1, F2 at that time. It will be blown or not?\n\n3. For the damaged of board cause by pulling on the tape, can we recovery the board by replacing the fuse F1, F2?\n\nThank\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000agIa7YAE"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
     },
     {
         "DATE": "2025-11-18T04:54:18+00:00",
@@ -28197,13 +28197,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZbYppYAF"
     },
     {
-        "DATE": "2025-11-08T08:40:18+00:00",
-        "CC NUMBER": "NEW:CC-0066704",
+        "DATE": "2026-01-13T04:34:11+00:00",
+        "CC NUMBER": "NEW:CC-0069571",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nI would like to inform the error of NXTR machine as below information:\n\nPhenomenon : After production completed on M6-R lane 1, sometimes panel transfer to M7 and didn't stop in M6L center point to perform production and panel stuck between M6-L and M7. ( several times a day ). There is no similar issue with lane 2.\n\nModule 6 report an error: 87650786\n\nModule 7 report an error: 87650786\n\nAction history :\n\n1. Clean conveyor belt => Can't clear error\n\n2.Replace amplifier of lane 1 M6L => Can't clear error\n\n3.When the issue occurred => Manual move conveyor to temporary troubleshoot issue\n\n4. Check job setting, adjust panel pass sensor sensitivity => Can't clear error\n\n5. Update NXTR machine software 2.1Sc -> 2.2Bc => Can't clear error\n\nPlease check the attached trace data and help to provide an advice.\n\nBR\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about \"Nexim Database Backup and Restore Tool\"_[Nexim]",
+        "Communication Content": "Dear Call Center\n\nOur customer create many table in fujidb Oracle database. They use \"Nexim Database Backup and Restore Tool\" that storage in \"C:\\Nexim\\Client\\Bin\\NeximDBManagement.exe\" to daily back up fujidb data. Can you please advice, if we use the tool, all table of fujidb included tables that customer created will be exported or just original tables will be exported ?\n\nThank\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gly2CYAQ"
     },
     {
         "DATE": "2025-11-08T07:12:05+00:00",
@@ -29178,13 +29178,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000YBa32YAD"
     },
     {
-        "DATE": "2025-10-28T03:23:53+00:00",
-        "CC NUMBER": "NEW:CC-0066116",
+        "DATE": "2026-01-07T11:50:58+00:00",
+        "CC NUMBER": "NEW:CC-0069339",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Placing head RH08  error 00001910_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nI would like to inform the error of RH08 placing head as below information, can you help advice the solution for this case, what part to be replaced?\n\nError code : 00001910 Sub code : 00000000\n\nHead SN : HB1012 0001224\n\nTroubleshoot action:\n\n1. Check mechanical parts of placing head, all are normal.\n\n2. Check Z axis lever, set the lever to normal position. The 1910 error still occur\n\n3. Restart machine. The 1910 error still occur\n\nPlease refer to the attached file for trace data\n\nBR\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Patch to solve error 6709ffff happened when open Nexim job_[NXTR]",
+        "Communication Content": "Dear Call center\n\nOur customer encounter error 6709ffff when opening nexim job data. I search from Fuji community and found that in the CC-0026806, the path to solve this issue is \"2047_DBUpdate_DeleteErrorTrackChange.zip\". Can you please provide this patch.\n\nThank\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Y9RaGYAV"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gDvhqYAC"
     },
     {
         "DATE": "2025-10-28T03:06:43+00:00",
@@ -30096,13 +30096,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SVwywYAD"
     },
     {
-        "DATE": "2025-10-15T10:33:54+00:00",
-        "CC NUMBER": "NEW:CC-0065481",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Very Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR-S module 2RV show 879A2D18 error after turn power machine_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nWe have an issue on the process turn on module. Detail in below:\n\nWhen turn on module occour error 2D18: Unable to wake servos. On the Head right side cannot recognized on machine. Currently issue already resolve due to we swap module and power bracket 1 unit. But we need the investigate the root cause. Please analysis trace data and give us advice.\n\nAction:\n\n- Check status of wiring at M3 belong module CPU and reconnect all wiring module CPU: same error\n\n-  Check all signal of head IO on machine: Head right cannot connect module, Check have not I/O signal transmissions even possible  power on Head right\n\n⁠- Remove head, inspection jack connect and replace new head: same error\n\n- EMG module : same error\n\n- Update version NXTR from 2.2 to 2.2BC and update various software ( purpose to update version of the Head): cannot update software for the Head because same version\n\n- Update version NXTR from 2.2BC to 2.1SC and update version for the Head: same error\n\n- Check the connect wiring M3 between  CPU board and Servo amplifier. And Swap Servo amplifier: same error\n\n- Swap CPU board to check: same error. Return CPU board\n\n- Swap module 1 of line 3 to check (Module use version 2.2), after turn off and restart module cannot automation update Servo: same error\n\n- Swap power bracket to check, after turn off and restart module automation update Servo: issue clear\n\n- Return module 1 of line 4 to check (Module use version 2.1SC): same error 2D18, restart module to check but not yet resolve issue\n\n- Swap module 1 of line 3: the Machine normal condition\n\nThank you!",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Wn9ULYAZ"
+        "DATE": "2025-12-24T02:08:12+00:00",
+        "CC NUMBER": "NEW:CC-0068958",
+        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
+        "TOPIC": "Normal[GOERTEK MICROELECTRONICS VINA CO., LTD.]_Question about NXTR floor conditions for machine installation_[NXTR]",
+        "Communication Content": "Dear call center\n\nWe have new machines installation in customer site. But after installation, due to customer factory 's floor condition, the machines vibration is too high to operate.\n\nRefer to NXTR specification manual. The condition for NXTR installation is : \"Flat concrete floor, Maximum load capacity (load capacity):4,900 N/m2 or more (6,800 N/m2 or more is recommended)\".\n\nFrom my visual check in customer site, customer floor type is \"raised floor\" type, it is not \"Flat concrete\" type.  We already informed customer this point. Look like the floor condition is not qualified for installation\n\nMy question is about the term \"Load capacity):4,900 N/m2 or more (6,800 N/m2 or more is recommended)\". Can you advice what instrument to measure the \"Load capacity\" spec ? For NXTR installation with \"raised floor\" type , can you advice the solution to decrease vibration?\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000evAeoYAE"
     },
     {
         "DATE": "2025-10-15T09:23:47+00:00",
@@ -32400,13 +32400,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000TaHkqYAF"
     },
     {
-        "DATE": "2025-09-16T02:59:20+00:00",
-        "CC NUMBER": "NEW:CC-0064204",
-        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8CB3 occurred during production._生産中に8CB3が発生。[Nexim]",
-        "Communication Content": "Dear Call Center\n\nSuddenly, an 8CB3 error occurred during production.\n\nThe machine could not be started by clearing the error, and restarting the machine did not recover the error.\n\nThe error was 67440025 in the accessory communication check, so we restarted the Central service from the LCU console and it was restored.\n\nPlease check the following.\n\nPing did not pass when the error occurred.\n\nThe error module is not connected with 67440025 error in the accessory communication check.\n\nAll services are operating normally according to the LCU service check.\n\nWe thought it might be a network problem, but it was recovered by restarting the Central service. Therefore, since we do not know where the problem is, we would like you to check if there is any problem with ServiceProvider or other services.\n\nThe customer has a total of 5 lines, but the problem occurred on Line 1 and Line 6.\n\nFirst, the problem occurred in module 4 and 5 of Line 6.\n\nWhile troubleshooting, the problem also occurred on Line1.\n\nThe timeline is as follows\n\nLine6\n\n8:59 : 876861c2\n\n8:59 : 94810000\n\n8:59 : 87670000\n\n9:00 : 8CB361C2\n\n9:00 : CONNECTOFF\n\n9:02 : 8CB361C2\n\n9:09 : 8CB361C2\n\n9:14 : MCON\n\n9:43 : Centralservice Restrat\n\n9:45 : TRANSMISTION jOB\n\nLine1\n\n9:27 : 876507A4\n\n9:28 : Connectoff\n\n9:35 : MCON\n\narount 10:00 : central service restrat\n\n10:02 : machine OFF\n\n10:06 : machine on\n\nTime-specified traces, Central, Profiler, ServiceProvider, and ProdcuDB are acquired individually.",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000U2m2ZYAR"
+        "DATE": "2025-11-18T04:54:38+00:00",
+        "CC NUMBER": "NEW:CC-0067181",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_HOSTIF issue -Machine didn't stop after receive STOPEQUIP command from upper host_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the issue of Luxshare Nghe An as below info:\n\n1. Phenomenon : NXTR machine didn't stop after customer EAP system sent STOPEQUIP command to machine.\n\n2. Machine information :\n\nLine : Line 6             Machine : NXTR-6B\n\n3. Time of issue : 17/11/2025 ~ 15:10\n\n4. Environment detail :\n\nNexim version : 3.1.20          NXTR version: 2.2Bc\n\nPlease refer to attached file for trace data and help to advice this case.\n\n1. Central server log\n\n2. MC log file of 17/11/2025 (Copied from LCU PC)\n\n3. Nexim log file\n\n4. HostIF log file\n\nNote : Customer inform that after we upgrade Nexim from 3.0 to 3.1.20, the NXTR machine couldn't stop after receiving stop command from customer host. There is no similar issue happen to NXT3 machine.\n\nThank and BR\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000agIa7YAE"
     },
     {
         "DATE": "2025-09-15T14:46:26+00:00",
@@ -34110,13 +34110,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Rm83sYAB"
     },
     {
-        "DATE": "2025-08-27T02:38:05+00:00",
-        "CC NUMBER": "NEW:CC-0063363",
+        "DATE": "2025-11-08T08:40:18+00:00",
+        "CC NUMBER": "NEW:CC-0066704",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal noise and interference of the NXTR module during operation are caused by loose bolts_[NXTR]",
-        "Communication Content": "Dear Call Center\n\nI would like to inform the issue of NXTR 2RV modue that we are facing in Luxshare Nghe An customer.\n\nMachine information:\n\nLine 2 : Installation date : August 2025\n\nCPK test date : 30/7/2025\n\nMass production time : From 8/2025\n\nAbnormal noise module : Module 2 R side\n\nModule seral number HEBC21 0000634 Module type : S2V\n\nBase SN : SE0200866\n\nIssue : When machine operate, we can clearly hear the abnormal noise. The bold that connect Y-axis Flat cable to the Y axis actuator is loosen, cause the noise. Please refer to the attach video for your detail\n\nOur request : We tried to attach the bolts that connect Y-axis flat cable to the Y-axis actuator, but we find no way to do it under customer site condition. Please advice us the performing procedure\n\nThank and BR\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the error of NXTR machine as below information:\n\nPhenomenon : After production completed on M6-R lane 1, sometimes panel transfer to M7 and didn't stop in M6L center point to perform production and panel stuck between M6-L and M7. ( several times a day ). There is no similar issue with lane 2.\n\nModule 6 report an error: 87650786\n\nModule 7 report an error: 87650786\n\nAction history :\n\n1. Clean conveyor belt => Can't clear error\n\n2.Replace amplifier of lane 1 M6L => Can't clear error\n\n3.When the issue occurred => Manual move conveyor to temporary troubleshoot issue\n\n4. Check job setting, adjust panel pass sensor sensitivity => Can't clear error\n\n5. Update NXTR machine software 2.1Sc -> 2.2Bc => Can't clear error\n\nPlease check the attached trace data and help to provide an advice.\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SSBoVYAX"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF"
     },
     {
         "DATE": "2025-08-27T01:56:13+00:00",
@@ -34434,13 +34434,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S1Gc8YAF"
     },
     {
-        "DATE": "2025-08-22T03:55:04+00:00",
-        "CC NUMBER": "NEW:CC-0063173",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Top cover of module NXTR-S was deformation, bending_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nI would like to inform the deformation, bending issues that happen to top cover of some new module NXTR-S of LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD.\n\nAffected machine\n\n1. Base : SE0202165\n\nModule : 733,734\n\nMFG Date : July 2025\n\n2. Base : SE0202166\n\nModule : 847\n\nMFG Date : July 2025\n\n3. Base : SE0202164\n\nModule : 1294\n\nMFG Date : July 2025\n\n4. Base : SE0202163\n\nModule : 731, 732\n\nMFG Date : Jul 2025\n\nIssue happen date : 11/8/2025\n\nReason : During new line installation, customer put above machine outdoor. Machines exposure to direct sunlight.\n\nPlease advice for this case, can FUJI accept warranty for these top cover.\n\nIf not, the customer requests an official statement from FUJI regarding the recommended storage  conditions for the top covers (e.g., temperature, humidity, exposure limits, etc.). Due to the customer’s current situation, they have no space to store the machine indoors. Therefore, they will have to place the machine outdoors again. They are now questioning the quality of the top cover.\n\nI attached image and video. Please check\n\nThank and BR\n\nTan",
+        "DATE": "2025-10-28T03:23:53+00:00",
+        "CC NUMBER": "NEW:CC-0066116",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Placing head RH08  error 00001910_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the error of RH08 placing head as below information, can you help advice the solution for this case, what part to be replaced?\n\nError code : 00001910 Sub code : 00000000\n\nHead SN : HB1012 0001224\n\nTroubleshoot action:\n\n1. Check mechanical parts of placing head, all are normal.\n\n2. Check Z axis lever, set the lever to normal position. The 1910 error still occur\n\n3. Restart machine. The 1910 error still occur\n\nPlease refer to the attached file for trace data\n\nBR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S3aemYAB"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Y9RaGYAV"
     },
     {
         "DATE": "2025-08-22T01:36:04+00:00",
@@ -35262,13 +35262,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IezGUYAZ"
     },
     {
-        "DATE": "2025-08-08T17:08:39+00:00",
-        "CC NUMBER": "NEW:CC-0062684",
-        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
-        "TOPIC": "Not Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_Encountering an error with error code 8F55 on RH28_[NXTR-S]",
-        "Communication Content": "Dear Call Center\n\nWe are encountering an error with error code 8F55 on RH28 (even though there is no nozzle on the head) when running APAM\n\nWe performed a checksum and found out that the signal of Z1,Z2 sensor nozzle present check is abnormal.\n\nI have collected tracking data and created a engineer report for this issue, please analyze if there is any problem with this head RH28\n\nAction:\n\n- Check status of all holders: Normal.\n\n- Clean IPS and fluorescent parts: Same error.\n\n- Check IPS error image on LCUweb: No image available.\n\n- Replace new head RH28 to run APAM.\n\n - Perform arlam reset: Not fix\n\n - Replace new battery and perform MT-reset: Not fix.\n\n - Check IO signal of Z1,Z2 sensor nozzle present check on machine:  signal abnormal.\n\n- Get Trace data to analyze error.\n\nPlease advise us next step",
+        "DATE": "2025-10-15T10:33:54+00:00",
+        "CC NUMBER": "NEW:CC-0065481",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Very Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR-S module 2RV show 879A2D18 error after turn power machine_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nWe have an issue on the process turn on module. Detail in below:\n\nWhen turn on module occour error 2D18: Unable to wake servos. On the Head right side cannot recognized on machine. Currently issue already resolve due to we swap module and power bracket 1 unit. But we need the investigate the root cause. Please analysis trace data and give us advice.\n\nAction:\n\n- Check status of wiring at M3 belong module CPU and reconnect all wiring module CPU: same error\n\n-  Check all signal of head IO on machine: Head right cannot connect module, Check have not I/O signal transmissions even possible  power on Head right\n\n⁠- Remove head, inspection jack connect and replace new head: same error\n\n- EMG module : same error\n\n- Update version NXTR from 2.2 to 2.2BC and update various software ( purpose to update version of the Head): cannot update software for the Head because same version\n\n- Update version NXTR from 2.2BC to 2.1SC and update version for the Head: same error\n\n- Check the connect wiring M3 between  CPU board and Servo amplifier. And Swap Servo amplifier: same error\n\n- Swap CPU board to check: same error. Return CPU board\n\n- Swap module 1 of line 3 to check (Module use version 2.2), after turn off and restart module cannot automation update Servo: same error\n\n- Swap power bracket to check, after turn off and restart module automation update Servo: issue clear\n\n- Return module 1 of line 4 to check (Module use version 2.1SC): same error 2D18, restart module to check but not yet resolve issue\n\n- Swap module 1 of line 3: the Machine normal condition\n\nThank you!",
         "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IezDaYAJ"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Wn9ULYAZ"
     },
     {
         "DATE": "2025-08-08T16:36:12+00:00",
@@ -37809,22 +37809,22 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ"
     },
     {
-        "DATE": "2025-06-27T04:28:46+00:00",
-        "CC NUMBER": "NEW:CC-0060627",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.1 Sc  and version 2.2_[NXTR-S]",
-        "Communication Content": "Dear call center,\n\nI have a question and need your advice, please help.\n\nWe have new factory ,we are planning to install nexim version 2.1Sc. Can you confirm that the adjustment of software in 2.1 Sc will be carried over to upcoming new version NXTR 2.2 ? In case new version 2.2 can cover all before issue, so we will consider to install this version instead of 2.1Sc. Can you share the newest NXTR 2.2 software?\n\n The current new machine in factory are installed with NXTR 2.12. I check the upgrade report , 2.12 released date is april 2025, the 2.1Sc released date is Jun 2025, that mean 2.1 Sc is newest than 2.12, and 2.1Sc include 2.12 modification ,is this true? In case we dont have NXTR 2.2 version, we plan to upgrade from 2.12 to 2.1Sc. Is this Ok? Please advice.\n\nThank\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLI2YAN"
+        "DATE": "2025-09-16T02:59:20+00:00",
+        "CC NUMBER": "NEW:CC-0064204",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8CB3 occurred during production._生産中に8CB3が発生。[Nexim]",
+        "Communication Content": "Dear Call Center\n\nSuddenly, an 8CB3 error occurred during production.\n\nThe machine could not be started by clearing the error, and restarting the machine did not recover the error.\n\nThe error was 67440025 in the accessory communication check, so we restarted the Central service from the LCU console and it was restored.\n\nPlease check the following.\n\nPing did not pass when the error occurred.\n\nThe error module is not connected with 67440025 error in the accessory communication check.\n\nAll services are operating normally according to the LCU service check.\n\nWe thought it might be a network problem, but it was recovered by restarting the Central service. Therefore, since we do not know where the problem is, we would like you to check if there is any problem with ServiceProvider or other services.\n\nThe customer has a total of 5 lines, but the problem occurred on Line 1 and Line 6.\n\nFirst, the problem occurred in module 4 and 5 of Line 6.\n\nWhile troubleshooting, the problem also occurred on Line1.\n\nThe timeline is as follows\n\nLine6\n\n8:59 : 876861c2\n\n8:59 : 94810000\n\n8:59 : 87670000\n\n9:00 : 8CB361C2\n\n9:00 : CONNECTOFF\n\n9:02 : 8CB361C2\n\n9:09 : 8CB361C2\n\n9:14 : MCON\n\n9:43 : Centralservice Restrat\n\n9:45 : TRANSMISTION jOB\n\nLine1\n\n9:27 : 876507A4\n\n9:28 : Connectoff\n\n9:35 : MCON\n\narount 10:00 : central service restrat\n\n10:02 : machine OFF\n\n10:06 : machine on\n\nTime-specified traces, Central, Profiler, ServiceProvider, and ProdcuDB are acquired individually.",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000U2m2ZYAR"
     },
     {
-        "DATE": "2025-06-27T02:24:20+00:00",
-        "CC NUMBER": "NEW:CC-0060615",
+        "DATE": "2025-08-27T02:38:05+00:00",
+        "CC NUMBER": "NEW:CC-0063363",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Set location button is disappear when performing part supply in tray RM_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue happen to NXTR-S machine as below detail:\n\n1. Issue : Set location button is disappear when performing part supply in tray RM ( see the picture in attached file )\n\n2. Machine type : NXTR-S, Tray RM\n\n3. Short brief : When part is run out, the worker perform part supply for Tray RM, when the work set the location of pick up start part, the confirm button is disappear. The issue can clear after the re-start machine.\n\n4. Happen time: 20250625 15:30.\n\nLine : Line 8; Machine : NXTR 8B; Module 1.\n\nPlease refer to attach file, i got picture, job data and trace data as well\n\nThanks and Best Regards\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal noise and interference of the NXTR module during operation are caused by loose bolts_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the issue of NXTR 2RV modue that we are facing in Luxshare Nghe An customer.\n\nMachine information:\n\nLine 2 : Installation date : August 2025\n\nCPK test date : 30/7/2025\n\nMass production time : From 8/2025\n\nAbnormal noise module : Module 2 R side\n\nModule seral number HEBC21 0000634 Module type : S2V\n\nBase SN : SE0200866\n\nIssue : When machine operate, we can clearly hear the abnormal noise. The bold that connect Y-axis Flat cable to the Y axis actuator is loosen, cause the noise. Please refer to the attach video for your detail\n\nOur request : We tried to attach the bolts that connect Y-axis flat cable to the Y-axis actuator, but we find no way to do it under customer site condition. Please advice us the performing procedure\n\nThank and BR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLB9YAN"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SSBoVYAX"
     },
     {
         "DATE": "2025-06-27T02:05:57+00:00",
@@ -37890,13 +37890,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB"
     },
     {
-        "DATE": "2025-06-19T03:48:27+00:00",
-        "CC NUMBER": "NEW:CC-0060199",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Jobdatabase maintenance_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nOur customer have operated Nexim system for quite long time. Recently, we face some issue like:\n\n1. Open job, edit shape data, part data , job data take long time\n\n2. send job to machine take long time\n\n3. Optimize job take long time\n\nOnsite support did some proactive action to cleane database such as:\n\n1. Delete operator log data with operatortrace exporter software\n\n2. Delete all DID that QTY=0\n\nFor futher action, we plan to use the tool released by Fuji in technical report T210251-1 to perform jobdatabase maintenance, please help to confirm the following:\n\n1. Can i use the tool to do maintenance for neximdb ver 3.0.27? are there any risk?\n\n2. We plan upgrade database in future. Will the database upgrade also perform maintenance?if so,that mean we dont need to do jobdatabase maintenance?\n\nThank\n\nTan",
+        "DATE": "2025-08-22T03:55:04+00:00",
+        "CC NUMBER": "NEW:CC-0063173",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Top cover of module NXTR-S was deformation, bending_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the deformation, bending issues that happen to top cover of some new module NXTR-S of LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD.\n\nAffected machine\n\n1. Base : SE0202165\n\nModule : 733,734\n\nMFG Date : July 2025\n\n2. Base : SE0202166\n\nModule : 847\n\nMFG Date : July 2025\n\n3. Base : SE0202164\n\nModule : 1294\n\nMFG Date : July 2025\n\n4. Base : SE0202163\n\nModule : 731, 732\n\nMFG Date : Jul 2025\n\nIssue happen date : 11/8/2025\n\nReason : During new line installation, customer put above machine outdoor. Machines exposure to direct sunlight.\n\nPlease advice for this case, can FUJI accept warranty for these top cover.\n\nIf not, the customer requests an official statement from FUJI regarding the recommended storage  conditions for the top covers (e.g., temperature, humidity, exposure limits, etc.). Due to the customer’s current situation, they have no space to store the machine indoors. Therefore, they will have to place the machine outdoors again. They are now questioning the quality of the top cover.\n\nI attached image and video. Please check\n\nThank and BR\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie9tgYAB"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S3aemYAB"
     },
     {
         "DATE": "2025-06-19T02:57:50+00:00",
@@ -37944,13 +37944,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB"
     },
     {
-        "DATE": "2025-06-17T05:06:27+00:00",
-        "CC NUMBER": "NEW:CC-0060075",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal sound occurs during pick and place process with RH28 head_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nI would like to report a phenomenon related to NXTR-S RH28 placing head, that occurred at Luxshare Precision (Yi'an), as detailed below:\n\n1. Phenomenon : Abnormal sound occurs during pick and place process with RH28 head ( like knocking sound )\n\n2. Affected line : line 8, RH28\n\n3. Job name:\n\nS8-6.01.0037-LX.006021129 PS-MAIN-BT-1.0-0+9 _ X2 ( refer trace )\n\n4. Video of phenomenon\n\nhttps://fujimachineasia-my.sharepoint.com/:v:/g/personal/tan_fuji-smt_com_sg/EeZyMz0Co6hOm-T__QlJQNoBCBSUd_9FMlkQGSWCeqRQqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zj9rDe\n\n5. Please refer this trace data\n\nhttps://fujimachineasia-my.sharepoint.com/:u:/g/personal/tan_fuji-smt_com_sg/ES69wAQupRtHhU6y51SEY4EBk1q8zvEtePBd_7sTaPaTiA?e=tfCIf5\n\nNote: I will update other investigation data when customer change job model, we are follow this phenomenon. Up to now this is the 1st time we face this phenomenon,this job data is the 1st time to be used in line 8\n\nThank\n\nTaN",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB"
+        "DATE": "2025-08-08T17:08:39+00:00",
+        "CC NUMBER": "NEW:CC-0062684",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Not Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_Encountering an error with error code 8F55 on RH28_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nWe are encountering an error with error code 8F55 on RH28 (even though there is no nozzle on the head) when running APAM\n\nWe performed a checksum and found out that the signal of Z1,Z2 sensor nozzle present check is abnormal.\n\nI have collected tracking data and created a engineer report for this issue, please analyze if there is any problem with this head RH28\n\nAction:\n\n- Check status of all holders: Normal.\n\n- Clean IPS and fluorescent parts: Same error.\n\n- Check IPS error image on LCUweb: No image available.\n\n- Replace new head RH28 to run APAM.\n\n - Perform arlam reset: Not fix\n\n - Replace new battery and perform MT-reset: Not fix.\n\n - Check IO signal of Z1,Z2 sensor nozzle present check on machine:  signal abnormal.\n\n- Get Trace data to analyze error.\n\nPlease advise us next step",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IezDaYAJ"
     },
     {
         "DATE": "2025-06-16T11:05:20+00:00",
@@ -38043,13 +38043,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdxHKYAZ"
     },
     {
-        "DATE": "2025-06-06T06:50:35+00:00",
-        "CC NUMBER": "NEW:CC-0059600",
+        "DATE": "2025-06-27T04:28:46+00:00",
+        "CC NUMBER": "NEW:CC-0060627",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Error 6709ffff occured when open Nexim job_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of Nexim software as below informations:\n\nCustomer : Luxshare Precision (Yi'an)\n\nAffected line : All line machine\n\nIssue : 23:30 2025.06.03, when factory engineer change package of material for line 5 --> they cannot open job to edit (Err code: 6709ffff) then FMV enginner check and find that we can not open all nexim job, the error 6709ffff occured\n\nEngineer troubleshoot activity :\n\n1. Try edit job on another  Nexim PC(Clinet PC, Line server, System PC),same issue occured.\n\n2. Try reset Nexim service of Systemserver PC, Job database PC: same error\n\n3. Try to re-update system layout and try use Medit to edit job to check : Medit can work but Nexim cant open job,same issue occured.\n\n4. Import a back up job then check again : same issue occured.\n\n5. Reset all PC of Nexim system and reconnect System server PC to neximDB with databaseconnect change function: same issue occured.\n\n6. Perform backup NeximDB then update NeximDB : This action can clear issue.\n\nI try to search in SF with this error code but i cant find the similar case for reference. Please help to advice.\n\nI got the trace data , pleaser refer and advice.\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EviOwZ0MPbtJnQ2e5MlTQ9sBeDdl4qKIQqZwr8pcchIdCQ?e=nAOHgD\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EviOwZ0MPbtJnQ2e5MlTQ9sBeDdl4qKIQqZwr8pcchIdCQ?e=QC5gTS\n\nThank\n\nTan",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.1 Sc  and version 2.2_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nI have a question and need your advice, please help.\n\nWe have new factory ,we are planning to install nexim version 2.1Sc. Can you confirm that the adjustment of software in 2.1 Sc will be carried over to upcoming new version NXTR 2.2 ? In case new version 2.2 can cover all before issue, so we will consider to install this version instead of 2.1Sc. Can you share the newest NXTR 2.2 software?\n\n The current new machine in factory are installed with NXTR 2.12. I check the upgrade report , 2.12 released date is april 2025, the 2.1Sc released date is Jun 2025, that mean 2.1 Sc is newest than 2.12, and 2.1Sc include 2.12 modification ,is this true? In case we dont have NXTR 2.2 version, we plan to upgrade from 2.12 to 2.1Sc. Is this Ok? Please advice.\n\nThank\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdxHKYAZ"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLI2YAN"
     },
     {
         "DATE": "2025-06-04T14:33:37+00:00",
@@ -38070,13 +38070,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ"
     },
     {
-        "DATE": "2025-06-03T10:22:22+00:00",
-        "CC NUMBER": "NEW:CC-0059413",
+        "DATE": "2025-06-27T02:24:20+00:00",
+        "CC NUMBER": "NEW:CC-0060615",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_AVL data suddenly lost_[Nexim]",
-        "Communication Content": "Dear Call Center,\n\nI would like to report an issue related to NEXIM that occurred at Luxshare Precision (Yi'an), as detailed below:\n\nAffected Line: Line 7 – All Modules\n\nIssue: AVL data was suddenly lost. The machine occured an error, and the operator need to re-import the AVL data.\n\nAVL Function Type: Simple AVL\n\nOccurrence Time: Approximately 9:30 AM – 9:43 AM\n\nPlease refer to below data link, i got the trace data of line 7. I also got trace data from Nexim fujidb database PC. My opinion is: Due to customer use Host interface, they developed and used their own software to verify part, control related AVL data etc , there for, i think the Mes system of customer may affect to our Nexim Fujidb \"AVLList\" table, look like some software deleted this data. Please advice more.\n\nhttps://fujimachineasia-my.sharepoint.com/:u:/g/personal/tan_fuji-smt_com_sg/EfXROkRqkFVLrY0RXmyKrRcBdy9zoN6PCYMCDL5RCv2EJA?e=61HBjC\n\nPlease note : This issue happen several times before,not only happen to line 7,it happen to other line also. I observered this issue for long time . Below data link is for other case, but it is same phenomenon, AVL data suddenly lost, operator need import AVL file again. Please check\n\nLine 6 :\n\n https://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EiwPv9Nf2_JGlsEBARSupQcBO4RJNce2UzNoH73cAweNfw?e=G7UKwf\n\nLine 7:\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/En_ucpqBZU5FhAVzeiS2C9sBapRSndhKF3lUhIMyDOEHdg?e=JaRFOj\n\nThank\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Set location button is disappear when performing part supply in tray RM_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue happen to NXTR-S machine as below detail:\n\n1. Issue : Set location button is disappear when performing part supply in tray RM ( see the picture in attached file )\n\n2. Machine type : NXTR-S, Tray RM\n\n3. Short brief : When part is run out, the worker perform part supply for Tray RM, when the work set the location of pick up start part, the confirm button is disappear. The issue can clear after the re-start machine.\n\n4. Happen time: 20250625 15:30.\n\nLine : Line 8; Machine : NXTR 8B; Module 1.\n\nPlease refer to attach file, i got picture, job data and trace data as well\n\nThanks and Best Regards\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLB9YAN"
     },
     {
         "DATE": "2025-06-02T02:21:05+00:00",
@@ -38106,13 +38106,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdnIPYAZ"
     },
     {
-        "DATE": "2025-05-28T02:47:17+00:00",
-        "CC NUMBER": "NEW:CC-0059145",
+        "DATE": "2025-06-19T03:48:27+00:00",
+        "CC NUMBER": "NEW:CC-0060199",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Autoload job in NXTR machine_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of NXTR-S 2RV module as below informations:\n\nLine 8: Module 5,6,7,8\n\nIssue:\n\n1.During production, machine automatically load job at lane 2 of module 5,6,7,8. The other module 1,2,3,4 didnt happen this issue.\n\n2.There are 2 different job in lane 2 of module 5\n\nBefore issue :\n\nModule 5,6,7,8\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 T XF\n\nAfter issue :\n\nModule 5\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 T XF /  122-000U70-001H-LINE 8 B XF\n\nModule 6,7,8\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 B XF\n\nOur temporary troubleshoot action:\n\n1. Take out completed panel\n\n2. Clear panel memory\n\n3. Delete job in machine\n\n4. Re-transmiss job again\n\nI got the trace data and related evidence picture, pleaser refer and advice.\n\nThank\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Jobdatabase maintenance_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nOur customer have operated Nexim system for quite long time. Recently, we face some issue like:\n\n1. Open job, edit shape data, part data , job data take long time\n\n2. send job to machine take long time\n\n3. Optimize job take long time\n\nOnsite support did some proactive action to cleane database such as:\n\n1. Delete operator log data with operatortrace exporter software\n\n2. Delete all DID that QTY=0\n\nFor futher action, we plan to use the tool released by Fuji in technical report T210251-1 to perform jobdatabase maintenance, please help to confirm the following:\n\n1. Can i use the tool to do maintenance for neximdb ver 3.0.27? are there any risk?\n\n2. We plan upgrade database in future. Will the database upgrade also perform maintenance?if so,that mean we dont need to do jobdatabase maintenance?\n\nThank\n\nTan",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdnIPYAZ"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie9tgYAB"
     },
     {
         "DATE": "2025-05-12T07:15:21+00:00",
@@ -38124,13 +38124,13 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHaFbYAL"
     },
     {
-        "DATE": "2025-05-10T09:37:06+00:00",
-        "CC NUMBER": "NEW:CC-0058334",
+        "DATE": "2025-06-17T05:06:27+00:00",
+        "CC NUMBER": "NEW:CC-0060075",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim job optimize/On-machine editting_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of NXTR-S 2RV module as below informations :\n\nJob name : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X1\n\nIssue : In customer site,I can not perform on-machine editting shape data of part in slot 27 of Module 6, the machine has error alarm 80001B07. The data check of job is normal, job optimize is normal\n\nTroubleshoot action history in customer site for your reference:\n\n1.\tMove part 3.03.0302 to M8 slot 50\n\n2.\tMove part 1.06.0017 from M6 slot 38 to M6 slot 27\n\n3.\tLine balance, optimize job, and data check job ( Job name reference : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X2)\n\n4.\tPerform on machine editting again with part in slot 27 Module 6 , alarm  80001B07 still happen\n\n5.\tContinue action - In Module 6 : move part 1.13.0005 to slot 2, part 1.07.0004 to slot 5, part 2.03.0041 to slot 8, part 1.02.0773 to slot 11,part 1.06.0001 to slot 14,part 1.07.0016 to slot 17\n\nPart 1.05.0034 to 20, part 1.07.0022 to slot 23,part 1.06.0017 to slot 26\n\n6.\tLine balance, optimize job, and data check job ( Job name reference : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X3)\n\n7.\tPerform on machine edit again with part in M6 slot 27, alarm  80001B07 didnt show again, can perform on-machine edit\n\nThank\n\nTan",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal sound occurs during pick and place process with RH28 head_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to report a phenomenon related to NXTR-S RH28 placing head, that occurred at Luxshare Precision (Yi'an), as detailed below:\n\n1. Phenomenon : Abnormal sound occurs during pick and place process with RH28 head ( like knocking sound )\n\n2. Affected line : line 8, RH28\n\n3. Job name:\n\nS8-6.01.0037-LX.006021129 PS-MAIN-BT-1.0-0+9 _ X2 ( refer trace )\n\n4. Video of phenomenon\n\nhttps://fujimachineasia-my.sharepoint.com/:v:/g/personal/tan_fuji-smt_com_sg/EeZyMz0Co6hOm-T__QlJQNoBCBSUd_9FMlkQGSWCeqRQqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zj9rDe\n\n5. Please refer this trace data\n\nhttps://fujimachineasia-my.sharepoint.com/:u:/g/personal/tan_fuji-smt_com_sg/ES69wAQupRtHhU6y51SEY4EBk1q8zvEtePBd_7sTaPaTiA?e=tfCIf5\n\nNote: I will update other investigation data when customer change job model, we are follow this phenomenon. Up to now this is the 1st time we face this phenomenon,this job data is the 1st time to be used in line 8\n\nThank\n\nTaN",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHaFbYAL"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB"
     },
     {
         "DATE": "2024-02-01T09:51:37+00:00",
@@ -38149,6 +38149,42 @@
         "Communication Content": "Dear Nguyen-san\n\nLicense registration process started.\n\nPlease wait a while.\n\nBest Regards\n\nFuji Call Center",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2025-06-06T06:50:35+00:00",
+        "CC NUMBER": "NEW:CC-0059600",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Error 6709ffff occured when open Nexim job_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of Nexim software as below informations:\n\nCustomer : Luxshare Precision (Yi'an)\n\nAffected line : All line machine\n\nIssue : 23:30 2025.06.03, when factory engineer change package of material for line 5 --> they cannot open job to edit (Err code: 6709ffff) then FMV enginner check and find that we can not open all nexim job, the error 6709ffff occured\n\nEngineer troubleshoot activity :\n\n1. Try edit job on another  Nexim PC(Clinet PC, Line server, System PC),same issue occured.\n\n2. Try reset Nexim service of Systemserver PC, Job database PC: same error\n\n3. Try to re-update system layout and try use Medit to edit job to check : Medit can work but Nexim cant open job,same issue occured.\n\n4. Import a back up job then check again : same issue occured.\n\n5. Reset all PC of Nexim system and reconnect System server PC to neximDB with databaseconnect change function: same issue occured.\n\n6. Perform backup NeximDB then update NeximDB : This action can clear issue.\n\nI try to search in SF with this error code but i cant find the similar case for reference. Please help to advice.\n\nI got the trace data , pleaser refer and advice.\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EviOwZ0MPbtJnQ2e5MlTQ9sBeDdl4qKIQqZwr8pcchIdCQ?e=nAOHgD\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EviOwZ0MPbtJnQ2e5MlTQ9sBeDdl4qKIQqZwr8pcchIdCQ?e=QC5gTS\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdxHKYAZ"
+    },
+    {
+        "DATE": "2025-06-03T10:22:22+00:00",
+        "CC NUMBER": "NEW:CC-0059413",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_AVL data suddenly lost_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nI would like to report an issue related to NEXIM that occurred at Luxshare Precision (Yi'an), as detailed below:\n\nAffected Line: Line 7 – All Modules\n\nIssue: AVL data was suddenly lost. The machine occured an error, and the operator need to re-import the AVL data.\n\nAVL Function Type: Simple AVL\n\nOccurrence Time: Approximately 9:30 AM – 9:43 AM\n\nPlease refer to below data link, i got the trace data of line 7. I also got trace data from Nexim fujidb database PC. My opinion is: Due to customer use Host interface, they developed and used their own software to verify part, control related AVL data etc , there for, i think the Mes system of customer may affect to our Nexim Fujidb \"AVLList\" table, look like some software deleted this data. Please advice more.\n\nhttps://fujimachineasia-my.sharepoint.com/:u:/g/personal/tan_fuji-smt_com_sg/EfXROkRqkFVLrY0RXmyKrRcBdy9zoN6PCYMCDL5RCv2EJA?e=61HBjC\n\nPlease note : This issue happen several times before,not only happen to line 7,it happen to other line also. I observered this issue for long time . Below data link is for other case, but it is same phenomenon, AVL data suddenly lost, operator need import AVL file again. Please check\n\nLine 6 :\n\n https://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/EiwPv9Nf2_JGlsEBARSupQcBO4RJNce2UzNoH73cAweNfw?e=G7UKwf\n\nLine 7:\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/En_ucpqBZU5FhAVzeiS2C9sBapRSndhKF3lUhIMyDOEHdg?e=JaRFOj\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ"
+    },
+    {
+        "DATE": "2025-05-28T02:47:17+00:00",
+        "CC NUMBER": "NEW:CC-0059145",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Autoload job in NXTR machine_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of NXTR-S 2RV module as below informations:\n\nLine 8: Module 5,6,7,8\n\nIssue:\n\n1.During production, machine automatically load job at lane 2 of module 5,6,7,8. The other module 1,2,3,4 didnt happen this issue.\n\n2.There are 2 different job in lane 2 of module 5\n\nBefore issue :\n\nModule 5,6,7,8\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 T XF\n\nAfter issue :\n\nModule 5\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 T XF /  122-000U70-001H-LINE 8 B XF\n\nModule 6,7,8\n\nLane 1: 122-000U70-001H-LINE 8 B XF\n\nLane 2: 122-000U70-001H-LINE 8 B XF\n\nOur temporary troubleshoot action:\n\n1. Take out completed panel\n\n2. Clear panel memory\n\n3. Delete job in machine\n\n4. Re-transmiss job again\n\nI got the trace data and related evidence picture, pleaser refer and advice.\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdnIPYAZ"
+    },
+    {
+        "DATE": "2025-05-10T09:37:06+00:00",
+        "CC NUMBER": "NEW:CC-0058334",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim job optimize/On-machine editting_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to inform the issue of NXTR-S 2RV module as below informations :\n\nJob name : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X1\n\nIssue : In customer site,I can not perform on-machine editting shape data of part in slot 27 of Module 6, the machine has error alarm 80001B07. The data check of job is normal, job optimize is normal\n\nTroubleshoot action history in customer site for your reference:\n\n1.\tMove part 3.03.0302 to M8 slot 50\n\n2.\tMove part 1.06.0017 from M6 slot 38 to M6 slot 27\n\n3.\tLine balance, optimize job, and data check job ( Job name reference : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X2)\n\n4.\tPerform on machine editting again with part in slot 27 Module 6 , alarm  80001B07 still happen\n\n5.\tContinue action - In Module 6 : move part 1.13.0005 to slot 2, part 1.07.0004 to slot 5, part 2.03.0041 to slot 8, part 1.02.0773 to slot 11,part 1.06.0001 to slot 14,part 1.07.0016 to slot 17\n\nPart 1.05.0034 to 20, part 1.07.0022 to slot 23,part 1.06.0017 to slot 26\n\n6.\tLine balance, optimize job, and data check job ( Job name reference : 6.01.0001-LX006020689 PEARL-MAIN 0+9 - CALL CENTER _ X3)\n\n7.\tPerform on machine edit again with part in M6 slot 27, alarm  80001B07 didnt show again, can perform on-machine edit\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHaFbYAL"
     },
     {
         "DATE": "2024-01-30T09:06:36+00:00",
