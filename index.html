@@ -279,18 +279,17 @@
     content: { field: "Communication Content", key: "__content" }
   };
 
-  // Selectable data sources. "default" is the normal dataset; NAT / OTHER
-  // swap the whole dataset out for a different JSON file.
-  const DATA_SOURCES = {
-    default: "data.json",
+  // NAT / OTHER buttons don't replace the dataset — they load a list of
+  // customer names from NAT.json / OTHER.json and filter data.json rows
+  // whose CUSTOMER matches something in that list.
+  const CUSTOMER_LIST_SOURCES = {
     nat: "NAT.json",
     other: "OTHER.json"
   };
 
-  const sourceCache = {};  // name -> preprocessed records, fetched once each
-  let currentSource = "default";
+  const customerListCache = {}; // "nat" | "other" -> Set of normalized customer names
 
-  let allData = [];       // records for the currently selected source
+  let allData = [];       // all records from data.json (with precomputed search fields)
   let filteredData = [];  // current filtered view
   let currentPage = 1;
 
@@ -298,7 +297,8 @@
     cc: "",
     topic: "",
     content: "",
-    newOnly: false
+    newOnly: false,
+    customerGroup: null  // null | "nat" | "other"
   };
 
   const tbody = document.getElementById("tbody");
@@ -317,7 +317,18 @@
 
   async function init() {
     try {
-      allData = await loadSource("default");
+      const res = await fetch("data.json");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      allData = data.map(item => ({
+        ...item,
+        __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
+        __topic: String(item["TOPIC"] ?? "").toLowerCase(),
+        __content: String(item["Communication Content"] ?? "").toLowerCase(),
+        __customer: normalize(item["Customer"])
+      }));
+
       filteredData = allData;
       status.remove();
       renderTable();
@@ -327,40 +338,66 @@
     }
   }
 
-  // Fetches + preprocesses a data source once, caching the result so
-  // switching between NAT / OTHER / default doesn't re-fetch every click.
-  async function loadSource(name) {
-    if (sourceCache[name]) return sourceCache[name];
+  function normalize(text) {
+    return String(text ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+  }
 
-    const res = await fetch(DATA_SOURCES[name]);
+  // Accepts several possible NAT.json / OTHER.json shapes:
+  // ["Customer A", "Customer B"]  or  [{"Customer": "Customer A"}, ...]
+  // or an object wrapping an array under some key, e.g. {"customers": [...]}.
+  function extractCustomerNames(data) {
+    if (Array.isArray(data)) {
+      return data.map(entry => {
+        if (typeof entry === "string") return entry;
+        if (entry && typeof entry === "object") {
+          const key = Object.keys(entry).find(k => /customer/i.test(k));
+          return key ? entry[key] : Object.values(entry)[0];
+        }
+        return "";
+      });
+    }
+    if (data && typeof data === "object") {
+      const arrKey = Object.keys(data).find(k => Array.isArray(data[k]));
+      if (arrKey) return extractCustomerNames(data[arrKey]);
+    }
+    return [];
+  }
+
+  // Fetches + caches the customer name list for "nat" or "other".
+  async function loadCustomerList(group) {
+    if (customerListCache[group]) return customerListCache[group];
+
+    const res = await fetch(CUSTOMER_LIST_SOURCES[group]);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    const processed = data.map(item => ({
-      ...item,
-      __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
-      __topic: String(item["TOPIC"] ?? "").toLowerCase(),
-      __content: String(item["Communication Content"] ?? "").toLowerCase()
-    }));
-
-    sourceCache[name] = processed;
-    return processed;
+    const names = extractCustomerNames(data).map(normalize).filter(Boolean);
+    const set = new Set(names);
+    customerListCache[group] = set;
+    return set;
   }
 
-  async function setActiveSource(name) {
-    natBtn.classList.toggle("active", name === "nat");
-    natBtn.setAttribute("aria-pressed", String(name === "nat"));
-    otherBtn.classList.toggle("active", name === "other");
-    otherBtn.setAttribute("aria-pressed", String(name === "other"));
+  async function setCustomerGroup(group) {
+    // Clicking the already-active button turns the filter back off.
+    const nextGroup = filters.customerGroup === group ? null : group;
 
-    try {
-      allData = await loadSource(name);
-      currentSource = name;
-      applyFilters();
-    } catch (err) {
-      console.error(err);
-      alert(`Cannot load ${DATA_SOURCES[name]}`);
+    if (nextGroup) {
+      try {
+        await loadCustomerList(nextGroup);
+      } catch (err) {
+        console.error(err);
+        alert(`Cannot load ${CUSTOMER_LIST_SOURCES[nextGroup]}`);
+        return;
+      }
     }
+
+    filters.customerGroup = nextGroup;
+    natBtn.classList.toggle("active", nextGroup === "nat");
+    natBtn.setAttribute("aria-pressed", String(nextGroup === "nat"));
+    otherBtn.classList.toggle("active", nextGroup === "other");
+    otherBtn.setAttribute("aria-pressed", String(nextGroup === "other"));
+
+    applyFilters();
   }
 
   ccInput.addEventListener("input", debounce(() => {
@@ -385,29 +422,29 @@
     applyFilters();
   });
 
-  // NAT / OTHER act as a single-select source switch: clicking the active
-  // one turns it back off (returns to the default dataset).
-  natBtn.addEventListener("click", () => {
-    setActiveSource(currentSource === "nat" ? "default" : "nat");
-  });
-
-  otherBtn.addEventListener("click", () => {
-    setActiveSource(currentSource === "other" ? "default" : "other");
-  });
+  // NAT / OTHER act as a single-select group filter: clicking the active
+  // one turns it back off (shows every customer again).
+  natBtn.addEventListener("click", () => setCustomerGroup("nat"));
+  otherBtn.addEventListener("click", () => setCustomerGroup("other"));
 
   clearBtn.addEventListener("click", () => {
     filters.cc = "";
     filters.topic = "";
     filters.content = "";
     filters.newOnly = false;
+    filters.customerGroup = null;
 
     ccInput.value = "";
     topicInput.value = "";
     contentInput.value = "";
     newBtn.classList.remove("active");
     newBtn.setAttribute("aria-pressed", "false");
+    natBtn.classList.remove("active");
+    natBtn.setAttribute("aria-pressed", "false");
+    otherBtn.classList.remove("active");
+    otherBtn.setAttribute("aria-pressed", "false");
 
-    setActiveSource("default");
+    applyFilters();
   });
 
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
@@ -421,11 +458,16 @@
   }
 
   function applyFilters() {
+    const activeList = filters.customerGroup
+      ? customerListCache[filters.customerGroup]
+      : null;
+
     filteredData = allData.filter(item =>
       (filters.cc === "" || item[FIELD_MAP.cc.key].includes(filters.cc)) &&
       (filters.topic === "" || item[FIELD_MAP.topic.key].includes(filters.topic)) &&
       (filters.content === "" || item[FIELD_MAP.content.key].includes(filters.content)) &&
-      (!filters.newOnly || item[FIELD_MAP.cc.key].includes(NEW_KEYWORD))
+      (!filters.newOnly || item[FIELD_MAP.cc.key].includes(NEW_KEYWORD)) &&
+      (!activeList || activeList.has(item.__customer))
     );
 
     currentPage = 1;
