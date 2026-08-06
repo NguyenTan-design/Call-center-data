@@ -203,11 +203,13 @@
 
     td {
       display: flex;
+      align-items: flex-start;
       gap: 10px;
       border: none;
       border-bottom: 1px solid #f0f0f0;
       padding: 8px 10px;
       font-size: 13px;
+      word-break: normal;
     }
 
     tr td:last-child { border-bottom: none; }
@@ -219,6 +221,12 @@
       font-weight: bold;
       color: var(--primary);
       text-transform: uppercase;
+    }
+
+    .cell-value {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow-wrap: break-word;
     }
 
     td[data-label="ACTION"] {
@@ -425,7 +433,12 @@
     for (const col of COLUMNS) {
       const td = document.createElement("td");
       td.dataset.label = col.label;
-      td.textContent = item[col.field] ?? "";
+
+      const value = document.createElement("span");
+      value.className = "cell-value";
+      value.textContent = item[col.field] ?? "";
+      td.appendChild(value);
+
       tr.appendChild(td);
     }
 
