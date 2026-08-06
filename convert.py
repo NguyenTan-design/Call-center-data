@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 import html
-import re
 
 # ==========================
 # Đọc Excel
@@ -31,48 +30,37 @@ df = df[
 def clean_text(value):
 
     if pd.isna(value):
-        return ""
+        return value
 
     text = str(value)
 
     # Giải mã HTML Entity
     text = html.unescape(text)
 
-    # Xóa ký tự _x000D_
-    text = text.replace("_x000D_", "\n")
+    # Xóa _x000D_ và giữ nguyên xuống dòng
+    text = text.replace("_x000D_", "")
 
-    # Chuẩn hóa xuống dòng
+    # Chuẩn hóa ký tự xuống dòng
     text = text.replace("\r\n", "\n")
     text = text.replace("\r", "\n")
 
-    # Xóa khoảng trắng cuối dòng
-    text = re.sub(r"[ \t]+\n", "\n", text)
+    # Xóa khoảng trắng cuối mỗi dòng
+    text = "\n".join(line.rstrip() for line in text.split("\n"))
 
-    # Gộp nhiều dòng trống liên tiếp
-    text = re.sub(r"\n{3,}", "\n\n", text)
-
-    # Xóa khoảng trắng đầu/cuối
-    text = text.strip()
-
-    return text
+    return text.strip()
 
 # ==========================
 # CLEAN DATA
 # ==========================
 
-for col in df.columns:
+for col in df.select_dtypes(include=["object"]).columns:
     df[col] = df[col].apply(clean_text)
 
 # ==========================
-# CONVERT TO JSON
+# CONVERT TO DICTIONARY
 # ==========================
 
-data = json.loads(
-    df.to_json(
-        orient="records",
-        force_ascii=False
-    )
-)
+data = df.to_dict(orient="records")
 
 # ==========================
 # SAVE JSON
