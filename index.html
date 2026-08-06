@@ -11,6 +11,7 @@
     --border: #ddd;
     --row-alt: #fafafa;
     --row-hover: #eef6ff;
+    --cell-line-height: 1.4;
   }
 
   * { box-sizing: border-box; }
@@ -43,7 +44,7 @@
     border-radius: 6px;
   }
 
-  #filter-new {
+  .toggle-btn {
     flex: 0 0 auto;
     padding: 10px 16px;
     font-size: 14px;
@@ -55,11 +56,9 @@
     cursor: pointer;
   }
 
-  #filter-new:hover {
-    background: #eaf3fd;
-  }
+  .toggle-btn:hover { background: #eaf3fd; }
 
-  #filter-new.active {
+  .toggle-btn.active {
     background: var(--primary);
     color: #fff;
   }
@@ -113,7 +112,6 @@
     padding: 8px;
     font-size: 13px;
     vertical-align: top;
-    word-break: break-word;
   }
 
   tbody tr:nth-child(even) { background: var(--row-alt); }
@@ -126,6 +124,35 @@
   th:nth-child(5), td:nth-child(5) { width: 25%; }
   th:nth-child(6), td:nth-child(6) { width: 8%; }
   th:nth-child(7), td:nth-child(7) { width: 7%; text-align: center; }
+
+  /* --- Cell text handling ---
+     Default: single line, no wrap, ellipsis if it overflows.
+     TOPIC column: always shows full text and wraps normally; it drives
+     the row's actual height. Every other column's value is clamped by
+     JS (adjustRowHeights) to match that same height, ellipsis if cut off. */
+  .cell-value {
+    display: block;
+    width: 100%;
+    line-height: var(--cell-line-height);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  td[data-label="TOPIC"] .cell-value {
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-overflow: clip;
+  }
+
+  .cell-value.clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: var(--clamp-lines, 3);
+    -webkit-line-clamp: var(--clamp-lines, 3);
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
 
   .action-btn {
     display: inline-block;
@@ -172,7 +199,7 @@
 
     .toolbar { gap: 8px; }
     .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px; }
-    #filter-new, #clear-filters { flex: 1 1 auto; text-align: center; }
+    .toggle-btn, #clear-filters { flex: 1 1 auto; text-align: center; padding: 9px 10px; font-size: 13px; }
 
     #pagination { flex-wrap: wrap; justify-content: space-between; }
     #pagination strong { flex: 1 1 100%; order: 2; text-align: center; font-size: 12px; }
@@ -184,10 +211,9 @@
       background: transparent;
     }
 
-    table{table-layout:fixed;}
-    th,td{font-size:9px;padding:3px;white-space:normal;word-break:break-word;}
-    th{font-size:10px;}
-
+    table { table-layout: fixed; }
+    th, td { font-size: 9px; padding: 3px; }
+    th { font-size: 10px; }
   }
 </style>
 </head>
@@ -199,7 +225,9 @@
   <input id="search-cc" type="text" placeholder="Search CC Number">
   <input id="search-topic" type="text" placeholder="Search Topic">
   <input id="search-content" type="text" placeholder="Search Communication Content">
-  <button id="filter-new" type="button" aria-pressed="false">NEW only</button>
+  <button id="filter-new" class="toggle-btn" type="button" aria-pressed="false">NEW only</button>
+  <button id="filter-nat" class="toggle-btn" type="button" aria-pressed="false">NAT</button>
+  <button id="filter-other" class="toggle-btn" type="button" aria-pressed="false">OTHER</button>
   <button id="clear-filters" type="button">Clear</button>
 </div>
 
@@ -230,10 +258,11 @@
 
   const ROWS_PER_PAGE = 50;
   const SEARCH_DEBOUNCE_MS = 200;
+  const RESIZE_DEBOUNCE_MS = 150;
   const NEW_KEYWORD = "new";
 
   // Fields shown in each row, in column order, paired with the label
-  // used both in <thead> and as the mobile card's data-label.
+  // used both in <thead> and as each cell's data-label.
   const COLUMNS = [
     { field: "DATE", label: "DATE" },
     { field: "CC NUMBER", label: "CC NUMBER" },
@@ -250,7 +279,18 @@
     content: { field: "Communication Content", key: "__content" }
   };
 
-  let allData = [];       // raw records, pre-tagged with lowercase search fields
+  // Selectable data sources. "default" is the normal dataset; NAT / OTHER
+  // swap the whole dataset out for a different JSON file.
+  const DATA_SOURCES = {
+    default: "data.json",
+    nat: "NAT.json",
+    other: "OTHER.json"
+  };
+
+  const sourceCache = {};  // name -> preprocessed records, fetched once each
+  let currentSource = "default";
+
+  let allData = [];       // records for the currently selected source
   let filteredData = [];  // current filtered view
   let currentPage = 1;
 
@@ -269,30 +309,57 @@
   const topicInput = document.getElementById("search-topic");
   const contentInput = document.getElementById("search-content");
   const newBtn = document.getElementById("filter-new");
+  const natBtn = document.getElementById("filter-nat");
+  const otherBtn = document.getElementById("filter-other");
   const clearBtn = document.getElementById("clear-filters");
 
   init();
 
   async function init() {
     try {
-      const res = await fetch("data.json");
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-
-      // Precompute lowercase values once, instead of on every keystroke.
-      allData = data.map(item => ({
-        ...item,
-        __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
-        __topic: String(item["TOPIC"] ?? "").toLowerCase(),
-        __content: String(item["Communication Content"] ?? "").toLowerCase()
-      }));
-
+      allData = await loadSource("default");
       filteredData = allData;
       status.remove();
       renderTable();
     } catch (err) {
       console.error(err);
       status.textContent = "Failed to load data.json.";
+    }
+  }
+
+  // Fetches + preprocesses a data source once, caching the result so
+  // switching between NAT / OTHER / default doesn't re-fetch every click.
+  async function loadSource(name) {
+    if (sourceCache[name]) return sourceCache[name];
+
+    const res = await fetch(DATA_SOURCES[name]);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    const processed = data.map(item => ({
+      ...item,
+      __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
+      __topic: String(item["TOPIC"] ?? "").toLowerCase(),
+      __content: String(item["Communication Content"] ?? "").toLowerCase()
+    }));
+
+    sourceCache[name] = processed;
+    return processed;
+  }
+
+  async function setActiveSource(name) {
+    natBtn.classList.toggle("active", name === "nat");
+    natBtn.setAttribute("aria-pressed", String(name === "nat"));
+    otherBtn.classList.toggle("active", name === "other");
+    otherBtn.setAttribute("aria-pressed", String(name === "other"));
+
+    try {
+      allData = await loadSource(name);
+      currentSource = name;
+      applyFilters();
+    } catch (err) {
+      console.error(err);
+      alert(`Cannot load ${DATA_SOURCES[name]}`);
     }
   }
 
@@ -318,6 +385,16 @@
     applyFilters();
   });
 
+  // NAT / OTHER act as a single-select source switch: clicking the active
+  // one turns it back off (returns to the default dataset).
+  natBtn.addEventListener("click", () => {
+    setActiveSource(currentSource === "nat" ? "default" : "nat");
+  });
+
+  otherBtn.addEventListener("click", () => {
+    setActiveSource(currentSource === "other" ? "default" : "other");
+  });
+
   clearBtn.addEventListener("click", () => {
     filters.cc = "";
     filters.topic = "";
@@ -330,8 +407,10 @@
     newBtn.classList.remove("active");
     newBtn.setAttribute("aria-pressed", "false");
 
-    applyFilters();
+    setActiveSource("default");
   });
+
+  window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
 
   function debounce(fn, delay) {
     let timer = null;
@@ -374,6 +453,10 @@
 
     tbody.replaceChildren(fragment);
     renderPagination();
+
+    // Wait a frame so the browser has laid out the TOPIC cell's wrapped
+    // text before we measure it and clamp the other cells to match.
+    requestAnimationFrame(adjustRowHeights);
   }
 
   function buildRow(item) {
@@ -403,6 +486,28 @@
     tr.appendChild(actionTd);
 
     return tr;
+  }
+
+  // Measures each row's TOPIC cell (which always shows full, wrapped
+  // text) and clamps every other cell's value to that same number of
+  // lines, so the row height is driven only by TOPIC.
+  function adjustRowHeights() {
+    const rows = tbody.querySelectorAll("tr:not(.empty-row)");
+
+    rows.forEach(tr => {
+      const topicValue = tr.querySelector('td[data-label="TOPIC"] .cell-value');
+      if (!topicValue) return;
+
+      const lineHeight = parseFloat(getComputedStyle(topicValue).lineHeight) || 16;
+      const maxLines = Math.max(1, Math.round(topicValue.offsetHeight / lineHeight));
+
+      tr.querySelectorAll(
+        'td:not([data-label="TOPIC"]):not([data-label="ACTION"]) .cell-value'
+      ).forEach(span => {
+        span.style.setProperty("--clamp-lines", maxLines);
+        span.classList.add("clamp");
+      });
+    });
   }
 
   function renderPagination() {
