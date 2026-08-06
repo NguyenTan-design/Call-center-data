@@ -1,7 +1,12 @@
 import pandas as pd
 import json
+import html
+import re
 
+# ==========================
 # Đọc Excel
+# ==========================
+
 df = pd.read_excel(
     r"C:\Users\quoct\OneDrive - Fuji Machine Asia Pte Ltd\CALL CENTER SUMMARY - DATA.xlsx"
 )
@@ -20,27 +25,46 @@ df = df[
 ]
 
 # ==========================
+# CLEAN FUNCTION
+# ==========================
+
+def clean_text(value):
+
+    if pd.isna(value):
+        return ""
+
+    text = str(value)
+
+    # Giải mã HTML Entity
+    text = html.unescape(text)
+
+    # Xóa ký tự _x000D_
+    text = text.replace("_x000D_", "\n")
+
+    # Chuẩn hóa xuống dòng
+    text = text.replace("\r\n", "\n")
+    text = text.replace("\r", "\n")
+
+    # Xóa khoảng trắng cuối dòng
+    text = re.sub(r"[ \t]+\n", "\n", text)
+
+    # Gộp nhiều dòng trống liên tiếp
+    text = re.sub(r"\n{3,}", "\n\n", text)
+
+    # Xóa khoảng trắng đầu/cuối
+    text = text.strip()
+
+    return text
+
+# ==========================
 # CLEAN DATA
 # ==========================
 
-# Xử lý tất cả các cột kiểu text
-for col in df.select_dtypes(include=["object"]).columns:
-
-    df[col] = (
-        df[col]
-        .fillna("")
-        .astype(str)
-        .str.replace("_x000D_", "\n", regex=False)   # hoặc " " nếu không muốn xuống dòng
-        .str.replace("\r\n", "\n", regex=False)
-        .str.replace("\r", "\n", regex=False)
-        .str.strip()
-    )
-
-# Nếu muốn xóa hoàn toàn xuống dòng:
-# df[col] = df[col].str.replace("\n", " ", regex=False)
+for col in df.columns:
+    df[col] = df[col].apply(clean_text)
 
 # ==========================
-# CONVERT JSON
+# CONVERT TO JSON
 # ==========================
 
 data = json.loads(
@@ -50,7 +74,10 @@ data = json.loads(
     )
 )
 
-# Xuất JSON
+# ==========================
+# SAVE JSON
+# ==========================
+
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(
         data,
