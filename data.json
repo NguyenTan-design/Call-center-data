@@ -1,10 +1,343 @@
 [
     {
+        "DATE": "2026-08-06T04:17:14+00:00",
+        "CC NUMBER": "CC-0079850",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Normal[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Can not import the DID, Part master, Feeder ID by text file format._DID、部品マスタ（Part Master）、および Feeder ID をテキストファイル形式でインポートすることができません。[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa san,\n\nThank you support from you.\n\nWe have explained for customer and at present they will use way import reel by reel.\n\nNow, I don't have any update for this case.\n\nThank you so much!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017hrkUYAQ"
+    },
+    {
+        "DATE": "2026-08-06T04:06:11+00:00",
+        "CC NUMBER": "CC-0078811",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nPlease refer to the attached pptx file.\n\nWhat do you think of our proposal?\n\nPlease let us know.\n\nKonda,",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI"
+    },
+    {
+        "DATE": "2026-08-06T03:23:01+00:00",
+        "CC NUMBER": "NEW:CC-0080655",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Application error (Purple monitor) - 00EB0008_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOn 2026-07-23, in LiteOn Factory 2 (HPG2), Line S01, Module 4 (1R-RH02), at 11:24 PM, after the operator perform On-Machine edit to check the Feeders-offset in Daily operation menu, machine got Application error 00EB0008 purple monitor.\n\nThe version information as follow:  NXTR Machine version: V2.CMm / Nexim version: 3.1.105 / LCU version:  2.20\n\nHere is the trace data, event log, job information and real machine status when issue occurred.\n\nPlease kindly support us in analyzing and providing advice for this case.\n\nThank you.\n\nBest regards,\n\nFMV - Pham Minh Duc",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019yyuyYAA"
+    },
+    {
+        "DATE": "2026-08-06T01:48:59+00:00",
+        "CC NUMBER": "CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_8DC50000 レーン2における部品の配置位置が、ロボットの可動範囲（Y方向）を超えています。（追加）[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your information.\n\nThe customer is planning to upgrade to V3.2.100 at the end of this month.\n\nTherefore, there is no need to prepare a patch for V3.1.100.\n\nThank you for your support.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
+        "DATE": "2026-08-06T01:07:30+00:00",
+        "CC NUMBER": "CC-0080547",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel not tranfer to next module after complete production_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung san,\n\nAccording to the Video, the \"unloading operation\" button is pressed on the M3 operation monitor.\n\nThe PCB is not transfer from M2 to M3 if \"unloading operation\"  button activates on M3.\n\nCheck the [4.2.4 Stopping after finishing and unloading the current panel] on the NXTR system reference manual.\n\nKonda,",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019iIEsYAM"
+    },
+    {
+        "DATE": "2026-08-06T00:34:30+00:00",
+        "CC NUMBER": "CC-0078808",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Unable to get DID while communicate with Neotel tower_Neotelタワーとの通信時にDIDを取得できない[NXTR]",
+        "Communication Content": "Dear FMV-The-san,\n\nIs there any update for this case?\n\nThe \"No Parts\" error displayed when a parts issue request is made is caused by the fact that the receiving information has not been reflected in Nexim.\n\nReason Why the Information Is not being reflected was that the receiving information from the tower (the .ETN files) is currently being stored in the remoterder\\output folder.\n\nHowever, PRS reads receiving information only from the remoterder\\notify folder.\n\nPlease change the destination folder for receiving information on the tower side from output to notify.\n\nRegarding Parts that have already been received, when using the Neotel Tower interface,\n\nthe PRS Refresh function cannot be used (please refer to Note 1 in Section 1.8.4 of the manual).\n\nRequired Action\n\nPlease perform either option ① or ② below:\n\n① Move the existing .ETN files from the output folder to the notify folder in chronological order (oldest files first).\n\nThe .ETN files will be automatically deleted after they are processed by PRS.\n\n② Delete all .ETN files currently stored in the output folder and then receive the parts into the tower again.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000153mCoYAI"
+    },
+    {
+        "DATE": "2026-08-06T00:24:03+00:00",
+        "CC NUMBER": "CC-0079850",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Normal[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Can not import the DID, Part master, Feeder ID by text file format._DID、部品マスタ（Part Master）、および Feeder ID をテキストファイル形式でインポートすることができません。[NXTR-S]",
+        "Communication Content": "Dear Dinh Duong-san,\n\nIs there any update for this case?\n\n1. Using text file formats is very convenient for editing and uploading to the system.\n\nWhy do you say it has a problem? What is the specific problem, and can you share it?\n\n>> When we consider supporting and test internally, there was large number of errors occurring during manual editing of the files.\n\n      So we conclude that it is not possible to use properly and end not to support.\n\n2. When the customer asks for a software tool that can easily convert from xlsx, csv, etc. formats to XML,\n\nplease give us some recommendations or any software tools you know of.\n\n>> As it is not supported format, we do not have recommend tool to use.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017hrkUYAQ"
+    },
+    {
+        "DATE": "2026-08-06T00:16:18+00:00",
+        "CC NUMBER": "CC-0080155",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_Issues related to the CFX interface function_CFXインターフェース機能に関する問題[NXTR-A]",
+        "Communication Content": "Dear DoDo-san,\n\nIs there any update for this case?\n\n- To date, how many customers have used the CFX function on Fuji machine?\n\n- Are other customers experiencing similar problems as at Mitac Vietnam?\n\n>> We do not know which customer purchased the CFX function license and used for which machine as we do not have the sales information.\n\n      What I know personally is that there is other 2 customer group have the IPCCFX patch released.\n\n      Although, I do not know whether the CFX is used for which machine.\n\n      I suggest contacting the Fuji Japan sales and ask to confirm internally at the Sales side for more details of each customer.\n\n- Are other customers experiencing similar problems as at Mitac Vietnam?\n\n>> As for the Mitac Vitenam case, I heard that the latest patch 4745_IPCCFX_Step3.5_Patch was not applied at customer environment which correct some of the problem.\n\n      And also, there is possibility that garbage data remain in the Host folder.\n\n      So the Toyama-san had asked to apply the patch and deleted all garbage data then confirm whether the problem remain.\n\n      Have the above all done and problem not change?\n\n      If yes, please update to each Sales Force case and confirm the status.\n\nFor the other questions, let me confirm internally.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018aybdYAA"
+    },
+    {
+        "DATE": "2026-08-05T22:19:55+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Thong-san\n\nI will investigate the situation based on the trace data.\n\nIt appears that you are replacing a module, but I did not fully understand the process or the results.\n\nPlease allow me to double-check this.\n\nQ1：About this comment.\n\n”Installed the module on another base. The error was cleared.”\n\n→The module where the problem occurred is on a different base.　And no error occurred there.\n\nIs this correct?\n\nQ2：About this comment.\n\n”However, after moving the faulty module back to a different base, the same error still occurs.”\n\n→What exactly is meant by “different base” here?　Where is the problematic module located at this point?\n\nIn its original location? Or on yet another base?\n\nI'm sorry, but I didn't quite understand where the problematic modules were located in these two tests or what the issue was.\n\nIf possible, it would be helpful if you could explain it with a simple diagram.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-05T15:49:13+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Call center\n\nAlthough the version the customer is using and the operation when the error occurs (APAM) different from those described in CC-0073231,\n\nis it possible that the cause is the same?\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-05T14:34:00+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\n Please help us update this case.\n\nUpdated information: The version of  machine has been downgraded to 2.2Bn.\n\nThank you!\n\nFMV - Kha.",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
+        "DATE": "2026-08-05T10:51:36+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "Dear Amano-san,\n\nWe would like to submit the machine trace data as period time your requested.\n\npls looking for new file at attached file.\n\nAppreciate your strong support !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
+        "DATE": "2026-08-05T10:36:02+00:00",
+        "CC NUMBER": "CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Tan san\n\nI am checking with designer team that the all countermeasure which is related to Pair module function in V2.2Bn is including next standard version or later.\n\nPlease kindly give some time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
+        "DATE": "2026-08-05T10:31:08+00:00",
+        "CC NUMBER": "CC-0078649",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Head RH08 Error 3A22, Subcode 0003 Z1 Encoder During production_[NXTR-S]",
+        "Communication Content": "Dear: Hirabayashi-san,\n\nWe have already sent the head to the Head Repair Center for further inspection.\n\nThe customer has previously experienced similar issues with RH08 and RH28 heads.\n\nThank you for your advice.\n\nBest regards,\n\nFMV-Tu",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014dUjTYAU"
+    },
+    {
+        "DATE": "2026-08-05T10:18:56+00:00",
+        "CC NUMBER": "CC-0079804",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After restarting the LCU, the module reported error 853A0000 (Sub code: 0000702A)._LCUを再起動した後、モジュールからエラー 853A0000（サブコード：0000702A）が報告されました。[NXTR-S]",
+        "Communication Content": "Dear Mehdi-san,\n\nWe will update the affected LCU to SP44 and continue to monitor the machine's condition.\n\nWe will keep you informed of the results after the update.\n\nThank you very much for your support.\n\nBest regards,\n\nFMV-Tu",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017aFdXYAU"
+    },
+    {
+        "DATE": "2026-08-05T10:08:51+00:00",
+        "CC NUMBER": "CC-0078829",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After editing job on the machine and saving it, changes were not applied._[NXTR-S]",
+        "Communication Content": "Dear Toyama-san,\n\nMay we kindly ask if there have been any updates regarding the patch?\n\nCurrently, the customer is experiencing multiple issues related to this problem, and we would greatly appreciate your support in providing the patch as soon as possible.\n\nThank you very much for your support.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BD1lYAG"
+    },
+    {
+        "DATE": "2026-08-05T09:44:39+00:00",
+        "CC NUMBER": "NEW:CC-0080612",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently encountering multiple NXTR application errors at Luxshare Precision (Yi'an). During the troubleshooting process, we have observed two different scenarios in which these application errors occur.\n\nI will describe the two cases below, which occurred on **Line 1** and **Line 2**, respectively.\n\nError Code 00EB0009 – NXTR Application Error (Purple Screen) occurred at Module 9-D7 when the panel entered the module.\n\nActions:\n\n* Case1 : Line 2, Module 1R, SN: 1269\n\n-  Rebooted the module → the error reoccurred when the panel entered the module.\n\n- Emergency Installation (V2.2Bn) → no improvement.\n\n- Replaced CPU cards from Line 1 and Line 6, restored Data Matrix, and performed Head Calibration → the module booted normally, but the Purple Screen still occurred during panel processing.\n\n- Performed cfRepair on the faulty CPU → completed successfully, but after reboot, Data Matrix Load Failed occurred.\n\n- Finally, the entire module was replaced with one from Line 6 to maintain production.\n\n* Case 2: Line 1, Module 1R, SN: 1188\n\n- Rebooted the module → the error reoccurred.\n\n- Emergency Installation (V2.2Bq and V2.2Bn) → no improvement; Purple Screen appeared immediately after boot.\n\n- Backed up data and performed cfRepair → completed successfully, and the module booted normally.\n\nPlease review the attached files and help analyze the root cause so that we can identify the underlying cause of this issue.",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU"
+    },
+    {
+        "DATE": "2026-08-05T09:27:00+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano san\n\nThank you for your explanation that enabling or disabling these two functions is not related to the vacuum pressure.\n\nI would like to confirm that the trace data I previously sent corresponds to the time when errors 80001203  and  80001204  occurred. Please pay particular attention to the timestamp  5:24 PM , when the vacuum pump error 80001204  occurred.\n\nI am now sending another trace data file, \"20260805_040801_trace\", which was recorded during normal operation. No errors occurred during this period, so I hope it will provide a useful basis for comparison.\n\nIf you need any additional information, please do not hesitate to let me know.\n\nBR\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-05T09:11:31+00:00",
+        "CC NUMBER": "CC-0078645",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8000D47B: An error occurred in the communication with the camera_8000D47B: カメラとの通信中にエラーが発生しました[NXTR-S]",
+        "Communication Content": "Dear FMV-Trung-san,\n\nIt seems that the Warranty had been approved and waiting for the shipment.\n\nIf so, we would like to close the case.\n\nIs there any problem? If there is no update until August 12th, we would like to close the case automatically.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014dkY1YAI"
+    },
+    {
+        "DATE": "2026-08-05T09:03:13+00:00",
+        "CC NUMBER": "CC-0076174",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Backup table was scratched or rusted so backup pin check function Error_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nWe made countermeasure parts and performed initial test at FUJI.\n\nThe result of initial test is good so far.\n\nWe will continue to perform test and will come back to you on 21.August.\n\nPlease kindly give some more time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xUhlaYAC"
+    },
+    {
+        "DATE": "2026-08-05T08:44:10+00:00",
+        "CC NUMBER": "NEW:CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
+        "Communication Content": "Dear Call Center,\n\n- We have recently completed the installation of a new NXTR production line and are currently performing APAM.\n\n- During the APAM process, three Module 1R units reported Error Code 3A16 with Subcodes 00000000 and 00000006.\n\n- The error occurs after the head has completed the nozzle check. When the head moves to the rear position to capture the Pitch Lane Mark, the machine immediately reports the error.\n\n- The following troubleshooting steps have been performed:\n\n+ Checked the head stopping position when the error occurred. The head always stopped at the same position.\n\n+ Powered the machine OFF and ON. The error remained.\n\n+ Removed the head and inspected the Q-axis. No abnormality was found. Reinstalled the head, but the error remained.\n\n+ Reconnected the flat cable. The error remained.\n\n+ Measured the input voltage supplied to the base. The measured voltage was 230 V, which is normal.\n\n+ Reconnected the Module Servo Box. The error remained.\n\n+ Inspected the linear guide and linear scale. No abnormalities were found.\n\n+ Replaced the head with another one. The error remained.\n\n+ Swapped the Module Servo Box. The error remained.\n\n+ Swapped the servo board on the Module CPU. The error remained.\n\n+ Swapped the BTK power supply of the base. The error remained.\n\n+ Installed the module on another base. The error was cleared.\n\n- However, after moving the faulty module back to a different base, the same error still occurs.\n\n- We have collected the Trace data captured at the time the error occurred and have attached it for your analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We look forward to your insights regarding potential root causes, as well as any additional checks or corrective measures that should be taken.\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-05T06:40:13+00:00",
+        "CC NUMBER": "CC-0076980",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
+        "Communication Content": "Dear Quynh-san\n\nThank you for the update.\n\nIf possible please tell me monitoring schedule.\n\nI will setting next update date on two weeks later.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
+    },
+    {
+        "DATE": "2026-08-05T06:36:09+00:00",
+        "CC NUMBER": "CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_8DC50000 レーン2における部品の配置位置が、ロボットの可動範囲（Y方向）を超えています。（追加）[NXTR-S]",
+        "Communication Content": "Dear Hieu-san\n\nThis is the same issue as SNJ2026-0319, but there is currently not has V3.1.100 patch.\n\nPermanent fixes are available in V3.2.100 (fixed in Optimize) and V3.3.0 (fixed in MJLB).\n\nAre there any plans for an update? If not, we will consider creating a patch.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
+        "DATE": "2026-08-05T05:51:53+00:00",
+        "CC NUMBER": "CC-0079959",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Occasional 7A01 errors occur_7A01エラーが散発する[NXTR-S]",
+        "Communication Content": "Dear Konda san\n\nI’ve already sent message on Teams,\n\nbut I’ll post an update here as well.\n\nWe understand that the HEPA filter needs to be replaced, but since I’d like to perform some maintenance first, could you please tell me which parts I should maintain? I couldn’t find the relevant section in the manual you sent me.\n\nAlso, none of the manuals I’ve checked mention the following item. Although it is an optional item, it is installed on Fuji equipment, so should it be listed in the mechanical reference manual or similar documentation?\n\n・HEPA Filter Replacement period\n\n・HEPA Filter Part Number\n\n・HEPA Filter Maintenance and Replacement method\n\n・Meaning of the LED Indicators\n\nFMV takatsu",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000180gRxYAI"
+    },
+    {
+        "DATE": "2026-08-05T05:33:40+00:00",
+        "CC NUMBER": "CC-0076980",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nI have completed the software upgrade on all production lines and have been monitoring their operation.\n\nSo far, the problem has not occurred again.\n\nThank you for your support.\n\nBest regards,\n\nFMV – Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
+    },
+    {
+        "DATE": "2026-08-05T01:45:44+00:00",
+        "CC NUMBER": "CC-0080461",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_LCR counting and display incorrect_[NXTIII]",
+        "Communication Content": "Dear Amano Toru San!\n\nAs i said before,this Line is NXT3 line,therefore cannot collect the Trace data from 15 july 26\n\nAnd at that time when error occured,machine did not alarm,no error code, -> cannot collect the trace data follow error code\n\nThe documents i attacted, i checked production data 1 days(15 july) but the LCR check data display are different with 2 tab (Part number and Position)\n\nCustomer suspect Nexim software bug\n\nIf you need more data for analysis,please talk to me!\n\nThank you so much!",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019WOZNYA4"
+    },
+    {
+        "DATE": "2026-08-05T01:31:36+00:00",
+        "CC NUMBER": "NEW:CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Call center\n\nRegarding to pair module production issue that we submitted CC-0072091, and Call center provided NXTR 2.2Bn version\n\nMy question : What standard version will include the pair module production issue correction in 2.2Bn\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
+        "DATE": "2026-08-04T22:05:06+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Pham Duc-san\n\nI sincerely apologize for not having been in touch.\n\nーー\n\nAccording to “show desktop.png,” it appears that the JOB is not displayed when attempting to generate the “Monthly” report.\n\nIt is possible that the scheduled data aggregation isn't running correctly.\n\n・What happens if you select \"Weekly,\" \"Daily,\" \"Detail,\" or \"Analyze\"?\n\nDoes the job fail to appear in those cases as well?\n\n・I apologize for the inconvenience, but could you please retrieve the following logs and information from the “System server PC”?\n\n1：Reproduce the issue and capture the following logs\n\n\\Nexim\\Common\\Data\\Trace\n\n2 ：Please record the date and time of your verification.\n\n3：Launch NeximLogUtility on the Line server PC and back up the \"FIDB\".\n\n（\\Nexim\\Common\\bin\\NeximLogUtility.exe）\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
+        "DATE": "2026-08-04T12:11:37+00:00",
+        "CC NUMBER": "CC-0079822",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_It still keep the pick up parts  after use on -machine edit._機上編集でピックアップした部品が保持されたまま[NXTR-S]",
+        "Communication Content": "Dear Takastu-san\n\nThis was a bug in the machine app.\n\nParts picked up during on-machine editing are not discarded when on-machine editing ends.\n\nThe specification calls for these parts to be discarded during calibration once production begins, but the issue was that a process prior to discarding overlapped with another process, preventing the discard operation from being executed.\n\nI have two suggestions.\n\n1. Use _V2.3Pw.　->Install CS folder in the Goertek Teams\n\nhttps://fujimm.sharepoint.com/:f:/r/sites/nxtr-evaluation-team-GoertekVietnumA/Shared%20Documents/Goertek%20Vietnam%20A%E3%83%A2%E3%83%87%E3%83%AB%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/InstallCD?d=waceda946ccc34326ae607dfb519fd0c1&csf=1&web=1&e=Z3Kuvp\n\n2. A bug fix version for CC-0079997 will be released on August 21, so implementing that fix might also be an option.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017e3QrYAI"
+    },
+    {
+        "DATE": "2026-08-04T11:18:32+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Au Trung-san\n\n,\n\nTurning \"Do Part Height Check\" and \"Do Place Check\" ON or OFF should not cause a vacuum pressure error by itself.\n\nCould you please confirm whether the trace data you provided was captured when error codes 80001203 and 80001204 occurred?\n\nWould it be possible for you to send us trace data from both:\n\n A normal operating condition, and　 An error condition (when 80001203/80001204 occurred)?\n\nWith both sets of trace data, we will be able to compare the machine behavior and investigate the root cause more effectively.\n\nCall center Amano",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-04T09:35:32+00:00",
+        "CC NUMBER": "NEW:CC-0080547",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel not tranfer to next module after complete production_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nRecently, I have met the issue as detail below:\n\nToday about 16:13, we found out completed panel  at lane 1 module 2 not tranfer to module 3.\n\nAction:\n\n1. We cycle stop  all 2 module and start again, but still hangup.\n\n2. Reconnect smema- still hangup\n\n3. Reset machine (module 2&3)- resume production normally\n\nI take video of this phenomenon and trace data, Please help us analyst this issue\n\nMachine version now is V2.CMm\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019iIEsYAM"
+    },
+    {
+        "DATE": "2026-08-04T07:47:21+00:00",
+        "CC NUMBER": "NEW:CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nWe are writing to formally request a technical analysis regarding error code 8DC50000 – Operation Range Error (Lane 2), which has been encountered during Dual Lane production at our customer's site.\n\n1. PHENOMENON\n\nThe error occurs immediately upon initiating production in Dual Lane mode, preventing the machine from continuing normal operation.\n\nTo isolate the root cause, the Lane 2 job was removed and the machine was operated in Single Lane mode (Lane 1 only) using the identical product program. Under this condition, production completed successfully with no errors observed.\n\nThis confirms that the issue is specific to Dual Lane operation and does not affect Single Lane performance.\n\n2. INVESTIGATION SUMMARY\n\nThe following verification steps have been completed prior to this request:\n\n• The error is fully reproducible in Dual Lane mode.\n\n• Single Lane production (Lane 1) with the same job program operates normally.\n\n• A comparative review of production conditions confirmed the error is exclusively triggered when Lane 2 is active.\n\n• Analysis of the error message indicates that the placement position in Lane 2 exceeds the robot's allowable movement range in the Y-direction.\n\nThe following data has been collected and is attached for your reference:\n\n  – Trace Data\n\n  – Event Log\n\n  – Affected Job Program\n\n  – Nexim Software Version\n\n  – Machine Version Information\n\n3. REQUESTED ACTION\n\nPlease advise on the recommended countermeasure(s) to resolve this issue and prevent recurrence during Dual Lane production operations.\n\nYour prompt support on this matter is greatly appreciated, as the customer's production is currently impacted.\n\nShould you require any additional information or data, please do not hesitate to contact us.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
+        "DATE": "2026-08-04T07:46:07+00:00",
+        "CC NUMBER": "CC-0079804",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After restarting the LCU, the module reported error 853A0000 (Sub code: 0000702A)._LCUを再起動した後、モジュールからエラー 853A0000（サブコード：0000702A）が報告されました。[NXTR-S]",
+        "Communication Content": "Dear Sir,\n\nThe issue has been identified as a known SchedulingService defect.\n\nThis issue was resolved in V2.20_SP11 and later versions.\n\nIt was confirmed that the affected LCU has no patches applied.\n\nPlease update the system to SP44, which has already been released on FujiCommunity.\n\nThe root cause was a memory leak in SchedulingService, which could cause memory exhaustion in the LCU and lead to related services stopping unexpectedly, resulting in the observed symptoms.\n\nPlease apply SP44 and confirm whether the issue is resolved.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017aFdXYAU"
+    },
+    {
+        "DATE": "2026-08-04T07:01:22+00:00",
+        "CC NUMBER": "CC-0079109",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR Optimization – Duplicate Feeder Allocation Inquiry._NXTR最適化機能における重複フィーダー割り付け（Duplicate Feeder Allocation）に関する問い合わせ[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nThank you for your investigation and for confirming the root cause of this issue.\n\nWe understand that improving the feeder allocation algorithm is technically challenging and appreciate your team's efforts to consider this enhancement for Nexim V3.5.0.\n\nWe also understand that the improvement cannot be guaranteed and will continue using manual feeder allocation as the temporary workaround until a future version becomes available.\n\nThank you for keeping us informed. We look forward to any updates regarding this enhancement in the future.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015o3vRYAQ"
+    },
+    {
+        "DATE": "2026-08-04T06:53:31+00:00",
+        "CC NUMBER": "CC-0077235",
+        "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT( VIET NAM) LIMITED]_Can not saving job when using on machine editing due to module alarm 6A030004_[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your update.\n\nAs of now, I have not yet received the NXTR V2.2Br version from anyone. Therefore, I would appreciate it if you could keep this CC open for the time being.\n\nI would like to keep this case open until I have upgraded the customer's machine to NXTR V2.2Br and confirmed that the issue has been resolved by this version.\n\nThank you for your understanding and support.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010bg2zYAA"
+    },
+    {
+        "DATE": "2026-08-04T06:42:04+00:00",
+        "CC NUMBER": "CC-0077235",
+        "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT( VIET NAM) LIMITED]_Can not saving job when using on machine editing due to module alarm 6A030004_[NXTR-S]",
+        "Communication Content": "Dear FMV - Minh-san,\n\nAs for this case, the correction had been included in the NXTR V2.2Br which released in July.\n\nI assume that the Japan sales Watanabe-san should receive and send to you.\n\nIf yes, could we close the case?\n\nFor your reference, the official version will include the correction from NXTR V2.40.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010bg2zYAA"
+    },
+    {
+        "DATE": "2026-08-04T05:52:21+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano san\n\nThanks for your supported\n\nAfter maintenance, the situation didn't improve much;\n\nthe errors still occurred frequently.\n\nWe had to replace the nozzle station many times,\n\neven though those nozzle stations worked fine when installed in other modules.\n\nWe already attached more the trace data bellow:\n\nTrace line 5 M1 mark OK\n\nTrace line 5 M1 mark error\n\nPlease help to check and alynasis and then advice for us\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-08-04T02:42:06+00:00",
         "CC NUMBER": "CC-0076980",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
         "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
-        "Communication Content": "Dear Quynh-san.\n\nJust a reminder, Have you arrange updating schedule?\n\nBR.\nMoriya",
+        "Communication Content": "Dear Quynh-san.\n\nJust a reminder, Have you arrange updating schedule?\n\nBR.\n\nMoriya",
         "FMV PIC": "Nguyen Quynh",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
     },
@@ -31,7 +364,7 @@
         "CC NUMBER": "NEW:CC-0080483",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
         "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nIssue:\nFor small components such as R0201, R0402, C0201, and C0402, when the Part Height/Thickness is set to > 2 mm (exceeding the allowable limit of Module 2RV), the error displayed in Optimize does not reflect the actual root cause.\nAction:\n1. Do Part Height Check = YES\n* Set Part Height/Thickness of the component to > 2 mm.\n* When running Optimize, the system reports:\n“No nozzle to pick-up”.\n* However, when running Data Check, the system reports:\n“Part Size”.\n2. Do Part Height Check = NO\n* Set Part Height/Thickness of the component to > 2 mm.\n* When running both Optimize and Data Check, the system reports:\n“Part Size”.\nWe want Center to support the analysis and clarification of the following points:\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\" The program is attached above for your reference and further analysis.\"\n\nThank you for your support,\n\nBest regards,\nFMV-NAM，",
+        "Communication Content": "Dear Call Center,\n\nIssue:\n\nFor small components such as R0201, R0402, C0201, and C0402, when the Part Height/Thickness is set to > 2 mm (exceeding the allowable limit of Module 2RV), the error displayed in Optimize does not reflect the actual root cause.\n\nAction:\n\n1. Do Part Height Check = YES\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running Optimize, the system reports:\n\n“No nozzle to pick-up”.\n\n* However, when running Data Check, the system reports:\n\n“Part Size”.\n\n2. Do Part Height Check = NO\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running both Optimize and Data Check, the system reports:\n\n“Part Size”.\n\nWe want Center to support the analysis and clarification of the following points:\n\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\n\" The program is attached above for your reference and further analysis.\"\n\nThank you for your support,\n\nBest regards,\n\nFMV-NAM，",
         "FMV PIC": "Nam Nguyen",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG"
     },
@@ -40,7 +373,7 @@
         "CC NUMBER": "NEW:CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
-        "Communication Content": "Dear Call Center,\nRecently, our customer has encountered an issue with the vacuum pump of the NXTR machine.\n\n- Symptom\n\nModule 1 Right on Line V1-02 repeatedly generated error codes 80001203 and 80001204. Initial inspection found that the vacuum pressure was insufficient, preventing the machine from operating normally.\n\n- Inspection and Troubleshooting Process\n\nThe vacuum pressure was checked first and confirmed to be below the required level. The head was then inspected, and all nozzles/covers were properly sealed, eliminating the possibility of vacuum leakage from the head.\n\nNext, the vacuum pump was activated through the I/O screen; however, the right-side vacuum pump did not operate. The machine was restarted, but the same errors remained.\n\nThe module was pulled out for further inspection, confirming that the right-side vacuum pump was not running. The pump filter was cleaned, but the issue persisted, ruling out a clogged filter as the cause.\n\nTo maintain production, the module was temporarily set to \"Skip Module\", allowing the production line to continue running.\n\nAfter production stopped, the inverter boards on the left and right sides were swapped for verification. The fault remained on the right side, indicating that the inverter board was not the root cause.\n\nThe left and right vacuum pumps were then swapped. At the same time, all pneumatic tubes were reconnected, and all fuses and connectors on the interface board were reinstalled. After completing these actions, the vacuum pump returned to normal operation.\n\nThe machine was then run in \"Idle\" mode for observation. It operated normally, and no further errors were detected.\n\n- Additional Verification\n\nOn the following day, the \"Do Part Height Check\" and \"Do Place Check\" functions were enabled in the production program, and the machine operated normally.\n\nA different program with these two functions disabled was then tested, and the same error reoccurred.\n\nFinally, \"Do Part Height Check\" and \"Do Place Check\" were enabled again for production. During subsequent monitoring, the machine operated stably, and no recurrence of the error was observed.\n\n- Could you please clarify:\n\nDo these functions change the vacuum control sequence or the timing of vacuum pressure monitoring?\nDo they introduce additional delays that allow the vacuum pressure to stabilize before the system performs the vacuum check?\nIs there any known relationship between these two functions and the vacuum pump control logic or the generation of error codes 80001203 and 80001204?\n\n- We would appreciate your explanation of the underlying control logic and any recommendations for further troubleshooting.\n\nDetail error:\n- Module type: 2RV\n- Module SN: 1-L 0000731\n- Base SN: 0202163\n- Version: (V2.2Bm)\n- The trace was collected from 5:15 pm to 5:30pm Aug 3,2026",
+        "Communication Content": "Dear Call Center,\n\nRecently, our customer has encountered an issue with the vacuum pump of the NXTR machine.\n\n- Symptom\n\nModule 1 Right on Line V1-02 repeatedly generated error codes 80001203 and 80001204. Initial inspection found that the vacuum pressure was insufficient, preventing the machine from operating normally.\n\n- Inspection and Troubleshooting Process\n\nThe vacuum pressure was checked first and confirmed to be below the required level. The head was then inspected, and all nozzles/covers were properly sealed, eliminating the possibility of vacuum leakage from the head.\n\nNext, the vacuum pump was activated through the I/O screen; however, the right-side vacuum pump did not operate. The machine was restarted, but the same errors remained.\n\nThe module was pulled out for further inspection, confirming that the right-side vacuum pump was not running. The pump filter was cleaned, but the issue persisted, ruling out a clogged filter as the cause.\n\nTo maintain production, the module was temporarily set to \"Skip Module\", allowing the production line to continue running.\n\nAfter production stopped, the inverter boards on the left and right sides were swapped for verification. The fault remained on the right side, indicating that the inverter board was not the root cause.\n\nThe left and right vacuum pumps were then swapped. At the same time, all pneumatic tubes were reconnected, and all fuses and connectors on the interface board were reinstalled. After completing these actions, the vacuum pump returned to normal operation.\n\nThe machine was then run in \"Idle\" mode for observation. It operated normally, and no further errors were detected.\n\n- Additional Verification\n\nOn the following day, the \"Do Part Height Check\" and \"Do Place Check\" functions were enabled in the production program, and the machine operated normally.\n\nA different program with these two functions disabled was then tested, and the same error reoccurred.\n\nFinally, \"Do Part Height Check\" and \"Do Place Check\" were enabled again for production. During subsequent monitoring, the machine operated stably, and no recurrence of the error was observed.\n\n- Could you please clarify:\n\nDo these functions change the vacuum control sequence or the timing of vacuum pressure monitoring?\n\nDo they introduce additional delays that allow the vacuum pressure to stabilize before the system performs the vacuum check?\n\nIs there any known relationship between these two functions and the vacuum pump control logic or the generation of error codes 80001203 and 80001204?\n\n- We would appreciate your explanation of the underlying control logic and any recommendations for further troubleshooting.\n\nDetail error:\n\n- Module type: 2RV\n\n- Module SN: 1-L 0000731\n\n- Base SN: 0202163\n\n- Version: (V2.2Bm)\n\n- The trace was collected from 5:15 pm to 5:30pm Aug 3,2026",
         "FMV PIC": "Au Trung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
     },
@@ -724,7 +1057,7 @@
         "CC NUMBER": "CC-0080054",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Request machine NXTR stop production when splicing Reel error_[NXTR-S]",
-        "Communication Content": "Dear Hamamoto san\n\nI have saved the trace and log , movie. Please investigate.\nLine : HPG2-LINE20\nModule : M1\nSlot : 55\nTime : 13: 24~26\n\nFMV takatsu",
+        "Communication Content": "Dear Hamamoto san\n\nI have saved the trace and log , movie. Please investigate.\n\nLine : HPG2-LINE20\n\nModule : M1\n\nSlot : 55\n\nTime : 13: 24~26\n\nFMV takatsu",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018MN2TYAW"
     },
@@ -33763,7 +34096,7 @@
         "CC NUMBER": "CC-0063079",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
         "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Provide the head original calibration data for head RH02 S/N HC1021 000733_ヘッドRH02のシリアル番号HC1021 000733のヘッド用オリジナルキャリブレーションデータを提供してください。[NXTR-A]",
-        "Communication Content": "Dear Victor-san,\n\nI confirmed that the board had already been written with the original value in FUJI.\nTherefore, you can simply attach it to the head.\n\nBest regards,\nFUJI Moriya",
+        "Communication Content": "Dear Victor-san,\n\nI confirmed that the board had already been written with the original value in FUJI.\n\nTherefore, you can simply attach it to the head.\n\nBest regards,\n\nFUJI Moriya",
         "FMV PIC": "Trinh Linh",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000RvMUBYA3"
     },
@@ -33772,7 +34105,7 @@
         "CC NUMBER": "CC-0062804",
         "Customer": "BYD Electronics Vietnam Company Limited]",
         "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Kaizen navigator can not conver DB with many Base in Base table_[NXTR-S]",
-        "Communication Content": "Dear Okada-san\nDue to Many customer are going to set up many module in 1 line .\nFuji specs is 24 modules NXTR can set in 1 line  , Why Kaizen only can do with 10 module in 1 line.\nWhen fuji will support to Kaizen with more than 10 module in 1 line .\nThank you",
+        "Communication Content": "Dear Okada-san\n\nDue to Many customer are going to set up many module in 1 line .\n\nFuji specs is 24 modules NXTR can set in 1 line  , Why Kaizen only can do with 10 module in 1 line.\n\nWhen fuji will support to Kaizen with more than 10 module in 1 line .\n\nThank you",
         "FMV PIC": "CAO ANH TUAN",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001If1DYYAZ"
     },
@@ -34753,7 +35086,7 @@
         "CC NUMBER": "CC-0062227",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
         "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Inverter and vacuum start time out_稼動時のインバーターとバキュームポンプのタイムアウト[NXTR-S]",
-        "Communication Content": "品証課御中\n\nALVAC製のバキュームポンプで添付”緩み.jpg\"の赤丸部が外れており、中央のシャフトが空回りしていたと現地から報告有りました。\n別途休み明けに説明致しますので、過去案件と照らし合わせ必要であればメーカーに調査依頼をお願い致します。\n\n森谷",
+        "Communication Content": "品証課御中\n\nALVAC製のバキュームポンプで添付”緩み.jpg\"の赤丸部が外れており、中央のシャフトが空回りしていたと現地から報告有りました。\n\n別途休み明けに説明致しますので、過去案件と照らし合わせ必要であればメーカーに調査依頼をお願い致します。\n\n森谷",
         "FMV PIC": "Nguyen Trong Dai Dai",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Iese6YAB"
     },
@@ -35554,7 +35887,7 @@
         "CC NUMBER": "CC-0062227",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
         "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Inverter and vacuum start time out_稼動時のインバーターとバキュームポンプのタイムアウト[NXTR-S]",
-        "Communication Content": "Dear Moriya san,\n\nThe issues relate about vacuum pump show error inverter error code 80006502, 00003D8F I/O error and 80001203 module vacuum start time out.\nToday machine happend many time for this error. When machine error I check in I/O and manual start vacuum pump but pump not operate.\nMachine restart and error solved but I feeling abnormal sound make more than day by day. So We worry this module in the near future maybe suddenly stop and machine down.\nI already update more one trace data in this case.\n\nSo, pls help to check trace data and adviced us as soon as posible.\n\nThanks you!\n\nFMV-DAI",
+        "Communication Content": "Dear Moriya san,\n\nThe issues relate about vacuum pump show error inverter error code 80006502, 00003D8F I/O error and 80001203 module vacuum start time out.\n\nToday machine happend many time for this error. When machine error I check in I/O and manual start vacuum pump but pump not operate.\n\nMachine restart and error solved but I feeling abnormal sound make more than day by day. So We worry this module in the near future maybe suddenly stop and machine down.\n\nI already update more one trace data in this case.\n\nSo, pls help to check trace data and adviced us as soon as posible.\n\nThanks you!\n\nFMV-DAI",
         "FMV PIC": "Nguyen Trong Dai Dai",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Iese6YAB"
     },
