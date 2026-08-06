@@ -119,13 +119,13 @@
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: var(--row-hover); }
 
-  th:nth-child(1), td:nth-child(1) { width: 6%; }
-  th:nth-child(2), td:nth-child(2) { width: 6%; color: red; font-weight: bold; }
-  th:nth-child(3), td:nth-child(3) { width: 10%; }
+  th:nth-child(1), td:nth-child(1) { width: 10%; }
+  th:nth-child(2), td:nth-child(2) { width: 10%; color: red; font-weight: bold; }
+  th:nth-child(3), td:nth-child(3) { width: 15%; }
   th:nth-child(4), td:nth-child(4) { width: 25%; }
-  th:nth-child(5), td:nth-child(5) { width: 47%; }
-  th:nth-child(6), td:nth-child(6) { width: 6%; }
-  th:nth-child(7), td:nth-child(7) { width: 5%; text-align: center; }
+  th:nth-child(5), td:nth-child(5) { width: 25%; }
+  th:nth-child(6), td:nth-child(6) { width: 8%; }
+  th:nth-child(7), td:nth-child(7) { width: 7%; text-align: center; }
 
   .action-btn {
     display: inline-block;
@@ -166,10 +166,71 @@
   }
 
   @media (max-width: 768px) {
-    body { padding: 5px; }
-    th, td { font-size: 10px; padding: 4px; }
-    .toolbar input[type="text"] { font-size: 12px; }
-    .table-wrapper { height: calc(100vh - 230px); }
+    body { padding: 8px; }
+
+    h1 { font-size: 22px; margin-bottom: 10px; }
+
+    .toolbar { gap: 8px; }
+    .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px; }
+    #filter-new, #clear-filters { flex: 1 1 auto; text-align: center; }
+
+    #pagination { flex-wrap: wrap; justify-content: space-between; }
+    #pagination strong { flex: 1 1 100%; order: 2; text-align: center; font-size: 12px; }
+
+    .table-wrapper {
+      height: auto;
+      max-height: calc(100vh - 300px);
+      box-shadow: none;
+      background: transparent;
+    }
+
+    /* Turn the table into a stack of cards: each <tr> becomes one card,
+       each <td> becomes a labeled row inside it (label from data-label). */
+    table, thead, tbody, tr, td { display: block; width: 100%; }
+
+    thead { display: none; }
+
+    tbody tr {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 4px 0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    }
+
+    tbody tr:nth-child(even) { background: #fff; }
+
+    td {
+      display: flex;
+      gap: 10px;
+      border: none;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+
+    tr td:last-child { border-bottom: none; }
+
+    td::before {
+      content: attr(data-label);
+      flex: 0 0 100px;
+      font-size: 11px;
+      font-weight: bold;
+      color: var(--primary);
+      text-transform: uppercase;
+    }
+
+    td[data-label="ACTION"] {
+      justify-content: flex-end;
+    }
+    td[data-label="ACTION"]::before {
+      display: none;
+    }
+
+    .empty-row { display: block; }
+    .empty-row td { display: block; text-align: center; }
+    .empty-row td::before { content: none; }
   }
 </style>
 </head>
@@ -214,8 +275,16 @@
   const SEARCH_DEBOUNCE_MS = 200;
   const NEW_KEYWORD = "new";
 
-  // Fields shown in each row, in column order.
-  const COLUMNS = ["DATE", "CC NUMBER", "Customer", "TOPIC", "Communication Content", "FMV PIC"];
+  // Fields shown in each row, in column order, paired with the label
+  // used both in <thead> and as the mobile card's data-label.
+  const COLUMNS = [
+    { field: "DATE", label: "DATE" },
+    { field: "CC NUMBER", label: "CC NUMBER" },
+    { field: "Customer", label: "CUSTOMER" },
+    { field: "TOPIC", label: "TOPIC" },
+    { field: "Communication Content", label: "COMMUNICATION CONTENT" },
+    { field: "FMV PIC", label: "FMV PIC" }
+  ];
 
   // Maps each per-column search box to the precomputed lowercase key on a record.
   const FIELD_MAP = {
@@ -353,13 +422,15 @@
   function buildRow(item) {
     const tr = document.createElement("tr");
 
-    for (const field of COLUMNS) {
+    for (const col of COLUMNS) {
       const td = document.createElement("td");
-      td.textContent = item[field] ?? "";
+      td.dataset.label = col.label;
+      td.textContent = item[col.field] ?? "";
       tr.appendChild(td);
     }
 
     const actionTd = document.createElement("td");
+    actionTd.dataset.label = "ACTION";
     const link = document.createElement("a");
     link.className = "action-btn";
     link.href = item["GO TO WEB"] || "#";
