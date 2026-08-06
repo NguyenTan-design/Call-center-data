@@ -8,7 +8,7 @@ import re
 # ==========================
 
 df = pd.read_excel(
-    r"C:\Users\quoct\OneDrive - Fuji Machine Asia Pte Ltd\CALL CENTER SUMMARY.xlsx"
+    r"C:\Users\trang\OneDrive - Fuji Machine Asia Pte Ltd\CALL CENTER SUMMARY.xlsx"
 )
 
 # Chỉ lấy các cột cần
