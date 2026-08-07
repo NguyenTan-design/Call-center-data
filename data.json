@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T14:38:58+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nSorry for keep you waiting,\n\nWe have just discussed the matter with the Customer, and their primary concern remains preventing the accidental downloading of the wrong job.\n\nTheir answers are as follows:\n\n1. We are currently considering to make some command for activate/deactivate to JOB download permission on the machine setting.\n\nIs that okay for the customer?\n\n-> They believe that the issue can still occur even when the operation is performed by authorized personnel. So they didn't expect this method.\n\n2. Could you please let us know your expectations regarding the timeframe within which you would like this to be resolved?\n\n-> Regarding the timeline, they want this resolved as soon as possible, given that the issue was raised quite some time ago.\n\n3. Regarding the background to the request to display the most recently transmitted job, would it be possible for you to find out in what circumstances it is necessary to switch jobs on the machine after transmission from Nexim?​\n\n-> Their production line is very long, with 34 modules. Therefore, after completing one production plan, they transmit the new job to the background and then download it to each module sequentially, while the downstream modules are still producing the previous job.\n\nThank you!",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
         "DATE": "2026-08-07T14:04:42+00:00",
         "CC NUMBER": "CC-0080607",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
