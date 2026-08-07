@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T14:04:42+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Hamamoto-san,\n\nToday, we discussed the current issue with the factory team and agreed on a temporary countermeasure.\n\nWe reduced the input voltage supplied to the NXTR machine from 230 V to 227V–228 V. After implementing this adjustment, the modules have no longer reported the error.\n\nWe will continue to monitor the issue closely. If any abnormalities occur, I will report them to you immediately.\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
         "DATE": "2026-08-07T13:48:30+00:00",
         "CC NUMBER": "CC-0080670",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
