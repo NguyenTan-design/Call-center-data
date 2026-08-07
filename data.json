@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-07T10:56:45+00:00",
+        "CC NUMBER": "CC-0080098",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module displayed a purple screen with Error Code: 00EB0008, Sub Error Code: 00000000, Details: LSupplyTargetBaseDataGetter_モジュールに紫色の画面が表示され、エラーコード：00EB0008、サブエラーコード：00000000、詳細：LSupplyTargetBa...",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your support.\n\nWe have already updated the machine to V2.2Ht. We will continue to monitor the machine and keep you informed if the issue reoccurs.\n\nBest regards,\n\nDinh Tu",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018SVjmYAG"
+    },
+    {
+        "DATE": "2026-08-07T10:45:02+00:00",
+        "CC NUMBER": "CC-0079822",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_It still keep the pick up parts  after use on -machine edit._機上編集でピックアップした部品が保持されたまま[NXTR-S]",
+        "Communication Content": "Dear Takastu-san\n\nAs I’ve already mentioned, V2.3Pw contained a bug that caused stock-out issues, so please stop using that version.\n\nWe’ve released a version called V2.3Py that excludes this feature, so please use that version instead.\n\nI understand you already have this version.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017e3QrYAI"
+    },
+    {
         "DATE": "2026-08-07T09:48:57+00:00",
         "CC NUMBER": "CC-0080429",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
