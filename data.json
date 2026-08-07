@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-07T09:48:57+00:00",
+        "CC NUMBER": "CC-0080429",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_トレイ引き出しのレールを固定するために使用されている接着剤が剥がれてしまいます（トレイユニット-RM）[NXTR]",
+        "Communication Content": "Dear Tan-san\n\nNoted well.\n\nHow many failed pallets? It is a rough estimate is fine.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG"
+    },
+    {
+        "DATE": "2026-08-07T09:36:51+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nWe investigated log and found that the processing is something wrong after verified tray and confirmed with host.\n\nAt this time the host side is informed nothing feeder to the machine.\n\nHowever, machine trace data is not remaining in the folder.\n\nSo please kindly take a trace data again when the issue happen again.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
         "DATE": "2026-08-07T09:07:03+00:00",
         "CC NUMBER": "CC-0077782",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
