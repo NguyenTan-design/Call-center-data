@@ -1,5 +1,176 @@
 [
     {
+        "DATE": "2026-08-06T14:42:29+00:00",
+        "CC NUMBER": "CC-0078382",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The feeders in some slots do not power up when put into MFU52_MFU52の一部スロットで挿入したフィーダーに電源が入らない[NXTR-S]",
+        "Communication Content": "Dear Obata-san,\n\nAfter replace the warranty board, MFU now can work properly. Therefore, you can close this case.\n\nThank you very much.\n\nBest Regards,\n\nFMV Tuan",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000013xRq3YAE"
+    },
+    {
+        "DATE": "2026-08-06T14:07:29+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Sorry. There was an issue with the internet connection, so the data failed to upload. I have now re-uploaded the data, please check it again.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
+        "DATE": "2026-08-06T11:26:29+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear  Hirabayashi-san,\n\nThank you for your support!\n\nBut from 21-Jul until now, this error no happen again\n\nWe will continue follow up\n\nBest regards,\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
+    },
+    {
+        "DATE": "2026-08-06T10:09:54+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear  Hoang-san,\n\nThanks for sending the trace data.\n\nWe would appreciate it if you could give us until Aug-7 to investigate this matter.\n\nBest regards,\n\nFUJI Hirabayashi",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
+    },
+    {
+        "DATE": "2026-08-06T10:08:46+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear  Hoang-san,\n\nThanks for sending the trace data.\n\nWe would appreciate it if you could give us until Aug-18 to investigate this matter.\n\nBest regards,\n\nFUJI Hirabayashi",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
+    },
+    {
+        "DATE": "2026-08-06T09:54:37+00:00",
+        "CC NUMBER": "CC-0076980",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nSince the customer's production plan is not too much on this time\n\nWe plan to continue monitoring the machine for approximately two months to confirm that the issue does not reoccur.\n\nWe will keep you updated if there are any new findings during the monitoring period.\n\nThanks!\n\nBest regards,\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
+    },
+    {
+        "DATE": "2026-08-06T09:35:13+00:00",
+        "CC NUMBER": "CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "Dear Nam Nguyen-san,\n\nIf we do not receive a response by August 15, we will assume that this issue has been resolved and will close this case.\n\nBest regards,\n\nHirabayashi",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
+    },
+    {
+        "DATE": "2026-08-06T09:30:41+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Nguyen Thong-san\n\nIt appears that the trace data was not attached.\n\nHas the issue been resolved at this time?\n\nCall center Amano",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
+        "DATE": "2026-08-06T09:25:11+00:00",
+        "CC NUMBER": "CC-0077628",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH28 head RETAINER lossen_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nAdditional information from designer team.\n\nThey evaluate countermeasure parts in their environment and the result is good so far.\n\nWe will make official countermeasure parts for the customer and arrange it.\n\nPlease kindly give a time for us until 19.August.\n\nThank you very much for your understanding.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011pJvZYAU"
+    },
+    {
+        "DATE": "2026-08-06T08:56:22+00:00",
+        "CC NUMBER": "CC-0078829",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After editing job on the machine and saving it, changes were not applied._[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nWe are very sorry for inconvenient.\n\nAccording to designer team, they have some issue in evaluate processing in for this coutermeasure patch.\n\nAnd it is not possible to provide patch before vacation.\n\nCurrent release date is 21.August.\n\nSorry again but please kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BD1lYAG"
+    },
+    {
+        "DATE": "2026-08-06T07:58:31+00:00",
+        "CC NUMBER": "CC-0079109",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR Optimization – Duplicate Feeder Allocation Inquiry._NXTR最適化機能における重複フィーダー割り付け（Duplicate Feeder Allocation）に関する問い合わせ[NXTR-S]",
+        "Communication Content": "Dear FMV-Pham Hieu-san,\n\nThank you for the update.\n\nAs it will be log ahead for the release, we would like to close the case for now.\n\nIs it OK?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015o3vRYAQ"
+    },
+    {
+        "DATE": "2026-08-06T07:57:18+00:00",
+        "CC NUMBER": "CC-0079850",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Normal[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Can not import the DID, Part master, Feeder ID by text file format._DID、部品マスタ（Part Master）、および Feeder ID をテキストファイル形式でインポートすることができません。[NXTR-S]",
+        "Communication Content": "Dear Dinh Duong-san,\n\nThank you for the update.\n\nCould we close the case?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017hrkUYAQ"
+    },
+    {
+        "DATE": "2026-08-06T07:45:54+00:00",
+        "CC NUMBER": "NEW:CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
+        "Communication Content": "* Dear Call Center,\n\n- We have recently completed the installation of a new NXTR line and are currently performing the CPK run.\n\nHowever, we have encountered the following issues on Module 1R:\n\nThe mark camera cannot read the barcode on the nozzle station (Error Code: 93F8D716).\n\nThe mark camera cannot detect the pitch lane mark (Error Code: 96E5D713).\n\nThe following troubleshooting steps have been performed:\n\n+ Cleaned all mark points on the machine → Issue remained.\n\n+ Checked all mark points again to ensure none were obstructed → No abnormality found.\n\n+ Replace the nozzle station with another one → Issue remained.\n\n+ Restarted the machine → Issue remained.\n\n+ Replaced the head with another one → Issue remained.\n\n+ Observed the brightness of the mark LED while the machine was capturing the marks → The LED brightness was significantly weaker than that of the other modules.\n\n+ Swapped the board LED and the part camera lens with another module → The issue on the current module was resolved, but the same issue appeared on the module that received the swapped parts.\n\n- We have collected the relevant trace data and logs for analysis.\n\n- Please analyze the attached data and provide your advice on this issue. We would appreciate your insights regarding the possible root cause, as well as any additional checks or corrective actions that should be taken.\n\nThank you for your support",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
+        "DATE": "2026-08-06T07:03:05+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Victor-san,\n\nWe reviewed the logs with our Design team.\n\nAt the time of the issue, there were indications that NC data which is for Job data creation had not completed normally.\n\nIn addition, since job transmission was restored after the duplicate hosts entries were removed,\n\nthe hosts file configuration may have been related to the phenomenon, possibly through name resolution behavior.\n\nBased on the available information, it is difficult to determine the exact relationship,\n\nbut the hosts file correction may have contributed to the recovery of the job transmission issue.\n\nBest Regards,\n\nMehdi",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
+        "DATE": "2026-08-06T07:01:29+00:00",
+        "CC NUMBER": "CC-0076867",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_RH20 Nozzle was rust so many_RH20ノズルは錆びていました[NXTR-S]",
+        "Communication Content": "Nguyen Trong Nham (FMV)-san\n\nWe asked the design department to review the nozzle and, from FUJI’s perspective, it is difficult to understand why corrosion has occurred only on the WR-M nozzle.\n\nThe WR-M nozzle is manufactured from the same material as other nozzles. If the WR-M nozzle inherently had a characteristic that made it more susceptible to corrosion, similar cases would be expected to occur at other customer sites as well. However, no such reports have been identified.\n\nIn addition, the area where corrosion has occurred is made of a material with superior corrosion resistance compared with commonly rust-prone materials such as iron. Therefore, our view is that environmental factors alone, such as moderately elevated humidity, are unlikely to cause corrosion to the extent observed in this case.\n\nFor this reason, we believe the corrosion may have resulted from a combination of factors, such as contamination from perspiration during manual handling, exposure to strongly acidic or alkaline substances, and/or storage in a highly humid environment.\n\nFurthermore, as stated in the SMTR and Mechanical Reference manuals, nozzles must be stored in an environment with humidity maintained below 30%. Since the storage conditions in this case exceeded the specified limit, we are unable to accept this case under warranty.\n\nCall center Amano",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zZo3dYAC"
+    },
+    {
+        "DATE": "2026-08-06T06:55:00+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Hamamoto,\n\nThank you for your reply.\n\n- Please find my answers to your questions below\n\n- Q1: The module where the problem occurred is on a different base.　And no error occurred there.\n\nIs this correct? -> Yes, that's correct. The module was moved to a different base, and no error occurred there.\n\n- Q2: What exactly is meant by “different base” here?　Where is the problematic module located at this point?\n\nIn its original location? Or on yet another base? -> The problematic module was moved from its original base to a different base. However, after the move, the same error still occurred.\n\nThank You For Your Support",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-06T06:48:22+00:00",
+        "CC NUMBER": "CC-0080370",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Duong san,\n\nBased on our investigation, for environments using Nexim v3.2.0 with SQL Server,\n\nplease first confirm that the 5220 patch from Software notice 2026-0170 has been installed.\n\nIf it has not been installed, please download from FujiCommunity and install the patch.\n\nIf the issue still reoccurs after applying the patch,\n\nplease run the Lock_check_R4.5 that has been uploaded when the problem occurs, and check the database lock status.\n\nAfter execution, a CSV file will be generated in the same folder.\n\nThe CSV file contains the process ID that is holding the database record.\n\nPlease use Windows Task Manager to identify the corresponding process and determine from which PC the process is running.\n\nIn addition, please collect the Nexim trace data and contact us with the results.\n\nPlease provide the following information:\n\nCSV file generated by Lock_check_R4.5\n\nProcess ID holding the lock\n\nPC name where the process is running\n\nNexim trace\n\nNXTR trace data\n\nOnce we receive the above information,\n\nwe will continue our detailed investigation of the root cause.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019CKEtYAO"
+    },
+    {
+        "DATE": "2026-08-06T06:24:13+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nSorry for keep you waiting.\n\nWe already asked to designer team to investigate and still waiting feedback from them.\n\nI will try to get some feedback from them by tomorrow, so please kindly give some time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
+        "DATE": "2026-08-06T05:09:13+00:00",
+        "CC NUMBER": "CC-0076867",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_RH20 Nozzle was rust so many_RH20ノズルは錆びていました[NXTR-S]",
+        "Communication Content": "Dear Amano Toru -san,\n\nDo you have any update for this case?\n\n-----------------------------------------------------\n\nDear Amano san,\n\nIt's been a week now; could you please let me know the current status?\n\nFMV takatsu\n\n---------------------------------------------------------------\n\nBest regards,\n\nNguyen Trong Nham (FMV)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zZo3dYAC"
+    },
+    {
         "DATE": "2026-08-06T04:17:14+00:00",
         "CC NUMBER": "CC-0079850",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
