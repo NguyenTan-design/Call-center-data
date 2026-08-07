@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T13:48:30+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Dear Amano-san,\n\nCurrently, We have replaced the BOARD, PRINTED CIRCUIT (2AHEGL0010**) and the mark camera lighting cover assembly.\n\nAfter replacing these parts, the issue was resolved.\n\nCould you please analyze the collected data and help us identify the root cause of this issue?\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
         "DATE": "2026-08-07T10:56:45+00:00",
         "CC NUMBER": "CC-0080098",
         "Customer": "BYD Electronics Vietnam Company Limited]",
