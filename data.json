@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T04:03:43+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Hamamoto-san,\n\nWhen selecting the \"Weekly\", \"Daily\", \"Detail\", or \"Analysis\" tabs, the Job information was not displayed.\n\nI collected the trace data from the \"System server PC\" at 09:48 on August 6, 2026.\n\nPlease analyze the trace data and help us identify the root cause of the issue.\n\nThank you\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-08-07T03:42:21+00:00",
         "CC NUMBER": "CC-0079109",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
