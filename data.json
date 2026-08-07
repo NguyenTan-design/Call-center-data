@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-07T08:29:40+00:00",
+        "CC NUMBER": "CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Tan san\n\nPlease kindly check below my comments.\n\n1. 2.2Bs will include 2.2Bn pair module issue correction?\n\n->Yes, 2.2Bs is including countermeasure of pair module issue on 2.2Bn.\n\n2. 2.35 will include 2.2Bs fiducial mark reading issue correction ?\n\n->No, it is not including to 2.35.\n\nIn this case you should use V2.2Bs because it is including all necessary countermeasure for this customer.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
+        "DATE": "2026-08-07T08:19:10+00:00",
+        "CC NUMBER": "CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_8DC50000 レーン2における部品の配置位置が、ロボットの可動範囲（Y方向）を超えています。（追加）[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your information. Initially, the customer was planning to upgrade to V3.2.100 at the end of this month.\n\nHowever, the customer has now changed their request and would like to have a patch for V3.1.100 as soon as possible.\n\nTherefore, could you please consider preparing a patch for V3.1.100? We apologize for the change in request and appreciate your support.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
         "DATE": "2026-08-07T06:36:19+00:00",
         "CC NUMBER": "CC-0080098",
         "Customer": "BYD Electronics Vietnam Company Limited]",
