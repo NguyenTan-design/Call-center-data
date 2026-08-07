@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T15:32:01+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Thong-san\n\nThank you for the update on the situation.\n\nThe design department has pointed out a potential issue regarding the machine's axis motion parameters.\n\nWe are currently considering how to verify this.\n\nWe will also assess the impact of setting the input voltage to 227–228V.\n\nWe will provide further updates as they become available.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
         "DATE": "2026-08-07T14:38:58+00:00",
         "CC NUMBER": "CC-0069438",
         "Customer": "BYD Electronics Vietnam Company Limited]",
