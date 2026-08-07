@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T00:11:39+00:00",
+        "CC NUMBER": "CC-0080612",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
+        "Communication Content": "Dear Ha Ngoc Son-san\n\nWe have determined that this is a known issue.\n\nWe have sent the updated version, V2.2Bs, via the file transfer account.\n\nThe password is as follows:\n\nDownload\t: \"RaCxM6NR\"\n\nZIP\t: \"7ZkBsdQu\"\n\nDetails of corrections\n\n1. Exception errors occurred after fiducial marks were read. (CC-0080612)\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU"
+    },
+    {
         "DATE": "2026-08-06T14:42:29+00:00",
         "CC NUMBER": "CC-0078382",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
