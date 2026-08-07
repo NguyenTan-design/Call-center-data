@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T09:07:03+00:00",
+        "CC NUMBER": "CC-0077782",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_ZS axis error code 3A19_Zs軸の3A19エラー[NXTR-S]",
+        "Communication Content": "Dear Obata-san,\n\nWe conducted an additional test regarding this issue.\n\nWe found that when we place an object with a height approximately equivalent to the component height to block the height measurement sensor position, the 3A19 error does not occur during tray pickup.\n\nPlease refer to the attached picture for the test condition.\n\nHowever, this is only a temporary workaround and is not a practical solution for the customer. The customer does not want to use this kind of temporary measure for production.\n\nTherefore, we would like FUJI to investigate the root cause and consider a proper improvement or countermeasure for this issue, rather than relying on a temporary workaround.\n\nCould you please investigate whether there is a way to improve the height measurement/pickup control so that the machine can reliably pick up this component without causing the Zs overload (3A19)?\n\nWe would appreciate your advice and support regarding a permanent improvement.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012GAszYAG"
+    },
+    {
         "DATE": "2026-08-07T08:29:40+00:00",
         "CC NUMBER": "CC-0080574",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
