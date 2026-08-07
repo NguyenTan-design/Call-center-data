@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T02:04:57+00:00",
+        "CC NUMBER": "CC-0080185",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The configuration in job does not match with system layout._ジョブ内の構成がシステムレイアウトと一致していません。[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nWe restored the received the NeximDB and checked the flow direction and base settings in the jobs for lines B2-Line08 and B2-Line08B.\n\nBut both were in a normal state and there were no issues.\n\nSince no changes were made, it is unlikely that the flow direction or base settings would change on their own.\n\nTherefore, unless there is any information about actions that may have caused the change, we would appreciate it if you could continue to monitor the situation for the time being.\n\nWe also tested opening and closing the jobs multiple times, but the flow direction and base settings did not change.\n\nRegarding the display after importing a job, it is working as designed that the line is shown in the Job Management screen as a 2M-base-only line.\n\nThis is because the job data itself does not contain information indicating whether it is 2M, 4M, or another configuration. As a result, it is displayed as 2M by default.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
+    },
+    {
         "DATE": "2026-08-07T01:29:58+00:00",
         "CC NUMBER": "CC-0069438",
         "Customer": "BYD Electronics Vietnam Company Limited]",
