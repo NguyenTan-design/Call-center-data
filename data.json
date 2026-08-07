@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T06:19:38+00:00",
+        "CC NUMBER": "CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Toyama san\n\nThank you for your information.\n\nPlesae refer to the issue CC-0080612 ,it is same customer site. Call center provided version 2.2Bs, can you help to answer this below 2 questions :\n\n1. 2.2Bs will include 2.2Bn pair module issue correction?\n\n2. 2.35 will include 2.2Bs fiducial mark reading issue correction ?\n\nThe reason for the question is that there are 2 issues in our customer now:\n\n1. Pair module production issue => Fix by 2.2 Bn, but 2.2Bn can not fix fiducial mark reading issue\n\n2. Fiducial mark reading issue => We applied 2.2Bn for factory, and need to update to 2.2Bs as Fuji advice, but we don't know whether 2.2Bs can fix the pair module issue or not\n\nIf 2.2Bs include 2.2Bn => we plan to update 2.2Bs\n\nIf 2.2Bs did not include 2.2Bn, just 2.35 include 2.2Bn and 2.2Bs => we plan to update 2.35\n\nPlease help to advice.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
         "DATE": "2026-08-07T05:11:28+00:00",
         "CC NUMBER": "CC-0080574",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
