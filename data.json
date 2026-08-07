@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-07T06:36:19+00:00",
+        "CC NUMBER": "CC-0080098",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module displayed a purple screen with Error Code: 00EB0008, Sub Error Code: 00000000, Details: LSupplyTargetBaseDataGetter_モジュールに紫色の画面が表示され、エラーコード：00EB0008、サブエラーコード：00000000、詳細：LSupplyTargetBa...",
+        "Communication Content": "Dear Dinh Tu-san,\n\nThank you for the inquiry.\n\nWe confirm that error was occurring because the required data could not be retrieved when performing the splicing process.\n\nThis issue has already been fixed in the latest version of V2.2H.\n\nPlease let me send the correction version through file transfer system.\n\n========================\n\nInstallCD_V2.2Ht.zip\n\ntu.dn@fuji-smt.com.sg\n\nDownload PW\t: \"24ywf87T\"\n\nZIPfile open PW\t: \"EsVQDZFV\"\n\n========================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018SVjmYAG"
+    },
+    {
         "DATE": "2026-08-07T06:19:38+00:00",
         "CC NUMBER": "CC-0080574",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
