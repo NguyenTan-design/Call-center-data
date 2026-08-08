@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-08T08:10:45+00:00",
+        "CC NUMBER": "NEW:CC-0080765",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NG Shield Can components are not rejected before the machine performs the placing process_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAs mentioned in CC-0076583, after applying the patch \"PreventRejectPartDropModeFlag (NXTR)\", we found that it works as expected with small components. However, with the Shield Can component, there is no change - the machine continues to proceed with the next placement before rejecting the NG part.\n\nPlease find the Shield Can component information below:\n\nP/N: A806-55349-BYD\n\nMachine: NXR-505-T-3\n\nCould you please check the trace data and advise us on the root cause and any recommended solution?\n\nThank you for your support.\n\nBest regards,",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ALuQmYAL"
+    },
+    {
         "DATE": "2026-08-08T08:05:31+00:00",
         "CC NUMBER": "CC-0080155",
         "Customer": "Fuji Machine Vietnam Co., Ltd.]",
