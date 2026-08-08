@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-08T08:05:31+00:00",
+        "CC NUMBER": "CC-0080155",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_Issues related to the CFX interface function_CFXインターフェース機能に関する問題[NXTR-A]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThanks for your information\n\nCC: For the other questions, let me confirm internally.\n\nFMV: We still have a question waiting for your answer.\n\n- Have any customers applied CFX interface on NXTR machine yet, or have you guys tested this feature on NXTR machine?\n\nWe look forward to hearing from you.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018aybdYAA"
+    },
+    {
+        "DATE": "2026-08-08T07:55:20+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe already applied the 4745_IPCCFX_Step3.5_Patch for Mitac customer from 20Jul26\n\nTo date, we have not received any update from the customer.\n\nBecause the CFX server system is located in Taiwan,\n\nthe system manager and developer told us that they would update us on the results next week.\n\nWe will update the information to you when possible.\n\nWe sincerely apologize for this delay.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-08-07T16:43:36+00:00",
         "CC NUMBER": "CC-0080021",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
