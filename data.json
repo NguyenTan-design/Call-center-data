@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-09T10:48:53+00:00",
+        "CC NUMBER": "CC-0080185",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The configuration in job does not match with system layout._ジョブ内の構成がシステムレイアウトと一致していません。[NXTIII]",
+        "Communication Content": "Dear Terazawa-san,\n\nThe flow direction issue occurred on line B2-Line06A.\n\nPlease help to check for this line again if possible.\n\nThank you!\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
+    },
+    {
         "DATE": "2026-08-09T09:37:19+00:00",
         "CC NUMBER": "CC-0080547",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
