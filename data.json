@@ -1413,6 +1413,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
     },
     {
+        "DATE": "2026-07-30T01:29:20+00:00",
+        "CC NUMBER": "CC-0079959",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Occasional 7A01 errors occur_7A01エラーが散発する[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nAre there any updates on this matter?\n\nFMV takatsu",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000180gRxYAI"
+    },
+    {
         "DATE": "2026-07-30T01:28:43+00:00",
         "CC NUMBER": "CC-0080164",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
@@ -1735,6 +1744,15 @@
         "Communication Content": "Dear Moriya san\n\nSorry for late reply due to we support onsite last week\n\nWe already  checked the wiring of  the Part Pickup Holder A and the Part Vacuum Break Holder A but not found any abnormal\n\nWe're waiting WR boards for replacement due to we don't have spare in stock\n\nDo you want to send NG board to Japan for investigation\n\nKindly inform to us for address and person\n\nBr,\n\nVictor",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
+    },
+    {
+        "DATE": "2026-07-28T08:58:48+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_[NXTR-S]",
+        "Communication Content": "Dear Quynh-san\n\nIf different parts are placed on a single tray pallet, this behavior occurs when one of the parts runs out.\n\nThis is because the system prioritizes picking parts from the partially used tray.\n\nIs it possible to configure the system so that only one part type is placed on each pallet?\n\nExample: Manually move a part from either sub-slot 1 or 2 to a different pallet. Then, re-optimize the feeder and nozzle locations using the fixed settings.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
     },
     {
         "DATE": "2026-07-28T08:55:49+00:00",
@@ -3445,6 +3463,15 @@
         "Communication Content": "Dear Obata-san,\n\nThank you for your information. I will discuss this with the customer.\n\nWe can close this ticket.\n\nThank you for your support.\n\nBest regards,\n\nManh Cuong",
         "FMV PIC": "Nguyen Manh Cuong",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014XYo7YAG"
+    },
+    {
+        "DATE": "2026-07-13T12:21:40+00:00",
+        "CC NUMBER": "CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "Dear Nam Nguyen-san,\n\nPlease provide an update on the following points regarding this matter.\n\nBased on the images provided this time, there were no images in which recognition was possible.\n\nThe design team has informed us that it is difficult to use TVR for this component.\n\nAlthough the possibility of successful recognition is low, as a final confirmation, we would like to request that you provide images under the following conditions:\n\n・Side illumination (red only)\n\n・Side illumination (blue only)\n\nCould you please capture images with shutter speeds in the range of approximately 1 ms to 30 ms?\n\nBest regards,\n\nHirabayashi",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
     },
     {
         "DATE": "2026-07-13T11:03:41+00:00",
