@@ -45,6 +45,42 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018aybdYAA"
     },
     {
+        "DATE": "2026-08-08T07:56:02+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe already applied the 4745_IPCCFX_Step3.5_Patch for Mitac customer from 20Jul26\n\nTo date, we have not received any update from the customer.\n\nBecause the CFX server system is located in Taiwan,\n\nthe system manager and developer told us that they would update us on the results next week.\n\nWe will update the information to you when possible.\n\nWe sincerely apologize for this delay.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-08T07:56:02+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe already applied the 4745_IPCCFX_Step3.5_Patch for Mitac customer from 20Jul26\n\nTo date, we have not received any update from the customer.\n\nBecause the CFX server system is located in Taiwan,\n\nthe system manager and developer told us that they would update us on the results next week.\n\nWe will update the information to you when possible.\n\nWe sincerely apologize for this delay.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-08T07:56:02+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe already applied the 4745_IPCCFX_Step3.5_Patch for Mitac customer from 20Jul26\n\nTo date, we have not received any update from the customer.\n\nBecause the CFX server system is located in Taiwan,\n\nthe system manager and developer told us that they would update us on the results next week.\n\nWe will update the information to you when possible.\n\nWe sincerely apologize for this delay.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-08T07:56:02+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe already applied the 4745_IPCCFX_Step3.5_Patch for Mitac customer from 20Jul26\n\nTo date, we have not received any update from the customer.\n\nBecause the CFX server system is located in Taiwan,\n\nthe system manager and developer told us that they would update us on the results next week.\n\nWe will update the information to you when possible.\n\nWe sincerely apologize for this delay.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-08T07:55:20+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -1105,6 +1141,15 @@
         "Communication Content": "Dear Dai-san\n\nHere is an update regarding AIMEXR V1.60.\n\n【AIMEXR】\n\n→All features introduced in V1.5De3 are included in V1.60.\n\n【LCU】\n\n→The compatible LCU version is V2.30.\n\nIn accordance with Software Notice 2026-0417 (A), apply “0874_LCUPatch_V2.30orV2.31_SP22.”\n\nNo other actions are required.\n\n【Nexim】\n\n→The compatible Nexim version is V3.2.100.\n\nApply the patches in accordance with Software Notices 2026-0736 and 2026-0865.\n\n2026-0736　→　5513_V3.2.100_Plan_Patch\n\n2026-0865　→　5559_V3.2.100_DataUpdate_Optimizer_Patch\n\n（Important Notice：This information is current as of July 31, 2026.）\n\nAccording to the current Nexim Version.txt file, “4692_V3.1.100_DataUpdate_Optimizer_Patch” has been applied.\n\nHowever, this is included in the fixes for Nexim V3.1.100. Therefore, there is no need to apply it again.\n\nThank you\n\nBR\n\nHamamoto",
         "FMV PIC": "Nguyen Trong Dai Dai",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017jlFzYAI"
+    },
+    {
+        "DATE": "2026-07-31T06:13:13+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
     },
     {
         "DATE": "2026-07-31T06:12:26+00:00",
