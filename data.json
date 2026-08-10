@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-10T15:31:59+00:00",
+        "CC NUMBER": "NEW:CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nThe machines were operating normally. However, at approximately 15:25, the factory technical staff reported that the \"On-machine job editing\" function could no longer be used.\n\nUpon inspection, we found that the \"LCU NPI Server\" service had stopped unexpectedly.\n\nWhen attempting to restart the service on the LCU PC, the following warning appeared:\n\n\"Windows could not start the Fuji LCU NPI Server service on the local computer.\n\nError 1053: The service did not respond to the start or control request in a timely fashion.\"\n\nWe have collected the trace data for the following two time periods:\n\n10:00–12:30\n\n12:30–15:30\n\nPlease review the attached trace data and advise us on the root cause of the service stopping and the recommended solution to prevent this issue from occurring again.\n\nBest regards",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-10T10:17:55+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
