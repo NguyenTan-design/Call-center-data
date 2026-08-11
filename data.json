@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-11T09:07:09+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nThanks for your supported\n\nSorry for replied late, due to customer no plan production for the model with tray components\n\nToday we collected the trace new trace data, and take the video reject component on the Reject conveyor\n\nPlease check bellow items for detail:\n\nTrace: 20260811_022548_trace\n\nJob: HOPPER49-DVD_065_T_X02_A_NXT_SEA2608310B _ R00005_L7\n\nVideo: Drop NG Part 0n Tray Conveyor\n\nPicture: NG part on Tray Conveyor\n\nPart Number: 291210000523\n\nTime: 11Aug26, 13:50 - 14:10\n\nPls analysis and help to resolve this issue\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
         "DATE": "2026-08-10T15:31:59+00:00",
         "CC NUMBER": "NEW:CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
