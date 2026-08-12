@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-08-12T11:20:45+00:00",
+        "CC NUMBER": "CC-0075117",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._画面に表示されるエラーコードとエラー画像内のエラーコードをどのように同期させるか。[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nWe have discussion with customer and then they agree Option 1:\n\n1. Enable searches for machine error codes within Image Explorer so that results can be retrieved.\n\nPlease let us know the plan, if possible.\n\nCC: Could you please provide examples of other errors where it is difficult to link them to the image processing results?\n\nFMV: We have collect some the error code that show on the Screen and Image Explorer are different bellow:\n\n- In the Screen show: 93F10000: Nozzle exchange error,  in the Image Explorer show: D715\n\n- In the Screen show: 92A32C01: Request to perform vision processing again, in the Image Explorer show: D711\n\nPlease check the new attached file for detail.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
+        "DATE": "2026-08-12T10:11:53+00:00",
+        "CC NUMBER": "NEW:CC-0080841",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._[NXTR]",
+        "Communication Content": "Dear Call Center,\n\nRecently, our customer Luxshare Technology has been using Etool and has provided positive feedback regarding its convenience and usability.\n\nHowever, a problem has arisen during their use of the software:\n\nWhen using Etool’s automatic drawing function for complex components with many small pins and images on the component body, using the “Fit” function causes the component pins to move and attach to the outer edge of the component body instead of attaching to the intended highlighted connection points (specifically, the top, bottom, left, and right points).\n\nIn comparison, when using Nexim, the “Fit to location” function works accurately and correctly attaches the pins to the intended locations.\n\nTherefore, the customer would like to know whether we can improve Etool component pin drawing and “Fit” functions so that the pins can be fitted to the correct locations more accurately, making the software more convenient and efficient for their use.\n\nI have attached two images for reference:\n\n* One showing the “Fit to location” function in Nexim.\n\n* One showing the “Fit” function in Etool.\n\nIf you need any additional information or details, please let me know, and I will be happy to provide them.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ"
+    },
+    {
+        "DATE": "2026-08-12T09:39:20+00:00",
+        "CC NUMBER": "NEW:CC-0080838",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Purple screen on NXTR_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nFrom 10:50 to 11:30. After a model changeover and completing 15 panels, a pickup error occurred at Module 2, Slot 46, 47. Every time the machine attempted to pick up components at Slots 46 and 47, it hang up at the logo screen.\n\nTo resolve problem we do some actions below:\n\n1. Restart machine => NG\n\n2. Restart machine , restart LCU => NG\n\n3. Restart machine, check shape data of slot 46, 47, change part height from 1.550 to 0.5 => Purple screen appear when press 'Save' on On-Machine edit.\n\n4. Restart machine => Modify shape data on Nexim and transmit job through LCU Web => Purple screen.\n\n5. Take out all PCB in production line, delete job, re-transmit job through Nexim -> OK\n\nFrom 12:50 to 14:00, purple screen appear again during production.\n\n1. Take out all PCB in production line, delete job, re-transmit job through Nexim -> OK\n\n2. Exchange MFU => NG\n\n3. Exchange RH08 head of M2-R => OK (Few board in work order left)\n\nWe have collected all relevant trace data, job data, and event logs for your analysis.\n\nPlease review the attached logs and advise on the root cause and a permanent solution for this issue.\n\nBest regards,.\n\nNguyen Manh Cuong",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AmrVAYAZ"
+    },
+    {
+        "DATE": "2026-08-12T01:54:00+00:00",
+        "CC NUMBER": "NEW:CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, Luxshare Precision is having an issue with the RH02 head.\n\n-After the head picks up the component and moves to the part camera for part recognition, the HeadFvmark is also captured at the same time. Then, the system shows “No Target” for the HeadFvmark and displays error code 8000D711.\n\n-However, the HeadFvmark was captured and read successfully before the head picked up the component.\n\nThis issue happens on most lines using the RH02 head.\n\n-Currently, the customer has to increase the Exposure Time 1 setting in the component’s Shape Data to 80–100 in order for the HeadFvmark to be recognized.\n\n-I have attached the trace data. Please help check and support us. In the trace data I sent, the error occurred on Module No. 5.\n\nPlease help check the cause of this issue and advise us on how to solve it.\n\nThank you and Best regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
+        "DATE": "2026-08-12T01:17:54+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano san\n\nI would like to provide you with an update on the situation with this module.\n\nOn August 8, we replaced the vacuum pump on this module and monitored its operation afterward. Since then, errors 80001203 and 80001204 have not occurred again.\n\nBR\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-08-11T09:39:23+00:00",
         "CC NUMBER": "CC-0080612",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
