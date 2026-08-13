@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-13T10:33:05+00:00",
+        "CC NUMBER": "NEW:CC-0080868",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t warranty request_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nRegarding to CC-0069740, customer request to replace all old type of W08t feeder control board to new type (new design), can you advice on this request, customer is calculating the number of feeder 8T in site, i will provide the total number latter?\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvOddYAF"
+    },
+    {
+        "DATE": "2026-08-13T10:18:59+00:00",
+        "CC NUMBER": "NEW:CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nOur customer rise a request, can you advice :\n\nBack ground : When customer optimize job with RH02, no alarm occurred. But in real production, machine alarm error 8DC50000 was occurred because of in machine configure setting, the \"Lane pitch setting\" setting was set to \"Fix both end\" ,and \"Lane pitch when both end are fixed\" was set to 610mm. That make movement of RH02 is impossible and error 8DC50000 was occurred\n\nCustomer request : For customer case, can Fuji add the setting of \"Lane pitch setting\" and \"Lane pitch when both end are fixed\" in Nexim job so customer can select related setting when they create nexim job, or any solution that optimizer software can refer to the actual \"Lane pitch setting\" and  \"Lane pitch when both end are fixed\"  setting of machine config to calculate result . The reason is  that if error 8DC50000  happen in rea production, the optimizer need to show that in the first time, no need to wail till real production\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
         "DATE": "2026-08-13T05:34:11+00:00",
         "CC NUMBER": "CC-0080825",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
