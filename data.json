@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-13T11:37:57+00:00",
+        "CC NUMBER": "NEW:CC-0080872",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_AIMEX IIIc Unexpected Stop During Production_[AIMEXIIIc]",
+        "Communication Content": "Dear Support Team,\n\nAt the TOA factory, we have one SMT production line consisting of two AIMEX IIIc machines, one XPF machine, and one AIMEXR machine. The line is running NEXIM version 3.2.21, and the AIMEX IIIc machines are running version 6.11.\n\nWe are currently experiencing an intermittent issue with the AIMEX IIIc during production.\n\nUnder normal production conditions, the machine performs vision inspection and component placement normally. However, the machine suddenly stops, and the error lamps on both sides turn on. At the same time, no error message or error code is displayed. Instead, the machine returns directly to the main screen.\n\nAfter this occurs, if we press the Start button again, the machine resumes operation normally and vision component normal\n\nThis issue has occurred intermittently in the past, but the frequency was relatively low. However, during my night shift yesterday, the problem occurred much more frequently. The machine could only produce approximately 1–2 PCBs before suddenly stopping again with the same symptom.\n\nI collected the trace data and take a video immediately after the machine stopped unexpectedly. The attached trace data contains the information related to the occurrence.\n\nCould you please check and analyze the attached trace data and advise us on the possible root cause of this issue and the recommended actions to resolve it?\n\nIf you need any additional information, such as machine logs, alarm history, system settings, production conditions, or other trace data, please let me know. I will provide all the necessary information.\n\nThanks for your support",
+        "FMV PIC": "Dau Hoang Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Avf9pYAB"
+    },
+    {
         "DATE": "2026-08-13T10:33:05+00:00",
         "CC NUMBER": "NEW:CC-0080868",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
