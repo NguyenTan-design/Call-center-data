@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-13T15:06:04+00:00",
+        "CC NUMBER": "NEW:CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, customer at Nghe An site is an issue with Module 2RV.\n\n When running the pair module program on both lanes, At module 3,  the module only clamps the panel but does not mount components onto the PCB. The problem is temporarily resolved by press Cycle Stop button and then Start button.\n\nWe are currently using NXTR Ver. 2.2Bs.\n\n With regard to this issue, we have already mentioned it in CC-0072091 and CC-0080574.\n\nCC-0072091 : It mentions that V2.2bn can fix pair module production issue.\n\nCC-0080574: It mentions that 2.2Bs is including countermeasure of pair module issue on 2.2Bn.\n\nWe have acquired the trace data, video recording of the phenomenon. and program file. Kindly review the trace data and support us in investigating this issue.\n\nThank you!",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
         "DATE": "2026-08-13T11:37:57+00:00",
         "CC NUMBER": "NEW:CC-0080872",
         "Customer": "TOA VIETNAM CO., LTD.]",
