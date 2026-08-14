@@ -1,5 +1,86 @@
 [
     {
+        "DATE": "2026-08-14T10:33:33+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nTo prevent the wrong job from being downloaded, they want to reduce the number of jobs displayed on the download screen as much as possible.\n\nThey suggest that only the job currently being produced on the line and the most recently transmitted job should be displayed.\n\nPlease review this proposal and let me know if there is a better approach, so I can relay it to them.”\n\nThanks.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
+        "DATE": "2026-08-14T10:00:00+00:00",
+        "CC NUMBER": "CC-0080765",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NG Shield Can components are not rejected before the machine performs the placing process_NG Shieldが実装前に廃棄されない[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nIt is module no. 1 of NXR-505-T-3 machine and also located at the 8th module of the line\n\nThanks.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ALuQmYAL"
+    },
+    {
+        "DATE": "2026-08-14T08:56:43+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Nguyen Tan-san, Takatsu-san,\n\nThank you for the inquiry.\n\nAlthough, I am not sure whether it is same problem so please share the customer Job which the problem occurred.\n\nTh known problem is correction for the issue where placement area problems could occur under the Lane 2 + RH02 condition when creating a Dual [same job both lanes] job.\n\nAlthough, as the lane width is 610mm. the produce panel is 610mm?\n\nAnyway, please share the Job and if you have the machine trace when problem occurred, please share them together, too.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-08-14T07:41:38+00:00",
+        "CC NUMBER": "NEW:CC-0080890",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Error when scan AVL part with \" Shift Change Verify\" use Simple AVL mode._[NXTR-S]",
+        "Communication Content": "Dear Call Center team,\n\nWe have a case with AVL part at customer TP Link, details as below:\n\nScenes :\n\nCustomer : LIANYUE (TP Link)\n\nLine : FUJI23\n\nDate: 14-Aug-2026\n\nNexim Version: 3.2.21\n\nNXTR Version : 2.31\n\nCustomer there are 2 parts port position at Line FUJI23 as below:\n\n- Module 2-39 :\n\n  Original part- 2301500174\n\n  AVL Part - 2301500172\n\n- Module 3-35:\n\n  Original part- 2301500075\n\n  AVL Part - 2301500174 & 2301500172.\n\nPls take note a Part number \"2301500174\" at these 2 slots.\n\nAn original Part number \"2301500174\" at slot 2-39 is a AVL Part at slot 3-35.\n\nIssue :\n\n1. When we use Simple AVL mode\n\n- Setting as line config attachment file (pls check line FUJI23).\n\n- Use AVL file format for Job : DecoX50_0362_P541(P420)_S14_BTM_1550602759\n\n- We already restarted all PC (NEXIMDBServer, FUJIDBSERVER, LineSV23, LCU23, Machine line 23) And retransmit Job.\n\nAfter we scan the component at slot 3-35 and another slot is normal. No happen any error.\n\nBut after IPQC department scan component use function \"Shift change Verify\" in KitHandy software has happened an error\n\n\"Part number different with part number of Job\" at slot 3-35.(pls view image \"1\")\n\nSummary:\n\n- Production still run normally with scan component by \"ID Tape\" & \" Spicing\". They use account name is \"23\"\n\n- IPQC cannot scan with component at slot Module 3-35 by \" Shift change Verify\". They use account name is \"QC\"\n\nNote: AVL Full mode has happened error with all basic scan method such as : \"ID Tape\" & \" Spicing\" & \" Shift change Verify\".\n\n(pls view image \"2\")\n\n2. We have advised customer use 1 in 2 ways below:\n\nWay 1: At slot 3-35 perform delete AVL part number \"2301500174\".\n\nWay 2: At slot 3-35 perform switch AVL Part number \"2301500174\" become to original part.\n\nBut customer is disagreed.\n\nSo, Pls help us give some advise for this case.\n\nThe file attachment includes:\n\n- Job : DecoX50_0362_P541(P420)_S14_BTM_1550602759 _ 1\n\n- System Layout : LineLayoutExport\n\n- AVL file: DecoX50_0362_P541(P420)_S14_BTM_1550602759\n\n- User file : USER_080826\n\n- Image relatives to error.\n\nThank you very much!\n\nD.Duong,\n\nFMV",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0w3fYAB"
+    },
+    {
+        "DATE": "2026-08-14T07:36:24+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi - san\n\nI’m sending you the error-code screenshot again. I’ve already sent you the trace data.\n\nThe error occurred at 3:00 AM on August 11, 2026, according to the trace.\n\nPlease check and support us in resolving this issue.\n\nThank you and Best Regards\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
+        "DATE": "2026-08-14T07:30:34+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano san\n\nI would like to provide a update regarding the vacuum pump errors 1203 and 1204.\n\nFirst, I would like to make a small correction to my previous information. We replaced the vacuum pump with a new one on August 4. However, error 1204 occurred again on August 13.\n\nToday, August 14, we replaced the vacuum pump with another new one and ran the machine again, but error 1204 still occurred.\n\nAt the moment, we have disabled the following two functions:\n\n* “Do advance pick up”\n\n* “Do part height check”\n\nAfter disabling these two functions, the machine no longer shows the error and is operating normally.\n\nI will send you the trace data and the Job file that we used. Could you please help us analyze the data and investigate the root cause of this issue?\n\nBR\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-14T07:28:33+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano san\n\nI would like to provide a update regarding the vacuum pump errors 1203 and 1204.\n\nFirst, I would like to make a small correction to my previous information. We replaced the vacuum pump with a new one on August 4. However, error 1204 occurred on August 7, and then occurred again on August 13.\n\nToday, August 14, we replaced the vacuum pump with another new one and ran the machine again, but error 1204 still occurred.\n\nAt the moment, we have disabled the following two functions:\n\n* “Do advance pick up”\n\n* “Do part height check”\n\nAfter disabling these two functions, the machine no longer shows the error and is operating normally.\n\nI will send you the trace data and the Job file that we used. Could you please help us analyze the data and investigate the root cause of this issue?\n\nBR\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-14T07:19:40+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nI am Chien, an Engineer from FMV.\n\nDo you have any further updates regarding this issue?\n\nThis issue has been occurring for a long time, but it has still not been closed. The customer is requesting a resolution and has been complaining to us every day.\n\nCould you please check and provide us with an update on the investigation and the expected solution?\n\nThank you for your support!\n\nFMV-Chien",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
+        "DATE": "2026-08-14T07:05:28+00:00",
+        "CC NUMBER": "CC-0079677",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_6A030016 ERROR WHEN SAVE TO NEXIM FROM NXTR SCREEN_[NXTR-S]",
+        "Communication Content": "Dear Sir,\n\nWe would like to follow up regarding this case.\n\nIf we do not receive any feedback or further questions within one week, we will close this case.\n\nPlease let us know if you require any additional information.\n\nThank you for your understanding.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017HEyEYAW"
+    },
+    {
         "DATE": "2026-08-14T04:35:31+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
