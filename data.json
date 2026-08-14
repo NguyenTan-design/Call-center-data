@@ -1,5 +1,131 @@
 [
     {
+        "DATE": "2026-08-14T04:35:31+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThank you very much for your update.\n\nDo you get any update from customer side?\n\nIf you have it, please kindly let me know.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-14T04:34:30+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThank you very much for your update.\n\nDo you get any update from customer side?\n\nIf you have it, please kindly let me know.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-08-14T04:33:40+00:00",
+        "CC NUMBER": "NEW:CC-0080886",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nRecently, at the BYD customer site, we encountered an issue on Module 9 while it was in production. After the customer used DPA to perform a verification, they then inserted the feeder. After that, Module 9 displayed the icon “The machine is communicating with the host”, and production could not continue. The customer then pressed the CYCLE STOP button, but the module could not stop and became hung up. Even pressing the Emergency Stop button had no response, the customer then restarted the Base, but Module 9 remained hung up with the Loading icon, and no operations could be performed.The hang-up condition was only cleared after restarting the LCU, after which the modules reported error code 85390000: 'Host restoration operation cannot be performed'. After pressing Ready On, the hang-up status was resolved. However, when attempting to start production, the machine threw error code 80003909 00000000: 'No error code input'.  Finally, after rebooting the module once more, normal production was restored.\n\nThank you",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
+    },
+    {
+        "DATE": "2026-08-14T04:22:37+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Binh san\n\nThank you very much for your reply.\n\nAccording to answer for No.1, I understand that the customer doesn't satisfy this method because there is possibility that the issue still occur.\n\nHow do they want to change the method?\n\nPlease kindly explain to me what exactly they want to change for avoiding the issue.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
+        "DATE": "2026-08-14T03:08:50+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_[NXTR]",
+        "Communication Content": "Dear Call center\n\nIs this the same issue as CC-0080538 and CC-0063882?\n\nI was able to confirm the patch information (SNJ2026-0319) for V3.2.0 in CC-0080538.\n\nSince Luxsahere appears to be using V3.2.0, I believe this patch will valid.\n\nHowever, even after reviewing the patch report for 5193_V3.2.0_DataUpdate_Optimizer_Patch, I can’t see which one corresponds to this issue.\n\nIn the cases of Liteon and Luxshare, the error is an 8DC5 error rather than an application error—does No. 3?\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-08-14T03:03:08+00:00",
+        "CC NUMBER": "CC-0080841",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._eToolにおけるFit機能の改善[NXTR]",
+        "Communication Content": "Dear Moriya-san\n\nThank you for your support.\n\nI am sending you a job in the attached file. Please kindly refer to it.\n\nBR.\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ"
+    },
+    {
+        "DATE": "2026-08-14T02:29:12+00:00",
+        "CC NUMBER": "CC-0078811",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nThe customer agree with the new design.\n\nPlease help to provide part number of the new design.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI"
+    },
+    {
+        "DATE": "2026-08-14T02:05:19+00:00",
+        "CC NUMBER": "CC-0080841",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._eToolにおけるFit機能の改善[NXTR]",
+        "Communication Content": "Dear Au-san\n\nI will feedback to designer.\n\nRequest:\n\nCould you please provide one of the jobs that served as the basis for this matter?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ"
+    },
+    {
+        "DATE": "2026-08-14T01:56:15+00:00",
+        "CC NUMBER": "CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Toyama san\n\nWe installed 2.2Bs, but the pair module production issue still occurred. Therefore, we rise another case for the issue CC-0080878\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
+        "DATE": "2026-08-14T01:49:57+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh-san,\n\nThank you for the inquiry.\n\n- Restore NPI folder from 19-May: OK\n\n>> We understand that problem solved by restore the backup folder.\n\nDo you have the problem folder before restore with May backup?\n\nIf yes, please share with us.\n\nAlso, could you share the May backup folder together to compare at our side?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
+        "DATE": "2026-08-14T01:47:52+00:00",
+        "CC NUMBER": "CC-0080429",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_トレイ引き出しのレールを固定するために使用されている接着剤が剥がれてしまいます（トレイユニット-RM）[NXTR]",
+        "Communication Content": "Dear Moriya-san\n\nNumber of failed pallets : ~ 150\n\nBR.\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG"
+    },
+    {
+        "DATE": "2026-08-14T01:03:55+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Binh-san\n\nWe will analyze the trace data, but since it is currently the summer vacation period in Japan, it will take some time to get the results. We have encountered similar cases in the past, so if possible, we would appreciate it if you could try replacing the vision board.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
+        "DATE": "2026-08-14T01:01:44+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "c\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
+        "DATE": "2026-08-14T00:48:57+00:00",
+        "CC NUMBER": "CC-0080765",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NG Shield Can components are not rejected before the machine performs the placing process_NG Shieldが実装前に廃棄されない[NXTR-S]",
+        "Communication Content": "Dear Binh-san\n\nLet me check which module, so is this situation where happened at No.8?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ALuQmYAL"
+    },
+    {
         "DATE": "2026-08-13T15:06:04+00:00",
         "CC NUMBER": "NEW:CC-0080878",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
