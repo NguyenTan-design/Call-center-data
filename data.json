@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-14T15:35:37+00:00",
+        "CC NUMBER": "NEW:CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\n- At Luxshare Precision Nghe An, the customer is experiencing an issue with the NXTR machine when lowering the nozzle.\n\nWhen the machine performs nozzle detection at the nozzle station, it detects a nozzle even though there is no nozzle present. As a result, the machine reports error code 8F5D000, indicating that there are not enough available positions at the nozzle station to lower the nozzle.\n\n- We confirmed that the background plate behind the nozzle station has poor reflective quality, which causes the machine to incorrectly detect a nozzle. As a temporary solution, the customer placed a background sheet with better reflection under the nozzle station to prevent the machine from detecting a nozzle incorrectly.\n\n- We would appreciate your support in checking this issue and providing a suitable solution.\n\nThank you and Best regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
         "DATE": "2026-08-14T12:33:37+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
