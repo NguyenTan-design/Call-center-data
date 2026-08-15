@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-15T02:28:49+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Dear Amano - san\n\nWe are currently still awaiting the analysis results from you.\n\nThank you for your support",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
+        "DATE": "2026-08-15T02:20:51+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Hamamoto - san\n\nUpdate issue 3A16.\n\nSince August 7, 2026, after the input voltage was lowered to 227V–228V, the machine has continued to operate normally without any errors.\n\nPlease take note\n\nThanks you!",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-15T02:08:34+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nTo conduct the investigation, an MNG image is required in addition to the trace.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
         "DATE": "2026-08-15T00:04:59+00:00",
         "CC NUMBER": "CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
