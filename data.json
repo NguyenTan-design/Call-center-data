@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-15T03:02:30+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nLet me explain again, customer understood the reason of 8DC50000 , they didn't ask the reason of error .\n\n=》 Reason : \" Because of in machine configure setting, the \"Lane pitch setting\" setting was set to \"Fix both end\" ,and \"Lane pitch when both end are fixed\" was set to 610mm. That make movement of RH02 is impossible and error 8DC50000 was occurred\" (Please see the attached file)\n\nCustomer just rise the question/request :  \"Can Fuji add the setting of \"Lane pitch setting\" and \"Lane pitch when both end are fixed\" in Nexim job so customer can select related setting when they create nexim job, or any solution that optimizer software can refer to the actual \"Lane pitch setting\" and  \"Lane pitch when both end are fixed\"  setting of machine config to calculate result . The reason is  that if error 8DC50000  happen in rea production, the optimizer need to show that in the first time, no need to wail till real production\"\n\nBR,\n\nTan\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-08-15T03:00:11+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nI’m resending the MNG image file\n\nThank you and Best regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
         "DATE": "2026-08-15T02:28:49+00:00",
         "CC NUMBER": "CC-0080670",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
