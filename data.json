@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-15T15:35:38+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa san,\n\nThe history is as follows:\n\nOn 19-May: We have applied the patch: 0634_LCUPatch_NXTR_OnMcEdit_eTool_forV2.20\n\nOn 27-May: We have applied the patch: 2438_PreventRejectPartDrop\n\nAttached file is NPI backup folder on 19-May.\n\nPlease check.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-15T08:21:07+00:00",
         "CC NUMBER": "CC-0080655",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
