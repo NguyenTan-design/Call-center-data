@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-16T06:24:43+00:00",
+        "CC NUMBER": "CC-0080872",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_AIMEX IIIc Unexpected Stop During Production_[AIMEXIIIc]",
+        "Communication Content": "Dear Hoang san\n\nWe investigated trace data.\n\nAccording to trace data, 0303 error(Air pressure too low) happened when the phenomenon happened.\n\nCould you please check if air leakage or some connection of air hose happened?\n\nFUJI Toyama",
+        "FMV PIC": "Dau Hoang Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Avf9pYAB"
+    },
+    {
         "DATE": "2026-08-16T02:40:39+00:00",
         "CC NUMBER": "CC-0066544",
         "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
