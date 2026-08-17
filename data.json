@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T13:18:47+00:00",
+        "CC NUMBER": "NEW:CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nWhen running Pair Module on Line V1-02, the panel intermittently stops during the transfer process.\n\n* When the panel enters Module 2, Module 2 changes to dark green status.\n\n* Module 3 remains in light green status (waiting to process the panel) and does not change to dark green status (panel processing completed).\n\n* As a result, the panel cannot move from Module 3 to Module 4.\n\n* The issue occurs intermittently, approximately once every 30 panels.\n\n* Temporary recovery: Press Cycle Stop, then press Start. The machine resumes normal operation.\n\n* The issue has not occurred continuously and can be temporarily recovered by the above procedure.\n\nCould you please check the attached trace data from Modules 2 and 3 and the current program, and analyze the root cause of this issue?\n\nThank you for your support.",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1"
+    },
+    {
         "DATE": "2026-08-17T12:37:04+00:00",
         "CC NUMBER": "CC-0081000",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
