@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T12:05:37+00:00",
+        "CC NUMBER": "CC-0080765",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NG Shield Can components are not rejected before the machine performs the placing process_NG Shieldが実装前に廃棄されない[NXTR-S]",
+        "Communication Content": "Dear Binh-san\n\nAs noted in the report, RH02 and RH01 are not supported.\n\nCurrent support is planned for the Q2 2027 version.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ALuQmYAL"
+    },
+    {
         "DATE": "2026-08-17T11:28:00+00:00",
         "CC NUMBER": "CC-0080868",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
