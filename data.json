@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T04:38:00+00:00",
+        "CC NUMBER": "CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nSorry for keep you waiting.\n\nOur designer checked trace data but this trace data is for the M3 waiting next module(M4) for transport the PCB because M4 still producing.\n\nIt looks not the trace when the machine doesn't place the components even the M3 is able to place the parts.\n\nCould you please take a trace data again from M3 and M4 with cycle stop long push when the issue happen next time?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
         "DATE": "2026-08-17T04:09:06+00:00",
         "CC NUMBER": "CC-0080607",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
