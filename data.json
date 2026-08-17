@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-17T15:55:40+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCould you please provide an update on this issue? The customer at BYD is urgently waiting for feedback.\n\nThank you for your support!\n\nBest regards,\n\nDinh Tu",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
+        "DATE": "2026-08-17T15:52:16+00:00",
+        "CC NUMBER": "CC-0080098",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module displayed a purple screen with Error Code: 00EB0008, Sub Error Code: 00000000, Details: LSupplyTargetBaseDataGetter_モジュールに紫色の画面が表示され、エラーコード：00EB0008、サブエラーコード：00000000、詳細：LSupplyTargetBa...",
+        "Communication Content": "Dear: Amano-San,\n\nThank you for your support.\n\nAfter updating to version 2.2Ht, we have not encountered this issue again. Please close this ticket.\n\nBest regards,\n\nDinh Tu",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018SVjmYAG"
+    },
+    {
         "DATE": "2026-08-17T13:18:47+00:00",
         "CC NUMBER": "NEW:CC-0081022",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
