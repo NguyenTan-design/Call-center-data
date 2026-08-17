@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-17T03:44:57+00:00",
+        "CC NUMBER": "CC-0080164",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
+        "Communication Content": "濱本さん\n\n本件、設計依頼の方でやり取りが行われているようですが、結局何を変更することで話がついてますか？\n\n対象バージョン、リリース時期を明確にしてください。\n\nFMV高橋",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE"
+    },
+    {
+        "DATE": "2026-08-17T03:38:53+00:00",
+        "CC NUMBER": "CC-0076617",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH20 error 3A05 happen frequently_[NXTR-S]",
+        "Communication Content": "平林さん\n\nこちらの件、今後のFUJIの進め方等何か更新ありますでしょうか？\n\nこちらとしてはエラー出たらグリスアップするしかない為、どのように原因特定するか等、今後の方針教えて欲しいです。\n\nFMV 高津",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ypNo3YAE"
+    },
+    {
         "DATE": "2026-08-17T03:26:42+00:00",
         "CC NUMBER": "CC-0080429",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
