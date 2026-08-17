@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-17T04:09:06+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Thong-san\n\nRegarding this matter, as mentioned in my previous comment, it may be related to the NXTR axis motion parameters.\n\nPlease review the attached “Procedure for Replacing Parameters.zip.”\n\nIf possible, please try replacing the parameters by following the instructions in this file.\n\nAlso, please reset the input voltage to 230V.\n\nIf the situation improves after replacing the parameter, we plan to release an official version of NXTR that incorporates this parameter.\n\nWe have currently reduced the input voltage to 227V–228V, but since the NXTR specifications state AC 200–230V ±10V, we have determined that this is not a problem.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-17T04:05:34+00:00",
+        "CC NUMBER": "CC-0080655",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Application error (Purple monitor) - 00EB0008_[NXTR-S]",
+        "Communication Content": "Dear Amano-san\n\nThis customer have plan to upgrade to V2.35, can we analyst and combine this in ver V2.35?\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019yyuyYAA"
+    },
+    {
         "DATE": "2026-08-17T03:44:57+00:00",
         "CC NUMBER": "CC-0080164",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
