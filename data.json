@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-17T11:28:00+00:00",
+        "CC NUMBER": "CC-0080868",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t warranty request_W08tフィーダにおけるワランティリクエスト[NXTR]",
+        "Communication Content": "Dear Tan-san\n\nAs you are probably aware, this issue has already been reported several times, and you have issued warnings to customers each time, right?\n\nWe took action on the previous warranty claim because it was partly for the purpose of retrieving the product for investigation, but we are unable to take any further action regarding this matter.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvOddYAF"
+    },
+    {
+        "DATE": "2026-08-17T11:20:54+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nDear Toyama san\n\nToday, customer confirmed that error still occurred, CFX delay 3 hours than the other machine\n\nPlease check the trace: Trace Delay time 2026_08, and Delay error 1.png, Delay error 2.png for detail\n\nDate error: 01Aug2026\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-08-17T11:15:46+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nToday, customer confirmed that error still occurred\n\nPlease check the trace: Trace TransactionID 2026_08, and Transaction ID error.png for detail\n\nDate error: 14Aug2026\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-17T10:44:24+00:00",
         "CC NUMBER": "CC-0081000",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
