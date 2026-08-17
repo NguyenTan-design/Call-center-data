@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T10:15:15+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh-san,\n\nFrom the Windows Event Log, it is showing an error indicating that a required runtime could not be found.\n\nPlease open the list of installed programs from the LCU Control Panel and verify whether the following packages are installed:\n\nMicrosoft Visual C++ 2012 Redistributable (x64)\n\nMicrosoft Visual C++ 2012 Redistributable (x86)\n\nIf they are listed, they may have become corrupted for some reason. In that case, please right-click each package, select Change, and then run Repair to see whether the issue is resolved.\n\nIf the above runtimes do not appear in the program list, please reinstall them using the installer provided in attachment.\n\nSince these components are normally installed as part of the LCU installation process, it would be unusual for them not to be present.\n\nHowever, please verify and reinstall them if necessary.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-17T09:24:11+00:00",
         "CC NUMBER": "CC-0069612",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
