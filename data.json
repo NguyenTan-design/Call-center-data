@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T09:24:11+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear Chien-san\n\nWe are currently investigating the details, but it appears highly likely that there is another underlying cause.\n\nThe software we have already provided addresses an issue related to how the size of the byte sequence is determined when writing to pooled data; however, it has come to light that there may have been a problem with the processing logic used when writing additional files.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
         "DATE": "2026-08-17T07:46:01+00:00",
         "CC NUMBER": "NEW:CC-0081000",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
