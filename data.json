@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T01:28:22+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nWe tried replacing the vision board, but after restarting the machine, the issue occurred again.\n\nPlease provide us with further advice.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-08-17T00:23:36+00:00",
         "CC NUMBER": "CC-0080185",
         "Customer": "JABIL VIETNAM CO., LTD.]",
