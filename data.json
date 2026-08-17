@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T00:23:36+00:00",
+        "CC NUMBER": "CC-0080185",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The configuration in job does not match with system layout._ジョブ内の構成がシステムレイアウトと一致していません。[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the update.\n\nAlthough, as we asked in previous e-mail, what action had been done and problem ocurred?\n\nWe need the information to reproduce at our side.\n\nI had confirmed the attached capture of B2-Line06A but the Job and SystemLayout is both R=>L.\n\nThe attached capture is take after corrected?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
+    },
+    {
         "DATE": "2026-08-16T06:24:43+00:00",
         "CC NUMBER": "CC-0080872",
         "Customer": "TOA VIETNAM CO., LTD.]",
