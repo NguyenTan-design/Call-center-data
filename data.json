@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-17T10:44:24+00:00",
+        "CC NUMBER": "CC-0081000",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Picker Nozzle is damaged when machine perform pickup backup pin_[NXTR-S]",
+        "Communication Content": "Dear Hien san\n\nWe investigated trace data.\n\nAnd found that at first below error happened on the machine.\n\n2026/08/17 07:53:49.113: \"code\":\"8F150000\",\n\nAfter this error immediately, the customer changed to Brake down mode for Auto back up pin.\n\nWhen change to brake down mode for Auto back up pin, the machine clear the memory where the machine placed back up pin on the machine.\n\nFinally the customer turned on the Auto back up pin function but at this time, the customer maybe didn't return the pins to stocker.\n\nThen the machine placed pin on the pin.\n\nPlease ask to customer to make sure the pins remove when they change the setting for Auto back up pin function.\n\nOn the other hands, we already implement some improvement for Auto back up pin function since V2.35.\n\nPlease kindly consider to upgrade version to V2.35.\n\nIf the customer wish to keep based on V2.30 version, we can provide improved version based on V2.30.\n\nSo please kindly let me know.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BLTZeYAP"
+    },
+    {
+        "DATE": "2026-08-17T10:38:22+00:00",
+        "CC NUMBER": "CC-0080841",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._eToolにおけるFit機能の改善[NXTR]",
+        "Communication Content": "Dear Trung-san\n\n\"Fit\" and \"Fit to location\" are different function.\n\nThe Fit to location will be released at 2026 Q3(V2.40).\n\nBR.\n\nMoriya",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ"
+    },
+    {
         "DATE": "2026-08-17T10:15:15+00:00",
         "CC NUMBER": "CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
