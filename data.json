@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T06:20:28+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Tan-san,\n\nCould you share the Job which problem occurred?\n\nAlso, the error code explain as below.\n\n=================\n\nSpecify settings for [Conveyor Spread] and [Rail Distance] in [Product Mode Property] in the job, and then perform optimization.\n\nAlternatively, change the production lane to lane 1.\n\n=================\n\nThe above setting is not used?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
         "DATE": "2026-08-17T05:42:38+00:00",
         "CC NUMBER": "CC-0080155",
         "Customer": "Fuji Machine Vietnam Co., Ltd.]",
