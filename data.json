@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T07:29:51+00:00",
+        "CC NUMBER": "NEW:CC-0080483",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_部品の高さがモジュール2RVの制限値を超えた場合、「ノズルが検出されない」エラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nIssue:\n\nFor small components such as R0201, R0402, C0201, and C0402, when the Part Height/Thickness is set to > 2 mm (exceeding the allowable limit of Module 2RV), the error displayed in Optimize does not reflect the actual root cause.\n\nAction:\n\n1. Do Part Height Check = YES\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running Optimize, the system reports:\n\n“No nozzle to pick-up”.\n\n* However, when running Data Check, the system reports:\n\n“Part Size”.\n\n2. Do Part Height Check = NO\n\n* Set Part Height/Thickness of the component to > 2 mm.\n\n* When running both Optimize and Data Check, the system reports:\n\n“Part Size”.\n\nWe want Center to support the analysis and clarification of the following points:\n\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\n\" The program is attached above for your reference and further analysis.\"\n\nThank you for your support,\n\nBest regards,\n\nFMV-NAM，",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG"
+    },
+    {
         "DATE": "2026-08-17T06:37:02+00:00",
         "CC NUMBER": "CC-0080155",
         "Customer": "Fuji Machine Vietnam Co., Ltd.]",
