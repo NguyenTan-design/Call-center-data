@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-17T02:41:28+00:00",
+        "CC NUMBER": "CC-0080098",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module displayed a purple screen with Error Code: 00EB0008, Sub Error Code: 00000000, Details: LSupplyTargetBaseDataGetter_モジュールに紫色の画面が表示され、エラーコード：00EB0008、サブエラーコード：00000000、詳細：LSupplyTargetBa...",
+        "Communication Content": "Dinh Tu-san\n\nDo you have any update?\n\nIf there is no reply, I will close this case at the end of next week.\n\nIf you need any help after closing this case, please open a new ticket (mention this CC number.)\n\nCall center Amano",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018SVjmYAG"
+    },
+    {
+        "DATE": "2026-08-17T02:32:23+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh-san,\n\nAttached file is NPI backup folder on 19-May.\n\n>> For just in case. there is no NPI folder when problem occurred before replace?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-17T01:28:22+00:00",
         "CC NUMBER": "CC-0080766",
         "Customer": "BYD Electronics Vietnam Company Limited]",
