@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-17T05:42:38+00:00",
+        "CC NUMBER": "CC-0080155",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_Issues related to the CFX interface function_CFXインターフェース機能に関する問題[NXTR-A]",
+        "Communication Content": "Dear FMV-Do-san,\n\nSorry, the \"For the other questions, let me confirm internally.\" was mentioned in first reply and forgotten to delete when add reply afterward.\n\nThere were 3 questions and already reply as below.\n\n================\n\n- To date, how many customers have used the CFX function on Fuji machine?\n\n- Are other customers experiencing similar problems as at Mitac Vietnam?\n\n>> We do not know which customer purchased the CFX function license and used for which machine as we do not have the sales information.\n\nWhat I know personally is that there is other 2 customer group have the IPCCFX patch released.\n\nAlthough, I do not know whether the CFX is used for which machine.\n\nI suggest contacting the Fuji Japan sales and ask to confirm internally at the Sales side for more details of each customer.\n\n- Are other customers experiencing similar problems as at Mitac Vietnam?\n\n>> As for the Mitac Vitenam case, I heard that the latest patch 4745_IPCCFX_Step3.5_Patch was not applied at customer environment which correct some of the problem.\n\nAnd also, there is possibility that garbage data remain in the Host folder.\n\nSo the Toyama-san had asked to apply the patch and deleted all garbage data then confirm whether the problem remain.\n\nHave the above all done and problem not change?\n\nIf yes, please update to each Sales Force case and confirm the status.\n\n================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018aybdYAA"
+    },
+    {
         "DATE": "2026-08-17T04:38:00+00:00",
         "CC NUMBER": "CC-0080878",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
