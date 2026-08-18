@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T14:44:02+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "Dear Amano-san,\n\nWe checked the optical communication and power supply circuits between the X Main Control Board and the Communication Relay Board according to the attached document.\n\nWe also swapped the following components:\n\nX-axis Common Board\n\nX-axis Expansion Board\n\nCommunication Relay Board\n\nOptical fiber cable from the CNR1 relay connector to the X-axis Common Board\n\nMark camera and its cable\n\nHowever, the module still showed Error 1983: Internal Processing Error (Pickup). After pressing START again, Error B108: Communication Link Error for the X-axis Board occurred.\n\nI have attached the trace data and would like to request the Call Center's assistance in analyzing this issue.\n\nThank you.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-08-18T12:32:57+00:00",
         "CC NUMBER": "NEW:CC-0081081",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
