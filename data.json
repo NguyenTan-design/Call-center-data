@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T15:21:00+00:00",
+        "CC NUMBER": "NEW:CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt around 2:00 PM on 18-Aug-2026, we encountered an issue with NeximDB at LiteOn Vietnam. All jobs were displayed as Read Only, and the job contents appeared empty when opened in Nexim ( Pic 0).\n\nTo resolve the issue, we performed the following actions:\n\n1. Upgraded and optimized NeximDB → Optimization failed. (Pic 1)\n\n2. Upgraded and optimized NeximDB again → Nexim jobs could be opened normally, but we were unable to import the job into Nexim using the same version 3.1.105. (Pic 2)\n\n3. Upgraded and optimized NeximDB again → The job still could not be imported into Nexim. (Pic 3)\n\nAs a temporary workaround, we used Fuji Nexim Flexa Data Converter to convert the job to Flexa format and then convert it back for import into Nexim.\n\nWe also checked CC-0079016 and found that the \"5387_IW_AddColumn_Patch\" was provided to resolve a similar job import issue.\n\nCould you please confirm whether this patch can be provided for LiteOn Vietnam? If so, please advise how we can obtain and apply it.\n\nIf you require any additional information, logs, or data for further investigation, please let us know.\n\nThank you very much for your strong support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
         "DATE": "2026-08-18T14:44:02+00:00",
         "CC NUMBER": "CC-0079720",
         "Customer": "BYD Electronics Vietnam Company Limited]",
