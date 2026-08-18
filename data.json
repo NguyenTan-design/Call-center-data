@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-18T05:11:54+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Binh-san\n\nThe trace showed that an error occurred because communication could not be established when connecting the part camera, which resulted in the D53D error code.\n\nAlthough a reboot is said to resolve the issue, please check the CameraLink cable between the image processing board and the part camera to ensure there are no loose connectors or other issues.\n\nIf everything appears to be in order, please try replacing the CameraLink cable.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
+        "DATE": "2026-08-18T05:08:25+00:00",
+        "CC NUMBER": "CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_8DC50000 レーン2における部品の配置位置が、ロボットの可動範囲（Y方向）を超えています。（追加）[NXTR-S]",
+        "Communication Content": "Dear Hieu-san\n\nWe will release it as a software update on August 26, so please download it from Fuji Community.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
         "DATE": "2026-08-18T04:42:59+00:00",
         "CC NUMBER": "CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
