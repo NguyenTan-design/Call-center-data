@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T03:27:55+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa san,\n\nThank you for your informations.\n\n1. About NPI backup folder on 19-May\n\n-> This folder was backed up when we applied the patch 0634_LCUPatch_NXTR_OnMcEdit_eTool_forV2.20.\n\n2. About the packages:\n\nMicrosoft Visual C++ 2012 Redistributable (x64)\n\nMicrosoft Visual C++ 2012 Redistributable (x86)\n\n-> These two packages have already been installed on the LCU, as shown in the attached image.\n\nWe will use the file you provided to reinstall them.\n\nHowever, could you please let us know some possible reasons why the packages may have become corrupted and what measures we can take to prevent this from happening again in the future?\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-18T03:07:09+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
