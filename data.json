@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-18T07:20:10+00:00",
+        "CC NUMBER": "CC-0080607",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 with S...",
+        "Communication Content": "Dear Hamamoto-san,\n\nWe discussed your guidance regarding issue code 3A16 with the customer.\n\nCurrently, the production line is running continuously and the machine is operating stably. Therefore, the customer does not allow us to change any parameters or settings on the machine at this time.\n\nWe will keep your guidance on this issue for future reference and will follow up if there are any further abnormalities.\n\nThank you for your support.\n\nBest regards,\n\nMr Thong",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ"
+    },
+    {
+        "DATE": "2026-08-18T07:19:52+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for your response.\n\nTo help us investigate the issue, could you please let us know the version of Nexim you are using?\n\n■ Can not delete logon user:12851995.\n\nThis issue may occur because user:12851995 is attempting to delete the same account while logged in as that user.\n\nCould you please log in with a different Administrator account and try deleting user:12851995 again?\n\n■ Failed to delete user:2.\n\nCould you please log in with a different Administrator account and try deleting user:2 again?（refer to attached file image01）\n\nAlso, it is difficult to determine the exact cause based on the screenshots alone. If possible, please provide a screen recording (video) showing the steps leading up to the error.\n\nThank you for your cooperation.\n\nBR,\n\nAnri Ito",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-18T06:49:21+00:00",
         "CC NUMBER": "CC-0080185",
         "Customer": "JABIL VIETNAM CO., LTD.]",
