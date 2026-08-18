@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T01:05:47+00:00",
+        "CC NUMBER": "CC-0080164",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
+        "Communication Content": "Dear Au Trung-san\n\nHere are the designer’s comments on this matter.\n\nThe designer’s view is that it is not possible to trigger an error for the “Pickup Offset Z” value in the “Data Check.”\n\nWe received a report that an “8EC1” error occurred this time.\n\nWere there any other error codes displayed?\n\nWas there a different error displayed in the “****” part of “8EC1****”?\n\nIf you see a “1909” error here, please check the “Solution” section.\n\nーー\n\n1909\n\nNXTR: The position for the Z axis to move to is outside the movement range.\n\n--\n\n(Solution)\n\n- When an error occurs between reading marks and before parts are picked up:\n\n1.The shape data value for [Pick] - [Offset Z] or [Tray Pick Offset Z] may be too big. Check the value entered.\n\n2. The value measured for feeder pallet levelness may not be correct. In Accessory Software [Module configuration] - [Calibration Settings], select [Feeder pickup height setting] from the drop-down menu and choose [Use default values] or measure the levelness.\n\n- When an error occurs between parts pickup and placement:\n\n1. The shape data value for [Place] - [Offset Z] may be too big. Check the value entered.\n\nーー\n\nFMV高橋さん\n\n本件データチェックでは“Pickup Offset Z”の異常値をチェックする事は出来ないとの見解です。\n\nCC-0039524にてNXTR V2.00からエラーコードとして1909（Z軸移動範囲異常）等を出す対応をしており、\n\nその対策文内に「Pickup Offset Zが大きすぎる可能性がある、チェックして下さい」と書かれています。\n\nこれを以て対策としているとの事です。\n\nコールセンター　濱本",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE"
+    },
+    {
         "DATE": "2026-08-18T00:29:52+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
