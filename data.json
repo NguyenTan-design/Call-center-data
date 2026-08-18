@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-18T03:07:09+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nCC: Also is this issue happened on the line which is using shuttle conveyor or single conveyor?\n\nFMV: Customer using shuttle conveyor for dual lane production.\n\n-----------------------------------------------\n\nC:\\Nexim\\Do\\HostIF\\HIF\\\n\nFMV:  Please check HostIF folder in the Trace Delay time 2026_08.zip, we have collected the data\n\nC:\\Nexim\\Do\\Verifier\\KitObj\\Bin\\RESUME\n\nPlease check more attach: RESUME folder line 5\n\n-----------------------------------------------\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-08-18T03:05:52+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nCC: Also is this issue happened on the line which is using shuttle conveyor or single conveyor?\n\nFMV: Customer using shuttle conveyor for dual lane production.\n\n-----------------------------------------------\n\nC:\\Nexim\\Do\\HostIF\\HIF\\\n\nFMV:  Please check HostIF folder in the Trace TransactionID 2026_08.zip, we have collected the data\n\nC:\\Nexim\\Do\\Verifier\\KitObj\\Bin\\RESUME\n\nPlease check more attach: RESUME folder line 6\n\n-----------------------------------------------\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-18T03:03:52+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nThe mark on the right side appears to be slightly blurred (low contrast), possibly due to contamination, which is causing the recognition error.\n\nIf this issue is dependent on the print head, we would like you to first try cleaning the head mark.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
         "DATE": "2026-08-18T02:48:28+00:00",
         "CC NUMBER": "CC-0080890",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
