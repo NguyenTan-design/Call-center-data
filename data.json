@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T05:30:43+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nSorry for the inconvenience, and thank you very much for your support.\n\nI was able to reproduce the issue and retrieve the trace from M8.\n\nPlease let us know if you need any additional information.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
         "DATE": "2026-08-18T05:11:54+00:00",
         "CC NUMBER": "CC-0080766",
         "Customer": "BYD Electronics Vietnam Company Limited]",
