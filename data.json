@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T23:39:18+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Ito san,\n\nPlease check below information\n\nTo help us investigate the issue, could you please let us know the version of Nexim you are using?\n\n-> Nexim version : 3.2.100\n\n■ Can not delete logon user:12851995.\n\nThis issue may occur because user:12851995 is attempting to delete the same account while logged in as that user.\n\nCould you please log in with a different Administrator account and try deleting user:12851995 again?\n\n-> I try with other Administrator account, the same result\n\n■ Failed to delete user:2.\n\nCould you please log in with a different Administrator account and try deleting user:2 again?（refer to attached file image01）\n\n-> I try with other Administrator account, the same result\n\nAlso, it is difficult to determine the exact cause based on the screenshots alone. If possible, please provide a screen recording (video) showing the steps leading up to the error.\n\n-> I attached video , please check.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-18T15:21:00+00:00",
         "CC NUMBER": "NEW:CC-0081088",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
