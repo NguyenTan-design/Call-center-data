@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-18T01:29:41+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nAdded one more comments.\n\nWe will check the log file soon.\n\nOn the other hands, could you check below as well?\n\nAlso is this issue happened on the line which is using shuttle conveyor or single conveyor?\n\n-----------------------------------------------\n\nAlso please kindly check if there is many data in below folders.\n\nC:\\Nexim\\Do\\HostIF\\HIF\\\n\nC:\\Nexim\\Do\\Verifier\\KitObj\\Bin\\RESUME\n\n-----------------------------------------------\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-08-18T01:23:15+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nAdded one more comments.\n\nWe will check the log file soon.\n\nOn the other hands, could you check below as well?\n\nAlso is this issue happened on the line which is using shuttle conveyor or single conveyor?\n\n-----------------------------------------------\n\nAlso please kindly check if there is many data in below folders.\n\nC:\\Nexim\\Do\\HostIF\\HIF\\\n\nC:\\Nexim\\Do\\Verifier\\KitObj\\Bin\\RESUME\n\n-----------------------------------------------\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-18T01:21:10+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nWe will check the log file soon.\n\nOn the other hands, could you check below as well?\n\n-----------------------------------------------\n\nAlso please kindly check if there is many data in below folders.\n\nC:\\Nexim\\Do\\HostIF\\HIF\\\n\nC:\\Nexim\\Do\\Verifier\\KitObj\\Bin\\RESUME\n\n-----------------------------------------------\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-18T01:20:46+00:00",
         "CC NUMBER": "CC-0080765",
         "Customer": "BYD Electronics Vietnam Company Limited]",
