@@ -39400,5 +39400,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-08-18T12:32:57+00:00",
+        "CC NUMBER": "NEW:CC-0081081",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_FujiWeb shows “Problem in the RWB => production data is not displayed on FujiWeb_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, our customer, Hana Micron, is experiencing an issue where production data is not displayed on FujiWeb. FujiWeb shows “Problem in the RWB.”\n\nInitial Phenomenon:\n\nThe System Server PC, Line Server PC, and LCU suddenly lost their 220V power supply.\n\nAction Taken:\n\n1. Restarted the entire system; however, Accessory Web did not display any production data.\n\n2. Removed the Accessory Software from the System Server and RWB from the Line Server, then reinstalled them.\n\n   → After reinstallation, FujiWeb showed “Central Server Connect Error,”  while line production was operating normally.\n\n3. Deleted the FujiWeb folder from the C: drive of the System Server and the FujiWeb  folder from the C: drive of the Line Server, then reinstalled Accessory Software versions 25.2.50.1 and 25.2.70.1\n\n   → The “Central Server Connect Error” still remained.\n\n4. Switched to the virtual line → updated the System Layout → reset all services.\n\n5. Switched back to the Real line → updated the System Layout → reset all PCs (System Server PC, Line Server PC, and LCU) and reset the NXTR machine.\n\n   → The “Central Server Connect Error” was no longer displayed. However, FujiWeb still showed “Problem in the RWB.”\n\n6. Reinstalled RWB version 25.2.70.1 and reset all services on the Line Server.\n\n   → “Problem in the RWB” still remained.\n\n7. Reinstalled RWB version 26.1.0.2  and reset all services on the Line Server.\n\n   → “ Problem in the RWB ” still remained.\n\n8. Checked all connections and services.\n\n   → All items were confirmed to be normal.\n\nCould you please investigate this issue and advise us on the root cause and recovery procedure?\n\nThe customer is currently unable to view production data on FujiWeb, while line production is operating normally. Your urgent support would be highly appreciated.\n\nBest regards,\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BZQaKYAX"
     }
 ]
