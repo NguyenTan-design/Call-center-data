@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T02:10:50+00:00",
+        "CC NUMBER": "NEW:CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nI would like to inform the issue of Nexim software account. In customer site, when we want to delete some nexim account, the Nexim software will show 2 type of error \" Can not delete log on user:.....\" or \"Failed to delete user:....\" (Please refer to attached picture)\n\nFor \" Can not delete log on user:.....\" error, i already checked \"LOGONINFORMATION\" table of neximdb. Related account was not in the table, is that mean the account is not log on now? If so, Why couldn't i delete the account? please advice\n\n For \"Failed to delete user:....\" error, please advice , what is root cause, in what circumstance, the nexim software will show this error? how to solve?\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-18T01:29:41+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
