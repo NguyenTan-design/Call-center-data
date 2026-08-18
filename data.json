@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T02:48:28+00:00",
+        "CC NUMBER": "CC-0080890",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Error when scan AVL part with \" Shift Change Verify\" use Simple AVL mode._[NXTR-S]",
+        "Communication Content": "Dear D duong-san\n\nAt Nexim, the Simple AVL feature is considered confidential.\n\nIs this customer officially receiving special support?\n\nHere is my understanding—is it correct?　Please let me know if I’m wrong.\n\n・For the account named “23,” standard part verification, splicing verification, and shift change verification all work without issues.\n\n(*In an environment where Simple AVL is enabled)\n\n→Is that correct?\n\n・In the “QC” account, which is a separate account for the IPQC department, an error occurs at M3-Slot 35 during the shift change verification.\n\n→Is that correct?\n\n→This section discusses the M3-Slot 35, but what about other modules and slots?\n\n・You have also posted the following comment:\n\n「Note: AVL Full mode has happened error with all basic scan method such as : \"ID Tape\" & \" Spicing\" & \" Shift change Verify\".」\n\n→Is this about the “QC” account?\n\nSo, is this customer using the AVL feature (which refers to the “Full” version)?\n\nOr are they using Simple AVL?\n\nーー\n\nPlease provide the trace and information listed below for investigation purposes.\n\n・NXTR Machine Trace\n\n→ Immediately after the error occurs, stop the cycle for the relevant module.\n\nAfter that, press and hold the Cycle Stop button, then specify a time in the line console to retrieve the trace.\n\n・Date and time the error occurred\n\n・Module No., Slot No., Part No., AVL information, etc.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0w3fYAB"
+    },
+    {
         "DATE": "2026-08-18T02:10:50+00:00",
         "CC NUMBER": "NEW:CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
