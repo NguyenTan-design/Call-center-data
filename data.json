@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-18T04:42:59+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Trung-san\n\nI understand that the vacuum pumps were swapped between the left and right sides. After the swap, did the error move to the opposite robot as well?\n\nYou also mentioned that the vacuum pressure is below the threshold. If the vacuum pressure is lower than that of the other bases (modules), there is a high possibility that the pump is the root cause. Could you please provide a photo showing the pressure values?\n\nWould it be possible to swap the pump with one from another base and check whether the issue follows the pump? This would help confirm whether the pump is causing the problem.\n\nCall center Amano",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-08-18T03:27:55+00:00",
         "CC NUMBER": "CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
