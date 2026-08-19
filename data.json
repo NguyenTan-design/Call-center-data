@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-19T06:19:43+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear FMV-DO-san,\n\nThank you for the update.\n\n- 1st time: IW_COODINATE Insert Error.png\n\n- 2nd time: IW_OVERRIDEPARTSHAPEEX Insert Error.png\n\n>> As for the above error, there is patch released in SoftwareNotice#2026-0054.\n\nHave you applied this patch to the customer environment?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
+        "DATE": "2026-08-19T06:14:54+00:00",
+        "CC NUMBER": "CC-0081081",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_FujiWeb shows “Problem in the RWB => production data is not displayed on FujiWeb_FujiWebで「Problem in the RWB」と表示され、生産データがFujiWebに表示されない。[NXTR-S]",
+        "Communication Content": "Dear FMV-Chien-san,\n\nThank you for the update.\n\nFrom the log, it seems that the issue was caused by the line configuration information not being retrieved correctly.\n\nSince the line configuration is obtained from the database information on the Nexim side, this situation could occur if the database reference destination was incorrect.\n\nAlthough, the information of NeximDB is set when install the Nexim and I assume that it should be affect by power off.\n\nSince the Nexim had been uninstall and reinstall, is there any possibility that the NeximDB setting had been set uncorrectly?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BZQaKYAX"
+    },
+    {
         "DATE": "2026-08-19T05:39:03+00:00",
         "CC NUMBER": "CC-0081000",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
