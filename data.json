@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-19T06:45:05+00:00",
+        "CC NUMBER": "CC-0081081",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_FujiWeb shows “Problem in the RWB => production data is not displayed on FujiWeb_FujiWebで「Problem in the RWB」と表示され、生産データがFujiWebに表示されない。[NXTR-S]",
+        "Communication Content": "Dear Terazawa Marie san\n\nThank you for your support\n\nWhen I reinstalled the Nexim LineServer Suite, I entered the correct Computer name of the Nexim job database and Service name of the Nexim job database. However, the “Problem in the RWB” issue still occurred.\n\nAfter that, I used the NeximDBConnectionChanger tool to set the NeximDB connection, and then performed NetClient and Reset All Services on the Line Server. After these actions, the issue was resolved.\n\nAfter resolving this issue, the problem “Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Web” reported under CC CC-0069612 was also resolved.\n\nHowever, I am not sure how long it will remain resolved or when the same phenomenon may occur again, as mentioned in CC-0069612.\n\nThanks\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BZQaKYAX"
+    },
+    {
+        "DATE": "2026-08-19T06:32:33+00:00",
+        "CC NUMBER": "NEW:CC-0081129",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Goertek E2-1F customer has already applied the PreventRejectPartDropModeFlag patch._[NXT]",
+        "Communication Content": "Dear Callcenter\n\nYesterday, We support customer Goertek E2-1F and found that they are using the PreventRejectPartDropModeFlag patch(Customers install and use the patch themselves.). Therefore, we would like to inform the Call Center about this.\n\nThank you",
+        "FMV PIC": "Pham Toan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Bfha2YAB"
+    },
+    {
         "DATE": "2026-08-19T06:19:43+00:00",
         "CC NUMBER": "CC-0081088",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
