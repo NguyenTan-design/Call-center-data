@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-19T03:00:30+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nSorry for Jump into this\n\nThank your supported\n\nWe confirmed the value of NLS_LANG in the system environment variable is \"AMERICAN_AMERICA.JA16SJISTILDE\".\n\nThen we change it to \"Japanese_Japan.JA16SJISTILDE\" but can not resolved this issue\n\nAfter changed the setting, the PC show the errors bellow when import the Job:\n\n- 1st time: IW_COODINATE Insert Error.png\n\n- 2nd time: IW_OVERRIDEPARTSHAPEEX Insert Error.png\n\nWe already collect the trace data, log file follow your guided\n\nPlease help to check the attached file Import Error.zip and investigate then advice for us next action to resolve this Issue.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
+        "DATE": "2026-08-19T02:46:57+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for your reply.\n\nAs the Nexim version currently in use already contains the fix for this issue, we believe it may be necessary to review the configuration settings and database.\n\nWe understand that the account cannot be deleted, even when using an Administrator account or other user accounts.\n\nCould you please confirm whether the target account is currently logged in on another PC or has an active session?\n\nTo help us investigate further, please provide the logs from the deletion attempt and the system layout.\n\nThank you for your cooperation.\n\nBR,\n\nAnri Ito",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-19T01:30:35+00:00",
         "CC NUMBER": "CC-0080607",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
