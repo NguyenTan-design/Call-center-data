@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T16:32:04+00:00",
+        "CC NUMBER": "NEW:CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine with head RH20_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nWe would like to continues with CC number: CC-0078162\n\nToday we completed installation \"4316_PlacingPressureViewer_Patch.zip\" on line server PC,\n\nsetting for connect to Database OK.\n\nEnter panel ID to check \"Load confirm\"  but trigger alarm \" No Matching data found, pls check if input data correct\"\n\neven we using some panel ID have data at column MAXIMUMPLACINGPRESSURE, PANELCONTACTHEIGHT, PANELCONTACTPUSHINAMOUNT of \"placement\" table.\n\nWe don't know the cause of this, On this week Sunday  we will conduct to turn on this function and test again use this patch file.\n\nthen will continues update there.\n\nAppreciate you if have any point must to take note when using function \" checking contact of part on panel\" and patch file 4316.\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-08-19T15:28:56+00:00",
         "CC NUMBER": "CC-0079872",
         "Customer": "BYD Electronics Vietnam Company Limited]",
