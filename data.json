@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T11:03:12+00:00",
+        "CC NUMBER": "CC-0080872",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_AIMEX IIIc Unexpected Stop During Production_[AIMEXIIIc]",
+        "Communication Content": "Dear Toyama san\n\nI checked the air pressure sensor and found that the supplied air value was lower than machine specification\n\nAfter that , I contacted the factory facilities team and inspected the main air supply line. We discovered an air leak at the main air valve, which caused insufficient air supply to the machine.\n\nAfter that, we repaired the leaking point and adjusted the air supply flow to meet the machine specification. We then resumed production and monitoring the machine operation\n\nUntil now (19/Aug/2026), the issue has not reoccurred. Based on the investigation results, I believe that the air leak was the root cause of the unexpected machine stoppage during production.\n\nThanks for your kind support",
+        "FMV PIC": "Dau Hoang Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Avf9pYAB"
+    },
+    {
         "DATE": "2026-08-19T10:10:26+00:00",
         "CC NUMBER": "CC-0080868",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
