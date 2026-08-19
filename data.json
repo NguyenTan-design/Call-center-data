@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T07:42:00+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano san\n\nInitially, the vacuum pump error occurred on the right side.\n\nYes, we swapped the vacuum pump from the left side to the right side. After the swap, the error moved to the left side.\n\nHowever, after continuing to monitor the machine, the error still occurred on the right side as well.\n\nWe then replaced both pumps with two new pumps from our office and continued monitoring the machine. After that, the error occurred on both the right and left sides at different times.\n\nYes, when the error occurred, the vacuum pressure was -57 kPa.\n\nI have attached a photo showing the vacuum pressure value for your reference. Please kindly check the attached file.\n\nRegarding swapping a vacuum pump from another base (module) to check whether the issue follows the pump, we will discuss this with the customer and arrange a suitable time to stop the machine and perform the swap test.\n\nOnce we are able to carry out the test, I will continue to update you on the situation.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-08-19T07:35:21+00:00",
         "CC NUMBER": "CC-0079997",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
