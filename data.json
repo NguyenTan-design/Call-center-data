@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-19T07:35:21+00:00",
+        "CC NUMBER": "CC-0079997",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTR machine alarm an error 8EC70000_[NXTR-S]",
+        "Communication Content": "Dear Toyama-san,\n\nWe already informed to customer that we will have fix machine version on 21.Aug.2026.\n\nand customer already arrangement stop time on this day to do upgrade machine version,\n\nso Could you pls support us to confirm release status of fix machine version?\n\nCustomer want us have to  keep our schedule due to production plan of Customer very tight.\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000185jyhYAA"
+    },
+    {
+        "DATE": "2026-08-19T07:32:09+00:00",
+        "CC NUMBER": "CC-0080890",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Error when scan AVL part with \" Shift Change Verify\" use Simple AVL mode._[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nThank you so your support.\n\nRegarding question #1, our response is as follows:\n\n- This customer does not represent an exceptional or special case. Previously, when using the \"AVL Full\" function, we were unable to use any material scanning method to proceed with production. KitHandy always reported a material error at slot 3-35, regardless of whether we used the \"23\" or \"QC\" account.\n\n- Therefore, we were switched to the \"Simple AVL\" function to prioritize production running.\n\nRegarding question #2, our response is as follows:\n\n- In the \"Simple AVL\" environment, KitHandy reports an error when using the \"Shift Change Verification\" feature, regardless of whether we use the \"23\" account, the \"QC\" account, or any other account.\n\nRegarding question #3, our response is as follows:\n\n- When the QC team uses the \"QC\" account name to scan, the error occurs only at slot 3-35.\n\n- No errors occur at any other slot.\n\nRegarding question #4, our response is as follows:\n\n- When using \"AVL Full,\" none of the accounts could perform basic scanning functions, and slot 3-35 could not be used for production.\n\n- After use \"AVL Full\" function could not support production requirements, we switched to the \"Simple AVL\" function.\n\nAnd finally:\n\n- The customer are stop production for the past two days and today.\n\nTherefore we will provide the trace data as soon as they resume production.\n\nThank you very much!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0w3fYAB"
+    },
+    {
+        "DATE": "2026-08-19T07:23:59+00:00",
+        "CC NUMBER": "CC-0080164",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
+        "Communication Content": "Dear Hamamoto san\n\nThank you for sharing the designer’s feedback. I now have a better understanding of how the software works.\n\nOn that day, the machine displayed the error code 8EC10000.\n\nIf a similar situation occurs in the future, I will use the 1909 error troubleshooting procedure that you provided. This is very useful information for us.\n\nThe issue has now been clarified. Could you please close this CC for me?\n\nThank you for your support.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE"
+    },
+    {
         "DATE": "2026-08-19T06:45:05+00:00",
         "CC NUMBER": "CC-0081081",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
