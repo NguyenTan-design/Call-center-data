@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T05:05:10+00:00",
+        "CC NUMBER": "CC-0078829",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After editing job on the machine and saving it, changes were not applied._[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nSorry for keep you waiting.\n\nI sent countermeasure patch(0967_LCUPatch_NXTR_OnMcEdit_NotSaved_forV2.20) to you via file transfer system.\n\nPlease kindly download it from the link with below password.\n\nDownload password     : \"ghaNZUSf\"\n\nUnzip password   : \"NEHJ5nkE\"\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BD1lYAG"
+    },
+    {
         "DATE": "2026-08-19T04:33:04+00:00",
         "CC NUMBER": "CC-0081081",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
