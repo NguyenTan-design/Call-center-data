@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-19T15:28:56+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear Chi-san\n\nThank you for your support.\n\nBefore Error 9481 occurred, the customer restarted the LCU. After that, all modules reported Error 85390000: “Host restoration operation cannot be performed.” The customer then pressed Ready On to clear the error and pressed Start to begin production. After that, the machine reported Error 9481.\n\nWe will monitor the machine and collect the trace data if this issue occurs again.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
+        "DATE": "2026-08-19T15:22:27+00:00",
+        "CC NUMBER": "CC-0078771",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nThank you for your quick update and proposal to release V2.3P earlier.\n\nCurrently, our system has already completed the upgrade as follows:\n\n* Nexim: from version 3.1.20 → 3.2.100\n\n* LCU: from version 2.2 → 2.3\n\n* NXTR: from version 2.3 → 2.35.2\n\nPlease kindly refer to these current versions to arrange the appropriate upgrade plan for us. We have no special requirements for the V2.2B exclusive features mentioned in your previous email.\n\nThank you very much for your support and cooperation.\n\nBest regards,\n\nPham Thoi",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ"
+    },
+    {
         "DATE": "2026-08-19T14:33:13+00:00",
         "CC NUMBER": "CC-0078829",
         "Customer": "BYD Electronics Vietnam Company Limited]",
