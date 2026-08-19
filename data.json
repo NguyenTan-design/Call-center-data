@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T03:07:08+00:00",
+        "CC NUMBER": "CC-0080185",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The configuration in job does not match with system layout._ジョブ内の構成がシステムレイアウトと一致していません。[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the update.\n\nWe reconfirm the NeximDB and confirmed that all 1,178 jobs (Top and Bottom counted separately) associated with the B2-Line06A line are configured as Right-Left.\n\nTherefore, no issues were found.\n\nPlease monitor and acquire the DB and logs once the problem reoccurred.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
+    },
+    {
         "DATE": "2026-08-19T03:00:30+00:00",
         "CC NUMBER": "CC-0081088",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
