@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T08:46:49+00:00",
+        "CC NUMBER": "CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "コールセンター御中　平林さん\n\n本件、再び顧客よりリクエストがあり優先度が上がって参りました。\n\nPANAとASMでは検出できてFUJIでは検出できない点に一番疑問を持っているようです。\n\n顧客から「FUJIに実物を送って確認してもらってほしい」と強く要求されており部品も受け取っています。\n\nFUJIのTVR機能の今後の課題でもあります。部品を受け取って調査していただきたく。もちろん調査だけでなく、画像処理の設定だけで改善できるのであればポイントも提示頂けると幸いです。\n\nFMV高橋明",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
+    },
+    {
         "DATE": "2026-08-19T08:33:48+00:00",
         "CC NUMBER": "CC-0081133",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -39661,14 +39670,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-08-19T08:46:49+00:00",
-        "CC NUMBER": "CC-0077009",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Communication Content": "コールセンター御中　平林さん\n\n本件、再び顧客よりリクエストがあり優先度が上がって参りました。\n\nPANAとASMでは検出できてFUJIでは検出できない点に一番疑問を持っているようです。\n\n顧客から「FUJIに実物を送って確認してもらってほしい」と強く要求されており部品も受け取っています。\n\nFUJIのTVR機能の今後の課題でもあります。部品を受け取って調査していただきたく。もちろん調査だけでなく、画像処理の設定だけで改善できるのであればポイントも提示頂けると幸いです。\n\nFMV高橋明",
-        "FMV PIC": "Nam Nguyen",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
     }
 ]
