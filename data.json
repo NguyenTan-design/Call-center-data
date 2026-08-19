@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T04:33:04+00:00",
+        "CC NUMBER": "CC-0081081",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_FujiWeb shows “Problem in the RWB => production data is not displayed on FujiWeb_FujiWebで「Problem in the RWB」と表示され、生産データがFujiWebに表示されない。[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to provide some additional information.\n\nThe issue was resolved after using NeximDBConnectionChanger: Neximdb + Netclient.\n\nThanks!\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BZQaKYAX"
+    },
+    {
         "DATE": "2026-08-19T03:59:33+00:00",
         "CC NUMBER": "CC-0081081",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
