@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-19T08:32:14+00:00",
+        "CC NUMBER": "CC-0081133",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR module application error -  Blue screen error_ブルースクリーン発生[NXTR-S]",
+        "Communication Content": "Tan-san\n\nHaven't you take a trace data after resolve issue?\n\nI'd also like to see the trace for the time period when the issues started occurring.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BfetxYAB"
+    },
+    {
+        "DATE": "2026-08-19T08:26:48+00:00",
+        "CC NUMBER": "CC-0081129",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Goertek E2-1F customer has already applied the PreventRejectPartDropModeFlag patch._Goertek E2-1F のお客様は、すでに PreventRejectPartDropModeFlag パッチを適用済みです。[NXT]",
+        "Communication Content": "Toan-san\n\nI have a question.\n\n- What was the purpose of filing this report?\n\n- Is the model “NXT”, correct?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Toan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Bfha2YAB"
+    },
+    {
+        "DATE": "2026-08-19T08:17:27+00:00",
+        "CC NUMBER": "CC-0078771",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
+        "Communication Content": "Dear Pham Thoi san,\n\nSorry for the late reply.\n\nTakahashi san  has requested that we expedite the software release.\n\nThe application team has asked if we can release version V2.3P instead of V2.2B. This is because V2.3P can be prepared sooner than V2.2B.\n\nThe following features are supported in V2.2B but not in V2.3P. Please let us know which of these features are used at LUXSHARE TECHNOLOGIES.\n\n・V2.2Ba: The MPC02 parts camera that has an improved resolution is now supported.\n\n・V2.2Ba:  Performing vision processing on transparent flux is now supported.\n\n・V2.2Ba: Support for 0402 super-resolution (Are you using the feature that adds “EnhancedVision=” to the user field?)\n\n・V2.2Bb: PAM measurement with a blue light source\n\n・V2.2Be: It is now possible to supply solder paste balls φ0.4 and φ0.5 mm using vibratory array feeders.\n\n・V2.2Bg: Solder ball placement with MFU-63 is now supported. It is now possible to use vibratory array feeders with MFU-63.\n\n・V2.2Bg: If a machine stops during production, fiducial marks are read again.\n\n・V2.2Bh: It is now possible to stop the machine with an error when the pressure applied to the parts during placement exceeds a set value.\n\nKonda,",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ"
+    },
+    {
         "DATE": "2026-08-19T08:00:14+00:00",
         "CC NUMBER": "CC-0079872",
         "Customer": "BYD Electronics Vietnam Company Limited]",
