@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T08:00:14+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear Dinh Tu san,\n\nWe apologize, but we were unable to identify the root cause because the trace data from the moment when Error 9481 first started occurring was not available.\n\nThe trace collection period itself was correct. However, when the issue occurred, the LCU was unable to connect to the machine. As a result, the LCU could not retrieve the trace data from the machine, and the trace information necessary for the investigation was not retained.\n\nAfter reviewing the trace data you provided, we found that Error 8539 (Host Recovery Operation Cannot Be Executed) had occurred.\n\nThis error is typically generated when the LCU is restarted or when an LCU service stops. When this error screen is displayed, the machine is able to reconnect to the LCU.\n\nBefore Error 9481 occurred, did you restart the LCU or restart any LCU services?\n\nIf so, we would like to ask for your cooperation. When Error 9481 occurs, rather than clearing the error immediately, could you first confirm that all LCU services have started successfully, and then clear the error?\n\nAfter that, please collect the trace data and provide it to us for further investigation.\n\nThank you for your cooperation.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
         "DATE": "2026-08-19T07:42:00+00:00",
         "CC NUMBER": "CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
