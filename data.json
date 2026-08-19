@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-19T05:20:15+00:00",
+        "CC NUMBER": "NEW:CC-0081133",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR module application error -  Blue screen error_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nIn customer site, NXTR module machine suddenly occurred application error with blue screen phenomenon.\n\nOur troubleshoot action history:\n\n1. Perform CPU board CF repair => Same issue\n\n2. Emergency install => same issue\n\n3. Use another CF card, then perform CF repair, emergency install =>same issue\n\n4. Use normal module CPU board to swap abnormal module CPU board => can clear issue\n\nPlease refer to attached picture and advice solution to recover the CPU board, if CPU board is abnormal, customer will rise the warranty request\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BfetxYAB"
+    },
+    {
         "DATE": "2026-08-19T05:05:10+00:00",
         "CC NUMBER": "CC-0078829",
         "Customer": "BYD Electronics Vietnam Company Limited]",
