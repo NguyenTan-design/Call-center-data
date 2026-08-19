@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-19T11:46:01+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nThank you for take a trace again.\n\nI am asking to designer team to check from LCU side and machine side and waiting feedback from them.\n\nI also asked to them to update in tomorrow.\n\nPlease kindly give some more time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
+        "DATE": "2026-08-19T11:32:49+00:00",
+        "CC NUMBER": "CC-0080483",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_部品の高さがモジュール2RVの制限値を超えた場合、「ノズルが検出されない」エラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Nam san\n\nPlease kindly check below my answer.\n\nThe Optimization and Data check process are different, that's why different error details showing.\n\n1. Why does Optimize report “No nozzle to pick-up” when Do Part Height Check = YES, even though the actual cause is that the Part Height/Thickness exceeds the allowable limit of Module 2RV?\n\n->This is because parts for which “Do Part Height Check” is set to “Yes” are subject to the following Part Height restrictions.\n\n    For diameters less than φ0.7, or when using WRN-S, the applicable range is 0.1 or greater and 0.8 or less.\n\n2. When Part Height Check = YES, does the Optimize process perform nozzle selection / pick-up compatibility checking first, and therefore report “No nozzle to pick-up” when no suitable nozzle is found, instead of directly reporting Part Height/Part Size?\n\n->Yes.\n\n3. Is there any difference in the checking logic between Optimize and Data Check in this case?\n\n->Yes different.\n\nFUJI Toyama",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG"
+    },
+    {
         "DATE": "2026-08-19T11:03:12+00:00",
         "CC NUMBER": "CC-0080872",
         "Customer": "TOA VIETNAM CO., LTD.]",
