@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-20T11:11:35+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano-san\n\nI think that makes sense.\n\nCould you please help me change the priority to Urgent?\n\nThank you for your support.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-20T11:02:26+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine with head RH20_RH20で装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Ninh-san\n\nPlease take a follow data.\n\n- C or D;\\ PlacingPressureViewer\\LOG folder\n\n‐ Screenshots showing that the Panel IDs to be searched for (such as Nexim Web) are definitely in the database\n\n- Screenshots error of the tool\n\n- Screenshots of the tool's settings screen\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-08-20T10:05:55+00:00",
         "CC NUMBER": "CC-0079850",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
