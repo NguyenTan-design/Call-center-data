@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T05:36:24+00:00",
+        "CC NUMBER": "CC-0078808",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Unable to get DID while communicate with Neotel tower_Neotelタワーとの通信時にDIDを取得できない[NXTR]",
+        "Communication Content": "Dear FMV-The-san,\n\nThere is no update from 2026-07-30 and almost 1month past.\n\nIs there any update for this case?\n\nIf there is no update until August 30th, we will automatically close the case.\n\nThe \"No Parts\" error displayed when a parts issue request is made is caused by the fact that the receiving information has not been reflected in Nexim.\n\nReason Why the Information Is not being reflected was that the receiving information from the tower (the .ETN files) is currently being stored in the remoterder\\output folder.\n\nHowever, PRS reads receiving information only from the remoterder\\notify folder.\n\nPlease change the destination folder for receiving information on the tower side from output to notify.\n\nRegarding Parts that have already been received, when using the Neotel Tower interface,\n\nthe PRS Refresh function cannot be used (please refer to Note 1 in Section 1.8.4 of the manual).\n\nRequired Action\n\nPlease perform either option ① or ② below:\n\n① Move the existing .ETN files from the output folder to the notify folder in chronological order (oldest files first).\n\nThe .ETN files will be automatically deleted after they are processed by PRS.\n\n② Delete all .ETN files currently stored in the output folder and then receive the parts into the tower again.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000153mCoYAI"
+    },
+    {
         "DATE": "2026-08-20T03:39:46+00:00",
         "CC NUMBER": "CC-0080538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
