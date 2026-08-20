@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T09:25:03+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh-san,\n\nBased on the screenshot you provided, it appears that the Microsoft Visual C++ 2015-2022 Redistributable is installed,\n\nbut the 2012 Redistributable does not seem to be installed.\n\nCould you please install the 2012 runtime package that we provided earlier and check whether the issue is resolved afterward?\n\nAs informed in previous update, it should be installed as part of the LCU installation process, it would be unusual for them not to be present.\n\nI understand that there was no problem in past but suddenly start.\n\nIs there any possibility that customer had removed etc?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
         "DATE": "2026-08-20T08:38:59+00:00",
         "CC NUMBER": "CC-0074185",
         "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
