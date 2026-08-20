@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T12:43:55+00:00",
+        "CC NUMBER": "CC-0078808",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Unable to get DID while communicate with Neotel tower_Neotelタワーとの通信時にDIDを取得できない[NXTR]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nApologies for the late reply. I came to Yaskawa today and configured the system as you advised.\n\nNexim can now read the Neotel Tower part information when registering a part from the Tower. Part requests are also received and issued on the Tower.\n\nHowever, the customer has two towers (located some distance apart), and parts from each line can be picked from both. In the \"Material tower request part\" screen, there is no column showing the location (e.g., Tower name) of the part. This makes it difficult for them to find the location, so it takes more time than using the current Tower system.\n\nI will create a new CC to ask Fuji to improve this. Please close this case.\n\nThank you for your support.\n\nFMV-The",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000153mCoYAI"
+    },
+    {
         "DATE": "2026-08-20T12:12:37+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
