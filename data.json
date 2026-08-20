@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T02:39:16+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nCould you share the Job which problem occurred?\n\n=> Please check the attached file\n\nAlso, the error code explain as below.\n\n=================\n\nSpecify settings for [Conveyor Spread] and [Rail Distance] in [Product Mode Property] in the job, and then perform optimization.\n\nAlternatively, change the production lane to lane 1.\n\n=================\n\nThe above setting is not used?\n\n=> I try this way, set the rail distance to 610mm, optimizer show no error\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
         "DATE": "2026-08-20T01:12:12+00:00",
         "CC NUMBER": "CC-0079516",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
