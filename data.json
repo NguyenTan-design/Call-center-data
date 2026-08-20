@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T07:20:25+00:00",
+        "CC NUMBER": "CC-0077782",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_ZS axis error code 3A19_Zs軸の3A19エラー[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu san,\n\nAccording to our mechanical designer, if the part protrudes more than 10 mm from the top surface of the parts tray, this is considered out of specification.\n\nThe specification states that only a protrusion of up to 0.5 is permitted.\n\nIn this case, the issue is believed to be caused by the fact that the recognized tray height varies depending on whether or not a part is present on the measurement line when the tray height is measured.\n\nIf you create a parts tray to prevent parts from protruding, the machine will operate correctly.\n\nPlease consider creating the parts tray.\n\nKonda,",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012GAszYAG"
+    },
+    {
         "DATE": "2026-08-20T05:36:24+00:00",
         "CC NUMBER": "CC-0078808",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
