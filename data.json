@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-21T04:52:00+00:00",
+        "CC NUMBER": "NEW:CC-0081305",
+        "Customer": "DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]_Question related to The matrix file name_[NXT]",
+        "Communication Content": "Dear call center.\n\nWe sometime support customer to provided the matrix data of module for customer. But when download it from community sometime it quite confuse .\n\nFor example :\n\nCustomer give us module serial number what is stick to the module side : \" NXTM3K 002591\"\n\nWhen we look for it on community we found result as picture 1.png and 2.png.\n\nAs we understand that the matrix data is very importance data for module so we would like to understand bellow question to choose the correct file :\n\nCould you help explain how fuji name the Matrix file  ?\n\nFrom the Module serial number ( which was stick to module side )  what the correct matrix file name ?\n\nThank you",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C5X3yYAF"
+    },
+    {
         "DATE": "2026-08-21T03:05:00+00:00",
         "CC NUMBER": "CC-0079066",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
