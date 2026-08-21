@@ -1,5 +1,95 @@
 [
     {
+        "DATE": "2026-08-21T11:42:48+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Dear Quynh Nguyen san,\n\nHow much longer do you plan to continue monitoring?\n\nKonda,",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
+        "DATE": "2026-08-21T10:55:46+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nCould you please help check if there are any updates from the Design Department regarding this issue?\n\nThank you for your support.\n\nBest regards,\n\nFMV – Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
+    },
+    {
+        "DATE": "2026-08-21T10:52:07+00:00",
+        "CC NUMBER": "CC-0078445",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Blue sceen durring edit job_NXTRで機上編集中にブルースクリーンになった[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your update\n\nWe will wait for the new version\n\nThanks\n\nBest regards,\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000148f3FYAQ"
+    },
+    {
+        "DATE": "2026-08-21T10:49:49+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nThe customer's production plan has not started yet on both lines (S11 and S13)\n\nWe have already ran Bypass tets many times for these lines to test only.\n\nHowever, the error has not occurred again on either line.\n\nWe will continue testing and monitoring both lines and will provide you with an update later.\n\nThank you for your support.\n\nBest regards,\n\nFMV – Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
+        "DATE": "2026-08-21T10:48:48+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Konda\n\nWe install it and can import OK. Thanks for your support.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
+        "DATE": "2026-08-21T09:02:08+00:00",
+        "CC NUMBER": "NEW:CC-0081323",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt Luxshare Precision (Yi'an), a feeder collision with the placing head occurred because the feeder tip was raised due to an operator error, lead to head damaged.\n\nThis issue has occurred multiple times, and the customer would like to find a solution to prevent it.\n\nI found CC-0077185, which also involves a similar issue. The customer is concerned that this problem may occur repeatedly, resulting in significant damage. In addition, they do not have enough spare heads to maintain production when a head is damaged.\n\nTherefore, please help us follow up and expedite the development and implementation of a solution to prevent this issue.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF"
+    },
+    {
+        "DATE": "2026-08-21T08:23:39+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Nguyen Manh Cuong san , and  Taka,\n\nI sent the \"5480_V3.1.100_IW_AddColumn_Patch.zip\" via file transfer system.\n\nPlease download it and let us know the results.\n\nDownload password   : \"unaagCRB\"\n\nUnZIP password   : \"PHCtHMQc\"\n\nKonda,",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
+        "DATE": "2026-08-21T08:08:44+00:00",
+        "CC NUMBER": "CC-0079066",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue sceen durring edit job_[NXTR-S]",
+        "Communication Content": "Dear Konda-San\n\nThank you for the information. I understand. I will download the software update from Fuji Community at the end of August.\n\nThank you for your support.",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015kIEfYAM"
+    },
+    {
+        "DATE": "2026-08-21T06:48:25+00:00",
+        "CC NUMBER": "CC-0077235",
+        "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT( VIET NAM) LIMITED]_Can not saving job when using on machine editing due to module alarm 6A030004_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to provide you with the following update:\n\n1. As of now, the customer has moved the machine from Luxshare Quang Chau to Luxshare Van Trung. However, there is currently no confirmed schedule for installing the machine at Van Trung.\n\nI heard that the installation may start from August 25, 2026, or later, depending on the progress of the factory layout preparation.\n\nTherefore, I would like to keep this ticket open for the time being, and I will continue to provide you with updates as soon as there is any new information.\n\nI would appreciate your understanding regarding this situation.\n\n2. In addition, as I mentioned in my previous update, I have not yet received any NXTR software version.\n\nCould you please send me both NXTR V2.2Br and NXTR V2.40?\n\nThank you very much for your understanding and support.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010bg2zYAA"
+    },
+    {
+        "DATE": "2026-08-21T06:20:46+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Ito san,\n\nI upload system layout file.Please check\n\nAbout trace log file, it is quite big, i try to split file but could not upload to Fuji web. Can you down load from the link below:\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/tan_fuji-smt_com_sg/IgCs9_lCflpdTKbxQZ0zD6XQAWxJDs5B8enRnzr67KewBGo?e=LRToZi\n\nThank you for your cooperation.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-21T04:52:00+00:00",
         "CC NUMBER": "NEW:CC-0081305",
         "Customer": "DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]",
