@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-21T12:49:17+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear Chien-san\n\nRegarding this matter, there were some parts of the processing that seemed suspicious.\n\nHowever, we have not been able to reproduce the issue on our end.\n\nTherefore, we will prepare a version that includes the above fix plus additional traces for investigation (so that we can investigate if the fix does not resolve the issue).\n\nWe will provide a response regarding the release date by August 25.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
         "DATE": "2026-08-21T11:42:48+00:00",
         "CC NUMBER": "CC-0079516",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
