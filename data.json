@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-20T23:50:31+00:00",
+        "CC NUMBER": "CC-0078445",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Blue sceen durring edit job_NXTRで機上編集中にブルースクリーンになった[NXTR-S]",
+        "Communication Content": "Dear Quynh-san\n\nWe apologize for the delay in this investigation.\n\nIt has been determined that this is a bug in the NXTR application.\n\nThere was a bug in the process for closing the NXTR Vision Monitor, which was causing an internal exception.\n\nWe plan to fix this on Friday, September 4.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000148f3FYAQ"
+    },
+    {
         "DATE": "2026-08-20T13:07:10+00:00",
         "CC NUMBER": "CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
