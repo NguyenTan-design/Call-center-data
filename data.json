@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-22T07:29:56+00:00",
+        "CC NUMBER": "NEW:CC-0081345",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_927C The ID of the panel in the machine is unknow_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nAs The phenomenon I mention in CC-0076000, we still not yet find the reason. Until now it still some time happen at many line (not only in 1 module). For example today.\n\nAt 12:43:11 PM module 5 show error: 927C0000 / SubErrorCode: 00000001 EN: The ID of the panel in the machine is unknown.\n\nAs many time before, Before error happen, module 4-L error 87650788 / SubErrorCode: 00000001 EN: Panel conveyance operation error. But we do not input panel manually in module 5.\n\nAfter this module happen, we have to remove this panel and can resume produciton\n\nI take trace data, central server and profiler central server trace. Please help me keep investigate this issue.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEepVYAT"
+    },
+    {
         "DATE": "2026-08-22T04:39:15+00:00",
         "CC NUMBER": "NEW:CC-0081343",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
