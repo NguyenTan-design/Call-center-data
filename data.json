@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-22T07:54:42+00:00",
+        "CC NUMBER": "CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nThank you for your support.\n\nCurrently, the customer has not resumed production with the pair module, so we are unable to trace the data yet.\n\n We will wait until the customer produces the paired module and the issue occurs again. After that, we will take trace data again for this issuse.\n\nThank you!\n\nFMV Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
         "DATE": "2026-08-22T07:29:56+00:00",
         "CC NUMBER": "NEW:CC-0081345",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
