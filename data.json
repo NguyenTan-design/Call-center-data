@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-22T22:09:37+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi- san\n\n-We have already lowered the nozzles onto the nozzle stations on the production lines, but no error occurred, so we could not retrieve the error images from the machine. This is because the nozzle stations with the background issue have already been modified.\n\n-Currently, the customer has a large number of nozzle stations, while the number of nozzle stations experiencing background defects is relatively small compared with the total number of nozzle stations. Since the production lines are running, we cannot stop the lines to find the modified nozzle stations, remove the reflective sticker, perform a nozzle reading test, and get the error images from the machine, as this would affect the customer's production.\n\n-If we have a suitable opportunity, we will perform the test and provide the error images\n\n-The customer has requested reflective stickers to be installed underneath the nozzle station, similar to those used on the NXT3, to resolve this issue.\n\nThank you and Best regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
         "DATE": "2026-08-22T07:54:42+00:00",
         "CC NUMBER": "CC-0080878",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
