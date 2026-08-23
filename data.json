@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-23T13:16:01+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear Chi-san.\n\nWe have uploaded the trace data related to Error 94810000 – Failed to share information, which occurred at BYD Vietnam. However, this issue occurred on a different line, Line S503. The machine software version is V2.2Ht.\n\nDuring normal production, after the PCB was completed at Module 18, it was transferred to Module 19. However, Module 18 reported Error 876861C2 – Next stage panel unloading notification error, while Module 19 reported Error 863F702A and Error 94810000 – Failed to share informatio\n\nI have attached the trace data and would like to request the Call Center's assistance in analyzing this issue.\n\nThank you!",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
         "DATE": "2026-08-23T10:49:41+00:00",
         "CC NUMBER": "CC-0079650",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
