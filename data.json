@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-23T10:49:41+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Mehdi - san\n\nToday, the “NEXIM can’t transmission job to NXT3 machine” error occurred again on all lines.\n\nAction :\n\n-Check the hosts file on PC SMT-JOB-Ora (Neximdb) and add the IP Pc line 4 , check transmission job -> NG\n\n-Connect Machine Line 4 to the PC system server (PC name: SMT-fuji), check transmission job -> NG.\n\n-Restart computer name SMT-JOB-Ora (neximdb) then all lines transmission job OK.\n\n(Restart time: 14:55).\n\nPlease help us investigate the root cause.\n\nIf you need more information, please let's me know.\n\nThank you",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-08-23T06:18:21+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
