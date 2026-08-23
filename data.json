@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-23T06:18:21+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Customer Service Department,\n\nI have encountered the following issue\n\ntroubleshooting Module 1R is hangup and cannot be operated.\n\n* phenomena\n\n- The machine hangs when running both magazines A and B simultaneously.\n\n- The machine only operates when running either magazine A or magazine B.\n\n- machine S/N : HEBE11 0003436\n\n- machine version 2.2Bm\n\n- S/N base : SE0207907\n\n- date: MAR/2026\n\n- nexim version : 3.1.20\n\n* Acction\n\n- check job,System layout and machine confgiuration\n\n- optimize dual lane and Data check job\n\n- update upgrade Units\n\n- change new tray unit\n\n- Get the trace to offer advice from Fuji Japan\n\n- It is currently set to run one magazine at a time for the production line.\n\n(Please see the picture attached). So I have to reset machine, after that take trace data.\n\nPlease help me analyst trace data and give the advice\n\nThanks you\n\nFMV-Thuongnd",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
         "DATE": "2026-08-23T05:54:48+00:00",
         "CC NUMBER": "NEW:CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
