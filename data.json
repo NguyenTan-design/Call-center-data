@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-24T07:50:59+00:00",
+        "CC NUMBER": "CC-0075555",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]__ロードセル使用モジュールのサイクルタイムが遅い[Nexim]",
+        "Communication Content": "FMV　高橋様\n\nお世話になっております。\n\n本件、バージョンアップはお盆明け予定とのことでしたが、現在、どのような状況でしょうか？\n\n既存バージョンでは荷重精度測定が入っていない為、荷重精度測定（「荷重上限値」、「荷重下限値」のチェック）をしておらず、\n\n高精度装着荷重制御（NXTRオペレーションマニュアル応用編ー9.2 部品にかける荷重を指定して装着する）の動作になっていたとのことです。\n\nまた、遅くなりましたが、V2.3Ffをファイル転送にて転送します。\n\n======================\n\nInstallCD_V2.3Ff.zip\n\n送信先 :\n\nak.takahashi@fuji.co.jp\n\nファイル公開期限 : 7 日\n\nダウンロード制限回数 : 10 回\n\nダウンロードパスワード : \"DntQJYt4\"\n\nZIPファイルのパスワード : \"yXzNQEbj\"\n\n======================\n\n以上、宜しくお願い致します。\n\n株式会社ＦＵＪＩ\n\nカスタマーサービス部　\n\nカスタマーサポート課\n\n寺澤　真梨恵",
+        "FMV PIC": "Takahashi Akira",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vnkTzYAI"
+    },
+    {
         "DATE": "2026-08-24T07:05:30+00:00",
         "CC NUMBER": "CC-0081022",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
