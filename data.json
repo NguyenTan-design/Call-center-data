@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-24T07:05:30+00:00",
+        "CC NUMBER": "CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Communication Content": "Dear Thoi san\n\nSorry for keep you waiting.\n\nOur designer checked trace data but the M3 just waiting finish the production on M4 that's why the M3 doesn't transfer the PCB according to trace investigation.\n\nCould you please take a trace data again from M3 and M4 with cycle stop long push?\n\nWe are imagine that below situation happen when the issue happen at customer line.\n\nWe would like to investigate trace data as below situation.\n\n*M3 : M4 should able to receive the PCB but doesn't.\n\n*M4 : M3 should able to transfer the PCB but doesn't.\n\nAnd please kindly check the condition of both machines when the issue happen.\n\nThere is possibility that there is issue with module displaying the PCB information.\n\nSo please kindly check what the machine showing green PCB indicator and if there is really PCB inside the machine or not.\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1"
+    },
+    {
+        "DATE": "2026-08-24T06:59:18+00:00",
+        "CC NUMBER": "CC-0080370",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Duong san,\n\nWe would like to follow up regarding this case.\n\nIf we do not receive any feedback or further questions within one week, we will close this case.\n\nPlease let us know if you require any additional information.\n\nThank you for your understanding.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019CKEtYAO"
+    },
+    {
+        "DATE": "2026-08-24T06:56:00+00:00",
+        "CC NUMBER": "CC-0079804",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After restarting the LCU, the module reported error 853A0000 (Sub code: 0000702A)._LCUを再起動した後、モジュールからエラー 853A0000（サブコード：0000702A）が報告されました。[NXTR-S]",
+        "Communication Content": "Dear FMV-Tu san,\n\nWe would like to follow up regarding this case.\n\nIf we do not receive any feedback or further questions within one week, we will close this case.\n\nPlease let us know if you require any additional information.\n\nThank you for your understanding.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017aFdXYAU"
+    },
+    {
         "DATE": "2026-08-24T04:52:15+00:00",
         "CC NUMBER": "CC-0081323",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
