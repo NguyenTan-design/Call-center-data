@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-24T00:01:39+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Akira san,\n\nSorry for the late update.\n\nI have collected the data you requested. However, I was unable to retrieve the FIDB data from the Line Server PC due to the error “Failed to connect SQL Server.”\n\nPlease check the attached files for more details.\n\nThank you!\n\nFMV DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-08-23T22:51:26+00:00",
         "CC NUMBER": "CC-0079516",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
