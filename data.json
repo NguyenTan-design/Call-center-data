@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-24T04:52:15+00:00",
+        "CC NUMBER": "CC-0081323",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_操作ミスによりフィーダーの先端が持ち上がった際に、フィーダーが配置ヘッドと衝突するのを防ぐた...",
+        "Communication Content": "Dear Duc-san\n\nI will now review the measures to prevent this phenomenon, but please issue a warning to customers immediately. Or have you already done so?\n\nFurthermore, I do not believe that even with new countermeasures, collisions can be completely avoided. This is because, even if an error occurs, the head cannot be retracted; the only option is to perform an emergency stop.\n\nTherefore, please understand that unless the operator stops the feeder insertion operation, at least a minor contact will inevitably occur.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF"
+    },
+    {
+        "DATE": "2026-08-24T04:45:13+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano-san\n\nWe swapped Module 1, which had encountered an error, with Module 2, which had been running normally alongside it, at 6:00 PM on August 22.\n\nHowever, the issue occurred again once on Module 1 after the swap.\n\nIf you have any ideas or suggestions, please advise us.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-08-24T03:48:18+00:00",
         "CC NUMBER": "CC-0079516",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
