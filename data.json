@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T06:09:31+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nWe tested user creation and deletion in a Nexim environment running the same version (V3.2.100), but were unable to reproduce the issue.\n\nTo help isolate the cause, could you please provide the following information for each error scenario?\n\nIf you have already identified any specific conditions under which each error occurs, please let us know as well.\n\nIf possible, we would also appreciate a screen recording showing the deletion operation from start to the point where the error occurs.\n\n①Error Message: Can not delete logon user:12851995\n\nLogged-in account name:\n\nPrivilege level of the logged-in account:\n\nAccount name of the user being deleted:\n\nPrivilege level of the user being deleted:\n\nLogin status of the user being deleted (logged in / not logged in):\n\nSteps to reproduce:\n\n②Error Message: Failed to delete user:2\n\nLogged-in account name:\n\nPrivilege level of the logged-in account:\n\nAccount name of the user being deleted:\n\nPrivilege level of the user being deleted:\n\nLogin status of the user being deleted (logged in / not logged in):\n\nSteps to reproduce:\n\nAdditionally, please confirm the following:\n\nDoes this issue occur only for specific users, or for all users?\n\nIs it possible to create new users successfully?\n\nDoes the same issue occur when deleting a newly created test user?\n\nDo the two error messages occur during the same deletion operation, or do they occur under different conditions depending on the target user or operation procedure?\n\nPlease provide the detailed NeximDB and DBIF logs.\n\nBR,\n\nAnri Ito",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-25T05:22:12+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
