@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T01:22:02+00:00",
+        "CC NUMBER": "CC-0080155",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_Issues related to the CFX interface function_CFXインターフェース機能に関する問題[NXTR-A]",
+        "Communication Content": "Dear FMV-DO-san,\n\nThe CFX is supported from NeximV3.0 so it is the guaranteed version.\n\nPlease use the version for Nexim/NXTR from the supported version.\n\nOn the other hand, there was problem after release and correction patch 5498_IPCCFX_Step3.5_Patch had been released to customer which use the CFX.\n\nIf there is plan to install the CFX, please get the patch from the Fuji Japan salesperson in charge with information of which Nexim/NXTR version is used at customer.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018aybdYAA"
+    },
+    {
         "DATE": "2026-08-25T00:53:56+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -40345,5 +40354,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-08-25T01:36:55+00:00",
+        "CC NUMBER": "CC-0079997",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTR machine alarm an error 8EC70000_[NXTR-S]",
+        "Communication Content": "Dear Toyama-san,\n\nthank you for your response\n\nWe received fix machine version from Taka-san and applied 2.3Pz1 version already.\n\nWe did test after upgrade machine version no longer issues happen, but customer still required monitoring 1 weeks.\n\nSo after 1 weeks no more response from us then pls support us close this ticket.\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000185jyhYAA"
     }
 ]
