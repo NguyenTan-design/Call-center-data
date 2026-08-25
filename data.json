@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T00:53:56+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThank you very much for your information.\n\nWe checked log and this issue is due to the customer using shuttle conveyor.\n\nOur CFX IF is not supported shuttle conveyor currently.\n\nIs there any possibility to change shuttle conveyor to dual conveyor?\n\nOr Is it possible to read the Panel ID on the machine?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-08-25T00:47:23+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
