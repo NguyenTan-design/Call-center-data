@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T09:42:13+00:00",
+        "CC NUMBER": "NEW:CC-0081529",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about  Panel property_[NXTR-S]",
+        "Communication Content": "Dear CallCenter,\n\nWhen the customer uses the Panel Property function to change the panel rotation entering the machine, the panel image in the Coordinator section of the program does not change accordingly.\n\nThis affects the ability of operators and technicians at other processes to correctly identify the panel entry direction when creating programs for machines such as Printer, SPI, AOI, Reflow, etc.\n\nThe customer would like any changes made in Panel Property to be reflected accordingly in the Coordinator section.\n\nTherefore, please help us find a solution to this issue.\n\nThank you!\n\nFMV Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ChFagYAF"
+    },
+    {
         "DATE": "2026-08-25T09:22:45+00:00",
         "CC NUMBER": "CC-0080886",
         "Customer": "BYD Electronics Vietnam Company Limited]",
