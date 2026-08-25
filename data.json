@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T11:04:02+00:00",
+        "CC NUMBER": "NEW:CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe would like to request your support in evaluating an issue related to OCPU operation for removing components from feeders at the Luxshare customer site.\n\nThe issue is described as follows:\n\n  During the OCPU operation to remove components from the feeders, some feeder positions encounter an error and the components cannot be removed.\n\n  All affected feeders display a red warning indicator. The issue can only be cleared by manually feeding the components first, and then using the OCPU to remove the components again.\n\n  We explained to the customer that the possible cause may be that, during the tape-cutting process, the operator manually pulled the component reel, which may have caused a motor error.\n\n However, the customer does not agree with this explanation. They would like the feeder to be able to perform the component removal operation using the OCPU even when a feeder error occurs, in order to reduce the time required for the operation.\n\n Currently, the customer is using an OCPU that is not connected to Nexim.\n\n  Therefore, please help us evaluate the feasibility of this request and confirm whether it is technically possible to allow the OCPU to perform the component removal operation when a feeder error occurs.\n\n  If this function is technically possible, please advise us of the required conditions, settings, software version, or any other modifications needed to support this operation.\n\nYour technical evaluation and recommendation would be greatly appreciated, as we need to provide a clear response to the customer.\n\nBest regards,\n\nHa Ngoc Son-FMV",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-08-25T10:37:21+00:00",
         "CC NUMBER": "CC-0076174",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
