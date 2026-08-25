@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T03:10:31+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThank you very much for fast reply.\n\nIn case of Mitac Vietnam, it is related to shuttle conveyor.\n\nSo we would like to ask you to check with customer about availability to change the conveyor to dual one or read the panel ID on the machine.\n\nPlease kindly check with customer once again.\n\nIf these are not acceptable, please let me know.\n\nOn the other hands, the patch Nexim 5498_IPCCFX_Step3.5_Patch for CC-0075611 is not applied yet according to log investigation.\n\nPlease kindly apply it as well.\n\nPlease kindly check,\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-25T02:31:04+00:00",
         "CC NUMBER": "CC-0076174",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
