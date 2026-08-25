@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-25T04:46:31+00:00",
+        "CC NUMBER": "CC-0079852",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Durring production -Application error ( Blue Screen)_生産中にブルースクリーン[NXTR-S]",
+        "Communication Content": "Dear Vu-san\n\nHow about sensor condition?\n\nHave you check it?\n\nI will ask to designer again about release schedule for the V2.Db, but please update current situation at customer side.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017idfVYAQ"
+    },
+    {
+        "DATE": "2026-08-25T04:46:13+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano-san\n\nSorry to jump into conversation\n\nLet me summarize our troubleshoot action for your reference :\n\n1. Replaced base vacuum pump (both left and right), the 1204 error still occurred\n\n2. Replaced module, the 1204 error still occurred\n\n3. Checked and Replaced vacuum pump outlet filter(both left and right),  the 1204 error still occurred\n\n4. Replaced vacuum pump inverter board (both left and right),  the 1204 error still occurred\n\nNext action, we will :\n\n1. Check and replace vacuum coupler ( supply vacuum from base to module)\n\n2. Check and replace any union in vacuum pipe\n\nAny other solution from you, please advice\n\nBR,\n\nTan",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-25T04:43:37+00:00",
+        "CC NUMBER": "CC-0077269",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_Feeder W08T1 Magnet Strength_[NXTR-S]",
+        "Communication Content": "Dear Cuong san\n\nSorry for keep you waiting.\n\nI got an advice from designer team as below, please kindly check.\n\n*M3-slot 48\n\nThe parts size is 3216 and the nozzle is WRN-LL, this configuration is not so problem.\n\nHowever we would like to ask you to change the nozzle to 1.8mm for iprovement.\n\nAnd current transport speed is 80, please kindly try to change it less than 70.\n\n*M1-slot 19\n\nPart size is 1608(Large capacity type) and the nozzle is WRN-M, the nozzle is not enough to handling this parts looks like.\n\nSo please kindly use WRN-L once.\n\nAlso pick up offset Z is set to -0.2mm is there any reason for set this value?\n\nAlso Is the data which uploaded time period between 16 to 18 July with the magnet strenghth?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010lSQBYA2"
+    },
+    {
         "DATE": "2026-08-25T04:20:34+00:00",
         "CC NUMBER": "CC-0081323",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
