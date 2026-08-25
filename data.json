@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-25T02:13:10+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano-san\n\nWe would like to provide an update on the actions we have continued to take regarding this issue.\n\nYesterday, August 24, we replaced two new inverter boards and carried out testing. However, the issue continued to occur.\n\nWe then replaced the filter unit with one from another module, but the issue still remained.\n\nAfter that, we disconnected and reconnected the fitting at the pump outlet. When we restarted the machine, the pressure was -88 kPa. We stopped the machine and reconnected the fittings properly. After that, the pressure increased to approximately -91 to -93 kPa.\n\nOur next step will be to swap the fittings with those from a normally operating module and monitor the situation to determine whether the issue is related to the fittings.\n\nBR,\n\nTrung",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-08-25T02:06:40+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nOn 08Jul2026 you said that:\n\n\"I was in Mitac Taiwan last week and heard from customer that almost issue was happened even on single lane.\n\nSo there is possibility that not only related to shuttle conveyor configuration\"\n\nSo, is the shutter conveyor the cause?\n\nCC: Is there any possibility to change shuttle conveyor to dual conveyor?\n\nFMV: Our salesperson previously discussed switching from a shuttle conveyor to a dual conveyor, but the customer did not agree.\n\nCC: Or Is it possible to read the Panel ID on the machine?\n\nFMV: The panel ID can only read from one side on the machine (Top side)\n\nwhereas the customer manufactures double-sided circuit boards and prints the ID on only one side.\n\nThis is difficult to accept; we will try to discuss it with the customer.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-25T02:06:13+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nOn 08Jul2026 you said that:\n\n\"I was in Mitac Taiwan last week and heard from customer that almost issue was happened even on single lane.\n\nSo there is possibility that not only related to shuttle conveyor configuration\"\n\nSo, is the shutter conveyor the cause?\n\nCC: Is there any possibility to change shuttle conveyor to dual conveyor?\n\nFMV: Our salesperson previously discussed switching from a shuttle conveyor to a dual conveyor, but the customer did not agree.\n\nCC: Or Is it possible to read the Panel ID on the machine?\n\nFMV: The panel ID can only read from one side on the machine (Top side)\n\nwhereas the customer manufactures double-sided circuit boards and prints the ID on only one side.\n\nThis is difficult to accept; we will try to discuss it with the customer.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-08-25T01:36:55+00:00",
         "CC NUMBER": "CC-0079997",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
