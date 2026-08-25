@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-08-25T09:08:16+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nLet me add request.\n\nPlease take a machine trace from line console when occurred phenomenon.\n\nJust to be sure, please long push cycle button before take a trace data.\n\n----------------------------------\n\n- C or D;\\ PlacingPressureViewer\\LOG folder\n\n‐ Screenshots showing that the Panel IDs to be searched for (such as Nexim Web) are definitely in the database\n\n- Screenshots error of the tool\n\n- Screenshots of the tool's settings screen\n\n----------------------------------\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
+        "DATE": "2026-08-25T09:03:38+00:00",
+        "CC NUMBER": "CC-0079997",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTR machine alarm an error 8EC70000_[NXTR-S]",
+        "Communication Content": "Dear Long san\n\nSorry I overlooked latest update from your side.\n\nI will keep open this ticket until next week and if no update from your side, I will close this case.\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000185jyhYAA"
+    },
+    {
+        "DATE": "2026-08-25T09:01:02+00:00",
+        "CC NUMBER": "CC-0079997",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTR machine alarm an error 8EC70000_[NXTR-S]",
+        "Communication Content": "Dear Long san\n\nSorry for late inform you.\n\nMaybe you already received countermeasure software version of NXTR from Takatsu san, please kindly upgrade the version to V2.3Pz.\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000185jyhYAA"
+    },
+    {
+        "DATE": "2026-08-25T08:54:20+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine with head RH20_RH20で装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nI’ll look into it, but at this point, I’m not sure whether the fact that “PlacingPressureViewer” doesn’t work in RH02 is by design or a bug.<\\n\n\nSo, could you please provide the following information?<\\n\n\nOf course, I’ll check with the design team at the same time.\n\n- C or D;\\ PlacingPressureViewer\\LOG folder\n\n‐ Screenshots showing that the Panel IDs to be searched for (such as Nexim Web) are definitely in the database\n\n- Screenshots error of the tool\n\n- Screenshots of the tool's settings screen\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-08-25T06:42:23+00:00",
         "CC NUMBER": "CC-0077628",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -40516,5 +40552,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-08-25T09:09:12+00:00",
+        "CC NUMBER": "NEW:CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\n1. Issue Summary\n\nWe found an issue where error **8000D711 – “Processing error. Unable to find the target object. (Not part related)”** occurs during component recognition after the nozzle picks up the component.\n\nThe actual component body size is larger than the Body size registered in the program. We intentionally register a smaller Body size to prevent the component from being rotated 180 degrees during recognition.\n\nThis setting is important because it provides the following benefits:\n\n* Prevents unnecessary 180-degree rotation during component recognition.\n\n* Improves placement stability.\n\n* Reduces unnecessary head movement.\n\n* Optimizes cycle time.\n\nHowever, at the current customer, when the Body size is registered as **X25 mm × Y25 mm**, error **8000D711** occurs during recognition.\n\nWhen the Body size is changed to **X40 mm × Y40 mm**, the error does not occur.\n\nHowever, using **X40 × Y40 mm is not an ideal permanent countermeasure**, because the purpose of registering a smaller Body size is to prevent unnecessary 180-degree rotation and optimize cycle time.\n\n 2. Desired Improvement\n\nOur desired behavior is that when the registered Body size is smaller than the actual component size, the Parts Camera should still be able to correctly recognize the target object without generating **8000D711**.\n\nThis improvement would allow us to maintain:\n\n* Stable component placement\n\n* Optimized cycle time\n\n* Reduced unnecessary 180-degree rotation\n\n* Reduced unnecessary head movement\n\n 3. Software Version Comparison\n\nWe also confirmed that the same type of Body size setting can be used normally at another customer using a **different software version**.\n\nAt that customer, a Body size smaller than the actual component size can be used without causing the 8000D711 error.\n\nTherefore, we would like Fuji Japan to check whether there is any difference in the **Parts Camera recognition processing or recognition algorithm between the software versions**.\n\nIf there was any change related to Body size processing or Target Object recognition, please advise whether it could be related to this issue.\n\n 4. Data Provided for Analysis\n\nWe have prepared the following data for Fuji Japan's investigation:\n\n* Trace Data\n\n* EventLog\n\n* Software/Version information\n\n* Component Program\n\n* Recognition settings\n\n* Test results: **X25 × Y25 mm → NG / X40 × Y40 mm → OK**\n\nPlease investigate the above data and advise on the **root cause of this issue**.\n\nWe would also appreciate your consideration of a **software/recognition processing improvement** to prevent 8000D711 when using a registered Body size smaller than the actual component size.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
     }
 ]
