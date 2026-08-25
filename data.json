@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-25T14:29:48+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nCC: On the other hands, the patch Nexim 5498_IPCCFX_Step3.5_Patch for CC-0075611 is not applied yet according to log investigation.\n\nPlease kindly apply it as well.\n\nFMV: We have applied this patch for line server line 6 from 13Jun26\n\nPlease check the attached file version line 6.txt for detail.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-25T14:19:09+00:00",
         "CC NUMBER": "CC-0080370",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
