@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-08-25T04:01:28+00:00",
+        "CC NUMBER": "NEW:CC-0081485",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about part bottom 2D code check function_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nCustomer have this request with below information, can you advice:\n\nBackground : Customer want to apply part bottom 2D code check function\n\nPart body : 37*55mm ( multiframe acquisition )\n\nPart camera : MPC01\n\nAs above part condition, according to \"NXTR Advanced Operation Manual\"  FNC-NXTR-017E0 page 365:\n\n=> Acquiring parts multiframe images is not supported\n\nCustomer question : Can Fuji provide solution for this case, even modification need to be performed. Customer condition can not be changed, the QR code is in bottom side.\n\nI attached part image for your reference\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CcBHhYAN"
+    },
+    {
+        "DATE": "2026-08-25T03:59:39+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nPlease update this case.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
+        "DATE": "2026-08-25T03:54:46+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Mehdi-san\n\nThankyou for advise and support us\n\nThe issue arose around 5:00 AM on August 23,we arrived at the factory by 11:30 AM and we took the following actions:\n\nAction :\n\n-Check the hosts file on PC SMT-JOB-Ora (Neximdb) and add the IP Pc line 4 , check transmission job -> same issue\n\n-Connect Machine Line 4 to the PC system server (PC name: SMT-fuji), check transmission job -> same issue\n\n-At 13h45 on August 23, Restart computer name SMT-JOB-Ora (neximdb)\n\n-After that, performed job transfers on all production lines, and all job transfers were completed successfully\n\n-We already collected the trace in linesv line04 (Change the DEBUG mode around 13:00)\n\n-The trace data collection took place around 15h10 .Kindly refer the attached file 'Trace line04 23-08'\n\nPlease assist us in investigating the root cause of this issue.\n\nThank you\n\nFMV-Toan",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-08-25T03:21:05+00:00",
         "CC NUMBER": "CC-0078771",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
