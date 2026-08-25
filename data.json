@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-25T00:47:23+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThank you very much for your information.\n\nWe checked log and this issue is due to the customer using shuttle conveyor.\n\nOur CFX IF is not supported shuttle conveyor currently.\n\nIs there any possibility to change shuttle conveyor to dual conveyor?\n\nOr Is it possible to read the Panel ID on the machine?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-08-25T00:39:13+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Victor-san,\n\nThank you for the update.\n\nAs the issue has reoccurred, we would like to analyze the logs captured immediately after the problem occurs.\n\nWhen the issue happens again, please collect and send the following data to us before restarting any PC, service, or machine, if possible:\n\nMachine Trace\n\nNexim debug logs from the Job Transmission PC and the Line Server PC\n\nFncFCTrn_JobChgMng.log\n\nCentral Log\n\nRWB Log\n\nMasTran Log\n\nOther related logs collected using NeximLogUtility\n\nVideo recording of the issue (if possible)\n\nExact date and time of occurrence\n\nDetailed work history and actions taken after the issue occurred\n\nPlease ensure that the Transmission log level is set to Debug in advance so that sufficient information can be captured.\n\nSince the root cause could not be identified from the currently available logs, the logs collected immediately after the occurrence will be essential for further investigation.\n\nBest Regards,\n\nMehdi",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-08-24T17:00:44+00:00",
         "CC NUMBER": "CC-0079720",
         "Customer": "BYD Electronics Vietnam Company Limited]",
