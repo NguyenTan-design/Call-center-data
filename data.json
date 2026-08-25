@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-25T14:19:09+00:00",
+        "CC NUMBER": "CC-0080370",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san,\n\nThank you so your support.\n\nWe have followed this case from when we installed the patch file 5220 form 6-Aug to now.\n\nResult: No appear again error hang NeximDB.\n\nNow we can close this case.\n\nThank you and best regard!",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019CKEtYAO"
+    },
+    {
+        "DATE": "2026-08-25T14:06:56+00:00",
+        "CC NUMBER": "CC-0079852",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Durring production -Application error ( Blue Screen)_生産中にブルースクリーン[NXTR-S]",
+        "Communication Content": "Dear Moriya-San\n\nWe have checked the sensor condition, but no abnormalities have been found so far. Recently, the issue has also not occurred again.\n\nIf you have any further information regarding the V2.Db version, please kindly keep me updated.\n\nThank you for your support.\n\nFMV-Vu Thien",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017idfVYAQ"
+    },
+    {
         "DATE": "2026-08-25T12:23:56+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
