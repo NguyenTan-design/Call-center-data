@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T04:10:52+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your explanation.\n\nWe understand that the actual part dimensions should be registered correctly, and that the Parts Camera acquisition method changes depending on the part size.\n\nHowever, we would like to clarify one point regarding the current issue.\n\nThe actual component size is **X49 mm × Y65 mm**.\n\nWe confirmed the following behavior by changing only the registered Body size:\n\n* Registered Body size **below 38 mm** → **8000D711 NG**\n\n* Registered Body size **38 mm or larger** → **Recognition OK**\n\nTherefore, although the actual component size remains **X49 mm × Y65 mm**, changing only the registered Body size changes the recognition result.\n\nCould you please clarify why the **registered Body size** affects the Parts Camera acquisition/recognition process in this case?\n\nOur desired improvement is to allow us to register a **Body size smaller than 38 mm** without generating **8000D711**, while maintaining normal component recognition.\n\nWe would appreciate your clarification on the recognition processing logic in this case and your consideration of whether this behavior can be improved.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-08-26T03:15:10+00:00",
         "CC NUMBER": "CC-0078949",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
