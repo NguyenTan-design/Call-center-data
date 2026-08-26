@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T02:29:34+00:00",
+        "CC NUMBER": "NEW:CC-0081568",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module on Lane 2 after placement is completed, while Lane 1 operates normally._[NXTR-S]",
+        "Communication Content": "Dear Call Center Team,\n\nWe encountered the following issue at our customer site, Lite-On:\n\nA PCB on Lane 2 did not transfer from Module 3 to Module 4 after placement was completed, while Lane 1 continued normal production without any issues.\n\nActions taken:\n\nPressed [Cycle Top] and then [Start] to resume production. Issue not resolved.\n\nRe-transmitted the job from the LCU Web. Issue not resolved.\n\nRestarted the power of the base machine. Issue resolved.\n\nI collected the trace data at the time the issue occurred. Could you please analyze the data and provide your findings, as well as any recommendations for improvement?\n\nThank you very much for your support.\n\nBest regards,\n\n Tran Xuan Cong",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CnzirYAB"
+    },
+    {
         "DATE": "2026-08-26T02:10:07+00:00",
         "CC NUMBER": "CC-0076975",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
