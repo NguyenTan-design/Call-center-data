@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T07:56:08+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your responding,\n\nFor the additions trace data, pls give us sometime to get and required customer send it out.\n\nanother data pls check attached file for more detail.\n\nwe also have evaluation again placing pressure with currently of nozzle chuck( KS47R) in used with RH02.\n\nthen would like to share below information:\n\nLine: line 3-bot\n\nmodule apply: module 1R( RH20), module 2L,2R( RH02)\n\n1. Perform enable function and mounting part with RH02 head only and using \"placingpressureviewer\" to check result then\n\nthis software will alarm notification\" Min values:0 Max values:0 Both the maximum and minimum values of the maximum installed load were 0 \" and don't show the chart.\n\npls check the log file at time: 026-08-23 13:39:34,337[1]\n\n2. When normal production all module, using \"placingpressureviewer\" to check result\n\nso this software will show to you 1 chart.\n\npls refer image \" CHART.JPG\". and excel file\" placement table of panel ID GKK2622097030671605A763\"\n\n=> finally we can see that 2 case the same result: maximum placing pressure =0\n\nso we still would like to ask same as latest question\n\n\"So we would like to ask another question that if customer using third party nozzle( nozzle chuck) for head RH02,\n\ncan using function \"Checking the contact of parts on panels\" or not?.\n\nif can, what point on nozzle spec data must to setting?\"\n\n3. We also provide the current job and setting on spec keeper of this kind of nozzle chuck, pls refer attached file.\n\nappreciate your support !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-08-26T07:42:11+00:00",
         "CC NUMBER": "CC-0080021",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
