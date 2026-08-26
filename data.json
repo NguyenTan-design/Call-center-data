@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T06:15:20+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Kha san Duc san\n\nI am sending countermeasure patch(0985_LCUPatch_V2.30orV2.31_SP27) via file transfer system to Kha san.\n\nPlease kindly download from the link with below password.\n\nAlso I sent the patch to Takahashi san separately.\n\nYou can also receive patch from him as well.\n\nDownload password    : \"ccWp8xhc\"\n\nUnzip password   : \"YhkYHvzb\"\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
         "DATE": "2026-08-26T05:48:06+00:00",
         "CC NUMBER": "CC-0081485",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
@@ -40768,14 +40777,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-08-26T06:15:20+00:00",
-        "CC NUMBER": "CC-0079996",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
-        "Communication Content": "Dear Kha san Duc san\n\nI am sending countermeasure patch(0985_LCUPatch_V2.30orV2.31_SP27) via file transfer system to Kha san.\n\nPlease kindly download from the link with below password.\n\nAlso I sent the patch to Takahashi san separately.\n\nYou can also receive patch from him as well.\n\nDownload password    : \"ccWp8xhc\"\n\nUnzip password   : \"YhkYHvzb\"\n\nThank you very much in advance.\n\nFUJI Toyama",
-        "FMV PIC": "Hoang Kha",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
     }
 ]
