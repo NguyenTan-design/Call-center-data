@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T02:10:07+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi-san,\n\nThank you for your support!\n\nUntil now this error no happen again but customer still request continue follow to find out the root cause\n\nSo please keep support us\n\nBest regards,\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
+    },
+    {
         "DATE": "2026-08-26T01:58:03+00:00",
         "CC NUMBER": "CC-0081529",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -40678,14 +40687,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-08-26T02:10:07+00:00",
-        "CC NUMBER": "CC-0076975",
-        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
-        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
-        "Communication Content": "Dear Hirabayashi-san,\n\nThank you for your support!\n\nUntil now this error no happen again but customer still request continue follow to find out the root cause\n\nSo please keep support us\n\nBest regards,\n\nFMV Hoang",
-        "FMV PIC": "Ngo Hoang",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
     }
 ]
