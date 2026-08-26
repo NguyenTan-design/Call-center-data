@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-26T05:33:02+00:00",
+        "CC NUMBER": "CC-0081305",
+        "Customer": "DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]_Question related to The matrix file name_[NXT]",
+        "Communication Content": "Dear Cao Tuan-san\n\nThis is a list of the characters printed on the serial number label and the corresponding module types.\n\nーー\n\nNXTM3 ：NXT　M3\n\nNXTM3S　：NXT　M3S\n\nNXTM3X　：NXTII　M3II\n\nNXTM3C　：NXTIIc　M3IIc\n\nNXTM3F　：NXTIII M3III\n\nNXTM3V　：NXTIIIc　M3IIIc\n\nNXTM3K　：NXTIII　M3IIIS\n\nNXTM6　：NXT　M6\n\nNXTM6S　：NXT　M6S\n\nNXTM6X　：NXTII　M6II\n\nNXTM6C　：NXTIIc　M6IIc\n\nNXTM6P　：NXTII　M6IISP\n\nNXTM6F　：NXTIII　M6III\n\nNXTM6V　：NXTIIIc　M6IIIc\n\nNXTM6K　：NXTIII　M6IIIL\n\nーー\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C5X3yYAF"
+    },
+    {
+        "DATE": "2026-08-26T05:29:24+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Tan san\n\nLet me reply instead of Amano san.\n\nI confirmed with designer team about another possibility.\n\nAccording to your investigation, we are also thinking that there is air leakage.\n\nPlease kindly check the air hose connection and union condition.\n\nAlso please kindly check the O rings on the head clamping surface just in case.(Maybe this is low possibility)\n\nOn the other hands, you can check vacuum pressure on self care command display on the machine.\n\nTrung san already mentioned vacuum air pressure was almost near by -90kPa.\n\nBut please kindly check it as well.\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-08-26T05:13:41+00:00",
         "CC NUMBER": "CC-0081522",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
