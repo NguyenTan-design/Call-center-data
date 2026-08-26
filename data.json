@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T01:58:03+00:00",
+        "CC NUMBER": "CC-0081529",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about  Panel property_[NXTR-S]",
+        "Communication Content": "Dear Hoang Kha-san\n\nThe panel rotation feature is designed to change the orientation of the PCB when it is loaded into the machine.\n\nSince the PCB design itself does not change, the default 0-degree orientation remains unchanged.\n\nWe're sorry, but we are unable to accommodate this request.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ChFagYAF"
+    },
+    {
         "DATE": "2026-08-26T01:27:33+00:00",
         "CC NUMBER": "CC-0081522",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
@@ -40669,5 +40678,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-08-26T02:10:07+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi-san,\n\nThank you for your support!\n\nUntil now this error no happen again but customer still request continue follow to find out the root cause\n\nSo please keep support us\n\nBest regards,\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
     }
 ]
