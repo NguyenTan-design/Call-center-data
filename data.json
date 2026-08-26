@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T06:36:07+00:00",
+        "CC NUMBER": "CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nThank you for your support and investigation.\n\nWe have collected the trace data from both M3 and M4 during the occurrence of the issue, following your requested condition. In addition, we also recorded a video showing the machine status and the actual phenomenon when the issue occurred.\n\nThe trace data and video are attached for your further investigation.\n\nWe would appreciate your continued support in analyzing this issue and identifying the root cause.\n\nThank you very much in advance.\n\nBest regards,\n\nThoi Pham",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1"
+    },
+    {
         "DATE": "2026-08-26T06:28:30+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
