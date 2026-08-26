@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T01:27:33+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nThis report discusses the process of intentionally making parts smaller or larger than their actual size.\n\nAlways enter the correct dimensions for the parts. Entering different values is not permitted.\n\nIn parts cameras, depending on the size of the part, either “single-image acquisition” or “multiframe acquisition” may be used.\n\nChanging the part size may alter this process, which could prevent proper image processing.\n\nThis is specified in the NXTR specifications under the “4.3 Parts cameras” section.\n\nIf a part’s dimensions exceed 38 x 45 mm, the mode switches to “multiframe acquisition.”\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-08-26T00:18:19+00:00",
         "CC NUMBER": "CC-0077269",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
