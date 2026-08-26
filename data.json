@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T04:48:52+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Victor-san,\n\nThank you for providing the detailed information and logs.\n\nWe reviewed the data with our Design team.\n\nHowever, the provided LineSV log does not contain any job transmission records corresponding to the reported occurrence time (around 05:00 on August 23).\n\nTherefore, the root cause could not be identified from the currently available data.\n\nTo continue the investigation, please provide the following information:\n\nWhether the issue occurs with a specific job only or with multiple jobs\n\nThe affected job name(s)\n\nThe job data, if the issue is related to a specific job\n\nFncDssrv.log from the PC that performed the job transmission\n\nDBIF debug logs collected around the occurrence time\n\nConfirmation that the provided logs were collected from the actual PC used for job transmission\n\nIn addition, when the issue reoccurs, please collect the following data before restarting any PC, service, or machine whenever possible:\n\nMachine Trace of the affected NXT3 machine\n\nNexim debug logs from the Job Transmission PC and the Line Server PC\n\nFncFCTrn_JobChgMng.log\n\nFncDssrv.log\n\nCentral Log\n\nRWB Log\n\nMasTran Log\n\nDBIF debug logs\n\nOther related logs collected using NeximLogUtility\n\nExact date and time of occurrence\n\nDetailed work history and actions taken after the issue occurred\n\nVideo recording of the issue (if available)\n\nAt this moment, we have not found sufficient evidence to identify the root cause or to determine a direct relationship between this issue and the hosts file configuration.\n\nPlease set the relevant Nexim log levels to Debug in advance and collect the logs immediately after the issue occurs whenever possible.\n\nThank you for your cooperation.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-08-26T04:10:52+00:00",
         "CC NUMBER": "CC-0081522",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
