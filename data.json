@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-26T06:28:30+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Ha Ngoc Son-FMV-san,\n\nThank you for the inquiry.\n\n Currently, the customer is using an OCPU that is not connected to Nexim.\n\n>> If the OCPU is not connected with Nexim, the problem not occurred at all?\n\nSo problem occurred only when connect with Nexim?\n\nAlso, is the problem occurred at same location/Feeder?\n\nOr it occurred at random Feeder/location?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-08-26T06:18:08+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your message.\n\nI have attached the MNG file (image processing data) captured when the 8000D711 error occurred.\n\nRegarding the JOB file, it was created only to reproduce the 8000D711 error. Therefore, the JOB file is for reproduction/testing purposes.\n\nThe shape data in this JOB file was also prepared for the purpose of reproducing the issue.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-08-26T06:15:20+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
