@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-26T09:33:16+00:00",
+        "CC NUMBER": "CC-0079392",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_1704 Data settings error_[NXTR-S]",
+        "Communication Content": "Vu Tung-san\n\nThere is no update since 2026-07-30 and almost 1month past.\n\nIs there any update for this case?\n\nIf there is no update until August 30th, we would like to close the case automatically.\n\n==================\n\nWe analyzed the logs and found that JobManager is consuming a significant amount of memory overall.\n\nThe issue appears to be caused by insufficient memory during operation. We recommend changing the work PC settings or replacing it with another PC.\n\n==================\n\nCall center Amano",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016aHHmYAM"
+    },
+    {
         "DATE": "2026-08-26T07:56:08+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
