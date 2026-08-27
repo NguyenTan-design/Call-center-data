@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-27T06:33:17+00:00",
+        "CC NUMBER": "CC-0079392",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_1704 Data settings error_[NXTR-S]",
+        "Communication Content": "Dear Amano san\n\nWe already change PC lineSV and keep monitor it. There is not happen this error again. please close this ticket.\n\nThanks you for continue follow it and invest.\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016aHHmYAM"
+    },
+    {
+        "DATE": "2026-08-27T06:29:52+00:00",
+        "CC NUMBER": "CC-0081345",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_927C The ID of the panel in the machine is unknow_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nI know before error 927C happen, there is error of conveyor at both module. but actually, customer do not pull out module to manual insert or pull PCB from previous module. We check between module there is no stack. it happen in many line, not only this time. Next time I will check detail PCB status when conveyor error happen.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEepVYAT"
+    },
+    {
         "DATE": "2026-08-27T04:42:01+00:00",
         "CC NUMBER": "CC-0081345",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
