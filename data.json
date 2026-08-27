@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-27T16:26:38+00:00",
+        "CC NUMBER": "CC-0080886",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
+        "Communication Content": "Dear: Toyama-San.\n\nWe have updated the trace data from the Line Console for the period from 21:00 to 24:00 on August 1.\n\nPlease kindly check the attached trace data.\n\nThank you very much for your support.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
+    },
+    {
         "DATE": "2026-08-27T12:50:06+00:00",
         "CC NUMBER": "CC-0070534",
         "Customer": "JABIL VIETNAM CO., LTD.]",
