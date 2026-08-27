@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-27T04:42:01+00:00",
+        "CC NUMBER": "CC-0081345",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_927C The ID of the panel in the machine is unknow_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nSorry for keep you waiting.\n\nWe investigated trace data.\n\nLooks like this issue is happened due to the PAB is stacking between M4 and M5 somehow.\n\nAccording to trace investigation, the issue happened as below.\n\n1. M4 tried to transfer the PCB to M5.\n\n2. Somehow the transfer PCB is stacking during transportation from M4 to M5.\n\n3. Both modules appear the error, 87650788(M4) and 8CC40783(M5).\n\n4. When the PCB stacking between modules, the PCB interfered IN sensor on the M5 side.\n\n5. When M5 restarted, the module detected PCB by IN sensor and transfer to the M5.\n\n6. Reading Panel ID but M4 doesn't completed transportation of the PCB as normal so M5 appear 927C.\n\nCould you please check why the PCB stack between them?\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEepVYAT"
+    },
+    {
         "DATE": "2026-08-27T03:44:21+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
