@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-28T03:02:55+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for sending me more detail about this issue.\n\nSince the information previously requested was not obtained, please collect it again by following the steps below.\n\n1. NeximDB Log Collection\n\nCollect the following logs:\n\n①All files located in: D:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace\n\n②The following file: D:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n2. Change DBIF Logging to DEBUG Mode\n\nChange File: Nexim\\Common\\Ini\\FcDBIFAccessConfig.xml\n\nChange the logging level as shown below:\n\n<logger name=\"DBIFLOG\">\n\n    <level value=\"info\" />\n\n↓\n\n<logger name=\"DBIFLOG\">\n\n    <level value=\"DEBUG\" />   <!-- Revert to \"info\" after log collection -->\n\n    <appender-ref ref=\"FILE\" />\n\n</logger>\n\n3. Collect the Nexim Trace Folder\n\nRecommended: Use NeximLogUtility, a tool that can collect traces, configuration files, and other related information in a single operation (refer to TJ20017).\n\n③Collect the following folder:C:\\Nexim\\Common\\Data\\Trace\n\nPlease collect and send the trace logs ①~③.\n\nIf you have any questions, please feel free to ask.\n\nBR,\n\nAnri Ito",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-08-27T16:26:38+00:00",
         "CC NUMBER": "CC-0080886",
         "Customer": "BYD Electronics Vietnam Company Limited]",
