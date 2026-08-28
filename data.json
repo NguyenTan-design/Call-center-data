@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-28T11:28:39+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Call CenTer,\n\nThe OCPU is not connected to Nexim. It is only used to automatically remove component reels from the feeders during changeover.\n\nThe feeder error warning occurs randomly at different feeder positions on the MFU.\n\nPlease refer to CC-0080868 for the previous case. After a board was damaged due to the tape being pulled manually, we recommended that the customer use the OCPU to reduce the risk caused by operator handling.\n\nHowever, during the actual use of the OCPU, the customer found that when a feeder has an error warning, the OCPU cannot perform the reel removal operation. This increases their changeover time.\n\nTherefore, the customer is requesting that the OCPU should still be able to perform the reel removal operation even when the feeder displays an error warning.\n\nBest regards,\n\nFMV-Ha Ngoc Son",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-08-28T07:38:44+00:00",
         "CC NUMBER": "CC-0075016",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
