@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-29T07:16:21+00:00",
+        "CC NUMBER": "NEW:CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_[Nexim]",
+        "Communication Content": "Dear Call Center\n\nOur customer will change the environment of database PC from window (current) to Linux (Near future), we need to prepare for the request, please help to answer below question:\n\nQ1. Case1,if i install Oracle 12C for Red Hat Linux 7.\n\n=> For near future of Nexim version ( Exp 3.3, 3.4.....), Oracle 12C can support or not\n\n Q2. According to Nexim set up manual, oracle 19C is only compatible with Red hat enterprise linux 8\n\n=> Please help to send me the related set up manual for oracle 19C in Red hat enterprise linux 8 environment ( Same instruction manual \"Red Hat Linux 7 oracle 12c Support Nexim Database Building Procedure\" in case of oracle 12C and Linux 7 environment)\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-08-29T07:07:51+00:00",
+        "CC NUMBER": "CC-0080054",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Request machine NXTR stop production when splicing Reel error_[NXTR-S]",
+        "Communication Content": "Dear CallCenter,\n\nSorry to push you. Do you have any update for this case?\n\nBest regards,\n\nNguyen Trong Nham (FMV)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018MN2TYAW"
+    },
+    {
         "DATE": "2026-08-28T23:11:24+00:00",
         "CC NUMBER": "CC-0080655",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
