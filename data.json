@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-29T07:54:23+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nDue to the very high production schedule on this Line, we are unable to do anything further at this time.\n\nWe will check the CameraLink cable and update the result for you later.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-08-29T07:44:04+00:00",
         "CC NUMBER": "CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
