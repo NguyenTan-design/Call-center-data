@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-31T11:23:05+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nI checked version.txt file and you applied 4745 patch after applied 5498.\n\nPlease kindly applied as below.\n\n4745->5201->5366->5498\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-08-31T10:03:16+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
