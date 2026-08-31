@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-08-31T11:46:15+00:00",
+        "CC NUMBER": "CC-0078592",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH02 head board damaged_RH02のヘッド基板が破損[NXTR-S]",
+        "Communication Content": "Dear Victor san\n\nInterim Report\n\nwe found broken at reference: U700.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
+    },
+    {
         "DATE": "2026-08-31T11:23:05+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -41155,5 +41164,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-08-31T11:46:55+00:00",
+        "CC NUMBER": "CC-0080886",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nThank you very much for your update.\n\nWe will check the trace data at designer team.\n\nOn the other hands, have you check if there is any DB connection issue at customer network?\n\nAs I mentioned previously, there was Oracle error according to trace investigation.\n\nPlease kindly check at your side if there is any DB connection issue in customer's environment in the mean time.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
     }
 ]
