@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-31T12:36:13+00:00",
+        "CC NUMBER": "CC-0081323",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_操作ミスによりフィーダーの先端が持ち上がった際に、フィーダーが配置ヘッドと衝突するのを防ぐた...",
+        "Communication Content": "Dear Duc-san,\n\nSince they’ve indicated that both software and hardware adjustments are necessary, I’m asking if there are any restrictions.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF"
+    },
+    {
+        "DATE": "2026-08-31T11:46:55+00:00",
+        "CC NUMBER": "CC-0080886",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nThank you very much for your update.\n\nWe will check the trace data at designer team.\n\nOn the other hands, have you check if there is any DB connection issue at customer network?\n\nAs I mentioned previously, there was Oracle error according to trace investigation.\n\nPlease kindly check at your side if there is any DB connection issue in customer's environment in the mean time.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
+    },
+    {
         "DATE": "2026-08-31T11:46:15+00:00",
         "CC NUMBER": "CC-0078592",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -41164,14 +41182,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-08-31T11:46:55+00:00",
-        "CC NUMBER": "CC-0080886",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
-        "Communication Content": "Dear Dinh san\n\nThank you very much for your update.\n\nWe will check the trace data at designer team.\n\nOn the other hands, have you check if there is any DB connection issue at customer network?\n\nAs I mentioned previously, there was Oracle error according to trace investigation.\n\nPlease kindly check at your side if there is any DB connection issue in customer's environment in the mean time.\n\nPlease kindly check.\n\nFUJI Toyama",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
     }
 ]
