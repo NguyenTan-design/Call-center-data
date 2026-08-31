@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-08-31T06:28:45+00:00",
+        "CC NUMBER": "CC-0077097",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Part camera MPC01 alarm error 8CDFD711, 85C60000_[NXTR-S]",
+        "Communication Content": "各位\n\n社内調査の結果、生産工程の不適合であることが判明。　品質管理課 調査G ⇒ 品質管理課 改善Gへ業務を引き渡しました。\n\n顧客向け報告書は、改善Gにて対応となります。　調査依頼書：B-29381はクローズされました。",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000109EJPYA2"
+    },
+    {
+        "DATE": "2026-08-31T06:20:57+00:00",
+        "CC NUMBER": "CC-0077097",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Part camera MPC01 alarm error 8CDFD711, 85C60000_[NXTR-S]",
+        "Communication Content": "品質管理課から社内の不適合である可能性が高いと連絡あり\n\n報告書の作成を実施していただいているので再オープンします。\n\n品管からの報告書待ち\n\nCS課 外山",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000109EJPYA2"
+    },
+    {
         "DATE": "2026-08-30T23:50:57+00:00",
         "CC NUMBER": "CC-0072500",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
