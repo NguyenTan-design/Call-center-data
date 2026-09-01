@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-01T09:03:34+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nIt will work if NSPSPP is set to “Yes” and the other settings are enabled.\n\nSince no machine trace is attached, please double-check.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
+        "DATE": "2026-09-01T09:00:24+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nAccording to the image you sent, an error occurred while reading the headmark behind the part.\n\nIt appears that making the body size smaller than intended has caused differences in the software processes.（*This is just a guess.）\n\nAs I mentioned in a previous comment, this assumes that you enter the correct part sizes.\n\nIs it absolutely necessary to change the size of the part and install it because of the customer's request?\n\nIf necessary, we'll investigate further based on the trace.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-01T08:33:53+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -41263,14 +41281,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-09-01T09:00:24+00:00",
-        "CC NUMBER": "CC-0081522",
-        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
-        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
-        "Communication Content": "Dear Pham Hieu-san\n\nAccording to the image you sent, an error occurred while reading the headmark behind the part.\n\nIt appears that making the body size smaller than intended has caused differences in the software processes.（*This is just a guess.）\n\nAs I mentioned in a previous comment, this assumes that you enter the correct part sizes.\n\nIs it absolutely necessary to change the size of the part and install it because of the customer's request?\n\nIf necessary, we'll investigate further based on the trace.\n\nThank you\n\nBR\n\nHamamoto",
-        "FMV PIC": "Pham Hieu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
     }
 ]
