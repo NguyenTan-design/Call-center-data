@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-01T08:33:53+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-Ha Ngoc Son-sa.\n\nThank you for the update.\n\nI understand that the Feeder which the red LED error occurred Feeder is 8mm Feeder.\n\nIs the error occurred 8mm Feeder have a splicing detection sensor?\n\nIf it has the splicing detection sensor, the same assistance/support is required which mentioned in Operation Manual #2.4.\n\nAlso, does this issue occur with all 8 mm feeders, or does it occur only with specific feeder units? Please let us know.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-09-01T08:28:08+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Takatsu-san,\n\nI heard that you had received the Nexim 5712_V3.2.100_Plan_Patch and will install at the version upgrade.\n\nOnce it is applied and we could close the case, please let us know.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
         "DATE": "2026-09-01T06:43:16+00:00",
         "CC NUMBER": "CC-0080054",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
