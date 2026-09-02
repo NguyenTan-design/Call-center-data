@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-02T14:17:51+00:00",
+        "CC NUMBER": "NEW:CC-0082008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Purple screen on NXTR_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAfter upgrading Nexim to V3.2.110, LCU to V2.35, and NXTR to V2.DBa, we encountered an issue on HPG1-S25 while running the first board after the upgrade.\n\nWhen the PCB arrived at M1-L, the machine hung and a purple screen appeared.\n\nActions taken:\n\n1.\tRestarted the machine → NG\n\n2.\tRestarted the machine, performed program optimization and data check, deleted the program from the line, and retransmitted the job through Nexim → NG\n\n3.\tDowngraded the LCU and NXTR to V2.CMm through FMenu:\n\n-\tLCU downgrade → OK\n\n-\tNXTR remained at V2.DBa, although FMenu reported the downgrade as OK\n\n4.\tUpgraded the LCU back to V2.35, modified the JSON file under Installer/CH to downgrade the NXTR to V2.CMm, upgraded the units, deleted the job, and retransmitted the job through Nexim → OK\n\nBased on the above actions, the machine returned to normal operation after the NXTR was successfully downgraded to V2.CMm.\n\nCould you please help investigate the root cause of this issue ?\n\nPlease let me know if you need any additional information, trace data, or logs for further investigation.\n\nThank you for your support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001E2RjaYAF"
+    },
+    {
+        "DATE": "2026-09-02T09:53:49+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear BInh-san\n\nIf you have any update (result/schedule), please inform to me.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-09-02T05:31:22+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
