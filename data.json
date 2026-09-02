@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-02T03:22:40+00:00",
+        "CC NUMBER": "CC-0078829",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_After editing job on the machine and saving it, changes were not applied._[NXTR-S]",
+        "Communication Content": "Dear FUJI Toyama,\n\nThank you very much for your support.\n\nWe have installed the patch and monitored the machine. So far, we have not observed any further issues.\n\nPlease kindly close this ticket.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015BD1lYAG"
+    },
+    {
         "DATE": "2026-09-01T12:48:08+00:00",
         "CC NUMBER": "CC-0078771",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
