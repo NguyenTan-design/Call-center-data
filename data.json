@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-03T02:27:47+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your explanation.\n\nYes, this setting is very important and necessary for the customer.\n\nThe actual component size is X49 mm × Y65 mm. We intentionally register a smaller Body size to prevent unnecessary 180-degree rotation during recognition.\n\nThis is necessary because it helps to:\n\nImprove placement stability.\n\nReduce unnecessary Head movement.\n\nOptimize cycle time.\n\nMaintain the customer's required production efficiency.\n\nTherefore, using the actual component size as the registered Body size is not an ideal solution for this application, as it may cause unnecessary 180-degree rotation and negatively affect cycle time and placement performance.\n\nFor this reason, we would appreciate it if Fuji Japan could continue the investigation based on the Trace Data and check whether the recognition processing can be improved to allow a smaller registered Body size without generating 8000D711.\n\nThank you very much for your continued support.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-03T01:54:00+00:00",
         "CC NUMBER": "CC-0081088",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
