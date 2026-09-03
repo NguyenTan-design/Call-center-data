@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-03T01:34:58+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nDuring a changeover, the customer always transmits a job the background from Nexim first to ensure that the latest changes in the job are updated. Therefore, a new job will always be transmited to the machine before the Operator performs the job loading operation.\n\nRegarding No. 1 idea, the customer's concern is that even if the Operator has the authority to load a job, having multiple jobs displayed on the job loading screen still creates a risk of selecting and loading the wrong job for the machine.\n\nTherefore, they would like to minimize the number of jobs displayed on the job loading screen as much as possible, preferably showing only the job currently being produced and the latest job that has been transmited to the machine.\n\nPlease check whether this option is feasible or if there is a better alternative.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
         "DATE": "2026-09-02T14:17:51+00:00",
         "CC NUMBER": "NEW:CC-0082008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
