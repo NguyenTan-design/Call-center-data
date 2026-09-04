@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-04T07:20:54+00:00",
+        "CC NUMBER": "CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear  Kha san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
+        "DATE": "2026-09-04T06:45:22+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nPlease update this ticket. Can we close this ticket?\n\nThe mark on the right side appears to be slightly blurred (low contrast), possibly due to contamination, which is causing the recognition error.\n\nIf this issue is dependent on the print head, we would like you to first try cleaning the head mark.\n\nBR\n\nMa/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
         "DATE": "2026-09-04T05:49:43+00:00",
         "CC NUMBER": "CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
