@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-04T13:22:21+00:00",
+        "CC NUMBER": "CC-0076617",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH20 error 3A05 happen frequently_[NXTR-S]",
+        "Communication Content": "平林さん\n\n8/6,9で全ヘッド(RH20)に関してはT&DとNS7混ぜてグリスアップし、今まで再発はありません。\n\n日本側としては推奨が700Hだからこの周期でメンテしてくださいになりますか？\n\n顧客状況をまとめて一度設計と打ち合わせるという事も聞いた記憶がありますが、どのような感じでしょうか？\n\nFMV 高津",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ypNo3YAE"
+    },
+    {
+        "DATE": "2026-09-04T13:13:59+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nIt’s possible that a specific item in the nozzle specifications is set to “No.”\n\nIf that item is set to “No,” the nozzle may not support load control.\n\nHowever, that section cannot be edited in Spec Keeper. We need the actual imported data.\n\nPlease send it to us.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
+        "DATE": "2026-09-04T13:13:29+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nWe have reviewed this matter, but unfortunately, we have determined that it will be difficult to proceed.\n\nAs we stated previously, FUJI’s position is simply this: “Please enter the correct part size.”\n\nIf you are concerned about misalignment caused by the rotation of parts during processing, please consider using a special nozzle for handling.\n\nThere is no simple solution to the increase in cycle time caused by part rotation.\n\nIf the module that houses this shielded component becomes a bottleneck, I believe the only solution is to add more modules.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-04T09:54:28+00:00",
         "CC NUMBER": "CC-0069612",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
