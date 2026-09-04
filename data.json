@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-04T05:15:13+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nPlease do not mix two topics in this one ticket.\n\nIt is making confusing for handling issues.\n\nFor No.2, please update to CC-0081022.\n\nCan I understand that the Tray M verification issue is still remaining even if 0995_LCUPatch_V2.35_SP11 is applied?\n\nIf yes, could you please take a trace data as before?\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
+        "DATE": "2026-09-04T05:06:06+00:00",
+        "CC NUMBER": "CC-0079996",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nCurrently, customer has completed the upgrade to the following versions:\n\nNexim: 3.2.100\n\nLCU: V2.35\n\nNXTR: 2.35.2\n\nHowever, after the upgrade, there are still two remaining issues:\n\n1. The Verify Tray-M issue –> a patch has already been provided.\n\n2. The issue related to pair module production, as mentioned in CC-0081022 –> this issue has still not been fixed.\n\nAccording to the information provided in CC-0078771, we will be provided with a new version on September 18.\n\nTherefore, we would like to know whether this new version will include fixes for the two issues mentioned above.\n\nIf not, could you please provide us with another new version that can resolve both of the issues mentioned above?\n\nThank you for your support.\n\nBest regards,\n\nFMV - Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU"
+    },
+    {
         "DATE": "2026-09-04T04:41:32+00:00",
         "CC NUMBER": "CC-0078949",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
