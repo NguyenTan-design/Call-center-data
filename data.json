@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-04T03:15:57+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nWe have reinstalled everything exactly in the order you instructed.\n\n4745->5201->5366->5498\n\nPlease wait for customer confirm the result\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-09-04T03:06:37+00:00",
+        "CC NUMBER": "CC-0078445",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Blue sceen durring edit job_NXTRで機上編集中にブルースクリーンになった[NXTR-S]",
+        "Communication Content": "Dear Quynh-san\n\nCC-0078445　RQ TECHNOLOGY ELECTRONICS VIETNAM　V2.3Pza　\n\nI have sent the updated version of NXTR via your file transfer account.\n\nThe password is as follows:\n\nDownload\t: \"kbCWE4tT\"\n\nZIP\t: \"BCSP6Pkr\"\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000148f3FYAQ"
+    },
+    {
         "DATE": "2026-09-04T01:08:24+00:00",
         "CC NUMBER": "CC-0077799",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
