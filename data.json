@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-05T05:12:36+00:00",
+        "CC NUMBER": "CC-0078445",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Blue sceen durring edit job_NXTRで機上編集中にブルースクリーンになった[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your support\n\nWe are planning to upgrade this version for the machine on next week\n\nThanks!\n\nBest regards,\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000148f3FYAQ"
+    },
+    {
+        "DATE": "2026-09-05T05:07:29+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Mehdi - san\n\nI enabled DEBUG mode from 1:00 PM and perfrom transmission Job.\n\nPlease help me investigate the cause of the issue that occurred between 1:00 PM and 13:45 PM .\n\nThank you",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-09-05T03:43:52+00:00",
         "CC NUMBER": "NEW:CC-0082175",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
