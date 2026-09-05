@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-05T02:52:28+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for reviewing and providing your feedback.\n\nWe understand FUJI’s position that the correct part size should be entered in the program. We also understand that using a special nozzle may be one option to prevent part rotation during processing.\n\nHowever, in this case, registering the actual part size causes the part to rotate during recognition, which results in an increase in cycle time. The customer has a strong requirement to avoid this rotation and maintain the current cycle time.\n\nTherefore, we would like to ask FUJI to consider whether there is any possible software improvement or alternative method that would allow us to register a smaller part size without causing Error 8000D711.\n\nWe understand that there may be limitations, but we would appreciate it if FUJI could consider this case again, as it is an important requirement from the customer.\n\nThank you very much for your continued support.\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-05T02:22:46+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
