@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-05T03:43:52+00:00",
+        "CC NUMBER": "NEW:CC-0082175",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAfter upgrading the SMT machine software at our customer's site:\n\nNexim: V3.2.21 → V3.2.100\n\nLCU: V2.3 → V2.35\n\nNXTR: V2.2Bs → V2.35.2\n\nWhen optimizing the program from Nexim, clearing all panels in the machines, and then downloading the job to the machines through the LCU, the NXTR machines display the following error:\n\nError 863C0000: Insert order data mismatch\n\nThis issue has occurred on multiple production lines.\n\nAs a temporary workaround, we can clear all panels in the machine and download the job directly through Nexim.\n\nHowever, this is an urgent issue because it is affecting our customer's production schedule.\n\nWe have collected the trace data and other necessary information. Could you please help us analyze the data and identify the root cause and solution for this issue?\n\nThe collected trace data includes:\n\n- Nexim Layout\n\n- Nexim Job\n\n- LCU PC Version File\n\n- Client PC Version File\n\nThank you!\n\nFMV-KHA",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL"
+    },
+    {
         "DATE": "2026-09-05T02:55:31+00:00",
         "CC NUMBER": "CC-0077628",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
