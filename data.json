@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-07T12:29:09+00:00",
+        "CC NUMBER": "NEW:CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Call Center!\n\nWe are currently experiencing an issue at our customer, Hana Micron.\n\nThis is a newly installed NXTR-S line that we recently set up and started production on. During production, the following errors occur intermittently:\n\n* Error Code 8D390000: The queue used for saving production results is full.\n\n* Error Code 853A0000: Host service communication error.\n\nActions taken:\n\n1. Checked the connection between the LCU and machine: Normal.\n\n2. Checked the services on the LCU and found that the Fuji Profiler Central Server service had stopped.\n\n3. Restarted the System Server, Line Server, LCU, and machine. After the restart, the line resumed production normally.\n\n4. Specified the setting not to output the log for [Contact detection error setting] in the machine configuration settings: Continue production (no event logs).\n\nI am sending you the Trace data from the two occurrences:\n\n* 1st occurrence: Around 14:45 on September 3, 2026. Module 2R reported the error first, followed by the other modules.\n\n* 2nd occurrence: Around 17:43 on September 7, 2026. Module 3L reported the error first, followed by the other modules.\n\nCould you please analyze the Trace data and advise us on the root cause and recommended solution for this issue?\n\nIf you need any additional information, please let me know.\n\nThank you for your support.\n\nFMV-Chien!",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-09-07T11:32:28+00:00",
         "CC NUMBER": "CC-0079852",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
