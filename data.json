@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-07T01:22:40+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "Dear Dinh-san,\n\nThere was no change on the trace before and after the replacement.\n\nThe power line on the X-slide seems to be the issue.\n\nPlease check the following power-related items.\n\nThis takes into account the work done so far.\n\n[Check Sequence]\n\n① Check if fuse F2 on the module interface board has blown (OK if LED17 is lit)\n\n② Check the mating and signal path conditions for connectors CN1, CN18, and CN19 on the X-axis expansion board (ensure no abnormalities)\n\n③ Check the mating and signal path conditions for connectors CN6, CN11, and CN13 on the X-axis common board (ensure no abnormalities)\n\n④ Replace the wiring harness between the X-axis common board and the expansion board\n\n⑤ Replace the X-axis common board and/or expansion board *Done?\n\n⑥ Replace 2EHEBC0160** Servo box to Interface board\n\n⑦ Replace 2AHESC0004** Y-Axis Flat cable\n\n⑧ Replace 2AHESH0002** X-Axis Flat cable\n\nI sent picture and document .\n\nPicture is drawing power supply line, document is detail.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-09-07T00:16:40+00:00",
         "CC NUMBER": "CC-0081088",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
