@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-07T15:04:03+00:00",
+        "CC NUMBER": "CC-0082175",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._LCU 経由でジョブを更新した際、エラー 863C0000「Insert order data mismatch」が発生しました。[NXTR-S]",
+        "Communication Content": "Dear Moriya,\n\nWe cleared the panel and then updated the job via the LCU Web.\n\nWe were able to reproduce the issue and recorded a video of the entire process.\n\nAt the same time, we also attempted to reproduce the same issue on a lower software version. However, the issue did not occur.\n\nWe have recorded videos of both cases mentioned above and attached them to the file. Could you please help us analyze the root cause of this issue?\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL"
+    },
+    {
         "DATE": "2026-09-07T12:29:09+00:00",
         "CC NUMBER": "NEW:CC-0082249",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
