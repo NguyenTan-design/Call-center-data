@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-07T00:16:40+00:00",
+        "CC NUMBER": "CC-0081088",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NeximDB Issue – Jobs Displayed as Read Only and Import Error_NeximDBの問題：ジョブが「読み取り専用（Read Only）」として表示され、インポートエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV-san,\n\nThank you for the update.\n\nWe understand that problem solve and we could close the case.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ba1DHYAZ"
+    },
+    {
+        "DATE": "2026-09-06T02:54:18+00:00",
+        "CC NUMBER": "CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Communication Content": "Dear Toyama-san,\n\nI would like to kindly follow up on the issue we previously reported regarding the trace data collected from M3 and M4.\n\nWe understand that the analysis may take some time. However, as we have not yet received any feedback regarding the trace data and video, could you please kindly provide us with an update on the current investigation status when you have a chance?\n\nWe would greatly appreciate your continued support in analyzing the data and identifying the root cause of this issue.\n\nThank you very much for your time and continued support.\n\nBest regards,\n\nThoi Pham",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1"
+    },
+    {
+        "DATE": "2026-09-06T01:04:21+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "FMV-Long-san\n\nWe are currently preparing a corrective version to address the issue. The release is scheduled for mid-September.\n\n We appreciate your patience in the meantime.\n\nCall center Amano",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
         "DATE": "2026-09-05T05:12:36+00:00",
         "CC NUMBER": "CC-0078445",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
