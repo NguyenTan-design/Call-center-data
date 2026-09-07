@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-07T15:32:00+00:00",
+        "CC NUMBER": "CC-0081323",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_操作ミスによりフィーダーの先端が持ち上がった際に、フィーダーが配置ヘッドと衝突するのを防ぐた...",
+        "Communication Content": "Dear Moriya-san,\n\nI asked the customer whether they had any specific requirements for function to prevent the feeder from colliding with the placement head.\n\nThe customer told me that they noticed the Feeder Interference Prevention Sensor installed on the AIMEXIII machine to protect the DX head.\n\nTherefore, they would like to have a similar function implemented on the NXTR.\n\nThank you\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF"
+    },
+    {
         "DATE": "2026-09-07T15:04:03+00:00",
         "CC NUMBER": "CC-0082175",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
