@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T09:54:52+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nSorry for the late update\n\nWhen using the OCPU to remove components, only happens with 8T feeders and the error occurs randomly without being limited to any specific 8T feeder serial number.\n\nAll 8T feeders currently being used by the customer are equipped with splicing detection sensors. However, the root cause of the error is not related to the carrier tape catching on the splicing detection sensor.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-09-08T08:53:52+00:00",
         "CC NUMBER": "CC-0080878",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -41857,5 +41866,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-09-08T10:09:34+00:00",
+        "CC NUMBER": "CC-0082310",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Very Urgent[LITE-ON VIETNAM CO., LTD.]_The Part camera occurred abnormal_[NXTR-S]",
+        "Communication Content": "Dear Cong san\n\nThank you very much for the inquiry.\n\nI checked vision image.\n\nIf there is nothing dropped parts or any foreign object on the parts camera, highly possibility that the camera itself has fault inside.\n\nBut parts camera is adjusted brightness and focus and so on, therefore it cannot be disassemble at customer site.\n\nIf it is already determine that the camera has issue(The issue moved with specific camera), please kindly apply the warranty claim.\n\nIf alternative camera need arrange urgently, please kindly let me know.\n\nI will check internally.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ev2ixYAB"
     }
 ]
