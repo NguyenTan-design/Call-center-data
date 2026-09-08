@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T00:05:20+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Pham Toan-san,\n\nThank you for collecting and sending the DEBUG logs.\n\nHowever, we noticed that the following questions, which were previously asked have not yet been answered.\n\nCould you please provide the information below?\n\nPlease confirm whether the logs sent were collected from the PC that actually performed the job transmission.\n\nIf not, please collect and send the logs from the correct PC. Also, please specify the PC name used for the job transmission.\n\nPlease provide the name of the job that was being transmitted when the issue occurred.\n\nDoes the issue occur with a specific job only, or does it occur with multiple jobs?\n\nIf the issue is related to a specific job, please send us the job data.\n\nThe above information is essential for our Design team to continue the investigation.\n\nThank you for your cooperation.\n\nBest regards, Mehdi",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-09-07T15:32:00+00:00",
         "CC NUMBER": "CC-0081323",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
