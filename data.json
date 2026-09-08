@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T05:02:57+00:00",
+        "CC NUMBER": "CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_お客様は、RH20ヘッド用の生産データを最適化する際に、ノズルおよびホルダーの割り当てに関する問題を経験しています。[NXTR-S]",
+        "Communication Content": "Dear Nguyen Thong-san,\n\nThank you for the inquiry.\n\nAs mentioned in the NXTR specification document like attached, the 20 nozzle operation possible until 3.7x3.7mm size.\n\nSo if it is over, it should be 10 nozzle operation.\n\nAnd as mentioned, it will require the nozzle not for pickup but cover the non-used holder from the detecting by camera.\n\nWithout it, the holder will flash and have the problem.\n\nSo it is not possible to assign only the 9 nozzle for the holder.\n\nBy the way, I had imported the Job and try to reproduce the “The parts in position cannot be picked up.” error but\n\nthere was no problem.\n\nThe Job attached is not the one error occurred?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
         "DATE": "2026-09-08T04:16:47+00:00",
         "CC NUMBER": "CC-0079650",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
