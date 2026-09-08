@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T04:16:47+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Mehdi-san\n\n1.I enabled Debug mode on linesv (line 4, PC name: I-PC-088528 , trace data collected on PC name:I-PC-088528\n\n2.I performed the job transmission using the PC named SMT-fuji (systemsv).\n\n3.Job name when transmission :M16-4-205010200011-1-XLB-TOP-Ramp\n\n4.The error occurs on all jobs.\n\nThank you",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-09-08T02:54:39+00:00",
         "CC NUMBER": "CC-0078635",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
