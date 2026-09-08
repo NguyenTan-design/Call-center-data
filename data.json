@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-08T10:46:01+00:00",
+        "CC NUMBER": "CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_お客様は、RH20ヘッド用の生産データを最適化する際に、ノズルおよびホルダーの割り当てに関する問題を経験しています。[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your reply.\n\n1. Regarding your explanation of why 20 nozzles must be fully used for components larger than 3.7 mm, we will discuss this with the customer and explain it to them.\n\n2. Regarding the error “The parts in position cannot be picked up,” could you please check it again with the following cases?\n\n- If 20 Nozzle 3.7 are fully used for a 6 × 6 mm component, the optimization reports the error “The parts in position cannot be picked up.”\n\n- If 20 Nozzle 2.5 are fully used for a 6 × 6 mm component, the optimization works normally.\n\n→ Please let us know why there is such a difference between these two cases?.\n\nThank you & Br\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
+        "DATE": "2026-09-08T10:45:38+00:00",
+        "CC NUMBER": "CC-0082310",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Very Urgent[LITE-ON VIETNAM CO., LTD.]_The Part camera occurred abnormal_[NXTR-S]",
+        "Communication Content": "Dear sir Toyama san\n\nThank you very much for your continuous support! We need to resume production for our customer as soon as possible to avoid impacting their production schedule. I have created request WHRS-011490. Could you please check the spare parts and help arrange them for us? Thank you so much!\n\nBest Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ev2ixYAB"
+    },
+    {
+        "DATE": "2026-09-08T10:36:34+00:00",
+        "CC NUMBER": "CC-0081323",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_操作ミスによりフィーダーの先端が持ち上がった際に、フィーダーが配置ヘッドと衝突するのを防ぐた...",
+        "Communication Content": "Dear DUC-san\n\nThank you for your patience.\n\nFirst, I’ll explain the feature overview.\n\napplication version V2.35 has the feature you requested: prevention of interference between the feeder and the head caused by incorrect feeder setup.\n\nYou need to be prepare mechanical parts.\n\nIncidentally, starting with Version 2.40, we plan to gradually add features to prevent interference between foreign objects on the feeder and the head, as well as interference between the tape and the head during feeder insertion and removal.\n\nAll of these functions can be handled by the same sensor.\n\nHere, we will explain the function that prevents interference between the feeder and the head caused by incorrect feeder setup.\n\nImages illustrating the function and installation location are attached.\n\nThis is an optional feature.\n\nFunction: If the sensor detects an issue, the machine stops immediately.\n\nBasic Specifications and Limitations:\n\nSupported Modules: NXTRS models (1R / 2R / 2RV)\n\nCompatible Heads: RH28, RH20, RH08, RH02, RH01\n\nCompatible Devices: MFU63/MFU52\n\nCompatible Feeding Units: Intelligent Feeders (excluding Auto-Loading Feeders)\n\nThe function can be enabled or disabled in the machine configuration settings (default: ON)\n\nPrecautions Regarding This Function\n\n・Tray units other than feeders are not supported\n\n(Reason: The sensor’s detection area interferes with the feed unit’s suction position, causing false detections)\n\n・Auto-loading feeders are not supported\n\n(Reason: The sensor’s detection area interferes with the cover tape, causing false detections)\n\n・Monitoring is generally continuous; however, monitoring is turned off for 2 seconds while the feeder is being removed to prevent false detection of the removed tape\n\n・Since this is a through-beam sensor, it may not detect objects if reflective materials are nearby\n\nPlease contact your sales representative for details such as pricing.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF"
+    },
+    {
         "DATE": "2026-09-08T10:09:34+00:00",
         "CC NUMBER": "CC-0082310",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
