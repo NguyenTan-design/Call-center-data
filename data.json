@@ -1,5 +1,59 @@
 [
     {
+        "DATE": "2026-09-08T06:56:08+00:00",
+        "CC NUMBER": "CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
+        "Communication Content": "Dear Toyama san\n\nPlease close this ticket\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU"
+    },
+    {
+        "DATE": "2026-09-08T06:54:11+00:00",
+        "CC NUMBER": "CC-0081133",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR module application error -  Blue screen error_ブルースクリーン発生[NXTR-S]",
+        "Communication Content": "Dear Moriya-san\n\nWe rised WHRS-011367 for this case. Thank you for your support, please close the ticket\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BfetxYAB"
+    },
+    {
+        "DATE": "2026-09-08T06:53:49+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "Dear FMV-Long-san\n\nNo, now the Problem#1 found the cause and preparing the corrective version with patch.\n\nFor the Problem#2, we are still under investigation.\n\nAs it seems that the problem cause is different, we might ask to divide the case.\n\nBut it is still under confirmation at this point. too.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
+        "DATE": "2026-09-08T06:51:04+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Call Center\n\nCan you please update this Inquiry\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-09-08T06:48:53+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nCan you please update this inquiry\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-09-08T06:46:00+00:00",
+        "CC NUMBER": "CC-0079513",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Request for Investigation: NXTR Error 8F5A and Nozzle Allocation Issue._調査依頼：NXTRエラー8F5Aおよびノズル割り当ての問題。[NXTR-S]",
+        "Communication Content": "Dear FMV Nguyen Anh-san,\n\nIn the job which we received, the Nozzle Type of Nozzle: RH08SF0976 was set to Custom.\n\nAlthough D13-025-165 was not installed on the head, according to the Insert Order, part number A353S04240 at positions 14-37 was assigned to use RH08SF0976.\n\nThe nozzle RH08SF0976 has a diameter of φ2.5.\n\nWhen this job (Custom) is optimized, D13-025-165 is placed on the head.\n\nHowever, when the Nozzle Type is changed from Custom to Standard and then optimized, D13-025-165 is no longer placed on the head, and RH08SF0976 is used instead.\n\nSo when Nozzle type set to Standard, the system determines that this part can be mounted using either D13-025-165 or RH08SF0976.\n\nYou mentioned that error 8F5A occurred on the machine and that the cause was the 2.5mm nozzle not remain.\n\nHowever, is it possible that the job was optimized with the nozzle set to Standard, and then later changed back to Custom before being transmitted to the machine?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Anh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rGHGYA2"
+    },
+    {
         "DATE": "2026-09-08T05:02:57+00:00",
         "CC NUMBER": "CC-0082276",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
