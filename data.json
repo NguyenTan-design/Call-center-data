@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-08T08:31:24+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Tan-san,\n\nThank you for the inquiry.\n\nQ1. Case1,if i install Oracle 12C for Red Hat Linux 7.\n\n=> For near future of Nexim version ( Exp 3.3, 3.4.....), Oracle 12C can support or not\n\n>> The support of Oracle12c in Oracle had been end so we are planning to end the support at Oracle 12c in future.\n\n      It is not fixed though we do not have plan to newly support Red Hat Linux 7.\n\n Q2. According to Nexim set up manual, oracle 19C is only compatible with Red hat enterprise linux 8\n\n>> As for the Linux installation, there was many case that customer IT installed at their rules and do not use the manual.\n\nSo there is no plan to release the manual officially.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-09-08T08:23:32+00:00",
+        "CC NUMBER": "CC-0080655",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Application error (Purple monitor) - 00EB0008_[NXTR-S]",
+        "Communication Content": "Tung-FMV-san\n\nFrom the log, the NPIServer service seems to be restarted while on-machine editing was in progress at around 2026/07/23 23:20.\n\nAs a result, eTool stopped running, and the Capture Service detected this condition and returned an error to the machine.\n\nIf it is necessary to restart the NPI service or related services, please ensure that this is done when on-machine editing is not being performed.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019yyuyYAA"
+    },
+    {
         "DATE": "2026-09-08T08:01:15+00:00",
         "CC NUMBER": "NEW:CC-0082310",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
