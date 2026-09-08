@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T12:22:19+00:00",
+        "CC NUMBER": "CC-0081568",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module on Lane 2 after placement is completed, while Lane 1 operates normally._レーン2において実装完了した基板が次のモジュールに搬送されない（レーン1は正常に搬送している）[NXTR-S]",
+        "Communication Content": "Dear Tran-san\n\nI don't have information, I will update tomorrow.\n\nby the way how about current situation after major upgraded?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CnzirYAB"
+    },
+    {
         "DATE": "2026-09-08T11:24:51+00:00",
         "CC NUMBER": "CC-0082310",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
