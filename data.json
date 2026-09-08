@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T02:54:39+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "Dear FMV-Long-san,\n\nWe are planning to release the patch within week of September 14th.\n\nThis is the patch for the Problem 1. Machine look like hang up after saving data.\n\nWe found that error occurred during the save process, and the operation stopped.\n\nWe will let you know once ready.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
         "DATE": "2026-09-08T02:14:50+00:00",
         "CC NUMBER": "CC-0081022",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
