@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-08T08:01:15+00:00",
+        "CC NUMBER": "NEW:CC-0082310",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Very Urgent[LITE-ON VIETNAM CO., LTD.]_The Part camera occurred abnormal_[NXTR-S]",
+        "Communication Content": "Description:\n\nDuring production, error 8000D711 (Vision processing result error) occurred, causing an line stop.\n\nTime of occurrence: 18:06 – 19:10 Sept 05, 2026\n\nActions taken:\n\n- Restarted the machine: Not resolved.\n\n- Reconnected the connector: Not resolved.\n\n- Swapped camera units: Swapped the Part camera of Module 4 (Line S14) with Module 4 (Line S17).\n\n=>Result: Module 4 (Line S14) turned OK, while Module 4 (Line S17) remained NG.\n\nConclusion: Confirmed that the Part camera unit is defective.\n\nAttached are the failed recognition images and trace data. Please help analyze the root cause and provide countermeasures/improvements for this issue.",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ev2ixYAB"
+    },
+    {
         "DATE": "2026-09-08T07:13:54+00:00",
         "CC NUMBER": "CC-0078635",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
