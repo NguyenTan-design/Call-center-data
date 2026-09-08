@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-08T02:04:45+00:00",
+        "CC NUMBER": "NEW:CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nThe customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head.\n\n1. Components with X/Y dimensions from 3.8 mm to 5.2 mm\n\nThe nozzle registered in Shape Data is a 3.7 nozzle.\n\n- When only nine 3.7 nozzles are loaded in the Nozzle Station, optimization assigns nine holder positions on the head. However, only one Holder Number is assigned in the Insert Holder screen. During production, the machine uses only one holder for component pickup, resulting in a significant increase in cycle time and reduced production output.\n\n  (Video 4)\n\n- When user twenty 3.7 nozzles, or nine 3.7 nozzles plus any eleven additional nozzles, are loaded in the Nozzle Station, optimization assigns nineteen nozzles on the head and nine Holder Numbers in the Insert Holder screen. However, this requires too many nozzles and is considered wasteful by the customer.\n\n  (Video 3)\n\n2. Components with X/Y dimensions of 5.3 mm or larger\n\n- When only 3.7 nozzles are used, optimization fails and the following error is displayed:\n\n  “The parts in position cannot be picked up.”\n\n  (Video 2)\n\n- When nine 3.7 nozzles and any two additional nozzles are loaded in the Nozzle Station, optimization can be completed. Eleven nozzles are assigned on the head; however, only one Holder Number is assigned in the Insert Holder screen. During production, only one holder is used for component pickup, resulting in a long cycle time and reduced productivity.\n\n  (Video 2)\n\n- When nine 3.7 nozzles and any eleven additional nozzles are loaded in the Nozzle Station, optimization can be completed. Nineteen nozzles are assigned on the head and nine Holder Numbers are assigned in the Insert Holder screen. However, this configuration requires an excessive number of nozzles, which the customer does not accept.\n\n  (Video 1)\n\n- The customer requests that when only nine nozzles are loaded in the Nozzle Station, nine Holder Numbers should be assigned in the Insert Holder screen, allowing nine holder positions to be used for component pickup.\n\n- We have collected the job data and actual operation videos.\n\n- Please assist us in investigating the cause and provide us with advice regarding this situation.\n\nThank you & Br\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
+        "DATE": "2026-09-08T01:57:57+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-Ha Ngoc Son-sa.\n\nIs there any update for this case?\n\nI understand that the Feeder which the red LED error occurred Feeder is 8mm Feeder.\n\nIs the error occurred 8mm Feeder have a splicing detection sensor?\n\nIf it has the splicing detection sensor, the same assistance/support is required which mentioned in Operation Manual #2.4.\n\nAlso, does this issue occur with all 8 mm feeders, or does it occur only with specific feeder units? Please let us know.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-09-08T01:50:48+00:00",
+        "CC NUMBER": "CC-0077628",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH28 head RETAINER lossen_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nI heard from designer team that they made countermeasure JIG filter.\n\nBut I am asking to them to provide compare drawing them.\n\nPlease kindly give some time for confirmation.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011pJvZYAU"
+    },
+    {
         "DATE": "2026-09-08T00:05:20+00:00",
         "CC NUMBER": "CC-0079650",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
