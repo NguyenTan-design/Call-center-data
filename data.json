@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T15:45:46+00:00",
+        "CC NUMBER": "CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_お客様は、RH20ヘッド用の生産データを最適化する際に、ノズルおよびホルダーの割り当てに関する問題を経験しています。[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your reply.\n\n1. The parts in position [ 6 - 21 ] (part number'13604-SEZ0096H-29dup004') cannot be picked up..\n\nProduction cannot be performed because there are not enough nozzles for holders that are not to be used to pick up parts when performing operation with reduced nozzles.\n\nFailed to perform optimization.\n\n==================\n\nIs this the one you mean that occurred eror? That's right\n\n2. If 20 Nozzle 2.5 are fully used for a 6 × 6 mm component, the optimization works normally.\n\nThe below error occurred with change the nozzle to D056-025-055 x 20pcs.\n\nHave you change the diameter and try?\n\n. Could it be that you optimized with 20 Nozzle 2.5 fully allocated, but did not specify the nozzle size in the Shape Data, which resulted in the error “No nozzle to pick-up part number 13604-SEZ0096H-29dp004”?\n\n. I think there may have been a misunderstanding regarding what I meant.\n\n. When I optimized with 20 Nozzle 2.5 fully allocated, I had already specified the nozzle size in the Shape Data, and the optimization completed normally without any errors.\n\n. Please refer to the attached video for the details.\n\nTherefore, I would like to keep the same question as in my previous.\n\n. Why is there a difference in the optimization results between using 20 Nozzle 3.7 fully allocated and using 20 Nozzle 2.5 fully allocated, even though the component size is the same?\n\nThank you for your support.\n\nThank you & Br\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
         "DATE": "2026-09-09T11:37:50+00:00",
         "CC NUMBER": "CC-0082249",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
