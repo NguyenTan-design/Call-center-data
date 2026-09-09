@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-09T02:08:57+00:00",
+        "CC NUMBER": "NEW:CC-0082364",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Hang-up during on-machine editing when recovery up_リカバリアップ時の機上編集でハングアップ[NXTR-S]",
+        "Communication Content": "Hang-up during on-machine editing when recovery up",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001F2ZGkYAN"
+    },
+    {
+        "DATE": "2026-09-09T02:04:57+00:00",
+        "CC NUMBER": "CC-0082361",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB can not transfer between 2 module after application new version: NXTR 2.DBb_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nSassa san explained the cause of the problem to me.\n\nThis was caused by the fact that jobs were being sent from Nexim only to Lane 2, resulting in a halt while waiting for a job change after production was completed.\n\nThis is not a problem; it is a specification of Liteon's special function.\n\nThis has already been shared with the FMV engineers.\n\n調査不要\n\nFMV 高津",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001F2fHKYAZ"
+    },
+    {
         "DATE": "2026-09-09T01:51:27+00:00",
         "CC NUMBER": "CC-0081568",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
