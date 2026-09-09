@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T11:37:50+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nDo you have any updates regarding this issue?\n\nToday, the issue occurred again at approximately 16:36.\n\nI am sending you today’s trace data for further investigation.\n\nThanks!",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-09-09T08:48:09+00:00",
         "CC NUMBER": "CC-0079997",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
