@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T04:22:33+00:00",
+        "CC NUMBER": "CC-0079650",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NEXIM can't transmission job to NXT3 machine_[NXTIII]",
+        "Communication Content": "Dear Pham Toan-san,\n\nThank you for your continued support.\n\nWe have reviewed the logs provided on 5 September 2026.\n\nHowever, the logs were collected from PC I-PC-088528 (LineSV),\n\nnot from the PC that actually performed the job transmission\n\n(SMT-fuji / systemsv).\n\nAs previously requested, all logs must be collected from\n\nthe PC that performed the job transmission.\n\nWithout the correct logs, our Design team cannot continue\n\nthe investigation.\n\nWhen the issue reoccurs, please collect ALL of the following\n\ndata from the correct PC before restarting any PC, service,\n\nor machine:\n\n[PC that performed the job transmission: SMT-fuji (systemsv)]\n\n- Collect all logs using NeximLogUtility.\n\n  Please change the log level to Debug in advance.\n\n[LineSV PC: I-PC-088528]\n\n- Collect all logs using NeximLogUtility.\n\n  Please change the log level to Debug in advance.\n\n[NXT3 Machine]\n\n- Machine Trace\n\n[Other information]\n\n- Exact date and time of occurrence\n\n- Job name being transmitted at the time of the issue\n\n- Detailed actions taken after the issue and the results\n\n- Video recording of the issue (if available)\n\nTo avoid missing any logs next time, please follow\n\nthe steps below:\n\nStep 1: When the issue occurs, do NOT restart any PC,\n\n        service, or machine immediately.\n\nStep 2: Note the exact time of occurrence.\n\nStep 3: On SMT-fuji (systemsv), open NeximLogUtility\n\n        and collect all logs immediately.\n\nStep 4: On I-PC-088528 (LineSV), open NeximLogUtility\n\n        and collect all logs immediately.\n\nStep 5: Collect the Machine Trace from the NXT3 machine.\n\nStep 6: Send all collected data to the Callcenter.\n\nPlease ensure that the DEBUG log level is set in advance\n\non both SMT-fuji (systemsv) and I-PC-088528 (LineSV)\n\nso that sufficient information is captured when the\n\nissue occurs.\n\nWe apologize for the repeated requests and appreciate\n\nyour cooperation.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000179KChYAM"
+    },
+    {
         "DATE": "2026-09-09T03:04:16+00:00",
         "CC NUMBER": "CC-0081568",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
