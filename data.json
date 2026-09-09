@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T06:23:42+00:00",
+        "CC NUMBER": "CC-0078949",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]__SmartLoader フィーダー斜め挿し検知＆ギロチン警告LEDに関して[NXTR-A]",
+        "Communication Content": "高津さん\n\n設計と確認し11日までには提供するようにします。\n\nお待たせしてしまい申し訳ありませんがお時間ください。\n\nCS課 外山",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015U1bCYAS"
+    },
+    {
         "DATE": "2026-09-09T04:22:33+00:00",
         "CC NUMBER": "CC-0079650",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
@@ -42037,14 +42046,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-09-09T06:23:42+00:00",
-        "CC NUMBER": "CC-0078949",
-        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
-        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]__SmartLoader フィーダー斜め挿し検知＆ギロチン警告LEDに関して[NXTR-A]",
-        "Communication Content": "高津さん\n\n設計と確認し11日までには提供するようにします。\n\nお待たせしてしまい申し訳ありませんがお時間ください。\n\nCS課 外山",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015U1bCYAS"
     }
 ]
