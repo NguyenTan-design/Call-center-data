@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T08:06:24+00:00",
+        "CC NUMBER": "CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_お客様は、RH20ヘッド用の生産データを最適化する際に、ノズルおよびホルダーの割り当てに関する問題を経験しています。[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen-san,\n\nThank you for the update.\n\n- If 20 Nozzle 3.7 are fully used for a 6 × 6 mm component, the optimization reports the error “The parts in position cannot be picked up.”\n\n>> I had tried with the received Job and below error occurred.\n\n==================\n\nThe parts in position [  6 - 21 ] (part number\"13604-SEZ0096H-29dup004\") cannot be picked up..\n\nProduction cannot be performed because there are not enough nozzles for holders that are not to be used to pick up parts when performing operation with reduced nozzles.\n\nFailed to perform optimization.\n\n==================\n\nIs this the one you mean that occurred eror?\n\n- If 20 Nozzle 2.5 are fully used for a 6 × 6 mm component, the optimization works normally.\n\n>> The below error occurred with change the nozzle to D056-025-055 x 20pcs.\n\nHave you change the diameter and try?\n\n==================\n\nNo nozzle to pick-up part number\"13604-SEZ0096H-29dup004\" (Shape\"0096H-29\").\n\nMinimum Diameter          :  3.70\n\nMaximum Diameter          :  3.70\n\nWide Range Nozzle Min Size :  0.00\n\nWide Range Nozzle Max Size :  0.00\n\nWide Range Nozzle Enable   : Yes\n\nWide Range Nozzle Use      : When set in shape data\n\nNozzle Name         :\n\nPart Height         :  1.10\n\nLocation Pin Length :  0.00\n\nFailed to perform optimization.\n\n==================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
         "DATE": "2026-09-09T07:10:38+00:00",
         "CC NUMBER": "CC-0077628",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
