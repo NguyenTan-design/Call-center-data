@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-09T01:51:27+00:00",
+        "CC NUMBER": "CC-0081568",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module on Lane 2 after placement is completed, while Lane 1 operates normally._レーン2において実装完了した基板が次のモジュールに搬送されない（レーン1は正常に搬送している）[NXTR-S]",
+        "Communication Content": "Dear sir Moriya san,\n\nThank you for your continued support. According to the information I received, the issue still occurs even after upgrading to version V2. DBb. Please refer to CC-0082361 for further details. Thank you.\n\nBest regards,\n\nTran Xuan Cong",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CnzirYAB"
+    },
+    {
+        "DATE": "2026-09-09T01:41:01+00:00",
+        "CC NUMBER": "NEW:CC-0082361",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB can not transfer between 2 module after application new version: NXTR 2.DBb_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nLiteon VN customer facing the issue: PCB can not transfer between 2 module after application new version: NXTR 2.DBb (base on NXTR 2.35)\n\nWe already perform some action bellow to resolve:\n\n1. Press cycle stop and then start but still not transfer.\n\n2. Restart base also not transfer.\n\n3. Need to remove all panels those already placement and then retransmission job by Nexim the issue resolved.\n\nDate error occurred: 06Sep2026\n\nTime: 21h15- 21h50\n\nPlease check attached file for detail Job file, video and trace data, and help us investigate then advice for us.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001F2fHKYAZ"
+    },
+    {
         "DATE": "2026-09-09T00:14:38+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
