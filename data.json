@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-09T23:54:15+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nLooking at the MNG image you sent, a part is covering the head mark, which is causing a read error.\n\nPerhaps if you adjust the orientation of the parts (90, 180, or 270 degrees), there might be an angle at which the headmark can be read correctly.\n\nIs it possible to test changing the orientation of the tray packaging?\n\nAlso, at that time, please turn off the “Do PreRotation” feature in Shape-Data.\n\nーー\n\n【Important Notice】\n\nThe process of reading the headmark is related to the operation of the head itself, so it cannot be canceled.\n\nPlease be aware of this.\n\nFurthermore, misrepresenting the size of a part could lead to a collision.\n\nThe NXTR application controls head movement and part rotation based on the entered part size.\n\nTherefore, even in cases where interference would not normally occur, the likelihood of an accident increases when the size is intentionally altered.\n\nI believe this risk is the most important one.\n\nWhile placement speed and component misalignment are also factors to consider, the risk of interference is the most important consideration.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-09T15:45:46+00:00",
         "CC NUMBER": "CC-0082276",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
