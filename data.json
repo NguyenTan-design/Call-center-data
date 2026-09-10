@@ -1,5 +1,59 @@
 [
     {
+        "DATE": "2026-09-10T11:36:51+00:00",
+        "CC NUMBER": "NEW:CC-0082491",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mark recorver error_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the issue. When using function Mark recovery, the screen show error (see the picture I attached) so I Temporary confirm mark without adjust mark.\n\nI already show to the Sassa san (designer onsite at Liteon). It happen about 14:23 today. I take trace data. Please help us analyst and if need patch file or other version or not? Sassa san said that this issue will fix at V2.4, but customer can not agree with it.\n\nThanks you and please help us.\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FLS9tYAH"
+    },
+    {
+        "DATE": "2026-09-10T10:33:11+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nCan you please update this inquiry?\n\nI have attached an video the error occurs when using the feeder 8T. The issue only occurs randomly with some feeders 8T and can be easily resolved by feeding the tape forward a short distance.\n\nHowever, the customer is not satisfied with this situation and has requested that we resolve the issue so that it does not affect the changeover time.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-09-10T10:28:41+00:00",
+        "CC NUMBER": "CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_Advance Feeder Maintenance のフィーダーID検索とメインリストの操作[NXTR-S]",
+        "Communication Content": "Dear Terazawa Marie-san,\n\nThank you for your information.\n\nWe have also explained to the customer that when they search for the feeder ID in the search box, all the necessary information is already displayed.\n\nHowever, the customer would still like to be able to click on the feeder ID in the search box and jump to this feeder ID on the main screen.\n\nWe hope that your team can consider adding this functionality in future versions\n\nThank you and Best Regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX"
+    },
+    {
+        "DATE": "2026-09-10T10:07:27+00:00",
+        "CC NUMBER": "CC-0082175",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._LCU 経由でジョブを更新した際、エラー 863C0000「Insert order data mismatch」が発生しました。[NXTR-S]",
+        "Communication Content": "Dear Moriya,\n\n    Please update this case.\n\n    Currently, most customers who have upgraded their systems are experiencing a similar issue. This issue is affecting the customers' production schedules.\n\n   We have also collected additional data from another customer to support the analysis and help identify the root cause of this issue.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL"
+    },
+    {
+        "DATE": "2026-09-10T09:36:18+00:00",
+        "CC NUMBER": "CC-0079861",
+        "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[TAISHODO VIETNAM COMPANY LIMITED]_Upgrade AIMEXR to version 1.6 can handle funtion with version 1.5De3_AIMEXRをバージョン1.6にアップグレードすると、バージョン1.5De3の機能を処理できるようになります。[AIMEXR]",
+        "Communication Content": "Dear Dai-san,\n\nCould you please confirm whether you have upgraded to the new version and installed the patches for LCU and NEXIM?\n\n If so, please let us know whether the issue has been resolved and provide an update on this case.\n\nThank you.\n\nBR,\n\nMa/Fuji",
+        "FMV PIC": "Nguyen Trong Dai Dai",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017jlFzYAI"
+    },
+    {
+        "DATE": "2026-09-10T09:34:24+00:00",
+        "CC NUMBER": "CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_Advance Feeder Maintenance のフィーダーID検索とメインリストの操作[NXTR-S]",
+        "Communication Content": "Dear Viet-san,\n\nThank you for the inquiry.\n\nAlthough, I do not understand the necessity of this request.\n\nIn the Search box, operator could confirm the status of the Feeder and it is possible to execute the maintenance.\n\nAns it is possible to export the maintenance record.\n\nIn this search box, the required information could be confirmed.\n\nI understand that there is no need to jump to the FIDL in the main screen.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX"
+    },
+    {
         "DATE": "2026-09-10T07:33:11+00:00",
         "CC NUMBER": "CC-0078677",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
