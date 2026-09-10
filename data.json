@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-09-10T07:33:11+00:00",
+        "CC NUMBER": "CC-0078677",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji Accessorry Web eventlog time doesn't macth with real time_[NXTIII]",
+        "Communication Content": "Dear Vu Phuoc-san\n\nIs there any update for this case?\n\nPlease update this case.\n\nThank you.\n\nBR,\n\nMa/Fuji",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014iYEVYA2"
+    },
+    {
+        "DATE": "2026-09-10T07:18:07+00:00",
+        "CC NUMBER": "CC-0077767",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The actual cycle time on the machine does not match the job cycle time._[NXTR-S]",
+        "Communication Content": "Dear Cong-san\n\nCould you please confirm whether you have installed the patch I sent and if it has resolved the issue?\n\nPlease update this case.\n\nThank you.\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nCC-0077767　LITE-ON VIETNAM　5558_V3.1.100_DataUpdate_Optimizer_Patch\n\nI sent the patch via the file transfer account.\n\nThe password is as follows:\n\nDownload: \"hGPBtXHp\"\n\nZIP\t: \"VSKc8nRN\"\n\nーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー\n\nBR\n\nMa/Fuji",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012BLSeYAO"
+    },
+    {
+        "DATE": "2026-09-10T07:15:15+00:00",
+        "CC NUMBER": "NEW:CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nCurrently, there is a request from Luxshare Precision Yi An regarding the Advance Feeder Maintenance application.\n\n-When using the Advance Feeder Maintenance application, there is a large list of feeders displayed. When the customer opens Feeder ID Search, a small search window appears. After searching for a feeder, the matching feeder is displayed in the search results.\n\n- The customer requests the following behavior: when the customer clicks or double-clicks the feeder found in the Feeder ID Search results, the main feeder list should automatically scroll to the corresponding feeder and highlight that row.\n\n-Could you please confirm whether the current Advance Feeder Maintenance application can support this function?\n\nThank you and BR\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX"
+    },
+    {
+        "DATE": "2026-09-10T05:57:02+00:00",
+        "CC NUMBER": "CC-0077984",
+        "Customer": "DESAY SIP（VIETNAM）COMPANY LIMITED]",
+        "TOPIC": "Urgent[DESAY SIP（VIETNAM）COMPANY LIMITED]_The Remote Board Skip function is operating abnormally_[NXTIII]",
+        "Communication Content": "Dear FMV THUONG San\n\nCould you please confirm whether this issue has reoccurred?\n\nIf the issue has not reoccurred, we will close this ticket.\n\nIf the issue occurs again in the future, please open a new ticket.\n\nThank you.\n\nBR,\n\nMa/Fuji",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012keDhYAI"
+    },
+    {
         "DATE": "2026-09-10T02:30:37+00:00",
         "CC NUMBER": "CC-0080054",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
