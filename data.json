@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-11T09:17:41+00:00",
+        "CC NUMBER": "CC-0062633",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Machine is too hot inside affect to the solder quickly dry._装置内温度が高くはんだがすぐに乾いてしまう。[NXTR-S]",
+        "Communication Content": "コールセンター　馬さん\n\n1Lineはすべて改造済み。効果もあり。\n\n全Line展開用のWR部品待ち。また1R対応も進めており設計にて対策中。\n\nその為、Closeで問題ありません。\n\nFMV 高津",
+        "FMV PIC": "Kiyohara Kenta",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Iez5RYAR"
+    },
+    {
+        "DATE": "2026-09-11T08:33:48+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nCould you please confirm whether the error has occurred again?\n\n If not, may we proceed with closing this ticket?\n\n Thank you.\n\nBR\n\nMa/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
+        "DATE": "2026-09-11T07:48:42+00:00",
+        "CC NUMBER": "CC-0075016",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_head RH08 alarm error 8CC4198D even replace all new solenoid valve_ヘッド RH08 のアラームエラー 8CC4198D が表示される（ソレノイドバルブをすべて新品に交換しても解消しない）[NXTR-S]",
+        "Communication Content": "Dear Moriya Yasutaka San,\n\nCould you please help me update on the repair status of RH08 head?  The Hana customer is currently asking about the shipping schedule for returning the RH08 head.\n\nplease help us confirm and update the estimated return date for this RH08 head to FMV.\n\nThank you for your support!\n\nFMV Xuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000u8WLpYAM"
+    },
+    {
         "DATE": "2026-09-11T04:18:19+00:00",
         "CC NUMBER": "CC-0062633",
         "Customer": "BYD Electronics Vietnam Company Limited]",
