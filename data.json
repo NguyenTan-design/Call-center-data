@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-11T15:39:06+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto,\n\nSorry for pushing you.\n\nThe customer is planning to start mass production at full capacity next month. Therefore, we would appreciate your support in advising us on the next steps to identify the root cause and solve this issue\n\nCould you please help update the status?\n\nThanks\n\nBest regards,\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
+    },
+    {
+        "DATE": "2026-09-11T15:34:45+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Dear Konda-san,\n\nRegarding this issue, today the customer started production, and the issue reoccurred at Module 1 of Line S11.\n\nAs I informed you previously, we already swapped the Conveyor I/O boards on both the left and right sides of this module for investigation. However, the issue occurred again during actual production.\n\nThe customer is planning to start mass production at full capacity next month. Therefore, we would appreciate your support in advising us on the next steps to identify the root cause and solve this issue as soon as possible.\n\nPlease let us know if there are any additional parts, boards, or trace data that we should check or collect for further investigation.\n\nThank you very much for your support.\n\nBest regards,\n\nFMV – Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
         "DATE": "2026-09-11T09:17:41+00:00",
         "CC NUMBER": "CC-0062633",
         "Customer": "BYD Electronics Vietnam Company Limited]",
