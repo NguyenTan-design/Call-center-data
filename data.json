@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-09-11T02:12:56+00:00",
+        "CC NUMBER": "CC-0077767",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The actual cycle time on the machine does not match the job cycle time._[NXTR-S]",
+        "Communication Content": "Sorry for the late response.\n\nI have installed the 5558_V3.1.100_DataUpdate_Optimizer_Patch on all PCs and monitored the production models. The optimization time now matches the actual production time as expected.\n\nHowever, the model (SP-2183-1RE_BOT_NPI_HPG2-S18_REV X6) that previously experienced the issue has not yet resumed production, so I have not been able to verify the result on that model. Once production resumes, I will check it and report the results to you.\n\nThank you for your continuous support.\n\nBest Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012BLSeYAO"
+    },
+    {
+        "DATE": "2026-09-11T00:23:41+00:00",
+        "CC NUMBER": "CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_Advance Feeder Maintenance のフィーダーID検索とメインリストの操作[NXTR-S]",
+        "Communication Content": "Dear Viet-san,\n\nThank you for the update.\n\nHowever, the customer would still like to be able to click on the feeder ID in the search box and jump to this feeder ID on the main screen.\n\n>> Please let me confirm for just in case.\n\nSo there is no specific reason or background for the customer request to jump?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX"
+    },
+    {
+        "DATE": "2026-09-11T00:19:40+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san,\n\nThank you for the update.\n\nWe are still under confirmation internally and please give us some time.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-09-10T12:08:37+00:00",
+        "CC NUMBER": "CC-0082175",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._LCU 経由でジョブを更新した際、エラー 863C0000「Insert order data mismatch」が発生しました。[NXTR-S]",
+        "Communication Content": "Dear Kha-san\n\nFirst, it is a standard limitation that optimized jobs cannot be updated from the line console.\n\nThis is documented in FNX-NXTR version 12.2.2.\n\nWe are currently verifying whether this limitation has been removed in versions V2.2Hh and V2.2Bs.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL"
+    },
+    {
         "DATE": "2026-09-10T11:36:51+00:00",
         "CC NUMBER": "NEW:CC-0082491",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
