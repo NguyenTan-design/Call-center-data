@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-12T19:53:54+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your explanation.\n\nThe model with the original component that caused the 8000D711 error has not been run again yet, so I have not been able to test the orientation change on that component.\n\nHowever, I tested another frame-type component with an actual size of X40 × Y65 mm. When I registered the Body size as X32 × Y33 mm, the component was recognized normally without the 8000D711 error.\n\nDuring this test, I also turned off the “Do PreRotation” function in Shape-Data, as you recommended.\n\nTherefore, I think that the occurrence of 8000D711 may also depend on the component design and the pickup position.\n\nFor your reference, I have two videos showing the recognition behavior:\n\nCorrectly registered component size\n\nIncorrect/smaller registered component size\n\nPlease refer to the videos for comparison.\n\nWe will also conduct the additional test with the original component once the model is available again.\n\nThank you for your continued support.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
         "DATE": "2026-09-12T10:12:38+00:00",
         "CC NUMBER": "CC-0080766",
         "Customer": "BYD Electronics Vietnam Company Limited]",
