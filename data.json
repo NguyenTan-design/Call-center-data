@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-12T06:33:08+00:00",
+        "CC NUMBER": "NEW:CC-0082584",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR 2RV Module Does Not Place Components on PCB_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt the Luxshare Nghe An factory, we are currently experiencing an issue where the 2RV module does not place components onto the PCB and no alarm is displayed. The issue only occurs when using the pair module production program.\n\nPreviously, I created CC-0072091 for a similar issue, which was resolved by upgrading the NXTR software to version 2.2Bn. However, the factory has recently performed another software upgrade.\n\nCurrently, the affected line is only using 2RV and 1R modules, so I am not sure whether the same issue could also occur with the 2R module.\n\nThis issue is having a serious impact on the customer's production plan. Please help us analyze the trace data to resolve this issue.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FbGsjYAF"
+    },
+    {
         "DATE": "2026-09-11T15:39:06+00:00",
         "CC NUMBER": "CC-0080021",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
