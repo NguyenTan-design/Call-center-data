@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-14T07:42:30+00:00",
+        "CC NUMBER": "CC-0082584",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR 2RV Module Does Not Place Components on PCB_[NXTR-S]",
+        "Communication Content": "Dear Duc san\n\nThank you very much for the inquiry.\n\nWe investigated trace data and found that there is software bug.(It is similar but a little bit different situation than CC-0072091).\n\nWe will release countermeasure software version on 18.September.\n\nPlease kindly give some time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FbGsjYAF"
+    },
+    {
+        "DATE": "2026-09-14T07:37:16+00:00",
+        "CC NUMBER": "CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_Advance Feeder Maintenance のフィーダーID検索とメインリストの操作[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nLet me answer this inquiry instead of Viet-san\n\nHowever, the customer would still like to be able to click on the feeder ID in the search box and jump to this feeder ID on the main screen.\n\n>> Please let me confirm for just in case.\n\nSo there is no specific reason or background for the customer request to jump?\n\n=> Background for customer request : As our understanding, this is customer 's customer request, after an audit check about Fuji machine maintenance system.\n\nBR,\n\nTan",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX"
+    },
+    {
         "DATE": "2026-09-14T07:19:44+00:00",
         "CC NUMBER": "CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
