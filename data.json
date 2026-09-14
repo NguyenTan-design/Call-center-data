@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-14T10:44:21+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Binh san\n\nThank you very much for your explanation.\n\nI understand that the operator should download the JOB on the machine, not from the Nexim.\n\nAnd engineer or manager at customer always send the JOB to the machine from the Nexim for reflecting changes.\n\nIs my understanding correct?\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
+        "DATE": "2026-09-14T10:42:59+00:00",
+        "CC NUMBER": "NEW:CC-0082658",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_87B2D7DB Automatic backup pin mark reading error_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nI have meet the issue with backup pin stocker. Customer feedback a few days ago when module 9 start to change over. 87B2D7DB Automatic backup pin mark reading error. They temporary not use some backup pin position. To day i put full backup pin on stocker and test. Machine still error 87B2D7DB, i pull out module and check the stocker of backup pin and find out the was distorted. You can see the image i attach, and see image when mark camera capture it.\n\nAfter check and find out stocker position NG, I remove and repair it. Now it can use this position. I think it will happen again with other module.\n\nYou can make it more harder same CC-0070259 at Liteon customer?\n\nThanks\n\nDung FMV",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FtJFNYA3"
+    },
+    {
         "DATE": "2026-09-14T10:39:26+00:00",
         "CC NUMBER": "CC-0075117",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
