@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-14T05:34:11+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Dear Quynh Nguyen san,\n\nAs we informed you, the trace data for the time the error occurred was not saved. (The error occurred around 9:00 PM. The only traces saved were from 10:00 PM onward.)\n\nCould you please retrieve it again? Since we haven’t been able to investigate the trace data, we cannot offer any advice at this time.\n\nKonda,",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
         "DATE": "2026-09-14T05:14:53+00:00",
         "CC NUMBER": "CC-0081022",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
