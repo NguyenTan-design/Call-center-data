@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-14T15:52:40+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear Sir,\n\nRegarding the communication from M19 (IP: 169.254.1.210) to M18 (IP: 169.254.1.200):\n\nM18 receives the command and immediately returns a response to M19. However, M19 is not receiving the response.\n\nDuring this period, there are no indications that M19 is stuck in a busy loop.\n\nSince a connection issue is suspected, could you please check the LAN cable and LAN hub between M19 and M18?\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
         "DATE": "2026-09-14T14:12:14+00:00",
         "CC NUMBER": "CC-0079516",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
