@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-14T08:10:22+00:00",
+        "CC NUMBER": "NEW:CC-0082644",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Device Check for parts on the Stacked Tray using a PDA: After pressing the Complete button on the Stacked Tray, the machine did not respond._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer Hana Micron, encountered an issue while performing Device Check for parts on the Stacked Tray using a PDA.\n\nThe machine screen successfully received the tray information from the Device Check and prompted the operator to press the Complete button. However, after pressing the Complete button on the Stacked Tray, the machine did not respond.\n\nThe issue occurred on Module 8, Stacked Tray Feeder B, as follows:\n\nAt approximately 13:40, the machine generated tray jam Error Code 8EC79E0E. We removed the jammed tray and pressed Start. The machine then requested Device Check Part.\n\nWe performed Device Check for part quantity 88 (8,1) using the PDA, and the machine screen correctly received the tray information. We then pressed the Complete button on the Stacked Tray, but the machine did not respond.\n\nActions taken:\n\n1. Removed all trays from Stacked Tray B, performed Device Check again for tray 88 (8,1) using the PDA, and pressed Complete. However, the machine still did not respond.\n\n2. Moved the Module out, switched Stacked Tray B from Unlock to Lock again, and pressed Start. The machine then generated Error Code 8CC40000.\n\n3. Restarted the machine and performed Device Check for the part again. After the restart, the machine resumed normal production.\n\nCould you please refer to the attached Trace data, investigate the root cause of this issue, and advise us on your findings?\n\nIf you need any additional information for the investigation, please let me know.\n\nThank you for your support.\n\nFMV-Chien!",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FpuocYAB"
+    },
+    {
         "DATE": "2026-09-14T07:42:30+00:00",
         "CC NUMBER": "CC-0082584",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -42406,5 +42415,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-09-14T08:24:35+00:00",
+        "CC NUMBER": "CC-0077782",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_ZS axis error code 3A19_Zs軸の3A19エラー[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu san,\n\nDo you have any update？\n\nAccording to our mechanical designer, if the part protrudes more than 10 mm from the top surface of the parts tray, this is considered out of specification.\n\nThe specification states that only a protrusion of up to 0.5 is permitted.\n\nIn this case, the issue is believed to be caused by the fact that the recognized tray height varies depending on whether or not a part is present on the measurement line when the tray height is measured.\n\nIf you create a parts tray to prevent parts from protruding, the machine will operate correctly.\n\nPlease consider creating the parts tray.\n\nKonda,",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012GAszYAG"
     }
 ]
