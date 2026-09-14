@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-14T00:54:43+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "FMV-DO-san\n\nIf the LED brightness is low, please replace the light source (is that the camera as well?).\n\nHowever, can we really determine from the situation that the LED brightness is low?\n\nWhat triggers this malfunction, and will replacing the nozzle station resolve it?\n\nCall center Amano",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-09-12T19:53:54+00:00",
         "CC NUMBER": "CC-0081522",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
