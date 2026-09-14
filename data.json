@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-14T07:19:44+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank for your advice.\n\nPlease check my below comment.\n\nQ2. According to Nexim set up manual, oracle 19C is only compatible with Red hat enterprise linux 8\n\n>> As for the Linux installation, there was many case that customer IT installed at their rules and do not use the manual.\n\nSo there is no plan to release the manual officially.\n\n=> Background 1 : We are now successful to install oracle 12C in Linux Read Hat 7. As your answer in Q1, in future oracle 12C will not be supported, since oracle 19C is newer and will be long time supported , so we must understand the installation procedure.\n\n=> Background 2 : This is 1st time that customer use Fuji SMT machine. They are now using oracle database PC with Windows environment. Near future, the database PC will change to Linux, customer IT will not install oracle Linux PC and request FMV to take this responsibility. Please understand and help us to provide the guidance manual for Oracle 19C linux installation as soon as possible.\n\nThank you for your cooperation.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
         "DATE": "2026-09-14T06:57:21+00:00",
         "CC NUMBER": "CC-0076867",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
