@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-15T06:06:16+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Tan-san\n\nIf the error still occurs even after replacing the pump with a new one, it is likely that there is an air leak somewhere in the system.\n\nSince the issue does not appear to be module-related, I think the possibility of a leak from the head mounting surface is low. However, just to be safe, please check whether there is any damage, tearing, or deformation of the gasket.\n\nYou can check the vacuum pressure under Self Care → Sensor. Could you confirm how high the vacuum pressure is reaching? Is it failing to reach around -90 kPa?\n\nCall center Amano",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
+        "DATE": "2026-09-15T05:58:50+00:00",
+        "CC NUMBER": "CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nIf the issue has been resolved after cleaning, we would like to proceed with closing this case.\n\nThank you.\n\nBR\n\nMa/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB"
+    },
+    {
         "DATE": "2026-09-15T05:35:43+00:00",
         "CC NUMBER": "CC-0080670",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
