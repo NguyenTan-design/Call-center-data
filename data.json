@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-15T06:49:31+00:00",
+        "CC NUMBER": "CC-0082712",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_new head RH08 alarm an error 8000198D_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nIs this the same issue as ticket CC-0075016? Do we need to replace the color bearings?\n\nIf so, is there a manual with replacement method?\n\nFMV takatsu",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FzgsTYAR"
+    },
+    {
+        "DATE": "2026-09-15T06:40:57+00:00",
+        "CC NUMBER": "CC-0075117",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._画面に表示されるエラーコードとエラー画像内のエラーコードをどのように同期させるか。[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nCC: Do you have any opinion if there is another error code which the customer see often?\n\nFMV: Please synchronize some of errors bellow first.\n\n・Machine error: 93F10000: Nozzle exchange error, Image Explore error: D715\n\n・Machine error: 92A32C01: Request to perform vision processing again, Image Explorer error: D711\n\n・Machine error: 8000193D: Part tombstone error, Image Explorer error D7D2\n\n・Machine error: 8000193E: Part tombstone error, Image Explorer error D7D2\n\n・Machine error: 8000192F: Part dropped error, Image Explorer error D7D5\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
         "DATE": "2026-09-15T06:35:53+00:00",
         "CC NUMBER": "NEW:CC-0082712",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
