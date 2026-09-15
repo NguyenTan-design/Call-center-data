@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-15T06:35:53+00:00",
+        "CC NUMBER": "NEW:CC-0082712",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_new head RH08 alarm an error 8000198D_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nWe have 1 case relating new head RH08 at \"Goertek smart technology vina\" customer alarm an error 8000198D\n\nthe head already sent to our head repair center to check more as below:\n\n- we checked and saw that this head already using new kind of value( 2 points blue marking)\n\n- Action from us:\n\n1. Replace the 2 new valve vacuum break and nozzle cleaning\n\n2. Maintenance again head, air cleaning head using Head Cleaner (2UHEXK0001**).\n\n3. Replaced new all mechanical valve\n\n4. Measure value of vacuum break and nozzle cleaning saw that out of spec and did adjustment again the vacuum break\n\n- After re-adjust, assembly to run on machine still alarm an error 198D\n\n- We disassembly head, check again the vacuum break and nozzle clearing detected that these value not keep the same with before( still out of spec).\n\n- we also try to adjust 3 times the vacuum break  but the value  of vacuum break and nozzle cleaning still dropping compare with initial value setting.\n\n- For detail result measure value, pls check attached file( excel file)\n\n=> We assume that this head same phenomenon with Rh08 mention at CC number: CC-0075016\n\nWe also attached machine trace data of 2 time:\n\n1st times is after we replaced new 2 valve vacuum break and nozzle cleaning(1st times trace data_20260914_022934_trace)\n\n2nd time is after we re-adjust the value of vacuum break and nozzle cleaning (2nd trace data_20260915_103516_trace)\n\n=> pls support us to have investigation and advise us next action\n\naddition information:\n\n- Line: A9-LINE1, module M5 right side, type 2R, operating hours: 1391 (hrs)\n\n- Base S/N: SE0211546, Mfg: JUN 2026\n\n- Module S/N: HEBC11 0002269\n\n- Head S/N: HB1112 0002604",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FzgsTYAR"
+    },
+    {
+        "DATE": "2026-09-15T06:30:20+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
         "DATE": "2026-09-15T06:06:16+00:00",
         "CC NUMBER": "CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
