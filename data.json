@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-15T10:23:09+00:00",
+        "CC NUMBER": "NEW:CC-0082740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer meeting the error:\n\n8000D47B:An error occurred in the communication with the camera.\n\nHead:  RH28 HF1021 2572\n\nModule: NXTR-2RV(S)0000473\n\nNXTR Ver: 2.35.2\n\nTo continue production, we replaced the head, and the issue was resolved after the replacement.\n\nWe already follow the Rep News Report 24057-1 and reconnect the flexible cable in the head error but can not fix.\n\nWe found a similar case under CC-0078645.\n\nWe have collected the trace data and The head error we bring to our head repair team.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G4bgoYAB"
+    },
+    {
+        "DATE": "2026-09-15T10:19:18+00:00",
+        "CC NUMBER": "CC-0082687",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim 3.2.100 optimize issue_Nexim 3.2.100 最適化に関する問題[Nexim]",
+        "Communication Content": "Dear Tan-san,\n\nThank you for the inquiry.\n\nI had imported the Job and try to optimize but the error occurred at other then Module No.7 like below.\n\n==================\n\nThere is an insert order problem with the part in slot [ 2 - 10]\"03C2000000XSdup002\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 3 -  7]\"0004000000GAdup003\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 3 - 11]\"02A1000000RSdup005\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 3 - 13]\"02A00000001Gdup006\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 4 - 10]\"02A1000000RSdup007\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 4 - 11]\"05A1000000GDdup008\".\n\nCheck the following and change the module to which the part is allocated.\n\nThere is an insert order problem with the part in slot [ 5 - 12]\"02A1000000RKdup011\".\n\nCheck the following and change the module to which the part is allocated.\n\n==================\n\nWhen optimize at the customer side, how is the result?\n\nThere is no error for the other module and only Module no.7 had the problem?\n\nCould you share the error result report with us?\n\nAlso, please share the version.txt from customer PC.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FwNERYA3"
+    },
+    {
+        "DATE": "2026-09-15T10:12:19+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "FMV : Nguyen Van Thuong,\n\nThere is a possiblity that the NXTR application software problem.  It is still under investigation at our application team.\n\nPlease wait for a while.\n\nKonda,",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
         "DATE": "2026-09-15T07:09:56+00:00",
         "CC NUMBER": "CC-0079012",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
