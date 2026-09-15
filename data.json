@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-15T18:14:10+00:00",
+        "CC NUMBER": "NEW:CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, some modules in the factory experience lagging or freezing issues when editing jobs on the machine. This causes inconvenience and takes a significant amount of time for the customer.\n\nOur temporary solution is to reset the LCU service and then update the job again. After this operation, the customer can temporarily continue editing the job on the machine.\n\nHowever, the issue occurs again after some time.\n\nCould you please advise us on the possible root cause and provide a solution to permanently resolve this issue?\n\nThank you for your support.\n\nBest regards,\n\nFMV-Ha Ngoc Son",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
         "DATE": "2026-09-15T15:24:43+00:00",
         "CC NUMBER": "CC-0080825",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
