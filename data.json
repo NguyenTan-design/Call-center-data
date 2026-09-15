@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-15T14:26:30+00:00",
+        "CC NUMBER": "CC-0079513",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Request for Investigation: NXTR Error 8F5A and Nozzle Allocation Issue._調査依頼：NXTRエラー8F5Aおよびノズル割り当ての問題。[NXTR-S]",
+        "Communication Content": "Dear Amano Toru San\n\nThank you for your investigation and explanation.\n\n.Regarding your question, we would like to confirm that the job was not optimized with RH08SF0976 set to Standard and then changed back to Custom before transmission.\n\n.When the issue occurred, RH08SF0976 was set to Standard, and the actual sequence was:\n\nRH08SF0976 = Standard → Optimize → Data Check OK → Transmit to NXTR → Error 8F5A\n\n.After Optimize, we did not change the Nozzle Type or any other related settings before transmitting the job to the machine.\n\n.We then performed another test by changing RH08SF0976 to Custom:\n\nRH08SF0976 = Custom → Optimize → Transmit to NXTR → No Error\n\nWith the Custom setting, the machine could run normally.\n\n.Therefore, the error only occurred when RH08SF0976 was set to Standard, while the same job could run normally when it was set to Custom.\n\n.Could you please advise if there is any solution or remedy available for this issue?\n\nIf you need the job file, trace log, or any additional information for further investigation, please let us know and we will provide it.\n\nThank you very much for your support.\n\nBest regards,\n\nNguyen Anh",
+        "FMV PIC": "Nguyen Anh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rGHGYA2"
+    },
+    {
+        "DATE": "2026-09-15T14:26:16+00:00",
+        "CC NUMBER": "CC-0079513",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Request for Investigation: NXTR Error 8F5A and Nozzle Allocation Issue._調査依頼：NXTRエラー8F5Aおよびノズル割り当ての問題。[NXTR-S]",
+        "Communication Content": "Dear Amano Toru\n\nThank you for your investigation and explanation.\n\n.Regarding your question, we would like to confirm that the job was not optimized with RH08SF0976 set to Standard and then changed back to Custom before transmission.\n\n.When the issue occurred, RH08SF0976 was set to Standard, and the actual sequence was:\n\nRH08SF0976 = Standard → Optimize → Data Check OK → Transmit to NXTR → Error 8F5A\n\n.After Optimize, we did not change the Nozzle Type or any other related settings before transmitting the job to the machine.\n\n.We then performed another test by changing RH08SF0976 to Custom:\n\nRH08SF0976 = Custom → Optimize → Transmit to NXTR → No Error\n\nWith the Custom setting, the machine could run normally.\n\n.Therefore, the error only occurred when RH08SF0976 was set to Standard, while the same job could run normally when it was set to Custom.\n\n.Could you please advise if there is any solution or remedy available for this issue?\n\nIf you need the job file, trace log, or any additional information for further investigation, please let us know and we will provide it.\n\nThank you very much for your support.\n\nBest regards,\n\nNguyen Anh",
+        "FMV PIC": "Nguyen Anh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rGHGYA2"
+    },
+    {
+        "DATE": "2026-09-15T14:25:54+00:00",
+        "CC NUMBER": "CC-0079513",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Request for Investigation: NXTR Error 8F5A and Nozzle Allocation Issue._調査依頼：NXTRエラー8F5Aおよびノズル割り当ての問題。[NXTR-S]",
+        "Communication Content": "Amano Toru\n\nThank you for your investigation and explanation.\n\n.Regarding your question, we would like to confirm that the job was not optimized with RH08SF0976 set to Standard and then changed back to Custom before transmission.\n\n.When the issue occurred, RH08SF0976 was set to Standard, and the actual sequence was:\n\nRH08SF0976 = Standard → Optimize → Data Check OK → Transmit to NXTR → Error 8F5A\n\n.After Optimize, we did not change the Nozzle Type or any other related settings before transmitting the job to the machine.\n\n.We then performed another test by changing RH08SF0976 to Custom:\n\nRH08SF0976 = Custom → Optimize → Transmit to NXTR → No Error\n\nWith the Custom setting, the machine could run normally.\n\n.Therefore, the error only occurred when RH08SF0976 was set to Standard, while the same job could run normally when it was set to Custom.\n\n.Could you please advise if there is any solution or remedy available for this issue?\n\nIf you need the job file, trace log, or any additional information for further investigation, please let us know and we will provide it.\n\nThank you very much for your support.\n\nBest regards,\n\nNguyen Anh",
+        "FMV PIC": "Nguyen Anh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rGHGYA2"
+    },
+    {
         "DATE": "2026-09-15T13:26:08+00:00",
         "CC NUMBER": "CC-0080483",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
