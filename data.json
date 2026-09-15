@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-15T05:35:43+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Nguyen Thong-san\n\nWe are currently checking with the design team.\n\nPlease wait for a while.\n\nCall center Amano",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
+        "DATE": "2026-09-15T05:21:15+00:00",
+        "CC NUMBER": "CC-0080461",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_LCR counting and display incorrect_[NXTIII]",
+        "Communication Content": "Nguyen Linh-san\n\nThe issue is a discrepancy in the component count, correct?\n\nHave you been able to narrow down the conditions, such as which component it occurs with or which slot it occurs in?\n\nIf you have identified the conditions, please collect several trace logs for a single board and report:\n\n・The production information\n\n・The amount of discrepancy between the actual count and the production information\n\nThis information will help us investigate the cause of the issue.\n\nCall center Amano",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019WOZNYA4"
+    },
+    {
         "DATE": "2026-09-15T03:41:56+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
