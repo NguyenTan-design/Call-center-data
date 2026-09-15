@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-15T20:38:25+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nOf course, depending on the shape of the parts, I think there are cases where it might work out by chance.\n\nHowever, please bear in mind that even in that case, it is merely a matter of chance.\n\nAs I mentioned in my previous comment, please be fully aware that this involves certain risks.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
+        "DATE": "2026-09-15T20:25:41+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Pham Duc-san\n\nI'm sorry I haven't been able to update this.\n\nーー\n\nThe log you sent last time didn't contain the necessary information. (*Sorry, my instructions were incorrect.)\n\nIf the issue occurs again, could you please capture the logs once more by following the steps below?\n\n1：Date and time when the recurrence status was confirmed\n\n2：If known, the date the SQL Server (FIREPORT) and SQL Server (SQLEXPRESS) services were last restarted\n\n3：On the system server PC\n\n→NeximLog　（\\Nexim\\Common\\Data\\Trace）\n\n→Launch NeximLogUtility on the System server PC and back up the \"FIDB\".　（\\Nexim\\Common\\bin\\NeximLogUtility.exe）\n\n→Windows Event Log (System + Application)\n\nOpen the Event Viewer on your PC, and export the “Application” and ‘System’ logs from Windows Logs using the “Save all events as” option.\n\n4：On the Line server PC\n\n→NeximLog　（\\Nexim\\Common\\Data\\Trace）\n\n→Launch NeximLogUtility on the Line server PC and back up the \"PronaviDB\".　\n\n→Windows Event Log (System + Application)\n\nOpen the Event Viewer on your PC, and export the “Application” and ‘System’ logs from Windows Logs using the “Save all events as” option.\n\nーー\n\nLet me just confirm one thing.\n\nRegarding the issue where “SQL Server (FIREPORT)” temporarily recovers when restarted:\n\nDoes this mean you verified this on the SystemServerPC?\n\nBased on the report, it appears that either FICS or FIDB stops running after a certain amount of time. It’s also possible that the PC’s load is having an impact.\n\nSo this time, I also requested that the Windows event logs be collected.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-09-15T18:14:10+00:00",
         "CC NUMBER": "NEW:CC-0082754",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
