@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-15T07:09:56+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano-san,\n\nThanks for supported\n\nCC: If the LED brightness is low, please replace the light source (is that the camera as well?).\n\nFMV: How can you tell if an LED light has low brightness? please guider for us.\n\nCan we increase the brightness of the LED light? Please note that they using mark camera that support Supporting 1.5inch parts height.\n\nCC: What triggers this malfunction, and will replacing the nozzle station resolve it?\n\nFMV: We already change the nozzle station so many times, Sometimes it solve, sometimes it doesn't.\n\nWe suspect it is due to the focal length of the Mark camera. we try to lift up the nozzle changer and the error frequency has decreased.\n\nPlease guider for us how to calibration for the focal length of the Mark camera that support Supporting 1.5inch parts height type?\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-09-15T06:49:31+00:00",
         "CC NUMBER": "CC-0082712",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
