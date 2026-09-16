@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-16T12:50:46+00:00",
+        "CC NUMBER": "NEW:CC-0082807",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module does not automatically clear the Skip Board information after the Skip Board information has been cleared at the first module._[NXTR-S]",
+        "Communication Content": "Dear: Call Center.\n\nRecently, BYD Vietnam reported the following issue:\n\nAfter clearing all Skip Board information at the first module and resuming production, after the board was completed, some modules still displayed the Skip Board information on the screen.\n\nWe checked the “Skip Boards” section in Job Adjustment on the affected modules and found that the board was still marked as Skip Board. However, the board transferred from the previous module was still fully mounted and produced normally.\n\nAfter that, the Skip Board information must be manually cleared on that module.\n\nWe have collected the trace data and photos taken at the module. We would appreciate the Call Center’s assistance in analyzing this issue.\n\nThanks.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GFBvwYAH"
+    },
+    {
         "DATE": "2026-09-16T11:47:49+00:00",
         "CC NUMBER": "CC-0082754",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
