@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-16T15:03:47+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Very Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\n新しいトレース14日にアップデートしています。\n\n現在1日に4~5回発生しており、毎回装置再起動が必要です。\n\n来月より量産が始まる為、今月末までには原因の特定、修正が必要です。\n\nその為、至急確認をお願いいたします。今月末までに修正出来ない場合エスカレーションされる可能性は十分にあります。\n\nWe updated the new trace on the 14th.\n\nCurrently, this issue is occurring 4 to 5 times a day, and the machine must be restarted each time.\n\nSince mass production is set to begin next month, we need to identify the cause and fix the issue by the end of this month.\n\nTherefore, please investigate this immediately. If the issue cannot be resolved by the end of this month, there is a strong possibility it will be escalated.\n\nFMV 高津",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
         "DATE": "2026-09-16T13:38:16+00:00",
         "CC NUMBER": "NEW:CC-0082813",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
