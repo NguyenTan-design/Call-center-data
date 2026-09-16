@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-09-16T04:24:13+00:00",
+        "CC NUMBER": "CC-0080655",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Application error (Purple monitor) - 00EB0008_[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa san\n\nThanks for your explain. and after upgrade to new ver V2.2DBb, it not happen again. We can close this ticket\n\nThank you and Best Regards,\n\nTung-FMV",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019yyuyYAA"
+    },
+    {
+        "DATE": "2026-09-16T04:20:43+00:00",
+        "CC NUMBER": "CC-0080538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8DC50000 The part placement position in lane 2 exceeds the movement range (Y direction) for the robot. (Additional)_8DC50000 レーン2における部品の配置位置が、ロボットの可動範囲（Y方向）を超えています。（追加）[NXTR-S]",
+        "Communication Content": "Dear Mr. Moriya san\n\nWe got new nexim version V3.2.100. Customer will upgrade soon at 2nd factory. 1St factory already install it. We can close this ticket. if have any issue. we will raise CC again.\n\nThanks for your support\n\nTung-FMV",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019fMjhYAE"
+    },
+    {
+        "DATE": "2026-09-16T04:14:37+00:00",
+        "CC NUMBER": "CC-0079852",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Durring production -Application error ( Blue Screen)_生産中にブルースクリーン[NXTR-S]",
+        "Communication Content": "Dear Moriya-San\n\nAfter upgrade to new version V2.DBb, we monitor it, not happen again. We can close this ticket.\n\nThanks for your support\n\nTung-FMV",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017idfVYAQ"
+    },
+    {
+        "DATE": "2026-09-16T04:12:39+00:00",
+        "CC NUMBER": "CC-0079676",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine hangup when left robot error 8F1F- can not pull out module_左側ロボットがハングアップ、8F1Fが発生してモジュールアンクランプできない。[NXTR-S]",
+        "Communication Content": "Dear Moriya-san\n\nAfter upgrade new version and monitor. It not happen again. We can close this ticket\n\nThanks you for your support.\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017Gq4aYAC"
+    },
+    {
+        "DATE": "2026-09-16T04:09:53+00:00",
+        "CC NUMBER": "CC-0079066",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue sceen durring edit job_[NXTR-S]",
+        "Communication Content": "Dear Konda-San\n\nWe monitor it, it not happen again. We can close this ticker.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015kIEfYAM"
+    },
+    {
         "DATE": "2026-09-16T04:06:56+00:00",
         "CC NUMBER": "CC-0078592",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
