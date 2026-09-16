@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-16T11:47:49+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nThank you for your support.\n\nI would like to provide the information you requested:\n\nTime of occurrence: The job was edited on the machine at around 20:52 on September 15, 2026. The module hung up at around 20:55.\n\nI tried to recover the issue by pressing the Emergency Stop button, but there was no response. The issue was recovered after restarting the module.\n\nTrace data was collected at around 21:05 after restarting the module.\n\nTherefore, the issue occurred between approximately 20:52 and 21:05 on September 15, 2026.\n\nThe issue occurs randomly on some modules across the line and can occur with all jobs.\n\nFrequency: As a temporary solution, we reset the LCU service and update the job. However, after operating for some time, the issue occurs again.\n\nPlease check the trace data and advise us on the possible cause and solution.\n\nBest regards,\n\nFMV-Ha Ngoc Son",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
         "DATE": "2026-09-16T10:27:51+00:00",
         "CC NUMBER": "CC-0082740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
