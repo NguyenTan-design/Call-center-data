@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-16T04:06:56+00:00",
+        "CC NUMBER": "CC-0078592",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH02 head board damaged_RH02のヘッド基板が破損[NXTR-S]",
+        "Communication Content": "Dear Moriya san\n\nIf we find the reason and have improve for this component. we can close this ticket\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
+    },
+    {
+        "DATE": "2026-09-16T04:04:12+00:00",
+        "CC NUMBER": "CC-0077782",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_ZS axis error code 3A19_Zs軸の3A19エラー[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nThanks for your detail explain. We will explain it to customer. We can close it\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012GAszYAG"
+    },
+    {
+        "DATE": "2026-09-16T03:56:28+00:00",
+        "CC NUMBER": "NEW:CC-0082747",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Module NXTR-S can't teaching pickup position on feeder when reset feeder_[NXTR-S]",
+        "Communication Content": "Dear Callcenter\n\nWe're preparing modification for smart loader in customer Goertek U09(CC-0078949). Version 2.1Hzq will use for line 1 -NXTR-A\n\nThey have one line NXTR-S in line 2 which transfer from China and we already apply this version 2.1Hzq for line 2\n\nWhen we teaching feeder pickup position on module we can work normally but when we reset feeder then want to teaching again we can't do.Kindly refer the video attached for more details\n\nWe check other module in line 2 facing the same issue and all feeder type 8,12,16,24... is same\n\nWe change sleep mode then turn on operation box but this issue still happen.This issue only clear when we start production then stop and check teaching pickup position again.\n\nKindly refer the trace data in module 1 at 16h05 on 14-Sep-26\n\nIf you need more information, please let me know.\n\nThankyou !\n\nBr,\n\nVictor",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G5os5YAB"
+    },
+    {
         "DATE": "2026-09-16T03:39:30+00:00",
         "CC NUMBER": "CC-0082310",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
