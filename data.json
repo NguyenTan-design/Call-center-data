@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-16T13:38:16+00:00",
+        "CC NUMBER": "NEW:CC-0082813",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Machine Hang-Up During Fiducial Mark Recognition_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer, Hana Micron, is experiencing an issue where the machine hangs up during Fiducial mark recognition.\n\nThe issue occurred on Module 2-Right and happened multiple times between approximately 15:12 and 17:00.\n\nActions taken:\n\n1. We pressed Cycle Stop, but the machine generated the following error:\n\n   80003902 – Cycle stop time out\n\n2. After that, the machine generated the following errors:\n\n   8836D47B 10000006 – Vision processing system error\n\n   8CC41907 0000D060 – An error occurred during preparation for automatic operation.\n\n   We pressed Ready ON, but the errors could not be cleared.\n\n3. We reset the machine. After the reset, we pressed Start and confirmed the following:\n\n  -  Nozzle station mark recognition: OK\n\n  -  Rail conveyor mark recognition: OK\n\n  -  Feeder mark recognition: OK\n\n   However, the machine still hung up when performing Fiducial mark recognition on the PCB.\n\n4. We then went to:\n\n -   Job Adjustment → Edit Job → Mark Data\n\n -   We performed Test All Mark, and all Fiducial marks passed successfully.\n\n-   After performing this action, we pressed Start again, and the machine resumed normal production.\n\nI have attached the Trace data, Event Log, and a video showing the issue at approximately 16:58'\n\nCould you please analyze the data, identify the possible root cause, and advise us on how to resolve this issue and prevent it from recurring?\n\nIf you need any additional information or data for further investigation, please let me know.\n\nThanks and best regards,\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GHU03YAH"
+    },
+    {
         "DATE": "2026-09-16T12:50:46+00:00",
         "CC NUMBER": "NEW:CC-0082807",
         "Customer": "BYD Electronics Vietnam Company Limited]",
