@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-16T10:27:51+00:00",
+        "CC NUMBER": "CC-0082740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_8000D47B: An error occurred in the communication with the camera_8000D47B: カメラとの通信中にエラーが発生しました[NXTR-S]",
+        "Communication Content": "Dear Amano,\n\nThanks for your support.\n\nWe have sent the faulty head to the repair center for further inspection.\n\nWe will inform you once the cause has been identified.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G4bgoYAB"
+    },
+    {
+        "DATE": "2026-09-16T10:21:03+00:00",
+        "CC NUMBER": "CC-0082775",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Request to add a manual backup option for Nexim auto backup tool._Nexim自動バックアップツールに手動バックアップ機能を追加する要望[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the inquiry,\n\nAlthough, what is the function of manual backup with Auto Job Backup tool.\n\nFor the Auto Job Backup tool, there is function to backup only the changed Job only and no always all.\n\nIf the problem occurred at backup all Job, I think that customer could use that function.\n\nIs there any possibility to use backup only changed Job?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GABTXYA5"
+    },
+    {
         "DATE": "2026-09-16T09:27:46+00:00",
         "CC NUMBER": "CC-0082687",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
