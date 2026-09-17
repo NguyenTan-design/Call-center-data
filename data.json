@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-17T07:47:14+00:00",
+        "CC NUMBER": "NEW:CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, our customer is experiencing an issue when producing pair modules.\n\n  -For the 2R/2RV modules, a machine hang-out error occurs when adjusting the conveyor sensor on the left side. The issue can be recovered by pressing the EMG button and then pressing the Ready ON button.\n\n  -However, when we adjust the conveyor sensor on the right side first and then adjust the conveyor sensor on the left side, the machine hang-out error does not occur.\n\n The customer is using the following software versions:\n\nNEXIM: V3.2.100\n\nLCU: V2.35\n\nNXTR: V2.35.2\n\n  We have collected trace data and recorded a video of the phenomenon. Could you please help us analyze the data and identify the root cause of this issue?\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD"
+    },
+    {
         "DATE": "2026-09-17T07:04:39+00:00",
         "CC NUMBER": "CC-0081345",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
