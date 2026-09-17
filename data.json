@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-17T16:34:48+00:00",
+        "CC NUMBER": "CC-0079241",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_Issue with Data Synchronization Between AIMEXIIIc, AIMEX R and XPF in Nexim_AIMEXIII-XPF-AIMEXRのラインにて、AIMEXRでシェイプデータを機上編集し保存。 Neximへ反映後、XPFでも機上でシェイプデータを編集保存し、Neximへ反映すると、最初にAIMEXRで編集した内容が消えてしまっている[AIMEXR]",
+        "Communication Content": "Dear FMV-Duy-san\n\nI apologize for not having been in touch.\n\nThe design department is looking into this, but we have been informed that an immediate response will be difficult.\n\nHow does the customer currently feel about this issue?\n\nAccording to the designer, it is unclear whether the issue can be resolved within fiscal year 2026.\n\nPlease let us know your current situation.\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000164RDpYAM"
+    },
+    {
         "DATE": "2026-09-17T13:05:35+00:00",
         "CC NUMBER": "CC-0082775",
         "Customer": "JABIL VIETNAM CO., LTD.]",
