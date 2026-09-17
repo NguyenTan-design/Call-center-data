@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-17T11:17:32+00:00",
+        "CC NUMBER": "CC-0070534",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[JABIL VIETNAM CO., LTD.]_Concern the quality of Part number: PG00970_Part number: PG00970の品質についての懸念点[NXTIII]",
+        "Communication Content": "Dear Phương-san,\n\nWe are sending additional jigs.\n\nI expect they will arrive sometime next week.\n\nHere are the steps currently being followed at FUJI.\n\n1. First, insert the tip of the gasket using the jig plate (the one we sent this time) designed to guide the gasket tip into the sleeve. See: JIG.PNG\n\n2. Then, insert the jig bar (the one we sent in August) to correct any deformation of the inner diameter.\n\nPlease observe whether any damage occurs during this process.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Phuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000jAVeyYAG"
+    },
+    {
+        "DATE": "2026-09-17T11:06:43+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nPlease kindly check,\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-09-17T11:03:20+00:00",
+        "CC NUMBER": "NEW:CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._[NXTR-S]",
+        "Communication Content": "Dear CC team!\n\nIm Doanh from FMV , now We are  onsite production at Hana Micro company  !\n\nWe have done installation 2 line 17&18 for customer and onsetting production support.( NXTR S)\n\nNexim ver 3.2\n\nNXTR S :V2.2AK\n\nWe are facing When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions.\n\nThis issues frequently occurs on the 3 stack tray. KTTHA 000309,KTTHA 000307,KTTHA 000310.\n\nother stack tray sometime occurs that issues.\n\nAt line 15, 16 same config with stack tray but do not have same issues.\n\nAction:\n\n1. Adjust guide tray\n\n2.Adjust claim tray\n\nBut issues sometime still occurs.\n\nI'd like to send you the trace data which was acquired right after the issue occurred, job file, photo that I took as attached files\n\n1.Pls advice next action for me.\n\n2.Pls send to me  document about stack tray.",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-09-17T09:46:53+00:00",
         "CC NUMBER": "CC-0082790",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
