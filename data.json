@@ -1,5 +1,104 @@
 [
     {
+        "DATE": "2026-09-17T06:47:59+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your strong support,\n\nwe understood and will waiting next official conclusion from Fuji Japan.\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
+        "DATE": "2026-09-17T06:26:21+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear Terazawa Marie san\n\nI installed the version you provided on September 13, and I can now view the information on Fujiweb.\n\nI would like to continue monitoring it until the end of this month and will update you with the results afterward.\n\nThank you for your support.\n\nFMV-Chien!",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
+        "DATE": "2026-09-17T06:16:31+00:00",
+        "CC NUMBER": "CC-0077235",
+        "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT( VIET NAM) LIMITED]_Can not saving job when using on machine editing due to module alarm 6A030004_[NXTR-S]",
+        "Communication Content": "Dear Amano-san,\n\nI have confirmed with the customer regarding MPC02.\n\nThe customer may use MPC02 in the future, but at this time, there is no plan to use it yet. Therefore, I have agreed with the customer that the 4169_EnableMPC02_Patch is not required for the time being.\n\nSo, could you please send me the following items?\n\n① V2.2Bt\n\n② 5637_V3.1.0_NXTR_HighAccuracy_Optimizer_Patch\n\nThank you very much for your kind support and assistance.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010bg2zYAA"
+    },
+    {
+        "DATE": "2026-09-17T05:42:40+00:00",
+        "CC NUMBER": "CC-0082485",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Tray RM- can not cycle stop during Pickup check_[NXTR-S]",
+        "Communication Content": "Dear Tung-san,\n\nWe have received a response from our design team.\n\nA corrected version, V2.DBc, has been prepared to fix this issue.\n\nPlease apply V2.DBc and verify that the Cycle Stop function works correctly  during Tray RM pickup check.\n\nCould you please let us know the result once the verification is complete?\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FLK5sYAH"
+    },
+    {
+        "DATE": "2026-09-17T05:00:19+00:00",
+        "CC NUMBER": "CC-0082790",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Does the Zebra TC27 support Nexim?_[NXTR-S]",
+        "Communication Content": "Dear Li Zhong Miao\n\nThank you for your inquiry.\n\nUnfortunately, we have to inform you that NEXIM does not support the Zebra TC27.\n\nAs stated in the NEXIM manual, the supported PDA models are MC32N0, TC52X, and TC53.\n\nIf you have any further questions or concerns, please feel free to contact us.\n\nBest regards,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GCHHxYAP"
+    },
+    {
+        "DATE": "2026-09-17T04:57:04+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nWe are awaiting a final decision, but since this time the nozzle is not manufactured by FUJI and the specifications were set by the customer, FUJI does not have the details for that nozzle.\n\nTherefore, the response may be that since we cannot determine whether load control is possible with that nozzle, we are unable to configure it.\n\nPlease wait for our response to the customer, but I am letting you know this for your information.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
+        "DATE": "2026-09-17T04:38:17+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear FMV-Chien-san,\n\nIs there any update for this case?\n\n=============\n\nI have received the file. I will install it and let you know the result afterward.\n\nThank you for your strong support.\n\n=============\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
+        "DATE": "2026-09-17T04:14:20+00:00",
+        "CC NUMBER": "NEW:CC-0082845",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder W08T control board design question_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nCustomer performed internal investigation with Fuji W08T, they rise some question about W08T, please help to check the information:\n\nBackground : In customer site a large number of damaged W08T feeders occurred. They investigate the damaged control board and found below result :\n\nThere are 2 version of Fuji W08T control board\n\n1. Version 1\n\n=> Class : FH2510B0F  (Please check No.1 attached picture)\n\n=> in customer site, 159 pcs damaged feeder occurred only with this kind of control board\n\n=> The component that was damaged is in red square as customer investigation result (Please check No.2 attached  picture)\n\n2. Version 2\n\n=> Class : FH2510C0F (Please check No.3 attached picture)\n\n=> With this type of control board, no damaged feeder occurred\n\n=> Compare to board version 1, the component is changed as a capacitor in green square ((Please check No.4 attached picture))\n\nCustomer rise some questions, please help to check:\n\n1. What is different between to type of control board design\n\n2. Why Fuji supply 2 type of control board to luxshare D7, why not provide only board version 2. As customer 's opinion, all issue of feeder occurred with version 1\n\n3. How to handle this type of issue\n\nNote : Regarding to this issue. Before time, we rise the CC-0069740 and Fuji accept WR for 59 pcs feeder W08T control board, we also request customer to strictly follow the T24014, customer even purchase an OPCU unit to automatic rewind part reels to avoid the issue , but after that time, in customer site the damaged control board of feeder W08T issue still occur.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GMsCxYAL"
+    },
+    {
+        "DATE": "2026-09-17T02:24:24+00:00",
+        "CC NUMBER": "CC-0082813",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Machine Hang-Up During Fiducial Mark Recognition_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI have some additional information as follows:\n\nModule 2R intermittently generates error 88E5D47B 00000010\n\nI pressed Cycle Stop for approximately 10 seconds and collected the Trace data at around 08:58 AM (Filenname: Trace 17Sep2016)\n\nPlease check the attached  Trace data.\n\n Thanks!\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GHU03YAH"
+    },
+    {
+        "DATE": "2026-09-17T01:56:38+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nCustomer confirmed that error still occurred\n\nPlease check the trace: CFX TRACE 20260916.zip, and TrasationID issue 20260916.png for detail\n\nDate error: 16Sep2026\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-09-17T01:41:08+00:00",
+        "CC NUMBER": "CC-0080461",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_LCR counting and display incorrect_[NXTIII]",
+        "Communication Content": "Dear Amano Toru San!\n\nAfter 3 times reinstall Accessory software ver fit with NXT ver,and then reboot all Servers PC system,reboot all the machine also,\n\nEverything became to nomarlly\n\nPls help to close this ticket\n\nThank you so much!",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019WOZNYA4"
+    },
+    {
         "DATE": "2026-09-16T22:53:46+00:00",
         "CC NUMBER": "CC-0077235",
         "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
