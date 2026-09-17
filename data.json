@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-17T11:56:46+00:00",
+        "CC NUMBER": "CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Kha san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nIf you cannot take trace data due to production schedule, I would like to close this case for now.\n\nPlease kindly let me know.\n\nFUJI Toyama",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
+        "DATE": "2026-09-17T11:44:00+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nThis issue is related to Shuttle conveyor.\n\nSo what is the conclusion of changing previous conveyor?\n\nUntil the customer change the conveyor to dual and set the reading camera for each lane, this issue keep happen.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-09-17T11:17:32+00:00",
         "CC NUMBER": "CC-0070534",
         "Customer": "JABIL VIETNAM CO., LTD.]",
