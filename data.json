@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-17T09:15:57+00:00",
+        "CC NUMBER": "NEW:CC-0082877",
+        "Customer": "Hosiden Viet Nam Co.,Ltd]",
+        "TOPIC": "Urgent[Hosiden Viet Nam Co.,Ltd]_NXTR-S type using RM TRAY verify WITH DID_[NXTR-S]",
+        "Communication Content": "Dear Call center Teams!\n\nAt Hosiden VN customer now using: NXTR-S RM tray verify without DID\n\nBut auditor required to use:NXTR-S RM tray verify WITH DID\n\nStatus of DID code : 1 DID code have 2500pcs with alot of TRAYS\n\n-> They have 4 Panasonic Lines and :At Panasonic Lines,1 DID have 2500pcs with alot of Trays but machines countdown to zero and verify only 1 DID also,no error occures.\n\n-> Fuji machine absolutely different, 1 Tray using 1 DID code and i also set quantity 2500pcs(Part master and DID) but ran out of 1 Tray,verify again(1 DID code) and machine occurred error 003: Part may have run out.\n\n- It's mean 1 small TRAY need 1 DID codes,and cannot using with mass production,cause have alot of DID code\n\nAction : 1.Turn-on RM tray verify with DID\n\n2. Checkbox selected :Tray Package when make new DID ->same error\n\n3. try to using the same Stack tray but machine also not support\n\n4. Reboot the systems and machines also but cannot solved\n\nPlease help to advise: How can i setting the Fuji machine is the same Panasonic Lines?\n\nThank you so much!",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GRPrpYAH"
+    },
+    {
         "DATE": "2026-09-17T07:47:14+00:00",
         "CC NUMBER": "NEW:CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
