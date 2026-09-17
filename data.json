@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-17T13:05:35+00:00",
+        "CC NUMBER": "CC-0082775",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Request to add a manual backup option for Nexim auto backup tool._Nexim自動バックアップツールに手動バックアップ機能を追加する要望[NXTIII]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI mean a function similar to Data Backup of Flexa, but we can select specific groups to back up.\n\nIs there any possibility to use backup only changed Job?\n\n-.> The customer has not considered using this feature yet because they are currently facing issues with full backups and want to resolve this problem first. I will open a new ticket once I receive the relevant data from them regarding this matter.\n\nBest Regard,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GABTXYA5"
+    },
+    {
         "DATE": "2026-09-17T12:23:06+00:00",
         "CC NUMBER": "CC-0082491",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
