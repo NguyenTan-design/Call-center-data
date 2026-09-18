@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T10:47:03+00:00",
+        "CC NUMBER": "NEW:CC-0082945",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_Question about cassette feeder_[NXTR-A]",
+        "Communication Content": "Dear Callcenter\n\nOur customer Goertek U09 complain that the Cassette feeder W08, W04 in NXTR-A is thin and weak lead to bend easily\n\nThe cassette feeders used on the NXTR-A (W08 and W04) have a weaker feeder body and are more susceptible to bending compared with the W08F feeder. This deformation can cause the following issues:\n\nShort-term alignment stability: The cassette feeder can operate normally for only a short period before misalignment occurs, requiring recalibration.\n\nSmart Loader issue: The Smart Loader may be unable to pick up the cassette feeder when the feeder body is bent.\n\nCurrently, they separate more than 30 pcs cassette feeder warping after they use line NXTR-A 1.5 years(stuck on smart loader)\n\nCould you check with designer team for any solution to improve it in future ?\n\nWhat's action for repairing above NG cassette feeder ?\n\nKindly refer the video and image in attached file for NG cassette feeder\n\nIf you need more information, please let me know.\n\nThankyou !\n\nBr,\n\nVictor",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcNhrYAF"
+    },
+    {
         "DATE": "2026-09-18T10:06:32+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
