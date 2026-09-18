@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T13:58:12+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Dear Amano san!\n\n1.Could you please confirm whether the tray dimensions comply with the JEDEC standard by comparing them with the attached dimensions?   ->  I’m sending you the tray dimensions :\n\n                                                                                                         W= 136,15\n\n                                                                                                           Y= 322,72\n\n                                                                                                           Z= 7,6\n\n2.Also, could you check whether the tray is catching on any part of the guide mechanism? For both the feeder side and the tray side, please confirm whether stacked trays can be separated smoothly without excessive force.\n\nIn addition, please verify that a single tray can be separated properly and does not stick to the tray above or below it during dispensing.\n\n->We checked several times but did not find any obstruction to the trays.\n\nWe think that during the tray separation process , the tray may have been lowered unevenly , which occurs intermittently and is very difficult to track.\n\nThe trays are easily separated from each other.\n\n3.Could you provide a video showing the issue when it occurs?\n\n->Due to confidentiality regulations and the frequency of unexpected incidents, we cannot have a video.\n\n4.  Dear sir! How to check and calibration Stack tray? pls sen to me document.\n\nThank you!",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-09-18T10:47:03+00:00",
         "CC NUMBER": "NEW:CC-0082945",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
