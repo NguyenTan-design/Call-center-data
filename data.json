@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-18T02:52:19+00:00",
+        "CC NUMBER": "CC-0082687",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim 3.2.100 optimize issue_Nexim 3.2.100 最適化に関する問題[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your explain. With real production, it is confirmed that the nozzle exchange will be performed and nozzle 5.0 will be used.\n\nIn the same case of other nexim job, for the module that the exchange nozzle action will be perform, do we have any solution to quickly check it out. For above nexim job example, If we look only in nozzle station, we might not realize that the nozzle 5.0 will be use? The nozze station show that only nozzle 1.3, 1.8 will be used.\n\nAs my opinion, with this case if Nexim can show two type of nozzle config is better.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FwNERYA3"
+    },
+    {
+        "DATE": "2026-09-18T02:43:37+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nWe sincerely apologize for the delay.\n\nWe already application all the patch file follow CC-0076011\n\nWe are still waiting for a confirm the result from the customer for this issue.\n\nCustomer replied that will get back to us on next week.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-09-18T01:54:41+00:00",
         "CC NUMBER": "CC-0079816",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
