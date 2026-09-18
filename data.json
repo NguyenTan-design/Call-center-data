@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T15:52:30+00:00",
+        "CC NUMBER": "NEW:CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Communication Content": "During production, sometimes the monitor screen of the machine shows a very small image. This issue does not trigger an alarm, so the machine does not need to stop, but it affects the customer. Since the machine does not report any error, I sent the trace data from the period before and after the issue was detected. In addition, I also sent some related pictures taken when the issue occurred.",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-09-18T13:58:12+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
