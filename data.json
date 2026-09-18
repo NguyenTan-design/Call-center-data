@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T09:01:16+00:00",
+        "CC NUMBER": "CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_お客様は、RH20ヘッド用の生産データを最適化する際に、ノズルおよびホルダーの割り当てに関する問題を経験しています。[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen-san,\n\nWhen using a reduce nozzle operation, it is necessary to set nozzles as dummy nozzle even on the holders where no components will be mounted.\n\nThe usable nozzle type depends on the component size (more precisely, its diagonal dimension).\n\nFor the component in question, only nozzles with a diameter of 2.5 mm or smaller can be used. Therefore, a 3.7 mmnozzle cannot be used for this component.\n\nIf there is 20x 2.5mm nozzle, the optimization completed.\n\nIf there is only 3.7 nozzle, there is no dummy nozzle so it will error.\n\nWhen 9 pieces of φ3.7 nozzles and 2 other nozzles are installed in the nozzle station, optimization can be completed. A total of 11 nozzles are assigned to the head\n\n>> There are 2 Dummy nozzles and use 1 as dummy and optimization completed.\n\nWhen 9 pieces of φ3.7 nozzles and 11 other nozzles are installed in the nozzle station, optimization can also be completed. A total of 19 nozzles are assigned to the head\n\n>> There is dummy nozzle which could be set between the 9 x 3.7 mm nozzle so use 9 dummy to set on machine.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV"
+    },
+    {
         "DATE": "2026-09-18T08:54:57+00:00",
         "CC NUMBER": "CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
