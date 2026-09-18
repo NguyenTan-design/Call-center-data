@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T04:39:03+00:00",
+        "CC NUMBER": "CC-0082813",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Machine Hang-Up During Fiducial Mark Recognition_[NXTR-S]",
+        "Communication Content": "Dear Konda san\n\nI would like to confirm the following:\n\nCan the Marking Camera FPC (2EHEGL0007)  be used interchangeably between Module type 2R and 2RV?\n\nI checked the part list, but I could not find a separate part number for the Marking Camera FPC.\n\nCurrently, we have a  2RV Module at our office, so we would like to confirm the compatibility before performing a swap test of the Marking Camera FPC.\n\nCould you please confirm whether the Marking Camera FPC can be swapped between Module types 2R and 2RV?\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GHU03YAH"
+    },
+    {
         "DATE": "2026-09-18T04:09:25+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
