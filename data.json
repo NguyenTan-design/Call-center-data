@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T06:59:35+00:00",
+        "CC NUMBER": "CC-0082845",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder W08T control board design question_[NXTR]",
+        "Communication Content": "Dear Nguyen Tan san,\n\nThe issue with the W08t feeder is being tracked under CC-0069740.\n\nWhy was a new ticket number created?\n\nIf you agree, we close this ticket and continue to update the information in CC-0069740.\n\nKonda,",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GMsCxYAL"
+    },
+    {
         "DATE": "2026-09-18T06:14:37+00:00",
         "CC NUMBER": "CC-0082813",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
