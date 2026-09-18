@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-18T05:47:11+00:00",
+        "CC NUMBER": "CC-0082687",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim 3.2.100 optimize issue_Nexim 3.2.100 最適化に関する問題[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you\n\nPlease close the ticket\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FwNERYA3"
+    },
+    {
+        "DATE": "2026-09-18T05:36:26+00:00",
+        "CC NUMBER": "CC-0080878",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nThank you for continuing to follow up on this issue.\n\nPlease close this case. If the issue occurs again in the future, we will create a new case.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3"
+    },
+    {
+        "DATE": "2026-09-18T05:35:14+00:00",
+        "CC NUMBER": "CC-0082877",
+        "Customer": "Hosiden Viet Nam Co.,Ltd]",
+        "TOPIC": "Urgent[Hosiden Viet Nam Co.,Ltd]_NXTR-S type using RM TRAY verify WITH DID_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Xuan Linh\n\nThank you for your inquiry.\n\nWe have uploaded the operation manual [OPE-NKS-022E0] for your reference.\n\nCould you please confirm whether the function you would like to use is the one described in Chapter 5.4.2 “Managing based on packages”?\n\nIf so, please first refer to the manual and confirm that the function behavior and settings are correct for your intended operation.\n\nIf there are no issues with the behavior and settings, please provide us with the following data so that we can further investigate the situation:\n\n・NKS.config file\n\nC:\\Nexim\\Client\\Bin\\NKS.exe.config\n\n・System Layout setting output file\n\n・NEXIM Version.txt\n\nC:\\Nexim\\version\n\nAfter receiving the above information, we will check the settings and investigate the issue further.\n\nIf you have any other questions, please contact us at any time.\n\nBest regards,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GRPrpYAH"
+    },
+    {
         "DATE": "2026-09-18T04:56:12+00:00",
         "CC NUMBER": "CC-0082687",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
