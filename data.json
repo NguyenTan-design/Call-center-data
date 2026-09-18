@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-18T04:09:25+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Pham Doanh-san\n\nCould you provide a video showing the issue when it occurs?\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
+        "DATE": "2026-09-18T04:05:18+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Pham Doanh-san\n\nCould you please confirm whether the tray dimensions comply with the JEDEC standard by comparing them with the attached dimensions?\n\nAlso, could you check whether the tray is catching on any part of the guide mechanism? For both the feeder side and the tray side, please confirm whether stacked trays can be separated smoothly without excessive force.\n\nIn addition, please verify that a single tray can be separated properly and does not stick to the tray above or below it during dispensing.\n\nWe understand that Lines 15 and 16 are operating without issues; however, we would appreciate it if you could also verify these points for those lines.\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
+        "DATE": "2026-09-18T04:03:32+00:00",
+        "CC NUMBER": "CC-0082813",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Machine Hang-Up During Fiducial Mark Recognition_[NXTR-S]",
+        "Communication Content": "Dear FMV-Chien san,\n\nPlease check the FPC on the Mark camera according to the attached Excel file.\n\nIf no abnormalities are found in the connections or other components, please replace the following parts in the order listed below.\n\n・Marking Camera FPC (2EHEGL0007)\n\n・X-Axis Common Board (2AHESF0065)\n\n・Marking Camera\n\nKonda,",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GHU03YAH"
+    },
+    {
         "DATE": "2026-09-18T02:52:19+00:00",
         "CC NUMBER": "CC-0082687",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
