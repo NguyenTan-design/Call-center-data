@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-18T10:06:32+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Dear Amano san\n\nMy name is Chien, an engineer from FMV.\n\nToday, we performed the following actions:\n\nApplied additional grease and RP7 to the RETAINER areas of the Stacked Tray Feeder.\n\nChanged the Magazine speed setting from Standard to Low.\n\n→ Result: The issue still occurs intermittently.\n\nCurrently, the customer is dissatisfied because this issue is affecting IC quality and causing machine downtime.\n\nThe customer has requested that all Stacked Tray Feeder units with recurring issues be brought back to the FMV Office for inspection and repair. However, we currently do not have the inspection criteria or standard procedure for checking and calibrating these units.\n\nCould you please provide us with the inspection standards, checking procedures, and calibration documentation for the Stacked Tray Feeder?\n\nWe would greatly appreciate your earliest response and support.\n\nThank you!\n\nFMV-Chien",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-09-18T09:40:36+00:00",
         "CC NUMBER": "CC-0082813",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
