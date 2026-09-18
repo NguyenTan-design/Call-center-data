@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-09-18T08:54:57+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI understood the situation and thank you very much for the reference manual.\n\nI will perform installation in customer site and update latter\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-09-18T08:47:01+00:00",
+        "CC NUMBER": "CC-0080790",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU NPI Server Service Stopped Unexpectedly – Error 1053_LCU NPIサーバーサービスが予期せず停止しました（エラー1053）[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh-san,\n\nIs there any update for this case?\n\nCould we close the case?\n\n=================\n\nWe have installed them and the LCU is currently working well.\n\nWe will continue to monitor it.\n\n=================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aaq8MYAR"
+    },
+    {
+        "DATE": "2026-09-18T08:46:40+00:00",
+        "CC NUMBER": "NEW:CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_[NXTR-S]",
+        "Communication Content": "Dear Fuji Call Center,\n\nI'm Minh from FMV. I'm supporting customer Goertek Smart Technology Vina at CEP A9-3F, Nam Son, Que Vo, Vietnam and facing issue with Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error\n\nI would like to ask about the following Nexim behavior.\n\nCase Information:\n\n- Nexim ver.: V3.2.21\n\n- NXTR ver.: V2.3Ps\n\n- DataCheck ver.: 0230\n\n- Job name: 205010200037-4.3-Cento MP-MLB_MPSM5_2026.9.17\n\n- Line: A9-LINE1\n\n- Machine: A9-LINE1-1R\n\n- Module: 1R | Slot 35\n\n- {AVL group}: {304001755092/5095}\n\n- Part Numbers in this AVL group:\n\n\t304001755092/5095\n\n\t304001755092\n\n\t304001755095\n\nThe root cause was that AVL group name {304001755092/5095} was defined with 3 Part Numbers: 304001755092/5095, 304001755092, and 304001755095. However, 304001755092 was missing from the Part Number list in the job.\n\nHowever, Optimize completed successfully without any warning, while Data Check later showed only “Internal Processing error.”\n\nCould you please clarify:\n\n1. Optimize: What does Optimize check/process? Why can Optimize complete successfully without detecting that 304001755092, which is defined in the AVL group, is missing from the job?\n\n2. Data Check: Data Check reports only “Internal Processing error”, which makes the root cause very difficult to identify. Is there any way to identify the actual cause or improve the error information in this situation?\n\nI have attached the Nexim log, job file, and screenshots for your reference.\n\nCould you please clarify these two points?\n\nThank you for your support.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
+        "DATE": "2026-09-18T08:40:55+00:00",
+        "CC NUMBER": "CC-0082845",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder W08T control board design question_[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nMy apology, I though the CC-0069740 is closed after long time and made this inquiry to inform situation.\n\nPlease close this ticket and continue to update the information in CC-0069740.\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GMsCxYAL"
+    },
+    {
         "DATE": "2026-09-18T07:29:36+00:00",
         "CC NUMBER": "CC-0080185",
         "Customer": "JABIL VIETNAM CO., LTD.]",
