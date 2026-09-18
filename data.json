@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-18T07:29:36+00:00",
+        "CC NUMBER": "CC-0080185",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The configuration in job does not match with system layout._ジョブ内の構成がシステムレイアウトと一致していません。[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThere is no update since 2026-08-19 and almost 1month past.\n\nIs there any update for this case?\n\nIf there is no update until the September 25th, we would like to close the case automatically\n\nand ask to open the new case with DB/logs when problem reoccurred.\n\n===================\n\nWe reconfirm the NeximDB and confirmed that all 1,178 jobs (Top and Bottom counted separately) associated with the B2-Line06A line are configured as Right-Left.\n\nTherefore, no issues were found.\n\nPlease monitor and acquire the DB and logs once the problem reoccurred.\n\n===================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018fo0XYAQ"
+    },
+    {
+        "DATE": "2026-09-18T07:25:33+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Tan-san,\n\nThank you for the update.\n\nNoted for your situation.\n\nWe do not have plan to release the manual officially but we have the manual for your reference only.\n\nPlease find attached manual to share.\n\nPlease note that this is the reference manual and not officially supported which should not be share with customer but to use for your reference only.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
         "DATE": "2026-09-18T06:59:35+00:00",
         "CC NUMBER": "CC-0082845",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
