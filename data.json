@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-18T22:36:58+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Communication Content": "Dear Doan Nhon-san\n\nI have a few questions.\n\n・Does this happen all the time?  Or does it sometimes display normally and other times look like this?\n\n・Are there any issues during startup when you turn on the machine, or with the normal production screen?\n\nDoes this happen only when the Vision Process Monitor is displayed?\n\n・Is this happening in a specific module? Or is it happening in multiple modules?\n\n・Is there any other detailed information, such as whether the issue is resolved after a restart?\n\nーー\n\nThe design department will investigate the situation.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
+        "DATE": "2026-09-18T22:30:47+00:00",
+        "CC NUMBER": "NEW:CC-0082961",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim V3.2.100 – Vision Test Part Outline Issue_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nWhile using the Vision Test function in Nexim V3.2.110, we encountered an issue where the part outline does not fit the image correctly, although the Vision processing result is OK. The part can still run normally on the production line. We also checked the same part image using Nexim V3.1.105, and the issue did not occur.\n\nThis case may be similar to CC-0078884.\n\nCould you please confirm whether we can obtain the 5680_V3.2.0_Plan_Patch for LiteOn using Nexim V3.2.110?\n\nThank you for your support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GerDeYAJ"
+    },
+    {
         "DATE": "2026-09-18T15:52:30+00:00",
         "CC NUMBER": "NEW:CC-0082959",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
