@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-19T02:57:31+00:00",
+        "CC NUMBER": "CC-0082877",
+        "Customer": "Hosiden Viet Nam Co.,Ltd]",
+        "TOPIC": "Urgent[Hosiden Viet Nam Co.,Ltd]_NXTR-S type using RM TRAY verify WITH DID_[NXTR-S]",
+        "Communication Content": "Dear 柯麒(Ka Ki) San!\n\nAfter refer the documents,i see what customers wanna to using is : 5.4.2 Managing based on packages:\n\nThe same DID(Serial number) is assigned to each tray from the same tray package\n\nBut need to Optional funtions that can be used by this management method(requires separate licenses)\n\nPlease help to advise :How to setting Nexim system to using this Optional funtions\n\nAnd what kind of licenses to require?\n\nThank you so much!",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GRPrpYAH"
+    },
+    {
+        "DATE": "2026-09-19T02:50:49+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Hamamoto-san\n\nThank for your update.\n\n1：Date and time when the recurrence status was confirmed\n\n→ Please refer to the attached video(Merry_ Nexim report.mp4). It appears that the last data received was at 10:28 AM on September 14.\n\n2：If known, the date the SQL Server (FIREPORT) and SQL Server (SQLEXPRESS) services were last restarted\n\n→ On September 13, we upgraded Nexim from version 3.2.21 to version 3.2.110. This was the most recent time the SQL Server services were restarted, as they were restarted together with Windows during the upgrade.\n\nI have collected the trace data according to your instructions. Please refer to the attached file “20260918_Nexim trace.zip.”\n\nResetting SQL Server (FIREPORT) on both the Line Server PC and System Server PC can temporarily resolve the issue on some lines. I also tried delete and recreate ProNaviDB, but after some time, the issue of no data in the Nexim Report occurred again.\n\nThank you\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-09-19T01:43:44+00:00",
         "CC NUMBER": "CC-0082175",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
