@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-19T13:17:22+00:00",
+        "CC NUMBER": "NEW:CC-0082981",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_FLP not change status when camera scan panel ID , board not transfer to machine_[NXTIII]",
+        "Communication Content": "Dear call center ,\n\nAfter turn-off profiler for bypass test on Line 6 , FLP encountered an error that can not change status when camera scan panel ID .It lead to panel can not be transfered to machine from shuttle conveyor . For details , please refer to video and trace data that is attached .\n\nPlease help us analyze for root cause . Thank you !",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GihcIYAR"
+    },
+    {
         "DATE": "2026-09-19T10:28:39+00:00",
         "CC NUMBER": "CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
