@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-19T10:28:39+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nBase on reference manual, below item need to prepare :\n\nRequired items\n\n1. Oracle 19c Database Standard Edition (19.3.0.0)\n\n2. Database Release Update 19.10.2.0.0\n\n3. Oracle OPatch 12.2.0.1.24\n\n4. Computers with Red Hat Enterprise Linux 8.3 64-bit installed\n\nAs above, can you provide the item 2 (Database Release Update 19.10.2.0.0 for Linux ) and 3 (Oracle OPatch 12.2.0.1.24 for Linux)\n\nAppreciate your prompt help\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-09-19T10:23:29+00:00",
+        "CC NUMBER": "NEW:CC-0082975",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8F5A error when load job from Nexim_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI have met this issue today as below:\n\nDuring production normally, But customer need modify something (No change nozzle in the nozzle setup of module 2), About 15:20 the Job was optimize and data check OK.  They wait Module 1 unload all PCB and transmit job again via Nexim at 15:26. Job was load successfully to all module. but when start production, error 8F5A happen at module 2R. Actually, The nozzle still on the Head, remove Nozzle by manual and start again, The conveyor error 0788 at module 1 and 0783 at module 2, check detail find out the PCS is between 2 module. we try few time still error. So we have to remove all panel, optimize JOb and re sent to machine via nexim. Issue was solve.\n\nI take trace data, nexim version.txt and JOb file. please help me analyst this issue.\n\nNote: Nexim 3.1.105, machine version 2.CMn\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
+    },
+    {
         "DATE": "2026-09-19T04:12:31+00:00",
         "CC NUMBER": "NEW:CC-0082964",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
