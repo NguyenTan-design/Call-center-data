@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-19T03:19:47+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nI have some updates regarding this issue.\n\nWhen using the OCPU to remove components from the 8T feeder, I noticed that excessive tension on the cover tape appears to be the cause of the “Feeder with red LED” error.\n\nBefore the 8T feeder starts operation, does it check its condition by moving backward slightly?\n\nIf so, is it possible to disable this function when using the OCPU?\n\nCould you please help me confirm the above requirements?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-09-19T02:57:31+00:00",
         "CC NUMBER": "CC-0082877",
         "Customer": "Hosiden Viet Nam Co.,Ltd]",
