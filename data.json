@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-19T01:35:51+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Communication Content": "Dear Mr. Takeshi,\n\n1. As I mentioned above, this issue occurs only several times a week. When it happens, we restart the machine, and then it works normally again.\n\n2. During the startup process, we did not see any problems. This issue happened only when we used Vision Process Monitor to check the recognized parts. Besides this, other functions on the control panel operated normally.\n\n3. This happened only on this module. This line includes 15 modules, but the others did not have a similar error.\n\n4. Yes, when we got this issue, so far we have restarted the machine to solve it.",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-09-19T01:08:37+00:00",
         "CC NUMBER": "CC-0080790",
         "Customer": "BYD Electronics Vietnam Company Limited]",
@@ -43423,14 +43432,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-09-19T01:35:51+00:00",
-        "CC NUMBER": "CC-0082959",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
-        "Communication Content": "Dear Mr. Takeshi,\n\n1. As I mentioned above, this issue occurs only several times a week. When it happens, we restart the machine, and then it works normally again.\n\n2. During the startup process, we did not see any problems. This issue happened only when we used Vision Process Monitor to check the recognized parts. Besides this, other functions on the control panel operated normally.\n\n3. This happened only on this module. This line includes 15 modules, but the others did not have a similar error.\n\n4. Yes, when we got this issue, so far we have restarted the machine to solve it.",
-        "FMV PIC": "Doan Nhon",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
     }
 ]
