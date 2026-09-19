@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-19T15:11:43+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nI would like to provide another update regarding the machine lag issue that occurred on September 19, 2026.\n\nLine 2 – Module 4\n\nAt 14:55, after the existing job had been deleted and a new program was downloaded to the machine, Module 4 became frozen and the screen started lagging.\n\nWe pressed the emergency button, but it had no effect.\n\nAt 14:59, we restarted the machine, and the freezing/lagging issue disappeared. The machine could then operate normally and production could continue.\n\nThis issue does not occur on any specific module and appears randomly.\n\nPlease check and advise us on the cause and solution.\n\nBest regards,\n\nFMV-Ha Ngoc Son",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
         "DATE": "2026-09-19T13:17:22+00:00",
         "CC NUMBER": "NEW:CC-0082981",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
