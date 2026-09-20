@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-20T07:07:13+00:00",
+        "CC NUMBER": "NEW:CC-0082987",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08- IPS mirror broken_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nYesterday night shift, We have met the issue with RH08 IPS as below detail:\n\nDuring production\n\n9/20/2026 0:04\tHPG2-NXTR12\t2-R\tMcAlarm\t\"ErrorCode: 93F10000 / SubErrorCode: 00000000 EN: Nozzle exchange error\n\nWe try to clean it and run again, 8403 error happen. so temporary exchange other head to production.\n\nAfter that, we find out the IPS mirror was broken like attach picture.\n\nWe investigate even log but not find any abnormal, no any warning feeder collision.\n\nCheck the IPS image at this time find out the abnormal image, see the image \"IPS VIEW 0h04m28\".\n\nI attach trace data. Please help us analyst how it broken, customer need the explanation for this case.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GlktnYAB"
+    },
+    {
         "DATE": "2026-09-19T15:11:43+00:00",
         "CC NUMBER": "CC-0082754",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
