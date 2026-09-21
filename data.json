@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-21T08:15:54+00:00",
+        "CC NUMBER": "NEW:CC-0083012",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Neotel Tower and DID information are not synchronize - Request show Shelf Name in Part Request list_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nLast time at customer Yaskawa I already finished setup connect Neotel tower and Nexim Part Request Service. Now I have two request want to ask.\n\n1. There are some DID still having few Remaining part and Shelf name still have Tower name so PRS always request to this DID when request to this Part Number (show in image). In PRS folder I have tried to run Refresher but it not help. Please advise how we can synchronize with Tower data or remove Shelf name in these DID. Now I have changed request highest DID Qty first but customer need lowest DID Qty first. I also discuss with them about auto delete old DID but they not sure is it able to delete this.\n\n2. Customer having two Tower and they want to request more information in Part Request list easier to determine requested DIDs location. Can you please update Nexim to show DID location (Shelf name or Shelf name + location) in Part Request list\n\nThanks and best regards,\n\nFMV-The",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr4wgYAB"
+    },
+    {
         "DATE": "2026-09-21T07:29:17+00:00",
         "CC NUMBER": "NEW:CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
