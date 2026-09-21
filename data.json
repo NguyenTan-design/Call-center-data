@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-21T07:09:00+00:00",
+        "CC NUMBER": "NEW:CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Call Center Team,\n\nOur customer has encountered the following two issues while using Nexim:\n\n1.Optimization error when using dual-module production:\n\nWhen running optimiza for dual-module production with the feeder Fixed existing feeders, an optimization error occurs.\n\n2.Operation history is not saved:\n\nWhen the customer modifies the Shape Data or placement coordinates, saves the changes, and then closes the JOB, the operation history is not recorded. After reopening the same JOB and checking the operation history, the customer found that these changes were not saved in the history.\n\nI have attached the following files for your reference:\n\nA screenshot of the error that occurred during optimization\n\noptimizaLOG.TXT\n\nThe JOB file\n\nThe Nexim version file\n\nA video with Shape data settings saved but no history records.\n\nplease help us analyze these issues and find a solution.\n\nThank you for your support.\n\nBest regards,\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-21T06:25:31+00:00",
         "CC NUMBER": "CC-0082981",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
