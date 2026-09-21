@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-21T07:29:17+00:00",
+        "CC NUMBER": "NEW:CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt customer Lite On, we are experiencing the following issue: during changeover, Feeder W08T automatically pitches the material reverse. I have captured the trace data when error occour at Module 1 and recorded a video of the current condition. Please help us check whether the cause is a bug or incorrect settings.\n\nThanks and best regards\n\nFMV-The",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
         "DATE": "2026-09-21T07:09:00+00:00",
         "CC NUMBER": "NEW:CC-0083007",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
