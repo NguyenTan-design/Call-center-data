@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-21T15:47:35+00:00",
+        "CC NUMBER": "CC-0079872",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module reported error 94810000: Failed to share information._[NXTR-S]",
+        "Communication Content": "Dear: Chi-San,\n\nI have replaced the LAN cable and checked the LAN hub between M19 and M18.\n\nWe will continue to monitor the situation.\n\nThank you for your support.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017lRt4YAE"
+    },
+    {
         "DATE": "2026-09-21T11:48:25+00:00",
         "CC NUMBER": "CC-0082485",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
