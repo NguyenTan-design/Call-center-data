@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T03:44:37+00:00",
+        "CC NUMBER": "CC-0082747",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Module NXTR-S can't teaching pickup position on feeder when reset feeder_[NXTR-S]",
+        "Communication Content": "Dear  Toyama san\n\nThankyou for update\n\nWe want Fuji to fix this issue based on current version 2.1Hzq due to if we upgrade version 2.35 we need to upgrade Nexim also and this version 2.1Hzq based on version 2.1Hn which we run stably in line 1 NXTR-A for long time\n\nAppreciate your support !\n\nBr,\n\nVictor",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G5os5YAB"
+    },
+    {
         "DATE": "2026-09-22T03:09:11+00:00",
         "CC NUMBER": "CC-0080886",
         "Customer": "BYD Electronics Vietnam Company Limited]",
