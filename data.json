@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T03:09:11+00:00",
+        "CC NUMBER": "CC-0080886",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module hung up during production after pressing the CYCLE STOP button._[NXTR-S]",
+        "Communication Content": "Dear Tu san\n\nI am sorry, I wrote wrong date as typo.(Actually we would like to check 11.August)\n\nWe checked log but there is no log when the issue happened.\n\nIs the issue still occurring?\n\nIf yes, could you please share the trace data when the issue happened?\n\nIt would be nice if you can take a trace data with longer time period.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
+    },
+    {
         "DATE": "2026-09-22T02:47:28+00:00",
         "CC NUMBER": "CC-0082747",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
