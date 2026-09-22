@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-22T02:47:28+00:00",
+        "CC NUMBER": "CC-0082747",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Module NXTR-S can't teaching pickup position on feeder when reset feeder_[NXTR-S]",
+        "Communication Content": "Dear Victor san\n\nThank you very much for the inquiry.\n\nWe got same inquiry and implement improvement for this case to V2.35 as standard.\n\nCould you please consider to upgrade  based on V2.35?\n\nIf you can upgrade to based on V2.35, we will make custom software version for this customer based on V2.35 which is including special features based on V2.1H*.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G5os5YAB"
+    },
+    {
+        "DATE": "2026-09-22T02:43:15+00:00",
+        "CC NUMBER": "CC-0082987",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08- IPS mirror broken_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung-san\n\nAs you mentioned, a 93F1 error occurred at “September 20, 2026, 12:04 a.m.” (*Exchanging the nozzles failed).\n\nDo you have any records of the machine’s status at that time?\n\nDo you have any records of the condition of the area around the IPS unit or the state of the nozzles?\n\nWas Module 2-R operating normally right up until this error occurred?\n\nAt what times are the machine traces collected?\n\nI would like to know the operational status of the M2-R right up until just before the accident.\n\n「September 19, 2026, 11:30 PM – September 20, 2026, 12:30 AM」\n\nCould you please retrieve the trace again during this time period?\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GlktnYAB"
+    },
+    {
         "DATE": "2026-09-22T02:30:08+00:00",
         "CC NUMBER": "CC-0078771",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
