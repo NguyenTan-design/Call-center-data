@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T07:33:45+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "Dear FMV-Long-san,\n\nThe patch had been ready and send through file transfer system.\n\n======================\n\n1005_LCUPatch_NXTR_OnMcEdit_SaveDialogInoperable_forV2.31.zip\n\nlongnt@fuji-smt.com.sg\n\nDownloadnPW\t: \"TAHxKrZR\"\n\nZIPfile open PW\t: \"VB78azEg\"\n\n======================\n\nAs for the Problem#2, the trigger is the Problem#1 so at first, we would like to ask to apply this patch and monitor whether the Problem#1/2 will reoccurred.\n\nAnd if the Problem#2 occurred even the Problem#1 solve, we would like to open new case and investigate.\n\nIn that case, could you acquire the log again and open new case?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
         "DATE": "2026-09-22T07:17:22+00:00",
         "CC NUMBER": "CC-0083012",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
