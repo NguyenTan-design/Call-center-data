@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-22T09:26:03+00:00",
+        "CC NUMBER": "CC-0082658",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_87B2D7DB Automatic backup pin mark reading error_[NXTR-S]",
+        "Communication Content": "Dear Bui Dung san,\n\nRequired parts for 1 Robot Dual lane and 2 Robot Dual lane are as follows:\n\n＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊\n\n2MHECA049701  Plate  4 pcs\n\n2MHECA049801  Plate  4 pcs\n\nK67501  Screw + Washer  M02.5×006  16 pcs\n\nK5357L  Hex Head Screws with Socket Head  M03×006    16 pcs\n\n＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊\n\nKonda,",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FtJFNYA3"
+    },
+    {
+        "DATE": "2026-09-22T09:26:02+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Li Miao-san\n\nThis inquiry includes two separate issues.\n\n1：Optimization Error\n\n2：JOB change history is not being recorded\n\nFor cases management purposes, please limit it to one ticket per case.\n\nIn this CC-0083007, we will address “1: Optimization Error.”\n\nーー\n\nRegarding “2: JOB change history is not being recorded,” please create a new ticket.\n\nWhen doing so, please provide the following information in detail. (*The details were not clear in the video.)\n\n・Details of the Changes Made\n\n・Detailed Steps\n\n・After the issue occurs, please attach the log file located at the path below.\n\n\\Nexim\\Common\\Data\\Trace\n\nAccording to that video, it appears that there are some records of changes.\n\nDoes that mean that no changes are currently being logged, no matter what I do?\n\nDoes that mean even the fact that I “saved the JOB” isn’t being logged?\n\nPlease create a new ticket along with this information.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-22T07:33:45+00:00",
         "CC NUMBER": "CC-0078635",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
