@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T05:47:09+00:00",
+        "CC NUMBER": "CC-0083012",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Neotel Tower and DID information are not synchronize - Request show Shelf Name in Part Request list_Neotel TowerとDID情報が同期されていないため、部品要求（Part Request）リストに棚名（Shelf Name）を表示してほしい[NXTR-S]",
+        "Communication Content": "Dear FMV-The-san,\n\nThank you for the inquiry.\n\n1. There are some DID still having few Remaining part and Shelf name still have Tower name so PRS always request to this DID when request to this Part Number (show in image).\n\n>> The above means that the DID qty remain in NKS but there is no more actual Reel and data remain inside the Tower?\n\n       So only the DID data remain in NKS side only?\n\n In PRS folder I have tried to run Refresher\n\n>> As informed in previous CC-0078808, the Regresher could not be used as mentioned in manual.\n\nSo the below operation had been informed.\n\n========================\n\nRegarding Parts that have already been received, when using the Neotel Tower interface,\n\nthe PRS Refresh function cannot be used (please refer to Note 1 in Section 1.8.4 of the manual).\n\nRequired Action\n\nPlease perform either option ① or ② below:\n\n① Move the existing .ETN files from the output folder to the notify folder in chronological order (oldest files first).\n\nThe .ETN files will be automatically deleted after they are processed by PRS.\n\n② Delete all .ETN files currently stored in the output folder and then receive the parts into the tower again.\n\n=======================\n\n2. Customer having two Tower and they want to request more information in Part Request list easier to determine requested DIDs location. Can you please update Nexim to show DID location (Shelf name or Shelf name + location) in Part Request list\n\n>> What does the above means? The location is mentioned in Shelf name.\n\n      Is the above means that customer would like to handle the multiple Tower with different name?\n\n      If yes, I believe that it is possible by divide and purchase the license for each tower for Nexim side.\n\n      Or it is other meaning?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr4wgYAB"
+    },
+    {
         "DATE": "2026-09-22T05:31:16+00:00",
         "CC NUMBER": "CC-0082584",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
