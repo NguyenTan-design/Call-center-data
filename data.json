@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T12:33:46+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "Dear Bui san,\n\n2. We inspected the Mark camera assembly and found a screw stuck on the surface of the Light source board. Please refer to the attached photo (Image 1).\n\n-->We cannot find out Image 1. Please attached it again.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
         "DATE": "2026-09-22T11:50:27+00:00",
         "CC NUMBER": "NEW:CC-0083064",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
