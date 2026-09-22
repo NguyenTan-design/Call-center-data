@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-22T06:56:27+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear FMV-DUC-san\n\nLooking at the system layout, I noticed that the FICS server name was missing from all the lines.\n\nThis refers to the “Floor Control Server” field in the system layout lines.\n\nAs it stands, it’s impossible to tell where FICS is located.\n\nPlease configure the Floor Control Server settings and restart all PCs.\n\nJust to be sure, please check again to make sure the system layout, shared paths, account settings, and other configurations are correct.\n\nPlease refer to the manual to verify and apply all settings (* on the System Server PC, and Line Server PC).\n\nFor verification purposes, please obtain the following information:\n\nC:\\Nexim\\Server\\Ini\\FIFloorCtrl.ini\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-09-22T05:47:09+00:00",
         "CC NUMBER": "CC-0083012",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
