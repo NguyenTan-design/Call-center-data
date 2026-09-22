@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-22T02:16:10+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nUnfortunately, the factory engineer reported that a similar error occurred last weekend.\n\nWe replaced the three harness connecting from the Part camera to the CPU. Afterward, we power-cycled the unit five or six times, and the error did not recur. We will continue to monitor the machine's operation.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
+        "DATE": "2026-09-22T02:04:41+00:00",
+        "CC NUMBER": "CC-0082584",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR 2RV Module Does Not Place Components on PCB_[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nWe have just received NXTR software version 2.DMd to fix error 863C0000 (please refer to CC-0082175).\n\nFrequent software upgrades may cause interruptions to the customer’s production. Could you please help us integrate this issue fix into NXTR software version 2.DMd?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FbGsjYAF"
+    },
+    {
         "DATE": "2026-09-22T01:16:40+00:00",
         "CC NUMBER": "CC-0082175",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
