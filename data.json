@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-22T11:50:27+00:00",
+        "CC NUMBER": "NEW:CC-0083064",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_JOB change history is not being recorded_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nWhen a customer modifies shape data or placement coordinates, saves the changes, and closes the job, they find—upon reopening the same job to view the operation history—that these changes were not recorded in the history log.\n\nI have attached the trace data; please analyze it for us.\n\nBR\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GxXeBYAV"
+    },
+    {
+        "DATE": "2026-09-22T11:44:51+00:00",
+        "CC NUMBER": "CC-0082945",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_Question about cassette feeder_[NXTR-A]",
+        "Communication Content": "Dear Victor san\n\nThank you very much for the inquiry.\n\nI will check with designer team if there is any plan to improve it.\n\nOn the other hands, I am interesting how deformed happened on the feeder.\n\nCould you tell me about it?\n\nI have experience that one of the customer doesn't store the feeder properly and made same deformed.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcNhrYAF"
+    },
+    {
         "DATE": "2026-09-22T09:26:03+00:00",
         "CC NUMBER": "CC-0082658",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
