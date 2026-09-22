@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-22T05:28:00+00:00",
+        "CC NUMBER": "CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Communication Content": "Dear Thoi san\n\nSorry for keep you waiting.\n\nI sent countermeasure software(V2.DMe) via file transfer system.\n\nPlease kindly download it from the link with below password.\n\nDownload password     : \"ESCvrUKC\"\n\nUnzip password   : \"gnHb2KfB\"\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1"
+    },
+    {
+        "DATE": "2026-09-22T05:15:35+00:00",
+        "CC NUMBER": "CC-0082877",
+        "Customer": "Hosiden Viet Nam Co.,Ltd]",
+        "TOPIC": "Urgent[Hosiden Viet Nam Co.,Ltd]_NXTR-S type using RM TRAY verify WITH DID_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Xuan Linh\n\nThank you for your inquiry.\n\nThe Package Management for Parts (パッケージ管理部品)described in Chapter 5.4.2 is a basic function of NEXIM, so no additional license is required.\n\nRegarding the settings, when registering the part, you only need to check 「Tray Package」in the DID settings and Part Master.\n\nBased on the screenshots you provided, I noticed that　「Tray Size X」 and 「Tray Size Y」 do not seem to be configured.\n\nPlease note the following points:\n\n・When registering the 「Part Master」 and 「DID」, the quantity should be entered as the total quantity of parts in the entire package.\n\n・「Tray Size X」 and「Tray Size Y」 should be set to the number of parts contained in one tray.\n\nー＞For example, if the total quantity is 3,000 pcs, and one tray contains 100 pcs (10 × 10).Therefore, you should enter 10 for both Tray Size X and Tray Size Y and the package consists of 30 trays.\n\n・During actual production, when replacing an empty tray with a new tray, you should only need to scan the barcode on the package　for verification.\n\nIf you have confirmed that the above settings are correct but the issue still occurs, please send us the following files so that we can check your settings in more detail:\n\n・nks.config\n\n・PartMaster.xml\n\n・DID.xml\n\n・The barcode of the part for which you plan to use the Package Management function\n\nIf you have any further questions, please feel free to contact us.\n\nBest regards,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Linh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GRPrpYAH"
+    },
+    {
         "DATE": "2026-09-22T03:44:37+00:00",
         "CC NUMBER": "CC-0082747",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
