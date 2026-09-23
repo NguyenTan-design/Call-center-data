@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-23T07:57:49+00:00",
+        "CC NUMBER": "CC-0082775",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Request to add a manual backup option for Nexim auto backup tool._Nexim自動バックアップツールに手動バックアップ機能を追加する要望[NXTIII]",
+        "Communication Content": "Dear FMV-SON-san,\n\nI had confirmed internally but there is no such kind of Data Backup feature in Flexa.\n\nThe Flexa also does not support backing up jobs by group selection.\n\nThere are currently no plans to add such a feature.\n\nIf the requirement is to back up only a specific group of jobs rather than all jobs, please use the manual Job Export function in Job Management.\n\nIf the concern is that job backup (export) takes a long time, backing up the NeximDB may be a better option.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GABTXYA5"
+    },
+    {
         "DATE": "2026-09-23T07:12:09+00:00",
         "CC NUMBER": "CC-0083064",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
