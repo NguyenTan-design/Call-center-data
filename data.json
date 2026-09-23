@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-23T06:55:22+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "FMV-Chien san,\n\nBased on image 1.jpg, it appears possible that the screw caused a short circuit on the 24 V line.\n\nIf the 24 V line on this board is short-circuited, F2 (the Module Interface Board) will blow.\n\nWhen F2 has blown, 24 V power is no longer supplied to the X-axis board. As a result, issues such as Mark Camera Errors and Communication Errors can occur.\n\nDo you know where the cap screw that caused the problem came from? Has its origin been identified?\n\nIf the cap screw fell due to a loose fastener somewhere in the machine, it is important to locate the position where it became loose.\n\nIf no loose location can be found, another possibility is that the cap screw was accidentally dropped and left inside the machine during assembly at FUJI. Could you please let us know the size of the cap screw?\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
         "DATE": "2026-09-23T06:42:28+00:00",
         "CC NUMBER": "CC-0083007",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
