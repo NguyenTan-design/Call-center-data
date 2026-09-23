@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-23T06:42:28+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Hamamoto-san\n\nYes, you are right,the customer does not want to change this feeder setup. They might want to change to a nozzle type to a part number during production, but if the feeder is fixed, the optimization process will trigger an error.\n\nThank you\n\nBR\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-23T04:55:57+00:00",
         "CC NUMBER": "CC-0083064",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
