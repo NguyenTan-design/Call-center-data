@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-23T02:08:12+00:00",
+        "CC NUMBER": "NEW:CC-0083094",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Purple Screen Error When Using the Edit Cavity Pick Function for Stacked Tray Feeder_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer Hana Micron is experiencing an issue with an NXTR-S machine using two Stacked Tray Feeders on one Module.\n\nPhenomenon: The issue occurred at approximately 19:35–19:49\n\nWhen we accessed the following menu:\n\nJob Adjustment → Edit Job → Part Data → Pickup → Edit Cavity Pick\n\n=> A purple screen appeared.\n\nAction taken:\n\nWe restarted the machine.\n\nI have attached the Trace data and a video showing the issue when it occurred.\n\nPlease check the attached data and advise us on the cause and how to resolve this issue.\n\nIf you need any additional information, please let me know.\n\nThanks!\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gzj0DYAR"
+    },
+    {
         "DATE": "2026-09-23T00:40:29+00:00",
         "CC NUMBER": "CC-0083064",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
