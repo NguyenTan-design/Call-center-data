@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-23T02:50:57+00:00",
+        "CC NUMBER": "CC-0083064",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_JOB change history is not being recorded_JOBの変更履歴が記録されない[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san\n\nToday, We tried to update the JOB settings on all computers with Nexim within this layout.\n\nThe changes include the following Shape Data:\n\nBody Data X and Y\n\nPick Offset X and Y\n\nMove Part X and Y\n\nWe found that while job changes on the System Server PC are logged, four of the six Line Server PCs do not save records when job changes occur.Could you give us some suggestions?\n\nThank you for your support.\n\nBest regards,\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GxXeBYAV"
+    },
+    {
         "DATE": "2026-09-23T02:08:12+00:00",
         "CC NUMBER": "NEW:CC-0083094",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
