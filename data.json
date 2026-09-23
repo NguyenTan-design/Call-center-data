@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-23T04:42:14+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Li Miao-san\n\nAbout “1: Optimization Error”\n\nThe feeder status is set to “Fixed,” and feeder duplication has been applied. References have also been assigned.\n\nIf you enable “Re-position Nozzles and Feeders,” optimization will be possible.\n\nDoes the customer not want to change this feeder setup?\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
+        "DATE": "2026-09-23T04:39:24+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nJust for remind, can you please update this inquiry\n\nI update my action:\n\n1. Try to optimize with job SMT07-122-00PSE0-001H-T-MR-1.0-0+6-tray _ X6 ( with module 1 machine NXTR7-B head RH02 )\n\n2. Rail distance set to 610mm ( Please check attached picture )\n\n3. Production mode set to \" Same job both lane \" ( Please check attached picture )\n\n4. Optimize => Ok with no warning or error about 8DC50000 ( Please check optimize.log )\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-09-23T04:37:05+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_NXTR　TU-RMでトレイのネクストデバイスを設定している時、ピックアップの度にパレット入れ替えが入る[NXTR-S]",
+        "Communication Content": "Dear Quynh-san\n\nI apologize for not getting in touch sooner.\n\nRegarding this matter, we plan to release an updated version on September 25.\n\nWe will make improvements so that if a part runs out in one magazine, the part pickup process will not span across magazines.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
+    },
+    {
         "DATE": "2026-09-23T02:50:57+00:00",
         "CC NUMBER": "CC-0083064",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
