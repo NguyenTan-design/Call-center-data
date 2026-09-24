@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-24T07:58:49+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for providing the files.\n\nI checked the data, but unfortunately the logs required for analysis were not included.\n\nThe following items could not be found:\n\n- NeximDB logs\n\n- AccountManager.log\n\n- FcDBIFOperation_AccountManager.log\n\nCould you please collect the logs again by following the steps below?\n\n1. Change the DBIF logging level to DEBUG.\n\n   File:\n\n   Nexim\\Common\\Ini\\FcDBIFAccessConfig.xml\n\n2. Launch AccountManager on the PC where the issue occurs.\n\n3. Reproduce the issue.\n\n4. Immediately after the issue occurs, collect and send:\n\n   - D:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace\n\n   - D:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n   - C:\\Nexim\\Common\\Data\\Trace\n\nPlease make sure the following files are included in the Trace folder:\n\n- AccountManager.log\n\n- FcDBIFOperation_AccountManager.log\n\nAlso, please confirm that the DBIF logging level was successfully changed to DEBUG before reproducing the issue.\n\nIf any of the above files are not generated, please let us know.\n\nThank you for your cooperation.\n\nBR,\n\nAnri Ito",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
+        "DATE": "2026-09-24T07:56:03+00:00",
+        "CC NUMBER": "CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera cann...",
+        "Communication Content": "Dear Amano-san,\n\nThe machine is now operating stably after replacing the BOARD, PRINTED CIRCUIT (2AHEGL0010**) and the mark camera lighting cover assembly.\n\nPlease close the ticket\n\nThank you for your support.\n\nThank you and Br,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB"
+    },
+    {
         "DATE": "2026-09-24T07:40:23+00:00",
         "CC NUMBER": "CC-0082945",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
