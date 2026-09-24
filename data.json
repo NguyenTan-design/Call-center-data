@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-24T09:13:31+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi-san,\n\nWe have now collected the photos, trace data, and the exact time when error 8F5D0000, “Unable to return a nozzle to the nozzle station,” occurred.\n\nCould you please help us analyze the root cause of this error and advise us on how to resolve and prevent this issue from occurring again?\n\nBest regards,\n\nFMV-SON",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
         "DATE": "2026-09-24T07:58:49+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
