@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-24T07:23:36+00:00",
+        "CC NUMBER": "NEW:CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear call center\n\nAt Mitac customer meet issue: some time board can not move form conveyor to NXTR module 1. M2M no alarm, NXTR no alarm, so no one know and machine always waiting board. When they know, they only push cycle stop button and push start. After that board can move to NXTR module 1. This issue happened at almost line.\n\nI have take trace data at line 3, please help me investigate for solved this issue\n\nThanks\n\nDung FMV",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
+        "DATE": "2026-09-24T07:23:32+00:00",
+        "CC NUMBER": "NEW:CC-0083178",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mounter Machine – Hangup Error on Lane 1 Module 5 Line S05._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently experiencing the following issue on the mounter machine, Lane 1, Module 5, Line S05:\n\nIssue:\n\nA hangup error occurs\n\nThe machine only mounts components on Lane 2; Lane 1 does not mount components\n\nWorkaround observed:\n\nAfter a cycle stop, resetting the conveyor sensor and pressing Start causes Lane 1 to mount components normally again\n\nQuestions:\n\nWhat could be the possible cause of this error?\n\nWhy does resetting the sensor temporarily fix the issue (is it a sensor fault or something else)?\n\nCould you advise a permanent solution?\n\nHas this error already been fixed in version 2.DBc?\n\nIf not fixed in 2.DBc yet, could you please release a new version to fix it? Also, please release a new version for 2.CMn at the same time.\n\nThank you for your support, we look forward to your reply.\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HBPiSYAX"
+    },
+    {
         "DATE": "2026-09-24T07:08:56+00:00",
         "CC NUMBER": "CC-0082945",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
