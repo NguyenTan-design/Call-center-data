@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-24T07:40:23+00:00",
+        "CC NUMBER": "CC-0082945",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_Question about cassette feeder_[NXTR-A]",
+        "Communication Content": "Dear Toyama san\n\nGoertekU09は導入時から私も長い間訪問サポートしており、日本からの出張者も来ていただいておりました。\n\nまた、その時期に中国側で横置きで保管していた事で精度ずれが発生している可能性があると言う様な情報もあり、\n\nこちらではすべてフィーダーラックに保管しておりました。横置きでの保管は一度もありません。\n\nまた、以前片方のスマートローダーのチャックが曲がった？でフィーダー抜き取り、挿し時にエラーが散発して\n\n装置でチャックアンクランプして手でFeederを抜いていたこともあります。\n\nスマートローダーがエラー発生時は簡単に動かさない様に注意し、ギロチンとなったことはありませんが、\n\n上記対処時にだんだんと曲がってしまった可能性はあります。その為手で曲がりを治していたことも当時していました。\n\nどの様に曲がっているか説明するのは難しいですが、Feederを床に横向きで置いた際に、前後どちらかで隙間が出来て、全体的に変形しているようなイメージです。\n\nこちらの正式な修正,確認方法が知りたいです。\n\nFMV 高津",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcNhrYAF"
+    },
+    {
+        "DATE": "2026-09-24T07:37:26+00:00",
+        "CC NUMBER": "CC-0083178",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mounter Machine – Hangup Error on Lane 1 Module 5 Line S05._[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nI am sorry, I have some more comment.\n\nReset conveyor sensor is temporary. After few board, this issue happen again. So we have to reset machine. from reset machine, Issue no happen.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HBPiSYAX"
+    },
+    {
         "DATE": "2026-09-24T07:23:36+00:00",
         "CC NUMBER": "NEW:CC-0083179",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
