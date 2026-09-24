@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-24T02:11:01+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nWe checked the machine but have not found any location with a missing screw.\n\nThe screw uses a 2.0 mm hex key, and I could not find any marking on the screw body.\n\nPlease refer to the attached image named “Image-Screw.”\n\nThanks\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
+        "DATE": "2026-09-24T02:05:19+00:00",
+        "CC NUMBER": "CC-0082987",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08- IPS mirror broken_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san\n\nA: Do you have any records of the machine’s status at that time?\n\nDo you have any records of the condition of the area around the IPS unit or the state of the nozzles?\n\nWas Module 2-R operating normally right up until this error occurred?\n\nQ: Yes, Machine production normally before error happend.\n\nBecause of setting in the machine, we save IPS error only so I can not take OK IPS image. Only last image NG\n\nA: At what times are the machine traces collected?\n\n「September 19, 2026, 11:30 PM – September 20, 2026, 12:30 AM」\n\nCould you please retrieve the trace again during this time period?\n\nQ: At that time, Factory do not push cycle stop 10 s to collect trace data manually, So we get trace data via LCUweb again from \"September 19, 2026, 11:30 PM – September 20, 2026, 12:30 AM\". I attach this trace again.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GlktnYAB"
+    },
+    {
         "DATE": "2026-09-23T23:27:34+00:00",
         "CC NUMBER": "CC-0080670",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
