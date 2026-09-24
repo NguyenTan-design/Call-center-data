@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-24T14:12:43+00:00",
+        "CC NUMBER": "NEW:CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nContinue CC-0069618,\n\nThe Patch 4959_V2.7.0_Plan_Patch has been applied from 30-Apr-2026 ( please refer version.txt ), but it seems there have been no successful backups from that time until now.\n\nPlease advise which data is required for analysis ?\n\nThank you !\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-09-24T12:55:19+00:00",
         "CC NUMBER": "CC-0080185",
         "Customer": "JABIL VIETNAM CO., LTD.]",
