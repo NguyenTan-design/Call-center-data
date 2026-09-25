@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-09-25T03:10:41+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_NXTR　TU-RMでトレイのネクストデバイスを設定している時、ピックアップの度にパレット入れ替えが入る[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nThank you for your respone\n\nWe are waiting for update version.\n\nThanks!\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
+    },
+    {
+        "DATE": "2026-09-25T02:19:44+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nYou understood correctly.\n\nThank you!",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
+        "DATE": "2026-09-25T00:54:48+00:00",
+        "CC NUMBER": "CC-0077097",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Part camera MPC01 alarm error 8CDFD711, 85C60000_[NXTR-S]",
+        "Communication Content": "Dear Victor-san,\n\nThis is just for your information.\n\nAfter investigate problematic parts camera, we found that the issue due to our assembly production section.\n\nWe made report and attach it to ticket, also made countermeasure for this issue for the future.\n\nI close this case again.\n\nIf you have any question or concern, please let me know.\n\nThank you very much for your support.\n\nFUJI Toyama",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000109EJPYA2"
+    },
+    {
+        "DATE": "2026-09-25T00:34:33+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Binh san\n\nPlease update this tiket.\n\nThank you very much for your explanation.\n\nI understand that the operator should download the JOB on the machine, not from the Nexim.\n\nAnd engineer or manager at customer always send the JOB to the machine from the Nexim for reflecting changes.\n\nIs my understanding correct?\n\nChi/Fuji",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
+        "DATE": "2026-09-24T22:38:46+00:00",
+        "CC NUMBER": "CC-0077097",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Part camera MPC01 alarm error 8CDFD711, 85C60000_[NXTR-S]",
+        "Communication Content": "CS課 外山様\n\n英語版をアップ致します。\n\n※機械翻訳の参考資料です。必要に応じて文言修正願います。",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000109EJPYA2"
+    },
+    {
         "DATE": "2026-09-24T14:12:43+00:00",
         "CC NUMBER": "NEW:CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
