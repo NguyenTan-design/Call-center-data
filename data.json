@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-25T08:01:14+00:00",
+        "CC NUMBER": "NEW:CC-0083273",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_The machine cannot start due to an EB40 error during startup._装置立ち上げ時にEB40エラーだ立ち上がらない[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nTicket for WR application and record-keeping.\n\nAn EB40 error (subcode 0x00000001) occurred during machine startup, and\n\nthe error could not be cleared, resulting in a line stoppage.\n\nThe following components were swapped out and tested:\n\n・CPU Box → Faulty\n\n・Branch Slave → Faulty\n\n・Servo Box → Faulty\n\n・EtherCAT Slave Board (FW B) 2EHECE0016**\n\nReplaced these components and restored operation.",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HPnxkYAD"
+    },
+    {
         "DATE": "2026-09-25T07:21:16+00:00",
         "CC NUMBER": "CC-0082959",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
