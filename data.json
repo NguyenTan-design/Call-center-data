@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-25T07:05:54+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Communication Content": "Dear Call Center, Mr Hamatomo !\n\nThis issue occurred again this morning after 1 week that we reconnected the cables on Vision board, and our customer has requested an exact explanation.\n\nTherefore, could you please help us investigate this issue and provide us with more details?\n\nThank you for your support.\n\nBest regards,\n\nNhon Doan",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
+        "DATE": "2026-09-25T07:05:22+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "品質管理課御中\n\n新規据付のNXTR-S（1R）でマークカメラ異常、通信異常のエラーが発生。\n\n詳細状況及びエラーコードなどは設計依頼の報告を参照願います。\n\n添付画像image 1.jpgのようにキャップボルトが基板上に付着していることが確認できます。\n\n制御設計の見解としても、該当基板の24V短絡に起因するエラー内容でした。\n\n具体的にモジュールＩ／Ｆ基板のＦ２溶断が発生し、交換後に復旧しています。\n\nキャップボルトが緩んで落下したのか装置内を確認したが、該当箇所は見つかっていません。\n\n該当のキャップボルトは2mmレンチを使用。ネジ山には接着剤が確認できない。\n\n装置S/N：HEBE11 0005669\n\n稼働時間：277H\n\n生産部門へのフィードバック及び再発防止策をお願いします。\n\nCS池",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
         "DATE": "2026-09-25T06:34:49+00:00",
         "CC NUMBER": "CC-0083179",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
