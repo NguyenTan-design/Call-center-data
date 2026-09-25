@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-25T05:43:56+00:00",
+        "CC NUMBER": "NEW:CC-0083263",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_6A030016 error occurs during on-machine editing/Job saving_[NXTR]",
+        "Communication Content": "Dear call center\n\nOur customer Tonly VN facing the issue: 6A030016 error occurs during on-machine editing/Job saving after upgrade new version\n\nNexim version from Nexim 3.1.105 to Nexim 3.2.21\n\nNXTR version from 2.Chc to 2.31\n\nWe have found that have Software Notice: 2026-0170(A) for this issue, and already applied the patch: 5220_V3.2.0_Plan_Patch\n\nbut today the issue still happen.\n\nTo temporarily resolve this issue, we need to restart the DB service, Line server service, and LCU service\n\nCustomer unhappy for this\n\nDatabase Environment:\n\nNexim v3.2.21, NXTR v2.3.1\n\nSQL Server 2019\n\nPlease check the trace in attached file and analysis, then advice for us\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HOW9JYAX"
+    },
+    {
+        "DATE": "2026-09-25T05:43:33+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for the inquiry.\n\nI will ask to designer team to investigate M2M log first.\n\nWhen I checked log, I found that the time around 10:35 to 40 on 24.Sep takes time to transfer the PCB than other time.\n\nOn the other hands, there is not Archive file in the machine trace data.\n\nCould you please take a machine trace data with cycle stop long push after the phenomenon happen immediately?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-09-25T05:26:45+00:00",
         "CC NUMBER": "CC-0080021",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
