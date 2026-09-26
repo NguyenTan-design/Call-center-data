@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-26T04:34:45+00:00",
+        "CC NUMBER": "NEW:CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nIssue:\n\n- When the panel reaches the last module of Line 2, after the machine finishes component placement, the panel does not move out of the machine immediately.\n\nThe panel remains waiting inside the last module for about 20–40 seconds, and then it automatically moves out. During this waiting time, there is no clear alarm or error displayed on the machine.\n\nThe issue occurs intermittently. Sometimes the panel exits normally, but sometimes it has to wait for 20–40 seconds.\n\nAction:\n\n1. Restarted SECS/GEM→ the issue still occurred.\n\n2. Reset LCU→ the issue still occurred.\n\n3. Restarted the Base → the issue still occurred.\n\n4. Updated the Traceability Database and resumed production. The machine could run normally for a short period of time, but the same 20–40 second delay occurred again.\n\n- Please help analyze cause of this issue and advise how to resolve it.\n\nThank you for your support.\n\nFMV NAM",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
+        "DATE": "2026-09-26T04:32:21+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Li Miao-san\n\nReason for the optimization error in the “Fix Feeder” settings\n\n・This is because the feeder settings are configured in such a way that nozzle interference occurs between “the component with Ref. R0310 (component height: 0.4 mm)” and “the group of components with Ref. C0302, C0330, and C0331 (component height: 1.6 mm).”\n\n・According to the job change history, an optimization was performed on September 10 using the Feeder Fix settings.\n\nWe subsequently confirmed that on-machine edits were made on multiple occasions.\n\nIt is believed that the edits included changes that caused nozzle interference.\n\n【How to Handle It】\n\n・To successfully optimize the current job using “Fix” for the nozzle and feeder, please follow the steps below.\n\nOpen the shape data for the part in Slot 32 of Module 5 and configure it for placement using nozzle type “D36-025G-260.”\n\nAfter configuring the settings, run the optimization.\n\nPlease confirm the following two points.\n\n1: You optimized the job using “Feeder Fix” on September 10, but how did you optimize and create the job prior to that?\n\n2: What kind of on-machine edits are you performing after optimizing the job with “Feeder Fix” on September 10?\n\nAt this point, nozzle interference has begun to occur due to edits that change the nozzle being used, changes to part height, or changes to mounting coordinates.\n\nTherefore, we believe it is highly likely that this has caused an error during optimization.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-26T03:59:09+00:00",
         "CC NUMBER": "CC-0082933",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
