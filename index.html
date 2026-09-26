@@ -306,25 +306,9 @@
   /* --- Graph view layout --- */
   #graph-view { display: none; }
 
+  /* Graph toolbar removed its own title; kept only as spacing element. */
   .graph-toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 15px;
-    position: sticky;
-    top: var(--header-height, 60px);
-    z-index: 55;
-    background: #f5f5f5;
-    padding: 8px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
-  }
-
-  .graph-title {
-    margin: 0;
-    color: #333;
-    font-size: 18px;
+    display: none;
   }
 
   #graph-status {
@@ -340,10 +324,12 @@
     gap: 18px;
   }
 
+  /* Neutral grey look for Graph mode cards (matches Basic mode) */
   .chart-card {
-    background: #eceff1;
+    background: #fff;
+    border: 1px solid var(--border);
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
     padding: 16px;
   }
 
@@ -374,21 +360,35 @@
 
   .chart-svg-wrap svg { display: block; }
 
-  /* Pie chart slices are tappable: elevate with a 3D-ish drop shadow and
-     grow slightly when active; auto-reverts after 3s. */
+  /* --- 3D animated pie slices ---
+     Every slice continuously "floats" with a subtle scale + drop-shadow
+     so the pie looks 3D and alive right from the start. */
+  @keyframes sliceFloat {
+    0%   { transform: var(--base-rot, rotate(-90deg)) scale(1.00); filter: drop-shadow(0 2px 3px rgba(0,0,0,.25)); }
+    50%  { transform: var(--base-rot, rotate(-90deg)) scale(1.045); filter: drop-shadow(0 6px 8px rgba(0,0,0,.35)); }
+    100% { transform: var(--base-rot, rotate(-90deg)) scale(1.00); filter: drop-shadow(0 2px 3px rgba(0,0,0,.25)); }
+  }
+
   .chart-svg-wrap circle.pie-slice {
     cursor: pointer;
-    transition: transform .3s cubic-bezier(.34, 1.56, .64, 1),
-                filter .3s ease;
+    transform-box: fill-box;
+    animation: sliceFloat 3.6s ease-in-out infinite;
+    transition: filter .3s ease;
   }
+
+  /* Stagger each slice so they don't pulse in perfect sync */
+  .chart-svg-wrap circle.pie-slice:nth-of-type(odd)  { animation-delay: .5s; }
+  .chart-svg-wrap circle.pie-slice:nth-of-type(even) { animation-delay: 1.1s; }
 
   .chart-svg-wrap circle.pie-slice:hover {
-    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .3));
+    filter: drop-shadow(0 5px 8px rgba(0, 0, 0, .4));
   }
 
+  /* Active slice: freeze the float animation, lift more and pop the value */
   .chart-svg-wrap circle.pie-slice.active {
-    filter: drop-shadow(0 10px 14px rgba(0, 0, 0, .5))
-            drop-shadow(0 2px 4px rgba(0, 0, 0, .35));
+    animation-play-state: paused;
+    filter: drop-shadow(0 12px 16px rgba(0, 0, 0, .55))
+            drop-shadow(0 3px 5px rgba(0, 0, 0, .4));
   }
 
   /* Floating popup showing the tapped slice's value */
@@ -540,16 +540,15 @@
     .modal-box { max-height: 90vh; }
 
     .charts-grid { grid-template-columns: 1fr; }
-    .graph-toolbar { flex-direction: column; align-items: stretch; }
     .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
   }
 </style>
 </head>
 <body>
 
-<!-- Sticky header: title + mode toggle share one frame -->
+<!-- Sticky header: title (changes with mode) + mode toggle button -->
 <div class="sticky-header">
-  <h1>NA TEAM CC Management</h1>
+  <h1 id="page-title">NA TEAM CC Management</h1>
   <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
 </div>
@@ -588,10 +587,6 @@
 </div>
 
 <div id="graph-view">
-  <div class="graph-toolbar">
-    <h2 class="graph-title">Graph Mode - NA TEAM Overview</h2>
-  </div>
-
   <p id="graph-status">Loading graph data...</p>
 
   <div class="charts-grid">
@@ -624,6 +619,9 @@
   const NEW_KEYWORD = "new";
   const CONTENT_LABEL = "COMMUNICATION CONTENT";
   const SLICE_RESET_MS = 3000; // auto-revert pie slice after 3s
+
+  const TITLE_BASIC = "NA TEAM CC Management";
+  const TITLE_GRAPH = "Graph Mode - NA TEAM Overview";
 
   const COLUMNS = [
     { field: "DATE", label: "DATE" },
@@ -697,6 +695,7 @@
   const chartFmvInquiry = document.getElementById("chart-fmv-inquiry");
   const chartFmvRank = document.getElementById("chart-fmv-rank");
 
+  const pageTitle = document.getElementById("page-title");
   const stickyHeader = document.querySelector(".sticky-header");
   const sliceTooltip = document.getElementById("slice-tooltip");
 
@@ -850,6 +849,7 @@
     basicView.style.display = "block";
     graphModeBtn.style.display = "";
     basicModeBtn.style.display = "none";
+    pageTitle.textContent = TITLE_BASIC;
     resetSliceInteraction();
     updateHeaderOffset();
   }
@@ -860,6 +860,7 @@
     graphView.style.display = "block";
     graphModeBtn.style.display = "none";
     basicModeBtn.style.display = "";
+    pageTitle.textContent = TITLE_GRAPH;
     updateHeaderOffset();
 
     try {
@@ -1010,8 +1011,10 @@
       circle.setAttribute("stroke-dashoffset", String(-offsetAccum));
       circle.classList.add("pie-slice");
 
+      // Base rotation so 0% starts at 12 o'clock, shared with the CSS
+      // float animation via a custom property.
       circle.style.transformOrigin = `${cx}px ${cy}px`;
-      circle.style.transform = "rotate(-90deg)";
+      circle.style.setProperty("--base-rot", "rotate(-90deg)");
       circle.dataset.baseTransform = "rotate(-90deg)";
 
       circle.addEventListener("click", (evt) => toggleSlice(circle, slice, total, evt));
@@ -1042,12 +1045,11 @@
     return svg;
   }
 
-  // Tapping a pie slice pops it up (3D-ish elevation) and shows a popup
-  // with its value. It auto-reverts after 3s, or immediately if the user
-  // taps the same slice again or taps a different slice.
+  // Tapping a pie slice lifts it further (3D pop) and shows a popup with
+  // its value; auto-reverts after 3s, or immediately when the same slice
+  // is tapped again / another slice is tapped.
   function toggleSlice(circle, slice, total, evt) {
     if (activeSliceEl === circle) {
-      // Tapping the active slice again cancels the auto-revert and resets.
       clearSliceTimer();
       deactivateSlice(circle);
       return;
@@ -1061,11 +1063,11 @@
 
   function activateSlice(circle, slice, total, evt) {
     circle.classList.add("active");
-    circle.style.transform = `${circle.dataset.baseTransform} scale(1.10)`;
+    // Freeze float animation state and lift more for the "popped" look.
+    circle.style.transform = `${circle.dataset.baseTransform} scale(1.14)`;
     activeSliceEl = circle;
     showSliceTooltip(slice, total, evt);
 
-    // Auto-revert after 3s.
     clearSliceTimer();
     sliceResetTimer = setTimeout(() => {
       if (activeSliceEl === circle) {
@@ -1077,7 +1079,7 @@
 
   function deactivateSlice(circle) {
     circle.classList.remove("active");
-    circle.style.transform = circle.dataset.baseTransform || "";
+    circle.style.transform = "";
     if (activeSliceEl === circle) activeSliceEl = null;
     hideSliceTooltip();
   }
@@ -1093,7 +1095,7 @@
     clearSliceTimer();
     if (activeSliceEl) {
       activeSliceEl.classList.remove("active");
-      activeSliceEl.style.transform = activeSliceEl.dataset.baseTransform || "";
+      activeSliceEl.style.transform = "";
       activeSliceEl = null;
     }
     hideSliceTooltip();
