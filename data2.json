@@ -186,7 +186,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-09-18T10:47:03+00:00",
@@ -402,7 +402,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-07T12:29:09+00:00",
@@ -483,7 +483,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about part bottom 2D code check function_[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CcBHhYAN",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-08-23T05:54:48+00:00",
@@ -582,7 +582,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-08-17T13:18:47+00:00",
@@ -591,7 +591,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-17T07:46:01+00:00",
@@ -690,7 +690,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-12T09:39:20+00:00",
@@ -744,7 +744,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-06T03:23:01+00:00",
@@ -771,7 +771,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-05T01:31:36+00:00",
@@ -816,7 +816,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-08-03T08:22:55+00:00",
@@ -834,7 +834,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_[NXTR]",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-31T10:06:44+00:00",
@@ -879,7 +879,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-28T07:34:55+00:00",
@@ -1212,7 +1212,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_LINE NXTR (VS1-03) Module 1L - Feeder Information Not Detected When Replacing Component_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015v5zYYAQ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-09T07:44:24+00:00",
@@ -1311,7 +1311,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-04T03:12:06+00:00",
@@ -1347,7 +1347,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-02T13:26:40+00:00",
@@ -1743,7 +1743,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Machine AIMEXIII displayed Error 8000202F on Side 2 during operation_[AIMEXIII]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zv45RYAQ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-06-02T23:59:01+00:00",
@@ -1788,7 +1788,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The system was installed with Win11_24H2_Chinese_Simplified_x64.  After completing the Data Check, the report could not be opened._[Nexim]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zceFwYAI",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-06-01T04:35:38+00:00",
@@ -1959,7 +1959,7 @@
         "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request setting : Turn off operation of NXTR module tape cutter_[NXTR]",
         "Inquiry type": "11.Request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xeE5aYAE",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-05-20T08:03:18+00:00",
@@ -2211,7 +2211,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about RH28 placing head error code 0000B134_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-04-28T08:21:24+00:00",
@@ -2391,7 +2391,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Host error_[NXT]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sueqKYAQ",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-04-14T09:11:35+00:00",
@@ -4632,7 +4632,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Top cover of module NXTR-S was deformation, bending_[NXTR-S]",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S3aemYAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2025-08-21T16:20:34+00:00",
