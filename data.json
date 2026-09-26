@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-26T08:20:36+00:00",
+        "CC NUMBER": "CC-0082008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Purple screen on NXTR_[NXTR-S]",
+        "Communication Content": "Dear Cuong-san\n\nWhat is about this case?\n\nI write detail of this problem  follow .\n\nIf no recur, I will close it, is it agree?\n\n----------------------------------------\n\nThe issue was that the same barcode label was assigned to multiple part numbers, preventing the device from correctly referencing the job data.\n\nIn V2.30, we changed how data for some jobs is managed from a module-based system to a robot-based system, which caused exceptions to occur following the base version update.\n\nHowever, after consulting with the customer on-site, we determined that this job configuration was intentional on their part. Consequently, we released V2.DBb, which corrects the data management aspect, and are currently monitoring the situation.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001E2RjaYAF"
+    },
+    {
         "DATE": "2026-09-26T07:02:21+00:00",
         "CC NUMBER": "NEW:CC-0083285",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
