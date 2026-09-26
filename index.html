@@ -159,6 +159,15 @@
     overflow-wrap: break-word;
   }
 
+  /* Communication Content cells are clickable to reveal full text */
+  td[data-label="COMMUNICATION CONTENT"] {
+    cursor: pointer;
+  }
+
+  td[data-label="COMMUNICATION CONTENT"]:hover {
+    background: #e3f0fd;
+  }
+
   .action-btn {
     display: inline-block;
     background: var(--primary);
@@ -197,6 +206,73 @@
     opacity: .5;
   }
 
+  /* --- Communication Content modal --- */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+
+  .modal-overlay.show {
+    display: flex;
+  }
+
+  .modal-box {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--primary);
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .modal-header h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .modal-close {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 4px;
+  }
+
+  .modal-close:hover {
+    opacity: .8;
+  }
+
+  .modal-body {
+    padding: 16px 18px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+
   @media (max-width: 768px) {
     body { padding: 8px; }
 
@@ -219,6 +295,8 @@
     table { table-layout: fixed; }
     th, td { font-size: 9px; padding: 3px; }
     th { font-size: 10px; }
+
+    .modal-box { max-height: 90vh; }
   }
 </style>
 </head>
@@ -257,6 +335,16 @@
   </table>
 </div>
 
+<div id="content-modal" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h2>Communication Content</h2>
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+  </div>
+</div>
+
 <script>
 (() => {
   "use strict";
@@ -265,6 +353,7 @@
   const SEARCH_DEBOUNCE_MS = 200;
   const RESIZE_DEBOUNCE_MS = 150;
   const NEW_KEYWORD = "new";
+  const CONTENT_LABEL = "COMMUNICATION CONTENT";
 
   // Fields shown in each row, in column order, paired with the label
   // used both in <thead> and as each cell's data-label.
@@ -273,7 +362,7 @@
     { field: "CC NUMBER", label: "CC NUMBER" },
     { field: "Customer", label: "CUSTOMER" },
     { field: "TOPIC", label: "TOPIC" },
-    { field: "Communication Content", label: "COMMUNICATION CONTENT" },
+    { field: "Communication Content", label: CONTENT_LABEL },
     { field: "FMV PIC", label: "FMV PIC" }
   ];
 
@@ -297,6 +386,7 @@
   let allData = [];       // all records from data.json (with precomputed search fields)
   let filteredData = [];  // current filtered view
   let currentPage = 1;
+  let openContentCell = null; // the <td> currently shown in the modal, or null
 
   const filters = {
     cc: "",
@@ -317,6 +407,10 @@
   const natBtn = document.getElementById("filter-nat");
   const otherBtn = document.getElementById("filter-other");
   const clearBtn = document.getElementById("clear-filters");
+
+  const contentModal = document.getElementById("content-modal");
+  const modalBody = document.getElementById("modal-body");
+  const modalClose = document.getElementById("modal-close");
 
   init();
 
@@ -454,6 +548,45 @@
 
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
 
+  // --- Communication Content modal wiring ---
+  // Clicking a COMMUNICATION CONTENT cell opens the modal with its full
+  // text. Clicking that same cell again closes it (acts as a toggle).
+  tbody.addEventListener("click", (e) => {
+    const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
+    if (!td) return;
+    toggleContentModal(td);
+  });
+
+  modalClose.addEventListener("click", closeContentModal);
+
+  // Click on the dark backdrop (not the box itself) closes the modal.
+  contentModal.addEventListener("click", (e) => {
+    if (e.target === contentModal) closeContentModal();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && contentModal.classList.contains("show")) {
+      closeContentModal();
+    }
+  });
+
+  function toggleContentModal(td) {
+    if (openContentCell === td) {
+      closeContentModal();
+      return;
+    }
+    const valueEl = td.querySelector(".cell-value");
+    const fullText = (valueEl ? valueEl.textContent : td.textContent) || "(empty)";
+    modalBody.textContent = fullText;
+    contentModal.classList.add("show");
+    openContentCell = td;
+  }
+
+  function closeContentModal() {
+    contentModal.classList.remove("show");
+    openContentCell = null;
+  }
+
   function debounce(fn, delay) {
     let timer = null;
     return (...args) => {
@@ -480,6 +613,9 @@
   }
 
   function renderTable() {
+    // The modal, if open, refers to a <td> that is about to be replaced.
+    closeContentModal();
+
     const start = (currentPage - 1) * ROWS_PER_PAGE;
     const pageData = filteredData.slice(start, start + ROWS_PER_PAGE);
     const fragment = document.createDocumentFragment();
