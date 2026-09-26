@@ -303,23 +303,13 @@
 
   .mode-btn:hover { background: #24632a; }
 
-  /* Back button (used in Detail view) */
-  .back-btn {
-    flex: 0 0 auto;
-    padding: 10px 16px;
-    font-size: 14px;
-    font-weight: bold;
-    border: 1px solid #555;
-    border-radius: 6px;
-    background: #fff;
-    color: #333;
-    cursor: pointer;
-  }
-
-  .back-btn:hover { background: #ececec; }
-
   /* --- Graph view layout --- */
   #graph-view { display: none; }
+
+  /* Graph toolbar removed its own title; kept only as spacing element. */
+  .graph-toolbar {
+    display: none;
+  }
 
   #graph-status {
     font-size: 13px;
@@ -334,6 +324,7 @@
     gap: 18px;
   }
 
+  /* Neutral grey look for Graph mode cards (matches Basic mode) */
   .chart-card {
     background: #fff;
     border: 1px solid var(--border);
@@ -369,6 +360,8 @@
 
   .chart-svg-wrap svg { display: block; }
 
+  /* Pie chart slices are tappable: elevate with a 3D-ish drop shadow and
+     grow slightly when active; auto-reverts after 3s. No idle animation. */
   .chart-svg-wrap circle.pie-slice {
     cursor: pointer;
     transition: transform .3s cubic-bezier(.34, 1.56, .64, 1),
@@ -430,11 +423,6 @@
     font-size: 12.5px;
     color: #333;
     border-bottom: 1px solid #f0f0f0;
-    cursor: pointer;
-  }
-
-  .chart-legend li:hover {
-    background: #f0f6ff;
   }
 
   .legend-dot {
@@ -471,14 +459,6 @@
     gap: 10px;
     margin-bottom: 7px;
     font-size: 12.5px;
-    cursor: pointer;
-    padding: 2px 4px;
-    border-radius: 4px;
-    transition: background .15s ease;
-  }
-
-  .bar-row:hover {
-    background: #eef6ff;
   }
 
   .bar-label {
@@ -508,61 +488,6 @@
     text-align: right;
     color: #666;
     font-variant-numeric: tabular-nums;
-  }
-
-  /* --- Detail view (drill-down table) --- */
-  #detail-view { display: none; }
-
-  #detail-view .detail-toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 12px;
-  }
-
-  #detail-view .detail-info {
-    font-size: 14px;
-    color: #333;
-  }
-
-  #detail-view .detail-info strong {
-    color: var(--primary);
-  }
-
-  #detail-view .detail-count {
-    font-size: 12.5px;
-    color: #777;
-    margin-left: 8px;
-  }
-
-  #detail-view .table-wrapper {
-    height: calc(100vh - 210px);
-  }
-
-  #detail-view table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: auto;
-  }
-
-  #detail-view th,
-  #detail-view td {
-    font-size: 12.5px;
-    white-space: nowrap;
-    max-width: 320px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  #detail-view th {
-    position: sticky;
-    top: 0;
-    background: var(--primary);
-    color: #fff;
-    z-index: 10;
-    white-space: nowrap;
   }
 
   @media (max-width: 768px) {
@@ -602,8 +527,6 @@
 
     .charts-grid { grid-template-columns: 1fr; }
     .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
-
-    #detail-view th, #detail-view td { font-size: 10px; max-width: 180px; }
   }
 </style>
 </head>
@@ -660,23 +583,6 @@
   </div>
 </div>
 
-<!-- Drill-down detail view (used when clicking pie slices / bars) -->
-<div id="detail-view">
-  <div class="detail-toolbar">
-    <div class="detail-info">
-      <span id="detail-title">Detail</span>
-      <span id="detail-count" class="detail-count"></span>
-    </div>
-    <button id="detail-back-btn" class="back-btn" type="button">⬅ BACK</button>
-  </div>
-  <div class="table-wrapper">
-    <table>
-      <thead id="detail-thead"></thead>
-      <tbody id="detail-tbody"></tbody>
-    </table>
-  </div>
-</div>
-
 <div id="slice-tooltip" class="slice-tooltip"></div>
 
 <div id="content-modal" class="modal-overlay">
@@ -702,7 +608,6 @@
 
   const TITLE_BASIC = "NA TEAM CC Management";
   const TITLE_GRAPH = "Graph Mode - NA TEAM Overview";
-  const TITLE_DETAIL = "Detail records";
 
   const COLUMNS = [
     { field: "DATE", label: "DATE" },
@@ -768,7 +673,6 @@
 
   const basicView = document.getElementById("basic-view");
   const graphView = document.getElementById("graph-view");
-  const detailView = document.getElementById("detail-view");
   const graphModeBtn = document.getElementById("graph-mode-btn");
   const basicModeBtn = document.getElementById("basic-mode-btn");
   const graphStatus = document.getElementById("graph-status");
@@ -777,18 +681,12 @@
   const chartFmvInquiry = document.getElementById("chart-fmv-inquiry");
   const chartFmvRank = document.getElementById("chart-fmv-rank");
 
-  const detailTitle = document.getElementById("detail-title");
-  const detailCount = document.getElementById("detail-count");
-  const detailThead = document.getElementById("detail-thead");
-  const detailTbody = document.getElementById("detail-tbody");
-  const detailBackBtn = document.getElementById("detail-back-btn");
-
   const pageTitle = document.getElementById("page-title");
   const stickyHeader = document.querySelector(".sticky-header");
   const sliceTooltip = document.getElementById("slice-tooltip");
 
-  let activeSliceEl = null;
-  let sliceResetTimer = null;
+  let activeSliceEl = null;      // currently elevated <circle> or null
+  let sliceResetTimer = null;    // auto-revert timer for active slice
 
   init();
 
@@ -928,19 +826,12 @@
     document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
   }
 
-  // --- View switching (Basic / Graph / Detail) ---
+  // --- Graph mode / Basic mode switch ---
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
-  detailBackBtn.addEventListener("click", showGraphView);
-
-  function hideAllViews() {
-    basicView.style.display = "none";
-    graphView.style.display = "none";
-    detailView.style.display = "none";
-  }
 
   function showBasicView() {
-    hideAllViews();
+    graphView.style.display = "none";
     basicView.style.display = "block";
     graphModeBtn.style.display = "";
     basicModeBtn.style.display = "none";
@@ -951,7 +842,7 @@
 
   async function showGraphView() {
     closeContentModal();
-    hideAllViews();
+    basicView.style.display = "none";
     graphView.style.display = "block";
     graphModeBtn.style.display = "none";
     basicModeBtn.style.display = "";
@@ -998,62 +889,24 @@
     const totalNAT = natRecords.length;
     const totalAll = graphData.length;
 
-    // Chart 1: NA Open-Close Case — slices clickable → detail table
-    const onGoingRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "On Going");
-    const closedRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "Closed");
-    const otherStatusRecords = natRecords.filter(r => {
-      const s = (r["CASE STATUS"] || "").trim();
-      return s !== "On Going" && s !== "Closed";
-    });
-
+    const onGoing = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "On Going").length;
+    const closed = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "Closed").length;
+    const otherStatus = totalNAT - onGoing - closed;
     const openCloseSlices = [
-      {
-        label: "On Going",
-        value: onGoingRecords.length,
-        color: "#fb8c00",
-        records: onGoingRecords,
-        detailTitle: "NA Open-Close Case — On Going"
-      },
-      {
-        label: "Closed",
-        value: closedRecords.length,
-        color: "#43a047",
-        records: closedRecords,
-        detailTitle: "NA Open-Close Case — Closed"
-      }
+      { label: "On Going", value: onGoing, color: "#fb8c00" },
+      { label: "Closed", value: closed, color: "#43a047" }
     ];
-    if (otherStatusRecords.length > 0) {
-      openCloseSlices.push({
-        label: "Other / Unspecified",
-        value: otherStatusRecords.length,
-        color: "#bdbdbd",
-        records: otherStatusRecords,
-        detailTitle: "NA Open-Close Case — Other / Unspecified"
-      });
+    if (otherStatus > 0) {
+      openCloseSlices.push({ label: "Other / Unspecified", value: otherStatus, color: "#bdbdbd" });
     }
     renderPieCard(chartOpenClose, "NA Open-Close Case", openCloseSlices, totalNAT);
 
-    // Chart 2: NA Inquiry type — slices clickable → detail table
-    renderPieCard(
-      chartNaInquiry,
-      "NA Inquiry type",
-      buildInquirySlices(natRecords, "NA Inquiry type"),
-      totalNAT
-    );
-
-    // Chart 3: FMV Inquiry type — slices clickable → detail table
-    renderPieCard(
-      chartFmvInquiry,
-      "FMV Inquiry type",
-      buildInquirySlices(graphData, "FMV Inquiry type"),
-      totalAll
-    );
-
-    // Chart 4: FMV rank — bars clickable → detail table
+    renderPieCard(chartNaInquiry, "NA Inquiry type", buildInquirySlices(natRecords), totalNAT);
+    renderPieCard(chartFmvInquiry, "FMV Inquiry type", buildInquirySlices(graphData), totalAll);
     renderBarCard(chartFmvRank, "FMV rank", buildCustomerRank(graphData));
   }
 
-  function buildInquirySlices(records, chartTitle) {
+  function buildInquirySlices(records) {
     const counts = new Map();
     records.forEach(r => {
       const key = String(r["Inquiry type"] ?? "").trim() || "Unspecified";
@@ -1061,18 +914,7 @@
     });
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1])
-      .map(([label, value], i) => {
-        const matching = records.filter(
-          r => (String(r["Inquiry type"] ?? "").trim() || "Unspecified") === label
-        );
-        return {
-          label,
-          value,
-          color: CHART_PALETTE[i % CHART_PALETTE.length],
-          records: matching,
-          detailTitle: `${chartTitle} — ${label}`
-        };
-      });
+      .map(([label, value], i) => ({ label, value, color: CHART_PALETTE[i % CHART_PALETTE.length] }));
   }
 
   function buildCustomerRank(records) {
@@ -1082,17 +924,7 @@
       counts.set(key, (counts.get(key) || 0) + 1);
     });
     return [...counts.entries()]
-      .map(([label, value]) => {
-        const matching = records.filter(
-          r => (String(r["Customer"] ?? "").trim() || "Unknown") === label
-        );
-        return {
-          label,
-          value,
-          records: matching,
-          detailTitle: `FMV rank — ${label}`
-        };
-      })
+      .map(([label, value]) => ({ label, value }))
       .sort((a, b) => b.value - a.value);
   }
 
@@ -1169,8 +1001,6 @@
       circle.style.transform = "rotate(-90deg)";
       circle.dataset.baseTransform = "rotate(-90deg)";
 
-      // Click behaviour: first click pops the slice + tooltip; a second
-      // click on the same slice opens the drill-down detail table.
       circle.addEventListener("click", (evt) => toggleSlice(circle, slice, total, evt));
 
       svg.appendChild(circle);
@@ -1199,14 +1029,13 @@
     return svg;
   }
 
-  // Tapping a pie slice lifts it (3D pop) + shows a popup. Tapping the
-  // SAME slice again while it's active opens the drill-down detail table.
-  // Auto-reverts after 3s if not tapped again.
+  // Tapping a pie slice lifts it (3D pop) and shows a popup with its
+  // value; auto-reverts after 3s, or immediately when the same slice is
+  // tapped again / another slice is tapped.
   function toggleSlice(circle, slice, total, evt) {
     if (activeSliceEl === circle) {
-      // Second tap on the same active slice → open detail table.
       clearSliceTimer();
-      openDetailView(slice.detailTitle, slice.records);
+      deactivateSlice(circle);
       return;
     }
     if (activeSliceEl) {
@@ -1264,7 +1093,7 @@
     title.textContent = slice.label;
 
     const detail = document.createElement("span");
-    detail.textContent = `${slice.value} record (${pct.toFixed(1)}%) · tap again to view`;
+    detail.textContent = `${slice.value} record (${pct.toFixed(1)}%)`;
 
     sliceTooltip.append(title, detail);
 
@@ -1299,11 +1128,6 @@
     value.textContent = `${slice.value} (${pct.toFixed(1)}%)`;
 
     li.append(dot, label, value);
-
-    // Clicking a legend row also opens the drill-down table.
-    li.title = "Click to view records";
-    li.addEventListener("click", () => openDetailView(slice.detailTitle, slice.records));
-
     return li;
   }
 
@@ -1329,7 +1153,6 @@
     entries.forEach(entry => {
       const row = document.createElement("div");
       row.className = "bar-row";
-      row.title = `Click to view ${entry.value} record(s)`;
 
       const label = document.createElement("span");
       label.className = "bar-label";
@@ -1348,89 +1171,13 @@
       value.textContent = String(entry.value);
 
       row.append(label, track, value);
-
-      // Click on bar row → drill-down detail table.
-      row.addEventListener("click", () => openDetailView(entry.detailTitle, entry.records));
-
       list.appendChild(row);
     });
 
     container.appendChild(list);
   }
 
-  // --- Detail view (drill-down table) ---
-  // Builds a table using every column present in the given records
-  // (excluding internal __customer helper). Columns are derived from the
-  // union of keys so all records display consistently.
-  function openDetailView(title, records) {
-    detailTitle.textContent = title;
-    detailCount.textContent = `— ${records.length} record(s)`;
-    renderDetailTable(records);
-
-    closeContentModal();
-    resetSliceInteraction();
-    hideAllViews();
-    detailView.style.display = "block";
-    pageTitle.textContent = TITLE_DETAIL;
-    updateHeaderOffset();
-  }
-
-  function renderDetailTable(records) {
-    detailThead.replaceChildren();
-    detailTbody.replaceChildren();
-
-    if (!records || records.length === 0) {
-      const trHead = document.createElement("tr");
-      const th = document.createElement("th");
-      th.textContent = "(no columns)";
-      trHead.appendChild(th);
-      detailThead.appendChild(trHead);
-
-      const tr = document.createElement("tr");
-      tr.className = "empty-row";
-      const td = document.createElement("td");
-      td.textContent = "No records.";
-      tr.appendChild(td);
-      detailTbody.appendChild(tr);
-      return;
-    }
-
-    // Collect all keys from records, ignoring internal "__" fields.
-    const columnSet = new Set();
-    records.forEach(r => {
-      Object.keys(r).forEach(k => {
-        if (!k.startsWith("__")) columnSet.add(k);
-      });
-    });
-    const columns = [...columnSet];
-
-    // Header row
-    const trHead = document.createElement("tr");
-    columns.forEach(col => {
-      const th = document.createElement("th");
-      th.textContent = col;
-      th.title = col;
-      trHead.appendChild(th);
-    });
-    detailThead.appendChild(trHead);
-
-    // Body rows
-    const fragment = document.createDocumentFragment();
-    records.forEach(r => {
-      const tr = document.createElement("tr");
-      columns.forEach(col => {
-        const td = document.createElement("td");
-        const val = r[col];
-        td.textContent = val == null ? "" : String(val);
-        td.title = td.textContent;
-        tr.appendChild(td);
-      });
-      fragment.appendChild(tr);
-    });
-    detailTbody.appendChild(fragment);
-  }
-
-  // --- Communication Content modal wiring (Basic view) ---
+  // --- Communication Content modal wiring ---
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
     if (!td) return;
