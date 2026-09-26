@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-26T03:13:53+00:00",
+        "CC NUMBER": "NEW:CC-0083289",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Import shape data from another program_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nIn Flexa, when importing shape data from another program, the selection list displays images of the components, as shown in the two images I provided. This allows users to easily identify and select the correct components to import. However, in Nexim, when performing this operation, the component shape images are not displayed.\n\n-The customer requests that, when importing shape data in Nexim, the component shape images should also be displayed. Currently, the customer is using two versions of Nexim: Nexim 3.1.105 and Nexim 3.2.110\n\n-Please check the images and the version.txt file in the attachment. Please check the issue and provide patches for the two Nexim versions: Nexim 3.1.105 and Nexim 3.2.110.\n\nThanks and best regards!\n\nFMV-Vu Thien",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUNJZYA5"
+    },
+    {
         "DATE": "2026-09-26T01:58:12+00:00",
         "CC NUMBER": "CC-0082933",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
