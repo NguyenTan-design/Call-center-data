@@ -384,7 +384,6 @@
             drop-shadow(0 2px 4px rgba(0, 0, 0, .35));
   }
 
-  /* Floating popup showing the tapped slice's value */
   .slice-tooltip {
     position: fixed;
     transform: translate(-50%, -100%);
@@ -554,6 +553,7 @@
     max-width: 320px;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding: 6px 8px;
   }
 
   #detail-view th {
@@ -563,6 +563,46 @@
     color: #fff;
     z-index: 10;
     white-space: nowrap;
+  }
+
+  /* Narrow column for GO TO WEB / GO TO LINK */
+  #detail-view th[data-col-type="link"],
+  #detail-view td[data-col-type="link"] {
+    width: 70px;
+    max-width: 70px;
+    min-width: 70px;
+    text-align: center;
+    padding: 4px;
+  }
+
+  /* Highlighted (selected) row in the detail table */
+  #detail-view tbody tr.detail-row {
+    cursor: pointer;
+    transition: background .15s ease;
+  }
+
+  #detail-view tbody tr.detail-row.selected {
+    background: #e0e0e0 !important;
+    box-shadow: inset 4px 0 0 var(--primary);
+  }
+
+  #detail-view tbody tr.detail-row.selected td {
+    color: #111;
+  }
+
+  #detail-view .detail-link-btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #detail-view .detail-link-btn:hover {
+    background: var(--primary-dark);
   }
 
   @media (max-width: 768px) {
@@ -604,6 +644,10 @@
     .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
 
     #detail-view th, #detail-view td { font-size: 10px; max-width: 180px; }
+    #detail-view th[data-col-type="link"],
+    #detail-view td[data-col-type="link"] {
+      width: 60px; max-width: 60px; min-width: 60px;
+    }
   }
 </style>
 </head>
@@ -660,7 +704,7 @@
   </div>
 </div>
 
-<!-- Drill-down detail view (used when clicking pie slices / bars) -->
+<!-- Drill-down detail view -->
 <div id="detail-view">
   <div class="detail-toolbar">
     <div class="detail-info">
@@ -698,7 +742,7 @@
   const RESIZE_DEBOUNCE_MS = 150;
   const NEW_KEYWORD = "new";
   const CONTENT_LABEL = "COMMUNICATION CONTENT";
-  const SLICE_RESET_MS = 3000; // auto-revert pie slice after 3s
+  const SLICE_RESET_MS = 3000;
 
   const TITLE_BASIC = "NA TEAM CC Management";
   const TITLE_GRAPH = "Graph Mode - NA TEAM Overview";
@@ -741,6 +785,9 @@
 
   let graphData = null;
   let graphLoaded = false;
+
+  // Used to know which row is selected in the detail table (only one).
+  let selectedDetailRow = null;
 
   const filters = {
     cc: "",
@@ -928,7 +975,7 @@
     document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
   }
 
-  // --- View switching (Basic / Graph / Detail) ---
+  // --- View switching ---
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
   detailBackBtn.addEventListener("click", showGraphView);
@@ -998,7 +1045,6 @@
     const totalNAT = natRecords.length;
     const totalAll = graphData.length;
 
-    // Chart 1: NA Open-Close Case — slices clickable → detail table
     const onGoingRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "On Going");
     const closedRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "Closed");
     const otherStatusRecords = natRecords.filter(r => {
@@ -1033,7 +1079,6 @@
     }
     renderPieCard(chartOpenClose, "NA Open-Close Case", openCloseSlices, totalNAT);
 
-    // Chart 2: NA Inquiry type — slices clickable → detail table
     renderPieCard(
       chartNaInquiry,
       "NA Inquiry type",
@@ -1041,7 +1086,6 @@
       totalNAT
     );
 
-    // Chart 3: FMV Inquiry type — slices clickable → detail table
     renderPieCard(
       chartFmvInquiry,
       "FMV Inquiry type",
@@ -1049,7 +1093,6 @@
       totalAll
     );
 
-    // Chart 4: FMV rank — bars clickable → detail table
     renderBarCard(chartFmvRank, "FMV rank", buildCustomerRank(graphData));
   }
 
@@ -1169,8 +1212,6 @@
       circle.style.transform = "rotate(-90deg)";
       circle.dataset.baseTransform = "rotate(-90deg)";
 
-      // Click behaviour: first click pops the slice + tooltip; a second
-      // click on the same slice opens the drill-down detail table.
       circle.addEventListener("click", (evt) => toggleSlice(circle, slice, total, evt));
 
       svg.appendChild(circle);
@@ -1199,12 +1240,8 @@
     return svg;
   }
 
-  // Tapping a pie slice lifts it (3D pop) + shows a popup. Tapping the
-  // SAME slice again while it's active opens the drill-down detail table.
-  // Auto-reverts after 3s if not tapped again.
   function toggleSlice(circle, slice, total, evt) {
     if (activeSliceEl === circle) {
-      // Second tap on the same active slice → open detail table.
       clearSliceTimer();
       openDetailView(slice.detailTitle, slice.records);
       return;
@@ -1300,7 +1337,6 @@
 
     li.append(dot, label, value);
 
-    // Clicking a legend row also opens the drill-down table.
     li.title = "Click to view records";
     li.addEventListener("click", () => openDetailView(slice.detailTitle, slice.records));
 
@@ -1348,8 +1384,6 @@
       value.textContent = String(entry.value);
 
       row.append(label, track, value);
-
-      // Click on bar row → drill-down detail table.
       row.addEventListener("click", () => openDetailView(entry.detailTitle, entry.records));
 
       list.appendChild(row);
@@ -1358,10 +1392,13 @@
     container.appendChild(list);
   }
 
-  // --- Detail view (drill-down table) ---
-  // Builds a table using every column present in the given records
-  // (excluding internal __customer helper). Columns are derived from the
-  // union of keys so all records display consistently.
+  // --- Detail view ---
+  // Determines whether a column header should be rendered as a link
+  // (only the "GO TO WEB" / "GO TO LINK" column matches).
+  function isLinkColumn(colName) {
+    return /go\s*to/i.test(colName) && /web|link/i.test(colName);
+  }
+
   function openDetailView(title, records) {
     detailTitle.textContent = title;
     detailCount.textContent = `— ${records.length} record(s)`;
@@ -1378,6 +1415,7 @@
   function renderDetailTable(records) {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
+    selectedDetailRow = null;
 
     if (!records || records.length === 0) {
       const trHead = document.createElement("tr");
@@ -1395,7 +1433,7 @@
       return;
     }
 
-    // Collect all keys from records, ignoring internal "__" fields.
+    // Union of column keys across all records, skipping internal "__" fields.
     const columnSet = new Set();
     records.forEach(r => {
       Object.keys(r).forEach(k => {
@@ -1410,6 +1448,7 @@
       const th = document.createElement("th");
       th.textContent = col;
       th.title = col;
+      if (isLinkColumn(col)) th.dataset.colType = "link";
       trHead.appendChild(th);
     });
     detailThead.appendChild(trHead);
@@ -1418,16 +1457,59 @@
     const fragment = document.createDocumentFragment();
     records.forEach(r => {
       const tr = document.createElement("tr");
+      tr.className = "detail-row";
+
       columns.forEach(col => {
         const td = document.createElement("td");
+        if (isLinkColumn(col)) td.dataset.colType = "link";
+
         const val = r[col];
-        td.textContent = val == null ? "" : String(val);
-        td.title = td.textContent;
+
+        if (isLinkColumn(col)) {
+          // Render as an "Open" button linking to the URL.
+          const url = String(val ?? "").trim();
+          if (url && url !== "#") {
+            const link = document.createElement("a");
+            link.className = "detail-link-btn";
+            link.href = url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = "Open";
+            link.title = url;
+            // Prevent the row-level selection handler from firing
+            // when clicking the link itself.
+            link.addEventListener("click", (e) => e.stopPropagation());
+            td.appendChild(link);
+          } else {
+            td.textContent = "";
+          }
+        } else {
+          td.textContent = val == null ? "" : String(val);
+          td.title = td.textContent;
+        }
+
         tr.appendChild(td);
       });
+
+      // Row-level selection (gray highlight, one at a time).
+      tr.addEventListener("click", () => selectDetailRow(tr));
+
       fragment.appendChild(tr);
     });
+
     detailTbody.appendChild(fragment);
+  }
+
+  function selectDetailRow(tr) {
+    if (selectedDetailRow === tr) {
+      // Tapping the currently selected row deselects it.
+      tr.classList.remove("selected");
+      selectedDetailRow = null;
+      return;
+    }
+    if (selectedDetailRow) selectedDetailRow.classList.remove("selected");
+    tr.classList.add("selected");
+    selectedDetailRow = tr;
   }
 
   // --- Communication Content modal wiring (Basic view) ---
