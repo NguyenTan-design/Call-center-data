@@ -13,9 +13,9 @@
   :root {
     --primary: #1976d2;
     --primary-dark: #0d5db8;
-    --border: #55585e;
-    --row-alt: #2d2f33;
-    --row-hover: #3b4148;
+    --border: #ddd;
+    --row-alt: #fafafa;
+    --row-hover: #eef6ff;
     --cell-line-height: 1.4;
   }
 
@@ -25,66 +25,19 @@
     margin: 0;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    background: #303236;
-    color: #f2f2f2;
+    background: #f5f5f5;
   }
 
-  /* --- Fixed/sticky application header --- */
-  .app-header {
+  h1 {
     position: sticky;
     top: 0;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin: -15px -15px 15px;
-    padding: 10px 15px;
-    background: #24262a;
-    border-bottom: 1px solid #4a4d52;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .35);
-  }
-
-  .app-title {
-    margin: 0;
-    flex: 1 1 auto;
-    color: #fff;
-    font-size: 22px;
-    text-align: left;
-  }
-
-  .header-actions {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex: 0 0 auto;
-  }
-
-  .header-mode-btn {
-    padding: 9px 14px;
-    font-size: 13px;
-    font-weight: bold;
-    border: 1px solid #4d8fd8;
-    border-radius: 6px;
-    background: #1976d2;
-    color: #fff;
-    cursor: pointer;
-    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-  }
-
-  .header-mode-btn:hover {
-    background: #2687e8;
-    transform: translateY(-1px);
-    box-shadow: 0 3px 8px rgba(0,0,0,.3);
-  }
-
-  .header-mode-btn.secondary {
-    border-color: #5c9b62;
-    background: #2e7d32;
-  }
-
-  .header-mode-btn.secondary:hover {
-    background: #3d9142;
+    z-index: 60;
+    margin: 0 0 15px;
+    padding: 12px 0;
+    text-align: center;
+    color: #333;
+    background: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
   }
 
   .toolbar {
@@ -114,7 +67,7 @@
     cursor: pointer;
   }
 
-  .toggle-btn:hover { background: #454950; }
+  .toggle-btn:hover { background: #eaf3fd; }
 
   .toggle-btn.active {
     background: var(--primary);
@@ -133,7 +86,7 @@
   }
 
   #clear-filters:hover {
-    background: #454950;
+    background: #f0f0f0;
   }
 
   #status {
@@ -172,8 +125,8 @@
     vertical-align: top;
   }
 
-  tbody tr:nth-child(even) { background: #2d2f33; }
-  tbody tr:hover { background: #3b4148; }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  tbody tr:hover { background: var(--row-hover); }
 
   th:nth-child(1), td:nth-child(1) { width: 10%; }
   th:nth-child(2), td:nth-child(2) { width: 10%; color: red; font-weight: bold; }
@@ -323,7 +276,7 @@
     overflow-wrap: break-word;
     font-size: 14px;
     line-height: 1.5;
-    color: #e6e6e6;
+    color: #333;
   }
 
   /* --- Graph mode / Basic mode buttons --- */
@@ -379,7 +332,7 @@
   }
 
   .chart-card {
-    background: #3a3d42;
+    background: #eceff1;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
     padding: 16px;
@@ -412,71 +365,49 @@
 
   .chart-svg-wrap svg { display: block; }
 
-  /* Animated / interactive pie slices */
-  .chart-svg-wrap svg {
-    overflow: visible;
-    filter: drop-shadow(0 5px 8px rgba(0,0,0,.22));
-  }
-
+  /* Pie chart slices are tappable: elevate with a 3D-ish drop shadow and
+     grow slightly when active; tapping the same slice again reverts it. */
   .chart-svg-wrap circle.pie-slice {
     cursor: pointer;
-    transform-box: fill-box;
-    transform-origin: center;
-    transition:
-      transform .45s cubic-bezier(.2,.8,.2,1),
-      filter .45s ease,
-      opacity .25s ease;
-  }
-
-  .chart-svg-wrap circle.pie-slice.draw {
-    transition:
-      stroke-dasharray 1s cubic-bezier(.2,.75,.25,1),
-      transform .45s cubic-bezier(.2,.8,.2,1),
-      filter .45s ease;
+    transition: transform .25s ease, filter .25s ease;
   }
 
   .chart-svg-wrap circle.pie-slice:hover {
-    filter: drop-shadow(0 5px 7px rgba(0,0,0,.45));
+    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .3));
   }
 
   .chart-svg-wrap circle.pie-slice.active {
-    transform: scale(1.12);
-    filter:
-      drop-shadow(0 13px 7px rgba(0,0,0,.45))
-      drop-shadow(0 0 5px rgba(255,255,255,.18));
-    animation: piePop .45s ease-out;
-  }
-
-  @keyframes piePop {
-    0%   { transform: scale(1); }
-    55%  { transform: scale(1.16); }
-    100% { transform: scale(1.12); }
+    filter: drop-shadow(0 8px 10px rgba(0, 0, 0, .45));
   }
 
   /* Floating popup showing the tapped slice's value */
   .slice-tooltip {
     position: fixed;
-    transform: translate(-50%, -100%) scale(.85);
-    background: rgba(20, 21, 24, .96);
+    transform: translate(-50%, -100%);
+    background: #222;
     color: #fff;
-    padding: 9px 13px;
-    border: 1px solid #60646b;
-    border-radius: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
     font-size: 12.5px;
     line-height: 1.45;
     white-space: nowrap;
     pointer-events: none;
-    box-shadow: 0 7px 22px rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .35);
     z-index: 2000;
     opacity: 0;
     visibility: hidden;
-    transition: opacity .18s ease, transform .18s ease;
+    transition: opacity .15s ease;
   }
 
   .slice-tooltip.show {
     opacity: 1;
     visibility: visible;
-    transform: translate(-50%, -100%) scale(1);
+  }
+
+  .slice-tooltip .tooltip-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
   }
 
   .chart-legend {
@@ -537,14 +468,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: #e6e6e6;
+    color: #333;
   }
 
   .bar-track {
     position: relative;
     display: block;
     height: 14px;
-    background: #55585e;
+    background: #eee;
     border-radius: 4px;
     overflow: hidden;
   }
@@ -565,26 +496,7 @@
   @media (max-width: 768px) {
     body { padding: 8px; }
 
-    .app-header {
-      margin: -8px -8px 10px;
-      padding: 8px;
-      gap: 6px;
-    }
-
-    .app-title {
-      font-size: 18px;
-      white-space: nowrap;
-    }
-
-    .header-actions {
-      gap: 5px;
-    }
-
-    .header-mode-btn {
-      padding: 8px 9px;
-      font-size: 10px;
-      white-space: nowrap;
-    }
+    h1 { font-size: 22px; margin-bottom: 10px; }
 
     .toolbar { gap: 8px; }
     .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px; }
@@ -614,13 +526,7 @@
 </head>
 <body>
 
-<div class="app-header">
-  <h1 class="app-title">NA TEAM CC Management</h1>
-  <div class="header-actions">
-    <button id="graph-mode-btn" class="header-mode-btn" type="button">Graph Mode - NA TEAM Overview</button>
-    <button id="basic-mode-btn" class="header-mode-btn secondary" type="button" style="display:none;">Basic mode</button>
-  </div>
-</div>
+<h1>NA TEAM CC Management</h1>
 
 <div id="basic-view">
   <div class="toolbar">
@@ -631,6 +537,7 @@
     <button id="filter-nat" class="toggle-btn" type="button" aria-pressed="false">NAT</button>
     <button id="filter-other" class="toggle-btn" type="button" aria-pressed="false">OTHER</button>
     <button id="clear-filters" type="button">Clear</button>
+    <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   </div>
 
   <p id="status">Loading data...</p>
@@ -656,6 +563,10 @@
 </div>
 
 <div id="graph-view">
+  <div class="graph-toolbar">
+    <h2 class="graph-title">Graph Mode - NA TEAM Overview</h2>
+    <button id="basic-mode-btn" class="mode-btn" type="button">⬅ Basic mode</button>
+  </div>
 
   <p id="graph-status">Loading graph data...</p>
 
@@ -772,7 +683,6 @@
   const pageTitle = document.querySelector("h1");
   const sliceTooltip = document.getElementById("slice-tooltip");
   let activeSliceEl = null; // the pie-slice <circle> currently elevated/popped, or null
-  let sliceResetTimer = null;
 
   init();
 
@@ -928,8 +838,6 @@
   function showBasicView() {
     graphView.style.display = "none";
     basicView.style.display = "block";
-    graphModeBtn.style.display = "";
-    basicModeBtn.style.display = "none";
     resetSliceInteraction();
   }
 
@@ -937,8 +845,6 @@
     closeContentModal();
     basicView.style.display = "none";
     graphView.style.display = "block";
-    graphModeBtn.style.display = "none";
-    basicModeBtn.style.display = "";
 
     try {
       await ensureGraphData();
@@ -1096,10 +1002,9 @@
       circle.setAttribute("fill", "none");
       circle.setAttribute("stroke", slice.color);
       circle.setAttribute("stroke-width", thickness);
-      // Start empty, then animate the slice into its final length.
-      circle.setAttribute("stroke-dasharray", `0 ${circumference}`);
+      circle.setAttribute("stroke-dasharray", `${dash} ${circumference - dash}`);
       circle.setAttribute("stroke-dashoffset", String(-offsetAccum));
-      circle.classList.add("pie-slice", "draw");
+      circle.classList.add("pie-slice");
 
       // The base rotation (so 0% starts at 12 o'clock) is set via CSS
       // transform rather than the SVG "transform" attribute, so it can be
@@ -1113,10 +1018,6 @@
 
       svg.appendChild(circle);
       offsetAccum += dash;
-
-      requestAnimationFrame(() => {
-        circle.setAttribute("stroke-dasharray", `${dash} ${circumference - dash}`);
-      });
     });
 
     const totalText = document.createElementNS(svgNS, "text");
@@ -1125,7 +1026,7 @@
     totalText.setAttribute("text-anchor", "middle");
     totalText.setAttribute("font-size", "22");
     totalText.setAttribute("font-weight", "bold");
-    totalText.setAttribute("fill", "#f2f2f2");
+    totalText.setAttribute("fill", "#333");
     totalText.textContent = String(total);
     svg.appendChild(totalText);
 
@@ -1134,7 +1035,7 @@
     subText.setAttribute("y", cy + 16);
     subText.setAttribute("text-anchor", "middle");
     subText.setAttribute("font-size", "11");
-    subText.setAttribute("fill", "#b0b0b0");
+    subText.setAttribute("fill", "#888");
     subText.textContent = "records";
     svg.appendChild(subText);
 
@@ -1144,19 +1045,12 @@
   // Tapping a pie slice pops it up (3D-ish elevation) and shows a popup
   // with its value; tapping that same slice again reverts it to normal.
   function toggleSlice(circle, slice, total, evt) {
-    if (sliceResetTimer) {
-      clearTimeout(sliceResetTimer);
-      sliceResetTimer = null;
+    if (activeSliceEl === circle) {
+      deactivateSlice(circle);
+      return;
     }
-
     if (activeSliceEl) deactivateSlice(activeSliceEl);
     activateSlice(circle, slice, total, evt);
-
-    // Automatically return to the normal chart state after 3 seconds.
-    sliceResetTimer = setTimeout(() => {
-      if (activeSliceEl === circle) deactivateSlice(circle);
-      sliceResetTimer = null;
-    }, 3000);
   }
 
   function activateSlice(circle, slice, total, evt) {
@@ -1174,14 +1068,6 @@
   }
 
   function resetSliceInteraction() {
-    if (sliceResetTimer) {
-      clearTimeout(sliceResetTimer);
-      sliceResetTimer = null;
-    }
-    if (activeSliceEl) {
-      activeSliceEl.classList.remove("active");
-      activeSliceEl.style.transform = "";
-    }
     activeSliceEl = null;
     hideSliceTooltip();
   }
