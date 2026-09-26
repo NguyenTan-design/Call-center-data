@@ -29,9 +29,15 @@
   }
 
   h1 {
+    position: sticky;
+    top: 0;
+    z-index: 60;
     margin: 0 0 15px;
+    padding: 12px 0;
     text-align: center;
     color: #333;
+    background: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
   }
 
   .toolbar {
@@ -298,6 +304,12 @@
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 15px;
+    position: sticky;
+    top: var(--header-height, 60px);
+    z-index: 55;
+    background: #f5f5f5;
+    padding: 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
   }
 
   .graph-title {
@@ -320,7 +332,7 @@
   }
 
   .chart-card {
-    background: #fff;
+    background: #eceff1;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
     padding: 16px;
@@ -352,6 +364,51 @@
   }
 
   .chart-svg-wrap svg { display: block; }
+
+  /* Pie chart slices are tappable: elevate with a 3D-ish drop shadow and
+     grow slightly when active; tapping the same slice again reverts it. */
+  .chart-svg-wrap circle.pie-slice {
+    cursor: pointer;
+    transition: transform .25s ease, filter .25s ease;
+  }
+
+  .chart-svg-wrap circle.pie-slice:hover {
+    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .3));
+  }
+
+  .chart-svg-wrap circle.pie-slice.active {
+    filter: drop-shadow(0 8px 10px rgba(0, 0, 0, .45));
+  }
+
+  /* Floating popup showing the tapped slice's value */
+  .slice-tooltip {
+    position: fixed;
+    transform: translate(-50%, -100%);
+    background: #222;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    white-space: nowrap;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .35);
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .15s ease;
+  }
+
+  .slice-tooltip.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .slice-tooltip .tooltip-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
 
   .chart-legend {
     list-style: none;
@@ -507,7 +564,7 @@
 
 <div id="graph-view">
   <div class="graph-toolbar">
-    <h2 class="graph-title">Graph Mode — FMV Overview</h2>
+    <h2 class="graph-title">Graph Mode - NA TEAM Overview</h2>
     <button id="basic-mode-btn" class="mode-btn" type="button">⬅ Basic mode</button>
   </div>
 
@@ -520,6 +577,8 @@
     <div class="chart-card chart-card-wide" id="chart-fmv-rank"></div>
   </div>
 </div>
+
+<div id="slice-tooltip" class="slice-tooltip"></div>
 
 <div id="content-modal" class="modal-overlay">
   <div class="modal-box">
@@ -620,6 +679,10 @@
   const chartNaInquiry = document.getElementById("chart-na-inquiry");
   const chartFmvInquiry = document.getElementById("chart-fmv-inquiry");
   const chartFmvRank = document.getElementById("chart-fmv-rank");
+
+  const pageTitle = document.querySelector("h1");
+  const sliceTooltip = document.getElementById("slice-tooltip");
+  let activeSliceEl = null; // the pie-slice <circle> currently elevated/popped, or null
 
   init();
 
@@ -756,6 +819,17 @@
   });
 
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
+  window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
+  updateHeaderOffset();
+
+  // Measures the sticky title's rendered height (+ its margin) so the
+  // Graph mode toolbar can stick directly below it, edge to edge.
+  function updateHeaderOffset() {
+    if (!pageTitle) return;
+    const marginBottom = parseFloat(getComputedStyle(pageTitle).marginBottom) || 0;
+    const headerHeight = pageTitle.offsetHeight + marginBottom;
+    document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
+  }
 
   // --- Graph mode / Basic mode switch ---
   graphModeBtn.addEventListener("click", showGraphView);
@@ -764,6 +838,7 @@
   function showBasicView() {
     graphView.style.display = "none";
     basicView.style.display = "block";
+    resetSliceInteraction();
   }
 
   async function showGraphView() {
@@ -806,6 +881,8 @@
   }
 
   function renderAllCharts() {
+    resetSliceInteraction();
+
     const natSet = customerListCache.nat || new Set();
     const natRecords = graphData.filter(r => natSet.has(r.__customer));
     const totalNAT = natRecords.length;
@@ -927,7 +1004,18 @@
       circle.setAttribute("stroke-width", thickness);
       circle.setAttribute("stroke-dasharray", `${dash} ${circumference - dash}`);
       circle.setAttribute("stroke-dashoffset", String(-offsetAccum));
-      circle.setAttribute("transform", `rotate(-90 ${cx} ${cy})`);
+      circle.classList.add("pie-slice");
+
+      // The base rotation (so 0% starts at 12 o'clock) is set via CSS
+      // transform rather than the SVG "transform" attribute, so it can be
+      // combined with a "scale up" transform on tap without one clobbering
+      // the other.
+      circle.style.transformOrigin = `${cx}px ${cy}px`;
+      circle.style.transform = "rotate(-90deg)";
+      circle.dataset.baseTransform = "rotate(-90deg)";
+
+      circle.addEventListener("click", (evt) => toggleSlice(circle, slice, total, evt));
+
       svg.appendChild(circle);
       offsetAccum += dash;
     });
@@ -952,6 +1040,62 @@
     svg.appendChild(subText);
 
     return svg;
+  }
+
+  // Tapping a pie slice pops it up (3D-ish elevation) and shows a popup
+  // with its value; tapping that same slice again reverts it to normal.
+  function toggleSlice(circle, slice, total, evt) {
+    if (activeSliceEl === circle) {
+      deactivateSlice(circle);
+      return;
+    }
+    if (activeSliceEl) deactivateSlice(activeSliceEl);
+    activateSlice(circle, slice, total, evt);
+  }
+
+  function activateSlice(circle, slice, total, evt) {
+    circle.classList.add("active");
+    circle.style.transform = `${circle.dataset.baseTransform} scale(1.08)`;
+    activeSliceEl = circle;
+    showSliceTooltip(slice, total, evt);
+  }
+
+  function deactivateSlice(circle) {
+    circle.classList.remove("active");
+    circle.style.transform = circle.dataset.baseTransform || "";
+    if (activeSliceEl === circle) activeSliceEl = null;
+    hideSliceTooltip();
+  }
+
+  function resetSliceInteraction() {
+    activeSliceEl = null;
+    hideSliceTooltip();
+  }
+
+  function showSliceTooltip(slice, total, evt) {
+    const pct = total > 0 ? (slice.value / total) * 100 : 0;
+    sliceTooltip.replaceChildren();
+
+    const title = document.createElement("span");
+    title.className = "tooltip-title";
+    title.textContent = slice.label;
+
+    const detail = document.createElement("span");
+    detail.textContent = `${slice.value} record (${pct.toFixed(1)}%)`;
+
+    sliceTooltip.append(title, detail);
+
+    const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
+    const x = point.clientX ?? window.innerWidth / 2;
+    const y = point.clientY ?? window.innerHeight / 2;
+
+    sliceTooltip.style.left = `${x}px`;
+    sliceTooltip.style.top = `${Math.max(y - 12, 40)}px`;
+    sliceTooltip.classList.add("show");
+  }
+
+  function hideSliceTooltip() {
+    sliceTooltip.classList.remove("show");
   }
 
   function buildLegendItem(slice, total) {
