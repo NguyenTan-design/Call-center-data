@@ -273,169 +273,6 @@
     color: #333;
   }
 
-  /* --- Graph mode / Basic mode buttons --- */
-  .mode-btn {
-    flex: 0 0 auto;
-    padding: 10px 16px;
-    font-size: 14px;
-    font-weight: bold;
-    border: 1px solid #2e7d32;
-    border-radius: 6px;
-    background: #2e7d32;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .mode-btn:hover { background: #24632a; }
-
-  /* --- Graph view layout --- */
-  #graph-view { display: none; }
-
-  .graph-toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-
-  .graph-title {
-    margin: 0;
-    color: #333;
-    font-size: 18px;
-  }
-
-  #graph-status {
-    font-size: 13px;
-    color: #777;
-    margin: 0 0 8px;
-    text-align: center;
-  }
-
-  .charts-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
-  }
-
-  .chart-card {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
-    padding: 16px;
-  }
-
-  .chart-card-wide {
-    grid-column: 1 / -1;
-  }
-
-  .chart-card h3 {
-    margin: 0 0 12px;
-    text-align: center;
-    color: #333;
-    font-size: 15px;
-  }
-
-  .chart-empty {
-    text-align: center;
-    color: #999;
-    font-size: 13px;
-    padding: 20px 0;
-  }
-
-  .chart-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .chart-svg-wrap svg { display: block; }
-
-  .chart-legend {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 320px;
-  }
-
-  .chart-legend li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 4px 0;
-    font-size: 12.5px;
-    color: #333;
-    border-bottom: 1px solid #f0f0f0;
-  }
-
-  .legend-dot {
-    flex: 0 0 auto;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-  }
-
-  .legend-label {
-    flex: 1 1 auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .legend-value {
-    flex: 0 0 auto;
-    color: #666;
-    font-variant-numeric: tabular-nums;
-  }
-
-  /* Chart 4 - FMV rank bar chart */
-  .bar-chart-list {
-    max-height: 460px;
-    overflow-y: auto;
-    padding-right: 4px;
-  }
-
-  .bar-row {
-    display: grid;
-    grid-template-columns: 160px 1fr 34px;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 7px;
-    font-size: 12.5px;
-  }
-
-  .bar-label {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: #333;
-  }
-
-  .bar-track {
-    position: relative;
-    display: block;
-    height: 14px;
-    background: #eee;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .bar-fill {
-    display: block;
-    height: 100%;
-    background: var(--primary);
-    border-radius: 4px;
-  }
-
-  .bar-value {
-    text-align: right;
-    color: #666;
-    font-variant-numeric: tabular-nums;
-  }
-
   @media (max-width: 768px) {
     body { padding: 8px; }
 
@@ -443,7 +280,7 @@
 
     .toolbar { gap: 8px; }
     .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px; }
-    .toggle-btn, #clear-filters, .mode-btn { flex: 1 1 auto; text-align: center; padding: 9px 10px; font-size: 13px; }
+    .toggle-btn, #clear-filters { flex: 1 1 auto; text-align: center; padding: 9px 10px; font-size: 13px; }
 
     #pagination { flex-wrap: wrap; justify-content: space-between; }
     #pagination strong { flex: 1 1 100%; order: 2; text-align: center; font-size: 12px; }
@@ -460,10 +297,6 @@
     th { font-size: 10px; }
 
     .modal-box { max-height: 90vh; }
-
-    .charts-grid { grid-template-columns: 1fr; }
-    .graph-toolbar { flex-direction: column; align-items: stretch; }
-    .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
   }
 </style>
 </head>
@@ -471,54 +304,35 @@
 
 <h1>NA TEAM CC Management</h1>
 
-<div id="basic-view">
-  <div class="toolbar">
-    <input id="search-cc" type="text" placeholder="Search CC Number">
-    <input id="search-topic" type="text" placeholder="Search Topic">
-    <input id="search-content" type="text" placeholder="Search Communication Content">
-    <button id="filter-new" class="toggle-btn" type="button" aria-pressed="false">NEW only</button>
-    <button id="filter-nat" class="toggle-btn" type="button" aria-pressed="false">NAT</button>
-    <button id="filter-other" class="toggle-btn" type="button" aria-pressed="false">OTHER</button>
-    <button id="clear-filters" type="button">Clear</button>
-    <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
-  </div>
-
-  <p id="status">Loading data...</p>
-
-  <div id="pagination"></div>
-
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <th>DATE</th>
-          <th>CC NUMBER</th>
-          <th>CUSTOMER</th>
-          <th>TOPIC</th>
-          <th>COMMUNICATION CONTENT</th>
-          <th>FMV PIC</th>
-          <th>ACTION</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
-    </table>
-  </div>
+<div class="toolbar">
+  <input id="search-cc" type="text" placeholder="Search CC Number">
+  <input id="search-topic" type="text" placeholder="Search Topic">
+  <input id="search-content" type="text" placeholder="Search Communication Content">
+  <button id="filter-new" class="toggle-btn" type="button" aria-pressed="false">NEW only</button>
+  <button id="filter-nat" class="toggle-btn" type="button" aria-pressed="false">NAT</button>
+  <button id="filter-other" class="toggle-btn" type="button" aria-pressed="false">OTHER</button>
+  <button id="clear-filters" type="button">Clear</button>
 </div>
 
-<div id="graph-view">
-  <div class="graph-toolbar">
-    <h2 class="graph-title">Graph Mode — FMV Overview</h2>
-    <button id="basic-mode-btn" class="mode-btn" type="button">⬅ Basic mode</button>
-  </div>
+<p id="status">Loading data...</p>
 
-  <p id="graph-status">Loading graph data...</p>
+<div id="pagination"></div>
 
-  <div class="charts-grid">
-    <div class="chart-card" id="chart-open-close"></div>
-    <div class="chart-card" id="chart-na-inquiry"></div>
-    <div class="chart-card" id="chart-fmv-inquiry"></div>
-    <div class="chart-card chart-card-wide" id="chart-fmv-rank"></div>
-  </div>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>DATE</th>
+        <th>CC NUMBER</th>
+        <th>CUSTOMER</th>
+        <th>TOPIC</th>
+        <th>COMMUNICATION CONTENT</th>
+        <th>FMV PIC</th>
+        <th>ACTION</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
 </div>
 
 <div id="content-modal" class="modal-overlay">
@@ -569,23 +383,10 @@
 
   const customerListCache = {}; // "nat" | "other" -> Set of normalized customer names
 
-  // Graph mode reads a separate dataset (different columns than data.json).
-  const GRAPH_DATA_SOURCE = "data2.json";
-
-  // Colour palette used for pie-chart slices / bar-chart entries.
-  const CHART_PALETTE = [
-    "#1976d2", "#e53935", "#43a047", "#fb8c00", "#8e24aa",
-    "#00897b", "#c0ca33", "#6d4c41", "#3949ab", "#d81b60",
-    "#00acc1", "#f4511e"
-  ];
-
   let allData = [];       // all records from data.json (with precomputed search fields)
   let filteredData = [];  // current filtered view
   let currentPage = 1;
   let openContentCell = null; // the <td> currently shown in the modal, or null
-
-  let graphData = null;    // records from data2.json, once loaded
-  let graphLoaded = false; // true once graphData + NAT list are ready
 
   const filters = {
     cc: "",
@@ -610,16 +411,6 @@
   const contentModal = document.getElementById("content-modal");
   const modalBody = document.getElementById("modal-body");
   const modalClose = document.getElementById("modal-close");
-
-  const basicView = document.getElementById("basic-view");
-  const graphView = document.getElementById("graph-view");
-  const graphModeBtn = document.getElementById("graph-mode-btn");
-  const basicModeBtn = document.getElementById("basic-mode-btn");
-  const graphStatus = document.getElementById("graph-status");
-  const chartOpenClose = document.getElementById("chart-open-close");
-  const chartNaInquiry = document.getElementById("chart-na-inquiry");
-  const chartFmvInquiry = document.getElementById("chart-fmv-inquiry");
-  const chartFmvRank = document.getElementById("chart-fmv-rank");
 
   init();
 
@@ -756,271 +547,6 @@
   });
 
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
-
-  // --- Graph mode / Basic mode switch ---
-  graphModeBtn.addEventListener("click", showGraphView);
-  basicModeBtn.addEventListener("click", showBasicView);
-
-  function showBasicView() {
-    graphView.style.display = "none";
-    basicView.style.display = "block";
-  }
-
-  async function showGraphView() {
-    closeContentModal();
-    basicView.style.display = "none";
-    graphView.style.display = "block";
-
-    try {
-      await ensureGraphData();
-      renderAllCharts();
-    } catch (err) {
-      console.error(err);
-      graphStatus.textContent = "Failed to load data2.json or NAT.json.";
-      graphStatus.style.display = "block";
-    }
-  }
-
-  // Loads data2.json (once) plus the NAT customer list (reusing the same
-  // cache/loader the NAT toggle button in Basic mode uses).
-  async function ensureGraphData() {
-    if (graphLoaded) return;
-
-    graphStatus.textContent = "Loading graph data...";
-    graphStatus.style.display = "block";
-
-    const [res] = await Promise.all([
-      fetch(GRAPH_DATA_SOURCE),
-      loadCustomerList("nat")
-    ]);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const raw = await res.json();
-
-    graphData = raw.map(item => ({
-      ...item,
-      __customer: normalize(item["Customer"])
-    }));
-
-    graphLoaded = true;
-    graphStatus.style.display = "none";
-  }
-
-  function renderAllCharts() {
-    const natSet = customerListCache.nat || new Set();
-    const natRecords = graphData.filter(r => natSet.has(r.__customer));
-    const totalNAT = natRecords.length;
-    const totalAll = graphData.length;
-
-    // Chart 1: NA Open-Close Case — 100% = all NAT records; slices = the
-    // "On Going" / "Closed" share of CASE STATUS within them. Any NAT
-    // record whose status is neither is grouped as "Other / Unspecified"
-    // so the pie still adds up to all NAT records.
-    const onGoing = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "On Going").length;
-    const closed = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "Closed").length;
-    const otherStatus = totalNAT - onGoing - closed;
-    const openCloseSlices = [
-      { label: "On Going", value: onGoing, color: "#fb8c00" },
-      { label: "Closed", value: closed, color: "#43a047" }
-    ];
-    if (otherStatus > 0) {
-      openCloseSlices.push({ label: "Other / Unspecified", value: otherStatus, color: "#bdbdbd" });
-    }
-    renderPieCard(chartOpenClose, "NA Open-Close Case", openCloseSlices, totalNAT);
-
-    // Chart 2: NA Inquiry type — 100% = all NAT records, split by Inquiry type.
-    renderPieCard(chartNaInquiry, "NA Inquiry type", buildInquirySlices(natRecords), totalNAT);
-
-    // Chart 3: FMV Inquiry type — 100% = all records, split by Inquiry type.
-    renderPieCard(chartFmvInquiry, "FMV Inquiry type", buildInquirySlices(graphData), totalAll);
-
-    // Chart 4: FMV rank — bar chart of case count per Customer, sorted desc.
-    renderBarCard(chartFmvRank, "FMV rank", buildCustomerRank(graphData));
-  }
-
-  function buildInquirySlices(records) {
-    const counts = new Map();
-    records.forEach(r => {
-      const key = String(r["Inquiry type"] ?? "").trim() || "Unspecified";
-      counts.set(key, (counts.get(key) || 0) + 1);
-    });
-    return [...counts.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .map(([label, value], i) => ({ label, value, color: CHART_PALETTE[i % CHART_PALETTE.length] }));
-  }
-
-  function buildCustomerRank(records) {
-    const counts = new Map();
-    records.forEach(r => {
-      const key = String(r["Customer"] ?? "").trim() || "Unknown";
-      counts.set(key, (counts.get(key) || 0) + 1);
-    });
-    return [...counts.entries()]
-      .map(([label, value]) => ({ label, value }))
-      .sort((a, b) => b.value - a.value);
-  }
-
-  // Renders a donut/pie chart (SVG) plus a text legend into a chart card.
-  function renderPieCard(container, title, slices, total) {
-    container.replaceChildren();
-
-    const h3 = document.createElement("h3");
-    h3.textContent = title;
-    container.appendChild(h3);
-
-    if (!total) {
-      const empty = document.createElement("p");
-      empty.className = "chart-empty";
-      empty.textContent = "No data available.";
-      container.appendChild(empty);
-      return;
-    }
-
-    const body = document.createElement("div");
-    body.className = "chart-body";
-
-    const svgWrap = document.createElement("div");
-    svgWrap.className = "chart-svg-wrap";
-    svgWrap.appendChild(buildDonutSvg(total, slices));
-    body.appendChild(svgWrap);
-
-    const legend = document.createElement("ul");
-    legend.className = "chart-legend";
-    slices.forEach(slice => legend.appendChild(buildLegendItem(slice, total)));
-    body.appendChild(legend);
-
-    container.appendChild(body);
-  }
-
-  function buildDonutSvg(total, slices) {
-    const svgNS = "http://www.w3.org/2000/svg";
-    const size = 200;
-    const radius = 70;
-    const thickness = 28;
-    const cx = size / 2;
-    const cy = size / 2;
-    const circumference = 2 * Math.PI * radius;
-
-    const svg = document.createElementNS(svgNS, "svg");
-    svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
-    svg.setAttribute("width", size);
-    svg.setAttribute("height", size);
-
-    const track = document.createElementNS(svgNS, "circle");
-    track.setAttribute("cx", cx);
-    track.setAttribute("cy", cy);
-    track.setAttribute("r", radius);
-    track.setAttribute("fill", "none");
-    track.setAttribute("stroke", "#eee");
-    track.setAttribute("stroke-width", thickness);
-    svg.appendChild(track);
-
-    let offsetAccum = 0;
-    slices.forEach(slice => {
-      if (slice.value <= 0) return;
-      const dash = (slice.value / total) * circumference;
-      const circle = document.createElementNS(svgNS, "circle");
-      circle.setAttribute("cx", cx);
-      circle.setAttribute("cy", cy);
-      circle.setAttribute("r", radius);
-      circle.setAttribute("fill", "none");
-      circle.setAttribute("stroke", slice.color);
-      circle.setAttribute("stroke-width", thickness);
-      circle.setAttribute("stroke-dasharray", `${dash} ${circumference - dash}`);
-      circle.setAttribute("stroke-dashoffset", String(-offsetAccum));
-      circle.setAttribute("transform", `rotate(-90 ${cx} ${cy})`);
-      svg.appendChild(circle);
-      offsetAccum += dash;
-    });
-
-    const totalText = document.createElementNS(svgNS, "text");
-    totalText.setAttribute("x", cx);
-    totalText.setAttribute("y", cy - 3);
-    totalText.setAttribute("text-anchor", "middle");
-    totalText.setAttribute("font-size", "22");
-    totalText.setAttribute("font-weight", "bold");
-    totalText.setAttribute("fill", "#333");
-    totalText.textContent = String(total);
-    svg.appendChild(totalText);
-
-    const subText = document.createElementNS(svgNS, "text");
-    subText.setAttribute("x", cx);
-    subText.setAttribute("y", cy + 16);
-    subText.setAttribute("text-anchor", "middle");
-    subText.setAttribute("font-size", "11");
-    subText.setAttribute("fill", "#888");
-    subText.textContent = "records";
-    svg.appendChild(subText);
-
-    return svg;
-  }
-
-  function buildLegendItem(slice, total) {
-    const li = document.createElement("li");
-
-    const dot = document.createElement("span");
-    dot.className = "legend-dot";
-    dot.style.background = slice.color;
-
-    const label = document.createElement("span");
-    label.className = "legend-label";
-    label.textContent = slice.label;
-    label.title = slice.label;
-
-    const value = document.createElement("span");
-    value.className = "legend-value";
-    const pct = total > 0 ? (slice.value / total) * 100 : 0;
-    value.textContent = `${slice.value} (${pct.toFixed(1)}%)`;
-
-    li.append(dot, label, value);
-    return li;
-  }
-
-  // Renders a horizontal bar chart (plain HTML/CSS bars) into a chart card.
-  function renderBarCard(container, title, entries) {
-    container.replaceChildren();
-
-    const h3 = document.createElement("h3");
-    h3.textContent = title;
-    container.appendChild(h3);
-
-    if (entries.length === 0) {
-      const empty = document.createElement("p");
-      empty.className = "chart-empty";
-      empty.textContent = "No data available.";
-      container.appendChild(empty);
-      return;
-    }
-
-    const maxValue = entries[0].value;
-    const list = document.createElement("div");
-    list.className = "bar-chart-list";
-
-    entries.forEach(entry => {
-      const row = document.createElement("div");
-      row.className = "bar-row";
-
-      const label = document.createElement("span");
-      label.className = "bar-label";
-      label.textContent = entry.label;
-      label.title = entry.label;
-
-      const track = document.createElement("span");
-      track.className = "bar-track";
-      const fill = document.createElement("span");
-      fill.className = "bar-fill";
-      fill.style.width = `${maxValue > 0 ? (entry.value / maxValue) * 100 : 0}%`;
-      track.appendChild(fill);
-
-      const value = document.createElement("span");
-      value.className = "bar-value";
-      value.textContent = String(entry.value);
-
-      row.append(label, track, value);
-      list.appendChild(row);
-    });
-
-    container.appendChild(list);
-  }
 
   // --- Communication Content modal wiring ---
   // Clicking a COMMUNICATION CONTENT cell opens the modal with its full
