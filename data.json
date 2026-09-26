@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-26T11:31:04+00:00",
+        "CC NUMBER": "NEW:CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI have met the issue.\nToday,  After change over and start production, at Module 3 Head go to pickup component normally- vision ok- and go to placement. But placement process is very slow. 1 Panel need few turn placement to complete panel, but after 2 turn, machine error 8CD9D475. I take video of this phenomenon, please refer it for detail\nAction:\nTransit job via LCU web: still same\nreset machine, reset LCU: same error\nChange vision type of this component: OK\n\nI take trace data and Job file. please help me analyst this issue. Actually, if Vision type is wrong, machine should show vision process error.\n\nThis machine version is V2.CMm. we have new version V2.DBc, please help me check if this new ver V2.DBc fix this issue or not. if Not please upgrade V2.DBc also. V2.CMm also need upgrade.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
         "DATE": "2026-09-26T08:20:36+00:00",
         "CC NUMBER": "CC-0082008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
