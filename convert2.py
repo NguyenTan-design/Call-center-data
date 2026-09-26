@@ -34,7 +34,8 @@ df = df[
         "Customer",
         "TOPIC",
         "Inquiry type",
-        "GO TO WEB"
+        "GO TO WEB",
+	"CASE STATUS"
     ]
 ]
 
