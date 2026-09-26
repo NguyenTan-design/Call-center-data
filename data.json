@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-26T07:02:21+00:00",
+        "CC NUMBER": "NEW:CC-0083285",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module  after placement is completed_[NXTR-S]",
+        "Communication Content": "We encountered the following issue at our customer site, Lite-On:\n\nA PCB did not transfer from Module 1 to Module 2, and from Module 4 to Module 5 after placement was completed.\n\nActions taken:\n\nRestarted the power of the base machine. The issue was resolved.\n\nI collected the trace data at the time the issue occurred. Could you please analyze the data and provide your findings, as well as any recommendations for improvement?\n\nIn addition, I would like to confirm whether this issue can be fixed by updating the software to Version V2.DBC.\n\nIf this issue cannot be fixed in the next version, could you please consider releasing the next version together with a patch for V2.CMM? The machine where this issue occurred is currently running V2.CMM",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HT24BYAT"
+    },
+    {
         "DATE": "2026-09-26T05:39:17+00:00",
         "CC NUMBER": "CC-0077097",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
