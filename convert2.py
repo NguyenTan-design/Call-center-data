@@ -1,4 +1,3 @@
-```python
 import pandas as pd
 import json
 import html
@@ -34,7 +33,7 @@ df = df[
         "CC NUMBER",
         "Customer",
         "TOPIC",
-        "Inquiry Type",
+        "Inquiry type",
         "GO TO WEB"
     ]
 ]
@@ -109,5 +108,4 @@ with open("data2.json", "w", encoding="utf-8") as f:
 # RESULT
 # ==========================
 
-print(f"DONE - {len(data)} records exported to data2.json")
-```
+print("DONE")
