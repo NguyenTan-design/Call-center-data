@@ -536,8 +536,30 @@
     margin-left: 8px;
   }
 
+  /* Search bar row for the detail table */
+  #detail-view .detail-search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  #detail-view .detail-search input[type="text"] {
+    flex: 1 1 220px;
+    padding: 9px 12px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  #detail-view .detail-search input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, .15);
+  }
+
   #detail-view .table-wrapper {
-    height: calc(100vh - 210px);
+    height: calc(100vh - 270px);
   }
 
   #detail-view table {
@@ -565,6 +587,19 @@
     white-space: nowrap;
   }
 
+  /* TOPIC column: always show full content, wrap text naturally */
+  #detail-view th[data-col-type="topic"],
+  #detail-view td[data-col-type="topic"] {
+    max-width: 420px;
+    min-width: 220px;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    vertical-align: top;
+  }
+
   /* Narrow column for GO TO WEB / GO TO LINK */
   #detail-view th[data-col-type="link"],
   #detail-view td[data-col-type="link"] {
@@ -573,15 +608,6 @@
     min-width: 70px;
     text-align: center;
     padding: 4px;
-  }
-
-  /* TOPIC cells in detail view are clickable to open a popup */
-  #detail-view td[data-col-type="topic"] {
-    cursor: pointer;
-  }
-
-  #detail-view td[data-col-type="topic"]:hover {
-    background: #e3f0fd;
   }
 
   /* Highlighted (selected) row in the detail table */
@@ -657,6 +683,10 @@
     #detail-view td[data-col-type="link"] {
       width: 60px; max-width: 60px; min-width: 60px;
     }
+    #detail-view th[data-col-type="topic"],
+    #detail-view td[data-col-type="topic"] {
+      max-width: 240px; min-width: 140px;
+    }
   }
 </style>
 </head>
@@ -722,6 +752,12 @@
     </div>
     <button id="detail-back-btn" class="back-btn" type="button">⬅ BACK</button>
   </div>
+
+  <div class="detail-search">
+    <input id="detail-search-cc" type="text" placeholder="Search CC Number">
+    <input id="detail-search-topic" type="text" placeholder="Search Topic">
+  </div>
+
   <div class="table-wrapper">
     <table>
       <thead id="detail-thead"></thead>
@@ -797,6 +833,11 @@
 
   let selectedDetailRow = null;
 
+  // Full record list currently shown in the detail table, and the
+  // filtered subset after applying the detail search inputs.
+  let detailRecordsAll = [];
+  let detailSearch = { cc: "", topic: "" };
+
   const filters = {
     cc: "",
     topic: "",
@@ -838,6 +879,8 @@
   const detailThead = document.getElementById("detail-thead");
   const detailTbody = document.getElementById("detail-tbody");
   const detailBackBtn = document.getElementById("detail-back-btn");
+  const detailSearchCc = document.getElementById("detail-search-cc");
+  const detailSearchTopic = document.getElementById("detail-search-topic");
 
   const pageTitle = document.getElementById("page-title");
   const stickyHeader = document.querySelector(".sticky-header");
@@ -972,6 +1015,17 @@
 
     applyFilters();
   });
+
+  // Detail search inputs (CC Number / Topic)
+  detailSearchCc.addEventListener("input", debounce(() => {
+    detailSearch.cc = detailSearchCc.value.trim().toLowerCase();
+    renderDetailTableRows();
+  }, SEARCH_DEBOUNCE_MS));
+
+  detailSearchTopic.addEventListener("input", debounce(() => {
+    detailSearch.topic = detailSearchTopic.value.trim().toLowerCase();
+    renderDetailTableRows();
+  }, SEARCH_DEBOUNCE_MS));
 
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
@@ -1410,10 +1464,21 @@
     return /^topic$/i.test(colName.trim());
   }
 
+  // Finds the actual key in a record's keys that matches a target name,
+  // case-insensitively (so "CC NUMBER", "CC number" and "cc number" all match).
+  function findColumnKey(keys, target) {
+    const t = target.toLowerCase();
+    return keys.find(k => k.toLowerCase() === t) || null;
+  }
+
   function openDetailView(title, records) {
+    detailRecordsAll = records || [];
+    detailSearch = { cc: "", topic: "" };
+    detailSearchCc.value = "";
+    detailSearchTopic.value = "";
+
     detailTitle.textContent = title;
-    detailCount.textContent = `— ${records.length} record(s)`;
-    renderDetailTable(records);
+    renderDetailTable();
 
     closeContentModal();
     resetSliceInteraction();
@@ -1423,12 +1488,18 @@
     updateHeaderOffset();
   }
 
-  function renderDetailTable(records) {
+  // Renders the header once per open (columns derived from data),
+  // then delegates the body to renderDetailTableRows() which applies
+  // the CC / TOPIC filters.
+  function renderDetailTable() {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
     selectedDetailRow = null;
 
+    const records = detailRecordsAll;
+
     if (!records || records.length === 0) {
+      detailCount.textContent = "— 0 record(s)";
       const trHead = document.createElement("tr");
       const th = document.createElement("th");
       th.textContent = "(no columns)";
@@ -1444,6 +1515,7 @@
       return;
     }
 
+    // Union of column keys across all records (skip internal "__" fields).
     const columnSet = new Set();
     records.forEach(r => {
       Object.keys(r).forEach(k => {
@@ -1451,6 +1523,9 @@
       });
     });
     const columns = [...columnSet];
+
+    // Cache on the element so renderDetailTableRows() can reuse them.
+    detailView.dataset.columns = JSON.stringify(columns);
 
     // Header row
     const trHead = document.createElement("tr");
@@ -1464,9 +1539,55 @@
     });
     detailThead.appendChild(trHead);
 
-    // Body rows
+    renderDetailTableRows();
+  }
+
+  // Rebuilds the body of the detail table based on detailSearch filters.
+  function renderDetailTableRows() {
+    detailTbody.replaceChildren();
+    selectedDetailRow = null;
+
+    const records = detailRecordsAll;
+    if (!records || records.length === 0) return;
+
+    const columns = JSON.parse(detailView.dataset.columns || "[]");
+    if (columns.length === 0) return;
+
+    const ccKey = findColumnKey(columns, "CC NUMBER");
+    const topicKey = findColumnKey(columns, "TOPIC");
+
+    // Apply CC / TOPIC filters (case-insensitive substring match).
+    const filtered = records.filter(r => {
+      if (detailSearch.cc && ccKey) {
+        const v = String(r[ccKey] ?? "").toLowerCase();
+        if (!v.includes(detailSearch.cc)) return false;
+      }
+      if (detailSearch.topic && topicKey) {
+        const v = String(r[topicKey] ?? "").toLowerCase();
+        if (!v.includes(detailSearch.topic)) return false;
+      }
+      return true;
+    });
+
+    // Update count display: "X / Y record(s)" when filtered, else "Y record(s)"
+    const isFiltered = detailSearch.cc !== "" || detailSearch.topic !== "";
+    detailCount.textContent = isFiltered
+      ? `— ${filtered.length} / ${records.length} record(s)`
+      : `— ${records.length} record(s)`;
+
+    if (filtered.length === 0) {
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.colSpan = columns.length || 1;
+      td.textContent = "No matching records.";
+      tr.appendChild(td);
+      detailTbody.appendChild(tr);
+      return;
+    }
+
     const fragment = document.createDocumentFragment();
-    records.forEach(r => {
+    filtered.forEach(r => {
       const tr = document.createElement("tr");
       tr.className = "detail-row";
 
@@ -1492,19 +1613,10 @@
           } else {
             td.textContent = "";
           }
-        } else if (isTopicColumn(col)) {
-          // TOPIC cell: clickable to open a popup with the full text.
-          const fullText = val == null ? "" : String(val);
-          td.textContent = fullText;
-          td.title = "Click to view full content";
-          td.addEventListener("click", (e) => {
-            // Stop the row-level selection handler from firing.
-            e.stopPropagation();
-            openTextModal("TOPIC", fullText || "(empty)");
-          });
         } else {
+          // All other columns: render as plain text (TOPIC included).
           td.textContent = val == null ? "" : String(val);
-          td.title = td.textContent;
+          if (!isTopicColumn(col)) td.title = td.textContent;
         }
 
         tr.appendChild(td);
@@ -1529,9 +1641,7 @@
     selectedDetailRow = tr;
   }
 
-  // --- Communication Content / Topic modal wiring ---
-  // Shared modal used both by Basic view's COMMUNICATION CONTENT cells and
-  // by Detail view's TOPIC cells. The title updates per source.
+  // --- Communication Content modal wiring (Basic view only) ---
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
     if (!td) return;
@@ -1557,14 +1667,10 @@
     }
     const valueEl = td.querySelector(".cell-value");
     const fullText = (valueEl ? valueEl.textContent : td.textContent) || "(empty)";
-    openTextModal("Communication Content", fullText);
-    openContentCell = td;
-  }
-
-  function openTextModal(titleText, bodyText) {
-    modalTitle.textContent = titleText;
-    modalBody.textContent = bodyText;
+    modalTitle.textContent = "Communication Content";
+    modalBody.textContent = fullText;
     contentModal.classList.add("show");
+    openContentCell = td;
   }
 
   function closeContentModal() {
