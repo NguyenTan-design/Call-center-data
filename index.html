@@ -679,39 +679,6 @@
     .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
 
     #detail-view th, #detail-view td { font-size: 10px; max-width: 180px; }
-
-    /* ============================================================
-       MOBILE-ONLY: shrink the width of the DATE and Inquiry type
-       columns in the DETAIL (drill-down) table to half.
-       - width + min-width + max-width are all set to the same
-         value so the browser is forced to respect the new size.
-       - overflow/ellipsis handles content that no longer fits.
-       ============================================================ */
-
-    /* DATE column — half of its previous width */
-    #detail-view th[data-col-type="date"],
-    #detail-view td[data-col-type="date"] {
-      width: 45px;
-      min-width: 45px;
-      max-width: 45px;
-      padding: 3px 4px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    /* INQUIRY TYPE column — half of its previous width */
-    #detail-view th[data-col-type="inquiry"],
-    #detail-view td[data-col-type="inquiry"] {
-      width: 55px;
-      min-width: 55px;
-      max-width: 55px;
-      padding: 3px 4px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
     #detail-view th[data-col-type="link"],
     #detail-view td[data-col-type="link"] {
       width: 60px; max-width: 60px; min-width: 60px;
@@ -866,6 +833,8 @@
 
   let selectedDetailRow = null;
 
+  // Full record list currently shown in the detail table, and the
+  // filtered subset after applying the detail search inputs.
   let detailRecordsAll = [];
   let detailSearch = { cc: "", topic: "" };
 
@@ -1047,6 +1016,7 @@
     applyFilters();
   });
 
+  // Detail search inputs (CC Number / Topic)
   detailSearchCc.addEventListener("input", debounce(() => {
     detailSearch.cc = detailSearchCc.value.trim().toLowerCase();
     renderDetailTableRows();
@@ -1494,16 +1464,8 @@
     return /^topic$/i.test(colName.trim());
   }
 
-  // NEW: identifies the DATE column in the detail table.
-  function isDateColumn(colName) {
-    return /^date$/i.test(colName.trim());
-  }
-
-  // NEW: identifies the "Inquiry type" column in the detail table.
-  function isInquiryColumn(colName) {
-    return /inquiry\s*type/i.test(colName);
-  }
-
+  // Finds the actual key in a record's keys that matches a target name,
+  // case-insensitively (so "CC NUMBER", "CC number" and "cc number" all match).
   function findColumnKey(keys, target) {
     const t = target.toLowerCase();
     return keys.find(k => k.toLowerCase() === t) || null;
@@ -1526,6 +1488,9 @@
     updateHeaderOffset();
   }
 
+  // Renders the header once per open (columns derived from data),
+  // then delegates the body to renderDetailTableRows() which applies
+  // the CC / TOPIC filters.
   function renderDetailTable() {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
@@ -1550,6 +1515,7 @@
       return;
     }
 
+    // Union of column keys across all records (skip internal "__" fields).
     const columnSet = new Set();
     records.forEach(r => {
       Object.keys(r).forEach(k => {
@@ -1558,9 +1524,10 @@
     });
     const columns = [...columnSet];
 
+    // Cache on the element so renderDetailTableRows() can reuse them.
     detailView.dataset.columns = JSON.stringify(columns);
 
-    // Header row — tag DATE and Inquiry type columns for mobile sizing.
+    // Header row
     const trHead = document.createElement("tr");
     columns.forEach(col => {
       const th = document.createElement("th");
@@ -1568,8 +1535,6 @@
       th.title = col;
       if (isLinkColumn(col)) th.dataset.colType = "link";
       else if (isTopicColumn(col)) th.dataset.colType = "topic";
-      else if (isDateColumn(col)) th.dataset.colType = "date";
-      else if (isInquiryColumn(col)) th.dataset.colType = "inquiry";
       trHead.appendChild(th);
     });
     detailThead.appendChild(trHead);
@@ -1577,6 +1542,7 @@
     renderDetailTableRows();
   }
 
+  // Rebuilds the body of the detail table based on detailSearch filters.
   function renderDetailTableRows() {
     detailTbody.replaceChildren();
     selectedDetailRow = null;
@@ -1590,6 +1556,7 @@
     const ccKey = findColumnKey(columns, "CC NUMBER");
     const topicKey = findColumnKey(columns, "TOPIC");
 
+    // Apply CC / TOPIC filters (case-insensitive substring match).
     const filtered = records.filter(r => {
       if (detailSearch.cc && ccKey) {
         const v = String(r[ccKey] ?? "").toLowerCase();
@@ -1602,6 +1569,7 @@
       return true;
     });
 
+    // Update count display: "X / Y record(s)" when filtered, else "Y record(s)"
     const isFiltered = detailSearch.cc !== "" || detailSearch.topic !== "";
     detailCount.textContent = isFiltered
       ? `— ${filtered.length} / ${records.length} record(s)`
@@ -1627,8 +1595,6 @@
         const td = document.createElement("td");
         if (isLinkColumn(col)) td.dataset.colType = "link";
         else if (isTopicColumn(col)) td.dataset.colType = "topic";
-        else if (isDateColumn(col)) td.dataset.colType = "date";
-        else if (isInquiryColumn(col)) td.dataset.colType = "inquiry";
 
         const val = r[col];
 
@@ -1648,6 +1614,7 @@
             td.textContent = "";
           }
         } else {
+          // All other columns: render as plain text (TOPIC included).
           td.textContent = val == null ? "" : String(val);
           if (!isTopicColumn(col)) td.title = td.textContent;
         }
