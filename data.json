@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-28T11:02:27+00:00",
+        "CC NUMBER": "NEW:CC-0083359",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Tray RM can not check foreign object at the left (subslot 1)_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met issue with tray RM. When head go to pickup part at Sub slot 1 on the tray pallet, If part was stuck on the tray package, So Tray package will be picked up from tray pallet. and then when TY retract tray pallet - during TZ moving to retract position, tray was hit to tray body and make tray pallet broken.\n\nAs I see, there is 2 sensor: \"The drawer storage check sensor\", it be detect the object, block sensor. SO TZ stop and error 7D90, 7D91 was show. but 2 sensor is only located on the right (sub slot 2)  (front and rear right).\n\nCustomer complain about it and want to know how to prevent collision if have object block at the left (sub slot 1)?\n\nI attach trace data and the picture of accident today. I make some tray part broken. I am looking for your approve warranty few part. and give me the advice to answer customer question\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HmujzYAB"
+    },
+    {
         "DATE": "2026-09-28T08:16:44+00:00",
         "CC NUMBER": "CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
