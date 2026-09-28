@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-28T11:21:42+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for your update.\n\nHowever, there is no Archive file in machine trace data.\n\nSo Could you please take a machine trace data with cycle stop long push after the phenomenon happen immediately?\n\nIf did it but there is no Archive file, there is possibility that the time setting is wrong or the time period was wrong.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-09-28T11:02:27+00:00",
         "CC NUMBER": "NEW:CC-0083359",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
