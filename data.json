@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-28T06:02:18+00:00",
+        "CC NUMBER": "CC-0083012",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Neotel Tower and DID information are not synchronize - Request show Shelf Name in Part Request list_Neotel TowerとDID情報が同期されていないため、部品要求（Part Request）リストに棚名（Shelf Name）を表示してほしい[NXTR-S]",
+        "Communication Content": "FMV 高津様\n\nお世話になっております。\n\nIMG_5468を見て貰うとタワー名の記載がありません。\n\nその為、毎回離れた2つのタワーを確認しに行く必要があります。\n\nリスエストを行うとタワーの該当パーツがある、LEDが光りますが、\n\n例えば特定のパーツだけ先に引き出したい場合、両方のタワーでリール抜いてDIDをみて探す手間があります。\n\n⇒要求されたDIDの保管場所をより簡単に特定できるよう、Part RequestリストにDIDのロケーション（Shelf Name、またはShelf Name＋Location）を表示できるようにしてほしいと理解しました。\n\n本件については要望案件となる為、VOCを登録してほしいとのことです。\n\n顧客より強く要望されているのであれば、登録をお願いいたします。\n\n以上、宜しくお願い致します。\n\n株式会社ＦＵＪＩ\n\nカスタマーサービス部　\n\nカスタマーサポート課\n\n寺澤　真梨恵",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr4wgYAB"
+    },
+    {
         "DATE": "2026-09-28T05:13:11+00:00",
         "CC NUMBER": "CC-0075555",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
