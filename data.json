@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-28T03:02:37+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Hamamoto-san\n\nI would like to explain the following two points:\n\n1: You optimized the job using “Feeder Fix” on September 10, but how did you optimize and create the job prior to that?\n\nAnswer:\n\nYour question prompted me to look for an archived program from June 29. I imported this program into Nexim and compared it with the current program. I found that the component height in the shape data for Ref. C0302, C0330, and C0331 had been changed from the original 1.2 mm to the current 1.6 mm.\n\nAfter changing the height back to 1.2 mm and performing the JOB optimization again, the job was successfully optimized and is now working normally.\n\n2: What kind of on-machine edits are you performing after optimizing the job with “Feeder Fix” on September 10?\n\nAnswer:\n\nUnder normal circumstances, the only editing operations performed on the equipment side are simple adjustments to the Shape Data, package data, and the feeder angle settings in the component number data.\n\nI explained this issue to the customer, but they noted that for such JOB-related problems, can we make the errors more targeted and exposed during optimization? Since there are too many errors during optimization, it's very difficult to track down the root cause. Thank you very much for your support.\n\nThank you\n\nBR\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-28T02:56:06+00:00",
         "CC NUMBER": "CC-0083289",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
