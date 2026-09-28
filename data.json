@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-28T02:56:06+00:00",
+        "CC NUMBER": "CC-0083289",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Import shape data from another program_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThanks for your information. Please help us make VOC. Customer request is when select 1 shape from ỏ Job during import Shape, The shape image should display as flexa. please see the picture I attach \"Nexim need display Shape image like flexa\"\n\nThanks you in advance\n\nTung-FMV",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUNJZYA5"
+    },
+    {
+        "DATE": "2026-09-28T02:46:42+00:00",
+        "CC NUMBER": "CC-0082491",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mark recorver error_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nI got this patch for Taka san and already apply for 1 line. we test OK. thanks for your support.  We can close it\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FLS9tYAH"
+    },
+    {
+        "DATE": "2026-09-28T02:43:56+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "FMV-Chien-san\n\nWe will check with the design team to determine whether an investigation can be carried out based on the information provided. If additional information is required, we will contact you again.\n\nPlease wait for a while.\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-09-28T02:39:08+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
@@ -44557,14 +44584,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-09-28T02:43:56+00:00",
-        "CC NUMBER": "CC-0082883",
-        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
-        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
-        "Communication Content": "FMV-Chien-san\n\nWe will check with the design team to determine whether an investigation can be carried out based on the information provided. If additional information is required, we will contact you again.\n\nPlease wait for a while.\n\nCall center Amano",
-        "FMV PIC": "Pham Doanh",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
     }
 ]
