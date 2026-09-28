@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-28T01:42:33+00:00",
+        "CC NUMBER": "CC-0076975",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Can't verify stack tray_[NXTR-S]",
+        "Communication Content": "Dear Hirabayashi-san,\n\nWe are onsite support at customer everyday, this error no happen again so please close this case\n\nIf this error happen we will create new ticket\n\nThank you for your support!\n\nBest regards,\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zpDLBYA2"
+    },
+    {
+        "DATE": "2026-09-28T01:35:13+00:00",
+        "CC NUMBER": "CC-0083170",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
+        "Communication Content": "Dea Son san,\n\nWe apologize for the inconvenience caused.\n\nIn order for FUJI to investigate this issue and implement permanent corrective actions, we would appreciate it if you could provide the following information:\n\nThe serial numbers (S/N) of the W08T, W12, W16, and W24 feeders where loose screws were found.\n\nOne photo of each feeder type (W08T, W12, W16, and W24) showing the loose screw condition, if possible.\n\nThank you for your cooperation.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL"
+    },
+    {
         "DATE": "2026-09-28T01:03:12+00:00",
         "CC NUMBER": "CC-0077235",
         "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
