@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-28T04:23:06+00:00",
+        "CC NUMBER": "CC-0083289",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Import shape data from another program_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nThanks for your information.\n\nThe VOC has been submitted. If we receive any feedback or updates, I will let you know immediately.\n\nPlease let me know if you have any other requirements or questions.\n\nBR,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUNJZYA5"
+    },
+    {
+        "DATE": "2026-09-28T04:16:03+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[Nexim]",
+        "Communication Content": "Dear Hamamoto-san\n\nThank for your support.\n\nPreviously, I configured the Floor Control Server settings for all lines, but it seems that the settings were modified without my noticing.\n\nI have now reconfigured these settings, and the data is currently available in Nexim Report.\n\nI will continue to monitor the situation and update you if the issue occurs again.\n\nThank you\n\nFVM-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
         "DATE": "2026-09-28T03:31:08+00:00",
         "CC NUMBER": "CC-0083290",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
