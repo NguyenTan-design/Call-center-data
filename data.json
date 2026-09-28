@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-28T03:31:08+00:00",
+        "CC NUMBER": "CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear FUJI Toyama,\n\nThank you for your feedback.\n\nI have attached the requested files to the ticket, including:\n\nTrace data recorded during the issue from 12:00 to 15:00.\n\nSECS/GEM log files during the issue.\n\nSECS/GEM installation/configuration files.\n\nSystem Configuration.\n\nMachine Configuration.\n\nPlease kindly check the attached files above for the detailed information regarding the customer's system configuration and SECS/GEM setup.\n\nIf you need any additional information or files, please let me know.\n\nThank you very much for your support.\n\nBest regards,\n\nFMV-Nam",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
         "DATE": "2026-09-28T03:14:02+00:00",
         "CC NUMBER": "CC-0083289",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
