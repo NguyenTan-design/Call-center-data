@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-09-27T15:53:43+00:00",
+        "CC NUMBER": "CC-0081522",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8000D711 Processing error. Unable to find the target object. (Not part related)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your explanation and advice.\n\nWe understand that registering a Body size smaller than the actual component size may work depending on the component shape and pickup condition, but it cannot be considered a guaranteed or safe method and involves a risk of interference.\n\nWe have shared this information and the associated risk with the customer.\n\nFor this case, we will close the investigation and use the appropriate component size setting based on Fuji's recommendation.\n\nThank you very much for your support and cooperation.\n\nBest regards,\n\nFMV-Pham Hieu",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CfP6NYAV"
+    },
+    {
+        "DATE": "2026-09-27T12:15:16+00:00",
+        "CC NUMBER": "CC-0083094",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Purple Screen Error When Using the Edit Cavity Pick Function for Stacked Tray Feeder_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to provide some additional information regarding this issue.\n\nToday, I tested the Edit Cavity Pick Function on a Module on another line. This line has the same configuration as Line 18, where the issue occurred previously. Module 8 is configured with two Stacked Trays, A and B.\n\nAt Module 8, I performed the following tests:\n\n- Edit Cavity Pick Function on Stacked Tray A → Normal.\n\n- Edit Cavity Pick Function on Stacked Tray B → A purple screen appeared.\n\nI have attached the trace data collected during the issue. File name: TraceModule8Line16.rar\n\nIssue occurrence time: Approximately 17:45–17:55\n\nCould you please check the trace data and advise us on the possible cause and appropriate action?\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gzj0DYAR"
+    },
+    {
+        "DATE": "2026-09-27T02:52:47+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Dear Call Center,\n\nTo provide timely support to the customer, we manually adjusted these trays by comparing them with trays that are operating normally on the production line. After this temporary adjustment, the results have been positive, and the issue has not occurred again.\n\nHowever, we still need an official inspection standard and adjustment procedure. Could you please share these with us?\n\nPlease refer to the attached Excel file, \"Hana StackFeeder Tray.\" It contains the measurement values we collected from both the Stacked Trays where the issue occurred and the Stacked Trays operating normally. Based on these measurements, we found that the tray dimensions are not consistent.\n\nThank you for you support!\n\nFMV-Chien",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
+        "DATE": "2026-09-27T02:25:36+00:00",
+        "CC NUMBER": "CC-0069612",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Accessory Web can't see nozzle layout and nozzle list in the Module information item: Unable to acquire communication type data_Accessory Webでモジュール情報が正しく取得できない[NXTR-S]",
+        "Communication Content": "Dear Terazawa Marie san\n\nUp to now, the machine has been operating normally. Please close this ticket. If the issue occurs again, I will create a new CC.\n\nThank you for your support.\n\nFMV-Chien!",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gqQxZYAU"
+    },
+    {
+        "DATE": "2026-09-26T13:37:32+00:00",
+        "CC NUMBER": "CC-0082008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Purple screen on NXTR_[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThis issue no longer occur in version V2.DBb.  Please help to close this ticket.\n\nThank you for your time and support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001E2RjaYAF"
+    },
+    {
         "DATE": "2026-09-26T11:31:04+00:00",
         "CC NUMBER": "NEW:CC-0083295",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
