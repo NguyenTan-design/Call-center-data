@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T09:18:40+00:00",
+        "CC NUMBER": "CC-0083263",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_6A030016 error occurs during on-machine editing/Job saving_[NXTR]",
+        "Communication Content": "Dear Do san,\n\nWe reviewed the trace, but found no indication that machine-side editing was performed, let alone any errors.\n\nIn addition, when comparing the photo taken at the time the issue occurred with the event log from the reported time period, it appears that the job name being transmitted to the machine is different. Therefore, we suspect that the trace may have been collected from a different production line.\n\nThe trace was collected from a machine on line \"LineG02\".\n\nCould you please verify this?\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HOW9JYAX"
+    },
+    {
         "DATE": "2026-09-29T08:55:30+00:00",
         "CC NUMBER": "NEW:CC-0083417",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
