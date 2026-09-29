@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T08:55:30+00:00",
+        "CC NUMBER": "NEW:CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Call Center Team,\n\nWe have a case as below:\n\nThe Head RH28-0005756 happen error 8F550000\n\n(A nozzle that cannot be returned to the nozzle station is mounted on the holder)\n\nDetails:\n\nCustomer : LIANYUE (VIETNAM) CO., LTD.\n\nTime happen : ~8:00 28-Aug-2026\n\nLine name : FUJI23\n\nBase S/N : SE0209309\n\nModule S/N: HEBC210001008\n\nHead S/N: RH28 0005756\n\nPhenomenon:\n\n- When start run production has happened error 8F550000 at holder O.\n\nAction Taken:\n\n-Replaced the nozzle with a new one, but the error still occurred.\n\n-Replaced the nozzle changer table, but the error still occurred.\n\n-Finally, replaced the placement head, and the machine operated normally → OK\n\n- After then: We transferred it to Head repair center at Bac Ninh office to check and repair.\n\nThey have found out reason happen error 8F550000.\n\nReason: the sensor retaining cover was bent (P/N : 2MHEHF007500), which caused error code 8F55 to occur.\n\n(Pls check image cover was bent)\n\n- After then, we attempted to find any irregularities related to the collision but found none.\n\nAnd Customer is not agreement with reason come from their operation.\n\nPls help us to investigate and give some advise for this case.\n\nThank you and best regards!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
         "DATE": "2026-09-29T08:28:37+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
