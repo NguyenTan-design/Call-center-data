@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-09-29T02:58:05+00:00",
+        "CC NUMBER": "CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_Neximのレポート機能画面にて、全ラインでJOBが表示されない[Nexim]",
+        "Communication Content": "Dear FMV-DUC-san\n\nThank you for your support and feedback.\n\nPlease monitor the situation for now.\n\nThis case is closed.\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK"
+    },
+    {
+        "DATE": "2026-09-29T02:49:56+00:00",
+        "CC NUMBER": "CC-0083344",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Error: The Part Data Edit screen on the machine displayed the LCU screen instead._[NXTR-S]",
+        "Communication Content": "Dear Ka ki san,\n\nThank you for your feedback.\n\nThis morning, September 29, we tried restarting the machine and LCU, but the issue still persisted.\n\nIf any additional information is required, please let me know.\n\nBest Regards,\n\nThang (Mr.)\n\nDo Quyet Thang – Ast.Engineer",
+        "FMV PIC": "Do Thang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HlGJzYAN"
+    },
+    {
+        "DATE": "2026-09-29T02:49:40+00:00",
+        "CC NUMBER": "CC-0082961",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim V3.2.100 – Vision Test Part Outline Issue_[Nexim]",
+        "Communication Content": "Dear Toyama-san,\n\nAfter installing the patch, Nexim is working normally now.\n\nThank you very much for your support.\n\nPlease help close this ticket.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GerDeYAJ"
+    },
+    {
         "DATE": "2026-09-29T02:11:46+00:00",
         "CC NUMBER": "NEW:CC-0083387",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
