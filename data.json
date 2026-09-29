@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T08:13:40+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_[NXTR-S]",
+        "Communication Content": "Dear Minh-san\n\nAs you mentioned, the cause of this error is the absence of part data for “304001755092.”\n\nWhile addressing a separate issue, we initially implemented a fix to ensure that the correct cause would be displayed during data checks in this specific case.\n\nHowever, it appears there are still some patterns where the cause is not displayed correctly, so we are continuing to investigate.\n\nI also believe it is a problem that such jobs can be created in JOBEditor, and I plan to look into that separately as well.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
         "DATE": "2026-09-29T07:50:24+00:00",
         "CC NUMBER": "CC-0082712",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
@@ -44836,5 +44845,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-09-29T08:28:37+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for sending the log files.\n\nWe have confirmed that the following items were successfully received:\n\nAccountManager.log ✓\n\nFcDBIFOperation_AccountManager.log ✓\n\nHowever, the following two items are still missing and are required for the design team to continue their investigation.\n\nCould you please collect and send them?\n\n① NeximDB Logs\n\nPlease collect all files from the following locations:\n\nD:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n② FUJIDB Logs\n\nD:\\oracle\\diag\\rdbms\\fujidb\\fujidb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\fujidb\\FujiLog\\CreateDB.log\n\nIf the files are too large to upload to the FUJI web portal, please share them via a link (e.g., SharePoint) as you did previously.\n\nWe apologize for the repeated requests and appreciate your continued cooperation.\n\nBR,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
     }
 ]
