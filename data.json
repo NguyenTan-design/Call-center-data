@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-09-29T07:07:28+00:00",
+        "CC NUMBER": "CC-0083359",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Tray RM can not check foreign object at the left (subslot 1)_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san\n\nI saved Job.\n\nThe relevant part is Slot 3:20334-001870A000 in the tray.\n\nI have already informed ennginner that, since the part height is 18 mm and the tray height is 7 mm—which is outside the specification range—the tray height cannot be measured correctly when the palette is returned to the magazine.\n\nBut why isn't the storage confirmation sensor on the left side?\n\nI've compiled and saved photos that illustrate the situation in Excel.\n\nFMV takatsu",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HmujzYAB"
+    },
+    {
+        "DATE": "2026-09-29T07:01:31+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Toyama san\n\nThanks you very much for your feed back. I have take trace data again with Archive file, please check file 20260929 NXTR Trace and support we investigate to resolve this issue.\n\nThanks\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-09-29T04:04:24+00:00",
         "CC NUMBER": "CC-0083359",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
