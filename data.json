@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T08:28:37+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for sending the log files.\n\nWe have confirmed that the following items were successfully received:\n\nAccountManager.log ✓\n\nFcDBIFOperation_AccountManager.log ✓\n\nHowever, the following two items are still missing and are required for the design team to continue their investigation.\n\nCould you please collect and send them?\n\n① NeximDB Logs\n\nPlease collect all files from the following locations:\n\nD:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n② FUJIDB Logs\n\nD:\\oracle\\diag\\rdbms\\fujidb\\fujidb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\fujidb\\FujiLog\\CreateDB.log\n\nIf the files are too large to upload to the FUJI web portal, please share them via a link (e.g., SharePoint) as you did previously.\n\nWe apologize for the repeated requests and appreciate your continued cooperation.\n\nBR,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-09-29T08:13:40+00:00",
         "CC NUMBER": "CC-0082933",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
@@ -44845,14 +44854,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-09-29T08:28:37+00:00",
-        "CC NUMBER": "CC-0081046",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
-        "Communication Content": "Dear Tan san,\n\nThank you for sending the log files.\n\nWe have confirmed that the following items were successfully received:\n\nAccountManager.log ✓\n\nFcDBIFOperation_AccountManager.log ✓\n\nHowever, the following two items are still missing and are required for the design team to continue their investigation.\n\nCould you please collect and send them?\n\n① NeximDB Logs\n\nPlease collect all files from the following locations:\n\nD:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n② FUJIDB Logs\n\nD:\\oracle\\diag\\rdbms\\fujidb\\fujidb\\trace (all files in this folder)\n\nD:\\oracle\\admin\\fujidb\\FujiLog\\CreateDB.log\n\nIf the files are too large to upload to the FUJI web portal, please share them via a link (e.g., SharePoint) as you did previously.\n\nWe apologize for the repeated requests and appreciate your continued cooperation.\n\nBR,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter FUJI CORPORATION",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
     }
 ]
