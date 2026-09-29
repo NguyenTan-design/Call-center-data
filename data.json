@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T07:18:33+00:00",
+        "CC NUMBER": "NEW:CC-0083408",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
+        "Communication Content": "Dear CC team,\n\nWe have a case relative to error 93F10000 (Nozzle exchange error)\n\nThis error happened 3 times before.\n\nAfter the we perform many Actions taken but it still re-appears.\n\nThis is the details information related to this error.\n\nCustomer: LIANYUE (VIETNAM) CO., LTD.\n\nTime happen: ~4:53 to 7:30 29-Sep-2026\n\nLine name : FUJI27\n\nBase S/N : SE0209312\n\nModule S/N: HEBC210000998\n\nHead S/N: RH28 0005680\n\nPhenomenon:\n\n- This error happens during running production, Head is placing.\n\n- There are some nozzles that have returned at nozzle station.\n\n- We check this image on Accessory web there is an IPS error appearing (code error: D7D6).\n\nPls check the IPS image on the attachment file.\n\nAction:\n\n- Change the nozzle. Not Ok\n\n- Clean the IPS glass, background. Not Ok\n\n- Check the tip holder, no have abnormal.\n\n- We skip some holder relative to error IPS can run normally, but the cycle time is higher.\n\n- Change other head RH28 is running normal.\n\n- On August, we have transferred it to Head repair team at Bac Ninh, with some action similar, it can run normal a period of time.\n\nbut after then this error re-appears 2 times. It is not stable.\n\nPls help us to investigate and give some advice for this case.\n\nThank you and best regards!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
+    },
+    {
         "DATE": "2026-09-29T07:07:28+00:00",
         "CC NUMBER": "CC-0083359",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
