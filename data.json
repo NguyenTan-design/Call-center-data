@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T11:01:05+00:00",
+        "CC NUMBER": "CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nThank you very much for the inquiry.\n\nWe checked trace data and found that the vision processing was takes time as over 15sec. sometimes.\n\nIt is depends on how the part camera find the correct element and so on.\n\nAnd we are thinking that the lead brightness is releated.\n\nYou set lead brightness as 80, but the brightness of part body also around 80.\n\nSo the machine might be find a lot of body element and takes time to processing.\n\nCould you please change the lead brightness to 120 to 150 if possible?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
         "DATE": "2026-09-30T10:02:47+00:00",
         "CC NUMBER": "NEW:CC-0083499",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
