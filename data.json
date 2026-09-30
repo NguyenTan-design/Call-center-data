@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T03:03:36+00:00",
+        "CC NUMBER": "CC-0083263",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_6A030016 error occurs during on-machine editing/Job saving_[NXTR]",
+        "Communication Content": "Dear Chi san,\n\nThanks for your supported\n\nCC: The trace was collected from a machine on line \"LineG02\".\n\nFMV: We collected the trace data from Module 1, NXTR2, Line G03 that error occurred\n\nDue to customer's Line Server name that in no particular order\n\nLineSV1 control LineG02\n\nLineSV2 control LineG03\n\n.....\n\nDue to being in a period of high production output so  Tonly customer requested that downgrade version for NXTR machine and Nexim software to previous versions to production first\n\npls help to prepare the patch for this issue if possible\n\ncustomer will apply new version on next time\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HOW9JYAX"
+    },
+    {
         "DATE": "2026-09-30T02:40:56+00:00",
         "CC NUMBER": "CC-0083359",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
