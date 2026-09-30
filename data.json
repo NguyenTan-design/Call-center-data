@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T04:09:13+00:00",
+        "CC NUMBER": "CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nThank you very much for the inquiry.\n\nI checked event log and found that the first timing of 8F55 error is below according to data.\n\nBut the event log from the accessory is not completed so I cannot say what the root cause of this error.\n\nI can imagine that there is possibility that the head is hitting dropped part or something but I am not sure for now.\n\nCould you please take complete production data?\n\nThere is possibility that the data still remaining in the lien server but depends on the setting.\n\n2026-08-28 08:00:10\tALARMSET\tNXTR23-1\tM2-R\t8F550000 0000000F A nozzle that cannot be returned to the nozzle station is mounted on the holder.[Trace]\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
         "DATE": "2026-09-30T03:03:36+00:00",
         "CC NUMBER": "CC-0083263",
         "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
