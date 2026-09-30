@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-29T23:56:36+00:00",
+        "CC NUMBER": "CC-0083178",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mounter Machine – Hangup Error on Lane 1 Module 5 Line S05._[NXTR-S]",
+        "Communication Content": "Dear Tung-san\n\n【Trace Analysis Results】\n\nThe TU-RM's “Reject Parts Conveyor” was full. However, since this issue hasn't been addressed, it appears to have caused a hang.\n\nHowever, since the machine screen did not display those instructions, the operator was unable to take any action.\n\nWe will investigate why the screen with the troubleshooting instructions could not be displayed.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HBPiSYAX"
+    },
+    {
         "DATE": "2026-09-29T16:42:07+00:00",
         "CC NUMBER": "CC-0083094",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
