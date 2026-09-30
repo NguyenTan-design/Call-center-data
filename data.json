@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T05:01:20+00:00",
+        "CC NUMBER": "CC-0083012",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Neotel Tower and DID information are not synchronize - Request show Shelf Name in Part Request list_Neotel TowerとDID情報が同期されていないため、部品要求（Part Request）リストに棚名（Shelf Name）を表示してほしい[NXTR-S]",
+        "Communication Content": "VC-01252にて登録",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr4wgYAB"
+    },
+    {
         "DATE": "2026-09-30T04:32:13+00:00",
         "CC NUMBER": "CC-0083408",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
