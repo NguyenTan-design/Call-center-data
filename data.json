@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T10:02:47+00:00",
+        "CC NUMBER": "NEW:CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actua...",
+        "Communication Content": "Dear Call Center,\n\nIssue:\n\nLCR Measurement for Capacitor Components.\n\nWhen NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual component values.\n\nFor resistor (R) components, the LCR measurement results are accurate. However, for most capacitor (C) components, the measured values are still different from the actual component values.\n\nTo check and improve the measurement accuracy, I performed the following adjustments:\n\nAtion:\n\nAdjusted the Measurement and Current parameters in the Part Number.\n\nAdjusted the Valve of Moving Parts (on the top) of the LCR measuring unit.\n\nHowever, after making the above adjustments, the measured values of most C components are still inaccurate compared with the actual component values.\n\nI have attached images showing the adjusted parameters in the attached file.\n\nPlease check the above parameters and support us in identifying the cause. We would also appreciate your guidance on the appropriate settings or adjustment method to improve the measurement accuracy when NXTR automatically performs LCR measurement for C components.\n\nThank you for your support.\n\nFMV-NAM",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
         "DATE": "2026-09-30T07:49:46+00:00",
         "CC NUMBER": "CC-0082485",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
