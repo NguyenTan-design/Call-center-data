@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T04:32:13+00:00",
+        "CC NUMBER": "CC-0083408",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
+        "Communication Content": "Dear Dinh Duong-san\n\nPlease refer to the attached file “Unable to detect the lower end of the nozzle (D7D6).xlsx.”\n\nThis is a view of the MNG image “2026-09-29_072915_NXTR27-1_M1-R_IPS_bb7a7784-bb9c-11f1-891f-008017db1b38.mng.”\n\nYou should be able to see a “cross” within the green frame.\n\nThe position of this “cross” indicates the reference point for the IPS. Note: In the X direction, this is the position where the nozzle should ideally be centered.\n\nHowever, the center of the nozzle shown in the photo is offset by approximately 0.35 mm.\n\nI’m not sure if the nozzle is bent or if the head holder is bent, but in any case, it’s not in the correct position.\n\nYou said that replacing the nozzle didn't fix the problem. That suggests the issue lies with the faulty holder on this RH28 head.\n\nYou mentioned that you once repaired a print head at the Hanoi office.\n\nWhat kind of repairs were performed at that time, and what were the results?\n\nAs expected, the results indicate that there is indeed a problem with the RH28 head (x5680) in question.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
+    },
+    {
         "DATE": "2026-09-30T04:09:13+00:00",
         "CC NUMBER": "CC-0083417",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
