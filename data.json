@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-09-30T14:45:09+00:00",
+        "CC NUMBER": "CC-0083007",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When running Nexim in dual-module production mode, fixed-feeder optimization triggers an error; additionally, if a job is saved and closed after shape data settings , reopening it shows no history._[Nexim]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your detailed explanation .\n\nWe now understand the situation regarding the “Module Allocation” settings, as well as the optimization results after repairing the nozzle and feeder. We also understand that it is not recommended for customers to set all “Module Allocation” options to “No” in order to obtain normal error messages.\n\nRegarding the insufficient information provided in the optimization results, particularly the “Error Details” and “Troubleshooting Steps,” we understand that the Optimizer development team is currently investigating ways to improve the error reporting. Although there is currently no definite timeline for these improvements, we understand that further optimization plans will be considered in the future.\n\nBased on the above, please close this ticket.\n\nThank you for your support and detailed explanation.\n\nBest regards,\n\nMIAO",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gr1SVYAZ"
+    },
+    {
         "DATE": "2026-09-30T14:14:47+00:00",
         "CC NUMBER": "CC-0078771",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
