@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T07:45:41+00:00",
+        "CC NUMBER": "CC-0083263",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_6A030016 error occurs during on-machine editing/Job saving_[NXTR]",
+        "Communication Content": "Dear Do san,\n\nAlthough you mentioned that the trace was collected from Line G03, the contents of the trace indicate otherwise.\n\nThe line server name is recorded as \"LINESV1\", and the file name of the equipment event log is \"LineG02\".\n\nTherefore, it appears that the trace was collected from a different production line. Could you please collect the trace again from the correct line and send it to us? Thank you for your cooperation.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HOW9JYAX"
+    },
+    {
         "DATE": "2026-10-01T07:33:28+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
