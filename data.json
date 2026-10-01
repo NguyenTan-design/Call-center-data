@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T11:53:04+00:00",
+        "CC NUMBER": "CC-0083170",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
+        "Communication Content": "品質管理課御中\n\nW08T、W12、W16、W24フィーダーで本体カバーの固定ネジの緩みが頻繁に確認されています。\n\n各フィーダータイプの代表的な写真とシリアル番号（S/N）を以下の通りです。\n\nW08T: KT8TF016921\n\nW12: KT12F240069\n\nW16: KT16F128776\n\nW24: KT24L134918\n\nその他S/Nについて現地確認中です。\n\nW08Tの場合M2×4のコネジが0.194Nの締め付けトルクが指定されているが\n\n生産現場で正しく守られているのかご確認ください。\n\nCS池",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL"
+    },
+    {
         "DATE": "2026-10-01T11:32:19+00:00",
         "CC NUMBER": "CC-0083170",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
