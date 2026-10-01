@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T01:30:08+00:00",
+        "CC NUMBER": "CC-0077235",
+        "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT( VIET NAM) LIMITED]_Can not saving job when using on machine editing due to module alarm 6A030004_[NXTR-S]",
+        "Communication Content": "Dear Amano-san,\n\nYesterday, we upgraded to V2.2Bt1.\n\nTested job saving via On-Machine Editing on the module using Dip Flux Unit. Job save time was reduced to under 10s.\n\nThe issue is resolved. Please help close this ticket.\n\nThank you for your support.\n\nBr,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010bg2zYAA"
+    },
+    {
         "DATE": "2026-10-01T00:10:58+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
