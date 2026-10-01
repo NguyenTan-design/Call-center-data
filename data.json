@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T00:10:58+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for your continued cooperation and patience.\n\nOur design team has completed the analysis of the logs you provided (AccountManager.log and FcDBIFOperation_AccountManager.log), and we would like to share our findings.\n\nBased on the log analysis, we suspect the following operations may have been performed on-site:\n\n・The existing MaterialDB was modified, and a new MaterialDB was created.\n\n・When restoring the MaterialDB, operations were started without restoring the user information data.\n\nAs a result, a user that should exist in MaterialDB was missing, which caused the error you reported.\n\nCould you please verify on-site whether the above steps were performed, or whether the MaterialDB was replaced?\n\nIf either of the above is confirmed, please restore the MaterialDB correctly by referring to Chapter 10 of the Nexim Setup Manual.\n\nWe apologize for the inconvenience and appreciate your continued cooperation.\n\nBR,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-09-30T16:25:27+00:00",
         "CC NUMBER": "CC-0083170",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
