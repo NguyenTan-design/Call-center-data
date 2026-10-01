@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T09:13:45+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "FMV-Chien-san\n\nCould you please provide more details on what adjustments were made?\n\nAccording to the design team, there are no adjustable points in this area.\n\nIf the jig inspection result is NG, the unit must be reassembled (disassembled and assembled again). This is not an item that can be adjusted in the field.\n\nTherefore, we would like to understand what work was performed and how the issue was resolved.\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-10-01T08:24:15+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
