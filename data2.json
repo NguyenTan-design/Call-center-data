@@ -5380,5 +5380,14 @@
         "Inquiry type": "12.Knowledge posting request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT",
         "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2026-10-01T08:05:21+00:00",
+        "CC NUMBER": "NEW:CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT",
+        "CASE STATUS": ""
     }
 ]
