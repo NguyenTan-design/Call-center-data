@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T22:43:21+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear FMV-DO DO san,\n\nWhen rejecting 76-mm parts, the NG conveyor feeds it 86-mm. This results in a 10-mm gap.\n\nThe part is tipped over when the belt starts moving—could they be slipping? It’s impossible to tell from the video.\n\nAlso, are there any insertion pins on the underside of the parts?\n\nKonda,",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
         "DATE": "2026-10-01T14:52:27+00:00",
         "CC NUMBER": "CC-0083369",
         "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
