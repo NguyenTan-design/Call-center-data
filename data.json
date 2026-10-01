@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T02:22:02+00:00",
+        "CC NUMBER": "NEW:CC-0083533",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim linesv not display JOb history_[Nexim]",
+        "Communication Content": "Dear Call center,\n\nI have met the issue with Nexim.\n\nIssue: After install Patch 5789 follow CC-0082916, Nexim in some line server computer don't show the history after edit data of job. But System sever use normally.\n\n1. Line SV01: Move Part U9 Board 3: Pos X Absolutely from 40 to 41.151\n\n- After edit, the change had shown the history but disappeared after closed job\n\n2. System SV: Move Part U9 Board 3: Pos X Absolutely from 41.151 to 40\n\n- After edit, the data history was saved normally\n\nAction: - Restart line server, system service, and restart neximdb computer => The same error\n\n- Uninstall Patch 5712, 5789 of S01 line server computer => History was saved normally\n\nI take some Nexim Log at LineSV and System server. Please help me analyst it to see any mistake. If need more data, please tell me the location to take log.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IGj1VYAT"
+    },
+    {
         "DATE": "2026-10-01T01:30:08+00:00",
         "CC NUMBER": "CC-0077235",
         "Customer": "LUXSHARE-ICT( VIET NAM) LIMITED]",
