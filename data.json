@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-01T08:24:15+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nWe sincerely apologize for the delay.\n\nWe already application all the patch file follow CC-0076011\n\nCustomer confirm that the issue still happen.\n\nPlease help to propose a more suitable solution.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-10-01T08:22:02+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nCustomer don't accept for change to the conveyor which use dual lane, because they don't have an other conveyor machine\n\nThey need to read the panel ID on both PCB side, but when use the mark camera only read Panel ID on Top side, can not read the panel ID on Bottom side, so they also don't accept\n\nI hear that Mitac Taiwan side  also happens with these problem at the line single lane\n\nPlease propose a more suitable solution.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-10-01T08:05:21+00:00",
         "CC NUMBER": "NEW:CC-0083559",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
