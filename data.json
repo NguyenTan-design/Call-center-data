@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T02:59:24+00:00",
+        "CC NUMBER": "CC-0083369",
+        "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[TAISHODO VIETNAM COMPANY LIMITED]_Error occurs when use M-edit_[NXTIII]",
+        "Communication Content": "Dear Doanh san,\n\nCould you please clarify whether V3.2.11 refers to V3.2.0 or V3.2.100?\n\nIf it is V3.2.100, we can issue a patch immediately.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HnwWoYAJ"
+    },
+    {
         "DATE": "2026-10-01T02:53:01+00:00",
         "CC NUMBER": "CC-0083417",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
