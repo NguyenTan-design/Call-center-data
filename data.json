@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-01T08:05:21+00:00",
+        "CC NUMBER": "NEW:CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are experiencing an issue at Hana Micron where the pickup success rate displayed in the Accessory Software is incorrect. Specifically, D701 errors are not being counted in the pickup statistics.\n\nSoftware Versions:\n\n- NXTR-S: V2.2Ak\n\n- Nexim: V3.1.20\n\n- Accessory Software: V25.2.72.1\n\nIssue Details:\n\nAt Module 1 (Right side), between 10:20 to 10:30, we observed the following:\n\n1. Summary (M1-R):\n\n- The pickup Success Rate was displayed as 100% (please refer to Image 1, where I marked the relevant area in red).\n\n- No errors were counted in any of the categories, including No Pickup, Error Part, Dislodged Part, etc.\n\n2. Image Explorer:\n\n- During the same period, we found numerous D701 errors recorded in Image Explorer (please refer to Image 2, Image 3, and the file named \"Mng@NXTR18 Module1\").\n\n- However, these D701 errors were not reflected in the pickup statistics in the Summary section.\n\n- Additionally, the D701 error images displayed in Image Explorer did not contain any detailed information, such as Slot, Head, Nozzle, etc.\n\nI have attached the trace data for you.\n\nCould you please analyze the trace data and advise us on how to resolve this issue?\n\nIf you require any additional information, please let me know.\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-10-01T07:45:41+00:00",
         "CC NUMBER": "CC-0083263",
         "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
@@ -45160,14 +45169,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-01T08:05:21+00:00",
-        "CC NUMBER": "NEW:CC-0083559",
-        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
-        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nWe are experiencing an issue at Hana Micron where the pickup success rate displayed in the Accessory Software is incorrect. Specifically, D701 errors are not being counted in the pickup statistics.\n\nSoftware Versions:\n\n- NXTR-S: V2.2Ak\n\n- Nexim: V3.1.20\n\n- Accessory Software: V25.2.72.1\n\nIssue Details:\n\nAt Module 1 (Right side), between 10:20 to 10:30, we observed the following:\n\n1. Summary (M1-R):\n\n- The pickup Success Rate was displayed as 100% (please refer to Image 1, where I marked the relevant area in red).\n\n- No errors were counted in any of the categories, including No Pickup, Error Part, Dislodged Part, etc.\n\n2. Image Explorer:\n\n- During the same period, we found numerous D701 errors recorded in Image Explorer (please refer to Image 2, Image 3, and the file named \"Mng@NXTR18 Module1\").\n\n- However, these D701 errors were not reflected in the pickup statistics in the Summary section.\n\n- Additionally, the D701 error images displayed in Image Explorer did not contain any detailed information, such as Slot, Head, Nozzle, etc.\n\nI have attached the trace data for you.\n\nCould you please analyze the trace data and advise us on how to resolve this issue?\n\nIf you require any additional information, please let me know.\n\nThank you for your support.\n\nFMV-Chien",
-        "FMV PIC": "Bui Chien",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
     }
 ]
