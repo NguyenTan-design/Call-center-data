@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-01T02:53:01+00:00",
+        "CC NUMBER": "CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nThank you so your quick response,\n\nI have just added 2 files relative error 8F55 for this case.\n\n1. Trace@2026-08-28_080010_ALARMSET_NXTR23-1_M2-R\n\n2. 8F55 production data\n\npls help us to check and analysis it.\n\nThank you and best regards!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
+        "DATE": "2026-10-01T02:51:09+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Sir,\n\nAfter the backtracking/reverse movement phenomenon occurred, did you press and hold Cycle Stop or press the Emergency Stop button to obtain the trace data?\n\nIf so, please let us know the exact time when the issue occurred.\n\nIf not, please reproduce the issue and, after the phenomenon occurs, press and hold Cycle Stop or press the Emergency Stop button to collect the trace data (including Archive_zip).\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-10-01T02:40:02+00:00",
+        "CC NUMBER": "CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your explain. After we change the vision type, now it can production normally. But i think, if When shape data or vision have problem, it should be display vision error. At this phenomenon, vision processing is passed. it make difficult to solve problem.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
         "DATE": "2026-10-01T02:22:02+00:00",
         "CC NUMBER": "NEW:CC-0083533",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
