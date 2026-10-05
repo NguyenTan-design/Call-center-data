@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T09:12:46+00:00",
+        "CC NUMBER": "CC-0083660",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_difference cycle time between Nexim optimize and NXTR_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san\n\n I am sorry for forgot attach trace data. Please check the attach file\n\n I would liek to confirm your question:\n\n・“Before 16:53, line production was normal”\n\n→ Were you also producing the same JOB before that time?　By the way, what's the date?\n\nYes, We use same job.\n\n・Did you make any changes during that time?\n\nAt that time, Factory make change at other shape at other module and transmit by LCUweb to other module. not do anything with module 3.\n\nAll modify and action optimize later use same PC, that was take trace and log from this PC.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IaxJeYAJ"
+    },
+    {
         "DATE": "2026-10-05T08:37:51+00:00",
         "CC NUMBER": "CC-0083660",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
