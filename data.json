@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T10:57:05+00:00",
+        "CC NUMBER": "CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear Nam san\n\nSorry for keep you waiting.\n\nI checked log files and found below record.\n\nHowever, there is no SECS/GEM log with same time, so I couldn't confirm from SECS/GEM side.\n\nOn the other hands, you can also see that 92FF error happened when last machine transfer the PCB to next machine.\n\nSo there is three possibility from my opinion.\n\nCould you please check if there is any communication block or SECS/GEM side send some NG event to LCU?\n\n1. The communication speed somehow slow between machine and LCU(Profiler central server).\n\n2. The communication speed somehow slow between LCU(Profiler central server) and SECS/GEM.\n\n3. SECS/GEM send some NG event to profiler central server.\n\n*Log investigation.\n\n2026/9/26 15:11\tCP_002\t3\tProdCompleated\t[Lane1] JobName:3500824700E_GT01_CP02_T_TV0 / PanelNo:1100161 / ProductedBoardCount:14 / SkippedBoardCount:2 / CycleTime:57[sec]\n\n2026/9/26 15:12\tCP_002\t3\tMcAlarm\tErrorCode: 92FF0000 / SubErrorCode: 00000000 A timeout occurred waiting for a response from Profiler Central Server.\n\n2026/9/26 15:22\tCP_002\t3\tMcAlarm\tErrorCode: 92FF0000 / SubErrorCode: 00000000 A timeout occurred waiting for a response from Profiler Central Server.\n\n2026/09/26 15:11:08.606: CMCCommSocket_ReadData Received data:\n\n{\n\n\t\"prodcomprep\":\n\n\t{\n\n\t\t\"date\":\"2026092608110839\",\n\n\t\t\"logicalnum\":3,\n\n\t\t\"operator\":\"\",\n\n\t\t\"prodmode\":0,\n\n\t\t\"programname\":\"3500824700E_GT01_CP02_T\",\n\n\t\t\"topbottom\":0,\n\n\t\t\"revision\":\"V0\",\n\n\t\t\"blocknum\":14,\n\n\t\t\"prodqty\":1100161,\n\n\t\t\"panelid\":\"113\",\n\n\t\t\"lane\":\"LANE1\",\n\n\t\t\"blockskipcount\":2,\n\n\t\t\"nozzleusage\":[\n\n\t\t2026/09/26 15:12:08.556: CMCCommSocket_ReadData Received data:\n\n{\n\n\t\"alarmrep\":\n\n\t{\n\n\t\t\"date\":\"2026092608120849\",\n\n\t\t\"logicalnum\":3,\n\n\t\t\"error\":\n\n\t\t{\n\n\t\t\t\"code\":\"92FF0000\",\n\n\t\t\t\"subcode\":\"00000000\"\n\n\t\t},\n\n\t\t\"gantry\":0\n\n\t}\n\n}\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
         "DATE": "2026-10-05T10:24:59+00:00",
         "CC NUMBER": "CC-0083660",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
