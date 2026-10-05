@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T10:09:23+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Long-san\n\nSorry for the delay.\n\nAs expected, third-party nozzles (custom nozzles) are not compatible with load control.\n\nLoad control requires a specific design, but since we don’t know the exact type of nozzle, we are unable to support it.\n\nThank you for your understanding.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-10-05T09:45:36+00:00",
         "CC NUMBER": "CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
