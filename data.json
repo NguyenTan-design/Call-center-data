@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-05T07:14:06+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "コールセンター御中　平林さん\n\n本件について何かしらアップデートはありますでしょうか？\n\n回答いただけますようお願い申し上げます。\n\nFMV Akira T",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
+        "DATE": "2026-10-05T07:11:39+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "コールセンター御中　寺澤様\n\n本件、以下のように設計から回答が出ておりますが、現地側からの情報は必要でしょうか？\n\n調査に際して追加情報が必要でしたらその旨更新をお願いします。\n\n****************\n\nCC-0080538及びCC-0063882は、同名デュアルレーン設定にレーン2で装着できないホルダに部品が\n\n割り当てられる不具合です。今回のジョブはProduction ModeがSingleのため別問題と思います。\n\nSNJ2026-0319のパッチ5193に記載がないですが対応は入っています。\n\n基板の上の方にあるRef.J1とJ118はホルダAとなっていました。\n\nSingleですが、例えDualのLane2で生産したとしても生産できる気がします。\n\n装置機能設定によっては、エラーすることがあるという事でしょうか？\n\n設定がおかしいのかどうか、エラーするRef.がどれなのか等は装置アプリに確認願います。\n\n****************\n\nFMV Akira T",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
         "DATE": "2026-10-05T06:32:06+00:00",
         "CC NUMBER": "CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
