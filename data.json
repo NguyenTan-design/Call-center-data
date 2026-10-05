@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T10:24:59+00:00",
+        "CC NUMBER": "CC-0083660",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_difference cycle time between Nexim optimize and NXTR_[NXTR-S]",
+        "Communication Content": "Dear Tung-san\n\nI checked the Version.txt file on the LINE server PC that arrived a little while ago.\n\nーー\n\n5558_V3.1.100_DataUpdate_Optimizer_Patch installed information...\n\nInstallation Time    : 2026/07/01 20:24:30\n\nーー\n\nThis was the day in July when I sent the 5558 patch, and it appears to have been applied that same day.\n\nNext…\n\nーー\n\n4932_V3.1.100_DataUpdate_Optimizer_Patch installed information...\n\nInstallation Time    : 2026/08/18 17:07:14\n\nInstallation Version    : 1.0.0.0\n\n・・・\n\n5558_V3.1.100_DataUpdate_Optimizer_Patch installed information...\n\nInstallation Time    : 2026/10/02 17:08:56\n\nーー\n\nI believe the record of the 5558 patch being applied on October 2, 2026, at 17:08:56 corresponds to this recent action.\n\nSo, do you know anything about the “4932_V3.1.100_DataUpdate_Optimizer_Patch” that was applied on August 18, 2026, at 17:07:14?\n\nPatch 4932 is older than Patch 5558.\n\nApplying Patch 4932 may have undone the fixes made by Patch 5558.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IaxJeYAJ"
+    },
+    {
         "DATE": "2026-10-05T10:09:23+00:00",
         "CC NUMBER": "CC-0081169",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
