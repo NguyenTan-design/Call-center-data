@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-05T07:40:58+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "コールセンター御中　寺澤さん\n\n本件設計側から一向に回答が来ないように見受けられます。\n\nお手数をおかけしますが繰り返し回答の催促をしていただけますと幸いです。\n\n別件でOCPUを提案しようとしている背景もあり優先度上げて対応いただけます幸いです。\n\nFMV Akira T",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-10-05T07:36:52+00:00",
+        "CC NUMBER": "CC-0083263",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_6A030016 error occurs during on-machine editing/Job saving_[NXTR]",
+        "Communication Content": "Dear Chi san,\n\nThanks for your supported\n\nTonly customer requested that downgrade version for NXTR machine and Nexim software to previous versions to production first (Nexim v3.1.105, NXTR v2.Chc)\n\nafter that all the line can normal production without error\n\nSo we can not take the trace data now\n\nPls close this ticket, if any problems in future we will create the new ticket\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HOW9JYAX"
+    },
+    {
+        "DATE": "2026-10-05T07:33:41+00:00",
+        "CC NUMBER": "CC-0083646",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Head RH08 ( SN: HB102 0002700) display 8B338403 Error_[NXTR-S]",
+        "Communication Content": "Dear Vu Phuoc san,\n\nThis error may be caused by deterioration of the yellow color ring on the IPS background.\n\nDid you replace the yellow color ring ? And how about running hours?\n\nfor the NXT R, the replacement interval for the yellow color ring is defined as 4,000 operating hours.\n\nIn this case, the replacement timing is approximately six months, which is considered to be an appropriate replacement interval.\n\nCurrently, improvements to the yellow color ring are under consideration.\n\nKonda,",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IXy0vYAD"
+    },
+    {
         "DATE": "2026-10-05T07:14:06+00:00",
         "CC NUMBER": "CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
