@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T09:33:57+00:00",
+        "CC NUMBER": "CC-0083678",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine displayed 00003A31 Encoder Communications Error on the RH28 Head of Module 2 Left_[NXTR-S]",
+        "Communication Content": "Dear Chien san,\n\nPlease refer to the attached document and check the encoder signal path inside the head.\n\nSince you have already checked the connectors and performed cleaning, there is also a possibility that the PCB has failed. Therefore, please:\n\nCheck the LED status on the PCB and confirm whether the LEDs are lit normally.\n\nReplace the PCB and verify whether the issue is resolved.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IgzIpYAJ"
+    },
+    {
         "DATE": "2026-10-05T09:12:46+00:00",
         "CC NUMBER": "CC-0083660",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
