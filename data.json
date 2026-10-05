@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T06:32:06+00:00",
+        "CC NUMBER": "CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the machin...",
+        "Communication Content": "Dear Amano-san\n\nThis issue has not recurred since September 9, 2026. Please close this ticket\n\nFinal solution : Replace air tube union and air tube coupler ( connect base and module )\n\nBR,\n\nTan",
+        "FMV PIC": "Au Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC"
+    },
+    {
         "DATE": "2026-10-05T04:07:01+00:00",
         "CC NUMBER": "CC-0083387",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
