@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T14:09:10+00:00",
+        "CC NUMBER": "NEW:CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAt Luxvision Innovation, the customer is using SECS/GEM.\n\nThe customer wants to use the S2F41 CYCLESTOP command to stop the machine remotely.\n\nWe wrote the command based on the SECS/GEM manual. However, when we send the command, the machine has no response. The machine does not stop and does not show any error message.\n\nI have attached the SECS/GEM log file. Please help check the log and advise us on this issue.\n\nThank you and BR\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
         "DATE": "2026-10-05T10:57:05+00:00",
         "CC NUMBER": "CC-0083290",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
