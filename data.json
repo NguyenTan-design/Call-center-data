@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-05T02:20:08+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nThanks for your supported\n\nI want to confirm bellow:\n\nCC: The part is tipped over when the belt starts moving—could they be slipping? It’s impossible to tell from the video.\n\nFMV: Actually the components toppling over before the Reject conveyor belt starts moving, and they are not slipping\n\nCC: Also, are there any insertion pins on the underside of the parts?\n\nFMV: The part also have the  pins on the underside, pls see the Tray compornant.jpeg in the new attached file\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
         "DATE": "2026-10-05T01:38:28+00:00",
         "CC NUMBER": "CC-0083559",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
