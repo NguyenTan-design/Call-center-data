@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T09:52:24+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-sa,\n\nThank you for the update.\n\nI was able to download but which Job is missing for the Setp15th?\n\nAlso, we need the DB backup for investigation so we will be waiting for it.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-10-06T09:07:33+00:00",
         "CC NUMBER": "CC-0082364",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
