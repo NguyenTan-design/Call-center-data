@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T22:46:33+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "CS課御中　池様\n\nボルトサイズを確認させてください。\n\n→2.0㎜と記載があったり、別情報ではM03×006（六角穴ボタン）であると聞いております。",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
         "DATE": "2026-10-06T21:32:32+00:00",
         "CC NUMBER": "CC-0078635",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
