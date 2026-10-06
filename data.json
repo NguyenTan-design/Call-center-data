@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T00:34:37+00:00",
+        "CC NUMBER": "NEW:CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOn 2026-10-06, in LiteOn Factory 1 (HPG1), Line S17, about 5:59 AM, after production completed on module M1-L, panels didn't transfer to module M2-R.\n\nAction: Press cycle stop and start again using operation panel, panels continue to transfer normally.\n\nThe version information is as follow: NXTR Machine version: V2.DBb / Nexim version: 3.2.110 / LCU version: 2.35\n\nPlease kindly refer to attached trace data for more detail and support us to provide advice for this case.\n\nThank you.\n\nBest regards,\n\nFMV - Pham Minh Duc",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
         "DATE": "2026-10-05T22:46:39+00:00",
         "CC NUMBER": "CC-0083673",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
