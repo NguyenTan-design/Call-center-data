@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T04:54:53+00:00",
+        "CC NUMBER": "CC-0083619",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[TOA VIETNAM CO., LTD.]_Machine error: 8C91078B subcode 0001: Conveyor_[AIMEXR]",
+        "Communication Content": "Dear Konda san!\n\n- We performed an inspection of the conveyor section and confirmed that no components were found in the conveyor groove, nor had any components fallen into the support pin cylinder assembly\n\n- I also verified the operation of the cylinder and the sensor. Both were operating normally with no abnormalities detected\n\n- Finally, we manually lowered the lift table completely to the bottom position, then powered the machine off and performed a restart. After rebooting, the machine operated production normally.",
+        "FMV PIC": "Phan Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IU7wLYAT"
+    },
+    {
         "DATE": "2026-10-06T04:34:44+00:00",
         "CC NUMBER": "CC-0081343",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
