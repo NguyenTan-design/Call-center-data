@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-06T04:16:53+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Ito san,\n\nI update information for your reference\n\nBefore time, customer had 2 database PC  , PC1 is material database fujidb , PC2 is job database neximdb. ~2 month ago, the hard disk of material database was suddenly malfunction, all data of material database hard disk was lost.\n\nThat day, we created new material database fujidb in PC2, and we did not import fujidb dmp file to recovery this fujidb database because data was lost as i mention before.\n\nFrom your previous communication:\n\n・The existing MaterialDB was modified, and a new MaterialDB was created.\n\n=> We can now confirm this item is correct as my above information. Correct?\n\n・When restoring the MaterialDB, operations were started without restoring the user information data.\n\n=> Technically, can you please explain more detail about this item ? i don't understand\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
+        "DATE": "2026-10-06T04:13:10+00:00",
+        "CC NUMBER": "CC-0083619",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[TOA VIETNAM CO., LTD.]_Machine error: 8C91078B subcode 0001: Conveyor_[AIMEXR]",
+        "Communication Content": "Dear Phan Tan san,\n\nAs a similar case, there was an instance where a part that had fallen under the cylinder of the backup pin stocker became jammed, so\n\nplease check the groove for any foreign objects. *I have attached a picture showing the specific area you should check.\n\nIs the machine running? If so, please clearly state what actions were taken.\n\nKonda,",
+        "FMV PIC": "Phan Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IU7wLYAT"
+    },
+    {
         "DATE": "2026-10-06T03:08:21+00:00",
         "CC NUMBER": "CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
