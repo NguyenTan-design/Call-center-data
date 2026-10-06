@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T07:46:46+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Communication Content": "Dear Doan Nhon-san\n\nUnfortunately, we were unable to conduct a detailed investigation during the last machine race.\n\nIf the issue recurs, please follow the steps below to capture the trace again.\n\nIt would also be helpful if you could provide an explanation using a video or screenshots, just as you did last time.\n\nUnfortunately, we were unable to conduct a detailed investigation during the last machine race.\n\nIf the issue recurs, please re-capture the trace using the steps below.\n\nIt would also be helpful if you could provide an explanation using a video or screenshots, just as you did last time.\n\n1: The issue recurs\n\n2: Record the date and time of the occurrence\n\n3: Press and hold the NXTR cycle stop button, then use the line console to specify a time range and capture the trace\n\n(*Please specify a time range of about 5 minutes before and after the occurrence)\n\nBR\n\nHamamoto",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-10-06T07:15:52+00:00",
         "CC NUMBER": "CC-0082945",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
