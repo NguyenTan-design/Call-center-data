@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-06T04:34:44+00:00",
+        "CC NUMBER": "CC-0081343",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_About optimize the waste‑tape box design_[NXTR-S]",
+        "Communication Content": "コールセンター御中　平林さん\n\n本件いかがでしょうか。\n\n以前のチケットではFMVにてリベット追加して経過観察ということでチケットクローズとなっておりましたが、顧客より恒久対策を求められております。\n\n問題点としては以下が挙げられます。\n\n①残テープボックス自体の剛性が弱い\n\n②下面を見ると両端でしか支えられていないので下側に自重でたわむ\n\n定期的な残テープの清掃、残テープ以外を入れないようには指示していますが相変わらずです。\n\n質問したいこと：\n\n・改良の計画があるか\n\n・現在の耐荷重\n\nFMV Akira",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEJY1YAP"
+    },
+    {
         "DATE": "2026-10-06T04:16:53+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
