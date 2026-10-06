@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-06T03:08:21+00:00",
+        "CC NUMBER": "CC-0081793",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_Linux環境におけるNeximデータベースのインストールに関する質問[Nexim]",
+        "Communication Content": "Dear Tan-san.\n\nThere is no update since  2026-09-21.\n\nIs there any update for this case?\n\nIf there is no update until October 13th, we will automatically close the case.\n\nThe below is the update/patch release from Oracle so we could not provide.\n\nPlease contact and get from the Oracle.\n\n=================\n\n2. Database Release Update 19.10.2.0.0\n\n3. Oracle OPatch 12.2.0.1.24\n\n=================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD"
+    },
+    {
+        "DATE": "2026-10-06T03:04:05+00:00",
+        "CC NUMBER": "CC-0078592",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH02 head board damaged_RH02のヘッド基板が破損[NXTR-S]",
+        "Communication Content": "Still Under investigation why broken U700 of Head Board.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
+    },
+    {
+        "DATE": "2026-10-06T02:54:42+00:00",
+        "CC NUMBER": "CC-0083646",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Head RH08 ( SN: HB102 0002700) display 8B338403 Error_[NXTR-S]",
+        "Communication Content": "Dear Konda-san ,\n\nSorry for jumping in , this head actually operate about 1400 hours . We also try to change the yellow color ring but same error . Please refer attached images for details . Thank you !\n\nBest Regards ,\n\nFMV-Hien",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IXy0vYAD"
+    },
+    {
         "DATE": "2026-10-06T02:39:24+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
