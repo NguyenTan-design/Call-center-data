@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-06T06:01:03+00:00",
+        "CC NUMBER": "CC-0080963",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]__AVL部品での部品ピッチ自動判別機能[Nexim]",
+        "Communication Content": "Dear moriya san\n\nSince there are no another questions or requests regarding this matter, please close this ticket.\n\nFMV takatsu",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BHOv9YAH"
+    },
+    {
+        "DATE": "2026-10-06T06:00:47+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for the detailed explanation. That is very helpful for our investigation.\n\nRegarding your questions:\n\n① \"The existing MaterialDB was modified, and a new MaterialDB was created.\"\n\n→ Yes, your understanding is correct. Based on the information you provided, this situation appears to match your case.\n\n② \"When restoring the MaterialDB, operations were started without restoring the user information data.\"\n\n→ Let me explain this point in more detail.\n\nIn Nexim, user account information is managed in MaterialDB (fujidb).\n\nAccording to your explanation, when the hard disk failure occurred, the original MaterialDB (fujidb) was lost. A new MaterialDB was then created on PC2 without importing the previous database backup.\n\nIn such a situation, the user account information that existed in the original MaterialDB may no longer be available in the newly created MaterialDB. At the same time, some user-related information may still remain in NeximDB (neximdb) because that database was not affected by the hard disk failure.\n\nAs a result, a mismatch between the information stored in MaterialDB and NeximDB may occur. This mismatch is one possible cause of the following errors:\n\n\t• \"Can not delete logon user\"\n\n\t• \"Failed to delete user\"\n\nTo further confirm whether this is the actual cause, could you please check the following?\n\n\t• Are the original user accounts still visible in Nexim Account Management?\n\n\t• Do you have any backup file (.dmp) of the original MaterialDB (fujidb)?\n\nThe answers to these questions will help us determine the most appropriate recovery procedure.\n\nWe appreciate your cooperation and look forward to your feedback.\n\nBR,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter\n\nFUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
+        "DATE": "2026-10-06T05:56:50+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Viet-san,\n\nThank you for the inquiry.\n\nAt first, have you enable the remote operation setting at the machine side?\n\nIf not, please do so.\n\nIf you are not sure at the setting, please refer the Nexim Option Manual #16.4.3.\n\nIf the setting is enable but the problem remain, please acquire the below logs.\n\n- Time/Date of problem occurred\n\n- NXTR log acquire from the Line console\n\n- SECS/GEM log\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
         "DATE": "2026-10-06T05:52:45+00:00",
         "CC NUMBER": "CC-0080054",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -45799,14 +45826,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-06T05:56:50+00:00",
-        "CC NUMBER": "CC-0083741",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
-        "Communication Content": "Dear Viet-san,\n\nThank you for the inquiry.\n\nAt first, have you enable the remote operation setting at the machine side?\n\nIf not, please do so.\n\nIf you are not sure at the setting, please refer the Nexim Option Manual #16.4.3.\n\nIf the setting is enable but the problem remain, please acquire the below logs.\n\n- Time/Date of problem occurred\n\n- NXTR log acquire from the Line console\n\n- SECS/GEM log\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
-        "FMV PIC": "Tran Viet",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
     }
 ]
