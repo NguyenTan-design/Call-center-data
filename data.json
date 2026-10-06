@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-06T01:14:08+00:00",
+        "CC NUMBER": "CC-0083726",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request for waste tape box cover_残テープBoxの蓋に関するお客様からのご要望[NXTR]",
+        "Communication Content": "Dear Tan-san\n\nNormally as this case request is need paid.\n\nHave you talk to FUJI sales person already?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ir5OWYAZ"
+    },
+    {
+        "DATE": "2026-10-06T01:11:51+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nI will share data with you via OneDrive link, please check your mailbox.\n\n>> I could not find any link of One drive.\n\n      Could you copy the link in Sales Force?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
+        "DATE": "2026-10-06T01:10:54+00:00",
+        "CC NUMBER": "CC-0081169",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine_装着高さ調整機能について[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your information,\n\nWe will answer customer\n\nPls close this case\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BlPvQYAV"
+    },
+    {
         "DATE": "2026-10-06T00:34:37+00:00",
         "CC NUMBER": "NEW:CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -45619,5 +45646,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-10-06T01:25:49+00:00",
+        "CC NUMBER": "CC-0083726",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request for waste tape box cover_残テープBoxの蓋に関するお客様からのご要望[NXTR]",
+        "Communication Content": "Dear Tan-san\n\nI take with Sales person and he said this case is need paid because the Waste Tape Box functions properly; the issue is with its appearance.\n\nThis will be handled on a paid basis.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ir5OWYAZ"
     }
 ]
