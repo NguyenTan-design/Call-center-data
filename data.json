@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-07T10:07:12+00:00",
+        "CC NUMBER": "NEW:CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nI previously created CC-0077799 regarding the issue of missing data in the Nexim Report. However, the issue has still not been completely resolved, and the customer is urging us to provide a permanent countermeasure.\n\nCould you please help analyze the trace data and identify the root cause, as well as propose effective countermeasures to permanently resolve this issue?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-10-07T06:41:45+00:00",
         "CC NUMBER": "CC-0082364",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
