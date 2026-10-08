@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T07:45:49+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nMany jobs are missing from all groups job, so I can't list them all out in detail.\n\nFor example, the 04. SES group have some sub-groups but only the Simulation group was created, and the Simulation group have many jobs but only three jobs were created.\n\nPlease refer attached photo for detail.\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
+        "DATE": "2026-10-08T07:36:03+00:00",
+        "CC NUMBER": "CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nToday, it happen at other line. AT module 3, about 14:13, plane 2 completed placement PCB, but PCB was not tranfer to module 4.\n\nI take video and trace data, Please help me analyst this issue as soon as posible. It happen at newest version  V2.DBc so it make customer make noise.\n\nThanks you for continue support us\n\nTung-FMV",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
         "DATE": "2026-10-08T07:03:23+00:00",
         "CC NUMBER": "CC-0082775",
         "Customer": "JABIL VIETNAM CO., LTD.]",
@@ -46105,14 +46123,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-08T07:36:03+00:00",
-        "CC NUMBER": "CC-0083763",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
-        "Communication Content": "Dear Konda san,\n\nToday, it happen at other line. AT module 3, about 14:13, plane 2 completed placement PCB, but PCB was not tranfer to module 4.\n\nI take video and trace data, Please help me analyst this issue as soon as posible. It happen at newest version  V2.DBc so it make customer make noise.\n\nThanks you for continue support us\n\nTung-FMV",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
     }
 ]
