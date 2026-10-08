@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-08T06:26:49+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nWe enabled “Remote Operation” in the Machine Config, but the CYCLESTOP command still cannot be executed.\n\nI have uploaded the SECS/GEM log and NXTR trace . The test time was 09:05–09:15 on 2026/10/07.\n\nThank you and Best Regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
         "DATE": "2026-10-08T06:10:23+00:00",
         "CC NUMBER": "CC-0083170",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
