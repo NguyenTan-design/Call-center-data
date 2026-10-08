@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T02:54:29+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "Dear TU-san\n\nIf there’s still no improvement even after making these changes, I suspect the issue lies somewhere around the flat cable.\n\nFor the power lines, please unplug and replug the line running from CN1 on the X-axis expansion board to CNE2 to M2CNH2, and measure the +24V voltage.\n\nPlease refer to the documentation for pin numbers and other details.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
+        "DATE": "2026-10-08T02:41:03+00:00",
+        "CC NUMBER": "CC-0082975",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8F5A error when load job from Nexim_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nYour understand is correct. But, when optimize and load job from nexim the first time. if total nozzle in the module is not enough, machine should show what nozzle are missing. If not show anything the OP can not know what they should to do. Can not wait until run production first module oK, Module 2 error. at that time, we have to remove all panel in the machine. If the module show error is module 5 or more, the number of panel have to be remove is so many. So can we improve this process?\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
+    },
+    {
         "DATE": "2026-10-08T02:37:56+00:00",
         "CC NUMBER": "NEW:CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
