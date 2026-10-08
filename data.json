@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T07:03:23+00:00",
+        "CC NUMBER": "CC-0082775",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Request to add a manual backup option for Nexim auto backup tool._Nexim自動バックアップツールに手動バックアップ機能を追加する要望[NXTIII]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI explained to customer that Fuji has no plan to add such a feature.\n\nSo please close the ticket.\n\nThank you for your support !\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GABTXYA5"
+    },
+    {
+        "DATE": "2026-10-08T06:55:33+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Pham Duc,\n\nCould you please let us know the exact date and time when the issue occurred?\n\nThis information will help us investigate the issue using the corresponding logs.\n\nIt seems that the System Layout file was not included this time.\n\nCould you please send us the System Layout file so that we can proceed with the investigation?\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-10-08T06:26:49+00:00",
         "CC NUMBER": "CC-0083741",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
