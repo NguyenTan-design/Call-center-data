@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-08T11:54:09+00:00",
+        "CC NUMBER": "CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Dinh san\n\nSorry for keep you waiting.\n\nI checked trace data and event log.\n\nBut the machine trace data already gone and I cannot investigate deeply.\n\nI would say that the head hitting something(maybe dropped part or feeder).\n\nBut I cannot say what the root cause is.\n\nSorry but please kindly understand that.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
         "DATE": "2026-10-08T10:22:06+00:00",
         "CC NUMBER": "CC-0083726",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
