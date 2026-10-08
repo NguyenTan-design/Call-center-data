@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T02:37:56+00:00",
+        "CC NUMBER": "NEW:CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear call center ,\n\nI am facing problem that Holder B of RH28 head can not pick up part , then when checking on AHCR detect that holder B check fail at vacuum break , vacuum channel , cleaning channel . We perform the following actions but not yet resolve the problem , please refer for details :\n\n1. Perform maintenance , cleaning on AHCR\n\n2. change filter , change package head - > holder B still NG\n\n3. swap mechanical valve holder B -> still NG\n\n4. Change all mechanical valve of head -> still NG",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
+        "DATE": "2026-10-08T02:24:11+00:00",
+        "CC NUMBER": "CC-0083170",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nSorry for the delayed response.\n\nThe loose screw issue was found on all W08T, W12, W16, and W24 feeders. We have resolved the issue by tightening the screws and additionally securing them with Loctite.\n\nPlease check the attached file for the serial numbers of the affected feeders.\n\nBest regards,\n\nFMV-SON",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL"
+    },
+    {
         "DATE": "2026-10-08T02:03:52+00:00",
         "CC NUMBER": "CC-0083646",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
