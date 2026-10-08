@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T09:42:38+00:00",
+        "CC NUMBER": "NEW:CC-0083964",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_The serial number cannot be registered on the main board using the Head Bench._[NXTR]",
+        "Communication Content": "Dear Call Center,\n\nWe purchased a main board from Fuji. but the serial number of the head has not been registered on this main board.\n\nCould you please confirm whether it is possible to register the head serial number on the main board using the Head Bench?\n\nIf the serial number can be registered using the Head Bench, could you please provide us with the procedure or instructions for registering the serial number?\n\nThank you!",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JMzSuYAL"
+    },
+    {
+        "DATE": "2026-10-08T09:29:26+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Vu Hien san,\n\nHow about vacuum inspection results on the AHCR?\n\nIf the results aren't good, there's a problem with the syringe.\n\nKonda,",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-10-08T08:47:52+00:00",
         "CC NUMBER": "CC-0077628",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
