@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T07:58:57+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the update.\n\nWe need the DB backup for investigation to start so we will be waiting for it.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
+        "DATE": "2026-10-08T07:58:54+00:00",
+        "CC NUMBER": "CC-0078635",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_NXTRは再起動後に誤ったジョブを読み込み、マシン上でジョブ編集を行うとフリーズしたように見える[NXTR-S]",
+        "Communication Content": "Dear Amano-san,\n\nWe still not applied yet the patch file at customer site due to customer production plan still so hight, can’t arrange stop time in this period of time.we will apply when available and if have any problems we will register new case and mention this cc number.\n\nSo pls close this case\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014d1hQYAQ"
+    },
+    {
         "DATE": "2026-10-08T07:45:49+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
