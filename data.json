@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-08T05:52:07+00:00",
+        "CC NUMBER": "NEW:CC-0083942",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nAt RQ tech Thai Nguyen is facing the issue like as Goertek U01A last time (CC-0078635). The Fuji Japan have released the patch file. I checked the nexim, LCU version are the same. But the machine version upgraded from 2.3Pq to 2.3 pzd.\n\n1. Nexim version: 3.2.21\n\n2. LCU verion: 2.31\n\n3. NXTR verion: 2.3pzd\n\n4. Time occurred: 16:27:26 (2026 vietnam time zone)\n\nI would like to attach the trace data\n\nCould you help me investigate to confirm can use the patch file for this case or need to realease an other patch.\n\nThank you so much for your support\n\nFMV-Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JL4mlYAD"
+    },
+    {
+        "DATE": "2026-10-08T05:41:39+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Pham Duc,\n\nCould you please let us know the exact date and time when the issue occurred?\n\nThis information will help us investigate the issue using the corresponding logs.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-10-08T04:41:08+00:00",
         "CC NUMBER": "CC-0080825",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
