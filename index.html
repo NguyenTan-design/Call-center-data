@@ -1010,7 +1010,7 @@
 
     #detail-charts .chart-svg-wrap svg {
       width: 100%;
-      max-width: 100%;          /* cho phép full width */
+      max-width: 33%;          /* 1/3 full width */
       height: auto;
       aspect-ratio: 1 / 1;
     }
@@ -1225,6 +1225,10 @@
   let detailColumns = [];
 
   let savedGraphScrollY = 0;
+   // Lưu trạng thái Detail records trước đó để phục vụ nút BACK.
+  // null = Detail hiện tại được mở trực tiếp từ Graph mode.
+  // { title, records, scrollY, chartsData } = Detail được mở từ 1 Detail khác.
+  let previousDetailState = null;
 
   // Trạng thái 4 biểu đồ tròn trong Detail
   let detailChartsData = null;
@@ -1582,7 +1586,46 @@
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
 
-  detailBackBtn.addEventListener("click", () => {
+    detailBackBtn.addEventListener("click", () => {
+    // Nếu đang có previousDetailState → quay lại Detail trước đó (drill-down).
+    if (previousDetailState) {
+      const prev = previousDetailState;
+      previousDetailState = null;
+
+      // Khôi phục state Detail trước đó.
+      detailRecordsAll = prev.records || [];
+      detailSearch = { cc: "", topic: "" };
+      detailSearchCc.value = "";
+      detailSearchTopic.value = "";
+
+      detailTitle.textContent = prev.title;
+
+      const showCharts = prev.title === ONGOING_DETAIL_TITLE;
+      detailChartsData = prev.chartsData || null;
+      detailChartsVisibleMobile = !!prev.chartsVisibleMobile;
+
+      if (showCharts && detailChartsData) {
+        renderDetailCharts();
+      } else {
+        clearDetailCharts();
+      }
+      updateDetailChartsVisibility();
+
+      renderDetailTable();
+
+      hideAllViews();
+      detailView.style.display = "block";
+      pageTitle.textContent = TITLE_DETAIL;
+      updateHeaderOffset();
+
+      // Khôi phục vị trí cuộn đã lưu.
+      requestAnimationFrame(() => {
+        window.scrollTo(0, prev.scrollY || 0);
+      });
+      return;
+    }
+
+    // Ngược lại: quay về Graph mode.
     hideAllViews();
     graphView.style.display = "block";
     graphModeBtn.style.display = "none";
@@ -1888,9 +1931,13 @@
   }
 
   function toggleSlice(circle, slice, total, evt) {
-    if (activeSliceEl === circle) {
+        if (activeSliceEl === circle) {
       clearSliceTimer();
-      openDetailView(slice.detailTitle, slice.records);
+      if (detailView.style.display === "block") {
+        openDetailViewFromDetail(slice.detailTitle, slice.records);
+      } else {
+        openDetailView(slice.detailTitle, slice.records);
+      }
       return;
     }
     if (activeSliceEl) {
@@ -1983,7 +2030,14 @@
     li.append(dot, label, value);
 
     li.title = "Click to view records";
-    li.addEventListener("click", () => openDetailView(slice.detailTitle, slice.records));
+        li.addEventListener("click", () => {
+      // Nếu đang ở trong Detail (đã có detailChartsData), drill-down.
+      if (detailView.style.display === "block") {
+        openDetailViewFromDetail(slice.detailTitle, slice.records);
+      } else {
+        openDetailView(slice.detailTitle, slice.records);
+      }
+    });
 
     return li;
   }
@@ -2159,8 +2213,28 @@
     return keys.find(k => k.toLowerCase() === t) || null;
   }
 
-  function openDetailView(title, records) {
+    function openDetailView(title, records) {
+    // Được gọi khi click chart từ GRAPH VIEW.
+    // Reset previousDetailState vì đây là điểm bắt đầu của chuỗi drill-down.
     savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
+    previousDetailState = null;
+
+    openDetailViewInternal(title, records, /* keepPrevState */ false);
+  }
+
+  /**
+   * Hàm mở Detail records chung.
+   * @param {string}  title
+   * @param {Array}   records
+   * @param {boolean} keepPrevState  true = giữ previousDetailState hiện tại
+   *                                 (đang drill-down từ 1 Detail khác)
+   */
+  function openDetailViewInternal(title, records, keepPrevState) {
+    if (!keepPrevState) {
+      // Đảm bảo nếu được gọi trực tiếp từ Graph mode
+      savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
+      previousDetailState = null;
+    }
 
     detailRecordsAll = records || [];
     detailSearch = { cc: "", topic: "" };
@@ -2193,6 +2267,23 @@
     updateHeaderOffset();
 
     window.scrollTo(0, 0);
+  }
+  /**
+   * Mở Detail records NHƯ MỘT DRILL-DOWN từ 1 Detail hiện tại.
+   * Lưu state Detail hiện tại để nút BACK quay lại đúng chỗ.
+   */
+  function openDetailViewFromDetail(title, records) {
+    // Lưu state Detail hiện tại để BACK quay lại.
+    previousDetailState = {
+      title: detailTitle.textContent,
+      records: detailRecordsAll.slice(),
+      scrollY: window.scrollY || window.pageYOffset || 0,
+      chartsData: detailChartsData,
+      chartsVisibleMobile: detailChartsVisibleMobile
+    };
+
+    // Mở detail mới như bình thường (không gọi openDetailView vì hàm đó reset previousDetailState).
+    openDetailViewInternal(title, records, /* keepPrevState */ true);
   }
 
   // ============================================================
