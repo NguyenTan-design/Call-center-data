@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T05:25:55+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Akira-san\n\nDear Viet-san\n\nThe image is dark. Although there is no fluorescent sticker on the bottom of the nozzle station, a whitish plate should appear bright in the image if everything is functioning properly.\n\nCould you please proceed through the steps “Eigenvalue Adjustment → Camera Brightness Adjustment → Mark Camera” and send us a photo showing the current brightness adjustment results?\n\nAlso, if you have the brightness adjustment jig 2AHEGJ0009, please perform the mark camera brightness adjustment and check whether there are any changes to the incident light settings.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
         "DATE": "2026-10-09T04:12:16+00:00",
         "CC NUMBER": "CC-0083408",
         "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
