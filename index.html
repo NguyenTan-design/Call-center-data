@@ -843,12 +843,20 @@
 <div id="graph-view">
   <p id="graph-status">Loading graph data...</p>
 
+  <!--
+    Thứ tự biểu đồ:
+      1. NA Open-Close Case  (nửa trái hàng 1)
+      2. NA rank             (nửa phải hàng 1)
+      3. NA Inquiry type     (nửa trái hàng 2)
+      4. FMV Inquiry type    (nửa phải hàng 2)
+      5. FMV rank            (full width hàng 3)
+  -->
   <div class="charts-grid">
     <div class="chart-card" id="chart-open-close"></div>
+    <div class="chart-card" id="chart-na-rank"></div>
     <div class="chart-card" id="chart-na-inquiry"></div>
     <div class="chart-card" id="chart-fmv-inquiry"></div>
     <div class="chart-card chart-card-wide" id="chart-fmv-rank"></div>
-    <div class="chart-card chart-card-wide" id="chart-na-rank"></div>
   </div>
 </div>
 
@@ -949,6 +957,10 @@
   // filtered subset after applying the detail search inputs.
   let detailRecordsAll = [];
   let detailSearch = { cc: "", topic: "" };
+
+  // Lưu vị trí cuộn của trang Graph mode khi mở Detail view,
+  // để khi BACK quay lại đúng vị trí cũ.
+  let savedGraphScrollY = 0;
 
   const filters = {
     cc: "",
@@ -1154,7 +1166,18 @@
   // --- View switching ---
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
-  detailBackBtn.addEventListener("click", showGraphView);
+
+  // Nút BACK: quay lại Graph mode và khôi phục vị trí cuộn trước đó.
+  detailBackBtn.addEventListener("click", () => {
+    hideAllViews();
+    graphView.style.display = "block";
+    graphModeBtn.style.display = "none";
+    basicModeBtn.style.display = "";
+    pageTitle.textContent = TITLE_GRAPH;
+    updateHeaderOffset();
+    // Khôi phục đúng vị trí cuộn đã lưu trước khi mở Detail view.
+    window.scrollTo(0, savedGraphScrollY);
+  });
 
   function hideAllViews() {
     basicView.style.display = "none";
@@ -1739,6 +1762,9 @@
   }
 
   function openDetailView(title, records) {
+    // Lưu vị trí cuộn hiện tại của Graph mode để khi BACK quay lại đúng chỗ.
+    savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
+
     detailRecordsAll = records || [];
     detailSearch = { cc: "", topic: "" };
     detailSearchCc.value = "";
@@ -1753,6 +1779,9 @@
     detailView.style.display = "block";
     pageTitle.textContent = TITLE_DETAIL;
     updateHeaderOffset();
+
+    // Đưa Detail view lên đầu trang để bảng hiển thị từ dòng đầu tiên.
+    window.scrollTo(0, 0);
   }
 
   // Renders the header once per open (columns derived from data),
