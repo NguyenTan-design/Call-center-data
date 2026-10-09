@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T07:02:50+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Toyama Hideki san\n\nThank you for sharing the information.\n\nI would like to provide you with the following update:\n\nToday, we checked the Production Data in Accessory and compared it with the Export Report from Nexim. The figures do not match (please refer to the attached Images 1 and Image 2).\n\nThe period we checked was from 10:00 to 11:00.\n\nCould you please check the attached data file \"Newdata09-Oct-2026\"\n\nThe customer has been raising significant concerns about the data discrepancies and whether the Accessory software is calculating the Success Rate incorrectly.\n\nWe would appreciate your support in investigating this issue and clarifying the root cause.\n\nThanks!\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-10-09T05:25:55+00:00",
         "CC NUMBER": "CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
