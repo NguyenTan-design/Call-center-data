@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T08:55:40+00:00",
+        "CC NUMBER": "NEW:CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are experiencing the following errors when using the **Is Push Sequence** function on an NXTR-S machine with the Head RH02 and RH01:\n\n- The part is position .... Cannot pick up\n\n- Push sequence actions are not possible for loaded head type and MWU\n\nI also found a similar case, **CC-0079015**, reported at LITE-ON Vietnam.\n\nCurrently, I cannot find any documentation explaining how to use this function on NXTR, similar to the *\"Pushing Placed Parts Operation Manual_R10a\"* available for NXTIII.\n\nPlease help us resolve this issue.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
         "DATE": "2026-10-09T07:02:50+00:00",
         "CC NUMBER": "CC-0083559",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
