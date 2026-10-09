@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T04:12:16+00:00",
+        "CC NUMBER": "CC-0083408",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
+        "Communication Content": "Dear Duong-san\n\nWhen repairs are performed at the Bac Ninh office, is information recorded regarding any changes that occurred before and after the repairs?\n\nFor example:\n\n・This value was abnormal before the repair.\n\n・It returned to normal after the repair.\n\n・However, when checked after the error recurred, it was abnormal again.\n\nWere there any factors that changed in this way?\n\nBased on the following points, I currently do not believe the issue lies with the IPS camera or the nozzle:\n\n・Replacing the nozzle does not resolve the issue.\n\n・The system operates correctly if \"Holder Skip\" is used.\n\nThe repair manual for the RH28 head includes a section titled “Automatic Inspection.”\n\nThis inspection is performed using the “NXTR Head Adjustment Jig Software.”\n\nI think the only option is to conduct those tests and investigate whether anything is wrong.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
+    },
+    {
         "DATE": "2026-10-09T03:02:41+00:00",
         "CC NUMBER": "CC-0082364",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -46258,14 +46267,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-09T04:12:16+00:00",
-        "CC NUMBER": "CC-0083408",
-        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
-        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
-        "Communication Content": "Dear Duong-san\n\nWhen repairs are performed at the Bac Ninh office, is information recorded regarding any changes that occurred before and after the repairs?\n\nFor example:\n\n・This value was abnormal before the repair.\n\n・It returned to normal after the repair.\n\n・However, when checked after the error recurred, it was abnormal again.\n\nWere there any factors that changed in this way?\n\nBased on the following points, I currently do not believe the issue lies with the IPS camera or the nozzle:\n\n・Replacing the nozzle does not resolve the issue.\n\n・The system operates correctly if \"Holder Skip\" is used.\n\nThe repair manual for the RH28 head includes a section titled “Automatic Inspection.”\n\nThis inspection is performed using the “NXTR Head Adjustment Jig Software.”\n\nI think the only option is to conduct those tests and investigate whether anything is wrong.\n\nThank you\n\nBR\n\nHamamoto",
-        "FMV PIC": "Dinh Duong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
     }
 ]
