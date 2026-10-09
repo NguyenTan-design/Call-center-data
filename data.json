@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T00:05:14+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Chien-san,\n\nThank you for your continued support.\n\nWe have been investigating the errors 8D390000 and 853A0000 with our\n\nDesign team. We would like to share the current status and request\n\nyour assistance in collecting additional data.\n\n[Current Investigation Status]\n\nOur Design team has identified that the SECS/GEM library (FEIBIF.dll)\n\ncontains a defect that requires a fix.\n\nHowever, there is also a high possibility that a separate issue exists\n\nunder different conditions, and further investigation is required.\n\nWe understand that the site is currently running production with\n\nProfiler turned OFF, which makes it difficult to reproduce the issue\n\nand collect trace data on-site.\n\nTherefore, our Design team is proceeding with internal reproduction\n\ntesting.\n\n[Data Collection Request]\n\nTo support the investigation, could you please provide the following\n\ndata? Please collect and share as many items as possible.\n\n1. Version text data for Nexim and LCU\n\n2. DB export data (JobDB, MaterialDB)\n\n   * If item 2 is available, item 4 (Job) is not required.\n\n3. Export data of the System Layout\n\n4. Export data of the Accessory Floor Layout\n\n5. Job data (only if item 2 is not available)\n\n6. Export data of the Machine Configuration Settings\n\n7. NKSexe.config file located in \\Nexim\\Client\\bin\n\n8. Filter file used during Verify (only if in use)\n\nWe will continue to keep you updated on the progress of the\n\ninvestigation.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-10-08T12:26:21+00:00",
         "CC NUMBER": "CC-0082364",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
