@@ -1,74 +1,110 @@
 [
   {
     "CC NUMBER": "NEW:CC-0077799",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0079816",
-    "Current status": "Pending"
+    "Current status": "Pending",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0080867",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0080899",
-    "Current status": "Pending"
+    "Current status": "Pending",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0081046",
-    "Current status": "Pending"
+    "Current status": "Pending",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0081323",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0081485",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0081535",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0082754",
-    "Current status": "Pending"
+    "Current status": "Pending",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0082866",
-    "Current status": "Pending"
+    "Current status": "Pending",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0082959",
-    "Current status": "Waiting for FMV Action"
+    "Current status": "Waiting for FMV Action",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083170",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083290",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083387",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083499",
-    "Current status": "On Going"
+    "Current status": "On Going",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083741",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0083882",
-    "Current status": "FUJI JP Investigating"
+    "Current status": "FUJI JP Investigating",
+    "Priority": "",
+    "Open day": null
   },
   {
     "CC NUMBER": "NEW:CC-0084026",
-    "Current status": "New case"
+    "Current status": "New case",
+    "Priority": "C:Need to make schedule",
+    "Open day": null
   }
 ]
