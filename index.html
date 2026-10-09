@@ -2282,33 +2282,47 @@
     td.appendChild(cell);
   }
 
-  /**
-   * Tính Open day = DATE - today (số ngày).
-   * DATE có thể ở dạng MM/DD/YY hoặc MM/DD/YYYY.
-   * Trả về số nguyên (có thể âm nếu DATE trong quá khứ).
+    /**
+   * Tính Open day = today - DATE (số ngày).
+   * Hỗ trợ 2 định dạng:
+   *   1. ISO 8601:  "2026-10-09T08:55:40+00:00"  hoặc "2026-10-09"
+   *   2. US:        "MM/DD/YY"  hoặc "MM/DD/YYYY"  hoặc "MM-DD-YY(YY)"
+   * Trả về số nguyên (dương nếu DATE trong quá khứ, âm nếu DATE trong tương lai).
    */
   function computeOpenDay(dateStr) {
     if (!dateStr) return null;
     const s = String(dateStr).trim();
-    const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
-    if (!m) return null;
+    if (!s) return null;
 
-    const month = parseInt(m[1], 10);
-    const day   = parseInt(m[2], 10);
-    let year    = parseInt(m[3], 10);
-    if (year < 100) {
-      // YY → 20YY (giả định thế kỷ 21)
-      year = 2000 + year;
+    let date = null;
+
+    // 1) Thử parse ISO 8601 (có T, hoặc YYYY-MM-DD)
+    if (/^\d{4}-\d{1,2}-\d{1,2}/.test(s)) {
+      const d = new Date(s);
+      if (!isNaN(d.getTime())) date = d;
     }
 
-    const date = new Date(year, month - 1, day);
-    if (isNaN(date.getTime())) return null;
+    // 2) Thử parse US format MM/DD/YY(YY) hoặc MM-DD-YY(YY)
+    if (!date) {
+      const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+      if (m) {
+        const month = parseInt(m[1], 10);
+        const day   = parseInt(m[2], 10);
+        let year    = parseInt(m[3], 10);
+        if (year < 100) year = 2000 + year;
+        const d = new Date(year, month - 1, day);
+        if (!isNaN(d.getTime())) date = d;
+      }
+    }
 
-    const today = new Date();
+    if (!date) return null;
+
+    // Chuẩn hoá về 00:00:00 local để tính số ngày nguyên
+    const target = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const today  = new Date();
     today.setHours(0, 0, 0, 0);
-    date.setHours(0, 0, 0, 0);
 
-    const diffMs = today.getTime() - date.getTime();
+    const diffMs = today.getTime() - target.getTime();
     return Math.round(diffMs / (1000 * 60 * 60 * 24));
   }
 
