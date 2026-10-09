@@ -2,11 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link
-    rel="icon"
-    type="image/png"
-    href="customer-service.png"
->
+<link rel="icon" type="image/png" href="customer-service.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CC Management</title>
 <style>
@@ -30,7 +26,6 @@
     background: #f5f5f5;
   }
 
-  /* --- Shared sticky header --- */
   .sticky-header {
     position: sticky;
     top: 0;
@@ -211,7 +206,6 @@
 
   #pagination button:disabled { cursor: not-allowed; opacity: .5; }
 
-  /* --- Modal --- */
   .modal-overlay {
     display: none;
     position: fixed;
@@ -299,7 +293,6 @@
 
   .back-btn:hover { background: #ececec; }
 
-  /* --- Graph view --- */
   #graph-view { display: none; }
 
   #graph-status {
@@ -480,7 +473,6 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* --- NA rank --- */
   .na-rank-list {
     max-height: 520px;
     overflow-y: auto;
@@ -580,7 +572,6 @@
     display: inline-block;
   }
 
-  /* --- Detail view --- */
   #detail-view { display: none; }
 
   #detail-view .detail-toolbar {
@@ -701,12 +692,14 @@
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
-  /* --- Current status column (editable by long-press 5s) --- */
+  /* --- Current Status / Priority cells (editable via long-press) --- */
   #detail-view th[data-col-type="status"],
-  #detail-view td[data-col-type="status"] {
-    width: 170px;
-    min-width: 150px;
-    max-width: 200px;
+  #detail-view td[data-col-type="status"],
+  #detail-view th[data-col-type="priority"],
+  #detail-view td[data-col-type="priority"] {
+    width: 210px;
+    min-width: 180px;
+    max-width: 260px;
     white-space: normal !important;
     overflow: visible !important;
     text-overflow: clip !important;
@@ -766,14 +759,23 @@
     color: #b71c1c;
   }
 
-  /* Small badges for status values */
+  /* Cells not editable (Open day) */
+  .status-cell.readonly {
+    cursor: default;
+    background: #f7f7f7;
+    border-color: #e0e0e0;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+
   .status-badge {
     display: inline-block;
     padding: 2px 7px;
     border-radius: 10px;
     font-size: 11px;
     font-weight: bold;
-    white-space: nowrap;
+    white-space: normal;
     color: #fff;
     background: #757575;
   }
@@ -784,7 +786,23 @@
   .status-badge[data-status="Under Consideration"]       { background: #3949ab; }
   .status-badge[data-status="Pending"]                   { background: #757575; }
 
-  /* Popup menu for status selection */
+  /* Priority badges */
+  .priority-badge {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: normal;
+    color: #fff;
+    background: #757575;
+  }
+  .priority-badge[data-priority^="S:"] { background: #c62828; }
+  .priority-badge[data-priority^="A:"] { background: #ef6c00; }
+  .priority-badge[data-priority^="B:"] { background: #f9a825; color: #333; }
+  .priority-badge[data-priority^="C:"] { background: #2e7d32; }
+  .priority-badge[data-priority^="D:"] { background: #607d8b; }
+
   .status-menu {
     position: fixed;
     z-index: 1500;
@@ -793,7 +811,10 @@
     border-radius: 8px;
     box-shadow: 0 6px 22px rgba(0, 0, 0, .22);
     padding: 6px;
-    min-width: 220px;
+    min-width: 260px;
+    max-width: 380px;
+    max-height: 70vh;
+    overflow-y: auto;
     display: none;
   }
 
@@ -821,6 +842,8 @@
     cursor: pointer;
     border-radius: 5px;
     color: #333;
+    white-space: normal;
+    line-height: 1.35;
   }
 
   .status-menu button:hover { background: #eaf3fd; }
@@ -876,8 +899,10 @@
       max-width: 240px; min-width: 140px;
     }
     #detail-view th[data-col-type="status"],
-    #detail-view td[data-col-type="status"] {
-      width: 130px; min-width: 110px; max-width: 150px;
+    #detail-view td[data-col-type="status"],
+    #detail-view th[data-col-type="priority"],
+    #detail-view td[data-col-type="priority"] {
+      width: 150px; min-width: 130px; max-width: 180px;
     }
     .status-cell { font-size: 10.5px; }
   }
@@ -960,8 +985,7 @@
 
 <div id="slice-tooltip" class="slice-tooltip"></div>
 
-<!-- Status selection popup menu -->
-<div id="status-menu" class="status-menu" role="menu" aria-label="Current status"></div>
+<div id="status-menu" class="status-menu" role="menu" aria-label="Select value"></div>
 
 <div id="content-modal" class="modal-overlay">
   <div class="modal-box">
@@ -984,11 +1008,19 @@
   const CONTENT_LABEL = "COMMUNICATION CONTENT";
   const SLICE_RESET_MS = 3000;
 
-  // Thời gian nhấn giữ để mở menu chỉnh sửa Current status (5 giây).
-  const STATUS_HOLD_MS = 5000;
-  const STATUS_COL_NAME = "Current status";
+  // Long-press 5 giây
+  const HOLD_MS = 5000;
 
-  // Các lựa chọn cho cột Current status.
+  // Tên cột
+  const STATUS_COL_NAME   = "Current Status";   // yêu cầu 3
+  const PRIORITY_COL_NAME = "Priority";          // yêu cầu 4
+  const OPENDAY_COL_NAME  = "Open day";          // yêu cầu 8
+
+  // Các field lưu trong status.json
+  const FIELD_CURRENT_STATUS = "Current status";
+  const FIELD_PRIORITY       = "Priority";
+  const FIELD_OPEN_DAY       = "Open day";
+
   const STATUS_OPTIONS = [
     "New case",
     "FUJI JP Investigating",
@@ -998,8 +1030,17 @@
     "Pending"
   ];
 
-  const TITLE_BASIC = "NA TEAM CC Management";
-  const TITLE_GRAPH = "Graph Mode - NA TEAM Overview";
+  // Yêu cầu 7: các lựa chọn Priority
+  const PRIORITY_OPTIONS = [
+    "S:Machine Stop",
+    "A:Sometimes Stop/Customer focus on the issue",
+    "B:Need to Fix ASAP",
+    "C:Need to make schedule",
+    "D:Not Urgent"
+  ];
+
+  const TITLE_BASIC  = "NA TEAM CC Management";
+  const TITLE_GRAPH  = "Graph Mode - NA TEAM Overview";
   const TITLE_DETAIL = "Detail records";
 
   const COLUMNS = [
@@ -1012,8 +1053,8 @@
   ];
 
   const FIELD_MAP = {
-    cc: { field: "CC NUMBER", key: "__cc" },
-    topic: { field: "TOPIC", key: "__topic" },
+    cc:      { field: "CC NUMBER", key: "__cc" },
+    topic:   { field: "TOPIC", key: "__topic" },
     content: { field: "Communication Content", key: "__content" }
   };
 
@@ -1026,12 +1067,9 @@
 
   const GRAPH_DATA_SOURCE = "data2.json";
 
-  // ---- Backend API ----
-  // Backend Cloudflare Worker. Endpoint giả định:
-  //   GET  /statuses  → [{ "CC NUMBER": "...", "Current status": "..." }, ...]
-  //   POST /statuses  → body { "CC NUMBER": "...", "Current status": "..." }
+  // Backend API
   const STATUS_API_BASE = "https://call-center-data.quoctan91.workers.dev";
-  const STATUS_API_GET = `${STATUS_API_BASE}/statuses`;
+  const STATUS_API_GET  = `${STATUS_API_BASE}/statuses`;
   const STATUS_API_POST = `${STATUS_API_BASE}/statuses`;
 
   const STATUS_CLOSED = "Closed";
@@ -1051,7 +1089,7 @@
   let graphData = null;
   let graphLoaded = false;
 
-  // Map: CC NUMBER (chuẩn hoá) → Current status (chuỗi)
+  // Map: CC NUMBER → { "Current status": ..., "Priority": ..., "Open day": ... }
   const statusMap = new Map();
   let statusesLoaded = false;
   let statusesLoading = null;
@@ -1060,6 +1098,10 @@
 
   let detailRecordsAll = [];
   let detailSearch = { cc: "", topic: "" };
+
+  // Yêu cầu 1: thay vì đọc/ghi detailView.dataset.columns (dễ bị null),
+  // giữ mảng columns trong biến closure này.
+  let detailColumns = [];
 
   let savedGraphScrollY = 0;
 
@@ -1118,6 +1160,9 @@
 
   init();
 
+  // ============================================================
+  // INIT
+  // ============================================================
   async function init() {
     try {
       const res = await fetch("data.json");
@@ -1149,9 +1194,9 @@
     return String(cc ?? "").trim();
   }
 
-  // ------- Status API -------
-
-  // Tải toàn bộ status từ backend (chỉ gọi 1 lần).
+  // ============================================================
+  // STATUS API
+  // ============================================================
   async function loadStatuses() {
     if (statusesLoaded) return statusMap;
     if (statusesLoading) return statusesLoading;
@@ -1168,10 +1213,6 @@
         const data = await res.json();
         statusMap.clear();
 
-        // Hỗ trợ nhiều dạng response:
-        //   - Array<{ "CC NUMBER": ..., "Current status": ... }>
-        //   - Object map { "<cc>": "<status>", ... }
-        //   - { statuses: [...] } hoặc { data: [...] }
         const list = Array.isArray(data)
           ? data
           : Array.isArray(data?.statuses)
@@ -1184,24 +1225,38 @@
           list.forEach(entry => {
             if (!entry || typeof entry !== "object") return;
             const ccKey = Object.keys(entry).find(k => /cc\s*number/i.test(k));
-            const statusKey = Object.keys(entry).find(k => /current\s*status/i.test(k));
-            if (!ccKey || !statusKey) return;
+            if (!ccKey) return;
             const cc = normalizeCc(entry[ccKey]);
-            const st = String(entry[statusKey] ?? "").trim();
-            if (cc && st) statusMap.set(cc, st);
+            if (!cc) return;
+
+            const curKey = Object.keys(entry).find(k => /^current\s*status$/i.test(k));
+            const priKey = Object.keys(entry).find(k => /^priority$/i.test(k));
+            const opeKey = Object.keys(entry).find(k => /^open\s*day$/i.test(k));
+
+            statusMap.set(cc, {
+              [FIELD_CURRENT_STATUS]: curKey ? String(entry[curKey] ?? "").trim() : "",
+              [FIELD_PRIORITY]:       priKey ? String(entry[priKey] ?? "").trim() : "",
+              [FIELD_OPEN_DAY]:       opeKey ? entry[opeKey] : null
+            });
           });
         } else if (data && typeof data === "object") {
+          // Object map: { "<cc>": "<status>" } (dạng cũ)
           Object.entries(data).forEach(([cc, st]) => {
             const key = normalizeCc(cc);
             const val = String(st ?? "").trim();
-            if (key && val) statusMap.set(key, val);
+            if (key && val) {
+              statusMap.set(key, {
+                [FIELD_CURRENT_STATUS]: val,
+                [FIELD_PRIORITY]: "",
+                [FIELD_OPEN_DAY]: null
+              });
+            }
           });
         }
 
         statusesLoaded = true;
       } catch (err) {
         console.error("loadStatuses failed:", err);
-        // Không throw để UI vẫn render bảng; status sẽ hiển thị trống.
         statusesLoaded = true;
       } finally {
         statusesLoading = null;
@@ -1212,11 +1267,20 @@
     return statusesLoading;
   }
 
-  // Gửi status mới lên backend.
-  async function saveStatus(ccNumber, newStatus) {
+  function getStatusEntry(cc) {
+    if (!cc) return { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
+    const cur = statusMap.get(cc);
+    return cur || { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
+  }
+
+  // Gửi full entry (Current status + Priority + Open day) lên backend.
+  // Worker sẽ merge và ghi lại status.json.
+  async function saveStatusEntry(ccNumber, entry) {
     const body = {
       "CC NUMBER": ccNumber,
-      "Current status": newStatus
+      [FIELD_CURRENT_STATUS]: entry[FIELD_CURRENT_STATUS] || "",
+      [FIELD_PRIORITY]:       entry[FIELD_PRIORITY] || "",
+      [FIELD_OPEN_DAY]:       entry[FIELD_OPEN_DAY]
     };
 
     const res = await fetch(STATUS_API_POST, {
@@ -1234,13 +1298,13 @@
       throw new Error(`HTTP ${res.status} ${text}`);
     }
 
-    // Cập nhật cache local
-    statusMap.set(ccNumber, newStatus);
+    statusMap.set(ccNumber, { ...entry });
     return true;
   }
 
-  // ------- Customer list loading -------
-
+  // ============================================================
+  // CUSTOMER LIST
+  // ============================================================
   function extractCustomerNames(data) {
     if (Array.isArray(data)) {
       return data.map(entry => {
@@ -1294,6 +1358,9 @@
     applyFilters();
   }
 
+  // ============================================================
+  // EVENT LISTENERS
+  // ============================================================
   ccInput.addEventListener("input", debounce(() => {
     filters.cc = ccInput.value.trim().toLowerCase();
     applyFilters();
@@ -1362,7 +1429,9 @@
     document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
   }
 
-  // --- View switching ---
+  // ============================================================
+  // VIEW SWITCHING
+  // ============================================================
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
 
@@ -1434,6 +1503,9 @@
     graphStatus.style.display = "none";
   }
 
+  // ============================================================
+  // CHARTS
+  // ============================================================
   function renderAllCharts() {
     resetSliceInteraction();
 
@@ -1689,9 +1761,7 @@
 
     clearSliceTimer();
     sliceResetTimer = setTimeout(() => {
-      if (activeSliceEl === circle) {
-        deactivateSlice(circle);
-      }
+      if (activeSliceEl === circle) deactivateSlice(circle);
       sliceResetTimer = null;
     }, SLICE_RESET_MS);
   }
@@ -1914,7 +1984,9 @@
     container.appendChild(legend);
   }
 
-  // --- Detail view ---
+  // ============================================================
+  // DETAIL VIEW
+  // ============================================================
   function isLinkColumn(colName) {
     return /go\s*to/i.test(colName) && /web|link/i.test(colName);
   }
@@ -1925,6 +1997,14 @@
 
   function isStatusColumn(colName) {
     return /^current\s*status$/i.test(colName.trim());
+  }
+
+  function isPriorityColumn(colName) {
+    return /^priority$/i.test(colName.trim());
+  }
+
+  function isOpenDayColumn(colName) {
+    return /^open\s*day$/i.test(colName.trim());
   }
 
   function findColumnKey(keys, target) {
@@ -1963,6 +2043,7 @@
 
     if (!records || records.length === 0) {
       detailCount.textContent = "— 0 record(s)";
+      detailColumns = [];
       const trHead = document.createElement("tr");
       const th = document.createElement("th");
       th.textContent = "(no columns)";
@@ -1978,7 +2059,7 @@
       return;
     }
 
-    // Union các cột từ tất cả record (bỏ các field nội bộ "__").
+    // Union các cột từ tất cả record (bỏ field nội bộ "__").
     const columnSet = new Set();
     records.forEach(r => {
       Object.keys(r).forEach(k => {
@@ -1987,11 +2068,25 @@
     });
     const columns = [...columnSet];
 
-    // Đảm bảo luôn có cột "Current status" kể cả khi record gốc không có.
-    const hasStatusCol = columns.some(c => isStatusColumn(c));
-    if (!hasStatusCol) columns.push(STATUS_COL_NAME);
+    // Yêu cầu 3 + 4 + 8: chèn các cột tùy chỉnh NGAY SAU cột "CASE STATUS"
+    // (nếu có), nếu không thì append vào cuối.
+    const insertAfter =
+      columns.findIndex(c => /^case\s*status$/i.test(c.trim()));
+    const customCols = [STATUS_COL_NAME, PRIORITY_COL_NAME, OPENDAY_COL_NAME];
 
-    detailView.dataset.columns = JSON.stringify(columns);
+    // Loại bỏ các cột custom trùng tên nếu record đã có sẵn.
+    customCols.forEach(name => {
+      const idx = columns.findIndex(c => c.toLowerCase() === name.toLowerCase());
+      if (idx >= 0) columns.splice(idx, 1);
+    });
+
+    if (insertAfter >= 0) {
+      columns.splice(insertAfter + 1, 0, ...customCols);
+    } else {
+      columns.push(...customCols);
+    }
+
+    detailColumns = columns; // Yêu cầu 1: lưu vào biến closure
 
     // Header
     const trHead = document.createElement("tr");
@@ -2002,6 +2097,8 @@
       if (isLinkColumn(col)) th.dataset.colType = "link";
       else if (isTopicColumn(col)) th.dataset.colType = "topic";
       else if (isStatusColumn(col)) th.dataset.colType = "status";
+      else if (isPriorityColumn(col)) th.dataset.colType = "priority";
+      else if (isOpenDayColumn(col)) th.dataset.colType = "priority"; // dùng style tương tự
       trHead.appendChild(th);
     });
     detailThead.appendChild(trHead);
@@ -2017,8 +2114,8 @@
     const records = detailRecordsAll;
     if (!records || records.length === 0) return;
 
-    const columns = JSON.parse(detailView.dataset.columns || "[]");
-    if (columns.length === 0) return;
+    const columns = detailColumns;
+    if (!columns || columns.length === 0) return;
 
     const ccKey = findColumnKey(columns, "CC NUMBER");
     const topicKey = findColumnKey(columns, "TOPIC");
@@ -2056,11 +2153,19 @@
       const tr = document.createElement("tr");
       tr.className = "detail-row";
 
+      // Xác định CASE STATUS để quyết định có show Current Status / Priority.
+      const caseStatusVal = String(
+        r["CASE STATUS"] ?? r["Case Status"] ?? r["case status"] ?? ""
+      ).trim();
+      const isOnGoing = caseStatusVal.toLowerCase() === "on going";
+
       columns.forEach(col => {
         const td = document.createElement("td");
         if (isLinkColumn(col)) td.dataset.colType = "link";
         else if (isTopicColumn(col)) td.dataset.colType = "topic";
         else if (isStatusColumn(col)) td.dataset.colType = "status";
+        else if (isPriorityColumn(col)) td.dataset.colType = "priority";
+        else if (isOpenDayColumn(col)) td.dataset.colType = "priority";
 
         const val = r[col];
 
@@ -2080,7 +2185,15 @@
             td.textContent = "";
           }
         } else if (isStatusColumn(col)) {
-          buildStatusCell(td, r);
+          // Yêu cầu 2: chỉ show khi CASE STATUS = "On Going"
+          if (isOnGoing) buildEditableCell(td, r, "current-status");
+          // else: để trống
+        } else if (isPriorityColumn(col)) {
+          // Yêu cầu 5: chỉ show khi CASE STATUS = "On Going"
+          if (isOnGoing) buildEditableCell(td, r, "priority");
+        } else if (isOpenDayColumn(col)) {
+          // Yêu cầu 8: Open day luôn hiển thị (chỉ đọc), tính từ DATE.
+          buildOpenDayCell(td, r);
         } else {
           td.textContent = val == null ? "" : String(val);
           if (!isTopicColumn(col)) td.title = td.textContent;
@@ -2097,34 +2210,126 @@
     detailTbody.appendChild(fragment);
   }
 
-  // Xây dựng cell "Current status" có thể sửa bằng long-press 5s.
-  function buildStatusCell(td, record) {
+  // ============================================================
+  // Editable cell (Current Status / Priority)
+  // ============================================================
+  function buildEditableCell(td, record, type) {
     const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
     const cc = ccKey ? normalizeCc(record[ccKey]) : "";
-    const current = cc ? (statusMap.get(cc) || "") : "";
+    const entry = getStatusEntry(cc);
+
+    const isPriority = type === "priority";
+    const fieldName = isPriority ? FIELD_PRIORITY : FIELD_CURRENT_STATUS;
+    const value = String(entry[fieldName] ?? "").trim();
 
     const cell = document.createElement("span");
     cell.className = "status-cell";
-    if (!current) cell.classList.add("empty");
     cell.dataset.cc = cc;
-    cell.dataset.status = current;
+    cell.dataset.field = fieldName;
+    cell.dataset.value = value;
+    cell.dataset.type = type;
 
-    if (current) {
-      const badge = document.createElement("span");
-      badge.className = "status-badge";
-      badge.dataset.status = current;
-      badge.textContent = current;
-      cell.appendChild(badge);
-    } else {
-      cell.textContent = "— (long-press 5s to set)";
+    if (!cc) {
+      cell.classList.add("empty");
+      cell.textContent = "no CC";
+      td.appendChild(cell);
+      return;
     }
 
-    attachLongPressHandler(cell);
+    if (value) {
+      const badge = document.createElement("span");
+      badge.className = isPriority ? "priority-badge" : "status-badge";
+      if (isPriority) badge.dataset.priority = value;
+      else badge.dataset.status = value;
+      badge.textContent = value;
+      cell.appendChild(badge);
+    } else {
+      cell.classList.add("empty");
+      cell.textContent = isPriority
+        ? "— (long-press 5s to set priority)"
+        : "— (long-press 5s to set status)";
+    }
+
+    attachLongPressHandler(cell, type);
     td.appendChild(cell);
   }
 
-  // Nhấn giữ 5 giây → mở menu chọn status.
-  function attachLongPressHandler(cell) {
+  // ============================================================
+  // Open day cell (readonly)
+  // ============================================================
+  function buildOpenDayCell(td, record) {
+    const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
+    const cc = ccKey ? normalizeCc(record[ccKey]) : "";
+
+    // Ưu tiên giá trị đã lưu trong status.json (nếu có),
+    // nếu không có thì tính từ DATE.
+    const entry = getStatusEntry(cc);
+    let openDay = entry[FIELD_OPEN_DAY];
+    if (openDay == null || openDay === "" || isNaN(Number(openDay))) {
+      openDay = computeOpenDay(record["DATE"]);
+    }
+
+    const cell = document.createElement("span");
+    cell.className = "status-cell readonly";
+    cell.title = "Open day (không thể sửa)";
+
+    if (openDay == null || isNaN(Number(openDay))) {
+      cell.textContent = "—";
+    } else {
+      cell.textContent = String(openDay);
+    }
+
+    td.appendChild(cell);
+  }
+
+    /**
+   * Tính Open day = today - DATE (số ngày).
+   * Hỗ trợ 2 định dạng:
+   *   1. ISO 8601:  "2026-10-09T08:55:40+00:00"  hoặc "2026-10-09"
+   *   2. US:        "MM/DD/YY"  hoặc "MM/DD/YYYY"  hoặc "MM-DD-YY(YY)"
+   * Trả về số nguyên (dương nếu DATE trong quá khứ, âm nếu DATE trong tương lai).
+   */
+  function computeOpenDay(dateStr) {
+    if (!dateStr) return null;
+    const s = String(dateStr).trim();
+    if (!s) return null;
+
+    let date = null;
+
+    // 1) Thử parse ISO 8601 (có T, hoặc YYYY-MM-DD)
+    if (/^\d{4}-\d{1,2}-\d{1,2}/.test(s)) {
+      const d = new Date(s);
+      if (!isNaN(d.getTime())) date = d;
+    }
+
+    // 2) Thử parse US format MM/DD/YY(YY) hoặc MM-DD-YY(YY)
+    if (!date) {
+      const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+      if (m) {
+        const month = parseInt(m[1], 10);
+        const day   = parseInt(m[2], 10);
+        let year    = parseInt(m[3], 10);
+        if (year < 100) year = 2000 + year;
+        const d = new Date(year, month - 1, day);
+        if (!isNaN(d.getTime())) date = d;
+      }
+    }
+
+    if (!date) return null;
+
+    // Chuẩn hoá về 00:00:00 local để tính số ngày nguyên
+    const target = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const today  = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const diffMs = today.getTime() - target.getTime();
+    return Math.round(diffMs / (1000 * 60 * 60 * 24));
+  }
+
+  // ============================================================
+  // Long-press handler (5s)
+  // ============================================================
+  function attachLongPressHandler(cell, type) {
     let holdTimer = null;
     let rafId = null;
     let startTime = 0;
@@ -2132,7 +2337,7 @@
     let startX = 0;
     let startY = 0;
 
-    const HOLD_MOVE_TOLERANCE = 12; // px
+    const HOLD_MOVE_TOLERANCE = 12;
 
     const cleanup = () => {
       if (holdTimer) { clearTimeout(holdTimer); holdTimer = null; }
@@ -2143,15 +2348,14 @@
 
     const tick = () => {
       const elapsed = performance.now() - startTime;
-      const pct = Math.min(100, (elapsed / STATUS_HOLD_MS) * 100);
+      const pct = Math.min(100, (elapsed / HOLD_MS) * 100);
       cell.style.setProperty("--hold-progress", `${pct}%`);
-      if (elapsed < STATUS_HOLD_MS) {
+      if (elapsed < HOLD_MS) {
         rafId = requestAnimationFrame(tick);
       }
     };
 
     const start = (evt) => {
-      // Bỏ qua click chuột phải / middle
       if (evt.button != null && evt.button !== 0) return;
       const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
       startX = point.clientX ?? 0;
@@ -2167,8 +2371,8 @@
       holdTimer = setTimeout(() => {
         fired = true;
         cleanup();
-        openStatusMenu(cell);
-      }, STATUS_HOLD_MS);
+        openValueMenu(cell, type);
+      }, HOLD_MS);
 
       rafId = requestAnimationFrame(tick);
     };
@@ -2178,16 +2382,10 @@
       const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
       const dx = (point.clientX ?? 0) - startX;
       const dy = (point.clientY ?? 0) - startY;
-      if (Math.hypot(dx, dy) > HOLD_MOVE_TOLERANCE) {
-        // Di chuyển quá xa → huỷ long-press (để không cản scroll)
-        cleanup();
-      }
+      if (Math.hypot(dx, dy) > HOLD_MOVE_TOLERANCE) cleanup();
     };
 
-    const end = () => {
-      cleanup();
-      // Không cần làm gì thêm — nếu đã fire thì menu đã mở.
-    };
+    const end = () => { cleanup(); };
 
     cell.addEventListener("mousedown", start);
     cell.addEventListener("touchstart", start, { passive: true });
@@ -2198,50 +2396,56 @@
     cell.addEventListener("touchend", end);
     cell.addEventListener("touchcancel", end);
 
-    // Chặn context menu (long-press trên mobile trình duyệt hay bật menu copy).
     cell.addEventListener("contextmenu", (e) => {
       e.preventDefault();
       e.stopPropagation();
     });
   }
 
-  // ------- Status popup menu -------
+  // ============================================================
+  // Value menu (Current Status / Priority)
+  // ============================================================
+  let menuContext = null;
 
-  let statusMenuContext = null; // { cell, cc, currentStatus }
-
-  function openStatusMenu(cell) {
+  function openValueMenu(cell, type) {
     const cc = cell.dataset.cc;
     if (!cc) {
       alert("Record này không có CC NUMBER.");
       return;
     }
-    const currentStatus = cell.dataset.status || "";
-    statusMenuContext = { cell, cc, currentStatus };
+
+    const isPriority = type === "priority";
+    const fieldName = isPriority ? FIELD_PRIORITY : FIELD_CURRENT_STATUS;
+    const options = isPriority ? PRIORITY_OPTIONS : STATUS_OPTIONS;
+    const currentValue = cell.dataset.value || "";
+
+    menuContext = { cell, cc, type, fieldName, currentValue };
 
     statusMenu.replaceChildren();
 
     const title = document.createElement("div");
     title.className = "menu-title";
-    title.textContent = `CC ${cc} — chọn trạng thái`;
+    title.textContent = isPriority
+      ? `CC ${cc} — chọn Priority`
+      : `CC ${cc} — chọn Current Status`;
     statusMenu.appendChild(title);
 
-    STATUS_OPTIONS.forEach(opt => {
+    options.forEach(opt => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = opt;
-      if (opt === currentStatus) btn.classList.add("current");
+      if (opt === currentValue) btn.classList.add("current");
       btn.addEventListener("click", () => {
         hideStatusMenu();
-        applyStatusChange(cell, cc, opt);
+        applyValueChange(cell, cc, fieldName, opt, type);
       });
       statusMenu.appendChild(btn);
     });
 
-    // Định vị menu gần cell (dùng getBoundingClientRect).
     statusMenu.classList.add("show");
     statusMenu.style.left = "-9999px";
     statusMenu.style.top = "-9999px";
-    // Đo kích thước
+
     const rect = cell.getBoundingClientRect();
     const menuRect = statusMenu.getBoundingClientRect();
     const vw = window.innerWidth;
@@ -2260,7 +2464,6 @@
     statusMenu.style.left = `${left}px`;
     statusMenu.style.top = `${top}px`;
 
-    // Đóng khi click ra ngoài
     setTimeout(() => {
       document.addEventListener("mousedown", onDocClickForMenu, true);
       document.addEventListener("touchstart", onDocClickForMenu, true);
@@ -2277,49 +2480,60 @@
     statusMenu.classList.remove("show");
     document.removeEventListener("mousedown", onDocClickForMenu, true);
     document.removeEventListener("touchstart", onDocClickForMenu, true);
-    statusMenuContext = null;
+    menuContext = null;
   }
 
-  async function applyStatusChange(cell, cc, newStatus) {
-    const prevStatus = cell.dataset.status || "";
+  async function applyValueChange(cell, cc, fieldName, newValue, type) {
+    const isPriority = type === "priority";
+
+    // Lấy entry hiện tại và cập nhật field.
+    const entry = getStatusEntry(cc);
+    const prevValue = entry[fieldName] || "";
+    const updated = { ...entry, [fieldName]: newValue };
 
     // Cập nhật UI ngay (optimistic).
     cell.classList.remove("empty");
     cell.classList.add("saving");
-    cell.dataset.status = newStatus;
+    cell.dataset.value = newValue;
     cell.replaceChildren();
+
     const badge = document.createElement("span");
-    badge.className = "status-badge";
-    badge.dataset.status = newStatus;
-    badge.textContent = newStatus;
+    badge.className = isPriority ? "priority-badge" : "status-badge";
+    if (isPriority) badge.dataset.priority = newValue;
+    else badge.dataset.status = newValue;
+    badge.textContent = newValue;
     cell.appendChild(badge);
 
     try {
-      await saveStatus(cc, newStatus);
+      await saveStatusEntry(cc, updated);
       cell.classList.remove("saving");
       cell.classList.add("saved");
       setTimeout(() => cell.classList.remove("saved"), 1500);
     } catch (err) {
-      console.error("saveStatus failed:", err);
+      console.error("saveStatusEntry failed:", err);
       cell.classList.remove("saving");
       cell.classList.add("error");
       cell.title = `Lỗi khi lưu: ${err.message}`;
 
       // Rollback UI.
-      cell.dataset.status = prevStatus;
+      entry[fieldName] = prevValue;
+      cell.dataset.value = prevValue;
       cell.replaceChildren();
-      if (prevStatus) {
+      if (prevValue) {
         const oldBadge = document.createElement("span");
-        oldBadge.className = "status-badge";
-        oldBadge.dataset.status = prevStatus;
-        oldBadge.textContent = prevStatus;
+        oldBadge.className = isPriority ? "priority-badge" : "status-badge";
+        if (isPriority) oldBadge.dataset.priority = prevValue;
+        else oldBadge.dataset.status = prevValue;
+        oldBadge.textContent = prevValue;
         cell.appendChild(oldBadge);
       } else {
         cell.classList.add("empty");
-        cell.textContent = "— (long-press 5s to set)";
+        cell.textContent = isPriority
+          ? "— (long-press 5s to set priority)"
+          : "— (long-press 5s to set status)";
       }
 
-      alert(`Không lưu được status. Vui lòng thử lại.\n${err.message}`);
+      alert(`Không lưu được giá trị. Vui lòng thử lại.\n${err.message}`);
       setTimeout(() => cell.classList.remove("error"), 3000);
     }
   }
@@ -2335,7 +2549,9 @@
     selectedDetailRow = tr;
   }
 
-  // --- Communication Content modal ---
+  // ============================================================
+  // COMMUNICATION CONTENT MODAL
+  // ============================================================
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
     if (!td) return;
@@ -2381,6 +2597,9 @@
     };
   }
 
+  // ============================================================
+  // BASIC TABLE
+  // ============================================================
   function applyFilters() {
     const activeList = filters.customerGroup
       ? customerListCache[filters.customerGroup]

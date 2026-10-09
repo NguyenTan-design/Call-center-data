@@ -572,6 +572,9 @@
     display: inline-block;
   }
 
+  /* ============================================================
+     Detail view
+     ============================================================ */
   #detail-view { display: none; }
 
   #detail-view .detail-toolbar {
@@ -692,7 +695,64 @@
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
-  /* --- Current Status / Priority cells (editable via long-press) --- */
+  /* ============================================================
+     Detail charts (4 pie charts)
+     ============================================================ */
+  #detail-charts {
+    display: none;
+    margin-bottom: 15px;
+  }
+
+  #detail-charts.show { display: block; }
+
+  #detail-charts .detail-charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  #detail-charts .chart-card {
+    padding: 12px;
+  }
+
+  #detail-charts .chart-card h3 {
+    font-size: 13.5px;
+    margin-bottom: 8px;
+  }
+
+  #detail-charts .chart-svg-wrap svg {
+    width: 170px;
+    height: 170px;
+  }
+
+  #detail-charts .chart-legend {
+    max-width: 100%;
+  }
+
+  #detail-charts .chart-legend li {
+    font-size: 11.5px;
+    padding: 3px 0;
+  }
+
+  /* Nút Show / Hide graph trên mobile */
+  #toggle-detail-charts {
+    display: none;
+    flex: 0 0 auto;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #2e7d32;
+    border-radius: 6px;
+    background: #2e7d32;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #toggle-detail-charts:hover { background: #24632a; }
+
+  #toggle-detail-charts.visible { display: inline-block; }
+
+  /* Current Status / Priority cells */
   #detail-view th[data-col-type="status"],
   #detail-view td[data-col-type="status"],
   #detail-view th[data-col-type="priority"],
@@ -759,7 +819,6 @@
     color: #b71c1c;
   }
 
-  /* Cells not editable (Open day) */
   .status-cell.readonly {
     cursor: default;
     background: #f7f7f7;
@@ -786,7 +845,6 @@
   .status-badge[data-status="Under Consideration"]       { background: #3949ab; }
   .status-badge[data-status="Pending"]                   { background: #757575; }
 
-  /* Priority badges */
   .priority-badge {
     display: inline-block;
     padding: 2px 7px;
@@ -905,6 +963,15 @@
       width: 150px; min-width: 130px; max-width: 180px;
     }
     .status-cell { font-size: 10.5px; }
+
+    /* Detail charts trên mobile */
+    #detail-charts .detail-charts-grid {
+      grid-template-columns: 1fr;
+    }
+    #detail-charts .chart-svg-wrap svg {
+      width: 150px;
+      height: 150px;
+    }
   }
 </style>
 </head>
@@ -967,7 +1034,20 @@
       <span id="detail-title">Detail</span>
       <span id="detail-count" class="detail-count"></span>
     </div>
-    <button id="detail-back-btn" class="back-btn" type="button">⬅ BACK</button>
+    <div style="display:flex; gap:8px; align-items:center;">
+      <button id="toggle-detail-charts" type="button">📊 Show graph</button>
+      <button id="detail-back-btn" class="back-btn" type="button">⬅ BACK</button>
+    </div>
+  </div>
+
+  <!-- 4 biểu đồ tròn cho Detail (chỉ hiện khi mở từ "NA Open-Close Case — On Going") -->
+  <div id="detail-charts">
+    <div class="detail-charts-grid">
+      <div class="chart-card" id="detail-chart-site"></div>
+      <div class="chart-card" id="detail-chart-inquiry"></div>
+      <div class="chart-card" id="detail-chart-status"></div>
+      <div class="chart-card" id="detail-chart-priority"></div>
+    </div>
   </div>
 
   <div class="detail-search">
@@ -1008,15 +1088,12 @@
   const CONTENT_LABEL = "COMMUNICATION CONTENT";
   const SLICE_RESET_MS = 3000;
 
-  // Long-press 5 giây
   const HOLD_MS = 5000;
 
-  // Tên cột
-  const STATUS_COL_NAME   = "Current Status";   // yêu cầu 3
-  const PRIORITY_COL_NAME = "Priority";          // yêu cầu 4
-  const OPENDAY_COL_NAME  = "Open day";          // yêu cầu 8
+  const STATUS_COL_NAME   = "Current Status";
+  const PRIORITY_COL_NAME = "Priority";
+  const OPENDAY_COL_NAME  = "Open day";
 
-  // Các field lưu trong status.json
   const FIELD_CURRENT_STATUS = "Current status";
   const FIELD_PRIORITY       = "Priority";
   const FIELD_OPEN_DAY       = "Open day";
@@ -1030,7 +1107,6 @@
     "Pending"
   ];
 
-  // Yêu cầu 7: các lựa chọn Priority
   const PRIORITY_OPTIONS = [
     "S:Machine Stop",
     "A:Sometimes Stop/Customer focus on the issue",
@@ -1042,6 +1118,9 @@
   const TITLE_BASIC  = "NA TEAM CC Management";
   const TITLE_GRAPH  = "Graph Mode - NA TEAM Overview";
   const TITLE_DETAIL = "Detail records";
+
+  // Tiêu đề detail đặc biệt để bật 4 biểu đồ tròn.
+  const ONGOING_DETAIL_TITLE = "NA Open-Close Case — On Going";
 
   const COLUMNS = [
     { field: "DATE", label: "DATE" },
@@ -1067,7 +1146,6 @@
 
   const GRAPH_DATA_SOURCE = "data2.json";
 
-  // Backend API
   const STATUS_API_BASE = "https://call-center-data.quoctan91.workers.dev";
   const STATUS_API_GET  = `${STATUS_API_BASE}/statuses`;
   const STATUS_API_POST = `${STATUS_API_BASE}/statuses`;
@@ -1089,7 +1167,6 @@
   let graphData = null;
   let graphLoaded = false;
 
-  // Map: CC NUMBER → { "Current status": ..., "Priority": ..., "Open day": ... }
   const statusMap = new Map();
   let statusesLoaded = false;
   let statusesLoading = null;
@@ -1099,11 +1176,13 @@
   let detailRecordsAll = [];
   let detailSearch = { cc: "", topic: "" };
 
-  // Yêu cầu 1: thay vì đọc/ghi detailView.dataset.columns (dễ bị null),
-  // giữ mảng columns trong biến closure này.
   let detailColumns = [];
 
   let savedGraphScrollY = 0;
+
+  // Trạng thái 4 biểu đồ tròn trong Detail
+  let detailChartsData = null;
+  let detailChartsVisibleMobile = false;
 
   const filters = {
     cc: "",
@@ -1150,6 +1229,13 @@
   const detailSearchCc = document.getElementById("detail-search-cc");
   const detailSearchTopic = document.getElementById("detail-search-topic");
 
+  const detailCharts = document.getElementById("detail-charts");
+  const detailChartSite = document.getElementById("detail-chart-site");
+  const detailChartInquiry = document.getElementById("detail-chart-inquiry");
+  const detailChartStatus = document.getElementById("detail-chart-status");
+  const detailChartPriority = document.getElementById("detail-chart-priority");
+  const toggleDetailChartsBtn = document.getElementById("toggle-detail-charts");
+
   const pageTitle = document.getElementById("page-title");
   const stickyHeader = document.querySelector(".sticky-header");
   const sliceTooltip = document.getElementById("slice-tooltip");
@@ -1157,6 +1243,9 @@
 
   let activeSliceEl = null;
   let sliceResetTimer = null;
+
+  // Theo dõi kích thước màn hình để quyết định auto show/hide detail charts
+  let isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   init();
 
@@ -1240,7 +1329,6 @@
             });
           });
         } else if (data && typeof data === "object") {
-          // Object map: { "<cc>": "<status>" } (dạng cũ)
           Object.entries(data).forEach(([cc, st]) => {
             const key = normalizeCc(cc);
             const val = String(st ?? "").trim();
@@ -1273,8 +1361,6 @@
     return cur || { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
   }
 
-  // Gửi full entry (Current status + Priority + Open day) lên backend.
-  // Worker sẽ merge và ghi lại status.json.
   async function saveStatusEntry(ccNumber, entry) {
     const body = {
       "CC NUMBER": ccNumber,
@@ -1416,9 +1502,16 @@
     renderDetailTableRows();
   }, SEARCH_DEBOUNCE_MS));
 
+  // Nút Show / Hide graph trên mobile
+  toggleDetailChartsBtn.addEventListener("click", () => {
+    detailChartsVisibleMobile = !detailChartsVisibleMobile;
+    updateDetailChartsVisibility();
+  });
+
   window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(() => hideStatusMenu(), RESIZE_DEBOUNCE_MS));
+  window.addEventListener("resize", debounce(onViewportChange, RESIZE_DEBOUNCE_MS));
   window.addEventListener("scroll", () => hideStatusMenu(), true);
   updateHeaderOffset();
 
@@ -1427,6 +1520,14 @@
     const marginBottom = parseFloat(getComputedStyle(stickyHeader).marginBottom) || 0;
     const headerHeight = stickyHeader.offsetHeight + marginBottom;
     document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
+  }
+
+  function onViewportChange() {
+    const nowMobile = window.matchMedia("(max-width: 768px)").matches;
+    if (nowMobile !== isMobile) {
+      isMobile = nowMobile;
+      updateDetailChartsVisibility();
+    }
   }
 
   // ============================================================
@@ -1504,7 +1605,7 @@
   }
 
   // ============================================================
-  // CHARTS
+  // CHARTS (Graph view)
   // ============================================================
   function renderAllCharts() {
     resetSliceInteraction();
@@ -1527,7 +1628,7 @@
         value: onGoingRecords.length,
         color: "#fb8c00",
         records: onGoingRecords,
-        detailTitle: "NA Open-Close Case — On Going"
+        detailTitle: ONGOING_DETAIL_TITLE
       },
       {
         label: "Closed",
@@ -2021,6 +2122,21 @@
     detailSearchTopic.value = "";
 
     detailTitle.textContent = title;
+
+    // Nếu là "NA Open-Close Case — On Going" → hiển thị 4 biểu đồ tròn
+    const showCharts = title === ONGOING_DETAIL_TITLE;
+    detailChartsData = showCharts ? buildDetailChartsData(detailRecordsAll) : null;
+
+    // Trên mobile, mặc định ẩn biểu đồ; trên desktop luôn hiện.
+    detailChartsVisibleMobile = false;
+    updateDetailChartsVisibility();
+
+    if (showCharts) {
+      renderDetailCharts();
+    } else {
+      clearDetailCharts();
+    }
+
     renderDetailTable();
 
     closeContentModal();
@@ -2033,6 +2149,129 @@
     window.scrollTo(0, 0);
   }
 
+  // ============================================================
+  // Detail charts (4 pie charts)
+  // ============================================================
+
+  /**
+   * Xây dựng dữ liệu cho 4 biểu đồ:
+   *   - Site         : theo cột "Customer"
+   *   - Inquiry type : theo cột "Inquiry type"
+   *   - Current Status : theo cột "Current status" trong status.json
+   *   - Priority     : theo cột "Priority" trong status.json
+   */
+  function buildDetailChartsData(records) {
+    return {
+      site:     buildDetailSlicesByField(records, "Customer", "Site"),
+      inquiry:  buildDetailSlicesByField(records, "Inquiry type", "Inquiry type"),
+      status:   buildDetailSlicesByStatusField(records, FIELD_CURRENT_STATUS, "Current Status"),
+      priority: buildDetailSlicesByStatusField(records, FIELD_PRIORITY, "Priority")
+    };
+  }
+
+  function buildDetailSlicesByField(records, fieldName, chartTitle) {
+    const counts = new Map();
+    records.forEach(r => {
+      const key = String(r[fieldName] ?? "").trim() || "Unspecified";
+      counts.set(key, (counts.get(key) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([label, value], i) => {
+        const matching = records.filter(
+          r => (String(r[fieldName] ?? "").trim() || "Unspecified") === label
+        );
+        return {
+          label,
+          value,
+          color: CHART_PALETTE[i % CHART_PALETTE.length],
+          records: matching,
+          detailTitle: `${chartTitle} — ${label}`
+        };
+      });
+  }
+
+  /**
+   * Tương tự buildDetailSlicesByField, nhưng giá trị được lấy từ
+   * statusMap (Current Status / Priority) theo CC NUMBER của từng record.
+   */
+  function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
+    const counts = new Map();
+    records.forEach(r => {
+      const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
+      const cc = ccKey ? normalizeCc(r[ccKey]) : "";
+      const entry = getStatusEntry(cc);
+      const val = String(entry[statusField] ?? "").trim() || "Unspecified";
+      counts.set(val, (counts.get(val) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([label, value], i) => {
+        const matching = records.filter(r => {
+          const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
+          const cc = ccKey ? normalizeCc(r[ccKey]) : "";
+          const entry = getStatusEntry(cc);
+          return (String(entry[statusField] ?? "").trim() || "Unspecified") === label;
+        });
+        return {
+          label,
+          value,
+          color: CHART_PALETTE[i % CHART_PALETTE.length],
+          records: matching,
+          detailTitle: `${chartTitle} — ${label}`
+        };
+      });
+  }
+
+  function renderDetailCharts() {
+    if (!detailChartsData) return;
+
+    const total = detailRecordsAll.length;
+
+    renderPieCard(detailChartSite, "Site", detailChartsData.site, total);
+    renderPieCard(detailChartInquiry, "Inquiry type", detailChartsData.inquiry, total);
+    renderPieCard(detailChartStatus, "Current Status", detailChartsData.status, total);
+    renderPieCard(detailChartPriority, "Priority", detailChartsData.priority, total);
+  }
+
+  function clearDetailCharts() {
+    detailChartSite.replaceChildren();
+    detailChartInquiry.replaceChildren();
+    detailChartStatus.replaceChildren();
+    detailChartPriority.replaceChildren();
+  }
+
+  /**
+   * Cập nhật hiển thị vùng 4 biểu đồ tròn + nút Show/Hide graph.
+   * - Desktop: luôn hiện nếu có dữ liệu (không cần nút).
+   * - Mobile : mặc định ẩn, hiện nút "Show graph"; khi bấm → hiện biểu đồ + đổi nút thành "Hide Graph".
+   */
+  function updateDetailChartsVisibility() {
+    const hasCharts = !!detailChartsData;
+
+    if (!hasCharts) {
+      detailCharts.classList.remove("show");
+      toggleDetailChartsBtn.classList.remove("visible");
+      return;
+    }
+
+    if (isMobile) {
+      // Trên mobile: điều khiển bằng nút
+      toggleDetailChartsBtn.classList.add("visible");
+      toggleDetailChartsBtn.textContent = detailChartsVisibleMobile
+        ? "📉 Hide Graph"
+        : "📊 Show graph";
+      detailCharts.classList.toggle("show", detailChartsVisibleMobile);
+    } else {
+      // Desktop: luôn hiện, ẩn nút
+      toggleDetailChartsBtn.classList.remove("visible");
+      detailCharts.classList.add("show");
+    }
+  }
+
+  // ============================================================
+  // RENDER DETAIL TABLE
+  // ============================================================
   function renderDetailTable() {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
@@ -2059,7 +2298,6 @@
       return;
     }
 
-    // Union các cột từ tất cả record (bỏ field nội bộ "__").
     const columnSet = new Set();
     records.forEach(r => {
       Object.keys(r).forEach(k => {
@@ -2068,13 +2306,10 @@
     });
     const columns = [...columnSet];
 
-    // Yêu cầu 3 + 4 + 8: chèn các cột tùy chỉnh NGAY SAU cột "CASE STATUS"
-    // (nếu có), nếu không thì append vào cuối.
     const insertAfter =
       columns.findIndex(c => /^case\s*status$/i.test(c.trim()));
     const customCols = [STATUS_COL_NAME, PRIORITY_COL_NAME, OPENDAY_COL_NAME];
 
-    // Loại bỏ các cột custom trùng tên nếu record đã có sẵn.
     customCols.forEach(name => {
       const idx = columns.findIndex(c => c.toLowerCase() === name.toLowerCase());
       if (idx >= 0) columns.splice(idx, 1);
@@ -2086,9 +2321,8 @@
       columns.push(...customCols);
     }
 
-    detailColumns = columns; // Yêu cầu 1: lưu vào biến closure
+    detailColumns = columns;
 
-    // Header
     const trHead = document.createElement("tr");
     columns.forEach(col => {
       const th = document.createElement("th");
@@ -2098,7 +2332,7 @@
       else if (isTopicColumn(col)) th.dataset.colType = "topic";
       else if (isStatusColumn(col)) th.dataset.colType = "status";
       else if (isPriorityColumn(col)) th.dataset.colType = "priority";
-      else if (isOpenDayColumn(col)) th.dataset.colType = "priority"; // dùng style tương tự
+      else if (isOpenDayColumn(col)) th.dataset.colType = "priority";
       trHead.appendChild(th);
     });
     detailThead.appendChild(trHead);
@@ -2153,7 +2387,6 @@
       const tr = document.createElement("tr");
       tr.className = "detail-row";
 
-      // Xác định CASE STATUS để quyết định có show Current Status / Priority.
       const caseStatusVal = String(
         r["CASE STATUS"] ?? r["Case Status"] ?? r["case status"] ?? ""
       ).trim();
@@ -2185,14 +2418,10 @@
             td.textContent = "";
           }
         } else if (isStatusColumn(col)) {
-          // Yêu cầu 2: chỉ show khi CASE STATUS = "On Going"
           if (isOnGoing) buildEditableCell(td, r, "current-status");
-          // else: để trống
         } else if (isPriorityColumn(col)) {
-          // Yêu cầu 5: chỉ show khi CASE STATUS = "On Going"
           if (isOnGoing) buildEditableCell(td, r, "priority");
         } else if (isOpenDayColumn(col)) {
-          // Yêu cầu 8: Open day luôn hiển thị (chỉ đọc), tính từ DATE.
           buildOpenDayCell(td, r);
         } else {
           td.textContent = val == null ? "" : String(val);
@@ -2211,7 +2440,7 @@
   }
 
   // ============================================================
-  // Editable cell (Current Status / Priority)
+  // Editable cells
   // ============================================================
   function buildEditableCell(td, record, type) {
     const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
@@ -2254,15 +2483,10 @@
     td.appendChild(cell);
   }
 
-  // ============================================================
-  // Open day cell (readonly)
-  // ============================================================
   function buildOpenDayCell(td, record) {
     const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
     const cc = ccKey ? normalizeCc(record[ccKey]) : "";
 
-    // Ưu tiên giá trị đã lưu trong status.json (nếu có),
-    // nếu không có thì tính từ DATE.
     const entry = getStatusEntry(cc);
     let openDay = entry[FIELD_OPEN_DAY];
     if (openDay == null || openDay === "" || isNaN(Number(openDay))) {
@@ -2282,13 +2506,6 @@
     td.appendChild(cell);
   }
 
-    /**
-   * Tính Open day = today - DATE (số ngày).
-   * Hỗ trợ 2 định dạng:
-   *   1. ISO 8601:  "2026-10-09T08:55:40+00:00"  hoặc "2026-10-09"
-   *   2. US:        "MM/DD/YY"  hoặc "MM/DD/YYYY"  hoặc "MM-DD-YY(YY)"
-   * Trả về số nguyên (dương nếu DATE trong quá khứ, âm nếu DATE trong tương lai).
-   */
   function computeOpenDay(dateStr) {
     if (!dateStr) return null;
     const s = String(dateStr).trim();
@@ -2296,13 +2513,11 @@
 
     let date = null;
 
-    // 1) Thử parse ISO 8601 (có T, hoặc YYYY-MM-DD)
     if (/^\d{4}-\d{1,2}-\d{1,2}/.test(s)) {
       const d = new Date(s);
       if (!isNaN(d.getTime())) date = d;
     }
 
-    // 2) Thử parse US format MM/DD/YY(YY) hoặc MM-DD-YY(YY)
     if (!date) {
       const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
       if (m) {
@@ -2317,7 +2532,6 @@
 
     if (!date) return null;
 
-    // Chuẩn hoá về 00:00:00 local để tính số ngày nguyên
     const target = new Date(date.getFullYear(), date.getMonth(), date.getDate());
     const today  = new Date();
     today.setHours(0, 0, 0, 0);
@@ -2326,9 +2540,6 @@
     return Math.round(diffMs / (1000 * 60 * 60 * 24));
   }
 
-  // ============================================================
-  // Long-press handler (5s)
-  // ============================================================
   function attachLongPressHandler(cell, type) {
     let holdTimer = null;
     let rafId = null;
@@ -2350,9 +2561,7 @@
       const elapsed = performance.now() - startTime;
       const pct = Math.min(100, (elapsed / HOLD_MS) * 100);
       cell.style.setProperty("--hold-progress", `${pct}%`);
-      if (elapsed < HOLD_MS) {
-        rafId = requestAnimationFrame(tick);
-      }
+      if (elapsed < HOLD_MS) rafId = requestAnimationFrame(tick);
     };
 
     const start = (evt) => {
@@ -2403,10 +2612,8 @@
   }
 
   // ============================================================
-  // Value menu (Current Status / Priority)
+  // Value menu
   // ============================================================
-  let menuContext = null;
-
   function openValueMenu(cell, type) {
     const cc = cell.dataset.cc;
     if (!cc) {
@@ -2418,8 +2625,6 @@
     const fieldName = isPriority ? FIELD_PRIORITY : FIELD_CURRENT_STATUS;
     const options = isPriority ? PRIORITY_OPTIONS : STATUS_OPTIONS;
     const currentValue = cell.dataset.value || "";
-
-    menuContext = { cell, cc, type, fieldName, currentValue };
 
     statusMenu.replaceChildren();
 
@@ -2480,18 +2685,15 @@
     statusMenu.classList.remove("show");
     document.removeEventListener("mousedown", onDocClickForMenu, true);
     document.removeEventListener("touchstart", onDocClickForMenu, true);
-    menuContext = null;
   }
 
   async function applyValueChange(cell, cc, fieldName, newValue, type) {
     const isPriority = type === "priority";
 
-    // Lấy entry hiện tại và cập nhật field.
     const entry = getStatusEntry(cc);
     const prevValue = entry[fieldName] || "";
     const updated = { ...entry, [fieldName]: newValue };
 
-    // Cập nhật UI ngay (optimistic).
     cell.classList.remove("empty");
     cell.classList.add("saving");
     cell.dataset.value = newValue;
@@ -2509,13 +2711,19 @@
       cell.classList.remove("saving");
       cell.classList.add("saved");
       setTimeout(() => cell.classList.remove("saved"), 1500);
+
+      // Refresh 4 biểu đồ tròn để phản ánh giá trị mới
+      if (detailChartsData) {
+        detailChartsData = buildDetailChartsData(detailRecordsAll);
+        renderDetailCharts();
+        updateDetailChartsVisibility();
+      }
     } catch (err) {
       console.error("saveStatusEntry failed:", err);
       cell.classList.remove("saving");
       cell.classList.add("error");
       cell.title = `Lỗi khi lưu: ${err.message}`;
 
-      // Rollback UI.
       entry[fieldName] = prevValue;
       cell.dataset.value = prevValue;
       cell.replaceChildren();
@@ -2550,7 +2758,7 @@
   }
 
   // ============================================================
-  // COMMUNICATION CONTENT MODAL
+  // MODAL / BASIC TABLE
   // ============================================================
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
@@ -2597,9 +2805,6 @@
     };
   }
 
-  // ============================================================
-  // BASIC TABLE
-  // ============================================================
   function applyFilters() {
     const activeList = filters.customerGroup
       ? customerListCache[filters.customerGroup]
