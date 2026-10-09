@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T03:02:41+00:00",
+        "CC NUMBER": "CC-0082364",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Hang-up during on-machine editing when recovery up_リカバリアップ時の機上編集でハングアップ[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nWe have recorded a video of the issue and collected the Trace Data for further investigation.\n\nThe issue is still recurring. We will share the video and Trace Data with you for analysis.\n\nCould you please investigate this issue based on the collected data and advise us on the next steps?\n\nFMV Hieu",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001F2ZGkYAN"
+    },
+    {
         "DATE": "2026-10-09T02:46:10+00:00",
         "CC NUMBER": "CC-0082249",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
