@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-09T02:46:10+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san\n\nThank you for your continued investigation into this issue.\n\nI would like to share the following updates.\n\nThe customer did not agree to disabling the Profiler during production. Therefore, we proposed and implemented the following actions to address the issue:\n\nOn September 25, we performed the following actions:\n\n1. Uninstalled and reinstalled the Nexim System Server Suite.\n\n2. Deleted and recreated the Nexim Database and Material Database.\n\n3. Reinstalled the LCU.\n\nAfter completing the above actions on September 25, we have continued monitoring the machine and have not observed any recurrence of Error Code 8D390000.\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
+        "DATE": "2026-10-09T02:35:10+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Ito san,\n\nThank you very much for your detail explain, i understood and i also explain to customer your explain.\n\nAbout your question, i would like to update.\n\nTo further confirm whether this is the actual cause, could you please check the following?\n\n\t• Are the original user accounts still visible in Nexim Account Management?\n\n=> Yes,correct\n\n\t• Do you have any backup file (.dmp) of the original MaterialDB (fujidb)?\n\n=> I could not find back up dmp file.\n\nCustomer understood the issue when they delete some accounts, we will need to delete unused account. For these type of account, can we have anyway to force delete ?\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-10-09T02:09:43+00:00",
         "CC NUMBER": "CC-0083179",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
