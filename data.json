@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-09T00:55:51+00:00",
+        "CC NUMBER": "CC-0083964",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_The serial number cannot be registered on the main board using the Head Bench._[NXTR]",
+        "Communication Content": "Dear Trung san,\n\nRewriting the serial number (S/N) involves certain risks; therefore, local personnel are not permitted to register or modify the S/N on the main board.\n\nAs a general rule, please specify the required S/N when purchasing a main board.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JMzSuYAL"
+    },
+    {
         "DATE": "2026-10-09T00:05:14+00:00",
         "CC NUMBER": "CC-0082249",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
