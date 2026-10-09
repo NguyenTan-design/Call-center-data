@@ -695,24 +695,30 @@
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
-  /* ============================================================
+   /* ============================================================
      Detail charts (4 pie charts)
+     - PC    : lưới 2 cột, trải full chiều rộng màn hình
+     - Mobile: 1 cột, mỗi chart rộng bằng cửa sổ bảng dữ liệu
      ============================================================ */
   #detail-charts {
     display: none;
     margin-bottom: 15px;
+    width: 100%;
   }
 
   #detail-charts.show { display: block; }
 
   #detail-charts .detail-charts-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);   /* PC: 2 cột đều nhau */
     gap: 14px;
+    width: 100%;
   }
 
   #detail-charts .chart-card {
     padding: 12px;
+    width: 100%;
+    min-width: 0;             /* cho phép grid co nhỏ */
   }
 
   #detail-charts .chart-card h3 {
@@ -720,13 +726,27 @@
     margin-bottom: 8px;
   }
 
+  /* SVG tự co giãn theo chiều rộng card */
+  #detail-charts .chart-svg-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   #detail-charts .chart-svg-wrap svg {
-    width: 170px;
-    height: 170px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  #detail-charts .chart-body {
+    width: 100%;
   }
 
   #detail-charts .chart-legend {
     max-width: 100%;
+    width: 100%;
   }
 
   #detail-charts .chart-legend li {
@@ -964,13 +984,39 @@
     }
     .status-cell { font-size: 10.5px; }
 
-    /* Detail charts trên mobile */
+        /* Detail charts trên mobile:
+       - 1 cột
+       - mỗi chart rộng full = bằng cửa sổ bảng dữ liệu */
+    #detail-charts {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
     #detail-charts .detail-charts-grid {
       grid-template-columns: 1fr;
+      gap: 10px;
+      width: 100%;
     }
+
+    #detail-charts .chart-card {
+      width: 100%;
+      padding: 10px;
+    }
+
+    #detail-charts .chart-svg-wrap {
+      width: 100%;
+    }
+
     #detail-charts .chart-svg-wrap svg {
-      width: 150px;
-      height: 150px;
+      width: 100%;
+      max-width: 100%;          /* cho phép full width */
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+
+    #detail-charts .chart-legend {
+      max-width: 100%;
     }
   }
 </style>
