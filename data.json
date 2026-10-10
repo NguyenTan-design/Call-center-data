@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-10T16:35:10+00:00",
+        "CC NUMBER": "NEW:CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAn issue occurred at BYD Vietnam, the operator set the feeder at an angle while preparing for production. However, the factory engineer was unaware of this and started production. After that, they found that the head had collided with the feeder, resulting in damage.\n\nAfter that, the customer tested the same situation on the NXT3. When the Raised Feeder Check Sensor detected a feeder set at an angle, the machine immediately generated an alarm 9502, even when the machine was stopped. However, on the NXTR, no alarm was generated when the machine was stopped.\n\nThe customer would like to know why the NXTR cannot generate a Raised Feeder Check alarm when the machine is stopped, as the NXT3 does, even when they intentionally push the feeder by hand to trigger the sensor.\n\nWe have updated the customer's trace data and video. Please help us check this issue and advise us if you have any possible explanation.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-10-10T14:29:30+00:00",
         "CC NUMBER": "CC-0079720",
         "Customer": "BYD Electronics Vietnam Company Limited]",
