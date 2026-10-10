@@ -695,7 +695,7 @@
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
-   /* ============================================================
+  /* ============================================================
      Detail charts (4 pie charts)
      - PC    : lưới 2 cột, trải full chiều rộng màn hình
      - Mobile: 1 cột, mỗi chart rộng bằng cửa sổ bảng dữ liệu
@@ -710,7 +710,7 @@
 
   #detail-charts .detail-charts-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);   /* PC: 2 cột đều nhau */
+    grid-template-columns: repeat(2, 1fr);
     gap: 14px;
     width: 100%;
   }
@@ -718,7 +718,7 @@
   #detail-charts .chart-card {
     padding: 12px;
     width: 100%;
-    min-width: 0;             /* cho phép grid co nhỏ */
+    min-width: 0;
   }
 
   #detail-charts .chart-card h3 {
@@ -726,7 +726,6 @@
     margin-bottom: 8px;
   }
 
-  /* SVG tự co giãn theo chiều rộng card */
   #detail-charts .chart-svg-wrap {
     width: 100%;
     display: flex;
@@ -754,7 +753,6 @@
     padding: 3px 0;
   }
 
-  /* Nút Show / Hide graph trên mobile */
   #toggle-detail-charts {
     display: none;
     flex: 0 0 auto;
@@ -984,9 +982,10 @@
     }
     .status-cell { font-size: 10.5px; }
 
-        /* Detail charts trên mobile:
+    /* Detail charts trên mobile:
        - 1 cột
-       - mỗi chart rộng full = bằng cửa sổ bảng dữ liệu */
+       - mỗi chart rộng full = bằng cửa sổ bảng dữ liệu
+       - biểu tượng biểu đồ tròn thu nhỏ còn ~1/3 */
     #detail-charts {
       width: 100%;
       margin-left: 0;
@@ -1006,11 +1005,13 @@
 
     #detail-charts .chart-svg-wrap {
       width: 100%;
+      display: flex;
+      justify-content: center;
     }
 
     #detail-charts .chart-svg-wrap svg {
-      width: 100%;
-      max-width: 33%;          /* 1/3 full width */
+      width: 33%;
+      max-width: 33%;
       height: auto;
       aspect-ratio: 1 / 1;
     }
@@ -1086,7 +1087,6 @@
     </div>
   </div>
 
-  <!-- 4 biểu đồ tròn cho Detail (chỉ hiện khi mở từ "NA Open-Close Case — On Going") -->
   <div id="detail-charts">
     <div class="detail-charts-grid">
       <div class="chart-card" id="detail-chart-site"></div>
@@ -1165,7 +1165,6 @@
   const TITLE_GRAPH  = "Graph Mode - NA TEAM Overview";
   const TITLE_DETAIL = "Detail records";
 
-  // Tiêu đề detail đặc biệt để bật 4 biểu đồ tròn.
   const ONGOING_DETAIL_TITLE = "NA Open-Close Case — On Going";
 
   const COLUMNS = [
@@ -1225,12 +1224,13 @@
   let detailColumns = [];
 
   let savedGraphScrollY = 0;
-   // Lưu trạng thái Detail records trước đó để phục vụ nút BACK.
+
+  // Lưu trạng thái Detail records trước đó để phục vụ nút BACK.
   // null = Detail hiện tại được mở trực tiếp từ Graph mode.
-  // { title, records, scrollY, chartsData } = Detail được mở từ 1 Detail khác.
+  // { title, records, scrollY, chartsData, chartsVisibleMobile }
+  //   = Detail được mở từ 1 Detail khác (drill-down).
   let previousDetailState = null;
 
-  // Trạng thái 4 biểu đồ tròn trong Detail
   let detailChartsData = null;
   let detailChartsVisibleMobile = false;
 
@@ -1294,7 +1294,6 @@
   let activeSliceEl = null;
   let sliceResetTimer = null;
 
-  // Theo dõi kích thước màn hình để quyết định auto show/hide detail charts
   let isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   init();
@@ -1552,7 +1551,6 @@
     renderDetailTableRows();
   }, SEARCH_DEBOUNCE_MS));
 
-  // Nút Show / Hide graph trên mobile
   toggleDetailChartsBtn.addEventListener("click", () => {
     detailChartsVisibleMobile = !detailChartsVisibleMobile;
     updateDetailChartsVisibility();
@@ -1586,13 +1584,12 @@
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
 
-    detailBackBtn.addEventListener("click", () => {
+  detailBackBtn.addEventListener("click", () => {
     // Nếu đang có previousDetailState → quay lại Detail trước đó (drill-down).
     if (previousDetailState) {
       const prev = previousDetailState;
       previousDetailState = null;
 
-      // Khôi phục state Detail trước đó.
       detailRecordsAll = prev.records || [];
       detailSearch = { cc: "", topic: "" };
       detailSearchCc.value = "";
@@ -1618,7 +1615,6 @@
       pageTitle.textContent = TITLE_DETAIL;
       updateHeaderOffset();
 
-      // Khôi phục vị trí cuộn đã lưu.
       requestAnimationFrame(() => {
         window.scrollTo(0, prev.scrollY || 0);
       });
@@ -1931,7 +1927,7 @@
   }
 
   function toggleSlice(circle, slice, total, evt) {
-        if (activeSliceEl === circle) {
+    if (activeSliceEl === circle) {
       clearSliceTimer();
       if (detailView.style.display === "block") {
         openDetailViewFromDetail(slice.detailTitle, slice.records);
@@ -2030,8 +2026,7 @@
     li.append(dot, label, value);
 
     li.title = "Click to view records";
-        li.addEventListener("click", () => {
-      // Nếu đang ở trong Detail (đã có detailChartsData), drill-down.
+    li.addEventListener("click", () => {
       if (detailView.style.display === "block") {
         openDetailViewFromDetail(slice.detailTitle, slice.records);
       } else {
@@ -2213,7 +2208,7 @@
     return keys.find(k => k.toLowerCase() === t) || null;
   }
 
-    function openDetailView(title, records) {
+  function openDetailView(title, records) {
     // Được gọi khi click chart từ GRAPH VIEW.
     // Reset previousDetailState vì đây là điểm bắt đầu của chuỗi drill-down.
     savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
@@ -2223,15 +2218,29 @@
   }
 
   /**
+   * Mở Detail records NHƯ MỘT DRILL-DOWN từ 1 Detail hiện tại.
+   * Lưu state Detail hiện tại để nút BACK quay lại đúng chỗ.
+   */
+  function openDetailViewFromDetail(title, records) {
+    previousDetailState = {
+      title: detailTitle.textContent,
+      records: detailRecordsAll.slice(),
+      scrollY: window.scrollY || window.pageYOffset || 0,
+      chartsData: detailChartsData,
+      chartsVisibleMobile: detailChartsVisibleMobile
+    };
+
+    openDetailViewInternal(title, records, /* keepPrevState */ true);
+  }
+
+  /**
    * Hàm mở Detail records chung.
    * @param {string}  title
    * @param {Array}   records
    * @param {boolean} keepPrevState  true = giữ previousDetailState hiện tại
-   *                                 (đang drill-down từ 1 Detail khác)
    */
   function openDetailViewInternal(title, records, keepPrevState) {
     if (!keepPrevState) {
-      // Đảm bảo nếu được gọi trực tiếp từ Graph mode
       savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
       previousDetailState = null;
     }
@@ -2243,11 +2252,9 @@
 
     detailTitle.textContent = title;
 
-    // Nếu là "NA Open-Close Case — On Going" → hiển thị 4 biểu đồ tròn
     const showCharts = title === ONGOING_DETAIL_TITLE;
     detailChartsData = showCharts ? buildDetailChartsData(detailRecordsAll) : null;
 
-    // Trên mobile, mặc định ẩn biểu đồ; trên desktop luôn hiện.
     detailChartsVisibleMobile = false;
     updateDetailChartsVisibility();
 
@@ -2268,35 +2275,10 @@
 
     window.scrollTo(0, 0);
   }
-  /**
-   * Mở Detail records NHƯ MỘT DRILL-DOWN từ 1 Detail hiện tại.
-   * Lưu state Detail hiện tại để nút BACK quay lại đúng chỗ.
-   */
-  function openDetailViewFromDetail(title, records) {
-    // Lưu state Detail hiện tại để BACK quay lại.
-    previousDetailState = {
-      title: detailTitle.textContent,
-      records: detailRecordsAll.slice(),
-      scrollY: window.scrollY || window.pageYOffset || 0,
-      chartsData: detailChartsData,
-      chartsVisibleMobile: detailChartsVisibleMobile
-    };
-
-    // Mở detail mới như bình thường (không gọi openDetailView vì hàm đó reset previousDetailState).
-    openDetailViewInternal(title, records, /* keepPrevState */ true);
-  }
 
   // ============================================================
-  // Detail charts (4 pie charts)
+  // DETAIL CHARTS
   // ============================================================
-
-  /**
-   * Xây dựng dữ liệu cho 4 biểu đồ:
-   *   - Site         : theo cột "Customer"
-   *   - Inquiry type : theo cột "Inquiry type"
-   *   - Current Status : theo cột "Current status" trong status.json
-   *   - Priority     : theo cột "Priority" trong status.json
-   */
   function buildDetailChartsData(records) {
     return {
       site:     buildDetailSlicesByField(records, "Customer", "Site"),
@@ -2328,10 +2310,6 @@
       });
   }
 
-  /**
-   * Tương tự buildDetailSlicesByField, nhưng giá trị được lấy từ
-   * statusMap (Current Status / Priority) theo CC NUMBER của từng record.
-   */
   function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
     const counts = new Map();
     records.forEach(r => {
@@ -2378,11 +2356,6 @@
     detailChartPriority.replaceChildren();
   }
 
-  /**
-   * Cập nhật hiển thị vùng 4 biểu đồ tròn + nút Show/Hide graph.
-   * - Desktop: luôn hiện nếu có dữ liệu (không cần nút).
-   * - Mobile : mặc định ẩn, hiện nút "Show graph"; khi bấm → hiện biểu đồ + đổi nút thành "Hide Graph".
-   */
   function updateDetailChartsVisibility() {
     const hasCharts = !!detailChartsData;
 
@@ -2393,14 +2366,12 @@
     }
 
     if (isMobile) {
-      // Trên mobile: điều khiển bằng nút
       toggleDetailChartsBtn.classList.add("visible");
       toggleDetailChartsBtn.textContent = detailChartsVisibleMobile
         ? "📉 Hide Graph"
         : "📊 Show graph";
       detailCharts.classList.toggle("show", detailChartsVisibleMobile);
     } else {
-      // Desktop: luôn hiện, ẩn nút
       toggleDetailChartsBtn.classList.remove("visible");
       detailCharts.classList.add("show");
     }
@@ -2849,7 +2820,6 @@
       cell.classList.add("saved");
       setTimeout(() => cell.classList.remove("saved"), 1500);
 
-      // Refresh 4 biểu đồ tròn để phản ánh giá trị mới
       if (detailChartsData) {
         detailChartsData = buildDetailChartsData(detailRecordsAll);
         renderDetailCharts();
