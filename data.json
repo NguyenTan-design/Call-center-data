@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-10-10T04:32:13+00:00",
+        "CC NUMBER": "CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nA system upgrade(Base version Up) at factory 2 is scheduled for October 24.\n\nSince this issue affects production, and could become a big problem if it occurs on multiple lines at factory 2 as well, I would like you to investigate it as a high priority.\n\nFMV takatsu",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
+        "DATE": "2026-10-10T03:53:46+00:00",
+        "CC NUMBER": "CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nThank you so your reply,\n\nI understand this issue as well. Investigating an incident that happened a long time ago is very difficult.\n\nThank you!\n\nDuong",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
+        "DATE": "2026-10-10T02:40:36+00:00",
+        "CC NUMBER": "CC-0077628",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH28 head RETAINER lossen_[NXTR-S]",
+        "Communication Content": "Dear Ma san\n\nI just got the filter case in yellow. We test it ok. I will follow 1 week. After 20-Oct we can close it. thanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011pJvZYAU"
+    },
+    {
+        "DATE": "2026-10-10T02:21:12+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\n- Yesterday, a similar error occurred on the L side of M2 and trace data was saved.\n\n- We then swapped the cable CL1 to the R side for verification.\n\n-> The error on the L side disappeared, but the same error occurred on the R side. Unfortunately, trace data was not saved during this occurrence.\n\n- To maintain production, we changed the cable CL1  from the R side of M2 to L side of M1, which is currently operating in \"Conveyor Only\" mode.\n\nWe suspect the cable CL1 is the cause of the error.\n\nCould you please review the trace data and give us more the advise.\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-10-09T09:52:32+00:00",
         "CC NUMBER": "CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
