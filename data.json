@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-10T02:21:12+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\n- Yesterday, a similar error occurred on the L side of M2 and trace data was saved.\n\n- We then swapped the cable CL1 to the R side for verification.\n\n-> The error on the L side disappeared, but the same error occurred on the R side. Unfortunately, trace data was not saved during this occurrence.\n\n- To maintain production, we changed the cable CL1  from the R side of M2 to L side of M1, which is currently operating in \"Conveyor Only\" mode.\n\nWe suspect the cable CL1 is the cause of the error.\n\nCould you please review the trace data and give us more the advise.\n\nThank you for your support.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-10-09T09:52:32+00:00",
         "CC NUMBER": "CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
