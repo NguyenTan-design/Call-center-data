@@ -15,6 +15,18 @@
     --cell-line-height: 1.4;
     --status-closed: #43a047;
     --status-ongoing: #fb8c00;
+
+    /* Width cố định cho từng cột Detail */
+    --detail-col-cc-w: 120px;
+    --detail-col-date-w: 110px;
+    --detail-col-customer-w: 160px;
+    --detail-col-topic-w: 260px;
+    --detail-col-inquiry-w: 130px;
+    --detail-col-link-w: 110px;
+    --detail-col-casestatus-w: 110px;
+    --detail-col-status-w: 155px;
+    --detail-col-priority-w: 130px;
+    --detail-col-openday-w: 110px;
   }
 
   * { box-sizing: border-box; }
@@ -78,11 +90,7 @@
   }
 
   .toggle-btn:hover { background: #eaf3fd; }
-
-  .toggle-btn.active {
-    background: var(--primary);
-    color: #fff;
-  }
+  .toggle-btn.active { background: var(--primary); color: #fff; }
 
   #clear-filters {
     flex: 0 0 auto;
@@ -94,7 +102,6 @@
     color: #555;
     cursor: pointer;
   }
-
   #clear-filters:hover { background: #f0f0f0; }
 
   #status {
@@ -179,13 +186,8 @@
     transition: opacity .15s ease, background .15s ease;
     z-index: 20;
   }
+  .col-hide-btn:hover { opacity: 1; background: rgba(255, 255, 255, .35); }
 
-  .col-hide-btn:hover {
-    opacity: 1;
-    background: rgba(255, 255, 255, .35);
-  }
-
-  /* Nút + nổi để khôi phục cột đã ẩn (CHỈ dùng cho Detail) */
   .hidden-cols-toolbar {
     display: flex;
     flex-wrap: wrap;
@@ -201,7 +203,7 @@
   .hidden-cols-toolbar:empty { display: none; }
 
   .hidden-cols-toolbar::before {
-    content: "Hide:";
+    content: "Ẩn:";
     font-size: 11.5px;
     color: #8d6e00;
     font-weight: bold;
@@ -220,11 +222,7 @@
     cursor: pointer;
     white-space: nowrap;
   }
-
-  .col-show-btn:hover {
-    background: #ffe082;
-    border-color: #ffb300;
-  }
+  .col-show-btn:hover { background: #ffe082; border-color: #ffb300; }
 
   .cell-value {
     display: block;
@@ -261,7 +259,6 @@
     padding: 6px 10px;
     border-radius: 5px;
   }
-
   .action-btn:hover { background: var(--primary-dark); }
 
   .empty-row td {
@@ -277,7 +274,6 @@
     gap: 10px;
     margin: 10px 0;
   }
-
   #pagination button {
     padding: 6px 12px;
     cursor: pointer;
@@ -285,7 +281,6 @@
     border-radius: 4px;
     background: #fff;
   }
-
   #pagination button:disabled { cursor: not-allowed; opacity: .5; }
 
   .modal-overlay {
@@ -298,7 +293,6 @@
     z-index: 1000;
     padding: 20px;
   }
-
   .modal-overlay.show { display: flex; }
 
   .modal-box {
@@ -322,7 +316,6 @@
     color: #fff;
     border-radius: 8px 8px 0 0;
   }
-
   .modal-header h2 { margin: 0; font-size: 16px; }
 
   .modal-close {
@@ -334,7 +327,6 @@
     cursor: pointer;
     padding: 0 4px;
   }
-
   .modal-close:hover { opacity: .8; }
 
   .modal-body {
@@ -358,7 +350,6 @@
     color: #fff;
     cursor: pointer;
   }
-
   .mode-btn:hover { background: #24632a; }
 
   .back-btn {
@@ -372,7 +363,6 @@
     color: #333;
     cursor: pointer;
   }
-
   .back-btn:hover { background: #ececec; }
 
   #graph-view { display: none; }
@@ -397,7 +387,6 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
     padding: 16px;
   }
-
   .chart-card-wide { grid-column: 1 / -1; }
 
   .chart-card h3 {
@@ -428,11 +417,9 @@
     transition: transform .3s cubic-bezier(.34, 1.56, .64, 1),
                 filter .3s ease;
   }
-
   .chart-svg-wrap circle.pie-slice:hover {
     filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .3));
   }
-
   .chart-svg-wrap circle.pie-slice.active {
     filter: drop-shadow(0 10px 14px rgba(0, 0, 0, .5))
             drop-shadow(0 2px 4px rgba(0, 0, 0, .35));
@@ -455,7 +442,6 @@
     visibility: hidden;
     transition: opacity .15s ease;
   }
-
   .slice-tooltip.show { opacity: 1; visibility: visible; }
 
   .slice-tooltip .tooltip-title {
@@ -471,7 +457,6 @@
     width: 100%;
     max-width: 320px;
   }
-
   .chart-legend li {
     display: flex;
     align-items: center;
@@ -482,7 +467,6 @@
     border-bottom: 1px solid #f0f0f0;
     cursor: pointer;
   }
-
   .chart-legend li:hover { background: #f0f6ff; }
 
   .legend-dot {
@@ -523,7 +507,6 @@
     border-radius: 4px;
     transition: background .15s ease;
   }
-
   .bar-row:hover { background: #eef6ff; }
 
   .bar-label {
@@ -560,7 +543,6 @@
     overflow-y: auto;
     padding-right: 4px;
   }
-
   .na-rank-row {
     padding: 8px 6px 10px;
     margin-bottom: 10px;
@@ -568,7 +550,6 @@
     border-radius: 4px;
     transition: background .15s ease;
   }
-
   .na-rank-row:hover { background: #f5faff; }
 
   .na-rank-label {
@@ -597,7 +578,6 @@
     padding: 1px 3px;
     border-radius: 3px;
   }
-
   .na-rank-bar:hover { background: #eaf3fd; }
 
   .na-rank-bar-tag {
@@ -620,7 +600,6 @@
     height: 100%;
     border-radius: 4px;
   }
-
   .na-rank-fill.total { background: var(--primary); }
   .na-rank-fill.closed { background: var(--status-closed); }
   .na-rank-fill.ongoing { background: var(--status-ongoing); }
@@ -640,13 +619,11 @@
     font-size: 12px;
     color: #444;
   }
-
   .na-rank-legend .item {
     display: flex;
     align-items: center;
     gap: 6px;
   }
-
   .na-rank-legend .dot {
     width: 11px;
     height: 11px;
@@ -672,7 +649,6 @@
     font-size: 14px;
     color: #333;
   }
-
   #detail-view .detail-info strong { color: var(--primary); }
 
   #detail-view .detail-count {
@@ -687,7 +663,6 @@
     gap: 10px;
     margin-bottom: 12px;
   }
-
   #detail-view .detail-search input[type="text"] {
     flex: 1 1 220px;
     padding: 9px 12px;
@@ -695,7 +670,6 @@
     border: 1px solid #ccc;
     border-radius: 6px;
   }
-
   #detail-view .detail-search input[type="text"]:focus {
     outline: none;
     border-color: var(--primary);
@@ -706,11 +680,13 @@
     height: calc(100vh - 270px);
   }
 
-  /* Bảng Detail: dùng px để không đổi độ rộng cột khi ẩn */
+  /* Bảng Detail: dùng px + table-layout fixed + colgroup để cột
+     giữ đúng width kể cả khi ẩn/hiện */
   #detail-view table {
     width: auto;
     border-collapse: collapse;
     table-layout: fixed;
+    min-width: 100%;
   }
 
   #detail-view th,
@@ -781,16 +757,40 @@
     white-space: normal !important;
   }
 
+  /* CC NUMBER: cột cố định (sticky left) + chữ đỏ */
+  #detail-view th[data-col-type="ccnumber"],
+  #detail-view td[data-col-type="ccnumber"] {
+    position: sticky;
+    left: 0;
+    color: red;
+    font-weight: bold;
+    background: #fff;
+    z-index: 5;
+    box-shadow: 2px 0 3px -1px rgba(0, 0, 0, .15);
+    white-space: nowrap !important;
+    text-overflow: clip !important;
+    overflow: visible !important;
+  }
+  #detail-view th[data-col-type="ccnumber"] {
+    z-index: 15;
+    background: var(--primary);
+    color: #fff;
+  }
+  #detail-view tbody tr:hover td[data-col-type="ccnumber"] {
+    background: var(--row-hover);
+  }
+  #detail-view tbody tr:nth-child(even) td[data-col-type="ccnumber"] {
+    background: var(--row-alt);
+  }
+
   #detail-view tbody tr.detail-row {
     cursor: pointer;
     transition: background .15s ease;
   }
-
   #detail-view tbody tr.detail-row.selected {
     background: #e0e0e0 !important;
     box-shadow: inset 4px 0 0 var(--primary);
   }
-
   #detail-view tbody tr.detail-row.selected td { color: #111; }
 
   #detail-view .detail-link-btn {
@@ -803,7 +803,6 @@
     font-size: 12px;
     font-weight: bold;
   }
-
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
   /* Cột ẩn */
@@ -812,33 +811,13 @@
   }
 
   /* ============================================================
-     Độ rộng 10 cột bảng Detail records (dùng px để KHÔNG đổi
-     độ rộng khi ẩn/hiện cột):
-     DATE | CC NUMBER | Customer | TOPIC | Inquiry type |
-     GO TO WEB | CASE STATUS | Current Status | Priority | Open day
-     ============================================================ */
-  #detail-view th:nth-child(1),  #detail-view td:nth-child(1)  { width: 110px; min-width: 110px; }  /* DATE */
-  #detail-view th:nth-child(2),  #detail-view td:nth-child(2)  { width: 110px; min-width: 110px; }  /* CC NUMBER */
-  #detail-view th:nth-child(3),  #detail-view td:nth-child(3)  { width: 160px; min-width: 160px; }  /* Customer */
-  #detail-view th:nth-child(4),  #detail-view td:nth-child(4)  { width: 260px; min-width: 260px; }  /* TOPIC */
-  #detail-view th:nth-child(5),  #detail-view td:nth-child(5)  { width: 130px; min-width: 130px; }  /* Inquiry type */
-  #detail-view th:nth-child(6),  #detail-view td:nth-child(6)  { width: 110px; min-width: 110px; text-align: center; }  /* GO TO WEB */
-  #detail-view th:nth-child(7),  #detail-view td:nth-child(7)  { width: 110px; min-width: 110px; }  /* CASE STATUS */
-  #detail-view th:nth-child(8),  #detail-view td:nth-child(8)  { width: 155px; min-width: 155px; }  /* Current Status */
-  #detail-view th:nth-child(9),  #detail-view td:nth-child(9)  { width: 130px; min-width: 130px; }  /* Priority */
-  #detail-view th:nth-child(10), #detail-view td:nth-child(10) { width: 110px; min-width: 110px; text-align: center; } /* Open day */
-
-  /* ============================================================
-     Detail charts (4 pie charts)
-     - PC    : 4 cột ngang 1 hàng, trải full chiều rộng màn hình
-     - Mobile: 1 cột, mỗi chart rộng bằng cửa sổ bảng dữ liệu
+     Detail charts
      ============================================================ */
   #detail-charts {
     display: none;
     margin-bottom: 15px;
     width: 100%;
   }
-
   #detail-charts.show { display: block; }
 
   #detail-charts .detail-charts-grid {
@@ -872,9 +851,7 @@
     aspect-ratio: 1 / 1;
   }
 
-  #detail-charts .chart-body {
-    width: 100%;
-  }
+  #detail-charts .chart-body { width: 100%; }
 
   #detail-charts .chart-legend {
     max-width: 100%;
@@ -898,9 +875,7 @@
     color: #fff;
     cursor: pointer;
   }
-
   #toggle-detail-charts:hover { background: #24632a; }
-
   #toggle-detail-charts.visible { display: inline-block; }
 
   .status-cell {
@@ -1011,7 +986,6 @@
     overflow-y: auto;
     display: none;
   }
-
   .status-menu.show { display: block; }
 
   .status-menu .menu-title {
@@ -1039,7 +1013,6 @@
     white-space: normal;
     line-height: 1.35;
   }
-
   .status-menu button:hover { background: #eaf3fd; }
   .status-menu button.current { background: #e3f2fd; font-weight: bold; }
 
@@ -1052,11 +1025,7 @@
       padding: 10px 2px;
       margin-bottom: 10px;
     }
-
-    .sticky-header h1 {
-      font-size: 17px;
-      line-height: 1.2;
-    }
+    .sticky-header h1 { font-size: 17px; line-height: 1.2; }
 
     .toolbar { gap: 8px; }
     .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px; }
@@ -1087,15 +1056,15 @@
     .status-cell { font-size: 10.5px; }
 
     /* Mobile: GO TO WEB rộng thêm 1.2 lần (110 → 132px) */
-    #detail-view th:nth-child(6),
-    #detail-view td:nth-child(6) {
+    #detail-view th[data-col-type="link"],
+    #detail-view td[data-col-type="link"] {
       width: 132px !important;
       min-width: 132px !important;
     }
 
     /* Mobile: Current Status rộng thêm 1.2 lần (155 → 186px) */
-    #detail-view th:nth-child(8),
-    #detail-view td:nth-child(8) {
+    #detail-view th[data-col-type="status"],
+    #detail-view td[data-col-type="status"] {
       width: 186px !important;
       min-width: 186px !important;
     }
@@ -1105,50 +1074,39 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    /* Bảng Basic trên mobile: cho scroll ngang */
     #basic-view .table-wrapper {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
     }
 
-    #basic-view table {
-      min-width: 1000px;
-    }
+    #basic-view table { min-width: 1000px; }
 
-    /* Detail charts trên mobile */
     #detail-charts {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
     }
-
     #detail-charts .detail-charts-grid {
       grid-template-columns: 1fr;
       gap: 10px;
       width: 100%;
     }
-
     #detail-charts .chart-card {
       width: 100%;
       padding: 10px;
     }
-
     #detail-charts .chart-svg-wrap {
       width: 100%;
       display: flex;
       justify-content: center;
     }
-
     #detail-charts .chart-svg-wrap svg {
       width: 33%;
       max-width: 33%;
       height: auto;
       aspect-ratio: 1 / 1;
     }
-
-    #detail-charts .chart-legend {
-      max-width: 100%;
-    }
+    #detail-charts .chart-legend { max-width: 100%; }
   }
 </style>
 </head>
@@ -1231,11 +1189,11 @@
     <input id="detail-search-topic" type="text" placeholder="Search Topic">
   </div>
 
-  <!-- Toolbar nút + CHỈ dùng cho Detail -->
   <div id="hidden-cols-detail" class="hidden-cols-toolbar"></div>
 
   <div class="table-wrapper">
     <table id="detail-table">
+      <colgroup id="detail-colgroup"></colgroup>
       <thead id="detail-thead"></thead>
       <tbody id="detail-tbody"></tbody>
     </table>
@@ -1266,7 +1224,6 @@
   const NEW_KEYWORD = "new";
   const CONTENT_LABEL = "COMMUNICATION CONTENT";
   const SLICE_RESET_MS = 3000;
-
   const HOLD_MS = 5000;
 
   const STATUS_COL_NAME   = "Current Status";
@@ -1356,6 +1313,20 @@
     "Unspecified":                                     "#bdbdbd"
   };
 
+  // Map data-col-type → width cố định (px)
+  const DETAIL_COL_WIDTHS = {
+    ccnumber:    120,
+    date:        110,
+    customer:    160,
+    topic:       260,
+    inquirytype: 130,
+    link:        110,
+    casestatus:  110,
+    status:      155,
+    priority:    130,
+    openday:     110
+  };
+
   function getStatusColor(label) {
     return STATUS_COLOR_MAP[label] || "#bdbdbd";
   }
@@ -1390,10 +1361,13 @@
   let detailChartsData = null;
   let detailChartsVisibleMobile = false;
 
-  // Chỉ còn trạng thái ẩn cột cho Detail
+  // Trạng thái ẩn cột cho Detail (theo index 0-based).
   const hiddenColumns = { detail: {} };
 
   const detailColumnLabels = [];
+
+  // Cache col-type mỗi cột Detail để tính width theo data-col-type
+  let detailColTypes = [];
 
   const filters = {
     cc: "",
@@ -1435,6 +1409,7 @@
   const basicTable = document.getElementById("basic-table");
   const hiddenColsDetail = document.getElementById("hidden-cols-detail");
   const detailTable = document.getElementById("detail-table");
+  const detailColgroup = document.getElementById("detail-colgroup");
 
   const detailTitle = document.getElementById("detail-title");
   const detailCount = document.getElementById("detail-count");
@@ -1503,13 +1478,17 @@
   function attachColumnHideButtons(theadRow, onChange) {
     const ths = theadRow.querySelectorAll("th");
     ths.forEach((th, idx) => {
+      // KHÔNG gắn nút cho cột CC NUMBER
+      const colType = th.dataset.colType || "";
+      if (colType === "ccnumber") return;
+
       if (th.querySelector(".col-hide-btn")) return;
 
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "col-hide-btn";
       btn.textContent = "−";
-      btn.title = "Hide this column";
+      btn.title = "Ẩn cột này";
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         hideColumn(idx, onChange);
@@ -1530,6 +1509,11 @@
     renderHiddenColsToolbar(onChange);
   }
 
+  /**
+   * Áp class .col-hidden cho cột đang ẩn và cập nhật lại
+   * width của bảng dựa trên tổng width cố định của các cột
+   * đang hiện (dùng data-col-type → DETAIL_COL_WIDTHS).
+   */
   function applyHiddenColumns() {
     const table = detailTable;
     if (!table) return;
@@ -1548,13 +1532,40 @@
         });
     }
 
+    // Cập nhật colgroup: bỏ width của cột đang ẩn → 0
+    updateColgroup();
     updateTableWidth();
   }
 
   /**
-   * Tính tổng width của các cột đang hiện và đặt width cố định cho bảng Detail.
-   * - Nếu KHÔNG có cột nào bị ẩn → width: 100% để trải đầy viewport.
-   * - Nếu CÓ cột bị ẩn → width = tổng px của các cột đang hiện (không dãn cột).
+   * Cập nhật <colgroup> để mỗi <col> có width cố định (px)
+   * theo data-col-type. Cột bị ẩn → width: 0.
+   */
+  function updateColgroup() {
+    if (!detailColgroup) return;
+
+    // Xoá colgroup cũ
+    detailColgroup.replaceChildren();
+
+    const hidden = hiddenColumns.detail;
+
+    detailColTypes.forEach((type, idx) => {
+      const col = document.createElement("col");
+      if (hidden[idx]) {
+        col.style.width = "0";
+        col.style.minWidth = "0";
+      } else {
+        const w = DETAIL_COL_WIDTHS[type] || 120;
+        col.style.width = `${w}px`;
+        col.style.minWidth = `${w}px`;
+      }
+      detailColgroup.appendChild(col);
+    });
+  }
+
+  /**
+   * Đặt width của bảng = tổng px các cột đang hiện.
+   * Không có cột ẩn → width = 100% để trải đầy màn hình.
    */
   function updateTableWidth() {
     const table = detailTable;
@@ -1568,15 +1579,13 @@
       return;
     }
 
-    const ths = table.querySelectorAll("thead tr:first-child th");
     let total = 0;
-    ths.forEach((th, idx) => {
+    detailColTypes.forEach((type, idx) => {
       if (hidden[idx]) return;
-      const w = th.getBoundingClientRect().width;
-      if (w > 0) total += w;
+      total += DETAIL_COL_WIDTHS[type] || 120;
     });
 
-    table.style.width = total > 0 ? `${Math.ceil(total) + 2}px` : "auto";
+    table.style.width = `${total + 2}px`;
   }
 
   function renderHiddenColsToolbar(onChange) {
@@ -1843,7 +1852,6 @@
   window.addEventListener("resize", debounce(() => hideStatusMenu(), RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(onViewportChange, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(() => {
-    // Cập nhật lại width bảng Detail khi resize (cột có thể đo lại)
     if (Object.keys(hiddenColumns.detail).some(k => hiddenColumns.detail[k])) {
       updateTableWidth();
     }
@@ -2472,21 +2480,32 @@
   function isLinkColumn(colName) {
     return /go\s*to/i.test(colName) && /web|link/i.test(colName);
   }
-
   function isTopicColumn(colName) {
     return /^topic$/i.test(colName.trim());
   }
-
   function isStatusColumn(colName) {
     return /^current\s*status$/i.test(colName.trim());
   }
-
   function isPriorityColumn(colName) {
     return /^priority$/i.test(colName.trim());
   }
-
   function isOpenDayColumn(colName) {
     return /^open\s*day$/i.test(colName.trim());
+  }
+  function isCcNumberColumn(colName) {
+    return /^cc\s*number$/i.test(colName.trim());
+  }
+  function isDateColumn(colName) {
+    return /^date$/i.test(colName.trim());
+  }
+  function isCustomerColumn(colName) {
+    return /^customer$/i.test(colName.trim());
+  }
+  function isInquiryTypeColumn(colName) {
+    return /^inquiry\s*type$/i.test(colName.trim());
+  }
+  function isCaseStatusColumn(colName) {
+    return /^case\s*status$/i.test(colName.trim());
   }
 
   function findColumnKey(keys, target) {
@@ -2666,6 +2685,7 @@
     hideStatusMenu();
 
     detailColumnLabels.length = 0;
+    detailColTypes = [];
 
     const records = detailRecordsAll;
 
@@ -2695,8 +2715,20 @@
         if (!k.startsWith("__")) columnSet.add(k);
       });
     });
-    const columns = [...columnSet];
+    let columns = [...columnSet];
 
+    // Yêu cầu 2: đổi vị trí CC NUMBER và DATE
+    //   - CC NUMBER đứng trước DATE
+    //   - Đảm bảo CC NUMBER nằm đầu tiên
+    const ccIdx = columns.findIndex(c => /^cc\s*number$/i.test(c.trim()));
+    const dateIdx = columns.findIndex(c => /^date$/i.test(c.trim()));
+    if (ccIdx >= 0 && dateIdx >= 0) {
+      const tmp = columns[ccIdx];
+      columns[ccIdx] = columns[dateIdx];
+      columns[dateIdx] = tmp;
+    }
+
+    // Chèn cột custom sau CASE STATUS (hoặc cuối nếu không có)
     const insertAfter =
       columns.findIndex(c => /^case\s*status$/i.test(c.trim()));
     const customCols = [STATUS_COL_NAME, PRIORITY_COL_NAME, OPENDAY_COL_NAME];
@@ -2714,23 +2746,37 @@
 
     detailColumns = columns;
 
-    columns.forEach(col => detailColumnLabels.push(col));
-
+    // Build header row + data-col-type
     const trHead = document.createElement("tr");
     columns.forEach(col => {
       const th = document.createElement("th");
       th.textContent = col;
       th.title = col;
-      if (isLinkColumn(col)) th.dataset.colType = "link";
-      else if (isTopicColumn(col)) th.dataset.colType = "topic";
-      else if (isStatusColumn(col)) th.dataset.colType = "status";
-      else if (isPriorityColumn(col)) th.dataset.colType = "priority";
-      else if (isOpenDayColumn(col)) th.dataset.colType = "openday";
+
+      let colType = "";
+      if (isCcNumberColumn(col)) colType = "ccnumber";
+      else if (isDateColumn(col)) colType = "date";
+      else if (isCustomerColumn(col)) colType = "customer";
+      else if (isTopicColumn(col)) colType = "topic";
+      else if (isInquiryTypeColumn(col)) colType = "inquirytype";
+      else if (isLinkColumn(col)) colType = "link";
+      else if (isCaseStatusColumn(col)) colType = "casestatus";
+      else if (isStatusColumn(col)) colType = "status";
+      else if (isPriorityColumn(col)) colType = "priority";
+      else if (isOpenDayColumn(col)) colType = "openday";
+
+      if (colType) th.dataset.colType = colType;
       trHead.appendChild(th);
+
+      detailColumnLabels.push(col);
+      detailColTypes.push(colType);
     });
     detailThead.appendChild(trHead);
 
     attachColumnHideButtons(trHead, () => renderDetailTableRows());
+
+    // Khởi tạo colgroup với width cố định
+    updateColgroup();
 
     renderDetailTableRows();
     applyHiddenColumns();
@@ -2789,13 +2835,10 @@
       ).trim();
       const isOnGoing = caseStatusVal.toLowerCase() === "on going";
 
-      columns.forEach(col => {
+      columns.forEach((col, idx) => {
         const td = document.createElement("td");
-        if (isLinkColumn(col)) td.dataset.colType = "link";
-        else if (isTopicColumn(col)) td.dataset.colType = "topic";
-        else if (isStatusColumn(col)) td.dataset.colType = "status";
-        else if (isPriorityColumn(col)) td.dataset.colType = "priority";
-        else if (isOpenDayColumn(col)) td.dataset.colType = "openday";
+        const colType = detailColTypes[idx] || "";
+        if (colType) td.dataset.colType = colType;
 
         const val = r[col];
 
@@ -2835,8 +2878,6 @@
 
     detailTbody.appendChild(fragment);
 
-    // Reset width về auto rồi áp lại trạng thái ẩn (đo lại width cột mới)
-    detailTable.style.width = "auto";
     applyHiddenColumns();
   }
 
