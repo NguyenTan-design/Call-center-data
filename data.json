@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-10T14:29:30+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "Dear Moriya-San,\n\nThank you for your support.\n\nWe will check this module when the line stops.\n\nWe updated the trace data after replacing the parts. However, the module still encountered errors 80001983 and 8000B108 after running in Idle Mode continuously for approximately 4–5 hours.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-10-10T09:17:37+00:00",
         "CC NUMBER": "CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
