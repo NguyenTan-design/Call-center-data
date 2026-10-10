@@ -627,17 +627,19 @@
   #detail-view table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: auto;
+    table-layout: fixed;
   }
 
-  #detail-view th,
+    #detail-view th,
   #detail-view td {
     font-size: 12.5px;
-    white-space: nowrap;
-    max-width: 320px;
+    white-space: normal;         
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow-wrap: break-word;   
+    word-break: break-word;
     padding: 6px 8px;
+    vertical-align: top;
   }
 
   #detail-view th {
@@ -694,6 +696,19 @@
   }
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
+  /* Độ rộng từng cột của bảng Detail records (10 cột):
+     DATE | CC NUMBER | Customer | TOPIC | Inquiry type |
+     GO TO WEB | CASE STATUS | Current Status | Priority | Open day */
+  #detail-view th:nth-child(1),  #detail-view td:nth-child(1)  { width: 8%;  }  /* DATE */
+  #detail-view th:nth-child(2),  #detail-view td:nth-child(2)  { width: 8%;  }  /* CC NUMBER */
+  #detail-view th:nth-child(3),  #detail-view td:nth-child(3)  { width: 12%; }  /* Customer */
+  #detail-view th:nth-child(4),  #detail-view td:nth-child(4)  { width: 20%; }  /* TOPIC */
+  #detail-view th:nth-child(5),  #detail-view td:nth-child(5)  { width: 10%; }  /* Inquiry type */
+  #detail-view th:nth-child(6),  #detail-view td:nth-child(6)  { width: 6%; text-align: center; }  /* GO TO WEB */
+  #detail-view th:nth-child(7),  #detail-view td:nth-child(7)  { width: 8%;  }  /* CASE STATUS */
+  #detail-view th:nth-child(8),  #detail-view td:nth-child(8)  { width: 10%; }  /* Current Status */
+  #detail-view th:nth-child(9),  #detail-view td:nth-child(9)  { width: 10%; }  /* Priority */
+  #detail-view th:nth-child(10), #detail-view td:nth-child(10) { width: 8%; text-align: center; } /* Open day */
 
   /* ============================================================
      Detail charts (4 pie charts)
