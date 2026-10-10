@@ -15,18 +15,6 @@
     --cell-line-height: 1.4;
     --status-closed: #43a047;
     --status-ongoing: #fb8c00;
-
-    /* Width cố định cho từng cột Detail */
-    --detail-col-cc-w: 120px;
-    --detail-col-date-w: 110px;
-    --detail-col-customer-w: 160px;
-    --detail-col-topic-w: 260px;
-    --detail-col-inquiry-w: 130px;
-    --detail-col-link-w: 110px;
-    --detail-col-casestatus-w: 110px;
-    --detail-col-status-w: 155px;
-    --detail-col-priority-w: 130px;
-    --detail-col-openday-w: 110px;
   }
 
   * { box-sizing: border-box; }
@@ -680,13 +668,12 @@
     height: calc(100vh - 270px);
   }
 
-  /* Bảng Detail: dùng px + table-layout fixed + colgroup để cột
-     giữ đúng width kể cả khi ẩn/hiện */
+  /* Bảng Detail: table-layout fixed + colgroup để cột giữ đúng width
+     khi ẩn/hiện. KHÔNG dùng min-width: 100% (gây dãn cột khi ẩn). */
   #detail-view table {
-    width: auto;
+    width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
-    min-width: 100%;
   }
 
   #detail-view th,
@@ -757,7 +744,7 @@
     white-space: normal !important;
   }
 
-  /* CC NUMBER: cột cố định (sticky left) + chữ đỏ */
+  /* CC NUMBER: cột cố định (sticky left) + chữ đỏ + không có nút ẩn */
   #detail-view th[data-col-type="ccnumber"],
   #detail-view td[data-col-type="ccnumber"] {
     position: sticky;
@@ -775,6 +762,7 @@
     z-index: 15;
     background: var(--primary);
     color: #fff;
+    padding-right: 8px; /* Không có nút ẩn nên không cần chừa chỗ */
   }
   #detail-view tbody tr:hover td[data-col-type="ccnumber"] {
     background: var(--row-hover);
@@ -808,6 +796,17 @@
   /* Cột ẩn */
   .col-hidden {
     display: none !important;
+  }
+
+  /* Đảm bảo cột ẩn không chiếm không gian trong table-layout fixed */
+  #detail-view th.col-hidden,
+  #detail-view td.col-hidden {
+    display: none !important;
+    width: 0 !important;
+    min-width: 0 !important;
+    max-width: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
   }
 
   /* ============================================================
@@ -1054,20 +1053,6 @@
 
     #detail-view th, #detail-view td { font-size: 10px; padding: 3px; }
     .status-cell { font-size: 10.5px; }
-
-    /* Mobile: GO TO WEB rộng thêm 1.2 lần (110 → 132px) */
-    #detail-view th[data-col-type="link"],
-    #detail-view td[data-col-type="link"] {
-      width: 132px !important;
-      min-width: 132px !important;
-    }
-
-    /* Mobile: Current Status rộng thêm 1.2 lần (155 → 186px) */
-    #detail-view th[data-col-type="status"],
-    #detail-view td[data-col-type="status"] {
-      width: 186px !important;
-      min-width: 186px !important;
-    }
 
     #detail-view .table-wrapper {
       overflow-x: auto;
@@ -1510,9 +1495,7 @@
   }
 
   /**
-   * Áp class .col-hidden cho cột đang ẩn và cập nhật lại
-   * width của bảng dựa trên tổng width cố định của các cột
-   * đang hiện (dùng data-col-type → DETAIL_COL_WIDTHS).
+   * Áp class .col-hidden cho cột đang ẩn và cập nhật lại width của bảng.
    */
   function applyHiddenColumns() {
     const table = detailTable;
@@ -1532,19 +1515,17 @@
         });
     }
 
-    // Cập nhật colgroup: bỏ width của cột đang ẩn → 0
     updateColgroup();
     updateTableWidth();
   }
 
   /**
-   * Cập nhật <colgroup> để mỗi <col> có width cố định (px)
-   * theo data-col-type. Cột bị ẩn → width: 0.
+   * Cập nhật <colgroup>: mỗi <col> có width cố định (px) theo data-col-type.
+   * Cột bị ẩn → ép width/min/max về 0 với !important (đè CSS selector).
    */
   function updateColgroup() {
     if (!detailColgroup) return;
 
-    // Xoá colgroup cũ
     detailColgroup.replaceChildren();
 
     const hidden = hiddenColumns.detail;
@@ -1552,20 +1533,23 @@
     detailColTypes.forEach((type, idx) => {
       const col = document.createElement("col");
       if (hidden[idx]) {
-        col.style.width = "0";
-        col.style.minWidth = "0";
+        col.style.setProperty("width", "0", "important");
+        col.style.setProperty("min-width", "0", "important");
+        col.style.setProperty("max-width", "0", "important");
       } else {
         const w = DETAIL_COL_WIDTHS[type] || 120;
-        col.style.width = `${w}px`;
-        col.style.minWidth = `${w}px`;
+        col.style.setProperty("width", `${w}px`, "important");
+        col.style.setProperty("min-width", `${w}px`, "important");
+        col.style.setProperty("max-width", `${w}px`, "important");
       }
       detailColgroup.appendChild(col);
     });
   }
 
   /**
-   * Đặt width của bảng = tổng px các cột đang hiện.
-   * Không có cột ẩn → width = 100% để trải đầy màn hình.
+   * Set width của bảng = tổng px các cột đang hiện.
+   * - Không ẩn cột nào → xoá inline width, để CSS `width: 100%` áp dụng.
+   * - Có cột ẩn → set cứng cả width và min-width = tổng px (không dãn).
    */
   function updateTableWidth() {
     const table = detailTable;
@@ -1575,7 +1559,8 @@
     const hasHidden = Object.keys(hidden).some(k => hidden[k]);
 
     if (!hasHidden) {
-      table.style.width = "100%";
+      table.style.removeProperty("width");
+      table.style.removeProperty("min-width");
       return;
     }
 
@@ -1585,7 +1570,8 @@
       total += DETAIL_COL_WIDTHS[type] || 120;
     });
 
-    table.style.width = `${total + 2}px`;
+    table.style.setProperty("width", `${total}px`, "important");
+    table.style.setProperty("min-width", `${total}px`, "important");
   }
 
   function renderHiddenColsToolbar(onChange) {
@@ -1851,11 +1837,6 @@
   window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(() => hideStatusMenu(), RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(onViewportChange, RESIZE_DEBOUNCE_MS));
-  window.addEventListener("resize", debounce(() => {
-    if (Object.keys(hiddenColumns.detail).some(k => hiddenColumns.detail[k])) {
-      updateTableWidth();
-    }
-  }, RESIZE_DEBOUNCE_MS));
   window.addEventListener("scroll", () => hideStatusMenu(), true);
   updateHeaderOffset();
 
@@ -2717,9 +2698,7 @@
     });
     let columns = [...columnSet];
 
-    // Yêu cầu 2: đổi vị trí CC NUMBER và DATE
-    //   - CC NUMBER đứng trước DATE
-    //   - Đảm bảo CC NUMBER nằm đầu tiên
+    // Đổi vị trí CC NUMBER và DATE: CC NUMBER đứng trước DATE
     const ccIdx = columns.findIndex(c => /^cc\s*number$/i.test(c.trim()));
     const dateIdx = columns.findIndex(c => /^date$/i.test(c.trim()));
     if (ccIdx >= 0 && dateIdx >= 0) {
@@ -2728,7 +2707,7 @@
       columns[dateIdx] = tmp;
     }
 
-    // Chèn cột custom sau CASE STATUS (hoặc cuối nếu không có)
+    // Chèn cột custom sau CASE STATUS
     const insertAfter =
       columns.findIndex(c => /^case\s*status$/i.test(c.trim()));
     const customCols = [STATUS_COL_NAME, PRIORITY_COL_NAME, OPENDAY_COL_NAME];
@@ -2746,7 +2725,7 @@
 
     detailColumns = columns;
 
-    // Build header row + data-col-type
+    // Build header + data-col-type
     const trHead = document.createElement("tr");
     columns.forEach(col => {
       const th = document.createElement("th");
