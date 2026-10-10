@@ -139,10 +139,10 @@
   #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }  /* DATE */
   #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: red; font-weight: bold; }  /* CC NUMBER */
   #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }  /* CUSTOMER */
-  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 25%; }  /* TOPIC */
+  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }  /* TOPIC */
   #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }  /* COMMUNICATION CONTENT */
-  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 8%;  }  /* FMV PIC */
-  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 7%;  text-align: center; }  /* ACTION */
+  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }  /* FMV PIC */
+  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }  /* ACTION */
 
   /* ============================================================
      Header column hide/show toggle button (Detail)
@@ -797,13 +797,7 @@
      ============================================================ */
   #detail-view th.col-hidden,
   #detail-view td.col-hidden {
-    visibility: collapse !important;
-    width: 0 !important;
-    min-width: 0 !important;
-    max-width: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    overflow: hidden !important;
+    display: none !important;
   }
 
   /* ============================================================
@@ -1061,7 +1055,23 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    #basic-view table { min-width: 1000px; }
+    #basic-view table { width: 100%; min-width: 0; table-layout: fixed; }
+    #basic-view th, #basic-view td { padding: 2px; overflow: hidden; }
+    #basic-view th {
+      font-size: 8px;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      line-height: 1.15;
+    }
+    #basic-view td { overflow-wrap: anywhere; }
+    #basic-view td[data-label="TOPIC"] .cell-value {
+      max-width: none;
+      width: 100%;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+    #basic-view .cell-value { overflow-wrap: anywhere; }
+    #basic-view .action-btn { padding: 3px 2px; font-size: 8px; max-width: 100%; box-sizing: border-box; }
 
     #detail-charts {
       width: 100%;
@@ -1521,9 +1531,9 @@
     detailColTypes.forEach((type, idx) => {
       const col = document.createElement("col");
       if (hidden[idx]) {
-        col.style.setProperty("width", "0px", "important");
-        col.style.setProperty("min-width", "0px", "important");
-        col.style.setProperty("max-width", "0px", "important");
+        // display:none trên <col> loại hẳn cột khỏi layout,
+        // không còn cell rộng 0px làm chữ xuống dòng từng ký tự.
+        col.style.setProperty("display", "none", "important");
       } else {
         const w = DETAIL_COL_WIDTHS[type] || 120;
         col.style.setProperty("width", `${w}px`, "important");
