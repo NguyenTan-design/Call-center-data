@@ -1219,6 +1219,35 @@
     "#00897b", "#c0ca33", "#6d4c41", "#3949ab", "#d81b60",
     "#00acc1", "#f4511e"
   ];
+  // Màu cố định cho biểu đồ Current Status — trùng với .status-badge[data-status]
+  const STATUS_COLOR_MAP = {
+    "New case":               "#1976d2",
+    "FUJI JP Investigating":  "#8e24aa",
+    "On Going":               "#fb8c00",
+    "Waiting for FMV Action": "#00897b",
+    "Under Consideration":    "#3949ab",
+    "Pending":                "#757575",
+    "Unspecified":            "#bdbdbd"
+  };
+
+  // Màu cố định cho biểu đồ Priority — trùng với .priority-badge[data-priority^="X:"]
+  const PRIORITY_COLOR_MAP = {
+    "S:Machine Stop":                                  "#c62828",
+    "A:Sometimes Stop/Customer focus on the issue":    "#ef6c00",
+    "B:Need to Fix ASAP":                              "#f9a825",
+    "C:Need to make schedule":                         "#2e7d32",
+    "D:Not Urgent":                                    "#607d8b",
+    "Unspecified":                                     "#bdbdbd"
+  };
+
+  // Hàm phụ: lấy màu cho 1 giá trị status / priority
+  function getStatusColor(label) {
+    return STATUS_COLOR_MAP[label] || "#bdbdbd";
+  }
+
+  function getPriorityColor(label) {
+    return PRIORITY_COLOR_MAP[label] || "#bdbdbd";
+  }
 
   let allData = [];
   let filteredData = [];
@@ -2309,7 +2338,7 @@
       });
   }
 
-  function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
+    function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
     const counts = new Map();
     records.forEach(r => {
       const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
@@ -2318,9 +2347,15 @@
       const val = String(entry[statusField] ?? "").trim() || "Unspecified";
       counts.set(val, (counts.get(val) || 0) + 1);
     });
+
+    // Chọn hàm lấy màu theo field: Current Status vs Priority
+    const colorFn = statusField === FIELD_PRIORITY
+      ? getPriorityColor
+      : getStatusColor;
+
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1])
-      .map(([label, value], i) => {
+      .map(([label, value]) => {
         const matching = records.filter(r => {
           const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
           const cc = ccKey ? normalizeCc(r[ccKey]) : "";
@@ -2330,7 +2365,7 @@
         return {
           label,
           value,
-          color: CHART_PALETTE[i % CHART_PALETTE.length],
+          color: colorFn(label),   // ← dùng màu cố định thay vì CHART_PALETTE
           records: matching,
           detailTitle: `${chartTitle} — ${label}`
         };
