@@ -997,9 +997,26 @@
     #detail-view th, #detail-view td { font-size: 10px; padding: 3px; }
     .status-cell { font-size: 10.5px; }
 
-    /* Trên mobile: reset các cột về auto để không bị tràn vì 10 cột quá hẹp */
-    #detail-view th:nth-child(n),
-    #detail-view td:nth-child(n) { width: auto; }
+    /* Bảng Detail trên mobile: giữ tỷ lệ cột như PC,
+       đặt min-width để có scroll ngang khi màn hình hẹp */
+    #detail-view table {
+      min-width: 900px;
+    }
+
+    #detail-view .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Bảng Basic trên mobile: cũng cần scroll ngang */
+    #basic-view table {
+      min-width: 700px;
+    }
+
+    #basic-view .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
 
     /* Detail charts trên mobile */
     #detail-charts {
@@ -2338,7 +2355,7 @@
       });
   }
 
-    function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
+  function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
     const counts = new Map();
     records.forEach(r => {
       const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
