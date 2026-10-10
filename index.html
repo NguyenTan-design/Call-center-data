@@ -201,7 +201,7 @@
   .hidden-cols-toolbar:empty { display: none; }
 
   .hidden-cols-toolbar::before {
-    content: "Ẩn:";
+    content: "Hide:";
     font-size: 11.5px;
     color: #8d6e00;
     font-weight: bold;
@@ -1509,7 +1509,7 @@
       btn.type = "button";
       btn.className = "col-hide-btn";
       btn.textContent = "−";
-      btn.title = "Ẩn cột này";
+      btn.title = "Hide this column";
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         hideColumn(idx, onChange);
