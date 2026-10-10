@@ -624,19 +624,20 @@
     height: calc(100vh - 270px);
   }
 
+  /* Bảng Detail: table-layout fixed để nth-child width áp đúng 100% */
   #detail-view table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
   }
 
-    #detail-view th,
+  #detail-view th,
   #detail-view td {
     font-size: 12.5px;
-    white-space: normal;         
+    white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-    overflow-wrap: break-word;   
+    overflow-wrap: break-word;
     word-break: break-word;
     padding: 6px 8px;
     vertical-align: top;
@@ -651,10 +652,9 @@
     white-space: nowrap;
   }
 
+  /* TOPIC: cho wrap nhiều dòng */
   #detail-view th[data-col-type="topic"],
   #detail-view td[data-col-type="topic"] {
-    max-width: 420px;
-    min-width: 220px;
     white-space: normal !important;
     overflow: visible !important;
     text-overflow: clip !important;
@@ -663,13 +663,39 @@
     vertical-align: top;
   }
 
+  /* GO TO WEB: nút căn giữa, không padding nhiều */
   #detail-view th[data-col-type="link"],
   #detail-view td[data-col-type="link"] {
-    width: 70px;
-    max-width: 70px;
-    min-width: 70px;
     text-align: center;
     padding: 4px;
+  }
+
+  /* Current Status: cho phép wrap, không ép min-width */
+  #detail-view th[data-col-type="status"],
+  #detail-view td[data-col-type="status"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /* Priority: cho phép wrap, không ép min-width */
+  #detail-view th[data-col-type="priority"],
+  #detail-view td[data-col-type="priority"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /* Open day: căn giữa, không ép min-width */
+  #detail-view th[data-col-type="openday"],
+  #detail-view td[data-col-type="openday"] {
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal !important;
   }
 
   #detail-view tbody tr.detail-row {
@@ -696,23 +722,26 @@
   }
 
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
-  /* Độ rộng từng cột của bảng Detail records (10 cột):
+
+  /* ============================================================
+     Độ rộng 10 cột bảng Detail records (tổng = 100%):
      DATE | CC NUMBER | Customer | TOPIC | Inquiry type |
-     GO TO WEB | CASE STATUS | Current Status | Priority | Open day */
+     GO TO WEB | CASE STATUS | Current Status | Priority | Open day
+     ============================================================ */
   #detail-view th:nth-child(1),  #detail-view td:nth-child(1)  { width: 8%;  }  /* DATE */
   #detail-view th:nth-child(2),  #detail-view td:nth-child(2)  { width: 8%;  }  /* CC NUMBER */
   #detail-view th:nth-child(3),  #detail-view td:nth-child(3)  { width: 12%; }  /* Customer */
   #detail-view th:nth-child(4),  #detail-view td:nth-child(4)  { width: 20%; }  /* TOPIC */
   #detail-view th:nth-child(5),  #detail-view td:nth-child(5)  { width: 10%; }  /* Inquiry type */
-  #detail-view th:nth-child(6),  #detail-view td:nth-child(6)  { width: 6%; text-align: center; }  /* GO TO WEB */
+  #detail-view th:nth-child(6),  #detail-view td:nth-child(6)  { width: 6%;  text-align: center; }  /* GO TO WEB */
   #detail-view th:nth-child(7),  #detail-view td:nth-child(7)  { width: 8%;  }  /* CASE STATUS */
   #detail-view th:nth-child(8),  #detail-view td:nth-child(8)  { width: 10%; }  /* Current Status */
   #detail-view th:nth-child(9),  #detail-view td:nth-child(9)  { width: 10%; }  /* Priority */
-  #detail-view th:nth-child(10), #detail-view td:nth-child(10) { width: 8%; text-align: center; } /* Open day */
+  #detail-view th:nth-child(10), #detail-view td:nth-child(10) { width: 8%;  text-align: center; } /* Open day */
 
   /* ============================================================
      Detail charts (4 pie charts)
-     - PC    : lưới 2 cột, trải full chiều rộng màn hình
+     - PC    : 4 cột ngang 1 hàng, trải full chiều rộng màn hình
      - Mobile: 1 cột, mỗi chart rộng bằng cửa sổ bảng dữ liệu
      ============================================================ */
   #detail-charts {
@@ -731,7 +760,7 @@
   }
 
   #detail-charts .chart-card {
-    padding: 12px;
+    padding: 8px;
     width: 100%;
     min-width: 0;
   }
@@ -749,7 +778,7 @@
 
   #detail-charts .chart-svg-wrap svg {
     width: 100%;
-    max-width: 100px;
+    max-width: 140px;
     height: auto;
     aspect-ratio: 1 / 1;
   }
@@ -764,8 +793,8 @@
   }
 
   #detail-charts .chart-legend li {
-    font-size: 11.5px;
-    padding: 3px 0;
+    font-size: 10.5px;
+    padding: 2px 0;
   }
 
   #toggle-detail-charts {
@@ -784,21 +813,6 @@
   #toggle-detail-charts:hover { background: #24632a; }
 
   #toggle-detail-charts.visible { display: inline-block; }
-
-  /* Current Status / Priority cells */
-  #detail-view th[data-col-type="status"],
-  #detail-view td[data-col-type="status"],
-  #detail-view th[data-col-type="priority"],
-  #detail-view td[data-col-type="priority"] {
-    width: 210px;
-    min-width: 180px;
-    max-width: 260px;
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
-    vertical-align: middle;
-    text-align: left;
-  }
 
   .status-cell {
     position: relative;
@@ -980,27 +994,14 @@
 
     .na-rank-bar { grid-template-columns: 48px 1fr 34px; font-size: 10.5px; }
 
-    #detail-view th, #detail-view td { font-size: 10px; max-width: 180px; }
-    #detail-view th[data-col-type="link"],
-    #detail-view td[data-col-type="link"] {
-      width: 60px; max-width: 60px; min-width: 60px;
-    }
-    #detail-view th[data-col-type="topic"],
-    #detail-view td[data-col-type="topic"] {
-      max-width: 240px; min-width: 140px;
-    }
-    #detail-view th[data-col-type="status"],
-    #detail-view td[data-col-type="status"],
-    #detail-view th[data-col-type="priority"],
-    #detail-view td[data-col-type="priority"] {
-      width: 150px; min-width: 130px; max-width: 180px;
-    }
+    #detail-view th, #detail-view td { font-size: 10px; padding: 3px; }
     .status-cell { font-size: 10.5px; }
 
-    /* Detail charts trên mobile:
-       - 1 cột
-       - mỗi chart rộng full = bằng cửa sổ bảng dữ liệu
-       - biểu tượng biểu đồ tròn thu nhỏ còn ~1/3 */
+    /* Trên mobile: reset các cột về auto để không bị tràn vì 10 cột quá hẹp */
+    #detail-view th:nth-child(n),
+    #detail-view td:nth-child(n) { width: auto; }
+
+    /* Detail charts trên mobile */
     #detail-charts {
       width: 100%;
       margin-left: 0;
@@ -1241,9 +1242,6 @@
   let savedGraphScrollY = 0;
 
   // Lưu trạng thái Detail records trước đó để phục vụ nút BACK.
-  // null = Detail hiện tại được mở trực tiếp từ Graph mode.
-  // { title, records, scrollY, chartsData, chartsVisibleMobile }
-  //   = Detail được mở từ 1 Detail khác (drill-down).
   let previousDetailState = null;
 
   let detailChartsData = null;
@@ -1600,7 +1598,6 @@
   basicModeBtn.addEventListener("click", showBasicView);
 
   detailBackBtn.addEventListener("click", () => {
-    // Nếu đang có previousDetailState → quay lại Detail trước đó (drill-down).
     if (previousDetailState) {
       const prev = previousDetailState;
       previousDetailState = null;
@@ -1636,7 +1633,6 @@
       return;
     }
 
-    // Ngược lại: quay về Graph mode.
     hideAllViews();
     graphView.style.display = "block";
     graphModeBtn.style.display = "none";
@@ -2224,18 +2220,12 @@
   }
 
   function openDetailView(title, records) {
-    // Được gọi khi click chart từ GRAPH VIEW.
-    // Reset previousDetailState vì đây là điểm bắt đầu của chuỗi drill-down.
     savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
     previousDetailState = null;
 
     openDetailViewInternal(title, records, /* keepPrevState */ false);
   }
 
-  /**
-   * Mở Detail records NHƯ MỘT DRILL-DOWN từ 1 Detail hiện tại.
-   * Lưu state Detail hiện tại để nút BACK quay lại đúng chỗ.
-   */
   function openDetailViewFromDetail(title, records) {
     previousDetailState = {
       title: detailTitle.textContent,
@@ -2248,12 +2238,6 @@
     openDetailViewInternal(title, records, /* keepPrevState */ true);
   }
 
-  /**
-   * Hàm mở Detail records chung.
-   * @param {string}  title
-   * @param {Array}   records
-   * @param {boolean} keepPrevState  true = giữ previousDetailState hiện tại
-   */
   function openDetailViewInternal(title, records, keepPrevState) {
     if (!keepPrevState) {
       savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
@@ -2455,7 +2439,7 @@
       else if (isTopicColumn(col)) th.dataset.colType = "topic";
       else if (isStatusColumn(col)) th.dataset.colType = "status";
       else if (isPriorityColumn(col)) th.dataset.colType = "priority";
-      else if (isOpenDayColumn(col)) th.dataset.colType = "priority";
+      else if (isOpenDayColumn(col)) th.dataset.colType = "openday";
       trHead.appendChild(th);
     });
     detailThead.appendChild(trHead);
@@ -2521,7 +2505,7 @@
         else if (isTopicColumn(col)) td.dataset.colType = "topic";
         else if (isStatusColumn(col)) td.dataset.colType = "status";
         else if (isPriorityColumn(col)) td.dataset.colType = "priority";
-        else if (isOpenDayColumn(col)) td.dataset.colType = "priority";
+        else if (isOpenDayColumn(col)) td.dataset.colType = "openday";
 
         const val = r[col];
 
