@@ -137,7 +137,7 @@
   tbody tr:hover { background: var(--row-hover); }
 
   /* Basic table: dùng px để không đổi độ rộng khi ẩn cột */
-  #basic-view table { width: auto; min-width: 100%; }
+  #basic-view table { width: auto; }
 
   #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 130px; min-width: 130px; }  /* DATE */
   #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 130px; min-width: 130px; color: red; font-weight: bold; }  /* CC NUMBER */
@@ -705,7 +705,6 @@
   /* Bảng Detail: dùng px để không đổi độ rộng cột khi ẩn */
   #detail-view table {
     width: auto;
-    min-width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
   }
@@ -1083,13 +1082,6 @@
     #detail-view th, #detail-view td { font-size: 10px; padding: 3px; }
     .status-cell { font-size: 10.5px; }
 
-    /* Bảng Detail trên mobile: giữ độ rộng cột như PC,
-       đặt min-width để có scroll ngang khi màn hình hẹp.
-       GO TO WEB và Current Status rộng thêm 1.2 lần. */
-    #detail-view table {
-      min-width: 1200px;
-    }
-
     /* Mobile: GO TO WEB rộng thêm 1.2 lần (110 → 132px) */
     #detail-view th:nth-child(6),
     #detail-view td:nth-child(6) {
@@ -1110,10 +1102,6 @@
     }
 
     /* Bảng Basic trên mobile: cũng cần scroll ngang */
-    #basic-view table {
-      min-width: 1000px;
-    }
-
     #basic-view .table-wrapper {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
@@ -1443,6 +1431,7 @@
   const basicTheadRow = document.getElementById("basic-thead-row");
   const hiddenColsBasic = document.getElementById("hidden-cols-basic");
   const hiddenColsDetail = document.getElementById("hidden-cols-detail");
+  const detailTable = document.getElementById("detail-table");
 
   const detailTitle = document.getElementById("detail-title");
   const detailCount = document.getElementById("detail-count");
@@ -1531,18 +1520,16 @@
     hiddenColumns[tableKey][idx] = true;
     applyHiddenColumns(tableKey);
     renderHiddenColsToolbar(tableKey, onChange);
-    if (typeof onChange === "function") onChange();
   }
 
   function showColumn(tableKey, idx, onChange) {
     delete hiddenColumns[tableKey][idx];
     applyHiddenColumns(tableKey);
     renderHiddenColsToolbar(tableKey, onChange);
-    if (typeof onChange === "function") onChange();
   }
 
   function applyHiddenColumns(tableKey) {
-    const table = tableKey === "basic" ? basicTable : document.getElementById("detail-table");
+    const table = tableKey === "basic" ? basicTable : detailTable;
     if (!table) return;
 
     const hidden = hiddenColumns[tableKey];
@@ -1558,13 +1545,47 @@
           if (td) td.classList.toggle("col-hidden", hide);
         });
     }
+
+    // Cập nhật lại width bảng theo các cột đang hiện
+    updateTableWidth(tableKey);
+  }
+
+  /**
+   * Tính tổng width của các cột đang hiện và đặt width cố định cho bảng.
+   * - Nếu KHÔNG có cột nào bị ẩn → width: 100% để trải đầy viewport.
+   * - Nếu CÓ cột bị ẩn → width = tổng px của các cột đang hiện (không dãn cột).
+   */
+  function updateTableWidth(tableKey) {
+    const table = tableKey === "basic" ? basicTable : detailTable;
+    if (!table) return;
+
+    const hidden = hiddenColumns[tableKey];
+    const hasHidden = Object.keys(hidden).some(k => hidden[k]);
+
+    // Khi không có cột nào bị ẩn → trải full 100% như cũ
+    if (!hasHidden) {
+      table.style.width = "100%";
+      return;
+    }
+
+    // Khi có cột bị ẩn → đo tổng width các cột đang hiện
+    const ths = table.querySelectorAll("thead tr:first-child th");
+    let total = 0;
+    ths.forEach((th, idx) => {
+      if (hidden[idx]) return;
+      const w = th.getBoundingClientRect().width;
+      if (w > 0) total += w;
+    });
+
+    // +2px tránh làm tròn số khiến cột cuối bị co
+    table.style.width = total > 0 ? `${Math.ceil(total) + 2}px` : "auto";
   }
 
   function renderHiddenColsToolbar(tableKey, onChange) {
     const container = tableKey === "basic" ? hiddenColsBasic : hiddenColsDetail;
     if (!container) return;
 
-    const table = tableKey === "basic" ? basicTable : document.getElementById("detail-table");
+    const table = tableKey === "basic" ? basicTable : detailTable;
     if (!table) return;
 
     const ths = table.querySelectorAll("thead tr:first-child th");
@@ -1829,6 +1850,15 @@
   window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(() => hideStatusMenu(), RESIZE_DEBOUNCE_MS));
   window.addEventListener("resize", debounce(onViewportChange, RESIZE_DEBOUNCE_MS));
+  window.addEventListener("resize", debounce(() => {
+    // Cập nhật lại width bảng khi resize (cột có thể đo lại)
+    if (Object.keys(hiddenColumns.basic).some(k => hiddenColumns.basic[k])) {
+      updateTableWidth("basic");
+    }
+    if (Object.keys(hiddenColumns.detail).some(k => hiddenColumns.detail[k])) {
+      updateTableWidth("detail");
+    }
+  }, RESIZE_DEBOUNCE_MS));
   window.addEventListener("scroll", () => hideStatusMenu(), true);
   updateHeaderOffset();
 
@@ -2817,6 +2847,9 @@
     });
 
     detailTbody.appendChild(fragment);
+
+    // Reset width về auto rồi áp lại trạng thái ẩn (đo lại width cột mới)
+    detailTable.style.width = "auto";
     applyHiddenColumns("detail");
   }
 
@@ -3227,6 +3260,8 @@
     renderPagination();
     requestAnimationFrame(adjustRowHeights);
 
+    // Reset width cũ rồi áp lại trạng thái ẩn (đo lại width cột mới)
+    basicTable.style.width = "auto";
     applyHiddenColumns("basic");
   }
 
