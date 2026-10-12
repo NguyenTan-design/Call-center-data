@@ -1,5 +1,95 @@
 [
     {
+        "DATE": "2026-10-12T09:31:37+00:00",
+        "CC NUMBER": "CC-0083964",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_The serial number cannot be registered on the main board using the Head Bench._[NXTR]",
+        "Communication Content": "Dear Chi Chengjie san,\n\nThank you for the information.\n\nFMV-Xuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JMzSuYAL"
+    },
+    {
+        "DATE": "2026-10-12T08:58:23+00:00",
+        "CC NUMBER": "NEW:CC-0084080",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup for NXTR-S_[Nexim]",
+        "Communication Content": "Dear call center,\n\nOur customer Mitac VN prepare application CFX function for NXTR machine.\n\nwe have some question bellow.\n\nQs1:  With NXT3 we have applied some the patch file when using CFX function bellow:\n\n4745_IPCCFX_Step3.5_Patch\n\n5201_IPCCFX_Step3.5_Patch\n\n5366_IPCCFX_Step3.5_Patch\n\n5498_IPCCFX_Step3.5_Patch\n\nso there patch file can application for NXTR also or No? If no pls advice patch file for NXTR-S type.\n\nPls take note that customer using:\n\n- Oracle 19c\n\n- Nexim 3.2.21\n\n- NXTR 2.3Py\n\n- NXT 10.00\n\nQs2: In the NXT3 machine we using 1 line server control 1 line NXT3\n\n           But NXTR customer use 1 Line sever control 2 line NXTR-S\n\nso Is there any issue with CFX function if two lines NXTR-S share the same Line Server?\n\nPls check the attached file for version file for detail and advice for us\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Jr8k0YAB"
+    },
+    {
+        "DATE": "2026-10-12T08:16:36+00:00",
+        "CC NUMBER": "NEW:CC-0084078",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Cycle time lane 2 faster than lane 1_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the phenomena that, At module 2L, Cycle time at lane 2 is faster than lane 1 (refer to the picture). I check the part usage there are no error or pickup or vision. So, please help me analyst the trace data to find the root cause. This machine version is 2.CMn, but please help to look if ver V2.DBc is fix this phenomena or not? If Not, can you fix it at new version from V2.DBc, no need fix it at Ver 2.Cmn\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JqJROYA3"
+    },
+    {
+        "DATE": "2026-10-12T06:44:11+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Toyama san\n\nThank you for your support\n\nI have take trace FLP and NXTR again. please support we investigate.\n\nThanks\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
+        "DATE": "2026-10-12T06:35:04+00:00",
+        "CC NUMBER": "CC-0075394",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The duration of WorkStageStarted to WorkStageCompleted is not proportional to the state transition duration_WorkStageStarted から WorkStageCompleted までの期間は、状態遷移の所要時間に比例していない。[NXT]",
+        "Communication Content": "Dear Call center\n\nThanks for your supported\n\nFollow CC number bellow.\n\nCC-0076011\n\nCC-0076047\n\nWe have applied some the patches file that from Fuji Japan but there issues still happen\n\nthe last time, Fuji Japan said: There issues are related to Shuttle conveyor that customer using\n\nUntil the customer change the conveyor to dual and set the reading camera for each lane, this issue keep happen.\n\nHowever, the customer does not accept this explanation.\n\nCustomer don't accept for change to the conveyor which use dual lane, because they don't have an other conveyor machine\n\nThey need to read the panel ID on both PCB side, but when use the mark camera only read Panel ID on Top side, can not read the panel ID on Bottom side, so they also don't accept\n\nI hear that Mitac Taiwan side also happens with these problem at the line single lane\n\nThe customer unhappy now, Their boss has issued a directive: unless the CFX project is completed, no further orders for machines will be placed with you until the work is finished.\n\nPlease help to propose a more suitable solution.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vCNsrYAG"
+    },
+    {
+        "DATE": "2026-10-12T06:32:54+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThanks for your supported\n\nFollow CC number bellow.\n\nCC-0076011\n\nCC-0076047\n\nWe have applied some the patches file that from Fuji Japan but there issues still happen\n\nthe last time, Fuji Japan said: There issues are related to Shuttle conveyor that customer using\n\nUntil the customer change the conveyor to dual and set the reading camera for each lane, this issue keep happen.\n\nHowever, the customer does not accept this explanation.\n\nCustomer don't accept for change to the conveyor which use dual lane, because they don't have an other conveyor machine\n\nThey need to read the panel ID on both PCB side, but when use the mark camera only read Panel ID on Top side, can not read the panel ID on Bottom side, so they also don't accept\n\nI hear that Mitac Taiwan side also happens with these problem at the line single lane\n\nThe customer unhappy now, Their boss has issued a directive: unless the CFX project is completed, no further orders for machines will be placed with you until the work is finished.\n\nPlease help to propose a more suitable solution.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
+        "DATE": "2026-10-12T06:27:06+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nThe customer unhappy now, Their boss has issued a directive: unless the CFX project is completed, no further orders for machines will be placed until the work is finished.\n\nPlease help to  propose a more suitable solution.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-10-12T06:25:51+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nThe customer unhappy now, Their boss has issued a directive: unless the CFX project is completed, no further orders for machines will be placed until the work is finished.\n\nPlease help to  propose a more suitable solution.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-10-12T02:27:59+00:00",
+        "CC NUMBER": "CC-0083408",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nThank you so your advice,\n\nWe will be conducting test base on that method at BNO for next repair.\n\nAfter we will inform to you.\n\nThank you & best regards!\n\nDuong,",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
+    },
+    {
+        "DATE": "2026-10-12T00:57:28+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Chien san\n\nThank you very much for your additional information and sorry for keep you waiting.\n\nOur designer found that somehow the error with D701 was not counted.\n\nWe are investigating why D701 is not counting.\n\nI will come back to you as soon as I can.\n\nSo please kindly give some time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-10-10T16:35:10+00:00",
         "CC NUMBER": "NEW:CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",

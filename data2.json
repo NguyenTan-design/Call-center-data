@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-12T08:58:23+00:00",
+        "CC NUMBER": "NEW:CC-0084080",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup for NXTR-S_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Jr8k0YAB",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-10-12T08:16:36+00:00",
+        "CC NUMBER": "NEW:CC-0084078",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Cycle time lane 2 faster than lane 1_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JqJROYA3",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-10-10T16:35:10+00:00",
         "CC NUMBER": "NEW:CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
