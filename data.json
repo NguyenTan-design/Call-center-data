@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-13T02:21:23+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "FMV-DO-san\n\n[Actions Taken]\n\n1. Station cleaning\n\n2. Station replacement\n\nPlease summarize the actions that were performed.\n\n[Requested Actions]\n\n1. Replace the lighting unit (light source)\n\n   * If the issue is not resolved, proceed with item 2.\n\n2. Replace the F-mark camera\n\n• We understand that the nozzle changer was slightly lifted.\n\n  ⇒ Could you please explain how this was checked?\n\n     How much was it lifted?\n\n     Did lifting it cause any setup errors?\n\n     Please provide details of the verification method.\n\n• Was the issue already occurring with V9.8*, or was there no problem at that time?\n\nCall center Amano",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-10-13T02:02:45+00:00",
         "CC NUMBER": "CC-0083559",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
