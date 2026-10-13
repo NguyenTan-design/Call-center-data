@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-13T08:25:35+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear FMV-DUC,\n\nBased on the logs you provided, we have identified the cause of the issue. We plan to prepare a patch to fix the issue by October 23.\n\nIf we are able to complete the patch earlier, we will inform you accordingly.\n\nIn the meantime, please follow the temporary operating procedure below until the patch is available.\n\n■Temporary Solution\n\n・Whenever you delete a job from a lane, please retransmit the job to the same lane before starting production. Please follow this sequence: Delete → Job Transfer → Production Start.\n\n・Once jobs have been transmitted to both lanes, please do not start production if the job has been deleted from only one lane, even if the other lane still has a job assigned.\n\n■Additional Request\n\nBefore starting operation, please restart the ProNavi Service.\n\nThank you for your understanding and cooperation.\n\nBest regards,\n\nThank you!\n\nFUJI Call-Center\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-10-13T08:12:15+00:00",
         "CC NUMBER": "CC-0083012",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
