@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-13T04:19:08+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Dinh-san\n\nI will check current specification but which data be must analisys?\n\nI cannot find like a overload error after machine reboot.\n\nPlease double check.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-10-13T03:05:02+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
