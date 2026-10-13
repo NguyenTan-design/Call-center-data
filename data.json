@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-13T10:54:58+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for your advice.\n\nI changed the measurement current as you suggested, but the issue has not been resolved.\n\nAfter changing the measurement current, a small number of C0201 capacitors showed acceptable measurement results. However, most of the other capacitors, including C0201, C0402, and C0603...still failed to meet the measurement specifications.\n\nI also tried different measurement current settings, but the results were still not acceptable.\n\nCould you please advise if there are any other possible solutions or additional settings that we can try to improve the measurement accuracy?\n\nThank you for your support.\n\nBest regards,\n\nNam Nguyen",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
+        "DATE": "2026-10-13T10:43:25+00:00",
+        "CC NUMBER": "CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear Ma-san,\n\nThank you for your support.\n\nI coordinated with the factory IT team to check the network communication, but no abnormalities were found.\n\nTherefore, I suspected that the issue might be related to the Traceability Profiler. I reinstalled the Line Server PC and recreated the Traceability Profiler configuration.\n\nAfter completing the installation and restoring the connection, I continued monitoring the machine, and the error has not occurred again so far.\n\nHowever, since the factory is currently conducting trial production with a small number of panels, more time is needed to monitor the situation and confirm whether the issue has been completely resolved.\n\nI will continue to monitor and provide an update once there is further information.\n\nBest regards,\n\nNam Nguyen",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
         "DATE": "2026-10-13T09:15:25+00:00",
         "CC NUMBER": "CC-0084144",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
