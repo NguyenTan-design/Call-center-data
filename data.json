@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-13T02:02:45+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nCould you please register to new sales force ticket for LITE-ON case?\n\nWe basically handling one ticket/one case.\n\nWe cannot providing counter measure in one ticket for both because it making confusinf.\n\nSorry but please kindly understand that.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
+        "DATE": "2026-10-13T01:59:15+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nI am sorry for interrupt this communication. I am supporting other customer \"Liteon\" they use nexim 3.2.110, accesories V26.1.0.2. There is same phenomena with Hana. Liteon also asking about it. Can you fix this issue at their version also.\n\nThank you very much.\n\nTung-FMV",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
+        "DATE": "2026-10-13T01:47:59+00:00",
+        "CC NUMBER": "CC-0083678",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine displayed 00003A31 Encoder Communications Error on the RH28 Head of Module 2 Left_[NXTR-S]",
+        "Communication Content": "Dear Chi Chengjie san,\n\nI would like to provide you with an update, After replacing the R-axis motor on the head, the issue has been resolved.\n\nWe will submit a warranty claim to Fuji Japan for this replacement.\n\nThank you!\n\nFMV-Xuan Trung",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IgzIpYAJ"
+    },
+    {
         "DATE": "2026-10-13T00:16:35+00:00",
         "CC NUMBER": "CC-0070534",
         "Customer": "JABIL VIETNAM CO., LTD.]",
