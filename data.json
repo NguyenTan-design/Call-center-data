@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-13T08:36:27+00:00",
+        "CC NUMBER": "NEW:CC-0084144",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThe issue CC-0083559 has recently been reported by the customer Hana. Upon verification, the same issue has also occurred repeatedly at Lite-On, so this matter requires attention.\n\nCurrently, this D701 error has not been classified under any existing error category. To investigate the root cause, I have uploaded the relevant trace data to the system for your review.",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
+    },
+    {
         "DATE": "2026-10-13T08:25:35+00:00",
         "CC NUMBER": "CC-0083882",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
