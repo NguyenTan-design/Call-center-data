@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-13T06:54:47+00:00",
+        "CC NUMBER": "CC-0079015",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_\"Is Push Sequence\" function on NXTR-S (RH02, RH08)_NXTRでの押さえシーケンス対応[NXTR-S]",
+        "Communication Content": "Dear Cuong-san\n\nThis issue has been resolved in the following special versions and patches.\n\nNXTR\n\nV2.Dba\n\nLCU 0961_LCUPatch_NXTR_OnMcEdit_PushSeq_forV2.35\n\nNexim\n\n2438_PreventRejectPartDropModeFlag_Patch\n\n5425_M2MComm_MngTool_Patch\n\n5562_V3.2.100_NXTR_PushSequence_Optimizer_Patch\n\n5712_V3.2.100_Plan_Patch\n\nWe will mark this case as closed.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015ddFqYAI"
+    },
+    {
         "DATE": "2026-10-13T06:36:54+00:00",
         "CC NUMBER": "CC-0083290",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
