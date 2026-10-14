@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-14T12:18:15+00:00",
+        "CC NUMBER": "CC-0070534",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[JABIL VIETNAM CO., LTD.]_Concern the quality of Part number: PG00970_Part number: PG00970の品質についての懸念点[NXTIII]",
+        "Communication Content": "Dear Linh-san\n\nIn that case, three months is too long to keep this number active, so is it possible to close it for now?\n\nI'd like you to get a new number if the issue recurs.\n\nBR.\n\nMoriya",
+        "FMV PIC": "",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000jAVeyYAG"
+    },
+    {
+        "DATE": "2026-10-14T12:04:52+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Dinh-san\n\nDesign Notes\n\nIf the sensor is triggered when the machine starts up, it will stop immediately.\n\nThe purpose of this feature is to prevent interference with the head during production.\n\nWe would like to verify the facts based on the trace data, so please answer the following questions.\n\n------------------------------\n\nI will check current specification but which data be must analisys?\n\nI cannot find like a overload error after machine reboot.\n\nPlease double check.\n\n-----------------------------\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-10-14T10:30:18+00:00",
         "CC NUMBER": "CC-0080766",
         "Customer": "BYD Electronics Vietnam Company Limited]",
