@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T02:21:41+00:00",
+        "CC NUMBER": "CC-0084078",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Cycle time lane 2 faster than lane 1_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san\n\n・Does Lane 2 always have a shorter cycle time on the M2-L?\n\nYes, Until now, Lane 2 still faster than lane 1\n\n・Does this issue ever occur with the M2-R or other modules?\n\nIt only happen at module 2L, other module, and 2R no happen\n\n・Is the same thing happening in other jobs?\n\nI do not monitor all job, but today, production other Job, it still happen.\n\nーー\n\nCould you please send me the JOB that was in use when the trace was captured?\n\nI upload trace data and JOb file today.  Please continue help me investigate it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JqJROYA3"
+    },
+    {
         "DATE": "2026-10-14T01:49:50+00:00",
         "CC NUMBER": "CC-0083619",
         "Customer": "TOA VIETNAM CO., LTD.]",
