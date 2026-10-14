@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T06:54:54+00:00",
+        "CC NUMBER": "NEW:CC-0084217",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel not tranfer to next module after complete placement_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the issue with not tranfer panel to next module. Refer to advice from CC-0083763, I make new inquires\n\nTime happen: 15:43\n\nPhenomena: After complete placement at lane 1 module 2, panel not tranfer to module 3\n\nAction: Remove panel and transmit job via nexim: Still NG\n\nI have to reset machine and resume production OK\n\nI upload trace data for this issue at trace \"Lane 1 can not tranfer PCB from module 2 to 3- 10-OCT\"\n\nCurrent machine version V2.CMn but can you check if it was fix at Ver. 2.DBc? If not please help to fix it in next version base on V2.DBc\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Kqrx4YAB"
+    },
+    {
         "DATE": "2026-10-14T06:20:05+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
