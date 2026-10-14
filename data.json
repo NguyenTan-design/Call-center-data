@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T07:48:26+00:00",
+        "CC NUMBER": "CC-0084144",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Toyama,\n\nThank you for your feedback.\n\nWe observed a mismatch in the D701 error count during the period from 10:25 to 10:35.\n\nThe details are as follows:\n\nImage Explorer: 120 D701 error images were recorded.\n\nProduction Data: Only 23 D701 errors were recorded.\n\nTherefore, there is a discrepancy of 97 errors between Image Explorer and Production Data.\n\nCould you please investigate why the D701 error counts differ between these two sections and advise us on the possible cause?\n\nThank you for your support.\n\nBest regards,\n\nFMV -YangHongFei",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
+    },
+    {
         "DATE": "2026-10-14T06:54:54+00:00",
         "CC NUMBER": "NEW:CC-0084217",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
