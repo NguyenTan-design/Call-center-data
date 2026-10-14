@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T14:59:46+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Moriya-San,\n\nSorry for the confusion. The error occurred on Module 1, Address 1, not Module 2, I have updated the Event Log for Module 1 and added photos of the IPS inspection after the collision with the feeder.\n\nWe also checked the current operation. When the sensor is triggered and the module is then started, an alarm occurs and the module stops immediately.\n\nHowever, the customer would like the NXTR to operate like the NXT3, where an alarm is triggered immediately if the sensor is activated while the module is stopped.\n\nThank you for your support.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-10-14T12:18:15+00:00",
         "CC NUMBER": "CC-0070534",
         "Customer": "JABIL VIETNAM CO., LTD.]",
