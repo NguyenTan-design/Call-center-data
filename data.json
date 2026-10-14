@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T03:14:00+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Toyama san\n\nSorry to jump in.\n\nThank you for your support\n\nToday this issue occurred on the other line (Line 7) at 9:30 VN time\n\ncustomer complaint that all the NXTR line have this issue also\n\nPls check the attached file and help to investigate and then advice for us to resolve this issue.\n\nthe trace: Line 7 Board not tranfer.zip\n\nThe trace data included:\n\n                      M2M trace\n\n                      Machine trace\n\n                      Production status.img\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-10-14T02:51:29+00:00",
         "CC NUMBER": "CC-0083673",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
