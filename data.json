@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T10:30:18+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Binh-san,\n\nAs a results of trace analysis and current situation please replace CL1(Camera link cable).\n\nBy the way could you tell me correct module XNo. and working time?\n\nAlready your register \"HEBC21 0000758\" but I cannot find this module at BYD Vietnam shipped out history.\n\nThis information for the warranty judgment.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-10-14T08:55:24+00:00",
         "CC NUMBER": "NEW:CC-0084227",
         "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
