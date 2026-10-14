@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T08:34:07+00:00",
+        "CC NUMBER": "NEW:CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe would like to request your support in investigating the following issue.\n\n1. Issue Information\n\nError Code: 8B7AD7BF\n\nError Message: Foreign objects have been detected at the position where backup pins are to be allocated.\n\nMachine / Module: NXTR25_M2-R\n\nDate and Time of Occurrence: October 13, 2026, at 09:03:48\n\nIMG ERROR: 2026-10-13_090348_NXTR25_M2-R\n\n2. Issue Description\n\nOn October 13, 2026, at 09:03:48, error 8B7AD7BF occurred during the Backup Pin allocation check.\n\nAfter checking the error location, we confirmed that the detected object was the hexagonal screw head used to secure the lift table, not a foreign object.\n\nThe current Nexim configuration includes a function to check for foreign objects before Backup Pin allocation. In this case, the system detects the screw head and incorrectly identifies it as a foreign object.\n\n3. Current Workaround\n\nWe confirmed that the error can be avoided by disabling the foreign object detection function before Backup Pin allocation.\n\nHowever, the customer does not want to disable this function, as they wish to maintain the original safety check during production preparation.\n\n4. Request to FUJI\n\nCould you please investigate this issue and advise whether there is an alternative solution that allows the foreign object detection function to remain enabled?\n\nFor example, is it possible to exclude the fixed hexagonal screw head from the detection area or adjust the detection settings to prevent this false detection?\n\nWe have prepared the relevant Trace Data, Nexim version information and IMG error for your investigation.\n\nYour support and advice on a permanent solution would be greatly appreciated.\n\nBest regards,\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-14T08:13:42+00:00",
         "CC NUMBER": "CC-0083012",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
