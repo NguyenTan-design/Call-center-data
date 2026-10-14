@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T01:49:50+00:00",
+        "CC NUMBER": "CC-0083619",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[TOA VIETNAM CO., LTD.]_Machine error: 8C91078B subcode 0001: Conveyor_[AIMEXR]",
+        "Communication Content": "Dear Phan Tan san,\n\nNo parts were found to have fallen under the cylinder of the backup pin stocker, and no other abnormalities were detected; therefore, we believe the conveyor is operating normally.\n\nBased on the above, Based on the above, it is highly likely that a foreign object became stuck on the backup plate during the clamping process.. Please continue with daily cleaning and maintenance, and monitor the situation going forward.\n\nKonda,",
+        "FMV PIC": "Phan Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IU7wLYAT"
+    },
+    {
         "DATE": "2026-10-14T01:37:27+00:00",
         "CC NUMBER": "CC-0070534",
         "Customer": "JABIL VIETNAM CO., LTD.]",
