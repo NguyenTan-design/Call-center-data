@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T06:20:05+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan san,\n\nThank you for your continued cooperation and patience.\n\nWe have received feedback from our development team regarding the account deletion errors you reported. Please find the details below.\n\n① \"Failed to delete user\" error\n\nOur development team was able to reproduce this error. The cause has been identified as follows:\n\nWhen \"Assigned machine\" is configured for a user in the \"Change user name\" screen, the user is registered in both NeximDB and FUJIDB. If the user is then deleted only from FUJIDB, the \"Failed to delete user\" error will occur when attempting to delete that account from Account Management.\n\n→ Recommended action:\n\nPlease remove the \"Assigned machine\" assignment from the user first, and then try deleting the account again.\n\n② \"Can not delete logon user\" error\n\nOur development team has not been able to reproduce this error at this time.\n\nIf this error is occurring even when there is no Assigned machine configured for the user, we would like to investigate further.\n\nCould you please collect and send the following logs?\n\nStep 1: Change DBIF logging level to DEBUG\n\nBefore reproducing the issue, please update the following file:\n\nNexim\\Common\\Ini\\FcDBIFAccessConfig.xml\n\nChange the logging level from \"info\" to \"DEBUG\". (Please revert to \"info\" after log collection.)\n\nStep 2: Reproduce the issue, then immediately collect the following:\n\n[Trace folder]\n\nC:\\Nexim\\Common\\Data\\Trace\n\nPlease make sure the following files are included:\n\n- AccountManager.log\n\n- FcDBIFOperation_AccountManager.log\n\n[NeximDB logs]\n\n- D:\\oracle\\diag\\rdbms\\Neximdb\\Neximdb\\trace\\ (all files)\n\n- D:\\oracle\\admin\\Neximdb\\FujiLog\\CreateDB.log\n\n[FUJIDB logs]\n\n- D:\\oracle\\diag\\rdbms\\fujidb\\fujidb\\trace\\ (all files)\n\n- D:\\oracle\\admin\\fujidb\\FujiLog\\CreateDB.log\n\nWe apologize for the inconvenience and appreciate your continued cooperation.\n\nPlease let us know if you have any questions.\n\nBest regards,\n\nAnri Ito\n\nCustomer Service Dept. / Customer Support Sec. Callcenter\n\nFUJI CORPORATION",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
         "DATE": "2026-10-14T04:32:54+00:00",
         "CC NUMBER": "CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
