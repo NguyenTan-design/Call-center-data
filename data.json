@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-14T08:55:24+00:00",
+        "CC NUMBER": "NEW:CC-0084227",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer meeting the error:\n\n8000D47B:An error occurred in the communication with the camera.\n\nHead:  RH28 HF1021 0002553\n\nModule: NXTR-2RV(S)0000366\n\nNXTR Ver: 2.35.2\n\nTo continue production, we replaced the head, and the issue was resolved after the replacement.\n\nWe already follow the Rep News Report 24057-1 and reconnect the flexible cable in the head error but can not fix.\n\nWe found a similar case under CC-0078645, CC-0082740\n\nPlease help to check the trace data and advice for us next action to resolve this issue.\n\nThank you!\n\nFMV- Xuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KsT11YAF"
+    },
+    {
         "DATE": "2026-10-14T08:34:07+00:00",
         "CC NUMBER": "NEW:CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
