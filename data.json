@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-14T04:19:12+00:00",
+        "CC NUMBER": "CC-0084144",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Yang san\n\nThank you very much for the inquiry.\n\nAdditionally could you please summarize when and how the error count was mismatched?\n\nMuch appreciate if you can provide time period when the error count doesn't match and how it showing.\n\nFUJI Toyama",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
+    },
+    {
+        "DATE": "2026-10-14T04:07:13+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Chien-san,\n\nThank you for confirming that Error 8D390000 has not recurred since September 25th.\n\nOur design team is continuing the internal investigation.\n\nIf the error occurs again, please collect and send us the following data immediately.\n\n  1. Version text data for Nexim and LCU\n\n  2. DB export data (JobDB, MaterialDB)\n\n     * If item 2 is available, item 5 is not required.\n\n  3. Export data of the System Layout\n\n  4. Export data of the Accessory Floor Layout\n\n  5. Job data (only if item 2 is not available)\n\n  6. Export data of the Machine Configuration Settings\n\n  7. NKSexe.config file located in \\Nexim\\Client\\bin\n\n  8. Filter file used during Verify (only if in use)\n\nThank you for your continued support.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-10-14T03:14:00+00:00",
         "CC NUMBER": "CC-0083179",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
