@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-14T02:37:48+00:00",
+        "CC NUMBER": "CC-0083646",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Head RH08 ( SN: HB102 0002700) display 8B338403 Error_[NXTR-S]",
+        "Communication Content": "Dear Konda-san ,\n\nI would like to provide you with an update. After replacing the IPS Camera for the head, the issue has been resolved.\n\nWe will submit a warranty claim to Fuji Japan for this replacement.\n\nThank you!",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IXy0vYAD"
+    },
+    {
+        "DATE": "2026-10-14T02:37:17+00:00",
+        "CC NUMBER": "NEW:CC-0084193",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_We have encountered an issue related to Warning 80005CFD in Nexim and would like to request your support in investigating this matter._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe have encountered an issue related to Warning 80005CFD in Nexim and would like to request your support in investigating this matter.\n\nThe details of the issue are described below.\n\nIssue Description:\n\nDuring Data Checker verification in Nexim, Warning 80005CFD is displayed when two Backup Pins are located outside the backup pin allocation range in the X direction.\n\nHowever, since this message is classified as a warning rather than an error, the issue is not adequately identified and addressed before production.\n\nAs a result, the 2R modules skip the use of these two Backup Pins during production, which may lead to component flying.\n\nAdditional Information:\n\nModule 1R: All 6 Backup Pins are used correctly.\n\nModules 2R: Two Backup Pins are not used because they are outside the backup pin allocation range.\n\nRequest to FUJI:\n\nWe would like to request that Warning 80005CFD be changed from a warning to an error so that the issue can be identified and corrected before production starts.\n\nCould you please investigate the feasibility of this change and advise us on the appropriate solution?\n\nThank you for your support.\n\nFMV_PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KlpRGYAZ"
+    },
+    {
+        "DATE": "2026-10-14T02:35:40+00:00",
+        "CC NUMBER": "CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nSorry for pushing you. this phenomena happen many time at newest version 2.DBc. It affect to production yield so much,  Customer are not happy with this version. Can we fix it soon?\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
         "DATE": "2026-10-14T02:21:41+00:00",
         "CC NUMBER": "CC-0084078",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
