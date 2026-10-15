@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-15T06:27:01+00:00",
+        "CC NUMBER": "CC-0084080",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup for NXTR-S_[Nexim]",
+        "Communication Content": "Dear Ka Ki san,\n\nThank you for your answer.\n\nWe will application on 1 line first\n\nIf have problems, we will create new ticket\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Jr8k0YAB"
+    },
+    {
+        "DATE": "2026-10-15T06:24:54+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Ka Ki-san,\n\nThank you for your support.\n\nI have informed the customer about the expected release date of the patch to fix this issue, as well as the temporary workaround.\n\nPlease let me know when you have any latest updates.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-10-15T05:14:18+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
@@ -46897,14 +46915,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-15T06:24:54+00:00",
-        "CC NUMBER": "CC-0083882",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
-        "Communication Content": "Dear Ka Ki-san,\n\nThank you for your support.\n\nI have informed the customer about the expected release date of the patch to fix this issue, as well as the temporary workaround.\n\nPlease let me know when you have any latest updates.\n\nThank you!\n\nFMV-DUC",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
     }
 ]
