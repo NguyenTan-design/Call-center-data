@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T11:32:16+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Binh-san\n\n>Module XNo is: HEBC11 0000758\n\nIs it true?\n\nI cannot found this number shipped out data in BYD Viet\n\nI think HEBC11 0000753, correct?\n\nIf yes you can take a warranty I believe.\n\nPlease do that then can we close it?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-10-15T07:48:27+00:00",
         "CC NUMBER": "CC-0083741",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
