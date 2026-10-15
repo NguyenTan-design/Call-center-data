@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-15T07:00:27+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "Dear Amano-san,\n\nSorry for the oversight. We have already uploaded the Trace Data, MNG files, and actual photographs of the issue for your investigation.\n\nBest regards,\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
+        "DATE": "2026-10-15T06:58:21+00:00",
+        "CC NUMBER": "CC-0075394",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The duration of WorkStageStarted to WorkStageCompleted is not proportional to the state transition duration_WorkStageStarted から WorkStageCompleted までの期間は、状態遷移の所要時間に比例していない。[NXT]",
+        "Communication Content": "Dear Do Do-san,\n\nAs for this case, we understand that the count of the customer side is not following the actual operation as we mentioned in below.\n\nHave you confirm the below point with customer?\n\n=================\n\nIn Picture 1.png (red frame), does the status transition follow 1000 → 5000 → 1000?\n\nThe red frame focuses on Module No. 10, so we aggregated each state from the logs.\n\nAccording to the logs, the transition does not follow 1000 → 5000 → 1000.\n\nMeasurement period: 02:54:00 – 03:02:38 (approx. 518 seconds)\n\nAcross the entire log, Status = 6 occurs at 04:57:42 for Modules 1, 2, 9, 10, and 7, but this is unrelated to the time period in question.\n\nWithin the target period (02:54–03:01), the statuses actually received for Module 10 are only 4, 5, 7, and 9, and no USD-related statuses (5000 or 5500) were transmitted.\n\nWhen PRD (1000) is entered, an event is issued at the start of board transfer (IN).\n\nThis event is generated before WorkStageStarted.\n\nAfter WorkStageCompleted, board transfer (OUT) occurs.\n\nThe PRD (1000) state continues until the board is discharged.\n\nBased on the theoretical values, it is assumed that a large discrepancy occurs due to the time spent waiting for boards.\n\nDuring the specified time period, WorkStageStarted and WorkStageCompleted occurred 13 times for Module 10.\n\nWhen measuring the time between WorkStageStarted and WorkStageCompleted,\n\nit is approximately 300 ms, suggesting that Module 10 is simply transferring boards without placing any components.\n\n=================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vCNsrYAG"
+    },
+    {
         "DATE": "2026-10-15T06:48:35+00:00",
         "CC NUMBER": "CC-0079012",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
