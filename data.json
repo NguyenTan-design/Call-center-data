@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-15T06:48:35+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano-san,\n\nThanks for your supported.\n\nCC:\n\n[Requested Actions]\n\n1. Replace the lighting unit (light source)\n\n   * If the issue is not resolved, proceed with item 2.\n\n2. Replace the F-mark camera\n\nFMV:\n\nAlmost all the modules encounter this issue when the nozzle station is changed, so no meaning after swap\n\nWe don't have spare part for mark camera Supporting 1.5inch  Parts Height type, so can not swap to confirm.\n\nCC:\n\n• We understand that the nozzle changer was slightly lifted.\n\n  ⇒ Could you please explain how this was checked?\n\n     How much was it lifted?\n\n     Did lifting it cause any setup errors?\n\n     Please provide details of the verification method.\n\nFMV:\n\nWe use 0.3mm-thick steel shims, inserting them at the base of the nozzle changer.\n\nAll the module can normal production, but some time this issue still happen with less frequency.\n\nCC:\n\n• Was the issue already occurring with V9.8*, or was there no problem at that time?\n\nFMV:\n\nThe issue also occurred during that period, but since customers did not replace the nozzle frequently, they did not notice any inconvenience.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
+        "DATE": "2026-10-15T06:48:19+00:00",
+        "CC NUMBER": "CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear Ma san\n\nThis explanation was not approved by customer. The basics is: if vision process have abnormal, machine have to stop at this process. If vision process OK, machine not show vision error. at this issue, machine still go to placement process and after placement done, show error.\n\nwe should find other solution or other display  on the monitor.\n\nThank you,\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
+        "DATE": "2026-10-15T06:41:27+00:00",
+        "CC NUMBER": "CC-0080766",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The machine show error Camera initialization failed during boot up._マシン起動中にカメラの初期化エラー失敗が発生する[NXTR-S]",
+        "Communication Content": "Dear Moriya,\n\nSorry, it is my mistake.\n\nModule XNo is: HEBC11 0000758 and working time is 6311 hrs.\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ANLgdYAH"
+    },
+    {
         "DATE": "2026-10-15T06:27:01+00:00",
         "CC NUMBER": "CC-0084080",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
