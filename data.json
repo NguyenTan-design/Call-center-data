@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T05:14:18+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Thuong san,\n\nOur application team found the software problem.\n\nThe head is in the pickup operation and is waiting for parts to be supplied from Magazine A.\n\nA different part in Magazine A ran out, causing the tray to retract.\n\nAlthough the tray retraction prevented Magazine A from supplying parts, the software continued the process, resulting in an OS error.\n\nWe will release the new software on 28 Oct.\n\nTemporary measure\n\nAlthough we cannot say for certain while the investigation is ongoing, it appears that the problem will not occur if we use Tray Dynamic Next and limit the number of parts tray pallet on the tray pallet to one.\n\nKonda,",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
         "DATE": "2026-10-15T04:59:11+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
