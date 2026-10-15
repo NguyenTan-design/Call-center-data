@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T04:27:20+00:00",
+        "CC NUMBER": "CC-0084080",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup for NXTR-S_[Nexim]",
+        "Communication Content": "Dear FMV-DO,\n\nThank you for your inquiry.\n\nPlease find our answers below.\n\n■Q1: Applicability of CFX Patch Files to NXTR-S\n\n・Yes, all four patch files listed below support NXTR machines, including both NXTR-S and NXTR-A models. Therefore, these patches can also be applied to your NXTR-S machines.\n\n■Q2: One Line Server Controlling Two NXTR-S Lines\n\n・There are no restrictions on this configuration. You can install the CFX application on the Line Server, and it can support two NXTR-S lines controlled by the same Line Server.\n\nLet me know if you have any further questions.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Jr8k0YAB"
+    },
+    {
         "DATE": "2026-10-15T04:07:08+00:00",
         "CC NUMBER": "CC-0083295",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
