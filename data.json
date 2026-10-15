@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T02:58:33+00:00",
+        "CC NUMBER": "CC-0084227",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8000D47B: An error occurred in the communication with the camera_8000D47B: カメラとの通信中にエラーが発生しました[NXTR-S]",
+        "Communication Content": "Nguyen Trung-san\n\n①Please check the connections of the image processing board, the cable between the image processing board and the camera, and their connectors. Also, please check the connections of the trigger line cable and its connectors.\n\n②Please replace the trigger line cable, the cable between the image processing board and the camera, the camera, the servo amplifier, and the image processing board one by one, and confirm whether the issue is resolved.\n\n③Please check the connection status of the cable and connectors between the camera and the unit board. There is a possibility that the cable connection is loose or that the cable itself has been damaged or disconnected.\n\nCall center Amano",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KsT11YAF"
+    },
+    {
         "DATE": "2026-10-14T14:59:46+00:00",
         "CC NUMBER": "CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
