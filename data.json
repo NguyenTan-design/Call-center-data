@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T04:59:11+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "FMV-PHAM HIEU-san\n\nCould you please send us the trace data, image files (MNG files), and actual photographs of the issue (showing the head of the hexagonal screw) captured when the error occurred? This information will help us investigate the problem.\n\nCall center Amano",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-15T04:27:20+00:00",
         "CC NUMBER": "CC-0084080",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
