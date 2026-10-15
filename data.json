@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-15T07:48:27+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Viet-san,\n\nIt seems that on October 3rd 15:29:40, the machine application received a cycle stop command issued from the upper-level system and returned an error response.\n\nIt is likely that the way the error response was handled was not appropriate.\n\nTo investigate what processing the machine application was performing at that time, could you please acquire the NXTR machine log from LineConsole in below time/date.\n\n10/3　15:00～16:00\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
         "DATE": "2026-10-15T07:00:27+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
