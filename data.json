@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-16T09:32:53+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "Dear Moriya-San,\n\nCurrently, the customer is running this module in Breakdown Mode, so we cannot stop it for inspection.\n\nWe have also submitted a warranty claim for the flat cable WO No: WHRS-011646, and it has been approved. We will replace it once we receive the warranty part.\n\nThank you for your support.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-10-16T08:44:23+00:00",
         "CC NUMBER": "NEW:CC-0084385",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
