@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-16T14:38:28+00:00",
+        "CC NUMBER": "NEW:CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nToday at Mitac, I encountered an issue where error 1907 occurred while the machine was waiting for the next board to be placed. Before the error occurred, no abnormalities were found. Restarting the module was the only way to clear the error.I have collected the trace data and Event Log data. Please help investigate the issue and identify the root cause.\n\nThank you for your support\n\n-FMV Vu Phuoc-",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
+    },
+    {
         "DATE": "2026-10-16T09:32:53+00:00",
         "CC NUMBER": "CC-0079720",
         "Customer": "BYD Electronics Vietnam Company Limited]",
