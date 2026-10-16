@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-16T06:36:09+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "CS課御中　池様\n\nM03×006（六角穴ボタン）であると仮定して抽出しました。【六角穴ボタンM03×006.xlsx】\n\n今一度、ボルト有無を確認ください。",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
+        "DATE": "2026-10-16T06:24:47+00:00",
+        "CC NUMBER": "CC-0079241",
+        "Customer": "TOA VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_Issue with Data Synchronization Between AIMEXIIIc, AIMEX R and XPF in Nexim_AIMEXIII-XPF-AIMEXRのラインにて、AIMEXRでシェイプデータを機上編集し保存。 Neximへ反映後、XPFでも機上でシェイプデータを編集保存し、Neximへ反映すると、最初にAIMEXRで編集した内容が消えてしまっている[AIMEXR]",
+        "Communication Content": "Dear FMV-Duy-san\n\nThere is no update since 2026-09-18 and almost 1-month past.\n\nIs there any update for this case?\n\nIf there is no update by October 23rd, we would like to understand that there is no problem of the resolved within fiscal year 2026.\n\n===================\n\nI apologize for not having been in touch.\n\nThe design department is looking into this, but we have been informed that an immediate response will be difficult.\n\nHow does the customer currently feel about this issue?\n\nAccording to the designer, it is unclear whether the issue can be resolved within fiscal year 2026.\n\nPlease let us know your current situation.\n\n===================\n\nBR\n\nHamamoto",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000164RDpYAM"
+    },
+    {
         "DATE": "2026-10-16T05:28:19+00:00",
         "CC NUMBER": "CC-0081345",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
