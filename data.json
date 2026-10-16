@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-16T07:01:13+00:00",
+        "CC NUMBER": "CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nWe will release new version on 23 Oct.  However, please send us the new trace data if the problem occurs.\n\nWe checked the trace data, but we could not find any instances where a transport command was issued for Lane 2.\n\nHowever, given that the status is “Pair Production” and “Stopped with no errors,” this appears similar to other cases, so we will make the necessary corrections.\n\nHowever, since this may not be the same issue as the one mentioned above, I would appreciate it if you could provide the trace data again when the phenomenon is reproduced.\n\nKonda,",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
         "DATE": "2026-10-16T06:36:09+00:00",
         "CC NUMBER": "CC-0082964",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
