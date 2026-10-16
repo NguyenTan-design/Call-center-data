@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-16T08:44:23+00:00",
+        "CC NUMBER": "NEW:CC-0084385",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Editing Functions Become Unavailable During Recovery Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe would like to request your support in investigating an issue where the editing functions become unavailable during a Recovery Error on Line 6, Module 1R.\n\n1. Issue Description\n\nWe logged in using the Administrator account. However, when the issue occurred, the Edit icon in the Module Status bar became unavailable, preventing us from accessing the editing functions.\n\nThe same behavior was observed in the Feeders section, where the editing functions also became unavailable.\n\nUnder normal operating conditions, we can modify component shape settings even while the machine is running. However, when this issue occurs, these editing functions cannot be accessed.\n\n2. Workaround\n\nCurrently, the only way to restore access to the editing functions is to press Cycle stop and then navigate to Job Adjustment, where the settings can be modified.\n\n3. Data Collection\n\nTo support further investigation, we have recorded a video demonstrating the issue, collected the trace data, and obtained the relevant software version information.\n\n4. Request for Investigation\n\nCould you please investigate why the editing functions become unavailable during the Recovery Error, even when logged in with the Administrator account?\n\nThank you for your support.\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LEzWzYAL"
+    },
+    {
         "DATE": "2026-10-16T07:01:13+00:00",
         "CC NUMBER": "CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
