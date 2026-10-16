@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-16T01:46:13+00:00",
+        "CC NUMBER": "CC-0083760",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error code 1988 with RH08 head_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto San,\n\nI would like to provide you with an update for this case, we have bring the head to Head Repair Center in Vietnam for investigate. During the inspection, we measured the air pressure using the Head Bench and found that the vacuum pressure of the head did not meet the specifications. We suspect that the oring and packing inside the center shaft may be damaged, resulting in error code 1988. This case is similar to previous cases CC-0075016 and CC-0082712.\n\nWe will submit a warranty claim to Fuji Japan for this head.",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IubjZYAR"
+    },
+    {
         "DATE": "2026-10-16T01:29:11+00:00",
         "CC NUMBER": "CC-0083672",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
