@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-16T04:22:01+00:00",
+        "CC NUMBER": "CC-0084217",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel not tranfer to next module after complete placement_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung san,\n\nAccording to the app team, this appears to be the same issue as CC-0083285.\n\nIf we receive further details from the app team, we will let you know.\n\nKonda,",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Kqrx4YAB"
+    },
+    {
+        "DATE": "2026-10-16T04:07:24+00:00",
+        "CC NUMBER": "CC-0083763",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel cannot transfer between M1 and M2 modules_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nWe checked the trace data, but we could not find any instances where a transport command was issued for Lane 2.\n\nHowever, given that the status is “Pair Production” and “Stopped with no errors,” this appears similar to other cases, so we will make the necessary corrections.\n\nHowever, since this may not be the same issue as the one mentioned above, I would appreciate it if you could provide the trace data again when the phenomenon is reproduced.\n\nKonda,",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ"
+    },
+    {
         "DATE": "2026-10-16T02:57:30+00:00",
         "CC NUMBER": "CC-0080886",
         "Customer": "BYD Electronics Vietnam Company Limited]",
