@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-17T02:05:57+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your information.\n\nWhat was the basis for this conclusion? Could you please explain what checks or verification were performed to arrive at this finding?\n\n--->  During the troubleshooting process, we tried three methods to resolve the “Feeder with red LED” error:\n\n1. Using the OCPU to remove the component from the feeder again.\n\n2.  Feeding the tape forward a short distance.\n\n3. Loosening the tension on the cover tape.\n\nAmong these methods, method (1) did not resolve the issue. You can review the videos we previously uploaded to confirm this.\n\nIn addition, are there any common situation/items etc with the components (tapes) that are generating the error?\n\n--> These components had previously been used on the NXTR-S machine and were removed during changeover. Before removing the components from the feeder, the operator cut the carrier tape and cover tape according to Fuji's operating instructions (INS-OCPU-004E1) without applying excessive force to the feeder.\n\nBased on the video, it appears that the error is occurring with paper tapes. Is the issue limited to paper tapes only?\n\n-->  So far, I have also observed that this issue occurs with paper tape. I will investigate this issue further and provide you with an update.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-10-16T14:38:28+00:00",
         "CC NUMBER": "NEW:CC-0084402",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
