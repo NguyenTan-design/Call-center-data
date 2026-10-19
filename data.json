@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T14:32:03+00:00",
+        "CC NUMBER": "CC-0083285",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module  after placement is completed_[NXTR-S]",
+        "Communication Content": "Dear Phuoc san,\n\nI apologize for not having updated this earlier.\n\nThe issue was caused by a remaining job-switching process, which prevented the system from transitioning to board transfer.\n\nWe would like to investigate the trace data from the previous job transmission. Could you please collect the trace logs for the following period?\n\n2026/09/25 10:00 - 21:45\n\nI apologize for the long time range, but your support would be greatly appreciated.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HT24BYAT"
+    },
+    {
         "DATE": "2026-10-19T12:38:58+00:00",
         "CC NUMBER": "CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
