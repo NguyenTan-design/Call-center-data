@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T14:51:33+00:00",
+        "CC NUMBER": "NEW:CC-0084503",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 89910000 (Purple Screen)_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nToday at Mitac, I encountered an issue with error 89910000 (Purple Screen) on Module 2, Line 4E at 13:30 during a model change.\n\nBefore the error occurred, no abnormalities were found . Restarting the module was the only way to clear the error.\n\nI have collected the trace data and Event Log data . Could you please help investigate this issue and identify the root cause?\n\nThank you for your support.\n\nBest regards,\n\nVu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lhs29YAB"
+    },
+    {
         "DATE": "2026-10-19T14:32:03+00:00",
         "CC NUMBER": "CC-0083285",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
