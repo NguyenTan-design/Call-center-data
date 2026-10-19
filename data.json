@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T19:49:24+00:00",
+        "CC NUMBER": "CC-0082987",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08- IPS mirror broken_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung-san\n\nI’ve examined the trace, but so far, I haven’t found any unusual operations.\n\nIt appears that the IPS suddenly failed while normal production was underway.\n\nI’d like to review the MNG images captured around the time the problem occurred.\n\nI apologize for the inconvenience, but could you please provide the MNG files from the time period listed below?\n\nSeptember 19, 2026, 23:40:00 – September 20, 2026, 00:04:00\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GlktnYAB"
+    },
+    {
         "DATE": "2026-10-19T15:55:05+00:00",
         "CC NUMBER": "CC-0083942",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
