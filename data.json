@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T06:46:08+00:00",
+        "CC NUMBER": "CC-0083672",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Thuong-san,\n\nThank you for your patience and for following up on\n\nCC-0083672 (NXTR-S / Missing Part 2D code information\n\nin the Traceability output file).\n\nWe would like to inform you that a corrective software fix\n\nis scheduled to be released tomorrow, 2026-10-20.\n\nWe appreciate your patience and understanding.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
+    },
+    {
         "DATE": "2026-10-19T06:31:21+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
@@ -47221,14 +47230,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-19T06:46:08+00:00",
-        "CC NUMBER": "CC-0083672",
-        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
-        "Communication Content": "Dear Thuong-san,\n\nThank you for your patience and for following up on\n\nCC-0083672 (NXTR-S / Missing Part 2D code information\n\nin the Traceability output file).\n\nWe would like to inform you that a corrective software fix\n\nis scheduled to be released tomorrow, 2026-10-20.\n\nWe appreciate your patience and understanding.\n\nBest regards,\n\nMehdi",
-        "FMV PIC": "Nguyen Van Thuong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
     }
 ]
