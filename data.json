@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-19T15:55:05+00:00",
+        "CC NUMBER": "CC-0083942",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_[NXTR-S]",
+        "Communication Content": "Dear Konda-san,\n\nThank you for your feedback.\n\nI have verified the details with the Customer:\n\nWhile they were editing a job on the machine, they pressed the \"Save\" button. The machine triggered a warning (red light) and froze.\n\nI believe this incident occurred at 16:27:26 (the moment the \"Save\" button was pressed). While I cannot confirm exactly what content was being edited, it is certain that the \"Save\" button was pressed.\n\nSubsequently, they restarted the machine (at 16:28:08). However, upon restarting, the machine loaded the wrong job.\n\nThank you!\n\nFMV - Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JL4mlYAD"
+    },
+    {
+        "DATE": "2026-10-19T15:47:05+00:00",
+        "CC NUMBER": "NEW:CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nRecently, the following issue has been occurred at the Mitac customer,this issue has often occurred with W08F feeders\n\nThe issue usually occurs during model changes or when the machine is restarted on Monday after being in sleep mode over the weekend, as the customer does not normally run production during the weekend.\n\nSome W08F feeders automatically pull the component tape backward, causing the machine to fail to recognize or pick up the part .When the machine reports an error, operators repeatedly remove and reinstall the affected feeders within a short period. As a result, the machine may hang up ..\n\nI have collected the trace data ,Event Log data, and video record .Please help investigate the issue and identify the root cause.\n\nThank you for your support\n\n-FMV Vu Phuoc-",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
+        "DATE": "2026-10-19T15:42:34+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_[NXTR-S]",
+        "Communication Content": "Dear Minh-san\n\nI'm sorry I haven't been in touch.\n\nI checked with the designer, and they said the investigation is still ongoing.\n\nSorry, I'll let you know if there are any updates.\n\nBR\n\nHamamoto",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
         "DATE": "2026-10-19T14:51:33+00:00",
         "CC NUMBER": "NEW:CC-0084503",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
