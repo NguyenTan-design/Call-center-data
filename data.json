@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-19T05:04:36+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Honda San,\n\nWe would like to provide an update on this case.\n\nDuring the pneumatic pressure test on the Head Bench, we found that the positive air supply to syringe holder B was blocked.\n\nWe replaced the syringe holder B, the mechanical valve, and the filter case for holder B. However, the issue persists after replacing these components.\n\nCould you please advise us on the next troubleshooting steps and provide technical guidance to help us identify the root cause of this issue?\n\nBest Regards\n\nFMV-Xuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
+        "DATE": "2026-10-19T05:03:44+00:00",
+        "CC NUMBER": "CC-0078649",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Head RH08 Error 3A22, Subcode 0003 Z1 Encoder During production_[NXTR-S]",
+        "Communication Content": "FMV Tu-san,\n\nWe apologize for the delayed response.\n\nOur investigation has confirmed that this issue is caused by the motor itself.\n\nA service report will be issued shortly. Furthermore, an application and jig developed to evaluate and determine the OK/NG status of individual motors are scheduled to be distributed to all distributors.\n\nFUJI Hirabayashi",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014dUjTYAU"
+    },
+    {
         "DATE": "2026-10-19T04:49:51+00:00",
         "CC NUMBER": "CC-0078830",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
