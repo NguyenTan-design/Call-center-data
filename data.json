@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T06:31:21+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI'm sorry for keeping you waiting due to difficulties in obtaining data from the customer.\n\nI'd like to share DB backup as per link below.\n\nhttps://fujimachineasia-my.sharepoint.com/:f:/g/personal/son_fuji-smt_com_sg/IgAXF8tUJgHfSawRKQCWL4EHAQxyeA7RCd0etb3BmGK-3Uc?e=4Cd85S\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-10-19T05:23:07+00:00",
         "CC NUMBER": "CC-0084385",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -47212,5 +47221,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-10-19T06:46:08+00:00",
+        "CC NUMBER": "CC-0083672",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Thuong-san,\n\nThank you for your patience and for following up on\n\nCC-0083672 (NXTR-S / Missing Part 2D code information\n\nin the Traceability output file).\n\nWe would like to inform you that a corrective software fix\n\nis scheduled to be released tomorrow, 2026-10-20.\n\nWe appreciate your patience and understanding.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
     }
 ]
