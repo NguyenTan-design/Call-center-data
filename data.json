@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T04:37:45+00:00",
+        "CC NUMBER": "NEW:CC-0083942",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_[NXTR-S]",
+        "Communication Content": "Dear Quynh Nguyen san,\n\nSorry for the late reply.\n\nI would like to confirm the situation.\n\nIt has been reported that the same issue as CC-0078635 occurred; while an 863F error (failure to download a production job) did indeed occur at 16:27:26,\n\nthere is no indication in either the event log or the trace data that any on machine editing was performed prior to that.\n\nSince the machine was restarted at 16:28:08, I assume the suggestion is that an incorrect job was downloaded at that time (?), but\n\ncould you please confirm whether on machine editing was definitely performed prior to that?\n\nKonda,",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JL4mlYAD"
+    },
+    {
         "DATE": "2026-10-19T04:06:34+00:00",
         "CC NUMBER": "CC-0083942",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
