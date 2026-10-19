@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T11:43:53+00:00",
+        "CC NUMBER": "NEW:CC-0084491",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
+        "Communication Content": "Dear Customer Service Department,\n\nI have encountered the following issue\n\ntroubleshooting machine Smart nozzle cleaner\n\nS/N : SNC-01-001484\n\n– Error Code 860142F1: Bad 2D Code Box Full\n\n* phenomena\n\n- During the nozzle inspection process, we detected multiple nozzles that were dirty and missing 2D codes. Furthermore,\n\n- these nozzles are actually not available on the nozzle station.\n\n- machine version V3.50\n\n- S/N machine : SNC-01-001484\n\n* Acction\n\n- Cleaned the mark camera and reconnected the signal cable, but the error persisted.\n\n- Backed up and restored the calibration data, but the error persisted.\n\n- Backed up and restored the setting data, but the error persisted.\n\n- Reinstalled the machine application, but the error persisted.\n\n- Replaced the lighting camera with a known-good unit, and the machine operated normally.\n\n- Installed the lighting camera from the NG machine on the OK machine, and the same error occurred.\n\n* Currently, the machine is still operational, but the error must be cleared before the operation can continue.\n\n- Get the trace to offer advice from Fuji Japan ( Please see the picture attached)\n\nPlease help me analyst trace data and give the advice\n\nThanks you\n\nFMV-Thuongnd",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
+    },
+    {
         "DATE": "2026-10-19T08:28:41+00:00",
         "CC NUMBER": "CC-0084217",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
