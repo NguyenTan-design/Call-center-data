@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-19T05:23:07+00:00",
+        "CC NUMBER": "CC-0084385",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Editing Functions Become Unavailable During Recovery Error_[NXTR-S]",
+        "Communication Content": "Dear Hieu san\n\nThank you very much for the inquiry.\n\nCould you please check below information and check the setting at customer environment?\n\nThis is mentioned in Knowledge number : 000066478.\n\nAlso there is possibility that related to Knowledge number : 000069959.\n\nThis is for AIMEXR but just in case, please kindly check that image save setting as well.\n\n-------------------------------------------\n\n<NXTR Specification>\n\nIn NXTR, when Recovery Times is set to 1 or higher, the rescue function at recovery up is forcibly enabled by design.\n\n※ The setting “Rescue when recovery limit is reached” in the Shape data is not referenced.\n\nTherefore, with the following combination, the rescue function at recovery up does not operate in NXTR:\n\nRecovery Times = 0\n\nRescue when recovery limit is reached = Yes\n\n<To Disable the Rescue Function at Recovery Up>\n\nTo turn OFF the rescue function at recovery up, disable the following setting:\n\nNexim -> System Layout -> Machine Function Settings ->\n\n“Suction Position Correction Retry Function” = OFF\n\n※ Even if the above setting is turned OFF, setting “Rescue when recovery limit is reached” to Yes in the Shape data is not referenced in NXTR.\n\n--------------------------------------------\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LEzWzYAL"
+    },
+    {
         "DATE": "2026-10-19T05:04:36+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
