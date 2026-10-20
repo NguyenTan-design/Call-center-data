@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-20T10:03:00+00:00",
+        "CC NUMBER": "CC-0084564",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Clogged syringe_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI have uploaded the photos of the errors; everyone can view the detailed images.\n\nThanks and best regards!\n\nFMV-Vu Thien",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lr0QJYAZ"
+    },
+    {
+        "DATE": "2026-10-20T09:54:36+00:00",
+        "CC NUMBER": "NEW:CC-0084564",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Clogged syringe_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently at the customer Liteon, there is an issue of clogging of the syringe at the RH20 head. Each time an error is reported, the head needs to be replaced and the syringe must be removed and cleaned — this operation takes a lot of time.\n\nAt present, there is no maintenance item for the inner part of the syringe.\n\nSo, is there any measure to reduce this clogging/contamination issue? For example, when cleaning the head on the NXT line, oil can be used for maintenance. The current problem occurs very frequently, leading to line-stop errors during production. If there is a solution/action plan, please let us know so that we can respond back to the customer.\n\nThanks and best regards!\n\nFMV-Vu Thien",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lr0QJYAZ"
+    },
+    {
         "DATE": "2026-10-20T09:01:36+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
