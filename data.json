@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-20T04:26:17+00:00",
+        "CC NUMBER": "NEW:CC-0084538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 8C34 during production_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt customer LITE ON, we are encountering an issue. During production, the machine shows error 8C34 and requires taking the panel out. It can produce again after pressing Ready and then Start, but this issue appears several times a day. This error still appears after changing to other jobs.\n\nThis error appears on many modules only on this line after upgrading the version to V2.2Dbc for the whole factory.\n\nWe have taken trace data; this happened at 18:14 on Module 3.\n\nWe have taken some actions, but this issue has not been solved yet. Please help to check the issue.\n\nThanks & best regards,\n\nFMV-The",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LnRFSYA3"
+    },
+    {
         "DATE": "2026-10-20T03:42:15+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
