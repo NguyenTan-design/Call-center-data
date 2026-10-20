@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-20T23:17:54+00:00",
+        "CC NUMBER": "CC-0084491",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
+        "Communication Content": "Dear Thuongnd san,\n\nThe gray scale value of the following NG mng files is about 140. but the other OK mng files are about 170.\n\nThe grayscale value is low, so it appears the vision processing is recognizing it as having a nozzle.\n\nPlease clean the reflective plate (white plate) which is located under the nozzle station.\n\nSNC-VA4010D.mng\n\nSNC-VA4010F.mng\n\nPlease let me know which is the \"lighting camera\" using the attached part list.\n\nKonda,",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
+    },
+    {
         "DATE": "2026-10-20T17:14:04+00:00",
         "CC NUMBER": "CC-0084078",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
