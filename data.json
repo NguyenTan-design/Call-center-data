@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-20T14:45:55+00:00",
+        "CC NUMBER": "NEW:CC-0084574",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Stack tray feeder for NXTR machines_[NXTR-S]",
+        "Communication Content": "Dear Fuji Call center.\n\nOur customer is LUXSHARE-ICT (VAN TRUNG) COMPANY LIMITED.\n\nThey are planning to use a Stack Tray Feeder for the NXTR-S type of machines.\n\nI have a few questions regarding the use of the Stack Tray Feeder on NXTR-S machines.\n\n1. Which version of NEXIM is required when using the Stack Tray Feeder?\n\n2. Which NXTR software version is required to use the Stack Tray Feeder?\n\n3. Please provide us with the corresponding NEXIM and NXTR software versions required to use the Stack Tray Feeder.\n\n4. Please provide us with the operation manual for using the Stack Tray Feeder with NXTR-S machines.\n\n5. Please provide the technical specifications document for the stack tray feeder.\n\n* Currently, LUXSHARE-ICT customers are using.\n\n1. Nexim Version 3.1.2\n\n2. NXTR Version 2.2Bm\n\n3. LCU and Nexim Patch\n\n- 4726_V3.1.100_PlacingMark_LcuJobReflect_Patch\n\n- 4803_V3.1.0_LCUDataConverter_PlacingMark_Patch\n\n- 4922_V3.1.0_NXTR_Optimizer_Patch\n\n- 5058_V3.1.0_Plan_Patch\n\n-1045_LCUPatchInstaller_Luxshare_forV2.20\n\nFMV: Thuong Nguyen",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LtlBPYAZ"
+    },
+    {
         "DATE": "2026-10-20T13:36:12+00:00",
         "CC NUMBER": "CC-0083672",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
