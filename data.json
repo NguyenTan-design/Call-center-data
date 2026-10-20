@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-20T15:52:15+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nSorry for the delay of reply.\n\nWe have identified the root cause of the 8F5D0000 error and created an Engineer Report for this issue.\n\nPlease refer to “20261020-LUXSHARE - ICT NGHE AN_D7-ENGINEERING REPORT(8F5D0000 ERROR).pdf” for more details.\n\nIn addition, I have attached the list of nozzle stations currently being used at the factory.\n\nThe customer is also comparing the different types of nozzle stations used for NXTR machines. The details are as follows:\n\n- Nozzle stations used for RH02: The reflective plate protected by a metal plate.\n\n- Nozzle stations used for RH28/RH20/RH08: The reflective plates are made of plastic, and cracks have appeared on the plates during operation.\n\nCould you please help us analyze the root cause of this issue and provide an appropriate response to the customer?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
+        "DATE": "2026-10-20T15:41:12+00:00",
+        "CC NUMBER": "CC-0084503",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 89910000 (Purple Screen)_[NXTR-S]",
+        "Communication Content": "Dear Vu Phuoc-san\n\nWe have determined that this issue is caused by a bug in the NXTR application.\n\nIn the current application, we are using a feature that detects the feeder's feed pitch.\n\nWhen you insert or remove a feeder, the system performs an operation to detect the feeder mark and feed pitch.\n\nRemoving the feeder at this exact moment will cause an exception error.\n\nWe'll start discussing how to fix this now.\n\nI'm sorry, but it would be helpful if you could avoid removing any feeders whose device LED is not lit red.\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lhs29YAB"
+    },
+    {
         "DATE": "2026-10-20T14:45:55+00:00",
         "CC NUMBER": "NEW:CC-0084574",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
