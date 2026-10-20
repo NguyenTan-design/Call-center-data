@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-20T08:32:40+00:00",
+        "CC NUMBER": "CC-0084385",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Editing Functions Become Unavailable During Recovery Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama-San\n\nThank you for your reply.\n\nHowever, we believe that your response does not directly address the issue we reported.\n\nThe customer's requirement is to be able to edit Shape Data while the machine is running, regardless of whether a Recovery Error has occurred.\n\nUnder normal operating conditions, the customer can edit Shape Data while the machine is running. However, when a Recovery Error occurs, the editing functions become unavailable, even when logged in with the Administrator account.\n\nThe customer must press Cycle Stop and access Job Adjustment to modify the settings. This interrupts the normal operation and does not meet the customer's requirements.\n\nOur question is not about the Rescue function. We would like to understand why the editing functions become unavailable during a Recovery Error and whether this behavior is by design or a software issue.\n\nCould you please investigate this specific behavior and advise how to allow Shape Data to be edited while the machine is running, even when a Recovery Error occurs, without pressing Cycle Stop?\n\nThank you for your support.\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LEzWzYAL"
+    },
+    {
         "DATE": "2026-10-20T07:08:16+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
