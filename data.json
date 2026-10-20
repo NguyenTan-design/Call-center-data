@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-20T09:01:36+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nThe customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nBecause customers are afraid of experiencing the same issues as NXT3 line\n\nWe are monitoring the situation and hope for a positive result\n\nWe will provide an update once we receive feedback from the customer.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-10-20T08:59:07+00:00",
+        "CC NUMBER": "CC-0082747",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Module NXTR-S can't teaching pickup position on feeder when reset feeder_[NXTR-S]",
+        "Communication Content": "Dear Victor san\n\nSorry for keep you waiting,\n\nAccording to designer team, it takes a lot of time to implement this countermeasure to V2.1H**.\n\nSo we would like to ask you to discuss with customer that upgrade NXTR software to based on V2.35 or higher.\n\nAnd when you use this function until upgrade the machine software, please kindly follow below procedure for make sure the machine refer the Feeder mark.\n\n*After production has started, stop the cycle once the feeder mark has been read, and verify the pickup position for the feeder operation.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Victor",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G5os5YAB"
+    },
+    {
         "DATE": "2026-10-20T08:32:40+00:00",
         "CC NUMBER": "CC-0084385",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
