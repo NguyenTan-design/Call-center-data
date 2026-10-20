@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-20T17:14:04+00:00",
+        "CC NUMBER": "CC-0084078",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Cycle time lane 2 faster than lane 1_[NXTR-S]",
+        "Communication Content": "Dear Tung-san\n\nBased on the results of our investigation, we have determined that this behavior is normal for the application.\n\nThe cause was related to whether or not “Advance Pickup” was enabled.\n\nIn NXTR, whether to perform “Advance Pickup” is determined by the following conditions.\n\nNote: “Lane change” refers to the moment when production on Lane 2 is completed and production shifts to Lane 1.\n\n・If a PCB is clamped on Lane 1 at the time of the lane change, advance pickup does not occur.\n\n・If a PCB is not yet clamped on Lane 1 at the time of the lane change, advance pickup occurs.\n\n*Why is “Advance Pickup” not performed when a PCB is clamped on Lane 1?\n\n→ In some cases, if a PCB is already clamped on Lane 1, it is faster to first read the F mark on the PCB on Lane 1 and then proceed to pick it up,\n\nrather than moving to the feeder position from Lane 2 for the Advance Pickup operation.\n\nThe cycle time calculated by Optimize is designed such that the time spent during “Advance Pickup” is not included in the production time.\n\nHowever, since PCB production in the customer’s actual production environment is continuous,\n\nthe application was configured to operate as follows: “Do not perform Advance Pickup on Lane 1” and “Perform Advance Pickup on Lane 2.”\n\nIn this case, since Lane 1 does not use “Advance Pickup,” the time for the initial pickup operation and image processing is included in the production time. Consequently, the production time for Lane 1 is longer than the time shown in the Optimize results or the production time for Lane 2.\n\nOn the other hand, since Lane 2 uses “Advance Pickup,” the time for the initial pickup and image processing is not included in the production time, resulting in a shorter production time than that of Lane 1.\n\nーー\n\nIt's a bit of a complicated case, but did you understand it?\n\nThank you\n\nBR\n\nHamamoto",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JqJROYA3"
+    },
+    {
         "DATE": "2026-10-20T16:24:02+00:00",
         "CC NUMBER": "CC-0082987",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
