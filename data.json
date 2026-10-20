@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-20T05:14:35+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nSorry for late response.\n\nWe are also communicating with Takatsu san separately.\n\nAnd explained to him that it is necessary to change the shuttle conveyor to single conveyor or dual conveyor.\n\nOr change the Panel ID reading process to read by machine mark camera.\n\nCould you please discuss with customer about it again?\n\nTechnically, it is not possible to determine which lane will be transfer the PCB from shuttle conveyor to machine.\n\nBecause the PCB will transfer to the machine after reading the Panel ID.\n\nAt this time, our system doesn't know which lane the shuttle conveyor will transfer the PCB.\n\nSo our system cannot synchronize the lane information and panel ID.\n\nOn the other hands, there is a NXTR line and NXT3 line.\n\nAnd NXTR line has only single lane, and NXT3 line has dual lane.\n\nIs this issue happened with only NXT3 line?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-10-20T05:01:58+00:00",
+        "CC NUMBER": "CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
+        "Communication Content": "高橋さん\n\n　CC渡邉さん\n\nお客様へご説明いただいている、理解していただいたとのことで、本件Closeにします。\n\nCS　平林",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI"
+    },
+    {
         "DATE": "2026-10-20T04:26:17+00:00",
         "CC NUMBER": "NEW:CC-0084538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
