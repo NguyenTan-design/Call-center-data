@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-20T03:01:18+00:00",
+        "CC NUMBER": "CC-0083672",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Nguyen-san,\n\nPlease find below the passwords for the patch file/software we have sent.\n\nDownload Password  : KhHkHZcK\n\nZIP file Password  : aK4GtGCn\n\nPlease let us know if you have any issues downloading or extracting the file.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
+    },
+    {
+        "DATE": "2026-10-20T02:51:26+00:00",
+        "CC NUMBER": "CC-0083285",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_PCB is not transferred to the next module  after placement is completed_[NXTR-S]",
+        "Communication Content": "Dear Chi san\n\nI have uploaded the trace file as you requested. Please see the attachment: \"20261020_092858_trace.zip\".\n\nThank you.\n\nBest regards,\n\nMiao-FMV",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HT24BYAT"
+    },
+    {
         "DATE": "2026-10-20T02:34:08+00:00",
         "CC NUMBER": "CC-0082987",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
