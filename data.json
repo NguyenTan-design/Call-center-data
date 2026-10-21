@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-21T16:39:55+00:00",
+        "CC NUMBER": "NEW:CC-0084667",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine show error: 88D50000 A vision error occurred while placement was in progress._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThis issue suddenly occurred on the two sides that underwent APAM yesterday. The function had been operating normally before the APAM procedure.\n\nCurrently, we have to disable this function to continue production. However, this poses a significant risk because there is no AOI equipment available to inspect the components after placement. The customer is requesting that this issue be resolved as soon as possible.\n\nTherefore, please review the trace data and provide us with your feedback as soon as possible.\n\nThank you for your prompt support.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M5uSeYAJ"
+    },
+    {
         "DATE": "2026-10-21T15:16:48+00:00",
         "CC NUMBER": "CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
