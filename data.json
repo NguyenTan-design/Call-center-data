@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-21T15:16:48+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Moriya-San,\n\nYesterday, the same issue occurred again at the customer site on the same module, resulting in Head damage as well.\n\nWe have also collected the trace data again and updated it for further investigation.\n\nThank you for your support.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
+        "DATE": "2026-10-21T15:11:30+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThank you for your advice.\n\nToday, while supporting the customer at Mitac, we encountered this error again at 15:36 on Module 1 of Line 4E, at feeder slot 26.\n\nThe error is not limited to specific feeders. We tried several different feeders in slot 26, but the error still occurred. However, all these feeders work normally on other modules and lines.\n\nI continued collecting the trace data and Event Log for further analysis.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
         "DATE": "2026-10-21T08:33:18+00:00",
         "CC NUMBER": "CC-0083273",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
