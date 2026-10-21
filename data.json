@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-21T04:46:43+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "Vu Phuoc-san\n\nPlease collect and provide a user-defined trace when the error occurs. Please check the condition of the gear slit and the home position sensor. In accordance with the FUJI Intelligent Feeder Manual (Technical Information: QD009-45),\n\nplease inspect the condition of each cleaning point and confirm whether any contamination, dust, or abnormalities are present.\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
         "DATE": "2026-10-21T04:12:41+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
