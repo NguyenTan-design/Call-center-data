@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-10-21T08:33:18+00:00",
+        "CC NUMBER": "CC-0083273",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_The machine cannot start due to an EB40 error during startup._装置立ち上げ時にEB40エラーだ立ち上がらない[NXTR-S]",
+        "Communication Content": "コールセンター御中\n\nワランティ承認されてますのでCloseしてください。\n\nFMV 高津",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HPnxkYAD"
+    },
+    {
+        "DATE": "2026-10-21T08:30:07+00:00",
+        "CC NUMBER": "CC-0084385",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Editing Functions Become Unavailable During Recovery Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama-San\n\nV2.DBbでは問題なく使用出来ました。\n\nV2.Dbcより使用出来なくなったり、使用出来たりします。\n\nその為、調査をお願いします。\n\nFMV 高津",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LEzWzYAL"
+    },
+    {
+        "DATE": "2026-10-21T08:26:43+00:00",
+        "CC NUMBER": "CC-0082364",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Hang-up during on-machine editing when recovery up_リカバリアップ時の機上編集でハングアップ[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThe following number have been created for another issue.\n\nCC-0084385\n\npls close this ticket.\n\nFMV taka",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001F2ZGkYAN"
+    },
+    {
+        "DATE": "2026-10-21T08:23:45+00:00",
+        "CC NUMBER": "CC-0080838",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Purple screen on NXTR_[NXTR-S]",
+        "Communication Content": "Pls Close this ticket",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AmrVAYAZ"
+    },
+    {
+        "DATE": "2026-10-21T08:22:19+00:00",
+        "CC NUMBER": "CC-0080054",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Request machine NXTR stop production when splicing Reel error_NXTRにてKithandyでスプライシング異常が起きた際、マシンの生産を停止する設定をしているがその様なアナウンスやエラーは出ず停止しない[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nPatch installed. and no issue.\n\nso pls close this ticket.\n\nFMV takatsu",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018MN2TYAW"
+    },
+    {
         "DATE": "2026-10-21T07:02:16+00:00",
         "CC NUMBER": "CC-0076174",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
