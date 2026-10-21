@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-21T23:13:59+00:00",
+        "CC NUMBER": "CC-0083942",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_NXTRs machine loading wrong job after reboot and look like hang up when using on machine job editing_[NXTR-S]",
+        "Communication Content": "Dear Quynh Nguyen san,\n\nWe were unable to confirm any evidence of on-machine editing from the trace data.\n\nIs the issue still occurring?\n\nIf so, could you please try capturing a trace data by pressing and holding the Cycle Stop button?\n\nIf pressing and holding the Cycle Stop button does not work, please try pressing the emergency stop switch as well. (Please wait at least one minute afterward.)\n\nIf we are to continue our investigation using the existing trace data, we apologize for the inconvenience, but could you please capture a new trace data following the instructions below?\n\n・Is the date and time when the problem occurred correct?\n\n　If you’ve progressed to the point where you pressed the “Save” button, there should at least be a machine event log entry indicating that job editing has begun.\n\n・Which module is experiencing the problem?\n\nKonda,",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JL4mlYAD"
+    },
+    {
         "DATE": "2026-10-21T16:39:55+00:00",
         "CC NUMBER": "NEW:CC-0084667",
         "Customer": "BYD Electronics Vietnam Company Limited]",
