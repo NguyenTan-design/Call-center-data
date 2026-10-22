@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-22T04:38:41+00:00",
+        "CC NUMBER": "NEW:CC-0084699",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_On-machine edit hang up_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOn 2026-10-21, in LiteOn Factory 2 (HPG2), line S02, about 6:10 PM, during On-machine job editing process on Module 1, machine got hang up at loading screen that cannot be reset using operation panel or even pushing Emergency stop button.\n\nAction: Restart Fuji LCU NPI Server service and Ready on using operation panel, module continue to operate normally.\n\nThis problem happen few times a day after upgrade to Nexim version: 3.2.110 / NXTR Machine version: V2.DBc / LCU version: 2.35\n\nPlease kindly refer to attached trace data for more detail and support us in providing advice for this case.\n\nThank you.\n\nBest regards,\n\nFMV - Pham Minh Duc",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MA9UhYAL"
+    },
+    {
+        "DATE": "2026-10-22T04:33:19+00:00",
+        "CC NUMBER": "CC-0077185",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Normal[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_Question about NXTR an optional function to check for feeder tip lift, preventive Feeder collide with the placing head_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Trong Nham  san.\n\nCould you please let me know the current status of this issue? Is it possible to close the case?\n\nBest regards,\n\nFUJI callcenter Hirabayashi.",
+        "FMV PIC": "Nguyen Trong Nham",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010NBGrYAO"
+    },
+    {
+        "DATE": "2026-10-22T04:26:30+00:00",
+        "CC NUMBER": "CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
+        "Communication Content": "Vu Phuoc-san\n\nI checked the trace logs.\n\nA communication error occurred between the servo control board and the servo amplifier when the servo was turned ON. This communication failure caused Error 1907.\n\nThis is the same issue as CC-0083050.\n\nDetails: A timeout error occurred in the communication between the servo control board and the servo amplifier because no response was received from the servo amplifier.\n\nWould it be possible to upgrade to the corrected version V2.36?\n\nAlternatively, would you prefer to apply the bug fix in V2.3P and issue a test version for verification?\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
+    },
+    {
         "DATE": "2026-10-22T01:54:50+00:00",
         "CC NUMBER": "CC-0084503",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
