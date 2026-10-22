@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-22T15:56:13+00:00",
+        "CC NUMBER": "NEW:CC-0084738",
+        "Customer": "4P CO., LTD]",
+        "TOPIC": "Urgent[4P CO., LTD]_Auto reset machine_[NXT]",
+        "Communication Content": "Dear CC!\n\nIm Doanh from FMV.\n\nOur customer is 4P Viet Nam and they are experiencing the following issue!\n\nDuring production, the module (NXT 3F 004803) occasionally restarts automatically!\n\nActions taken:\n\nChecked the input power supply to the base (221V).\n\nSwapped this module to a different base position, but the error persisted.\n\nSwapped Control Box module, CPU Box module, and Servo Box module with other modules; the error persisted.\n\nSwapped the Monitor panel with another module; the error persisted.\n\nSwapped the Automat (Automat) with another base; the error persisted.\n\nSwapped the head  with another module; the error persisted.\n\nSwapped the interlock at the bottom of the module with another module; the error persisted.\n\nChecked the cable connections between the base and the module -> can not saw issues\n\nChecked the cable connecting from the head down to the module. -> can not saw issues\n\nReplaced the 50PIN cable-> the error persisted.\n\nChecked cables from the base to the CPU Box, Control Box, and Servo Box -> can not saw issues\n\nUpgraded NXT software from 9.22 to 9.7. the error persisted.\n\nSwapped the remote I/O board with another module; the error persisted.\n\nReplaced all flat cables for the module; the error persisted.\n\nBecause the error occurs spontaneously, we haven't been able to obtain traces and event logs from the customer at this time. We will send them to you as soon as we receive them.\n\nPlease refer to the video when the module auto resets.\n\nPlease check and advise on the next steps for me.\n\nThanks,\n\nFMV Doanh.\"",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MIggkYAD"
+    },
+    {
         "DATE": "2026-10-22T15:09:48+00:00",
         "CC NUMBER": "CC-0083369",
         "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
