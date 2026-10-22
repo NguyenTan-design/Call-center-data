@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-22T23:13:29+00:00",
+        "CC NUMBER": "CC-0082807",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module does not automatically clear the Skip Board information after the Skip Board information has been cleared at the first module._[NXTR-S]",
+        "Communication Content": "Dear Tu san,\n\nSorry for the delayed response.\n\nWe have reviewed this issue with our design team and found that, in some cases, the skip information display is not updated correctly while the PCB remains inside the machine.\n\nWe are currently working on the fix and are targeting the release of the fixed version on November 6.\n\nCould you please let us know if this schedule is acceptable to the client?\n\nThank you.\n\nBR,\n\nFUJI Ma",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GFBvwYAH"
+    },
+    {
         "DATE": "2026-10-22T15:56:13+00:00",
         "CC NUMBER": "NEW:CC-0084738",
         "Customer": "4P CO., LTD]",
