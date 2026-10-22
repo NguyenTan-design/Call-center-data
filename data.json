@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-22T07:35:51+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "FMV-Chien-san\n\nAs far as FUJI is concerned, no on-site adjustment is intended for any of these locations.\n\nPositioning is performed using dedicated jigs during assembly, but no further adjustment is normally required afterward.\n\nRegarding the phenomenon where the width becomes narrower, we suspect that it may have been caused by deformation of the side plate during handling, for example, by holding or applying force to the side plate.\n\nTo prevent similar issues in the future, we plan to add handling precautions to the manual.\n\nCould you also share additional information from the site, such as:\n\n・Did the parts scattering issue occur immediately after unpacking, or after some period of production?\n\n・Were there any issues during transportation of the unit?\n\n・Were there any issues during insertion or removal of the unit?\n\n・Any other observations that may help identify when and how the deformation occurred?\n\nAny information from the site would be greatly appreciated for our investigation.\n\nIs it correct to understand that the machine is currently operating normally without any issues?\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-10-22T04:38:41+00:00",
         "CC NUMBER": "NEW:CC-0084699",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
