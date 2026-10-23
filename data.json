@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T14:02:24+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to provide some additional information.\n\nI checked the LCU and found that when the error occurred at 12:05, a dump file named FPCServ.exe.15820.dmp was generated in the following directory:\n\nD:\\Ftproot\\Tracc\\LCU\\Profilercentralserver\\CrashDumps\n\nI am sending you this file for further analysis. Could you please investigate it and provide us with any additional findings?\n\nThank you for your continued support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-10-23T11:30:52+00:00",
         "CC NUMBER": "NEW:CC-0084801",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
