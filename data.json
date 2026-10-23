@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T08:56:48+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear FMV-Ha Ngoc Son-san,\n\nThe report appears to indicate that on-machine editing is slow.\n\nHowever, based on the video \"WhatsApp Video 2026-09-19 at 01.02.56.mp4\", the issue does not seem to be related to on-machine editing.\n\nIn the video, the machine itself stops responding to screen operations, which suggesting that the problem not related to the on-machine.\n\nFor this case, we open the CC-0084783 as new case.\n\nOn the other hand, we confrmed the video \"WhatsApp Video 2026-09-16 at 01.02.56.mp4\".\n\nBased on the trace logs, there was no indication of any delay occurring after commands were received from the machine.\n\nWhen Back was pressed in the Parts Editor, a dialog appeared because there were unapplied changes.\n\nAfter selecting \"Yes\", the save dialog became stuck in the Waiting state.\n\nFor this case, it seems that during a previous on-machine editing session, the machine was restarted while the save dialog was still being displayed.\n\nAs a result, the internal state may have become inconsistent, causing this issue to occur during subsequent on-machine editing operations.\n\nThe patch had been ready and send through file transfer system.\n\n====================\n\n1018_LCUPatch_NXTR_OnMcEdit_PickupOffset_forV2.35.zip\n\nha.ngocson@fuji-smt.com.sg\n\nDownload PW\t: \"Ch833EAZ\"\n\nZIPfile open PW: \"cNraHHju\"\n\n====================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
         "DATE": "2026-10-23T08:35:44+00:00",
         "CC NUMBER": "CC-0082249",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
