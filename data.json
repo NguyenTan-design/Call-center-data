@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-23T11:30:52+00:00",
+        "CC NUMBER": "NEW:CC-0084801",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder position displayed incorrectly on the Machine screen_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nOur customer (Liteon VN) facing the issue Feeder position displayed incorrectly on the screen at module 3, slot 27.\n\nAlthough that Feeder location does not exist in the program, but the screen still display that position is missing\n\nWe also don't use the Alternate Feeder change condition function or divide feeder also.\n\nThis issue resolved after we re-transmission Job, but after short time, this issue display again.\n\nThe machine can normal running without error, That raises concerns for the customer about the wrong for component mix-ups.\n\nPls check attached for detail trace data and advice for us to resolve this issue\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MTVo5YAH"
+    },
+    {
+        "DATE": "2026-10-23T11:19:37+00:00",
+        "CC NUMBER": "CC-0075016",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_head RH08 alarm error 8CC4198D even replace all new solenoid valve_ヘッド RH08 のアラームエラー 8CC4198D が表示される（ソレノイドバルブをすべて新品に交換しても解消しない）[NXTR-S]",
+        "Communication Content": "高津さん\n\n承知しました\n\nWR番号またはヘッドのシリアルわかりますか？\n\n関係部署に情報展開しつつフィールドの情報を探ってみます。\n\n森谷",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000u8WLpYAM"
+    },
+    {
         "DATE": "2026-10-23T09:55:24+00:00",
         "CC NUMBER": "CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
