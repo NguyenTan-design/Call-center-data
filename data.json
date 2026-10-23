@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T04:11:24+00:00",
+        "CC NUMBER": "NEW:CC-0084770",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about NXTR mark camera lighting unit_[NXTR]",
+        "Communication Content": "Dear Call Center\n\nI rised the WR claim WHRS-011277 .when i get the WR part, i find that the PCB 2AHEGL0010** is not same with origin PCB ( Please check the attached file for the 2 type of PCB , the \"Origin\" and the \"WR part\" ), my question :\n\n1. What is different between the \"Origin\" and the \"WR part\", is this same PN 2AHEGL0010** ?\n\n2. The origin lighting of NXTR mark camera had 4 connectors, can it use with the PCB where only has 3 connectors?\n\n3. Can you provide part number of the \"Origin\" PCB with code FH254A1F ?\n\nBR,\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MMs6IYAT"
+    },
+    {
         "DATE": "2026-10-23T03:33:54+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
