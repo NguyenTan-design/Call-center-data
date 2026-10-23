@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-23T09:55:24+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Dinh-san\n\nWe will continue to investigate.\n\nHowever, this situation would not occur if the feeder were inserted at the correct angle.\n\nSince this has happened multiple times in a short period, please remind operators not to insert the feeder at an angle.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
+        "DATE": "2026-10-23T09:40:39+00:00",
+        "CC NUMBER": "NEW:CC-0084793",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Hana Micron_Misalignment IC mounted by head RH08_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nRegarding to Hana Micron customer, they have issue is misalignment IC mounted by head RH08, we tried to do many action but only change head RH02 used nozzle 15.0G can solve problem. Therefore, customer have question for us:\n\n\"1.\tAccording to the FUJI RH08 HEAD specifications, the supported part size is listed as 45 × 38 mm.\n\nHowever, the IC controller used at Hanamicron is only 17 × 17 × 1.3 mm, weight 0.939g.\n\nCould you please explain why misalignment occurs when using the RH08 HEAD to handle this component?\n\nThe customer would like to understand the exact technical reason why the component cannot be handled properly.\n\n2.\tAs far as I know, the maximum nozzle hole diameter that can be used with the RH08 HEAD is 10 mm.\n\nCould you please clarify whether this is sufficient for handling components up to FUJI Spec 45 × 38 mm,\n\nor whether this limitation could be related to the issue?\"\n\nI would like to send you the job we used to testing by head RH08, RH02, and inspection image result on AOI\n\nPlease support us investigate to find out the root cause\n\nThank you!\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1"
+    },
+    {
         "DATE": "2026-10-23T08:56:48+00:00",
         "CC NUMBER": "CC-0082754",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
