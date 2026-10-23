@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T08:35:44+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "メディさん\n\nご依頼いただいていたデータは取得してアップロード済みです。\n\n設計依頼ページを見た所、何かしら不具合があり追加調査が必要と読み取っています。\n\n継続して問題が発生している為、顧客から何度も催促を受けておりますので早めのご対応いただけますと幸いです。\n\nFMV Akira",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-10-23T08:03:06+00:00",
         "CC NUMBER": "CC-0075016",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
