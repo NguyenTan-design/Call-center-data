@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T04:48:59+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the update.\n\nCould you confirm the status of NeximDataBackup in Task Scheduler at that time?\n\n-->  Could you advise how to confirm the status of NeximDataBackup ?\n\n>> As mentioned in above, you could confirm in the TaskScheduler.\n\n      Please confirm the status in Task Schedule whether running while the Backup execute or in other status.\n\n      About the Task scheduler, it is also mentioned in manual as attached capture, too.\n\nThe backup process stops at a different point each time?\n\nThe backup is manually stopped before completion because it never finishes?\n\n-> Since the app runs in the background, I don't know if it gets stopped before finishing.\n\nOr could you advise how to check if possible ?\n\n>> We would like to know whether the last exported Job is different every time.\n\n      Or is there common Job export fail every time.\n\n      Also, I understand that the AutoBackup is running in back ground so customer never did something while backup, right?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-10-23T04:11:24+00:00",
         "CC NUMBER": "NEW:CC-0084770",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
