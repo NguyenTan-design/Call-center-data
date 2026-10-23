@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T03:33:54+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nPlease refer my reply as below:\n\nIs the Auto Backup Tool performing incremental backups or full backups?\n\n-> Full backups.\n\nCould you confirm the status of NeximDataBackup in Task Scheduler at that time?\n\n-->  Could you advise how to confirm the status of NeximDataBackup ?\n\nIt also appears that a backup was run on 9/8 prior to the 9/15 backup. Are backups configured to run every Tuesday?\n\n-> Yes, every Tuesday.\n\nThe backup process stops at a different point each time?\n\nThe backup is manually stopped before completion because it never finishes?\n\n-> Since the app runs in the background, I don't know if it gets stopped before finishing.\n\nOr could you advise how to check if possible ?\n\nOr are there occasions when the full backup of all jobs completes successfully?\n\n-> I will check with customer then confirm later.\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-10-23T02:23:53+00:00",
         "CC NUMBER": "CC-0084402",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
