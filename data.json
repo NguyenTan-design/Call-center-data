@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T02:23:53+00:00",
+        "CC NUMBER": "CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
+        "Communication Content": "Dear Amano - san,\n\nSorry to jump in.\n\nThank you for your support\n\nCC: Would it be possible to upgrade to the corrected version V2.36?\n\nAlternatively, would you prefer to apply the bug fix in V2.3P and issue a test version for verification?\n\nFMV: Currently Mitac customer facing some the issue with CC number bellow:\n\nCC-0084507\n\nCC-0075836\n\nCC-0083179\n\nCC-0084503\n\nCC-0075117\n\nSo which issues that NXTR version V2.36 can control?\n\nBecause customer don't happy for too many times upgrade version.\n\nPls check and advice for us the best option.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
+    },
+    {
         "DATE": "2026-10-23T00:38:45+00:00",
         "CC NUMBER": "CC-0082740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
