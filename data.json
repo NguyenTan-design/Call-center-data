@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-23T07:09:42+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Ka Ki-san,\n\nSorry for pushing you.\n\nDo you have any updates on this issue?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
+        "DATE": "2026-10-23T07:06:37+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Mehdi-san,\n\nToday, we encountered Error 8D39 again on Line 18, between 12:05 and 12:30.\n\nAs requested, I am sending you the data for analysis, along with the Windows Event Log from the LCU. During the error period, I noticed an “Application Error” event in the Windows Event Log related to FPCServ.exe of Profiler.\n\nCould you please analyze the data, identify the specific root cause, and recommend a permanent solution to prevent this issue from recurring?\n\nCurrently, we have temporarily turned off Profiler to maintain production. However, the customer does not agree with this workaround and expects Profiler to remain enabled.\n\nIf you require any additional information, please let me know.\n\nThank you for your continued support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
+        "DATE": "2026-10-23T06:56:35+00:00",
+        "CC NUMBER": "CC-0082807",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_The module does not automatically clear the Skip Board information after the Skip Board information has been cleared at the first module._[NXTR-S]",
+        "Communication Content": "Dear: Ma-San,\n\nThank you for your support.\n\nThe schedule you proposed is acceptable to the client.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GFBvwYAH"
+    },
+    {
         "DATE": "2026-10-23T06:53:46+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
