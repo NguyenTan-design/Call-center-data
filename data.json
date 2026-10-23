@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-23T07:29:20+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Konda San,\n\nI have uploaded the AHC machine trace data and the images showing the Vacuum Channel Check failure to CC. Could you please review the trace data and provide your advice on this case?\n\nThank you!\n\nFMV-Xuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-10-23T07:09:42+00:00",
         "CC NUMBER": "CC-0083882",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
@@ -47959,14 +47968,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-23T07:29:20+00:00",
-        "CC NUMBER": "CC-0083930",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
-        "Communication Content": "Dear Konda San,\n\nI have uploaded the AHC machine trace data and the images showing the Vacuum Channel Check failure to CC. Could you please review the trace data and provide your advice on this case?\n\nThank you!\n\nFMV-Xuan Trung",
-        "FMV PIC": "Nguyen Trung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
     }
 ]
