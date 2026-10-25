@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-25T14:27:11+00:00",
+        "CC NUMBER": "NEW:CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san,\n\nExcuse me Sir, because we have to Re-open this issue.\n\nPhenomenon : Unable to save job - Nexim SQL database hang up\n\nPrevious CC number is : CC-0080370\n\nAfter install the patch file 5220_V3.2.0_Plan_Patch, which you has advise for us on Aug.\n\nAnd it is run stable production from 10-Aug to now.\n\nRecently, this phenomenon still happen some times per day.\n\nAction :\n\n- We still restart a service \"SQL Server (Nexim)\" to save temporary the Job after every error.\n\n- We have checked the firewall, region, time, and some thing. but no have adnormal.\n\n- We have restart all the machine and all the PC (LCU, LineSV, SystemSV, Database). But error still happen again.\n\nWe have collected the trace data base on previous your requirment.\n\n- File name : \"NEXIMLOG_24Oct2026\"\n\nEnvironment:\n\nNexim v3.2.0, NXTR v2.3.1\n\nPatch file : 5220_V3.2.0_Plan_Patch\n\nWindows Server 2022 Standard\n\nSQL Server 2019 Enterprise.\n\nPls help us to review and give us a advise.\n\nThank you and best Regards!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
         "DATE": "2026-10-25T06:00:00+00:00",
         "CC NUMBER": "CC-0083763",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
