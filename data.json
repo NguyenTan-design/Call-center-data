@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-25T02:01:09+00:00",
+        "CC NUMBER": "NEW:CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\nAt Luxsharetech Nghe An, there is a job in which each module places only one type of component.\n\nFor the 2RV module, the cycle time specified in the job is approximately 31 seconds. However, the actual cycle time displayed on the machine is approximately 60 seconds, and the actual placement time is also around 60 seconds.\n\nActions Taken:\n\n-Restarted the machine, but the issue remained.\n\n-Deleted the job and retransmitted it via Nexim. The cycle time returned to normal, but the issue occurred again after some time.\n\nI have uploaded the machine trace file, job file, and version.txt file. Please help us check this issue.\n\nThank you & BR\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
         "DATE": "2026-10-24T15:27:19+00:00",
         "CC NUMBER": "CC-0083942",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
