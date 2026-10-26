@@ -48229,5 +48229,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-10-26T07:59:40+00:00",
+        "CC NUMBER": "CC-0084801",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder position displayed incorrectly on the Machine screen_装置画面でフィーダー位置が正しく表示されない[NXTR-S]",
+        "Communication Content": "Dear FMV-DO-san,\n\nThank you for the inquiry.\n\nFrom the trace, it seems that the old slot No.27 information remain is handle as Original slot.\n\nWe need the older trace when there was operation at SlotNo.27.\n\nCould you acquire the NXTR log from LineConsole within below time/date?\n\n2026/10/23　11:00-17:00\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MTVo5YAH"
     }
 ]
