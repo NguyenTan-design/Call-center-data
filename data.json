@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-26T07:43:56+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI'm very sorry for the late reply.\n\nI have uploaded the trace data file for October 3, from 15:00 to 16:00, as you requested.\n\nThank you & BR\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
+        "DATE": "2026-10-26T07:41:30+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "天野さん\n\nバックアッププレート固定のボルトを誤検知しています。\n\nバックアップピンではありません。\n\nFMV 高津",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-26T07:28:24+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
