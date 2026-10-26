@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-26T02:45:59+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear Marie-san,\n\nThank you for your support. We will install 1018_LCUPatch_NXTR_OnMcEdit_PickupOffset_forV2.35 on the PC and monitor this issue.\n\nBest regards,\n\nHa Ngoc Son",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
+        "DATE": "2026-10-26T02:24:27+00:00",
+        "CC NUMBER": "CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
+        "Communication Content": "FMV-DO-san\n\nI am sending you the V2.3Pze version. Please check whether this version improves the issue.\n\nAs for the other cases, some are still under investigation, so each case needs to be reviewed individually.\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
+    },
+    {
         "DATE": "2026-10-26T02:01:20+00:00",
         "CC NUMBER": "CC-0084699",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -48121,14 +48139,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-26T02:24:27+00:00",
-        "CC NUMBER": "CC-0084402",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
-        "Communication Content": "FMV-DO-san\n\nI am sending you the V2.3Pze version. Please check whether this version improves the issue.\n\nAs for the other cases, some are still under investigation, so each case needs to be reviewed individually.\n\nCall center Amano",
-        "FMV PIC": "Vu Phuoc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
     }
 ]
