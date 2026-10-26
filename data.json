@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-26T06:58:07+00:00",
+        "CC NUMBER": "CC-0084847",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Hangup during command \"adjust sensor\"_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nTemporary, if Right robot have conveyor error, we do command adjust sensor at left robot first after that, do command adjust sensor at Right robot later is OK.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MlWfCYAV"
+    },
+    {
         "DATE": "2026-10-26T06:02:42+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
