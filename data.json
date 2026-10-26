@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-26T04:23:21+00:00",
+        "CC NUMBER": "NEW:CC-0084847",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Hangup during command \"adjust sensor\"_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI have met the issue.\n\n10/26/2026 9:44\tHPG2-NXTR10\t4-R\tMcAlarm\tErrorCode: 87650783 / SubErrorCode: 00000001 Panel conveyance operation error\n\nAfter that, we use command \"adjust sensor\" but it hangup during take this action. please refer to video. We do set origin command also same phenomena.\n\nI check all right robot but same phenomena. Left robot at 1R normal using.\n\nI take trace data. please help me analyst this issue.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MlWfCYAV"
+    },
+    {
         "DATE": "2026-10-26T03:50:45+00:00",
         "CC NUMBER": "NEW:CC-0084845",
         "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
