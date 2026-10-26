@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-26T16:57:17+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Xuan Trung san,\n\nThe cause is unknown yet.\n\nSince there is no flow rate for either the “Vacuum” or “Vacuum Break” lines, I suspect there is a malfunction somewhere between the mechanical valve and the tip.\n\nIs the machine running 1,400 hours correct?\n\nYou have performed multiple time cleaning and inspection using the AHCR—did you notice any changes in flow rate before and after replacing the mechanical valve?\n\nIs there any potential for improvement, even if only slight?\n\nAlso, were there any noticeable changes before the pick up issue occurred?\n\n(Such as immediately after maintenance or dirt inside the unit.)\n\nKonda,",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-10-26T13:33:34+00:00",
         "CC NUMBER": "CC-0084770",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
