@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-26T03:50:45+00:00",
+        "CC NUMBER": "NEW:CC-0084845",
+        "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
+        "TOPIC": "Urgent[CANON VIETNAM CO.,LTD (TS Factory)]_The The H02 head has  error codes 3A19 and 8CDE during operation._[NXTIII]",
+        "Communication Content": "Dear call center,\n\nThe H02 head has  error codes 3A19 and 8CDE during operation.\n\nThe Customer sent the head to Head Repair Center in Vietnam for investigate\n\nwe did some actions below but still cannot clear error:\n\n1, Replace the new motor Q axis for head\n\n2,  Measure proper data for head\n\n3, Maintenance and grease for head\n\n4, Check the Vacuum break pressure, nozzle cleaning pressure on the head bech  is OK\n\nAfter replacing the motor with a new one, the H02 head operated normally in production for approximately two weeks before errors 3A19 and 8CDE recurred.\n\nI have uploaded the trace data recorded at the time the errors occurred. Could you please analyze the trace data, investigate the potential failure mechanism, and help identify the root cause of this issue?\n\nYour technical advice and recommendations for further investigation would be greatly appreciated.",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MkmIzYAJ"
+    },
+    {
         "DATE": "2026-10-26T03:06:43+00:00",
         "CC NUMBER": "CC-0084770",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
