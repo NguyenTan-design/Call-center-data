@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-26T03:00:36+00:00",
+        "CC NUMBER": "CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_ジョブ上で表示されるサイクルタイムが、実際のサイクルタイムと一致しない。[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nAfter deleting the job and retransmitting it via Nexim, the cycle time now matches the cycle time in the job. Accessory Web is currently displaying the correct cycle time, so I cannot check the cycle time history from when the issue occurred.\n\nIf the issue occurs again, I will take a screenshot and send it to you.\n\nI have attached the product folder as requested. The issue occurred during the following periods:\n\nOctober 10, from 16:30 to 17:00\n\nOctober 24, from 14:00 to 14:30\n\nThank you & BR\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
+        "DATE": "2026-10-26T02:53:14+00:00",
+        "CC NUMBER": "CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
+        "Communication Content": "FMV-DO-san\n\nWe will send you the application form for the countermeasure app. Please check if it improves the issue.\n\nPlease download the file.\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nInstallCD_V2.3Pze.zip\n\nfile release date\t: 7 day\n\nDownload limit times\t: 10 times\n\nDownload Password\t: \"C6X4eYpB\"\n\nZIP File Password\t:  \"skPESzS2\"\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
+    },
+    {
         "DATE": "2026-10-26T02:45:59+00:00",
         "CC NUMBER": "CC-0082754",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -48139,5 +48157,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-10-26T03:06:43+00:00",
+        "CC NUMBER": "CC-0084770",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about NXTR mark camera lighting unit_NXTRマークのカメラ照明ユニットに関する質問[NXTR]",
+        "Communication Content": "Dear Tan-san\n\nI guesses these are old/new type.\n\nI will check more detail.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MMs6IYAT"
     }
 ]
