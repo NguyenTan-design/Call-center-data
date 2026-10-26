@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-26T06:02:42+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "天野さん\n\n本件、現在どういった状況ですか？\n\n設計依頼前？それとも裏で何か動いてますか？\n\nただ設計依頼前でしたら、こちらから設計依頼できますが、状況が分からないのでフォローするにもどうすればいいか分かりません。\n\nFMV 高津",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-26T04:23:21+00:00",
         "CC NUMBER": "NEW:CC-0084847",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
