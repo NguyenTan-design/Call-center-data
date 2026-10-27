@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-27T02:03:24+00:00",
+        "CC NUMBER": "CC-0083170",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
+        "Communication Content": "池さん\n\n該当サプライヤーNEXASより、報告書を頂きました。\n\n(添付_NE-QA-006_K_別紙-5_不具合報告書_ 261027-01をご確認ください）\n\nねじ緩み、脱落箇所に作業変更点は無く、トルク管理もしています。\n\n(電動ドライバーは月1度の校正を実施）\n\nまた、仮締め工程が無く一発締めで作業は完結させており、\n\n不具合該当フィーダーも生産拠点が異なり固定ボルトの脱落がでるとは考え難いと考えます。\n\n以上、本件クローズでよろしいでしょうか？",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL"
+    },
+    {
         "DATE": "2026-10-27T01:18:54+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
