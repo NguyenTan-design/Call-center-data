@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-27T12:36:21+00:00",
+        "CC NUMBER": "CC-0084144",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Yang san\n\nSorry for keep you waiting.\n\nAs I updated on CC-0083559, this is also same case.\n\nWe confirmed with designer team that this is not software bug.\n\nWhen the machine decided to placement sequence,  it is possible to place the components by same timing on both of Z1 and Z2.(Dual pick up).\n\nBut when actually the machine tried to pick up the components, it cannot due to the feeder position is too far.\n\nIn this situation, the machine recognized it as D701 but not counted.\n\nIf the feeder position is set as the position where the machine pick up 2 position same time, it will not appear this phenomenon.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
+    },
+    {
+        "DATE": "2026-10-27T12:34:23+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Chien san\n\nSorry for keep you waiting.\n\nWe confirmed with designer team that this is not software bug.\n\nWhen the machine decided to placement sequence,  it is possible to place the components by same timing on both of Z1 and Z2.(Dual pick up).\n\nBut when actually the machine tried to pick up the components, it cannot due to the feeder position is too far.\n\nIn this situation, the machine recognized it as D701 but not counted.\n\nIf the feeder position is set as the position where the machine pick up 2 position same time, it will not appear this phenomenon.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
+        "DATE": "2026-10-27T12:32:47+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\n I am sorry for the late reply as I was waiting for confirmation from the customer.\n\nPlease confirm the status in Task Schedule whether running while the Backup execute or in other status.\n\n-> The status in Task Schedule is running while Backup execute. Please refer new attached capture.\n\nWe would like to know whether the last exported Job is different every time.\n\n-> I can't confirm, but I see the data in backup folder is different every time.\n\nAlso, I understand that the AutoBackup is running in back ground so customer never did something while backup, right?\n\n-> Yes, the customer never did something while backup.\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-10-27T11:37:44+00:00",
         "CC NUMBER": "NEW:CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
