@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-27T15:51:38+00:00",
+        "CC NUMBER": "NEW:CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-10-27T11:37:44+00:00",
         "CC NUMBER": "NEW:CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",

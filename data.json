@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-27T15:51:38+00:00",
+        "CC NUMBER": "NEW:CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI am supporting Luxshare Van Trung – T11 Project and have encountered the following issue:\n\n1. Issue Description: When executing the Rework function on the machine, the machine alarm error code 8A510000 – Panel ID Reading Error.\n\n2. Error Occurrence Details\n\n- Date: October 20, 2026\n\n- Time: 13:42:54\n\n- Module: M22-L\n\n- Production Line: MLB-TOP1\n\n3. Current Configuration and Temporary Workaround\n\n- The customer is currently using the Remote Board Skip function. When this function is enabled, the Rework operation fails with the above error. Disabling Remote Board Skip allows the Rework function to operate normally.\n\n- Additional information:\n\nNXTR version. V2.2Bt1\n\nLCU version. V2.20\n\nLCU patch: 0634, 0709\n\nNexim version. V3.1.20\n\nNexim patch: 4726, 4803, 4922, 5058, 5805, 5806\n\n4. Bellow is question please help to answer\n\n- What is the root cause of this issue?\n\n- Is there an alternative solution that does not require disabling Remote Board Skip? Since the production line is long, disabling this function requires stopping the line, which would significantly impact production output.\n\n- Please review the attached trace data file and please help investigate this issue\n\n- Thank you for your support\n\nBest regards,\n\nFMV-VU",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
         "DATE": "2026-10-27T14:34:36+00:00",
         "CC NUMBER": "CC-0084738",
         "Customer": "4P CO., LTD]",
