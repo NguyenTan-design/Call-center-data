@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-27T10:24:54+00:00",
+        "CC NUMBER": "NEW:CC-0084959",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Error code 8BD6(PAM for heightened accuracy mode has not been performed)_[NXTR-A]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently facing an issue when running a job in 10 μm Precision Mode on the NXTR line.\n\nThe machine configuration is as follows:\n\n- Nexim Version: V3.2.21\n\n- NXTR-A Version: V2.3ff\n\n- LCU Version: V2.3\n\nFor Module 3L, which is equipped with an RH28 head, we have already performed the 10 μm PAM calibration(U & D) and the result was completed successfully without any errors.\n\nAfter that, we configured Feeder No. 6 and Feeder No. 20 (bump part) to use \"Precision Priority (10 μm)\"on shape data and place mode. The module configuration was also changed to \"High Accuracy Mode (10 μm)\". The job optimization and data check processes were completed successfully, and the job was transferred to the production line without any errors.\n\nHowever, when we started the module, the machine apppeared Error 8BD6: PAM for heightened accuracy mode has not been performed.\n\nThe required 10 μm PAM calibration had already been performed successfully before running the job. Therefore, we are unsure why the machine still detects that the PAM for High Accuracy Mode has not been completed. Pls check att data\n\nThe customer would like to run lead and bump components using the RH28 head in 10 μm Precision Mode.\n\nCould you please advise what additional checks or settings may be required and resolve this error?\n\nThanks and Best Regards,\n\nFMV-Duy",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N2HK4YAN"
+    },
+    {
         "DATE": "2026-10-27T09:56:43+00:00",
         "CC NUMBER": "CC-0084770",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
