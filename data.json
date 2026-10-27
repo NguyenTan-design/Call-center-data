@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-27T02:41:11+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano-san\n\nThanks for your supported\n\nCC: Regarding the images, could you also provide captured images from the parts camera and conveyor mark camera, in addition to the nozzle station images?\n\nFMV: Please check some image those attached file.\n\nconveyor mark 1.img, conveyor mark 2.img,  partcam mark 1.img,  partcam mark 2 .img\n\nCC: How long has this machine been in operation since it was shipped?\n\nFMV: This machine already operation about over 2000h, please check Operating hours 1.img, Operating hours 2.img\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-10-27T02:03:24+00:00",
         "CC NUMBER": "CC-0083170",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
