@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-27T09:03:55+00:00",
+        "CC NUMBER": "CC-0084793",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Hana Micron_Misalignment IC mounted by head RH08_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThank you for your support!\n\nWe already tried to perform transportation test on the machine editing, reduced transport speed to minimum,\n\nand testing with maximum nozzle of head RH08 is 10.0G but still misalignment this component.\n\nIf customer can't approve change to head RH02, we have to explain to customer what is the reason with head RH08 they are using,\n\nthis component also inside specification\n\nPlease support us\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1"
+    },
+    {
+        "DATE": "2026-10-27T09:00:18+00:00",
+        "CC NUMBER": "CC-0084880",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Feeder W08T1 Magnet Strength and  The copper piece is peeling off_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nThank you very much for the inquiry.\n\nI attached one screenshot.\n\nActually there is a identify number on the sub plate and you can see it on the side of feeder as mentioned in attached screenshot.\n\nThe meaning of number is below.\n\n\"1\" : Sub plate with magnet\n\n\"2\" : Sub plate without magnet\n\n\"nothing\" : Nothing plate.\n\nPlease kindly explain to customer that this will be help to clarifying.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MqijHYAR"
+    },
+    {
         "DATE": "2026-10-27T08:14:35+00:00",
         "CC NUMBER": "CC-0084667",
         "Customer": "BYD Electronics Vietnam Company Limited]",
