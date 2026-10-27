@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-27T01:18:54+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Konda San,\n\nThe machine running is 1.400 hours.\n\nWe have performed cleaning on the AHC inspections. However, the airflow rate remains unchanged before and after cleaning using the AHC machine.\n\nWe suspect that the Holder Rotary (P/N: 2AHEHF008700) in Holder B may be clogged or that there is an issue within Holder B.\n\nWe have already replaced the syringe, filter case, mechanical valve, and performed multiple cleaning procedures. But the airflow rate remains unchanged.\n\nBest Regards,\n\nXuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
+        "DATE": "2026-10-27T01:14:06+00:00",
+        "CC NUMBER": "CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Dinh Duong-san,\n\nThank you for your patience and for providing the trace data.\n\nWe have investigated the issue and would like to advise the following.\n\nBased on the CSV file, the PC at IP address 192.168.10.11 is locking the NeximDB.\n\nPlease follow the steps below:\n\n1. Restart the DB Server to release the lock, then apply the patch to the PC\n\n   at 192.168.10.11 and restart that PC.\n\n2. If the lock occurs again, please run the lock check patch to identify\n\n   which PC is causing the lock.\n\n3. If the lock continues even after the patch is applied, please run the\n\n   GSST log collection tool (5259_NeximLogManagerTool) and share the\n\n   required files with us.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
         "DATE": "2026-10-27T00:59:48+00:00",
         "CC NUMBER": "CC-0084738",
         "Customer": "4P CO., LTD]",
@@ -48301,14 +48319,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-27T01:14:06+00:00",
-        "CC NUMBER": "CC-0084821",
-        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
-        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
-        "Communication Content": "Dear Dinh Duong-san,\n\nThank you for your patience and for providing the trace data.\n\nWe have investigated the issue and would like to advise the following.\n\nBased on the CSV file, the PC at IP address 192.168.10.11 is locking the NeximDB.\n\nPlease follow the steps below:\n\n1. Restart the DB Server to release the lock, then apply the patch to the PC\n\n   at 192.168.10.11 and restart that PC.\n\n2. If the lock occurs again, please run the lock check patch to identify\n\n   which PC is causing the lock.\n\n3. If the lock continues even after the patch is applied, please run the\n\n   GSST log collection tool (5259_NeximLogManagerTool) and share the\n\n   required files with us.\n\nBest regards,\n\nMehdi",
-        "FMV PIC": "Dinh Duong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
     }
 ]
