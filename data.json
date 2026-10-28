@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T03:49:40+00:00",
+        "CC NUMBER": "CC-0084959",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Error code 8BD6(PAM for heightened accuracy mode has not been performed)_[NXTR-A]",
+        "Communication Content": "天野さん\n\n該当モジュールは2RですのでエリアPAMは関係ないのでは？\n\nエリアPAMのマニュアルを見ると以下の様に書かれています。\n\n”1R モジュールで高精度モードを使用するには、高精度PAM 測定に加えてエリアPAM 測定が必要です。高精度PAM 測定が完了している状態で、エリアPAM 測定を実施してください。”\n\n10umのPAMは完了している、だが10umのジョブを送るとエラーになる、見落としがあるかもしれませんが一旦トレースから何でエラーになっているか確認していただけませんか？",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N2HK4YAN"
+    },
+    {
         "DATE": "2026-10-28T02:50:07+00:00",
         "CC NUMBER": "CC-0084959",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
