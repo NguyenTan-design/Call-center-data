@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T16:18:10+00:00",
+        "CC NUMBER": "CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama-San,\n\nThank you for your support.\n\nThe panel on which I performed the rework did not have Board Skip.\n\nIn addition, no boards or feeders were skipped during the rework process.\n\nBest regards,\n\nFMV-VU",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
         "DATE": "2026-10-28T11:46:47+00:00",
         "CC NUMBER": "CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
