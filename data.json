@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T20:35:32+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Xuan Trung san,\n\nSince replacing the syringe did not resolve the issue,\n\nwe suspect there may be a problem inside the rotary (something is clogged).\n\nTo gain a detailed understanding of the current situation, please assist us with the following investigation (in addition to the problematic B holder, please include the A and C holders before and after it as well).\n\nPlease mount the head on the head bench and, using the “I/O Check” command in HeadCheckTool,\n\ncompare the sensor readings inside the head with those at the nozzle tip (nozzle cleaning, vacuum break, vacuum pressure).\n\nPlease attach a manometer (or a flow meter, if possible) to the nozzle tip and verify the readings.\n\nFor details, please refer to Chapter 18.5, “Checking the Air Related Valves and Sensors,” in the RH28 Head Repair Training Manual.\n\nAdditionally, when inspecting the B-holder, it would be helpful if you could also check how the readings change after removing the filter.\n\nWe would like to isolate which path is clogged.\n\nOnce you have confirmed this, please send us the data.\n\nAfter that, we are considering sending the rotary holder to FUJI for a detailed inspection, followed by an investigation by the manufacturer.\n\nJust to be sure, please check whether the same issue occurs with a head that has a different serial number.\n\nKonda,",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-10-28T16:18:10+00:00",
         "CC NUMBER": "CC-0084975",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
