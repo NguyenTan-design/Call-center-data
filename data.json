@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T08:40:35+00:00",
+        "CC NUMBER": "CC-0084959",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Error code 8BD6(PAM for heightened accuracy mode has not been performed)_[NXTR-A]",
+        "Communication Content": "Dear Amano-san,\n\nI obtained additional information regarding this issue.\n\n Sub error code 00000000: Heightened Accuracy PAM not measured\n\nI have also attached screenshots of the error message and the PAM List screen for your reference.\n\nPlease check the attached images.\n\nBest Regards,\n\nFMV-Duy",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N2HK4YAN"
+    },
+    {
         "DATE": "2026-10-28T08:08:56+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
