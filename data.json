@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-28T06:14:08+00:00",
+        "CC NUMBER": "CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Vu san\n\nThank you very much for the inquiry.\n\nI uploaded one screenshot.\n\nIt mentioned that if specific sequence specify the board skip or feeder skip, the parts are not placed.\n\nThis mean this function is not possible to use.\n\nCould you please check if the parts which you tried to reworked specified RBS or not?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
+        "DATE": "2026-10-28T06:01:17+00:00",
+        "CC NUMBER": "CC-0084699",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_On-machine edit hang up_機上編集でフリーズする[NXTR-S]",
+        "Communication Content": "Pham Duc-san\n\nThe issue was caused by a defect in the machine application.\n\nThis problem occurred because the process for starting on-machine editing was unintentionally accumulated in the system.\n\nWe will implement a fix so that the screen transitions properly and the accumulated process does not occur.\n\nWe are currently planning to release the corrected application on November 11 (Wed).\n\nCall center Amano",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MA9UhYAL"
+    },
+    {
         "DATE": "2026-10-28T05:15:43+00:00",
         "CC NUMBER": "CC-0075016",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
