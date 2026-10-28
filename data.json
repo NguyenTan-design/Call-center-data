@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T22:23:58+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "FMV Vu Phuoc-san\n\nI checked the behavior of Slot 26 when the issue occurred.\n\nThere was a point where the COMP signal of Slot 26 changed unexpectedly.\n\nFeeder is set\n\n↓\n\nFeeder initialization process starts (feeder information acquisition)\n\n↓\n\nCOMP signal suddenly turns OFF (for approximately 400 ms) ← Unexpected behavior\n\n↓\n\nDuring this period, a command is sent from the machine, resulting in an error response\n\nCould you please check whether there is any poor contact or short circuit on the Feed signal or COMP signal of Slot 26?\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
         "DATE": "2026-10-28T20:35:32+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
