@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T04:01:22+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Toyama-san,\n\nThank you for sharing the information.\n\nHowever, I have a few questions regarding this issue:\n\n1. Potential component loss due to D701 not being counted\n\nIf the situation you described occurs, the feeder will still feed the component, but the component may be dropped into the waste box. Since D701 is not counted as an error and Accessory software does not count it as a pickup failure, this could result in component loss for the customer without being properly recorded.\n\nHowever, in this case, Job optimization is fully automatic. It automatically distributes the feeder positions to meet the conditions for Simultaneous Pickup. Please refer to the attached image, \"Slot Feeder 1R,\" and the Job data I provided in \"Data 28-Oct-2026\"\n\n2. Discrepancy between Accessory software and Nexim export data\n\nRegarding the discrepancy between the data displayed in Accessory software and the data exported from Nexim, as shown in the \"Newdata09-Oct-2026\" file I previously sent you, has the design team investigated this issue further?\n\nI look forward to your feedback and support.\n\nBest regards,\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-10-28T03:49:40+00:00",
         "CC NUMBER": "CC-0084959",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
