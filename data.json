@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T02:44:25+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "FMV Vu Phuoc-san\n\nTo help determine whether the root cause is on the module side or the MFU52 side, could you please replace either one with a known-good unit?\n\nIt is acceptable to replace either the module or the MFU52, as we would like to isolate which side is causing the issue.\n\nOur goal is to identify whether the problem originates from the module or the MFU52.\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
         "DATE": "2026-10-28T02:27:56+00:00",
         "CC NUMBER": "CC-0084847",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
