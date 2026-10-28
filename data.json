@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T02:50:07+00:00",
+        "CC NUMBER": "CC-0084959",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Error code 8BD6(PAM for heightened accuracy mode has not been performed)_[NXTR-A]",
+        "Communication Content": "FMV-Duy-san\n\nPerform PAM for heightened accuracy mode.\n\nCheck whether measurement has not been performed for heightened accuracy PAM or area PAM by checking the sub error code.\n\nFor area PAM, measurement must be performed at least at position 1, position 3, and position 5 (three locations) at the same Zs-axis positions (upper side and lower side) using the same part type (ceramic/glass).\n\nIt is possible to check which location was not measured in the list. To display the list, change to PAM mode from [Calibration] - [PAM] - [PAM], and then press [Display PAM list].\n\nRefer to the operation manual for details.\n\nSub error code\n\n00000000: Heightened accuracy PAM not measured\n\n00000001: Area PAM not measured\n\n00000002: Both heightened accuracy PAM and area PAM are not measured\n\nCall center Amano",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N2HK4YAN"
+    },
+    {
         "DATE": "2026-10-28T02:44:25+00:00",
         "CC NUMBER": "CC-0084507",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
