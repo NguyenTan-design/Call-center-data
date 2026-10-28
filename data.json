@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T02:27:56+00:00",
+        "CC NUMBER": "CC-0084847",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Hangup during command \"adjust sensor\"_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI wanna update to you about this issue status.\n\nWe found that this issue only occurred in paired robot job, and single robot job doesn't have this problem.\n\nBesides that, we already checked another line, problem still the same but which robot conveyer need to reset first depend on the line direction.\n\n- With Right to Left Line: Need to reset the left first\n\n- With Left to Right line: Need to reset the right first\n\nPlease noted and help to invest this issue.\n\nThank you\n\nTuan-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MlWfCYAV"
+    },
+    {
         "DATE": "2026-10-28T01:57:40+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
