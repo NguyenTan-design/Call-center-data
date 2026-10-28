@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-28T01:57:40+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "Dear Amano san\n\nQ: There is an improved screw available (2MHECA048201). Please replace the current screw with this improved version and confirm whether the issue is resolved.\n\nA: you mean, we should make Warranty to get the screw 2MHECA048201?\n\nQ: As a temporary measure, have you tried repairing it using a marker pen?\n\n・Part No.: M1046W\n\n・Model: MH6707 Matte Black 13ml\n\n・Manufacturer: HOLTS\n\nA: We will try it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-28T00:58:28+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
