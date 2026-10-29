@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T01:33:07+00:00",
+        "CC NUMBER": "CC-0084491",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nWe cleaned the reflective plate (white plate). However, the same issue still occurs.\n\nWe have made changes to the Mark camera LED light source assembly for sidelight and incident lighting.\n\nThe issue has been resolved, and the SNC machine can operate normally.\n\nCould you please provide us with the part number for the Mark camera LED light source assembly for sidelight and incident lighting? Theo yêu cầu của Số CC-0084877\n\nSo that we can provide warranty service to the customer.\n\nThank you\n\nKonda,",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
+    },
+    {
         "DATE": "2026-10-29T01:25:03+00:00",
         "CC NUMBER": "CC-0084845",
         "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
@@ -48733,14 +48742,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-29T01:33:07+00:00",
-        "CC NUMBER": "CC-0084491",
-        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
-        "Communication Content": "Dear Konda san,\n\nWe cleaned the reflective plate (white plate). However, the same issue still occurs.\n\nWe have made changes to the Mark camera LED light source assembly for sidelight and incident lighting.\n\nThe issue has been resolved, and the SNC machine can operate normally.\n\nCould you please provide us with the part number for the Mark camera LED light source assembly for sidelight and incident lighting? Theo yêu cầu của Số CC-0084877\n\nSo that we can provide warranty service to the customer.\n\nThank you\n\nKonda,",
-        "FMV PIC": "Cao Tuan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
     }
 ]
