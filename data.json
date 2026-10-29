@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-29T01:25:03+00:00",
+        "CC NUMBER": "CC-0084845",
+        "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
+        "TOPIC": "Urgent[CANON VIETNAM CO.,LTD (TS Factory)]_The The H02 head has  error codes 3A19 and 8CDE during operation._H02ヘッドは、動作中にエラーコード3A19および8CDEを表示します。[NXTIII]",
+        "Communication Content": "Dear Amano San,\n\nI was unable to access the CC cases CC-0083959, CC-0082493 and CC-0065747 that you referred to.\n\nCould you please provide a detailed explanation of these cases, including the reported symptoms, investigation results, identified root causes, and corrective actions taken?\n\nThis information would help us better understand the related issues and determine the appropriate actions for our current case.\n\nThank you for your support.\n\nBest Regards,",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MkmIzYAJ"
+    },
+    {
+        "DATE": "2026-10-29T01:18:22+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B...",
+        "Communication Content": "FMV-TU-san\n\nDo you have any update for this matter?\n\nCall center Amano",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-10-29T00:29:13+00:00",
         "CC NUMBER": "CC-0084845",
         "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
@@ -48715,5 +48733,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-10-29T01:33:07+00:00",
+        "CC NUMBER": "CC-0084491",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nWe cleaned the reflective plate (white plate). However, the same issue still occurs.\n\nWe have made changes to the Mark camera LED light source assembly for sidelight and incident lighting.\n\nThe issue has been resolved, and the SNC machine can operate normally.\n\nCould you please provide us with the part number for the Mark camera LED light source assembly for sidelight and incident lighting? Theo yêu cầu của Số CC-0084877\n\nSo that we can provide warranty service to the customer.\n\nThank you\n\nKonda,",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
     }
 ]
