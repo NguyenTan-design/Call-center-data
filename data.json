@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T00:29:13+00:00",
+        "CC NUMBER": "CC-0084845",
+        "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
+        "TOPIC": "Urgent[CANON VIETNAM CO.,LTD (TS Factory)]_The The H02 head has  error codes 3A19 and 8CDE during operation._H02ヘッドは、動作中にエラーコード3A19および8CDEを表示します。[NXTIII]",
+        "Communication Content": "Nguyen Trung-san\n\nThe Q-axis is oscillating during small incremental movements.\n\nBased on the observed oscillation frequency and motion characteristics, this issue appears to be similar to CC-0083959, CC-0065747, and CC-0082493.\n\nPlease confirm whether the modification specified in Technical Communication RJ24079 has been implemented.\n\nIf the modification has already been completed, please change the grease from LG2 to MDV and verify whether the issue is improved.\n\nThank you for your cooperation.\n\nCall center Amano",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MkmIzYAJ"
+    },
+    {
         "DATE": "2026-10-29T00:03:12+00:00",
         "CC NUMBER": "CC-0083499",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
