@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-29T15:46:21+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you so much for your support.\n\nThe customer is currently only testing this function and has not used it in actual production yet.\n\nOnce the customer has arranged the production schedule, I will use the patch you provided to test the CycleStop command again.\n\nI will update you with the results once the test is complete.\n\nThank you and Best Regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
+        "DATE": "2026-10-29T15:33:21+00:00",
+        "CC NUMBER": "CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_ジョブ上で表示されるサイクルタイムが、実際のサイクルタイムと一致しない。[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI’m very sorry. I have re-uploaded the Product folder.\n\nThank you and Best Regards,\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
         "DATE": "2026-10-29T11:01:08+00:00",
         "CC NUMBER": "CC-0084385",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
