@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-10-29T04:26:31+00:00",
+        "CC NUMBER": "CC-0080021",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine abnormal pickup sequence on TRAY RM when using the tray alternate_NXTR　TU-RMでトレイのネクストデバイスを設定している時、ピックアップの度にパレット入れ替えが入る[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nNo issues after the update.\n\nPlease close this ticket.\n\nIf any issues arise, I will create a new ticket.\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018C8xaYAC"
+    },
+    {
+        "DATE": "2026-10-29T04:26:10+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear FMV-DUC,\n\nThank you for your patience.\n\nI have sent the patch to your email. Please check your inbox.\n\n----------------------------------------------------------\n\n5929_V3.2.100_SEE_Patch3.zip\n\nDownload PW:\"VbhXKXAp\"\n\nZIP File PW:\"uHj2bbvT\"\n\n----------------------------------------------------------\n\nPlease apply the patch and confirm whether the issue has been resolved.\n\nLet me know if you have any further questions.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
+        "DATE": "2026-10-29T04:24:39+00:00",
+        "CC NUMBER": "CC-0079959",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Occasional 7A01 errors occur_7A01エラーが散発する[NXTR-S]",
+        "Communication Content": "Dear Konda san\n\nWe have reached an agreement with the customer regarding disabling HEPA via DIPSW.\n\nPlease close this ticket.\n\nFMV takatsu",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000180gRxYAI"
+    },
+    {
+        "DATE": "2026-10-29T04:19:16+00:00",
+        "CC NUMBER": "CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_Neximアカウントに関する質問[NXTR]",
+        "Communication Content": "Dear Tan-san,\n\nI hope you are doing well.\n\nCould you please let us know the current status?\n\nIf we do not hear from you by Friday, November 6, we will proceed with closing this ticket.\n\nIf you need any further assistance after the ticket has been closed, please feel free to contact us by submitting a new ticket.\n\nBR,\n\nAnri Ito\n\nFUJI Call Center",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD"
+    },
+    {
+        "DATE": "2026-10-29T04:19:08+00:00",
+        "CC NUMBER": "CC-0079861",
+        "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[TAISHODO VIETNAM COMPANY LIMITED]_Upgrade AIMEXR to version 1.6 can handle funtion with version 1.5De3_AIMEXRをバージョン1.6にアップグレードすると、バージョン1.5De3の機能を処理できるようになります。[AIMEXR]",
+        "Communication Content": "Dear Ma san\n\nWe have Updated.\n\nPlease close this ticket.\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Trong Dai Dai",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017jlFzYAI"
+    },
+    {
         "DATE": "2026-10-29T04:16:24+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
