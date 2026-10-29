@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T03:50:29+00:00",
+        "CC NUMBER": "NEW:CC-0085090",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum ...",
+        "Communication Content": "Dear Call Center,\n\nWe are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms:\n\n- “Module vacuum start time out” — Code: 80001203\n\n- “Module vacuum pressure error” — Code: 1204\n\nWe performed the following checks:\n\n1. Checked the vacuum pump pressure when the error occurred: −57 MPa.\n\n2. Replaced the RH20 head with another one, but the error persisted.\n\n3. Checked and reconnected the vacuum pump tubing, but the error persisted.\n\n4. Replaced the coupler and union, but the error persisted.\n\nWhen we tested the vacuum pump with all mechanical valves on the head open, the vacuum dropped to −48 MPa, which is very low.\n\nWe compared this with a newly installed module. Under the same test conditions, its vacuum remained at −63 kPa, which is above the −59 kPa alarm threshold.\n\n5. Replaced the right-side vacuum pump, which resolved the issue.\n\nPlease refer to CC-0080480. The module involved in this case is on the same line as the module in that case.\n\nI have collected the trace data. Could you please help analyze it?\n\nThank you and best regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP"
+    },
+    {
         "DATE": "2026-10-29T03:27:47+00:00",
         "CC NUMBER": "CC-0084667",
         "Customer": "BYD Electronics Vietnam Company Limited]",
