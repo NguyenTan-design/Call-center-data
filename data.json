@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T02:10:17+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B104, ...",
+        "Communication Content": "Dear Amano san\n\nSorry for jumping into this conversation\n\nWe already replaced warranty harness cable X,Y for this NG module on Tuesday then idle run for 2 days without error\n\nThis module also running 3 panels LCR\n\nDue to this line under NPI production so pls keep monitoring this issue for 2 weeks\n\nThankyou for strong support\n\nBr,\n\nVictor",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
         "DATE": "2026-10-29T01:33:07+00:00",
         "CC NUMBER": "CC-0084491",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
