@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T08:40:58+00:00",
+        "CC NUMBER": "CC-0085090",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum pres...",
+        "Communication Content": "Is my understanding correct that the issue was resolved after replacing the right-side vacuum pump?\n\nIf so, since the failure was caused by a defective vacuum pump, please submit a warranty claim for the vacuum pump.",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP"
+    },
+    {
         "DATE": "2026-10-29T07:41:21+00:00",
         "CC NUMBER": "CC-0084818",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
