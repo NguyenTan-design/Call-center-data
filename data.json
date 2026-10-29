@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T00:03:12+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Nam-san\n\nSection 9.3, “Checking the constants of parts before production,” in the “NXTR Advanced Operation Manual” contains the following description:\n\n\"For ceramic capacitors that have a high dielectric, there may be cases in which the nominal capacity value cannot be obtained.\"\n\n--\n\nThe capacitor shown in the photo, model number “CL21X476MQYNNWE,”\n\nappears to be a “high-dielectric-constant (High-K) multilayer ceramic capacitor (MLCC).”\n\nHigh-dielectric-constant capacitors are not covered by the specifications.\n\nIf the issue is not resolved by adjusting the current settings as previously mentioned, it will be difficult to resolve.\n\nThe FUJI designer shares this view.\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
         "DATE": "2026-10-28T23:06:54+00:00",
         "CC NUMBER": "CC-0079012",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
