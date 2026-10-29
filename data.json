@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-10-29T11:01:08+00:00",
+        "CC NUMBER": "CC-0084385",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Editing Functions Become Unavailable During Recovery Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama-San\n\nTaka san already explain to me, this function was not able when pair production.\n\nWe can close this case.\n\n Thank you so much\n\nTung-FMV",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LEzWzYAL"
+    },
+    {
+        "DATE": "2026-10-29T10:51:14+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nI update more trace about this issue.\n\nToday, at module 1, slot 19 about 16:07 trace was take. Phenomena is for Slot 1-19, please refer to \"29-Oct trace\" in the attach file.\n\nAs I monitor, If the worker previously pulled the tape forward, then after inserting the feeder into the machine, the feeder will automatically rotate back.\n\nIn the kitting station, sometime they pull the tape out by manual and after that set new reel in to feeder before it is move to line production for change over.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
         "DATE": "2026-10-29T08:55:55+00:00",
         "CC NUMBER": "CC-0085090",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
