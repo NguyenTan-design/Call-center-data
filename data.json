@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-10-29T04:16:24+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "Tung-FMV-san\n\nCould you please clarify the following?\n\nA warranty claim has been submitted for 2,400 bolts. How many modules does this quantity correspond to? In other words, for how many modules are these bolts being claimed under warranty?\n\nFor reference, the number of bolts required per machine is as follows:\n\n・1R-Dual: 12 bolts\n\n・2R-Dual: 20 bolts\n\nCall center Amano",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
+        "DATE": "2026-10-29T04:16:09+00:00",
+        "CC NUMBER": "CC-0079516",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Very Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine Error durring production: 80006507/ Subcode: 00003DF2_[NXTR-S]",
+        "Communication Content": "Swapped the fixed-section circuit board and hub with those from another module. After that, both module exhibited any issues.\n\nMonitoring in progress",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000016rnxuYAA"
+    },
+    {
+        "DATE": "2026-10-29T04:10:35+00:00",
+        "CC NUMBER": "CC-0078445",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Blue sceen durring edit job_NXTRで機上編集中にブルースクリーンになった[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nNo recurrence since the update.\n\nIf it recurs, I will create a new ticket.\n\nPls close.\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000148f3FYAQ"
+    },
+    {
+        "DATE": "2026-10-29T04:05:00+00:00",
+        "CC NUMBER": "CC-0076980",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_New machine NXTR-S Hang-up durring operation and operate on the monitor_ハングアップする[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nNo recurrence since the update.\n\nIf it recurs, I will create a new ticket.\n\nPls close.\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zp65BYAQ"
+    },
+    {
         "DATE": "2026-10-29T03:50:29+00:00",
         "CC NUMBER": "NEW:CC-0085090",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
