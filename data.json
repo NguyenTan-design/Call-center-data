@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T05:46:13+00:00",
+        "CC NUMBER": "CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_SECS/GEM S2F41 CYCLESTOP コマンドの問題[NXTR-S]",
+        "Communication Content": "Dear Viet-san,\n\nFrom our investigation, it seems that the Machine Operation Using Remote Operation = Used setting was not set in the past\n\nbut the operation done.\n\nSo it seems that unnecessary communication data is currently remaining in the LCU and causing the problem.\n\nTherefore, after confirming that the NXTR machine function setting is enabled,\n\nit will be necessary to perform a cleanup procedure to remove the residual data stored in the LCU.\n\nThe patch had been ready and send through file transfer system.\n\n=====================\n\nDeleteSTOPEQUIP.zip\n\nviet.td@fuji-smt.com.sg\n\nDownload PW\t: \"mKU24ANh\"\n\nZIPfile open PW\t: \"zrHz4v2K\"\n\n=====================\n\nThis batch file deletes the relevant records from the corresponding table in the Material DB.\n\nPlease use the batch file that matches your database type.\n\nAs we are unable to identify the specific records involved, all stop-status information related to Remote Operation and Maintenance will be deleted.\n\nTherefore, if any equipment has been intentionally stopped, that stop-status information will also be removed.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR"
+    },
+    {
         "DATE": "2026-10-29T04:45:46+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
