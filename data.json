@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T03:27:47+00:00",
+        "CC NUMBER": "CC-0084667",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine show error: 88D50000 A vision error occurred while placement was in progress._[NXTR-S]",
+        "Communication Content": "Dear Amano-san\n\nThe trace data does not appear to contain the period when the error occurred. Please review the trace data and resend the trace that includes the actual error occurrence.\n\n-> We captured the trace data immediately after the error occurred. The error occurred at the following time:\n\n10/21/2026 14:20\tNXTR-503-T-3\t1-L\tMcAlarm\tErrorCode: 88D50000 / SubErrorCode: 00000000 A vision error occurred while placement was in progress.\n\nPlease help to check again.\n\nAlso, is my understanding correct that the machine is currently operating normally without any issues?\n\n-> Yes, you are correct.\n\nThe machine is now operating normally without any error. However, the customer would like to understand why it is necessary to perform a \"Reset the Machine\" operation after completing APAM in order to use the Deviation Check function.\n\nCould you please clarify the root cause and explain why this reset is required?\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M5uSeYAJ"
+    },
+    {
         "DATE": "2026-10-29T02:51:28+00:00",
         "CC NUMBER": "CC-0084667",
         "Customer": "BYD Electronics Vietnam Company Limited]",
