@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T02:51:28+00:00",
+        "CC NUMBER": "CC-0084667",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine show error: 88D50000 A vision error occurred while placement was in progress._[NXTR-S]",
+        "Communication Content": "Nguyen Binh-san\n\nThe trace data does not appear to contain the period when the error occurred. Please review the trace data and resend the trace that includes the actual error occurrence.\n\nAlso, is my understanding correct that the machine is currently operating normally without any issues?\n\nPlease confirm.\n\nCall center Amano",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M5uSeYAJ"
+    },
+    {
         "DATE": "2026-10-29T02:34:57+00:00",
         "CC NUMBER": "CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
