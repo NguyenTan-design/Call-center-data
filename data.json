@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-29T04:45:46+00:00",
+        "CC NUMBER": "CC-0084226",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Investigation Request – Error 8B7AD7BF Caused by Fixed Hexagonal Screw Head During Backup Pin Allocation_調査依頼 – バックアップピンの割り当て中に六角ネジの頭が固定されていたことが原因のエラー 8B7AD7BF[NXTR-S]",
+        "Communication Content": "Dear Amano san\n\nAt Liteon, there are 80 module 2R and 63 module 1R\n\nTotal 80*20+63*12=2356 Pcs\n\nI make WR 2400 Pcs, remain 44 pcs for spare during replace if drop missing\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
+    },
+    {
         "DATE": "2026-10-29T04:26:31+00:00",
         "CC NUMBER": "CC-0080021",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
