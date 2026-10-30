@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-30T00:11:56+00:00",
+        "CC NUMBER": "NEW:CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThis error 6709ffff (An unexecuta program error occurred) occurred unexpectedly early yesterday morning. Since then, none of the PCs have been able to open jobs via Nexim.\n\nHowever, the machines remain operational, and we are currently using the \"Machine Job Editing\" function as a temporary workaround to maintain production.\n\nThe issue was resolved after we performed a database upgrade.\n\nWe are currently retrieving the trace data and will upload it as soon as it becomes available.\n\nIn the meantime, could you please take a look and provide some insights, as well as your thoughts on the root cause?\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
+    },
+    {
         "DATE": "2026-10-29T22:40:19+00:00",
         "CC NUMBER": "CC-0082964",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
