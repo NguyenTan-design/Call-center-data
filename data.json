@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-31T07:18:43+00:00",
+        "CC NUMBER": "NEW:CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI have met the issue.\n\nAfter change over, start production,  Panel complete tranfer from 2R to 2L, but 2L robot hang up not mounting. 2R robot complete panel at lane 1 and also not tranfer to 2L. Please see the attach video for more detail. We have to push cycle stop, take trace data and resume produciton.\n\nI take trace data, please help me analyst this case.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
         "DATE": "2026-10-31T05:04:35+00:00",
         "CC NUMBER": "CC-0084959",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
