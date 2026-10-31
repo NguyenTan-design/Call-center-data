@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-10-30T18:42:36+00:00",
+        "CC NUMBER": "NEW:CC-0085191",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right module cannot read the Skip Mark_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN",
+        "CASE STATUS": "On Going"
+    },
+    {
+        "DATE": "2026-10-30T14:44:41+00:00",
+        "CC NUMBER": "NEW:CC-0085186",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Panel ID Changed to NOREAD_QE in Traceability output file_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NgKfmYAF",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-10-30T14:10:07+00:00",
+        "CC NUMBER": "NEW:CC-0085184",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Placement Pressure Calibration Unit Compatibility with Tray RM_[NXTR-S]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NgkALYAZ",
+        "CASE STATUS": "On Going"
+    },
+    {
         "DATE": "2026-10-30T00:11:56+00:00",
         "CC NUMBER": "NEW:CC-0085134",
         "Customer": "BYD Electronics Vietnam Company Limited]",
@@ -7,6 +34,15 @@
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD",
         "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-10-29T03:50:29+00:00",
+        "CC NUMBER": "NEW:CC-0085090",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum ...",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-10-27T15:51:38+00:00",
@@ -72,6 +108,15 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-10-25T02:01:09+00:00",
+        "CC NUMBER": "NEW:CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF",
+        "CASE STATUS": "On Going"
+    },
+    {
         "DATE": "2026-10-23T11:30:52+00:00",
         "CC NUMBER": "NEW:CC-0084801",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -88,6 +133,15 @@
         "Inquiry type": "11.Request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1",
         "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-10-23T04:11:24+00:00",
+        "CC NUMBER": "NEW:CC-0084770",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about NXTR mark camera lighting unit_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MMs6IYAT",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-10-22T15:56:13+00:00",
@@ -198,6 +252,15 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-10-14T08:55:24+00:00",
+        "CC NUMBER": "NEW:CC-0084227",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KsT11YAF",
+        "CASE STATUS": "Closed"
+    },
+    {
         "DATE": "2026-10-14T08:34:07+00:00",
         "CC NUMBER": "NEW:CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -261,6 +324,15 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-10-09T08:55:40+00:00",
+        "CC NUMBER": "NEW:CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH",
+        "CASE STATUS": "On Going"
+    },
+    {
         "DATE": "2026-10-08T09:42:38+00:00",
         "CC NUMBER": "NEW:CC-0083964",
         "Customer": "Fuji Machine Vietnam Co., Ltd.]",
@@ -288,6 +360,15 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-10-07T10:07:12+00:00",
+        "CC NUMBER": "NEW:CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX",
+        "CASE STATUS": "On Going"
+    },
+    {
         "DATE": "2026-10-06T10:51:00+00:00",
         "CC NUMBER": "NEW:CC-0083812",
         "Customer": "Fuji Machine Vietnam Co., Ltd.]",
@@ -304,6 +385,24 @@
         "Inquiry type": "08.Board transfer error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IumQWYAZ",
         "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-10-05T14:09:10+00:00",
+        "CC NUMBER": "NEW:CC-0083741",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR",
+        "CASE STATUS": "On Going"
+    },
+    {
+        "DATE": "2026-10-05T09:42:33+00:00",
+        "CC NUMBER": "NEW:CC-0083726",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request for waste tape box cover_[NXTR]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ir5OWYAZ",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-10-04T12:13:24+00:00",
@@ -369,13 +468,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-30T14:44:41+00:00",
-        "CC NUMBER": "NEW:CC-0085186",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Panel ID Changed to NOREAD_QE in Traceability output file_[NXTR-S]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NgKfmYAF",
-        "CASE STATUS": ""
+        "DATE": "2026-09-30T10:02:47+00:00",
+        "CC NUMBER": "NEW:CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actua...",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH",
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-09-29T08:55:30+00:00",
@@ -394,6 +493,15 @@
         "Inquiry type": "09.Other trouble",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB",
         "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-09-29T02:11:46+00:00",
+        "CC NUMBER": "NEW:CC-0083387",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover of the W08T feeder was damaged_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HrO6oYAF",
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-09-28T15:20:20+00:00",
@@ -441,12 +549,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-30T18:42:36+00:00",
-        "CC NUMBER": "NEW:CC-0085191",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right module cannot read the Skip Mark_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN",
+        "DATE": "2026-09-26T04:34:45+00:00",
+        "CC NUMBER": "NEW:CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT",
         "CASE STATUS": "On Going"
     },
     {
@@ -504,12 +612,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-30T14:10:07+00:00",
-        "CC NUMBER": "NEW:CC-0085184",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Placement Pressure Calibration Unit Compatibility with Tray RM_[NXTR-S]",
+        "DATE": "2026-09-24T06:07:23+00:00",
+        "CC NUMBER": "NEW:CC-0083170",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
         "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NgkALYAZ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL",
         "CASE STATUS": "On Going"
     },
     {
@@ -603,13 +711,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-29T03:50:29+00:00",
-        "CC NUMBER": "NEW:CC-0085090",
+        "DATE": "2026-09-18T15:52:30+00:00",
+        "CC NUMBER": "NEW:CC-0082959",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum ...",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP",
-        "CASE STATUS": "Closed"
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB",
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-09-18T10:47:03+00:00",
@@ -648,21 +756,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-25T02:01:09+00:00",
-        "CC NUMBER": "NEW:CC-0084818",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_[NXTR-S]",
+        "DATE": "2026-09-17T07:47:14+00:00",
+        "CC NUMBER": "NEW:CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD",
         "CASE STATUS": "On Going"
     },
     {
-        "DATE": "2026-10-23T04:11:24+00:00",
-        "CC NUMBER": "NEW:CC-0084770",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about NXTR mark camera lighting unit_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MMs6IYAT",
+        "DATE": "2026-09-17T04:14:20+00:00",
+        "CC NUMBER": "NEW:CC-0082845",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder W08T control board design question_[NXTR]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GMsCxYAL",
         "CASE STATUS": "Closed"
     },
     {
@@ -711,22 +819,22 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-14T08:55:24+00:00",
-        "CC NUMBER": "NEW:CC-0084227",
-        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
+        "DATE": "2026-09-15T18:14:10+00:00",
+        "CC NUMBER": "NEW:CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KsT11YAF",
-        "CASE STATUS": "Closed"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF",
+        "CASE STATUS": "On Going"
     },
     {
-        "DATE": "2026-10-09T08:55:40+00:00",
-        "CC NUMBER": "NEW:CC-0084026",
+        "DATE": "2026-09-15T10:23:09+00:00",
+        "CC NUMBER": "NEW:CC-0082740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH",
-        "CASE STATUS": "On Going"
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G4bgoYAB",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-15T06:35:53+00:00",
@@ -738,13 +846,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-07T10:07:12+00:00",
-        "CC NUMBER": "NEW:CC-0083882",
+        "DATE": "2026-09-15T00:29:41+00:00",
+        "CC NUMBER": "NEW:CC-0082687",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX",
-        "CASE STATUS": "On Going"
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim 3.2.100 optimize issue_[Nexim]",
+        "Inquiry type": "09.Other trouble",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FwNERYA3",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-14T10:42:59+00:00",
@@ -765,13 +873,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-05T14:09:10+00:00",
-        "CC NUMBER": "NEW:CC-0083741",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECSGEM S2F41 CYCLESTOP Command Issue_[NXTR-S]",
+        "DATE": "2026-09-12T06:33:08+00:00",
+        "CC NUMBER": "NEW:CC-0082584",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR 2RV Module Does Not Place Components on PCB_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ise7JYAR",
-        "CASE STATUS": "On Going"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FbGsjYAF",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-10T11:36:51+00:00",
@@ -783,12 +891,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-10-05T09:42:33+00:00",
-        "CC NUMBER": "NEW:CC-0083726",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request for waste tape box cover_[NXTR]",
+        "DATE": "2026-09-10T07:15:15+00:00",
+        "CC NUMBER": "NEW:CC-0082478",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_[NXTR-S]",
         "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ir5OWYAZ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX",
         "CASE STATUS": "Closed"
     },
     {
@@ -819,13 +927,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-30T10:02:47+00:00",
-        "CC NUMBER": "NEW:CC-0083499",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actua...",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH",
-        "CASE STATUS": "On Going"
+        "DATE": "2026-09-08T02:04:45+00:00",
+        "CC NUMBER": "NEW:CC-0082276",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-07T12:29:09+00:00",
@@ -837,13 +945,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-29T02:11:46+00:00",
-        "CC NUMBER": "NEW:CC-0083387",
+        "DATE": "2026-09-05T03:43:52+00:00",
+        "CC NUMBER": "NEW:CC-0082175",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover of the W08T feeder was damaged_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HrO6oYAF",
-        "CASE STATUS": "On Going"
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-09-02T14:17:51+00:00",
@@ -855,13 +963,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-26T04:34:45+00:00",
-        "CC NUMBER": "NEW:CC-0083290",
+        "DATE": "2026-08-29T07:16:21+00:00",
+        "CC NUMBER": "NEW:CC-0081793",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT",
-        "CASE STATUS": "On Going"
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-26T02:29:34+00:00",
@@ -873,22 +981,22 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-24T06:07:23+00:00",
-        "CC NUMBER": "NEW:CC-0083170",
+        "DATE": "2026-08-25T11:04:02+00:00",
+        "CC NUMBER": "NEW:CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_The cover fixing screws were found to be loose or had fallen out on many feeders, especially the 8T, 12, 16, and 24 types._[NXTR-S]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HAjCyYAL",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF",
         "CASE STATUS": "On Going"
     },
     {
-        "DATE": "2026-09-18T15:52:30+00:00",
-        "CC NUMBER": "NEW:CC-0082959",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB",
-        "CASE STATUS": "On Going"
+        "DATE": "2026-08-25T09:42:13+00:00",
+        "CC NUMBER": "NEW:CC-0081529",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about  Panel property_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ChFagYAF",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-25T09:09:12+00:00",
@@ -900,12 +1008,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-17T07:47:14+00:00",
-        "CC NUMBER": "NEW:CC-0082866",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD",
+        "DATE": "2026-08-25T04:01:28+00:00",
+        "CC NUMBER": "NEW:CC-0081485",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about part bottom 2D code check function_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CcBHhYAN",
         "CASE STATUS": "On Going"
     },
     {
@@ -927,21 +1035,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-17T04:14:20+00:00",
-        "CC NUMBER": "NEW:CC-0082845",
+        "DATE": "2026-08-22T04:39:15+00:00",
+        "CC NUMBER": "NEW:CC-0081343",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder W08T control board design question_[NXTR]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GMsCxYAL",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_About optimize the waste‑tape box design_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEJY1YAP",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-09-15T18:14:10+00:00",
-        "CC NUMBER": "NEW:CC-0082754",
+        "DATE": "2026-08-21T09:02:08+00:00",
+        "CC NUMBER": "NEW:CC-0081323",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF",
         "CASE STATUS": "On Going"
     },
     {
@@ -972,12 +1080,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-15T10:23:09+00:00",
-        "CC NUMBER": "NEW:CC-0082740",
+        "DATE": "2026-08-19T05:20:15+00:00",
+        "CC NUMBER": "NEW:CC-0081133",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_8000D47B: An error occurred in the communication with the camera_[NXTR-S]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G4bgoYAB",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR module application error -  Blue screen error_[NXTR]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BfetxYAB",
         "CASE STATUS": "Closed"
     },
     {
@@ -999,21 +1107,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-15T00:29:41+00:00",
-        "CC NUMBER": "NEW:CC-0082687",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim 3.2.100 optimize issue_[Nexim]",
-        "Inquiry type": "09.Other trouble",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FwNERYA3",
+        "DATE": "2026-08-18T02:10:50+00:00",
+        "CC NUMBER": "NEW:CC-0081046",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-09-12T06:33:08+00:00",
-        "CC NUMBER": "NEW:CC-0082584",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR 2RV Module Does Not Place Components on PCB_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FbGsjYAF",
+        "DATE": "2026-08-17T13:18:47+00:00",
+        "CC NUMBER": "NEW:CC-0081022",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1",
         "CASE STATUS": "Closed"
     },
     {
@@ -1026,12 +1134,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-10T07:15:15+00:00",
-        "CC NUMBER": "NEW:CC-0082478",
+        "DATE": "2026-08-17T07:29:51+00:00",
+        "CC NUMBER": "NEW:CC-0080483",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Advance Feeder Maintenance – Feeder ID Search and Main List Navigation_[NXTR-S]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FIEbMYAX",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_部品の高さがモジュール2RVの制限値を超えた場合、「ノズルが検出されない」エラーが発生する[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG",
         "CASE STATUS": "Closed"
     },
     {
@@ -1044,13 +1152,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-08T02:04:45+00:00",
-        "CC NUMBER": "NEW:CC-0082276",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The customer is experiencing issues with nozzle and holder allocation when optimizing production data for the RH20 head_[NXTR-S]",
+        "DATE": "2026-08-14T15:35:37+00:00",
+        "CC NUMBER": "NEW:CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EsOuPYAV",
-        "CASE STATUS": "Closed"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV",
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-08-14T07:41:38+00:00",
@@ -1071,12 +1179,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-09-05T03:43:52+00:00",
-        "CC NUMBER": "NEW:CC-0082175",
+        "DATE": "2026-08-13T15:06:04+00:00",
+        "CC NUMBER": "NEW:CC-0080878",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 863C0000, \"Insert order data mismatch,\" occurred when the job was updated via the LCU._[NXTR-S]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EUvI3YAL",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3",
         "CASE STATUS": "Closed"
     },
     {
@@ -1089,30 +1197,30 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-29T07:16:21+00:00",
-        "CC NUMBER": "NEW:CC-0081793",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about Nexim database installation in Linux environment_[Nexim]",
+        "DATE": "2026-08-13T10:33:05+00:00",
+        "CC NUMBER": "NEW:CC-0080868",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t warranty request_[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001DNnsrYAD",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvOddYAF",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-25T11:04:02+00:00",
-        "CC NUMBER": "NEW:CC-0081535",
+        "DATE": "2026-08-13T10:18:59+00:00",
+        "CC NUMBER": "NEW:CC-0080867",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_[NXTR]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF",
         "CASE STATUS": "On Going"
     },
     {
-        "DATE": "2026-08-25T09:42:13+00:00",
-        "CC NUMBER": "NEW:CC-0081529",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about  Panel property_[NXTR-S]",
+        "DATE": "2026-08-12T10:11:53+00:00",
+        "CC NUMBER": "NEW:CC-0080841",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ChFagYAF",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ",
         "CASE STATUS": "Closed"
     },
     {
@@ -1125,13 +1233,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-25T04:01:28+00:00",
-        "CC NUMBER": "NEW:CC-0081485",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about part bottom 2D code check function_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CcBHhYAN",
-        "CASE STATUS": "On Going"
+        "DATE": "2026-08-12T01:54:00+00:00",
+        "CC NUMBER": "NEW:CC-0080825",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-08-10T15:31:59+00:00",
@@ -1161,12 +1269,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-22T04:39:15+00:00",
-        "CC NUMBER": "NEW:CC-0081343",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_About optimize the waste‑tape box design_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEJY1YAP",
+        "DATE": "2026-08-06T07:45:54+00:00",
+        "CC NUMBER": "NEW:CC-0080670",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB",
         "CASE STATUS": "Closed"
     },
     {
@@ -1179,30 +1287,30 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-21T09:02:08+00:00",
-        "CC NUMBER": "NEW:CC-0081323",
+        "DATE": "2026-08-05T09:44:39+00:00",
+        "CC NUMBER": "NEW:CC-0080612",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Feeder collision prevention function to prevent the feeder from colliding with the placing head when the feeder tip is raised due to an operator error_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001C9Z0kYAF",
-        "CASE STATUS": "On Going"
-    },
-    {
-        "DATE": "2026-08-19T05:20:15+00:00",
-        "CC NUMBER": "NEW:CC-0081133",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR module application error -  Blue screen error_[NXTR]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BfetxYAB",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-18T02:10:50+00:00",
-        "CC NUMBER": "NEW:CC-0081046",
+        "DATE": "2026-08-05T08:44:10+00:00",
+        "CC NUMBER": "NEW:CC-0080607",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about Nexim account_[NXTR]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2026-08-05T01:31:36+00:00",
+        "CC NUMBER": "NEW:CC-0080574",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BSejdYAD",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU",
         "CASE STATUS": "Closed"
     },
     {
@@ -1224,21 +1332,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-17T13:18:47+00:00",
-        "CC NUMBER": "NEW:CC-0081022",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Panel transfer stops intermittently during Pair Module operation_[NXTR-S]",
+        "DATE": "2026-08-03T16:26:26+00:00",
+        "CC NUMBER": "NEW:CC-0080483",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BNfTXYA1",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-17T07:29:51+00:00",
-        "CC NUMBER": "NEW:CC-0080483",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_部品の高さがモジュール2RVの制限値を超えた場合、「ノズルが検出されない」エラーが発生する[NXTR-S]",
+        "DATE": "2026-08-03T15:23:32+00:00",
+        "CC NUMBER": "NEW:CC-0080480",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC",
         "CASE STATUS": "Closed"
     },
     {
@@ -1251,13 +1359,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-14T15:35:37+00:00",
-        "CC NUMBER": "NEW:CC-0080899",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV",
-        "CASE STATUS": "On Going"
+        "DATE": "2026-08-03T02:02:33+00:00",
+        "CC NUMBER": "NEW:CC-0080429",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_[NXTR]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-07-31T10:06:44+00:00",
@@ -1296,12 +1404,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-13T15:06:04+00:00",
-        "CC NUMBER": "NEW:CC-0080878",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AwCFTYA3",
+        "DATE": "2026-07-28T08:55:49+00:00",
+        "CC NUMBER": "NEW:CC-0080164",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -1368,12 +1476,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-13T10:33:05+00:00",
-        "CC NUMBER": "NEW:CC-0080868",
+        "DATE": "2026-07-24T09:17:31+00:00",
+        "CC NUMBER": "NEW:CC-0079996",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t warranty request_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvOddYAF",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU",
         "CASE STATUS": "Closed"
     },
     {
@@ -1431,12 +1539,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-13T10:18:59+00:00",
-        "CC NUMBER": "NEW:CC-0080867",
+        "DATE": "2026-07-22T01:23:18+00:00",
+        "CC NUMBER": "NEW:CC-0079816",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_[NXTR]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA",
         "CASE STATUS": "On Going"
     },
     {
@@ -1629,12 +1737,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-12T10:11:53+00:00",
-        "CC NUMBER": "NEW:CC-0080841",
+        "DATE": "2026-07-09T14:57:52+00:00",
+        "CC NUMBER": "NEW:CC-0079174",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Improve the “Fit” function when drawing components using Etool software._[NXTR]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_LINE NXTR (VS1-03) Module 1L - Feeder Information Not Detected When Replacing Component_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001An3UoYAJ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015v5zYYAQ",
         "CASE STATUS": "Closed"
     },
     {
@@ -1728,12 +1836,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-12T01:54:00+00:00",
-        "CC NUMBER": "NEW:CC-0080825",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Unable to Read HeadFvmark on RH02 Head_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Aik5uYAB",
+        "DATE": "2026-07-04T07:15:39+00:00",
+        "CC NUMBER": "NEW:CC-0078811",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -1764,21 +1872,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-06T07:45:54+00:00",
-        "CC NUMBER": "NEW:CC-0080670",
+        "DATE": "2026-07-03T05:40:04+00:00",
+        "CC NUMBER": "NEW:CC-0078771",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR line and are currently performing the CPK run. However, we have encountered the following issues on Module 1R: The mark camera ...",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001A3fpxYAB",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-05T09:44:39+00:00",
-        "CC NUMBER": "NEW:CC-0080612",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Application Error_[NXTR-S]",
+        "DATE": "2026-07-02T13:26:40+00:00",
+        "CC NUMBER": "NEW:CC-0078722",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Panel ID Changed to NOREAD_Q0 / NOREAD_QE in Traceability data file_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019uCnBYAU",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014oZEJYA2",
         "CASE STATUS": "Closed"
     },
     {
@@ -1998,13 +2106,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-05T08:44:10+00:00",
-        "CC NUMBER": "NEW:CC-0080607",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We have recently completed the installation of a new NXTR production line and are currently performing APAM. - During the APAM process, three Module 1R units reported Error Code 3A16 wi...",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019spuIYAQ",
-        "CASE STATUS": "Closed"
+        "DATE": "2026-06-17T02:51:33+00:00",
+        "CC NUMBER": "NEW:CC-0077799",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[NXT]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK",
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-06-16T23:30:14+00:00",
@@ -2034,12 +2142,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-05T01:31:36+00:00",
-        "CC NUMBER": "NEW:CC-0080574",
+        "DATE": "2026-06-15T03:07:36+00:00",
+        "CC NUMBER": "NEW:CC-0077651",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bn_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019mLcOYAU",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The Head encountered an error during production._[NXTR-S]",
+        "Inquiry type": "04.Interference",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011tm7wYAA",
         "CASE STATUS": "Closed"
     },
     {
@@ -2052,21 +2160,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-03T16:26:26+00:00",
-        "CC NUMBER": "NEW:CC-0080483",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
+        "DATE": "2026-06-11T01:26:59+00:00",
+        "CC NUMBER": "NEW:CC-0077486",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about splicing event in Nexim_[Nexim]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011M1UfYAK",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-03T15:23:32+00:00",
-        "CC NUMBER": "NEW:CC-0080480",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The Module NXTR Right continuously reported error codes 80001203 and 1204. Initial inspection indicated that the vacuum pressure did not meet the required specification, preventing the ma...",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019Yme1YAC",
+        "DATE": "2026-06-10T08:11:59+00:00",
+        "CC NUMBER": "NEW:CC-0077445",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_MFU had no power when connected to the OCPU._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011F5rBYAS",
         "CASE STATUS": "Closed"
     },
     {
@@ -2124,12 +2232,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-03T02:02:33+00:00",
-        "CC NUMBER": "NEW:CC-0080429",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_the adhesive used to bond the rails on tray drawers peels off for tray unit-RM_[NXTR]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019QJfdYAG",
+        "DATE": "2026-06-04T10:00:12+00:00",
+        "CC NUMBER": "NEW:CC-0077152",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 8F5A occurred while the module was operating normally_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010HdENYA0",
         "CASE STATUS": "Closed"
     },
     {
@@ -2160,31 +2268,31 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-28T08:55:49+00:00",
-        "CC NUMBER": "NEW:CC-0080164",
+        "DATE": "2026-06-03T00:40:24+00:00",
+        "CC NUMBER": "NEW:CC-0077012",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Pick - Offset Z Exceeds the Allowable Specification in NEXIM Without Any Warning_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018bD2qYAE",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Machine AIMEXIII displayed Error 8000202F on Side 2 during operation_[AIMEXIII]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zv45RYAQ",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-07-24T09:17:31+00:00",
-        "CC NUMBER": "NEW:CC-0079996",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When updating a job via the LCU web, all components used in Tray-M are required to be re-verified._[NXTR-S]",
+        "DATE": "2026-06-02T23:59:01+00:00",
+        "CC NUMBER": "NEW:CC-0077010",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000186IjYYAU",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zurhdYAA",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-07-22T01:23:18+00:00",
-        "CC NUMBER": "NEW:CC-0079816",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "DATE": "2026-06-02T23:58:10+00:00",
+        "CC NUMBER": "NEW:CC-0077009",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA",
-        "CASE STATUS": "On Going"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-06-02T09:02:22+00:00",
@@ -2205,12 +2313,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-09T14:57:52+00:00",
-        "CC NUMBER": "NEW:CC-0079174",
+        "DATE": "2026-06-01T12:17:26+00:00",
+        "CC NUMBER": "NEW:CC-0076908",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_LINE NXTR (VS1-03) Module 1L - Feeder Information Not Detected When Replacing Component_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015v5zYYAQ",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The system was installed with Win11_24H2_Chinese_Simplified_x64.  After completing the Data Check, the report could not be opened._[Nexim]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zceFwYAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -2313,12 +2421,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-04T07:15:39+00:00",
-        "CC NUMBER": "NEW:CC-0078811",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about waste tape box cover part_[NXTR]",
+        "DATE": "2026-05-25T01:45:54+00:00",
+        "CC NUMBER": "NEW:CC-0076424",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR waste tape box_[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK0000154sL0YAI",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000yIn7tYAC",
         "CASE STATUS": "Closed"
     },
     {
@@ -2376,12 +2484,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-03T05:40:04+00:00",
-        "CC NUMBER": "NEW:CC-0078771",
+        "DATE": "2026-05-20T09:56:26+00:00",
+        "CC NUMBER": "NEW:CC-0076237",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Lane 2 waits for Lane 1 before unloading in dual-lane production_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014v5gCYAQ",
+        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request setting : Turn off operation of NXTR module tape cutter_[NXTR]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xeE5aYAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -2403,12 +2511,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-02T13:26:40+00:00",
-        "CC NUMBER": "NEW:CC-0078722",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Panel ID Changed to NOREAD_Q0 / NOREAD_QE in Traceability data file_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014oZEJYA2",
+        "DATE": "2026-05-19T03:08:39+00:00",
+        "CC NUMBER": "NEW:CC-0076129",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about panel rotation setting in Nexim dual lane job_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xOcyHYAS",
         "CASE STATUS": "Closed"
     },
     {
@@ -2529,13 +2637,13 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-17T02:51:33+00:00",
-        "CC NUMBER": "NEW:CC-0077799",
+        "DATE": "2026-05-08T07:15:34+00:00",
+        "CC NUMBER": "NEW:CC-0075609",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Report function in Nexim_[NXT]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim application hang out_[Nexim]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000012ImR7YAK",
-        "CASE STATUS": "On Going"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vwkBKYAY",
+        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2026-05-07T10:22:20+00:00",
@@ -2583,12 +2691,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-15T03:07:36+00:00",
-        "CC NUMBER": "NEW:CC-0077651",
+        "DATE": "2026-05-05T02:29:30+00:00",
+        "CC NUMBER": "NEW:CC-0075429",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The Head encountered an error during production._[NXTR-S]",
-        "Inquiry type": "04.Interference",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011tm7wYAA",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Tray RM calibration data recovery_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vWPx2YAG",
         "CASE STATUS": "Closed"
     },
     {
@@ -2628,12 +2736,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-11T01:26:59+00:00",
-        "CC NUMBER": "NEW:CC-0077486",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about splicing event in Nexim_[Nexim]",
+        "DATE": "2026-04-29T04:32:43+00:00",
+        "CC NUMBER": "NEW:CC-0075317",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about RH28 placing head error code 0000B134_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011M1UfYAK",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU",
         "CASE STATUS": "Closed"
     },
     {
@@ -2673,12 +2781,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-10T08:11:59+00:00",
-        "CC NUMBER": "NEW:CC-0077445",
+        "DATE": "2026-04-24T00:43:24+00:00",
+        "CC NUMBER": "NEW:CC-0075078",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_MFU had no power when connected to the OCPU._[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000011F5rBYAS",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Request Tray RM calibration data_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uFyRtYAK",
         "CASE STATUS": "Closed"
     },
     {
@@ -2718,12 +2826,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-04T10:00:12+00:00",
-        "CC NUMBER": "NEW:CC-0077152",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Error 8F5A occurred while the module was operating normally_[NXTR-S]",
+        "DATE": "2026-04-21T06:23:02+00:00",
+        "CC NUMBER": "NEW:CC-0074899",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECS/GEM Error 18098026 when executing S2F41 (PPLISTN and GET_JOBDATA)_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000010HdENYA0",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000tp6jhYAA",
         "CASE STATUS": "Closed"
     },
     {
@@ -2772,21 +2880,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-03T00:40:24+00:00",
-        "CC NUMBER": "NEW:CC-0077012",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Machine AIMEXIII displayed Error 8000202F on Side 2 during operation_[AIMEXIII]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zv45RYAQ",
+        "DATE": "2026-04-15T11:03:51+00:00",
+        "CC NUMBER": "NEW:CC-0074584",
+        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Normal[LEADER TECH VIETNAM COMPANY LIMITED]_Can not open inventory function_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t4HiXYAU",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-06-02T23:59:01+00:00",
-        "CC NUMBER": "NEW:CC-0077010",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zurhdYAA",
+        "DATE": "2026-04-15T10:38:08+00:00",
+        "CC NUMBER": "NEW:CC-0074583",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Procedure to back up and restore Pronavi database, FIDB database_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t3aDqYAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -2799,21 +2907,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-02T23:58:10+00:00",
-        "CC NUMBER": "NEW:CC-0077009",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI",
+        "DATE": "2026-04-15T01:45:49+00:00",
+        "CC NUMBER": "NEW:CC-0074525",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Cannot optimize with Head RH02_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000syamIYAQ",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-06-01T12:17:26+00:00",
-        "CC NUMBER": "NEW:CC-0076908",
+        "DATE": "2026-04-14T12:45:30+00:00",
+        "CC NUMBER": "NEW:CC-0074485",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_The system was installed with Win11_24H2_Chinese_Simplified_x64.  After completing the Data Check, the report could not be opened._[Nexim]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Host error_[NXT]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zceFwYAI",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sueqKYAQ",
         "CASE STATUS": "Closed"
     },
     {
@@ -2862,12 +2970,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-05-25T01:45:54+00:00",
-        "CC NUMBER": "NEW:CC-0076424",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR waste tape box_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000yIn7tYAC",
+        "DATE": "2026-04-13T15:45:27+00:00",
+        "CC NUMBER": "NEW:CC-0074398",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Install the splicing double-check function for NXTR_[NXTR-S]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA",
         "CASE STATUS": "Closed"
     },
     {
@@ -2880,12 +2988,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-05-20T09:56:26+00:00",
-        "CC NUMBER": "NEW:CC-0076237",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Normal[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Customer request setting : Turn off operation of NXTR module tape cutter_[NXTR]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xeE5aYAE",
+        "DATE": "2026-04-11T06:44:46+00:00",
+        "CC NUMBER": "NEW:CC-0074315",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim funtion error : 1. Nexim management monitor,  2. Nexim report_[Nexim]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sW9lsYAC",
         "CASE STATUS": "Closed"
     },
     {
@@ -3051,12 +3159,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-05-19T03:08:39+00:00",
-        "CC NUMBER": "NEW:CC-0076129",
+        "DATE": "2026-04-03T05:02:59+00:00",
+        "CC NUMBER": "NEW:CC-0073655",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about panel rotation setting in Nexim dual lane job_[Nexim]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xOcyHYAS",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently._[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000r4bnMYAQ",
         "CASE STATUS": "Closed"
     },
     {
@@ -3177,12 +3285,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-05-08T07:15:34+00:00",
-        "CC NUMBER": "NEW:CC-0075609",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim application hang out_[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vwkBKYAY",
+        "DATE": "2026-03-20T05:05:01+00:00",
+        "CC NUMBER": "NEW:CC-0073059",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -3195,12 +3303,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-05-05T02:29:30+00:00",
-        "CC NUMBER": "NEW:CC-0075429",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Tray RM calibration data recovery_[NXTR-S]",
+        "DATE": "2026-03-20T02:24:57+00:00",
+        "CC NUMBER": "NEW:CC-0073059",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vWPx2YAG",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -3321,21 +3429,21 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-29T04:32:43+00:00",
-        "CC NUMBER": "NEW:CC-0075317",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Question about RH28 placing head error code 0000B134_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uwFeQYAU",
+        "DATE": "2026-03-07T04:23:38+00:00",
+        "CC NUMBER": "NEW:CC-0072320",
+        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[LEADER TECH VIETNAM COMPANY LIMITED]_NXTR module error 00003A31_[NXTR]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000o1Nx7YAE",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-04-24T00:43:24+00:00",
-        "CC NUMBER": "NEW:CC-0075078",
+        "DATE": "2026-03-06T07:12:05+00:00",
+        "CC NUMBER": "NEW:CC-0072294",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Request Tray RM calibration data_[NXTR-S]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Remote Etool software_[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uFyRtYAK",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nwAEAYA2",
         "CASE STATUS": "Closed"
     },
     {
@@ -3357,12 +3465,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-21T06:23:02+00:00",
-        "CC NUMBER": "NEW:CC-0074899",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECS/GEM Error 18098026 when executing S2F41 (PPLISTN and GET_JOBDATA)_[NXTR-S]",
+        "DATE": "2026-03-04T06:19:43+00:00",
+        "CC NUMBER": "NEW:CC-0072091",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000tp6jhYAA",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nXR3iYAG",
         "CASE STATUS": "Closed"
     },
     {
@@ -3384,12 +3492,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-15T11:03:51+00:00",
-        "CC NUMBER": "NEW:CC-0074584",
-        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Normal[LEADER TECH VIETNAM COMPANY LIMITED]_Can not open inventory function_[Nexim]",
+        "DATE": "2026-03-02T01:08:53+00:00",
+        "CC NUMBER": "NEW:CC-0071951",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Nexim software_[Nexim]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t4HiXYAU",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nFE4uYAG",
         "CASE STATUS": "Closed"
     },
     {
@@ -3402,12 +3510,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-15T10:38:08+00:00",
-        "CC NUMBER": "NEW:CC-0074583",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Procedure to back up and restore Pronavi database, FIDB database_[Nexim]",
+        "DATE": "2026-02-28T01:37:07+00:00",
+        "CC NUMBER": "NEW:CC-0071919",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bc  and version 2.3_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000t3aDqYAI",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000n62NzYAI",
         "CASE STATUS": "Closed"
     },
     {
@@ -3420,12 +3528,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-15T01:45:49+00:00",
-        "CC NUMBER": "NEW:CC-0074525",
+        "DATE": "2026-02-26T09:51:26+00:00",
+        "CC NUMBER": "NEW:CC-0071860",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Cannot optimize with Head RH02_[NXTR-S]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000syamIYAQ",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Interference caused the part camera glass cover to break_[NXTR-S]",
+        "Inquiry type": "04.Interference",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mtBqPYAU",
         "CASE STATUS": "Closed"
     },
     {
@@ -3501,12 +3609,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-14T12:45:30+00:00",
-        "CC NUMBER": "NEW:CC-0074485",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Host error_[NXT]",
+        "DATE": "2026-02-10T01:27:20+00:00",
+        "CC NUMBER": "NEW:CC-0071029",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Fail to update system layout after Nexim patch installation_[Nexim]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sueqKYAQ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000keb4sYAA",
         "CASE STATUS": "Closed"
     },
     {
@@ -3573,12 +3681,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-13T15:45:27+00:00",
-        "CC NUMBER": "NEW:CC-0074398",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Install the splicing double-check function for NXTR_[NXTR-S]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sljyiYAA",
+        "DATE": "2026-02-05T02:02:35+00:00",
+        "CC NUMBER": "NEW:CC-0070820",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Mark camera error_[NXTR]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000k1wqiYAA",
         "CASE STATUS": "Closed"
     },
     {
@@ -3762,12 +3870,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-11T06:44:46+00:00",
-        "CC NUMBER": "NEW:CC-0074315",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Nexim funtion error : 1. Nexim management monitor,  2. Nexim report_[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000sW9lsYAC",
+        "DATE": "2026-01-19T08:44:59+00:00",
+        "CC NUMBER": "NEW:CC-0069895",
+        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
+        "TOPIC": "Urgent[GOERTEK MICROELECTRONICS VINA CO., LTD.]_M2M cannot transmit board skip information to the LCU._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -3780,12 +3888,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-03T05:02:59+00:00",
-        "CC NUMBER": "NEW:CC-0073655",
+        "DATE": "2026-01-15T08:21:01+00:00",
+        "CC NUMBER": "NEW:CC-0069740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Errors occurred at Modules 3, 4, 7, and 8 with error codes 8CB3702A and 8CB361C2. The issue occurs intermittently._[NXTR-S]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000r4bnMYAQ",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_[NXTR]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -3843,12 +3951,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-20T05:05:01+00:00",
-        "CC NUMBER": "NEW:CC-0073059",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
+        "DATE": "2026-01-13T04:34:11+00:00",
+        "CC NUMBER": "NEW:CC-0069571",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about \"Nexim Database Backup and Restore Tool\"_[Nexim]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gly2CYAQ",
         "CASE STATUS": "Closed"
     },
     {
@@ -3888,12 +3996,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-20T02:24:57+00:00",
-        "CC NUMBER": "NEW:CC-0073059",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Normal[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Question about heightened accuracy PAM measurement_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000pbnFlYAI",
+        "DATE": "2026-01-07T11:50:58+00:00",
+        "CC NUMBER": "NEW:CC-0069339",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Patch to solve error 6709ffff happened when open Nexim job_[NXTR]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gDvhqYAC",
         "CASE STATUS": "Closed"
     },
     {
@@ -3969,12 +4077,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-07T04:23:38+00:00",
-        "CC NUMBER": "NEW:CC-0072320",
-        "Customer": "LEADER TECH VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Urgent[LEADER TECH VIETNAM COMPANY LIMITED]_NXTR module error 00003A31_[NXTR]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000o1Nx7YAE",
+        "DATE": "2025-12-24T02:08:12+00:00",
+        "CC NUMBER": "NEW:CC-0068958",
+        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
+        "TOPIC": "Normal[GOERTEK MICROELECTRONICS VINA CO., LTD.]_Question about NXTR floor conditions for machine installation_[NXTR]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000evAeoYAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -4239,12 +4347,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-06T07:12:05+00:00",
-        "CC NUMBER": "NEW:CC-0072294",
+        "DATE": "2025-11-18T04:54:38+00:00",
+        "CC NUMBER": "NEW:CC-0067181",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Remote Etool software_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nwAEAYA2",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_HOSTIF issue -Machine didn't stop after receive STOPEQUIP command from upper host_[NXTR]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000agIa7YAE",
         "CASE STATUS": "Closed"
     },
     {
@@ -4383,12 +4491,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-04T06:19:43+00:00",
-        "CC NUMBER": "NEW:CC-0072091",
+        "DATE": "2025-11-08T08:40:18+00:00",
+        "CC NUMBER": "NEW:CC-0066704",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_During production, Module 2RV did not place components onto the PCB, and no alarm was displayed_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nXR3iYAG",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_[NXTR-S]",
+        "Inquiry type": "08.Board transfer error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF",
         "CASE STATUS": "Closed"
     },
     {
@@ -4545,12 +4653,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-02T01:08:53+00:00",
-        "CC NUMBER": "NEW:CC-0071951",
+        "DATE": "2025-10-28T03:23:53+00:00",
+        "CC NUMBER": "NEW:CC-0066116",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Nexim software_[Nexim]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Placing head RH08  error 00001910_[NXTR]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000nFE4uYAG",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Y9RaGYAV",
         "CASE STATUS": "Closed"
     },
     {
@@ -4680,12 +4788,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-02-28T01:37:07+00:00",
-        "CC NUMBER": "NEW:CC-0071919",
+        "DATE": "2025-10-15T10:33:54+00:00",
+        "CC NUMBER": "NEW:CC-0065481",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.2 Bc  and version 2.3_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000n62NzYAI",
+        "TOPIC": "Very Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR-S module 2RV show 879A2D18 error after turn power machine_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Wn9ULYAZ",
         "CASE STATUS": "Closed"
     },
     {
@@ -4887,12 +4995,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-02-26T09:51:26+00:00",
-        "CC NUMBER": "NEW:CC-0071860",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Interference caused the part camera glass cover to break_[NXTR-S]",
-        "Inquiry type": "04.Interference",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000mtBqPYAU",
+        "DATE": "2025-09-16T02:59:20+00:00",
+        "CC NUMBER": "NEW:CC-0064204",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8CB3 occurred during production._生産中に8CB3が発生。[Nexim]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000U2m2ZYAR",
         "CASE STATUS": "Closed"
     },
     {
@@ -5022,12 +5130,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-02-10T01:27:20+00:00",
-        "CC NUMBER": "NEW:CC-0071029",
+        "DATE": "2025-08-27T02:38:05+00:00",
+        "CC NUMBER": "NEW:CC-0063363",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Fail to update system layout after Nexim patch installation_[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000keb4sYAA",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal noise and interference of the NXTR module during operation are caused by loose bolts_[NXTR]",
+        "Inquiry type": "11.Request",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SSBoVYAX",
         "CASE STATUS": "Closed"
     },
     {
@@ -5049,12 +5157,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-02-05T02:02:35+00:00",
-        "CC NUMBER": "NEW:CC-0070820",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Mark camera error_[NXTR]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000k1wqiYAA",
+        "DATE": "2025-08-22T03:55:04+00:00",
+        "CC NUMBER": "NEW:CC-0063173",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Top cover of module NXTR-S was deformation, bending_[NXTR-S]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S3aemYAB",
         "CASE STATUS": "Closed"
     },
     {
@@ -5247,12 +5355,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-01-19T08:44:59+00:00",
-        "CC NUMBER": "NEW:CC-0069895",
-        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
-        "TOPIC": "Urgent[GOERTEK MICROELECTRONICS VINA CO., LTD.]_M2M cannot transmit board skip information to the LCU._[NXTR-S]",
+        "DATE": "2025-08-08T17:08:39+00:00",
+        "CC NUMBER": "NEW:CC-0062684",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Not Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_Encountering an error with error code 8F55 on RH28_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IezDaYAJ",
         "CASE STATUS": "Closed"
     },
     {
@@ -5562,75 +5670,75 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-01-15T08:21:01+00:00",
-        "CC NUMBER": "NEW:CC-0069740",
+        "DATE": "2025-06-27T04:28:46+00:00",
+        "CC NUMBER": "NEW:CC-0060627",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_[NXTR]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2026-01-13T04:34:11+00:00",
-        "CC NUMBER": "NEW:CC-0069571",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about \"Nexim Database Backup and Restore Tool\"_[Nexim]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.1 Sc  and version 2.2_[NXTR-S]",
         "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gly2CYAQ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLI2YAN",
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-01-07T11:50:58+00:00",
-        "CC NUMBER": "NEW:CC-0069339",
+        "DATE": "2025-06-27T02:24:20+00:00",
+        "CC NUMBER": "NEW:CC-0060615",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Patch to solve error 6709ffff happened when open Nexim job_[NXTR]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gDvhqYAC",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-12-24T02:08:12+00:00",
-        "CC NUMBER": "NEW:CC-0068958",
-        "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
-        "TOPIC": "Normal[GOERTEK MICROELECTRONICS VINA CO., LTD.]_Question about NXTR floor conditions for machine installation_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000evAeoYAE",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-11-18T04:54:38+00:00",
-        "CC NUMBER": "NEW:CC-0067181",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_HOSTIF issue -Machine didn't stop after receive STOPEQUIP command from upper host_[NXTR]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000agIa7YAE",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-11-08T08:40:18+00:00",
-        "CC NUMBER": "NEW:CC-0066704",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_[NXTR-S]",
-        "Inquiry type": "08.Board transfer error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-10-28T03:23:53+00:00",
-        "CC NUMBER": "NEW:CC-0066116",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Placing head RH08  error 00001910_[NXTR]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Y9RaGYAV",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-10-15T10:33:54+00:00",
-        "CC NUMBER": "NEW:CC-0065481",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Very Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR-S module 2RV show 879A2D18 error after turn power machine_[NXTR-S]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Set location button is disappear when performing part supply in tray RM_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Wn9ULYAZ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLB9YAN",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-06-19T03:48:27+00:00",
+        "CC NUMBER": "NEW:CC-0060199",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Jobdatabase maintenance_[Nexim]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie9tgYAB",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-06-17T05:06:27+00:00",
+        "CC NUMBER": "NEW:CC-0060075",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal sound occurs during pick and place process with RH28 head_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-06-06T06:50:35+00:00",
+        "CC NUMBER": "NEW:CC-0059600",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Error 6709ffff occured when open Nexim job_[Nexim]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdxHKYAZ",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-06-03T10:22:22+00:00",
+        "CC NUMBER": "NEW:CC-0059413",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_AVL data suddenly lost_[Nexim]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-05-28T02:47:17+00:00",
+        "CC NUMBER": "NEW:CC-0059145",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Autoload job in NXTR machine_[NXTR-S]",
+        "Inquiry type": "09.Other trouble",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdnIPYAZ",
+        "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2025-05-10T09:37:06+00:00",
+        "CC NUMBER": "NEW:CC-0058334",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim job optimize/On-machine editting_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHaFbYAL",
         "CASE STATUS": "Closed"
     },
     {
@@ -5713,114 +5821,6 @@
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW",
         "CASE STATUS": ""
-    },
-    {
-        "DATE": "2025-09-16T02:59:20+00:00",
-        "CC NUMBER": "NEW:CC-0064204",
-        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8CB3 occurred during production._生産中に8CB3が発生。[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000U2m2ZYAR",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-08-27T02:38:05+00:00",
-        "CC NUMBER": "NEW:CC-0063363",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal noise and interference of the NXTR module during operation are caused by loose bolts_[NXTR]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000SSBoVYAX",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-08-22T03:55:04+00:00",
-        "CC NUMBER": "NEW:CC-0063173",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Top cover of module NXTR-S was deformation, bending_[NXTR-S]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000S3aemYAB",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-08-08T17:08:39+00:00",
-        "CC NUMBER": "NEW:CC-0062684",
-        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
-        "TOPIC": "Not Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_Encountering an error with error code 8F55 on RH28_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IezDaYAJ",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-27T04:28:46+00:00",
-        "CC NUMBER": "NEW:CC-0060627",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about NXTR version 2.1 Sc  and version 2.2_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLI2YAN",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-27T02:24:20+00:00",
-        "CC NUMBER": "NEW:CC-0060615",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Set location button is disappear when performing part supply in tray RM_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IeLB9YAN",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-19T03:48:27+00:00",
-        "CC NUMBER": "NEW:CC-0060199",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about Jobdatabase maintenance_[Nexim]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie9tgYAB",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-17T05:06:27+00:00",
-        "CC NUMBER": "NEW:CC-0060075",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Abnormal sound occurs during pick and place process with RH28 head_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Ie6p6YAB",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-06T06:50:35+00:00",
-        "CC NUMBER": "NEW:CC-0059600",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Error 6709ffff occured when open Nexim job_[Nexim]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdxHKYAZ",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-06-03T10:22:22+00:00",
-        "CC NUMBER": "NEW:CC-0059413",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_AVL data suddenly lost_[Nexim]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdtMGYAZ",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-05-28T02:47:17+00:00",
-        "CC NUMBER": "NEW:CC-0059145",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Autoload job in NXTR machine_[NXTR-S]",
-        "Inquiry type": "09.Other trouble",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IdnIPYAZ",
-        "CASE STATUS": "Closed"
-    },
-    {
-        "DATE": "2025-05-10T09:37:06+00:00",
-        "CC NUMBER": "NEW:CC-0058334",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim job optimize/On-machine editting_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHaFbYAL",
-        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2024-01-30T09:06:36+00:00",
