@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-31T05:04:35+00:00",
+        "CC NUMBER": "CC-0084959",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Error code 8BD6(PAM for heightened accuracy mode has not been performed)_[NXTR-A]",
+        "Communication Content": "Dear Amano-san,\n\nToday, I performed the PAM Precision 15 µm Up/Down test for the 3L module. During the test, the following changes were applied:\n\nChanged the lighting source to Blue Sidelight.\n\nSet the Exposure Time to 150.\n\nAfter the test, the machine generated two new offset files.\n\nIn addition, I changed all Bump and Lead components in the Shape Data Place Mode from Normal Mode to Precision Mode. The updated data was then uploaded to the machine and verified through a trial run.\n\nResult: The machine is running normally, and no issues were observed.\n\nTherefore, I would like to close this issue. Thank you for your support and assistance throughout the investigation.\n\nPlease refer to the attached images for detailed information.\n\nBest regards\n\nFMV-Ha",
+        "FMV PIC": "Nguyen Duｙ",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N2HK4YAN"
+    },
+    {
         "DATE": "2026-10-31T03:14:02+00:00",
         "CC NUMBER": "CC-0083882",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
