@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-10-31T07:46:15+00:00",
+        "CC NUMBER": "NEW:CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the issue:\n\nAbout 14h22,  We set skip board for module 1 R, Panel production normally at module 1 and module 2R, when module 2R complete placement panel, and panel was tranfer to module 2L. But error 9481 fail to share information was display.\n\nAction: I remove panel, and set it from module 1 (skip feeder at M1 and M2-R), but still error 9481 at 2L.  I have to remove panel and reset machine.\n\nI take trace data, please help to analyst it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-10-31T07:18:43+00:00",
         "CC NUMBER": "NEW:CC-0085201",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
