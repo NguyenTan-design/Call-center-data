@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-02T01:25:53+00:00",
+        "CC NUMBER": "CC-0082964",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error 80003DF3, Subcode 01FF0007 – Unit command timeout_[NXTR-S]",
+        "Communication Content": "Dear Chien san,\n\nCould you please confirm the bolt size?\n\nIs it an M3×6 (hex-socket button head) bolt, or is it a 2.0 mm size?\n\nIn the attached Excel file [Hex-socket button head M3×6.xlsx], I have extracted the data assuming the bolt is an M3×6 (hex-socket button head) type.\n\nPlease double-check the relevant locations to see if a bolt is actually present.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GgXXLYA3"
+    },
+    {
+        "DATE": "2026-11-02T01:12:05+00:00",
+        "CC NUMBER": "NEW:CC-0085213",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR Idle Mode – Head Does Not Move After Calibration Stage_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt LiteOn, when we try to run the NXTR in Idle Mode, the machine only performs the calibration stage. After calibration is completed, the head does not move.\n\nCould you please refer to the attached video and help us confirm whether this is a machine issue or if we are missing any operation steps?\n\nThank you for your time and support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NpLMQYA3"
+    },
+    {
         "DATE": "2026-11-02T00:37:20+00:00",
         "CC NUMBER": "CC-0082959",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
