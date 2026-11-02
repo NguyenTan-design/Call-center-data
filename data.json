@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T23:29:30+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nWe have collected trace data for “Feeder with red LED” error.\n\nPlease check the attach file for more details and help us analyze the trace data to resolve the issue.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-11-02T22:52:48+00:00",
         "CC NUMBER": "CC-0084538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
