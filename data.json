@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T06:20:57+00:00",
+        "CC NUMBER": "CC-0084783",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine.‐2_機上編集関係なく 装置側で画面操作を受け付けなくなっている[NXTR-S]",
+        "Communication Content": "Dear FMV-Ha Ngoc Son-san,\n\nWe had investigate the case and found that this issue was caused by the timing of processing during screen updates.\n\nDue to a problem in the machine application, screen update information could occasionally be duplicated. When this occurs, the screen is no longer able to switch properly.\n\nThe issue has been fixed in the latest version of V2.DM create based on V2.35 so please let me send through file transfer system.\n\n================\n\nInstallCD_V2.DMk.zip\n\nha.ngocson@fuji-smt.com.sg\n\nDownload PW\t: \"AznvnpXt\"\n\nZIPfile open PW\t: \"pr3eYAjx\"\n\n================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MP7UFYA1"
+    },
+    {
         "DATE": "2026-11-02T05:57:11+00:00",
         "CC NUMBER": "CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
