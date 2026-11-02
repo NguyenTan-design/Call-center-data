@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T00:07:39+00:00",
+        "CC NUMBER": "CC-0069438",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Add a function to turn on/off the display of jobs on the Workorder list._リスト上のジョブの表示をオン/オフする機能を追加要求[NXTR-S]",
+        "Communication Content": "Dear Binh san\n\nSorry for keep you waiting.\n\nI confirmed with designer team that NXTR will support back ground JOB transmission same as NXT3 since V2.40.\n\nThis function is suitable for the customer that the specific person can send the JOB to the NXTR as back ground, then the operator just download the next production JOB on the machine.\n\nIs it possible to wait the customer to release the V2.40?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gRW24YAG"
+    },
+    {
         "DATE": "2026-10-31T08:56:49+00:00",
         "CC NUMBER": "CC-0082584",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
