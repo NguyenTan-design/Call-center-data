@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-02T10:27:47+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThank you for your advice.\n\nThis issue has mainly occurred on Modules 1, 2, and 3 of Line 4E\n\nWe have already replaced the MFU, and the issue has not occurred again so far.We  also checked Slot 26 of the MFU on Module 1 and found no abnormalities\n\nWe will continue to monitor the situation and provide further updates if the issue occurs again.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
+        "DATE": "2026-11-02T10:27:38+00:00",
+        "CC NUMBER": "CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear Kaki san,\n\n■Time of occurrence\n\nCould you please let us know the exact time when the issue occurred?\n\nA: Time happen about 13h53\n\n■Details of the issue\n\nIs our understanding correct that the 2L robot stopped responding and did not proceed with component mounting?\n\n  =>> Yes\n\nAlso, do 2R and 2L refer to the right and left lanes of Module 2, respectively?\n\n=>> Yes\n\nAnd regarding the 2R robot,you mentioned that the 2R robot completed the panel at Lane 1 but did not transfer the panel to 2L.\n\nWas this a separate issue, or was the panel not automatically transferred simply because the 2L robot had stopped operating?\n\nA:\n\n2 Issue happen at the same time: 1. Left robot no operation. 2 panel not tranfer from right to left. So i think it have relevance each other. reason come from Left robot hangup.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
         "DATE": "2026-11-02T10:00:34+00:00",
         "CC NUMBER": "NEW:CC-0085276",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
