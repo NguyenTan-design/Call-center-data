@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T00:37:20+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_NXTRの操作画面にて、画像モニターに切り替えると表示が左上の方へ縮小されている時がある[NXTR-S]",
+        "Communication Content": "Dear Doan Nhon-san\n\nAs a result of our investigation, we have identified the sequence of operations that causes this issue.\n\nWe will release a version that addresses this issue on Wednesday, November 11.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-11-02T00:07:39+00:00",
         "CC NUMBER": "CC-0069438",
         "Customer": "BYD Electronics Vietnam Company Limited]",
