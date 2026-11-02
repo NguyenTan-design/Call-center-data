@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T16:52:37+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "FMV-Chien-san\n\nI checked with the design team, and this area is not intended to be adjusted in the field. Therefore, there is no official adjustment procedure available.\n\nSince the machine is currently operating normally after the adjustment, please continue to monitor the situation for the time being.\n\nIf the issue reoccurs, please let us know the details of the occurrence and operating conditions. We will provide the feedback to the design team for further investigation.\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-11-02T11:31:06+00:00",
         "CC NUMBER": "CC-0084962",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
