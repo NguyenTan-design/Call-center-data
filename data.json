@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T22:52:48+00:00",
+        "CC NUMBER": "CC-0084538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 8C34 during production_[NXTR-S]",
+        "Communication Content": "FMV-Tran The-san\n\nBased on the event log, it appears that an issue occurred at M3-L on October 19 at 18:14.\n\nAt that time, it seems that requests from M3-L were not being received.\n\nI also reviewed the performance log; however, the activity of all LCU processes was not recorded, so it was not possible to determine the actual system load.\n\nThe recorded status was as follows:\n\n・Available memory: approximately 9 GB\n\n・CPU queue length: fluctuating between 0 and 4\n\n・Disk queue length: maximum 0.6\n\nIn addition, the Realtek PCIe GbE Family Controller is linked at 100 Mbps.\n\nPlease check the network cable and connector connections, as well as any other factors that may be affecting the network link speed or connection quality.\n\nCall center Amano",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LnRFSYA3"
+    },
+    {
         "DATE": "2026-11-02T16:52:37+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
