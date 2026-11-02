@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-02T05:57:11+00:00",
+        "CC NUMBER": "CC-0084962",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_NXTR Nozzle Detection Error Caused by the Whitish Plate at the Bottom of the Nozzle Station_ノズルステーションの底面プレートが原因で発生するNXTRノズル検出エラー[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\n現状はエラー発生した時に別の場所にノズル入れ替えたり、\n\n必要ないノズル抜いて、別の場所に返却させて暫定回避しているみたいですが、\n\nFMVエンジニアが送ったリストのやつWRで先に部品手配して、交換後に日本へ返却としますか？\n\nメンテしても汚れはあまり取れないので。\n\nFMV 高津",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N4aWzYAJ"
+    },
+    {
         "DATE": "2026-11-02T03:08:15+00:00",
         "CC NUMBER": "CC-0083387",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
