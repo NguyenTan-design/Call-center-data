@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T05:45:47+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Do Do san,\n\nInstead of configuring this on a part-by-part basis, we will add the setting of a distance between rejected parts in the machine configuration settings.\n\nIt will be planned to support this function in V2.60.\n\nNXTR V2.40 will be issued mid of Nov. So V2.60 will be released on Nov 2027.\n\nWould you agree to this? Please let me know.\n\nKonda,",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
         "DATE": "2026-11-03T04:13:34+00:00",
         "CC NUMBER": "CC-0079012",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
