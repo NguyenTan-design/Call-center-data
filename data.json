@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T06:07:23+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Xuan Trung san,\n\nWe suspect there is a problem with the rotary holder (Revolver).\n\nIs it possible to replace the rotary holder in Vietnam? If not, please contact FUJI to request repairs.\n\nIf you request repairs from FUJI, you do not need to issue a warranty order.\n\nPlease let me know.\n\nKonda,",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-11-03T05:45:47+00:00",
         "CC NUMBER": "CC-0075836",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -49543,5 +49552,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-03T06:21:49+00:00",
+        "CC NUMBER": "CC-0083673",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR-S Blue screen_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nAccording to our NXTR application team, It was a software problem.\n\nThe corrected version will be released on 11 Nov.\n\nThis version also fixes the issue described in CC-0083763.\n\nKonda,",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001If7vdYAB"
     }
 ]
