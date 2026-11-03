@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T10:05:25+00:00",
+        "CC NUMBER": "CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh,\n\nThank you for your inquiry.\n\nAfter confirming with our Design Team, we suspect that the cause of this issue is similar to that of CC-0084405, namely insufficient capacity in the database USER2 Work Table.\n\nThis issue can be resolved by updating the NEXIMDB database.\n\nLet me know if you have any further questions or concerns.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
+    },
+    {
         "DATE": "2026-11-03T09:25:01+00:00",
         "CC NUMBER": "CC-0083179",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
