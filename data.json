@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T06:21:49+00:00",
+        "CC NUMBER": "CC-0083673",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR-S Blue screen_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nAccording to our NXTR application team, It was a software problem.\n\nThe corrected version will be released on 11 Nov.\n\nThis version also fixes the issue described in CC-0083763.\n\nKonda,",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001If7vdYAB"
+    },
+    {
         "DATE": "2026-11-03T06:07:23+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -49552,14 +49561,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-03T06:21:49+00:00",
-        "CC NUMBER": "CC-0083673",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR-S Blue screen_[NXTR-S]",
-        "Communication Content": "Dear Tung san,\n\nAccording to our NXTR application team, It was a software problem.\n\nThe corrected version will be released on 11 Nov.\n\nThis version also fixes the issue described in CC-0083763.\n\nKonda,",
-        "FMV PIC": "Nguyen Manh Cuong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001If7vdYAB"
     }
 ]
