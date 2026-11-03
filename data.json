@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-03T00:34:32+00:00",
+        "CC NUMBER": "CC-0085191",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right cannot read the Skip Mark_[NXTR-S]",
+        "Communication Content": "Dear Hoang Kha-san,\n\nThank you for providing the trace data, production program, and video.\n\nWe have investigated this issue with our engineering team and would\n\nlike to ask you the following question before we proceed further.\n\n[Question from Engineering Team]\n\nIs the line running in reverse flow(right -> left), with Module M1 Right as the\n\nfirst robot?\n\nThe reason we are asking is that if the line is running in reverse\n\nflow and M1 Right is the first robot, there is a known issue where\n\nthe first robot does not read the Board Skip Mark.\n\nThe countermeasure for this case differs from the current issue,\n\nso we would like to confirm this first.\n\nIf the line is NOT running in reverse flow, we are able to release\n\na corrected software version next week.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN"
+    },
+    {
+        "DATE": "2026-11-03T00:31:04+00:00",
+        "CC NUMBER": "CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Dinh Duong-san,\n\nThank you for uploading the log files and for your continued patience.\n\nWe have received feedback from our engineering team and would like to\n\nshare the following.\n\n[Engineering Team Feedback]\n\n1. Regarding the PC causing the lock:\n\n   Based on the CSV file you provided, the PC at IP address\n\n   192.168.10.8 is currently locking the NeximDB.\n\n   (Previously, it was 192.168.10.11.)\n\n   Please check the bottom of the CSV file to confirm this.\n\n2. Regarding patch 5220:\n\n   Please re-confirm that patch 5220 has been installed on ALL\n\n   Nexim PCs.\n\n   If patch 5220 is not installed on the PC that is causing the\n\n   lock, please install it immediately.\n\n3. Regarding the log files uploaded:\n\n   Based on the file name, the logs you uploaded appear to be from\n\n   the PC at IP address 192.168.10.7, not 192.168.10.8.\n\n   For the next occurrence, please collect logs from the PC that\n\n   is locking the NeximDB.\n\n4. Regarding the log collection tool:\n\n   Previously, we advised you to use tool 5259 (NeximLogManagerTool).\n\n   However, tool 5823 is a newer version.\n\n   Please use tool 5823 for log collection from the next occurrence.\n\nPlease let us know the result of the patch confirmation at your\n\nearliest convenience.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
+        "DATE": "2026-11-03T00:27:02+00:00",
+        "CC NUMBER": "CC-0085213",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR Idle Mode – Head Does Not Move After Calibration Stage_[NXTR-S]",
+        "Communication Content": "Dear Coung san,\n\nIf you switch to Idle mode, job data transmission is required.\n\nWe have received requests for improvement from other customers, and we are currently considering a solution.\n\nFor the time being, please continue to transmit the job data.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NpLMQYA3"
+    },
+    {
         "DATE": "2026-11-02T23:29:30+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
