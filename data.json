@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T06:56:42+00:00",
+        "CC NUMBER": "NEW:CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nToday Mitac customer want connect PC with AHCR machine for update data maintenance. After we change IP on monitor to 192.168.21.10. we can not ping form PC to AHCR. After that we try change safe mode of CPU and ping with IP address 169.254.0.1 but can not ping. Please support me investigate more. Note AHCR can operation normal\n\nThanks\n\nDung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
         "DATE": "2026-11-03T06:21:49+00:00",
         "CC NUMBER": "CC-0083673",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
