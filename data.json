@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T22:52:03+00:00",
+        "CC NUMBER": "CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dung-san\n\nWhen the CPU is in Safe Mode, is the PC also configured with a 169.254.0.* IP address?\n\nHave you referred to the operation manual?\n\nCall center Amano",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
         "DATE": "2026-11-03T16:14:06+00:00",
         "CC NUMBER": "NEW:CC-0085340",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
