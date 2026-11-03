@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T16:14:06+00:00",
+        "CC NUMBER": "NEW:CC-0085340",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The issue with the emergency stop button on Module 2R_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWe are experiencing an issue with the emergency stop button on Module 2R.\n\nSpecifically, when a technician presses the emergency stop button to perform an operation and then releases it, the NXTR module sometimes remains unresponsive, as if the emergency stop button were still being pressed.\n\nThis issue was previously reported under CC-0070068. Currently, it still occurs intermittently on this module.\n\nOur troubleshoot action:\n\n- Perform IO check: After releasing the EMG button, the CPU (2RR) did not receive the AAX000 EMERGENCY STOP button OK signal.\n\n- Replace emergency push button: same error.\n\n- Replace base interface board: same error.\n\n- Temporary workaround: Use I/O Check to remove the MFU from the module and then reinstall it, the module can resume normal operation.\n\nI have collected the trace data for this issue. Please help analyze it to fix this error.\n\nDetail:\n\n- Module type: 2R\n\n- Module S/N: HEBC11 0000537\n\n- Module number: 5\n\n- Time when the issue happend: From 6:12 PM to 6:17 PM October 30th.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O8RklYAF"
+    },
+    {
         "DATE": "2026-11-03T15:50:50+00:00",
         "CC NUMBER": "CC-0085134",
         "Customer": "BYD Electronics Vietnam Company Limited]",
