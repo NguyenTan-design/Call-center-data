@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-03T04:13:34+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano-San\n\nWe already swap lighting camera, mark camera with other module. The issue still happened same before swap. They no have mark camera spare, we only swap with other module.\n\nThanks for your sopport",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
+        "DATE": "2026-11-03T04:13:07+00:00",
+        "CC NUMBER": "CC-0084801",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder position displayed incorrectly on the Machine screen_装置画面でフィーダー位置が正しく表示されない[NXTR-S]",
+        "Communication Content": "Dear Pham Minh Duc-san,\n\nWe found the cause and planning to release the correction version based on V2.Dbc around end of next week.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MTVo5YAH"
+    },
+    {
         "DATE": "2026-11-03T03:38:37+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
