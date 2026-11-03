@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T01:46:55+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Chien san\n\nI confirmed with designer team more details.\n\nPlease kindly check below explanation once.\n\n*The situation of this skipping holder\n\nThe feeder is putting on the machine and the feeder inserting position is possible to pick up the parts with dual pick up\n\nBut the feeder mark is not read yet.\n\nThis situation is happened when the operator do the verification during production.\n\n1. Machine producing\n\n2. Parts empty on one of the feeder which is using dual pick up\n\n3. Pull out the feeder from the machine, at this time the machine pick up the parts from other feeder with all holder.\n\n4. Do the verification.\n\n5. Insert the feeder and recognize the feeder on the machine\n\n6. But if the feeder insert to the machine during parts placing by robot, the holder is skip and D701 is not counted.\n\n7. After finished placing parts, the machine read the feeder mark and use dual parts pick up and count again D701.\n\n*Additional information.\n\nIf the this situation happened, the inserted feeder is not feed the parts, so the parts is not dispose.\n\nIf the feeder is insert to the machine but the insert pitch between feeders are not match to dual pick up, the machine pick up the parts on both feeder alternately.\n\nDue to the technical reason in the machine programing, it is difficult to change this processing.\n\nSo please kindly discuss with customer about above explanation once.\n\nIf you have any question or concern, please kindly let me know.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-11-03T00:59:03+00:00",
         "CC NUMBER": "CC-0085191",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
