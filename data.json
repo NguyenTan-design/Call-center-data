@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T09:25:01+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Toyama san\n\nI have attached new trace. Please check at 14h55\n\nWe see some abnormal at video M2M. Form second 25 to second 40. only 1 board in side NXTR machine, but lighting Busy1 at M2M turn on 2 time. I think sensor out put of NXTR detect not good. I have check and reset sensor. Issue still happened. Please support me investigate more.\n\nThanks\n\nDung FMV",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-11-03T08:40:03+00:00",
         "CC NUMBER": "CC-0084026",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
