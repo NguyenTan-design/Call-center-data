@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T00:59:03+00:00",
+        "CC NUMBER": "CC-0085191",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right cannot read the Skip Mark_[NXTR-S]",
+        "Communication Content": "Dear Mehdi,\n\nThank you for your support.\n\nFor this case, the customer is currently running production in the Right-to-Left direction.\n\nNote:\n\nAnother customer of ours is currently experiencing the same issue, but their production direction is Left-to-Right.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN"
+    },
+    {
         "DATE": "2026-11-03T00:34:32+00:00",
         "CC NUMBER": "CC-0085191",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
