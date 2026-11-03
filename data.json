@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-03T11:50:32+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Dinh-San,\n\nFirst, regarding interference: depending on the timing, it can occur.\n\nThis is because there is inevitably a lag between sensor detection and the servo stopping.\n\nWe are currently investigating whether there are any potential solutions for the issue where interference cannot be accommodated depending on the insertion angle.\n\nAs for the issue of the alarm not sounding until the start button is pressed, this is a clear difference in specifications compared to the NXT III.\n\nThis change was made because the alarm sounding during stops was reducing operational efficiency.\n\nWe believe detection is unnecessary before automatic operation begins.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-11-03T11:32:25+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
