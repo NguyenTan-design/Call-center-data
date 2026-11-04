@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-04T06:26:55+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Kaki san,\n\nYour understand is correct. Please help to analyst it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-04T06:15:39+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nJust to confirm our understanding:\n\nThe issue did not occur when switching from a Pair Robot Production OFF job to an ON job.\n\nInstead, it occurred when switching from a Pair Robot Production ON job to an OFF job (Single Robot Production), and the error occurred on the second panel of the OFF job.\n\nIs our understanding correct?\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-04T05:26:43+00:00",
         "CC NUMBER": "CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
