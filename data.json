@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T02:42:07+00:00",
+        "CC NUMBER": "NEW:CC-0085377",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Some report information in Nexim is inconsistent with the production data in FUJI’s auxiliary software._[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nA customer has encountered an issue while using the reporting function in Nexim. When analyzing production data for the period from 2026-11-03 06:00 to 2026-11-03 18:00, the following discrepancies were observed for Module 4 (R-side):\n\n- According to FUJIWEB: Machine Error = 1%, Changeover = 2%, Maintenance = 3%.\n\n- According to the report generated via Nexim: Machine Error = 6.07%, Changeover = 0%, Maintenance = 0.09%.\n\nThe customer has requested that the data in the Nexim reports align with the data in FUJIWEB. Could you please provide some assistance with this? Thank you.\n\nbest regards，\n\nMiao",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OCUwxYAH"
+    },
+    {
         "DATE": "2026-11-04T02:01:44+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",

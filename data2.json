@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T02:42:07+00:00",
+        "CC NUMBER": "NEW:CC-0085377",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Some report information in Nexim is inconsistent with the production data in FUJI’s auxiliary software._[Nexim]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OCUwxYAH",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-11-03T16:14:06+00:00",
         "CC NUMBER": "NEW:CC-0085340",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
