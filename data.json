@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T06:46:59+00:00",
+        "CC NUMBER": "CC-0085380",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nFMV: CFX upload, but no production-related information.\n\nCC: Is this meaning that CFX interface is updating the information to customer system side.\n\n    However, this updating information is not related to production information?\n\n    If my understanding correct, could you please explain what kind of information customer's system received via CFX interface?\n\nFMV: You are understanding is correct. You can refer image: Data CFX check by customer i was attached. For see about: information customer`s system received via CFX interface.\n\nCC: Is the service still not working?\n\nFor the service is not working issue, please kindly take a windows event log as well.\n\nFMV: After we restart PC 2 time. The CFX service can running normal. If service can not running again i will create new ticket.\n\nThank for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+    },
+    {
         "DATE": "2026-11-04T06:26:55+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
