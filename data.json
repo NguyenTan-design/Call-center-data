@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-04T04:14:58+00:00",
+        "CC NUMBER": "CC-0084491",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_SNC-01-001484 – Error Code 860142F1: Bad 2D Code Box Full_[NXTR]",
+        "Communication Content": "Dear Thuongnd san,\n\nThe 2UGTGP0001 is the Assy part number without panel height check sensor.\n\nThe Warranty Judgment Team will correct the details in your warranty.\n\nI will close this incqiry,\n\nKonda,",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LgmV3YAJ"
+    },
+    {
+        "DATE": "2026-11-04T04:14:43+00:00",
+        "CC NUMBER": "CC-0078592",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH02 head board damaged_RH02のヘッド基板が破損[NXTR-S]",
+        "Communication Content": "FUJI and the research organization have been unable to reproduce the issue.\n\nTherefore, we are currently considering switching to a circuit board with additional protective components.\n\nWe will also update the schedule.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014WuKTYA0"
+    },
+    {
+        "DATE": "2026-11-04T04:08:51+00:00",
+        "CC NUMBER": "CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dear Amano san\n\nCC: When the CPU is in Safe Mode, is the PC also configured with a 169.254.0.* IP address?\n\nHave you referred to the operation manual?\n\nFMV: I already change ip of PC to 169.254.0. xx\n\nI have attach IP PC at trace data. Please check more.\n\nThanks for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
+        "DATE": "2026-11-04T04:05:48+00:00",
+        "CC NUMBER": "CC-0082975",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8F5A error when load job from Nexim_[NXTR-S]",
+        "Communication Content": "Release an updated version of the software on November 11.",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
+    },
+    {
         "DATE": "2026-11-04T04:05:25+00:00",
         "CC NUMBER": "CC-0081305",
         "Customer": "DBG TECHNOLOGY (VIET NAM) COMPANY LIMITED]",
@@ -49750,14 +49786,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-04T04:05:48+00:00",
-        "CC NUMBER": "CC-0082975",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8F5A error when load job from Nexim_[NXTR-S]",
-        "Communication Content": "Release an updated version of the software on November 11.",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
     }
 ]
