@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T09:53:54+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear Toyama san\n\nI have attached new trace 20261104. Please check data at 16h16\n\nWe see some abnormal at video M2M. Form second 0 to second 45. only 1 board in side NXTR machine, but lighting Busy1 at M2M turn on 2 time.\n\nThank for your support\n\nDung FMV",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-11-04T09:38:04+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
