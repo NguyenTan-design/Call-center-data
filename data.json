@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-04T08:40:08+00:00",
+        "CC NUMBER": "CC-0083408",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_93F10000 (Nozzle exchange error), IPS error D7D6_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nThank you so your support.\n\nRecently, This head running production is normal, not happen error D7D6 (IPS tilt) and 93F1.\n\nTherefore, customer are not agree transfer it to BNO to repair and check.\n\nSo, if can we will close this issue.\n\nThank you & best regards!\n\nDuong,",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Hw8vlYAB"
+    },
+    {
+        "DATE": "2026-11-04T08:30:25+00:00",
+        "CC NUMBER": "CC-0080890",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Error when scan AVL part with \" Shift Change Verify\" use Simple AVL mode._[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nSorry so response later.\n\nRecently, customer is agree instead the AVL part position for Origin part position.\n\nAnd this error not happen again.\n\nSo, we will close this issue\n\nThank you so much!",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0w3fYAB"
+    },
+    {
         "DATE": "2026-11-04T08:08:12+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -49912,5 +49930,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-04T08:45:06+00:00",
+        "CC NUMBER": "CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh\n\nRegarding the measures to prevent this issue from recurring, we have confirmed the following options with our Design Team.\n\nWe would like to ask which of the following approaches you would prefer.\n\n1. Add additional database datafiles\n\nAdditional datafiles will be added to the USER2 and INDX2 tablespaces in the database, with a maximum size of 96 GB for each tablespace.\n\nPlease note that this approach has a storage capacity limit, and regular database maintenance will still be required.\n\n2. Implement a warning notification for insufficient storage capacity\n\nA warning notification will be displayed in the NEXIM Editor when the available storage capacity becomes insufficient.\n\nThis will allow you to identify potential capacity issues in advance and take the necessary maintenance measures.\n\n3.Please perform regular SMTR maintenance regularly.\n\nCould you please let us know whether you would prefer Option 1 or Option 2?\n\nThank you for your cooperation.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
     }
 ]
