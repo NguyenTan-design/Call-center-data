@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-04T08:08:12+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san,\n\nThank you for the update.\n\nWould it be possible to check whether this issue can be reproduced using the feeder that generated the error in the video you provided?\n\nFrom the video, it appears that the error occurred when the tension lever was lowered almost to its lowest possible position.\n\nWe would like to know whether the same error occurs again if the tension lever is lowered to approximately the same extreme position.\n\nIn addition, could you please check whether the same error occurs on another feeder that has not exhibited this issue, by lowering its tension lever to the same extreme position?\n\nWe would appreciate your cooperation in helping us determine whether the cause is:\n\nRelated to the\n\n- tension setting itself, or\n\n- Due to variations between individual feeders.\n\nThis information will help us isolate the root cause of the issue.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-11-04T08:01:01+00:00",
+        "CC NUMBER": "CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dear Dung san,\n\nTraceData is missing from the attachment.\n\nIf you have it, please attach it again.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
         "DATE": "2026-11-04T07:33:24+00:00",
         "CC NUMBER": "NEW:CC-0085407",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
