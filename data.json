@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-04T06:59:36+00:00",
+        "CC NUMBER": "CC-0085380",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nFMV: CFX upload, but no production-related information.\n\nCC: Is this meaning that CFX interface is updating the information to customer system side.\n\n    However, this updating information is not related to production information?\n\n    If my understanding correct, could you please explain what kind of information customer's system received via CFX interface?\n\nFMV: You are understanding is correct. You can refer image:  Information customer`s system received via CFX interface 1,2 ,3.  i was attached.\n\nCC: Is the service still not working?\n\nFor the service is not working issue, please kindly take a windows event log as well.\n\nFMV: After we restart PC 2 time. The CFX service can running normal. If service can not running again i will create new ticket.\n\nThank for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+    },
+    {
+        "DATE": "2026-11-04T06:57:15+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nThank you for the update.\n\nFrom the log, the process started at 07:00 on September 15 and continued running until 00:36 on September 16.\n\nA total of 2,772 jobs were successfully exported in approximately 15.5 hours.\n\nSince there are 12,248 jobs in NeximDB, and it takes approximately 20 to 30 seconds per job,\n\nthe entire export process is expected to take about 3 to 4 days to complete.\n\nIf the status of NeximDataBackup in Task Scheduler is still Running, please wait for the process to finish.\n\nThere is also a possibility that the previous execution did not complete normally.\n\nFor example, it may have been terminated forcibly and stopped before all jobs were exported.\n\nPossible causes include a power outage, service termination, insufficient memory, or other unknown factors.\n\nIf the Auto Backup Tool (export process) takes too long and could not wait to complete, it may be better using a NeximDB backup instead.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-11-04T06:46:59+00:00",
         "CC NUMBER": "CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
