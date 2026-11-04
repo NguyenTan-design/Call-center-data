@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T03:08:30+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Amano san,\n\nAfter upgrading to version V2.2Bu, an issue occurred with the Traceability Output file.\n\nPhenomenon: All information in the Traceability Output file is missing.\n\nPlease refer to the attached Traceability Output file for details.\n\n1. Actions to take after an anomaly occurs:\n\n- Restart machine, Line server, LCU -> same issue\n\n- Downgrade ver from V2.2Bu to V2.2Bm -> same issue\n\n- Check the setting on the system layout, Fuji Trax Web, and the traceability output tool; all settings are normal.\n\n- Upgrade ver from V2.2Bm to V2.2B u -> same issue\n\n- Downgrade ver from V2.2Bu to V2.2Bm -> same issue\n\n- Change LCU computer -> same issue\n\n- Change back the original LCU computer -> OK\n\n2. System software information when an error occurs\n\n•Machine type: NXTR-S\n\n•NXTR version: 2.2Bm\n\n•Nexim version: 3.1.2\n\n• Nexim, LCU patch installed:\n\n- 4726_V3.1.100_PlacingMark_LcuJobReflect_Patch\n\n- 4803_V3.1.0_LCUDataConverter_PlacingMark_Patch\n\n- 4922_V3.1.0_NXTR_Optimizer_Patch\n\n- 5058_V3.1.0_Plan_Patch\n\n-1045_LCUPatchInstaller_Luxshare_forV2.20\n\n-Patch_0634\n\n-1044_LCUPatch_V2.20_SP50\n\n-Patch_0709\n\n3. Please help us investigate and identify the root cause of this issue.\n\nWhat are the next actions to be taken when this issue occurs?\n\nPlease propose a solution to improve and prevent this issue from recurring.\n\nFor details of the issue, please refer to the attached Trace data.",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
         "DATE": "2026-11-04T02:59:02+00:00",
         "CC NUMBER": "NEW:CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
