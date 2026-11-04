@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T04:55:44+00:00",
+        "CC NUMBER": "CC-0085340",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The issue with the emergency stop button on Module 2R_[NXTR-S]",
+        "Communication Content": "Dear Pham Duc san,\n\nCall center asked you to check on CC-0070068.\n\nPlease let us know the results first.\n\n------------------CC-0070068-------------------\n\nPlease perform the following checks.\n\nIf reinserting the MFU does not restore normal operation, there is a possibility of a broken wire in the cable leading to the IF board. Therefore, please verify the items below:\n\n2EHEBC0044 (Inverter board ⇔ CPU board)\n\n2EHEBC0028 (Left inverter board ⇔ Right inverter board)\n\n-------------------------------------------------\n\nKonda,",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O8RklYAF"
+    },
+    {
         "DATE": "2026-11-04T04:43:06+00:00",
         "CC NUMBER": "CC-0079872",
         "Customer": "BYD Electronics Vietnam Company Limited]",
