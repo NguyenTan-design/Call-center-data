@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T07:33:24+00:00",
+        "CC NUMBER": "NEW:CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer, Liteon, is currently experiencing the following issue: the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving. This issue is affecting the customer's production output.\n\nThe customer is requesting an explanation for this issue. I have collected the trace data and Event Logs from the time the issue occurred. Could you please analyze the data and provide improvement recommendations or corrective actions for this issue?\n\nIf any additional information is required, please let me know and I will provide it.\n\nThank you very much for your support.\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-04T06:59:36+00:00",
         "CC NUMBER": "CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",

@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T07:33:24+00:00",
+        "CC NUMBER": "NEW:CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-11-04T02:59:02+00:00",
         "CC NUMBER": "NEW:CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
