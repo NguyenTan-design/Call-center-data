@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-04T09:13:55+00:00",
+        "CC NUMBER": "CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dear Dung San,\n\n<<Hower after i clean panel link board at CPU box. I can ping normal.\n\nThank for your report.\n\nSo we will close this ticket.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
+        "DATE": "2026-11-04T09:11:08+00:00",
+        "CC NUMBER": "CC-0085316",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Can not ping form PC to AHCR_[NXTR-S]",
+        "Communication Content": "Dear Chi San,\n\nI have attach image when i change ip of my computer. The image name: IP PC.\n\nHower after i clean panel link board at CPU box. I can ping normal.\n\nThank for your support.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001O6B8xYAF"
+    },
+    {
+        "DATE": "2026-11-04T09:09:39+00:00",
+        "CC NUMBER": "CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san,\n\nThank you so support from you and team,\n\nToday, I have take the Trace data base on your requirment.\n\nHowever its size very big, so I will update it on tonight.\n\n1. Regarding the PC causing the lock:\n\n- Today error 6A030016 happen at 3 lines : FUJI22, FUJI23, FUJI27,\n\n- But I only take trace one Line FUJI22.\n\n- I have check a \"Lock_check_20261104132106.csv\" file and take trace at Linesv22(192.168.10.5) and LCU22 (192.168.10.6).\n\n2. Regarding patch 5220:\n\n- I have check PC as below:\n\n192.168.10.2\tNeximDBServer\t- installed\n\n192.168.10.3\tFujiDBServer\t- installed\n\n192.168.10.4\tSYSTEMSV\t- installed\n\n192.168.10.5\tLINESV22\t- installed\n\n192.168.10.6\tLCU22\t\t- not install\n\n192.168.10.7\tLINESV23\t- installed\n\n192.168.10.8\tLCU23\t\t- not install\n\n192.168.10.9\tLINESV26\t- installed\n\n192.168.10.10\tLCU26\t\t- not install\n\n192.168.10.11\tLINESV27\t- installed\n\n192.168.10.12\tLCU27\t\t- not install\n\n192.168.10.13\tKITTING-01\t- not install (it is installed on today)\n\n3. Regarding the log files uploaded:\n\n- I have used tool 5259 (NeximLogManagerTool). to take trace at Linesv22(192.168.10.5) and LCU22 (192.168.10.6).\n\npls kindly check the trace\n\n+) LCU22_Trace Error 6A0130016.rar\n\n+) LineSV22_Trace error 6A030016.rar\n\n+) Lock_check_20261104132106\n\n+) host\n\n+) Version.rar\n\nPls kindly help us to check and investigate!\n\nThank you and best regards!\n\nDuong,",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
         "DATE": "2026-11-04T08:45:06+00:00",
         "CC NUMBER": "CC-0085134",
         "Customer": "BYD Electronics Vietnam Company Limited]",
