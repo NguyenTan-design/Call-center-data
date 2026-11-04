@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-04T04:36:17+00:00",
+        "CC NUMBER": "CC-0084898",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Inconsistent Panel-Present Status in Monitor Areas_モニターエリアにおけるパネルの表示状態の不一致[NXTR-S]",
+        "Communication Content": "Fixed version will be released on November 11",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MsF3LYAV"
+    },
+    {
+        "DATE": "2026-11-04T04:30:37+00:00",
+        "CC NUMBER": "CC-0084847",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Hangup during command \"adjust sensor\"_[NXTR-S]",
+        "Communication Content": "Fixed version will be released on November 11",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MlWfCYAV"
+    },
+    {
+        "DATE": "2026-11-04T04:29:08+00:00",
+        "CC NUMBER": "CC-0083179",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Board can not move to module 1_[None]",
+        "Communication Content": "Dear  Toyama-san\n\nThe issue happened at 14h55, but i press cycle stop at 15:02. Please check log file at 15:00. I see at time 15 have archive file.\n\nIf you need any data please inform me.\n\nThanks for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HC0JoYAL"
+    },
+    {
         "DATE": "2026-11-04T04:14:58+00:00",
         "CC NUMBER": "CC-0084491",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
