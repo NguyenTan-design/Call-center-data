@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-04T03:50:50+00:00",
+        "CC NUMBER": "CC-0078717",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Purple color of NXT machine monitor_[NXTR-S]",
+        "Communication Content": "Dear Konda san\n\nPlease close this ticket since there have no issues since the update.\n\nKonda,",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000014mm4GYAQ"
+    },
+    {
+        "DATE": "2026-11-04T03:48:54+00:00",
+        "CC NUMBER": "CC-0085213",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]_NXTR Idle Mode – Head Does Not Move After Calibration Stage_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nI understood, pls help close this ticket.\n\nThank you for your time and support\n\nBR\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NpLMQYA3"
+    },
+    {
+        "DATE": "2026-11-04T03:38:03+00:00",
+        "CC NUMBER": "CC-0076174",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Backup table was scratched or rusted so backup pin check function Error_[NXTR-S]",
+        "Communication Content": "外山さん\n\nバックアッププレートの交換は強く言われていません。\n\n1点確認ですが、対策品ストッパーに変えれば傷つくことはなくなるという認識でいいでしょうか？\n\nFMV 高津",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xUhlaYAC"
+    },
+    {
+        "DATE": "2026-11-04T03:36:03+00:00",
+        "CC NUMBER": "CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_ジョブ上で表示されるサイクルタイムが、実際のサイクルタイムと一致しない。[NXTR-S]",
+        "Communication Content": "寺澤さん\n\n一部情報の追加です。\n\nジョブの削除をして再伝送するとサイクルタイムは正常に戻る、とだけ書いてありますが正しくは以下。\n\nサイクルタイム低下　→　ジョブ削除　→　再伝送　→　生産継続して正常サイクルタイム　→　しばらくするとまたサイクルタイム低下　→　もう一度ジョブ削除　→　再伝送　→生産継続　→　。。。こんなことを繰り返しているようです。\n\nOct26からNov4までおよそ10日間で3回ほど当現象が発生しているようです。\n\n追加で必要なトレースデータなどありましたらご教示ください。また、繰り返し発生しているという点を設計側へアップデートいただくとともに調査のスピードアップをお願いします。\n\nFMV Akira",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
         "DATE": "2026-11-04T03:08:30+00:00",
         "CC NUMBER": "CC-0081359",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
