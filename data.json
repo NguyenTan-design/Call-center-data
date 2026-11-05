@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T15:47:01+00:00",
+        "CC NUMBER": "CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Ka Ki-san,\n\nThank you for the information.\n\nAfter discussing this with the customer, they have provided the following feedback:\n\nWould it be possible to combine both methods into a single solution, it means incorporating both \"Add additional database datafiles\" and \"a warning notification for insufficient storage capacity\" function?\n\nIf it is not possible to combine the two methods into 1 solution, they would prefer to proceed with Option 2 (Implement a warning notification for insufficient storage capacity).\n\nThank you.",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
+    },
+    {
         "DATE": "2026-11-05T12:08:24+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
