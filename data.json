@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T11:26:18+00:00",
+        "CC NUMBER": "CC-0085459",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The NXTR machine displayed error 89910000 00EB0003 (Application Error)_[NXTR-S]",
+        "Communication Content": "Dear Cong san,\n\nThis is a bug in the device application.\n\nAn exception error was occurring because the process for recognizing and initializing the print head was overlapping with the process for outputting maintenance information.\n\nWe will implement a fix to prevent this exception error.\n\nWe will provide an update regarding the schedule for this fix.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ONpwMYAT"
+    },
+    {
         "DATE": "2026-11-05T11:12:12+00:00",
         "CC NUMBER": "CC-0084880",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
