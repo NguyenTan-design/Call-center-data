@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T01:55:10+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nIn order to further investigate and verify the issue, could you please collect the mashine trace logs at the following two timings?\n\n・Immediately after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF.\n\n・After the first board has been transferred from the R side to the L side of Module 2, following the job changeover described in Step 1.\n\nThank you for your support.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-04T23:48:52+00:00",
         "CC NUMBER": "CC-0085201",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
