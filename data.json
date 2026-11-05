@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T06:53:55+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Kaki san,\n\nToday, Customer change from Pair production to No pair production. Job was change at 11:05, but this time not yet get the trace by cycle stop. We cycle stop 10s to get trace at 13h28 when the first panel was transmitted from 2R to 2L and complete at 2L.\n\nThis time, no issue happen\n\nI attach the trace data \"20261105_012548_trace line 1 after change job from pair to no pair job 13h28\". Please help to check it. I keep monitor this line to get more trace.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-05T05:37:07+00:00",
         "CC NUMBER": "CC-0083369",
         "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
@@ -50110,5 +50119,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-05T07:09:04+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Tran Cong san,\n\nWe will need a Force trace data (Press and hold the Cycle Stop button for 10 seconds) to investigate the issue.\n\nWe apologize for the inconvenience, but could you please acquire the Force trace data if the problem occurs again?\n\nPlease also acquire forced trace data of the modules upstream and downstream of the module where the problem occurred.\n\nIf the problem occurs in Module 3, please acquire the trace data for Modules 2 and 4.\n\nKonda,",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
     }
 ]
