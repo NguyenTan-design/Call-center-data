@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-04T23:48:52+00:00",
+        "CC NUMBER": "CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nAfter reviewing the conveyor trace, our Design team found that the Upstream machine (M2R) was waiting for the BUSY signal from the downstream machine (M2L) to turn OFF. As a result, the board discharge was stopped by the double transfer prevention function.\n\nCould you please confirm whether this issue also occurred immediately after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF?\n\nIf so, we would appreciate it if this case could be handled together with CC-0085202.\n\nThank you for your cooperation.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
         "DATE": "2026-11-04T20:55:26+00:00",
         "CC NUMBER": "CC-0084226",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
