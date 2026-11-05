@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-05T10:12:56+00:00",
+        "CC NUMBER": "CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
+        "DATE": "2026-11-05T10:05:43+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nAs we discussed in the meeting, Mitac Vietnam doesn't have an issue on NXTR line with CFX because this line is single lane.\n\nNXT3 line is dual lane with shuttle conveyor, so that's why the issue has occurring.\n\nPlease kindly add dual conveyor between shuttle conveyor and first NXTR module once again.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-11-05T09:23:22+00:00",
         "CC NUMBER": "CC-0085276",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
