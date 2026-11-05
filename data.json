@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-05T02:35:16+00:00",
+        "CC NUMBER": "NEW:CC-0085458",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing  information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nOur customer, Luxshare Van Trung, is currently experiencing an issue.\n\nAfter upgrading the NXTR machine to Version 2.2Bu to resolve the issue of the machine freezing when operating both Magazine A and Magazine B simultaneously. According to call center number CC-0081359\n\n=> An issue occurred with the traceability output file. All information in the Traceability Output file is missing.\n\nPlease refer to the attached Traceability Output file for details.\n\n1. Actions to take after an anomaly occurs:\n\n- Restart machine, Line server, LCU -> same issue\n\n- Downgrade ver from V2.2Bu to V2.2Bm -> same issue\n\n- Check the setting on the system layout, Fuji Trax Web, and the traceability output tool; all settings are normal.\n\n- Upgrade ver from V2.2Bm to V2.2B u -> same issue\n\n- Downgrade ver from V2.2Bu to V2.2Bm -> same issue\n\n- Change LCU computer -> same issue\n\n- Change back the original LCU computer -> OK\n\nNote: After replacing the original LCU, the missing information issue in the Traceability Output file was resolved. At that time, the machine was running the old NXTR version, V2.2Bm.\n\n2. System software information when an error occurs\n\n•Machine type: NXTR-S\n\n•NXTR version: 2.2Bm\n\n•Nexim version: 3.1.2\n\n• Nexim, LCU patch installed:\n\n- 4726_V3.1.100_PlacingMark_LcuJobReflect_Patch\n\n- 4803_V3.1.0_LCUDataConverter_PlacingMark_Patch\n\n- 4922_V3.1.0_NXTR_Optimizer_Patch\n\n- 5058_V3.1.0_Plan_Patch\n\n-1045_LCUPatchInstaller_Luxshare_forV2.20\n\n-Patch_0634\n\n-1044_LCUPatch_V2.20_SP50\n\n-Patch_0709\n\n3. Please help us investigate and identify the root cause of this issue.\n\nWhat are the next actions to be taken when this issue occurs?\n\nPlease propose a solution to improve and prevent this issue from recurring.\n\nFor details of the issue, please refer to the attached trace data recorded when the issue occurred.",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OOdIDYA1"
+    },
+    {
+        "DATE": "2026-11-05T02:33:41+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\n Do you have any updates regarding this issue?\n\nLast night, our customer encountered Error 8D39 again at new Line. Currently, they have had to temporarily disable Profiler to continue production.\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
         "DATE": "2026-11-05T01:55:10+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
