@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-05T09:07:13+00:00",
+        "CC NUMBER": "CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear Nam san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
+        "DATE": "2026-11-05T09:02:32+00:00",
+        "CC NUMBER": "CC-0075117",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._画面に表示されるエラーコードとエラー画像内のエラーコードをどのように同期させるか。[NXTR-S]",
+        "Communication Content": "Dear Do san\n\nSorry for keep you waiting.\n\nActually we have a plan to implement below improvement in near future.\n\nCould you please check with customer if these improvement is match to customer's request?\n\n*The machine show the error vision image if this vision error is making stop the machine.\n\n*The machine show the reason by icon why the machine need to exchange the nozzle\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
+        "DATE": "2026-11-05T07:24:25+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Mr Konda san,\n\nThank you for your continued support.\n\nWe apologize for the incomplete data provided earlier.\n\nWe have noted your advice and will ensure that all required Force Trace data is collected and provided if the issue occurs again.\n\nThank you for your support\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-05T07:24:01+00:00",
         "CC NUMBER": "CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -50146,14 +50173,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-05T07:24:25+00:00",
-        "CC NUMBER": "CC-0085407",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
-        "Communication Content": "Dear Mr Konda san,\n\nThank you for your continued support.\n\nWe apologize for the incomplete data provided earlier.\n\nWe have noted your advice and will ensure that all required Force Trace data is collected and provided if the issue occurs again.\n\nThank you for your support\n\nThanks & Best Regards!\n\nCong (Mr.)",
-        "FMV PIC": "Tran Cong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
     }
 ]
