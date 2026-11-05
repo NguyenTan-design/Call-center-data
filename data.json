@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T23:47:43+00:00",
+        "CC NUMBER": "CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nLet me make sure I understand correctly.\n\nThe issue in CC-0085202 occurred during the production of the second panel after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF.\n\nDoes this mean that the hang-up in the current case occurred at the same time as, or before, the issue in CC-0085202?\n\n In other words, did it occur immediately after the job changeover from Pair Robot Production ON to Pair Robot Production OFF?\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
         "DATE": "2026-11-05T23:25:55+00:00",
         "CC NUMBER": "CC-0084975",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
