@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-05T07:24:01+00:00",
+        "CC NUMBER": "CC-0085380",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThe customer reports that the CFX is connected but is not transmitting any data to their system. Please refer to images 2 and 3. Furthermore, when the customer searches for specific information—such as \"03H,03E MOUTER and work\"—no results are found.\n\nThank for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+    },
+    {
         "DATE": "2026-11-05T07:14:25+00:00",
         "CC NUMBER": "CC-0085380",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -50139,12 +50148,12 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
     },
     {
-        "DATE": "2026-11-05T07:24:01+00:00",
-        "CC NUMBER": "CC-0085380",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
-        "Communication Content": "Dear Toyama san\n\nThe customer reports that the CFX is connected but is not transmitting any data to their system. Please refer to images 2 and 3. Furthermore, when the customer searches for specific information—such as \"03H,03E MOUTER and work\"—no results are found.\n\nThank for your support\n\nFMV Dung",
-        "FMV PIC": "Bui Dung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+        "DATE": "2026-11-05T07:24:25+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Mr Konda san,\n\nThank you for your continued support.\n\nWe apologize for the incomplete data provided earlier.\n\nWe have noted your advice and will ensure that all required Force Trace data is collected and provided if the issue occurs again.\n\nThank you for your support\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
     }
 ]
