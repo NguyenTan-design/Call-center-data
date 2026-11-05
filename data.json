@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-05T11:55:34+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported,\n\nCan you please tell me who confirmed that Mitac Vietnam doesn't have an issue on NXTR line with CFX function?\n\nas you know, The customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nbut currently they confirm that haven't production-related information it means that the equipment has not been sending the relevant CFX messages,\n\npls ref the CC-0085380 which you also supporting, could you please check whether all Work-related messages?\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-11-05T11:43:09+00:00",
+        "CC NUMBER": "CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Vu san\n\nSorry for keep you waiting.\n\nOur designer investigated trace data and found software bug.\n\nCurrently we are checking when we can release countermeasure software.\n\nPlease kindly give some time for us.\n\nFUJI Toyama",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
         "DATE": "2026-11-05T11:26:18+00:00",
         "CC NUMBER": "CC-0085459",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
