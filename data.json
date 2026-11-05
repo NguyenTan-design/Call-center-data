@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-05T11:12:12+00:00",
+        "CC NUMBER": "CC-0084880",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Feeder W08T1 Magnet Strength and  The copper piece is peeling off_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nSorry for keep you waiting.\n\nDo you have any update for this case?\n\nIf there is no question, I would like to close this case.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MqijHYAR"
+    },
+    {
+        "DATE": "2026-11-05T11:06:36+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Mr Konda san,\n\nAt 17:24 on November 5, 2026, the issue reoccurred on Line S06, Module 4. I immediately collected the trace data from Modules 3, 4, and 5 and attached the files for your review. Could you please analyze the data and advise on the possible root cause?\n\nThank you for your support\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-05T10:30:06+00:00",
         "CC NUMBER": "CC-0082747",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
