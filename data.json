@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-05T03:21:29+00:00",
+        "CC NUMBER": "NEW:CC-0085459",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The NXTR machine displayed error 89910000 00EB0003 (Application Error)_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nOur customer, Liteon, is currently experiencing the following issue:\n\nDuring production, The NXTR machine displayed error 89910000 00EB0003 (Application Error). The error could not be cleared from the machine screen, and production could not be resumed.\n\nTemporary action:\n\nPowered off and restarted the machine.\n\nProduction resumed normally after the restart.\n\nWe have collected the trace data and Event Logs captured when the issue occurred. Please help analyze the attached data and advise the root cause, as well as any corrective or preventive actions to avoid recurrence.\n\nThank you for your support.\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ONpwMYAT"
+    },
+    {
+        "DATE": "2026-11-05T03:20:30+00:00",
+        "CC NUMBER": "CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear Kaki san\n\nI would like to confirm you question\n\nQ:  Could you please confirm whether this issue also occurred immediately after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF?\n\nA: No, there is no issue until this issue happen.\n\nQ: If so, we would appreciate it if this case could be handled together with CC-0085202.\n\nA: yes, The issue at CC-0085202 happen after 2nd panel. hangup happen at the fisrt panel. it may have relative together.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
+        "DATE": "2026-11-05T03:16:30+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Kaki san\n\nQ: In order to further investigate and verify the issue, could you please collect the machine trace logs at the following two timings?\n\n・Immediately after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF.\n\n・After the first board has been transferred from the R side to the L side of Module 2, following the job changeover described in Step 1.\n\nA: You mean next time change over from Pair robot to single robot production?\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-05T03:00:47+00:00",
         "CC NUMBER": "CC-0085276",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
