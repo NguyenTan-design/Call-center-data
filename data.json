@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-05T04:32:32+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI am sending you additional data regarding the 8D39 error that occurred last night on our new Line 19, File data name (8D39 TRACE 05-Nov-26.Zip). The error occurred at approximately 02:28 AM.\n\nCould you please analyze the attached data and provide your support in identifying and implementing a permanent solution to prevent this issue from recurring?\n\nThank you very much for your continued support.\n\nThank you for your support.\n\nFMV-Chien",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
+        "DATE": "2026-11-05T04:19:02+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nYes, that's correct.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-05T03:21:29+00:00",
         "CC NUMBER": "NEW:CC-0085459",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
