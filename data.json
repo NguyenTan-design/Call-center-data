@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-06T02:01:22+00:00",
+        "CC NUMBER": "CC-0083295",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8CD9D475_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your explain, we can close this case.\n\nThank you for continue support me\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HXFR0YAP"
+    },
+    {
+        "DATE": "2026-11-06T01:56:45+00:00",
+        "CC NUMBER": "CC-0084144",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nI understand your explain. thanks for your support. We can close this case.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
+    },
+    {
+        "DATE": "2026-11-06T01:54:41+00:00",
+        "CC NUMBER": "CC-0085201",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module  hang up during production_[NXTR-S]",
+        "Communication Content": "Dear KaKi san,\n\nI would like to confirm your question:\n\nQ: The issue in CC-0085202 occurred during the production of the second panel after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF.\n\nA: Yes\n\nQ: Does this mean that the hang-up in the current case occurred at the same time as, or before, the issue in CC-0085202?\n\nA: Hang up happen before the issue CC-0085202\n\n Q: In other words, did it occur immediately after the job changeover from Pair Robot Production ON to Pair Robot Production OFF?\n\nA: this time, it happen at module 2 only. and not all time change over\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NjwQJYAZ"
+    },
+    {
         "DATE": "2026-11-05T23:47:43+00:00",
         "CC NUMBER": "CC-0085201",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
