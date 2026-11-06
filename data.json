@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-06T08:53:17+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nSorry for Jumping in\n\nToday, At line 12 Customer change from Pair production to No pair production. Job was change at 13:06.\n\nWe cycle stop 10s to get trace at 13h17 after changing job from Pair production to No pair production .At that time, the machine had completed calibration and was waiting for the panel.\n\n And cycle stop to get trace at 13h30  after the first board has been transferred from L side  to the R side of Module 2\n\nThis time, Error 9481 (Fail to share information) did not occur.\n\nI have attached the following trace data:\n\n\"Line 12 Trace after changing over from a job with Pair Robot Production ON to a job with Pair Robot Production OFF\"\n\n\"Line 12 Trace after the first board has been transferred from the L side to the R side of Module 2\"\n\nCould you please help check these trace files?\n\nThank you for your supportting\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-06T08:50:52+00:00",
+        "CC NUMBER": "CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san,\n\nThank you so support from you and team,\n\nThis error still happening every day,  so we have an idea  to temporary correct this issue\n\n- We will upgrade the Nexim from 3.2.21 to Nexim 3.2.100\n\n- And upgrade the machine from NXTR2.31 to NXTR V2.35.\n\nHowever, we don't ensure that this action can fix this error (Unable saving the Job to Nexim).\n\nAnd if can install, pls recommend for us some patch file when upgrade Nexim 3.2.100 and NXTR v2.35 , beside the patch file 5220\n\nPls for us know your recommend.\n\nThank you and best regards!\n\nDuong,",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
         "DATE": "2026-11-06T07:47:53+00:00",
         "CC NUMBER": "CC-0084818",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
