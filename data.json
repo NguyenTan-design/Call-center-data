@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-06T15:43:27+00:00",
+        "CC NUMBER": "NEW:CC-0085559",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Automatic Nozzle Lowering and Nozzle Skip Issue_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThe customer reported that multiple modules automatically lower their nozzles to the nozzle station, resulting in nozzle skip alarms, even though the nozzle inspection function in Self-case is not enabled. We checked the settings in Self-case and Advance Nozzle Maintenance but found no abnormalities.\n\nAt 6:00 PM on November 4, we cleared all nozzle skip alarms on Line 4 and retransmit the Machine Config to NXTR machines. However, at 1:00 PM on November 5, we found that nozzle skip alarms had reappeared on Modules 1 and 2.\n\nI check the Event Log in Fujiweb, but I could not confirm the exact time when the issue occurred.\n\nPlease analyze the trace data and help us identify the root cause and a corrective solution for this issue.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OjhyYYAR"
+    },
+    {
         "DATE": "2026-11-06T10:11:45+00:00",
         "CC NUMBER": "CC-0084026",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
