@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-06T03:24:18+00:00",
+        "CC NUMBER": "CC-0079720",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8000B104, ...",
+        "Communication Content": "Dear Amano-San,\n\nAfter replacing the flat cable, this module is still running in production, and no errors have occurred\n\nThank you for your support.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW"
+    },
+    {
+        "DATE": "2026-11-06T03:14:08+00:00",
+        "CC NUMBER": "CC-0084845",
+        "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
+        "TOPIC": "Urgent[CANON VIETNAM CO.,LTD (TS Factory)]_The The H02 head has  error codes 3A19 and 8CDE during operation._H02ヘッドは、動作中にエラーコード3A19および8CDEを表示します。[NXTIII]",
+        "Communication Content": "Dear Amano san\n\nWe have received a request from Japan to conduct an investigation, so we are currently processing the return it.\n\nPlease contact Konda san for details.\n\nFMV takatsu",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MkmIzYAJ"
+    },
+    {
         "DATE": "2026-11-06T02:01:22+00:00",
         "CC NUMBER": "CC-0083295",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
