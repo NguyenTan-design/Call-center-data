@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-06T07:23:22+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama-san ,\n\nToday we already receive more about phenomenon resume from customer site for this case . Please refer to attached file for details , maybe it is useful for investigate .\n\nBest Regards ,\n\nFMV-Hien",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
+        "DATE": "2026-11-06T07:21:44+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_[NXTR-S]",
+        "Communication Content": "Dear Minh-san\n\nWe plan to make corrections to NXTR’s data checks regarding this issue.\n\nAs I mentioned previously, this is caused by the absence of specific part data within the AVL data.\n\nTherefore, we plan to make improvements so that when this situation occurs, the system will return the correct error response rather than an “internal processing error.”\n\nHowever, I believe it is also a problem that such JOBs are created as a result of optimization.\n\nCould you please create a new ticket for this issue under Nexim?\n\nAt that time, please indicate that it is “related to CC-0082933” and that “Hamamoto is the person in charge.”\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
         "DATE": "2026-11-06T05:32:55+00:00",
         "CC NUMBER": "CC-0075945",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
