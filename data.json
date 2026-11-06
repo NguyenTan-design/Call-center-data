@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-06T05:32:55+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear FMV Dung-san,\n\nThank you for the update,\n\nMaybe, you already heard but we found that there is problem at the Nexim side for this case.\n\nThere is case that when PCBCECKOUT send to upper customer host and same timing that CentralServer stopped for some reason,\n\nthe old data remain and it had been resend when next PCBCHECKOUT send out.\n\nWe will prepare the correction patch and release around week of November 23rd.\n\nIf the problem reoccurred, please execute the below temporary measeure procedure.\n\n1. When production is stopped and there are no PCBs remaining in the machine:\n\n- Stop the Central Server.\n\n- Manually delete all files in the following folder (for example, MSG_20260422163818179_360157_F1-3F-05.DAT):\n\nC:\\Nexim\\Do\\HostIF\\HIF\\SPOOL\\PCB\\SENDWAIT\\\n\n- After deleting the files, restart the Central Server. This will prevent the old PCBCHECKOUT files from being retransmitted.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
         "DATE": "2026-11-06T03:59:32+00:00",
         "CC NUMBER": "CC-0075945",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
