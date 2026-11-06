@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-06T10:11:45+00:00",
+        "CC NUMBER": "CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san\n\nCC-0084026 Luxshare Precision (Yi'an) Co.,Ltd\n\nI sent the application and patch related to NXTR's “Push Sequence” via the file transfer account.\n\nThe password is as follows:\n\nDownload\t: \"zxpHRRRz\"\n\nZIP　: \"CB5yfFNR\"\n\nーー\n\nNXTR：V2.DNc\n\nLCU：1075_LCUPatch_NXTR_OnMcEdit_PushSeq_forV2.35\n\nLCU Note：Please also apply “0995_LCUPatch_V2.35_SP11,” which is listed in Software Notice 2026-0804 (A).\n\nNexim：5863_NXTR_EnablePushSequence_Optimizer_Patch、5947_V3.2.100_DataUpdate_Optimizer_Patch\n\nNexim Note：Please also apply “5811_V3.2.100_PlanPatch,” which is listed in Software Notice 2026-0190 (B).\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
         "DATE": "2026-11-06T09:15:43+00:00",
         "CC NUMBER": "CC-0082807",
         "Customer": "BYD Electronics Vietnam Company Limited]",
