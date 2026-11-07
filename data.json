@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-07T03:46:06+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nUnderstood,\n\nI will create a new ticket regarding the issue where Optimize completes successfully even though one Part Number defined in the AVL group is missing from the JOB.\n\nI will also mention the related ticket number CC-0082933 and specify you as the person in charge, as requested.\n\nSo, the current ticket CC-0082933 will focus only on the Data Check issue, where it reports \"Internal Processing error.\"\n\nThank you for your clarification and for your continued support.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
         "DATE": "2026-11-07T03:25:17+00:00",
         "CC NUMBER": "NEW:CC-0085566",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
