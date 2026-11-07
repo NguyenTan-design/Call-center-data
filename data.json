@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-07T03:25:17+00:00",
+        "CC NUMBER": "NEW:CC-0085566",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Request for Analysis and Resolution — NXTR 2RV Mark Read Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI am currently supporting production at the E5-Luxshare factory in Nghe An. During production support, I encountered an issue with an NXTR 2RV module.\n\nIssue: When a component ran out, the operator removed the feeder and replaced it with a new one. During the replacement, Module 1-R reported a Mark Read Error (error code 92770000) and displayed a blue screen.\n\nI restarted the module and resumed production. The machine has been operating normally since then.\n\nSystem information:\n\n- Machine version: V2.Dme\n\n- LCU version: V2.35\n\n- LCU patch: 0995\n\nI have collected the relevant data and photos and attached them to this email. Could you please analyze the issue and provide a resolution as soon as possible?\n\nThank you.\n\nBest regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OlM3hYAF"
+    },
+    {
         "DATE": "2026-11-07T03:06:02+00:00",
         "CC NUMBER": "CC-0084026",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
