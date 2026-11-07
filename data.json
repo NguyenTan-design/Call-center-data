@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-07T04:19:37+00:00",
+        "CC NUMBER": "NEW:CC-0085567",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim Optimize completes successfully without detecting a missing Part Number in an AVL group_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to create a new ticket regarding the issue of Nexim Optimize completing successfully without detecting a missing Part Number in an AVL group.\n\nThis issue is related to CC-0082933, but I would like to separate these two issues into different tickets for easier investigation and tracking.\n\nCase Information:\n\nNexim ver.: V3.2.21\n\nNXTR ver.: V2.3Ps\n\nDataCheck ver.: 0230\n\nJob name: 205010200037-4.3-Cento MP-MLB_MPSM5_2026.9.17\n\nLine: A9-LINE1\n\nMachine: A9-LINE1-1R\n\nModule: 1R | Slot 35\n\nAVL group: 304001755092/5095\n\nPart Numbers defined in this AVL group:\n\n304001755092/5095\n\n304001755092\n\n304001755095\n\nHowever, Part Number 304001755092 was missing from the Part Number list in the JOB.\n\nDespite this missing Part Number, Nexim Optimize completed successfully without displaying any warning or error.\n\nSubsequently, Data Check failed with the error message \"Internal Processing error.\" The root cause was confirmed to be the missing Part Number data.\n\nReference:\n\nThis issue is related to CC-0082933\n\nPerson in charge: Hamamoto-san\n\nPlease refer to the above CC number and kindly help us investigate why Nexim Optimize completes successfully without detecting a missing Part Number in an AVL group.\n\nThank you for your support.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Olq4zYAB"
+    },
+    {
         "DATE": "2026-11-07T03:46:06+00:00",
         "CC NUMBER": "CC-0082933",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
