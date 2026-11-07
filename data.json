@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-07T05:06:04+00:00",
+        "CC NUMBER": "NEW:CC-0085568",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Using nexim transmit job, Module 5 didn't receive the job when changeover_[NXTR]",
+        "Communication Content": "I have met the issue\n\n2026/11/07 About 10:11, when module 1 finished mounting the panel, factory used Nexim to transmit job. When module 2,3,4 finished mounting panel, module receive job normally. But when module 5 finished mounting, module didn't receive new job and module 6 finished mounting, it received job normally.\n\nHere are some actions taken:\n\n- Use module 1 to delete all lines job, all modules job was deleted successfully except module 5 job was not deleted ( still receive old job )\n\n- After restart base and LCU, module 5 automatically received the new job\n\nPlease noted that factory changeover from Pair Job to No Pair Job\n\nPlease kindly refer to the attached trace data and help analyst this issue\n\nThank you,\n\nFMV Tuan",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OmA0UYAV"
+    },
+    {
         "DATE": "2026-11-07T04:19:37+00:00",
         "CC NUMBER": "NEW:CC-0085567",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
