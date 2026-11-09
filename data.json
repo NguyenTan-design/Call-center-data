@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-09T21:54:16+00:00",
+        "CC NUMBER": "NEW:CC-0085658",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Nozzle information on Accessory web\\Module information is not correct_[NXTR-S]",
+        "Communication Content": "Dear call center,\n\nRegarding to Hana Micron customer, after we closed CC-0069612 on 1-Oct-2026, until now we find out Nozzle information on Accessory web\\Module information is not correct with actual job which machine is running, this error happen at all Module in this production line.\n\nI would like to attached situation picture, job file exported, C:\\Windows\\Temp\\AccWeb and\n\nC:\\Windows\\Temp\\RWB_Service from Accessory PC\n\nPlease help us analysis data to find out the root cause, if you need more information pls let me know\n\nThank you!\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001P6yp6YAB"
+    },
+    {
         "DATE": "2026-11-09T15:58:48+00:00",
         "CC NUMBER": "CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
