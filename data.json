@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-09T02:56:54+00:00",
+        "CC NUMBER": "NEW:CC-0085603",
+        "Customer": "QISDA VIETNAM CO., LTD]",
+        "TOPIC": "Urgent[QISDA VIETNAM CO., LTD]_Machine encoutered error 8CC16505 during production_[NXT]",
+        "Communication Content": "Dear Call-center ,\n\nDuring production , machine encoutered error 8CC16505 : Unable to start up and error can only be resolved after replacing base CPU box . This error happened 4 times at customer site and we are reported that they  performed following actions :\n\n1. Change vacuum pump\n\n2. Change Inverter\n\n3. Change Base CPU box -> resolved\n\nPlease refer to attached file and help us analyze which cause this error .\n\nThanks & Best Regards ,\n\nFMV-Hien",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Owwa2YAB"
+    },
+    {
         "DATE": "2026-11-09T02:14:05+00:00",
         "CC NUMBER": "CC-0083359",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
