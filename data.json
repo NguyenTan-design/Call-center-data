@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T01:18:59+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nThanks for your supported\n\nSorry for reply late\n\nWe are waaiting the confirm from customer\n\nTemporary we using Pickup Tray to reject part\n\nI thinks this issue resolve soon will better\n\nIs possible the patch to resolved this issue first?\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
+        "DATE": "2026-11-09T01:08:53+00:00",
+        "CC NUMBER": "CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh,\n\nThank you for your feedback.\n\nAfter discussing with our Design Team, we regret to inform you that implementing the Option 2 for this version would be difficult.\n\nAs an alternative, we would like to propose the following solutions:\n\n・Add additional database datafiles to the USER2 and INDX2 tablespaces.\n\n・Provide a BAT file to manually check the database tablespace capacity.\n\n・Provide a BAT file to delete unnecessary Work Tables.\n\nBy combining these solutions, you can monitor and manage the database storage capacity through regular maintenance.\n\nCould you please consider this approach?\n\nThank you for your understanding.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
+    },
+    {
         "DATE": "2026-11-09T00:33:30+00:00",
         "CC NUMBER": "CC-0075836",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
