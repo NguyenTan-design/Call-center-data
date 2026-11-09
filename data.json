@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-09T08:30:20+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear KaKi san\n\nThe trace we just update is trace when change over from Pair robot to No pair production as your requirement. This time at line 12, no issue happen.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-09T08:23:09+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear Ha Ngoc Son-san,\n\nIs there any update for this case?\n\n===================\n\nThank you for your support. We will install 1018_LCUPatch_NXTR_OnMcEdit_PickupOffset_forV2.35 on the PC and monitor this issue.\n\n===================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
+        "DATE": "2026-11-09T08:17:21+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san,\n\nThank you for the update.\n\nOn the other hand, we have been asking the below question to Takahashi-san.\n\n=============-\n\nBy the way, how many OCPUs are installed on site?\n\nIf there are multiple units, could you also let us know whether the issue occurs on all OCPUs or only on specific units?\n\nIn addition, you mentioned that the power cable and communication cable are unstable. We would appreciate it if you could provide more specific details about what is unstable. For example, did the power actually drop unexpectedly, or did the cables appear loose or at risk of disconnecting during operation?\n\n=============-\n\nDo you know the answer for above?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-11-09T07:50:47+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
