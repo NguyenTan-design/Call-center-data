@@ -1501,17 +1501,21 @@
     if (!table) return;
 
     const hidden = hiddenColumns.detail;
-    const totalCols = table.querySelectorAll("thead tr:first-child th").length;
+    const headRow = table.querySelector("thead tr:first-child");
+    const headCells = headRow ? headRow.children : [];
+    const totalCols = headCells.length;
 
     for (let i = 0; i < totalCols; i++) {
-      const hide = !!hidden[i];
-      table.querySelectorAll(`thead tr:first-child th:nth-child(${i + 1})`)
-        .forEach(el => el.classList.toggle("col-hidden", hide));
-      table.querySelectorAll(`tbody tr`)
-        .forEach(tr => {
-          const td = tr.children[i];
-          if (td) td.classList.toggle("col-hidden", hide);
-        });
+      headCells[i].classList.toggle("col-hidden", !!hidden[i]);
+    }
+
+    const bodyRows = detailTbody.children;
+    for (let r = 0; r < bodyRows.length; r++) {
+      const cells = bodyRows[r].children;
+      const n = Math.min(totalCols, cells.length);
+      for (let i = 0; i < n; i++) {
+        cells[i].classList.toggle("col-hidden", !!hidden[i]);
+      }
     }
 
     updateColgroup();
@@ -1637,14 +1641,15 @@
         if (list) {
           list.forEach(entry => {
             if (!entry || typeof entry !== "object") return;
-            const ccKey = Object.keys(entry).find(k => /cc\s*number/i.test(k));
+            const keys = Object.keys(entry);
+            const ccKey = keys.find(k => /cc\s*number/i.test(k));
             if (!ccKey) return;
             const cc = normalizeCc(entry[ccKey]);
             if (!cc) return;
 
-            const curKey = Object.keys(entry).find(k => /^current\s*status$/i.test(k));
-            const priKey = Object.keys(entry).find(k => /^priority$/i.test(k));
-            const opeKey = Object.keys(entry).find(k => /^open\s*day$/i.test(k));
+            const curKey = keys.find(k => /^current\s*status$/i.test(k));
+            const priKey = keys.find(k => /^priority$/i.test(k));
+            const opeKey = keys.find(k => /^open\s*day$/i.test(k));
 
             statusMap.set(cc, {
               [FIELD_CURRENT_STATUS]: curKey ? String(entry[curKey] ?? "").trim() : "",
@@ -1685,13 +1690,17 @@
     return cur || { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
   }
 
-  async function saveStatusEntry(ccNumber, entry) {
-    const body = {
-      "CC NUMBER": ccNumber,
-      [FIELD_CURRENT_STATUS]: entry[FIELD_CURRENT_STATUS] || "",
-      [FIELD_PRIORITY]:       entry[FIELD_PRIORITY] || "",
-      [FIELD_OPEN_DAY]:       entry[FIELD_OPEN_DAY]
-    };
+  // changedFields: chỉ gửi các field vừa đổi (worker hỗ trợ partial update),
+  // tránh ghi đè giá trị mới của người khác ở các field còn lại.
+  async function saveStatusEntry(ccNumber, entry, changedFields) {
+    const fields = Array.isArray(changedFields) && changedFields.length
+      ? changedFields
+      : [FIELD_CURRENT_STATUS, FIELD_PRIORITY, FIELD_OPEN_DAY];
+
+    const body = { "CC NUMBER": ccNumber };
+    fields.forEach(f => {
+      body[f] = f === FIELD_OPEN_DAY ? entry[f] : (entry[f] || "");
+    });
 
     const res = await fetch(STATUS_API_POST, {
       method: "POST",
@@ -1708,7 +1717,22 @@
       throw new Error(`HTTP ${res.status} ${text}`);
     }
 
-    statusMap.set(ccNumber, { ...entry });
+    // Đồng bộ lại theo bản ghi đã merge phía server (nếu có)
+    let merged = null;
+    try {
+      const data = await res.json();
+      if (data && data.record && typeof data.record === "object") merged = data.record;
+    } catch (_) { /* không có body JSON → dùng entry cục bộ */ }
+
+    if (merged) {
+      statusMap.set(ccNumber, {
+        [FIELD_CURRENT_STATUS]: String(merged[FIELD_CURRENT_STATUS] ?? "").trim(),
+        [FIELD_PRIORITY]:       String(merged[FIELD_PRIORITY] ?? "").trim(),
+        [FIELD_OPEN_DAY]:       merged[FIELD_OPEN_DAY] ?? null
+      });
+    } else {
+      statusMap.set(ccNumber, { ...entry });
+    }
     return true;
   }
 
@@ -1826,16 +1850,26 @@
     renderDetailTableRows();
   }, SEARCH_DEBOUNCE_MS));
 
+  detailTbody.addEventListener("click", (e) => {
+    const tr = e.target.closest("tr.detail-row");
+    if (tr && detailTbody.contains(tr)) selectDetailRow(tr);
+  });
+
   toggleDetailChartsBtn.addEventListener("click", () => {
     detailChartsVisibleMobile = !detailChartsVisibleMobile;
     updateDetailChartsVisibility();
   });
 
-  window.addEventListener("resize", debounce(adjustRowHeights, RESIZE_DEBOUNCE_MS));
-  window.addEventListener("resize", debounce(updateHeaderOffset, RESIZE_DEBOUNCE_MS));
-  window.addEventListener("resize", debounce(() => hideStatusMenu(), RESIZE_DEBOUNCE_MS));
-  window.addEventListener("resize", debounce(onViewportChange, RESIZE_DEBOUNCE_MS));
-  window.addEventListener("scroll", () => hideStatusMenu(), true);
+  window.addEventListener("resize", debounce(() => {
+    adjustRowHeights();
+    updateHeaderOffset();
+    hideStatusMenu();
+    onViewportChange();
+  }, RESIZE_DEBOUNCE_MS));
+  // Scroll bắn rất dày: chỉ xử lý khi menu đang mở, và đánh dấu passive
+  window.addEventListener("scroll", () => {
+    if (statusMenu.classList.contains("show")) hideStatusMenu();
+  }, { capture: true, passive: true });
   updateHeaderOffset();
 
   function updateHeaderOffset() {
@@ -2028,16 +2062,17 @@
 
   function buildInquirySlices(records, chartTitle) {
     const counts = new Map();
+    const groups = new Map();
     records.forEach(r => {
       const key = String(r["Inquiry type"] ?? "").trim() || "Unspecified";
       counts.set(key, (counts.get(key) || 0) + 1);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
     });
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1])
       .map(([label, value], i) => {
-        const matching = records.filter(
-          r => (String(r["Inquiry type"] ?? "").trim() || "Unspecified") === label
-        );
+        const matching = groups.get(label);
         return {
           label,
           value,
@@ -2050,15 +2085,16 @@
 
   function buildCustomerRank(records) {
     const counts = new Map();
+    const groups = new Map();
     records.forEach(r => {
       const key = String(r["Customer"] ?? "").trim() || "Unknown";
       counts.set(key, (counts.get(key) || 0) + 1);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
     });
     return [...counts.entries()]
       .map(([label, value]) => {
-        const matching = records.filter(
-          r => (String(r["Customer"] ?? "").trim() || "Unknown") === label
-        );
+        const matching = groups.get(label);
         return {
           label,
           value,
@@ -2797,6 +2833,14 @@
       return;
     }
 
+    const colFlags = columns.map(col => ({
+      link: isLinkColumn(col),
+      status: isStatusColumn(col),
+      priority: isPriorityColumn(col),
+      openday: isOpenDayColumn(col),
+      topic: isTopicColumn(col)
+    }));
+
     const fragment = document.createDocumentFragment();
     filtered.forEach(r => {
       const tr = document.createElement("tr");
@@ -2813,8 +2857,9 @@
         if (colType) td.dataset.colType = colType;
 
         const val = r[col];
+        const flags = colFlags[idx];
 
-        if (isLinkColumn(col)) {
+        if (flags.link) {
           const url = String(val ?? "").trim();
           if (url && url !== "#") {
             const link = document.createElement("a");
@@ -2829,21 +2874,19 @@
           } else {
             td.textContent = "";
           }
-        } else if (isStatusColumn(col)) {
+        } else if (flags.status) {
           if (isOnGoing) buildEditableCell(td, r, "current-status");
-        } else if (isPriorityColumn(col)) {
+        } else if (flags.priority) {
           if (isOnGoing) buildEditableCell(td, r, "priority");
-        } else if (isOpenDayColumn(col)) {
+        } else if (flags.openday) {
           buildOpenDayCell(td, r);
         } else {
           td.textContent = val == null ? "" : String(val);
-          if (!isTopicColumn(col)) td.title = td.textContent;
+          if (!flags.topic) td.title = td.textContent;
         }
 
         tr.appendChild(td);
       });
-
-      tr.addEventListener("click", () => selectDetailRow(tr));
 
       fragment.appendChild(tr);
     });
@@ -3121,7 +3164,7 @@
     cell.appendChild(badge);
 
     try {
-      await saveStatusEntry(cc, updated);
+      await saveStatusEntry(cc, updated, [fieldName]);
       cell.classList.remove("saving");
       cell.classList.add("saved");
       setTimeout(() => cell.classList.remove("saved"), 1500);
@@ -3292,14 +3335,20 @@
 
   function adjustRowHeights() {
     const rows = tbody.querySelectorAll("tr:not(.empty-row)");
+    const jobs = [];
 
+    // Phase 1: chỉ đọc layout
     rows.forEach(tr => {
       const topicValue = tr.querySelector('td[data-label="TOPIC"] .cell-value');
       if (!topicValue) return;
 
       const lineHeight = parseFloat(getComputedStyle(topicValue).lineHeight) || 16;
       const maxLines = Math.max(1, Math.round(topicValue.offsetHeight / lineHeight));
+      jobs.push({ tr, maxLines });
+    });
 
+    // Phase 2: chỉ ghi style
+    jobs.forEach(({ tr, maxLines }) => {
       tr.querySelectorAll(
         'td:not([data-label="TOPIC"]):not([data-label="ACTION"]) .cell-value'
       ).forEach(span => {

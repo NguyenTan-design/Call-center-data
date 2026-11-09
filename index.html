@@ -131,22 +131,16 @@
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: var(--row-hover); }
 
-  /* ============================================================
-     Bảng Basic (load từ data.json)
-     ============================================================ */
   #basic-view table { width: 100%; }
 
-  #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }  /* DATE */
-  #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: red; font-weight: bold; }  /* CC NUMBER */
-  #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }  /* CUSTOMER */
-  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }  /* TOPIC */
-  #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }  /* COMMUNICATION CONTENT */
-  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }  /* FMV PIC */
-  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }  /* ACTION */
+  #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }
+  #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: red; font-weight: bold; }
+  #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }
+  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }
+  #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }
+  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }
+  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }
 
-  /* ============================================================
-     Header column hide/show toggle button (Detail)
-     ============================================================ */
   #detail-view thead th {
     overflow: hidden;
     padding-right: 22px;
@@ -617,9 +611,6 @@
     display: inline-block;
   }
 
-  /* ============================================================
-     Detail view
-     ============================================================ */
   #detail-view { display: none; }
 
   #detail-view .detail-toolbar {
@@ -666,8 +657,6 @@
     height: calc(100vh - 270px);
   }
 
-  /* Bảng Detail: table-layout fixed.
-     Width bảng do JS set cứng khi có cột ẩn. */
   #detail-view table {
     width: 100%;
     border-collapse: collapse;
@@ -696,7 +685,6 @@
     padding-right: 22px;
   }
 
-  /* TOPIC */
   #detail-view th[data-col-type="topic"],
   #detail-view td[data-col-type="topic"] {
     white-space: normal !important;
@@ -707,14 +695,12 @@
     vertical-align: top;
   }
 
-  /* GO TO WEB */
   #detail-view th[data-col-type="link"],
   #detail-view td[data-col-type="link"] {
     text-align: center;
     padding: 4px;
   }
 
-  /* Current Status */
   #detail-view th[data-col-type="status"],
   #detail-view td[data-col-type="status"] {
     white-space: normal !important;
@@ -724,7 +710,6 @@
     text-align: left;
   }
 
-  /* Priority */
   #detail-view th[data-col-type="priority"],
   #detail-view td[data-col-type="priority"] {
     white-space: normal !important;
@@ -734,7 +719,6 @@
     text-align: left;
   }
 
-  /* Open day */
   #detail-view th[data-col-type="openday"],
   #detail-view td[data-col-type="openday"] {
     text-align: center;
@@ -742,7 +726,6 @@
     white-space: normal !important;
   }
 
-  /* CC NUMBER: sticky left + chữ đỏ */
   #detail-view th[data-col-type="ccnumber"],
   #detail-view td[data-col-type="ccnumber"] {
     position: sticky;
@@ -791,18 +774,11 @@
   }
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
-  /* ============================================================
-     Cột ẩn: DÙNG visibility: collapse THAY VÌ display: none.
-     Đây là cách duy nhất để table-layout: fixed không dãn cột.
-     ============================================================ */
   #detail-view th.col-hidden,
   #detail-view td.col-hidden {
     display: none !important;
   }
 
-  /* ============================================================
-     Detail charts
-     ============================================================ */
   #detail-charts {
     display: none;
     margin-bottom: 15px;
@@ -1426,9 +1402,6 @@
 
   init();
 
-  // ============================================================
-  // INIT
-  // ============================================================
   async function init() {
     try {
       const res = await fetch("data.json");
@@ -1460,9 +1433,6 @@
     return String(cc ?? "").trim();
   }
 
-  // ============================================================
-  // COLUMN HIDE / SHOW — CHỈ DÙNG CHO DETAIL
-  // ============================================================
   function attachColumnHideButtons(theadRow, onChange) {
     const ths = theadRow.querySelectorAll("th");
     ths.forEach((th, idx) => {
@@ -1522,9 +1492,6 @@
     updateTableWidth();
   }
 
-  /**
-   * Cập nhật <colgroup>. Cột ẩn → set width/min/max = 0 với !important.
-   */
   function updateColgroup() {
     if (!detailColgroup) return;
 
@@ -1535,8 +1502,7 @@
     detailColTypes.forEach((type, idx) => {
       const col = document.createElement("col");
       if (hidden[idx]) {
-        // display:none trên <col> loại hẳn cột khỏi layout,
-        // không còn cell rộng 0px làm chữ xuống dòng từng ký tự.
+
         col.style.setProperty("display", "none", "important");
       } else {
         const w = DETAIL_COL_WIDTHS[type] || 120;
@@ -1548,9 +1514,6 @@
     });
   }
 
-  /**
-   * Set width cứng cho bảng khi có cột ẩn (không cho bảng dãn).
-   */
   function updateTableWidth() {
     const table = detailTable;
     if (!table) return;
@@ -1611,9 +1574,6 @@
     return clone.textContent.trim() || `Cột ${idx + 1}`;
   }
 
-  // ============================================================
-  // STATUS API
-  // ============================================================
   async function loadStatuses() {
     if (statusesLoaded) return statusMap;
     if (statusesLoading) return statusesLoading;
@@ -1690,8 +1650,6 @@
     return cur || { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
   }
 
-  // changedFields: chỉ gửi các field vừa đổi (worker hỗ trợ partial update),
-  // tránh ghi đè giá trị mới của người khác ở các field còn lại.
   async function saveStatusEntry(ccNumber, entry, changedFields) {
     const fields = Array.isArray(changedFields) && changedFields.length
       ? changedFields
@@ -1717,12 +1675,11 @@
       throw new Error(`HTTP ${res.status} ${text}`);
     }
 
-    // Đồng bộ lại theo bản ghi đã merge phía server (nếu có)
     let merged = null;
     try {
       const data = await res.json();
       if (data && data.record && typeof data.record === "object") merged = data.record;
-    } catch (_) { /* không có body JSON → dùng entry cục bộ */ }
+    } catch (_) {  }
 
     if (merged) {
       statusMap.set(ccNumber, {
@@ -1736,9 +1693,6 @@
     return true;
   }
 
-  // ============================================================
-  // CUSTOMER LIST
-  // ============================================================
   function extractCustomerNames(data) {
     if (Array.isArray(data)) {
       return data.map(entry => {
@@ -1792,9 +1746,6 @@
     applyFilters();
   }
 
-  // ============================================================
-  // EVENT LISTENERS
-  // ============================================================
   ccInput.addEventListener("input", debounce(() => {
     filters.cc = ccInput.value.trim().toLowerCase();
     applyFilters();
@@ -1866,7 +1817,7 @@
     hideStatusMenu();
     onViewportChange();
   }, RESIZE_DEBOUNCE_MS));
-  // Scroll bắn rất dày: chỉ xử lý khi menu đang mở, và đánh dấu passive
+
   window.addEventListener("scroll", () => {
     if (statusMenu.classList.contains("show")) hideStatusMenu();
   }, { capture: true, passive: true });
@@ -1887,9 +1838,6 @@
     }
   }
 
-  // ============================================================
-  // VIEW SWITCHING
-  // ============================================================
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
 
@@ -1996,9 +1944,6 @@
     graphStatus.style.display = "none";
   }
 
-  // ============================================================
-  // CHARTS (Graph view)
-  // ============================================================
   function renderAllCharts() {
     resetSliceInteraction();
 
@@ -2489,9 +2434,6 @@
     container.appendChild(legend);
   }
 
-  // ============================================================
-  // DETAIL VIEW
-  // ============================================================
   function isLinkColumn(colName) {
     return /go\s*to/i.test(colName) && /web|link/i.test(colName);
   }
@@ -2584,9 +2526,6 @@
     window.scrollTo(0, 0);
   }
 
-  // ============================================================
-  // DETAIL CHARTS
-  // ============================================================
   function buildDetailChartsData(records) {
     return {
       site:     buildDetailSlicesByField(records, "Customer", "Site"),
@@ -2690,9 +2629,6 @@
     }
   }
 
-  // ============================================================
-  // RENDER DETAIL TABLE
-  // ============================================================
   function renderDetailTable() {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
@@ -2896,9 +2832,6 @@
     applyHiddenColumns();
   }
 
-  // ============================================================
-  // Editable cells
-  // ============================================================
   function buildEditableCell(td, record, type) {
     const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
     const cc = ccKey ? normalizeCc(record[ccKey]) : "";
@@ -3068,9 +3001,6 @@
     });
   }
 
-  // ============================================================
-  // Value menu
-  // ============================================================
   function openValueMenu(cell, type) {
     const cc = cell.dataset.cc;
     if (!cc) {
@@ -3213,9 +3143,6 @@
     selectedDetailRow = tr;
   }
 
-  // ============================================================
-  // MODAL / BASIC TABLE
-  // ============================================================
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
     if (!td) return;
@@ -3337,7 +3264,6 @@
     const rows = tbody.querySelectorAll("tr:not(.empty-row)");
     const jobs = [];
 
-    // Phase 1: chỉ đọc layout
     rows.forEach(tr => {
       const topicValue = tr.querySelector('td[data-label="TOPIC"] .cell-value');
       if (!topicValue) return;
@@ -3347,7 +3273,6 @@
       jobs.push({ tr, maxLines });
     });
 
-    // Phase 2: chỉ ghi style
     jobs.forEach(({ tr, maxLines }) => {
       tr.querySelectorAll(
         'td:not([data-label="TOPIC"]):not([data-label="ACTION"]) .cell-value'
