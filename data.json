@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T09:24:47+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV\n\nJust to confirm, did the issue occur only once, or has it occurred multiple times?\n\n If it occurred multiple times, were all occurrences limited to the same machine (Line 1, Module 2L)?\n\nThank you for your confirmation.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-09T09:11:56+00:00",
+        "CC NUMBER": "CC-0076174",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Backup table was scratched or rusted so backup pin check function Error_[NXTR-S]",
+        "Communication Content": "高津さん\n\n現在耐久テストを実施しており、半年経過しておりますが現状プレートの状態悪化は確認されていません。\n\n問題が発生しないことを望んでいますが、正式な回答は耐久テスト後とさせてください。\n\n次回は11/30に状況更新します。\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xUhlaYAC"
+    },
+    {
         "DATE": "2026-11-09T09:01:59+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
