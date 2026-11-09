@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-09T06:55:32+00:00",
+        "CC NUMBER": "CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
+        "Communication Content": "Dear Amano Toru,\n\n Sorry for push you.\n\nDo you have any update this case?\n\nThank you!\n\nFMV-KHA",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD"
+    },
+    {
+        "DATE": "2026-11-09T06:51:31+00:00",
+        "CC NUMBER": "CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nSorry for push you.\n\nThe customer is requesting us to provide an update on this issue.\n\nDo you have any update this case?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+    },
+    {
+        "DATE": "2026-11-09T06:50:08+00:00",
+        "CC NUMBER": "CC-0084193",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_We have encountered an issue related to Warning 80005CFD in Nexim and would like to request your support in investigating this matter._[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to follow up on the CC sent on October 14, 2026, as we have not received any response yet.\n\nCould you please check the status and provide us with an update at your earliest convenience?\n\nYour prompt response would be greatly appreciated.\n\nThank you for your support.\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KlpRGYAZ"
+    },
+    {
+        "DATE": "2026-11-09T06:47:11+00:00",
+        "CC NUMBER": "CC-0083178",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mounter Machine – Hangup Error on Lane 1 Module 5 Line S05._[NXTR-S]",
+        "Communication Content": "Dear Hamamoto-san,\n\nThank you for sharing the trace analysis results.\n\nWe understand that the Reject Parts Conveyor of TU-RM was full, which may have caused the machine to hang.\n\nWe appreciate your further investigation into why the troubleshooting instructions were not displayed on the machine screen.\n\nPlease keep us updated on the investigation results and let us know if any further information is required from our side.\n\nThank you for your support.\n\nFMV-PHAM HIEU",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HBPiSYAX"
+    },
+    {
         "DATE": "2026-11-09T06:10:53+00:00",
         "CC NUMBER": "CC-0085134",
         "Customer": "BYD Electronics Vietnam Company Limited]",
