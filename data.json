@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T07:50:47+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for the update.\n\nThe “Feeder with red LED” issue occurs randomly on 8T feeders. I tried to reproduce the issue on the affected feeders by adjusting the cover tape tension, but I was unable to reproduce it.\n\nI recorded a video showing the steps I followed to reproduce the issue and sent it to you. Please check the attached file for more details.\n\nBR,\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-11-09T07:36:56+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear FMV Vu Phuoc,\n\nRegarding cases CC-0085202 and CC-0085201, could you please confirm whether the issues occurred on the same machine,\n\n specifically on the same module Line 12, M2?\n\nThank you for your confirmation.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
         "DATE": "2026-11-09T06:55:32+00:00",
         "CC NUMBER": "CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
