@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T11:07:48+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nCurrently, in the Nghe An area, only Luxshare Precision (Yi'an) is using OCPU.\n\nThe customers Luxvisions Innovation Technology (Yi'an) and MERRY & LUXSHARE (VIET NAM) are currently evaluating the Offline Changeover function and considering the use of OCPU.\n\nI have also asked FMV engineers at LITE-ON VIETNAM to check OCPU operation, and they confirmed that the “Feeder with red LED” issue also occurs there.\n\nRegarding my suspicion that the the power cable and communication cable are unstable, as shown in the video, I removed all feeders that did not have the issue and conducted tests only on the affected feeders. However, this did not resolve the issue, so we can rule out this suspicion.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
+        "DATE": "2026-11-09T11:02:45+00:00",
+        "CC NUMBER": "CC-0083930",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Holder B of RH28 head check fail  at vacuum break , vacuum channel and cleaning channel_[NXTR-S]",
+        "Communication Content": "Dear Xuan Trung san,\n\nPlease return the replaced rotary holder to FUJI.\n\nThank you in advance!\n\nKonda,",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JJAY7YAP"
+    },
+    {
         "DATE": "2026-11-09T10:47:52+00:00",
         "CC NUMBER": "CC-0085568",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
