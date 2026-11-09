@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T08:49:53+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nThank you for your feedback.\n\nCould you also confirm whether the issues reported in CC-0085202 and CC-0085201 originally occurred on the same machine (Line 12, M2)?\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-09T08:40:02+00:00",
+        "CC NUMBER": "CC-0085134",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_6709ffff error occurs when open the job_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Binh,\n\nThank you for your questions.\n\nRegarding the BAT files,\n\nOne BAT file to manually check the database tablespace capacity.\n\nAnother BAT file to manually delete unnecessary Work Tables.\n\nBoth BAT files need to be executed manually.\n\nRegarding the Maintenance Tool, may I confirm whether you are referring to the tool used to upgrade the NEXIM database?\n\nIf so, both procedures are intended to achieve the same result in terms of database maintenance, so using the BAT files should serve as an alternative to the Maintenance Tool.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Binh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NWkegYAD"
+    },
+    {
         "DATE": "2026-11-09T08:30:20+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
