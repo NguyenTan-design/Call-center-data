@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-09T10:47:52+00:00",
+        "CC NUMBER": "CC-0085568",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Using nexim transmit job, Module 5 didn't receive the job when changeover_[NXTR-S]",
+        "Communication Content": "Dear Tuan san\n\nSorry for lack of explanation.\n\nI attached one screenshot from NXTR function manual.\n\nThis restriction is corresponds in the red mark on the screenshot.\n\nWhen the JOB change between Pair robot and non Pair robot, the machine need to stop and change the status to waiting start condition.\n\nPlease kindly ask to customer to stop all modules and send the JOB from Nexim.\n\nOn the other hands, this description on the manual is not clear.\n\nSo I am asking to designer team to change it as the customer can understand the machine need to stop.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OmA0UYAV"
+    },
+    {
+        "DATE": "2026-11-09T10:39:12+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Dinh-San,\n\nRegarding Cases Where the System May Not Function Properly Depending on the Insertion Angle\n\nThe following measures are planned.\n\n“Feeder Interference Prevention Sensor”\n\nScheduled for implementation in V2.4 *The interference prevention sensor for 2R is TBD.\n\nLimitations\n\n・Tray units and other components other than feeders are not supported.\n\n・Auto-loading feeders are not supported.\n\n・Monitoring is generally continuous, but it is turned off when the feeder is removed for operation.\n\n・Since this is a through-beam sensor, detection may fail if there are reflective objects nearby.\n\nModification time: 5 hours per unit\n\nAdditionally, the parts required may vary depending on the condition of the equipment.\n\nPlease be aware of this.\n\nSeparate adjustments are required for the mechanical, hardware, and software components.\n\nIf you need to make a proposal beyond simply informing operators, please consult with the sales department.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
         "DATE": "2026-11-09T09:55:16+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
