@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-10T13:30:05+00:00",
+        "CC NUMBER": "CC-0085658",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Nozzle information on Accessory web\\Module information is not correct_「アクセサリ Web」の「ノズル情報」および「モジュール情報」が正しくありません[NXTR-S]",
+        "Communication Content": "Dear Amano-san\n\nThank you for your support!\n\nYes, the nozzle is physically installed in a particular nozzle station, but the position shown in the Accessory setting does not match the actual nozzle station location, and kind of nozzle completely difference with current job on NXTR machine\n\nBest regard\n\nFMV Hoang",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001P6yp6YAB"
+    },
+    {
         "DATE": "2026-11-10T08:32:01+00:00",
         "CC NUMBER": "CC-0085658",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
