@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-10T03:36:54+00:00",
+        "CC NUMBER": "NEW:CC-0085674",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Skip Mark Recognition Failure on NXTRC_[NXTR-S]",
+        "Communication Content": "Dear  Call Center\n\nCurrently, the customer is using a production program with the Skip Mark function enabled. This function is used to identify and skip defective PCBs marked on the panel during the production process.\n\n1. Issue Description:\n\nThe panel transportation direction is from left to right.\n\n•\tNXTR-3A: When the panel enters the machine, the system can successfully recognize the Skip Mark. The marked PCBs are skipped and no components are mounted on them.\n\n•\tNXTR-3B: There are no mounting points.\n\n•\tNXTR-3C: When the panel enters the machine, the system fails to recognize the Skip Mark.\n\n2. Impact:\n\nSince NXTR-3C does not receive the Skip Mark information, the machine proceeds with component placement on all PCBs on the panel, including those that have been marked to be skipped.\n\n3. Software Version Information:\n\n•\tNEXIM: V3.2.110\n\n•\tLCU: V2.35\n\n•\tNXTR: V2.DMe\n\n4. Request for Support:\n\nWe have collected the trace data from Module 1, the production program, and other relevant information.\n\nWe would appreciate your support in checking and analyzing the collected data to identify the root cause of this issue and recommend an appropriate corrective action.\n\nYour support and technical advice would be highly appreciated.\n\nBest regards,\n\nThoi Pham",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PBwt2YAD"
+    },
+    {
+        "DATE": "2026-11-10T03:33:51+00:00",
+        "CC NUMBER": "CC-0075016",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_head RH08 alarm error 8CC4198D even replace all new solenoid valve_ヘッド RH08 のアラームエラー 8CC4198D が表示される（ソレノイドバルブをすべて新品に交換しても解消しない）[NXTR-S]",
+        "Communication Content": "森谷さん\n\n本件すでに日本での修理完了、発送手続きに進んでいますのこのチケットはCloseしてください。\n\nCC-0075416にて原因調査、改善を引き続きお願いします。\n\nFMV 高津",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000u8WLpYAM"
+    },
+    {
         "DATE": "2026-11-10T02:32:14+00:00",
         "CC NUMBER": "CC-0084051",
         "Customer": "BYD Electronics Vietnam Company Limited]",
