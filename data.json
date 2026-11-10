@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-10T01:51:29+00:00",
+        "CC NUMBER": "CC-0085603",
+        "Customer": "QISDA VIETNAM CO., LTD]",
+        "TOPIC": "Urgent[QISDA VIETNAM CO., LTD]_Machine encoutered error 8CC16505 during production_生産中に8CC16505エラー が発生しました[NXT]",
+        "Communication Content": "Vu Hien-san\n\nPlease replace the Vacuum Pump Maintenance Kit (H5448D), which is a consumable item.\n\nThe replacement procedure is described in the Mechanical Reference Manual. Please refer to the manual when performing the replacement.\n\nCall center Amano",
+        "FMV PIC": "Vu Hien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Owwa2YAB"
+    },
+    {
         "DATE": "2026-11-10T01:21:27+00:00",
         "CC NUMBER": "CC-0083930",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
