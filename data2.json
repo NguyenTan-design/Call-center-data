@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-10T15:26:50+00:00",
+        "CC NUMBER": "NEW:CC-0085720",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_[NXTR-A]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-11-10T03:36:54+00:00",
         "CC NUMBER": "NEW:CC-0085674",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",

@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-10T15:30:09+00:00",
+        "CC NUMBER": "CC-0084051",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_NXTR no Raised Feeder Check alarm when the module is stopped._モジュールが停止している場合、「フィーダーチェック」アラームは発生しません。[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nThank you for your information.\n\nPlease close this ticket . If the customer requests any modifications, we will open a new ticket and include this CC number for further discussion.\n\nBest regards,\n\nFMV-TU",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JenPyYAJ"
+    },
+    {
+        "DATE": "2026-11-10T15:26:50+00:00",
+        "CC NUMBER": "NEW:CC-0085720",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_[NXTR-A]",
+        "Communication Content": "Dear Call Center,\n\nWhile evaluating a new model at the customer’s site, we found that the customer does not yet have the standard package for one of the components. As a temporary solution, the component is loaded in a larger-than-standard package.\n\nWe understand that the TVR function checks the pickup position and can apply an offset based on the component’s detected position. However, when we use TVR, the component is recognized successfully and the X- and Y-axis positions are offset, but the Q-axis position is not. As a result, the component is not picked optimally, which causes quality issues.\n\nWhile waiting for the standard package, the customer would like to know whether this issue can be mitigated without tightening the Q-axis pickup-position tolerance. Tightening the tolerance results in a very high pickup rejection rate and leaves too few components for subsequent evaluations.\n\nCould you please advise whether the Q-axis position can also be offset based on the TVR recognition result, or recommend another way to reduce these pickup issues?\n\nBest regards,\n\nFMV-Ha",
+        "FMV PIC": "Vuong Ha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP"
+    },
+    {
         "DATE": "2026-11-10T13:30:05+00:00",
         "CC NUMBER": "CC-0085658",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
