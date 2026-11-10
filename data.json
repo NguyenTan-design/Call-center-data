@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-10T05:37:36+00:00",
+        "CC NUMBER": "CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "FMV-DUC san,\n\nCould you please advise on how to verify, on-site, whether the NXTR mark camera supports \"Sidelight2\"?\n\n→ Support for \"Sidelight2\" can be verified via the monitor interface. (This is a task to be performed by the distributor.)\n\nWe will confirm the specific procedure by November 20th.\n\nCould you please provide the serial numbers (S/N) of the NXTR switching modules that are compatible with \"Sidelight2\"?\n\n→ We will confirm this by November 20th.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+    },
+    {
         "DATE": "2026-11-10T05:22:36+00:00",
         "CC NUMBER": "CC-0081046",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
@@ -50875,14 +50884,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-10T05:37:36+00:00",
-        "CC NUMBER": "CC-0079816",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
-        "Communication Content": "FMV-DUC san,\n\nCould you please advise on how to verify, on-site, whether the NXTR mark camera supports \"Sidelight2\"?\n\n→ Support for \"Sidelight2\" can be verified via the monitor interface. (This is a task to be performed by the distributor.)\n\nWe will confirm the specific procedure by November 20th.\n\nCould you please provide the serial numbers (S/N) of the NXTR switching modules that are compatible with \"Sidelight2\"?\n\n→ We will confirm this by November 20th.\n\nBR\n\nChi/Fuji",
-        "FMV PIC": "Pham Duc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
     }
 ]
