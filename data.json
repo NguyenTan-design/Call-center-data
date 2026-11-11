@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-11T12:22:02+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Hamamoto san,\n\nCurrently, the customer would like to adjust the settings to enable the machine to measure this type of component accurately.\n\nHowever, most of these components cannot be measured accurately. I have tried adjusting and changing various parameters several times, but the measured values still cannot meet the actual capacitance values.\n\nCould you please provide further technical support and consult with the FUJI design team to investigate whether there are any additional settings or possible solutions to improve the measurement accuracy for these capacitors?\n\nThank you for your support.\n\nBest regards,\n\nNam Nguyen",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
+        "DATE": "2026-11-11T12:10:33+00:00",
+        "CC NUMBER": "CC-0083290",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Line 2 – Panel does not exit immediately after production is completed_[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nSorry for the delay in getting back to you.\n\nAfter reinstalling the Line Server and recreating the Traceability Profile, we have monitored the production process, and the issue has not occurred again up to now.\n\nThank you for your support.\n\nBest regards,\n\nFMV-Nam",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HUsvIYAT"
+    },
+    {
         "DATE": "2026-11-11T10:45:17+00:00",
         "CC NUMBER": "CC-0085559",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
