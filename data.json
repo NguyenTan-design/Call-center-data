@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-11T05:09:13+00:00",
+        "CC NUMBER": "CC-0081529",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question about  Panel property_[NXTR-S]",
+        "Communication Content": "Dear Hoang Kha-san,\n\nWe will close this ticket.\n\nIf you have any update please create new ticket.\n\nThank you for your understanding and cooperation.\n\nBR,\n\nFUJI Ma",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ChFagYAF"
+    },
+    {
+        "DATE": "2026-11-11T05:07:13+00:00",
+        "CC NUMBER": "CC-0083964",
+        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
+        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]_The serial number cannot be registered on the main board using the Head Bench._[NXTR]",
+        "Communication Content": "Chi さん\n\n解決済みの為Closeしてください。\n\nFMV 高津",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JMzSuYAL"
+    },
+    {
+        "DATE": "2026-11-11T04:57:22+00:00",
+        "CC NUMBER": "CC-0084689",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
+        "Communication Content": "Hwan Kim様\n\n修正パッチを11/16までにリリース予定です。\n\n正式対応はV3.4.0です。\n\nパッチ発行までもうしばらくお待ちください。\n\nKonda,",
+        "FMV PIC": "Hwan Kim",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
+    },
+    {
         "DATE": "2026-11-11T04:53:25+00:00",
         "CC NUMBER": "CC-0085559",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
