@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T06:11:24+00:00",
+        "CC NUMBER": "CC-0085720",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_80003410 – 幅の広い...",
+        "Communication Content": "FMV-Ha-san\n\nWould you like to conduct the production test using the TVR function?\n\nHow extensive is the test expected to be (for example, how many components will be used/placed)?\n\nAlso, would it be possible to manually pick up the component using on-machine editing (Machine Editor) instead?\n\nCall center Amano",
+        "FMV PIC": "Vuong Ha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP"
+    },
+    {
         "DATE": "2026-11-11T05:09:13+00:00",
         "CC NUMBER": "CC-0081529",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
