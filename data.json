@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T03:12:00+00:00",
+        "CC NUMBER": "CC-0084689",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
+        "Communication Content": "Fuji Konda様。\n\nいつもお世話になっております。\n\nPatchの発行予定日が１０日だと教えていただいたのですが、１０日だと昨日でした。\n\nいつ頃いただけますでしょうか？\n\nパッチの発行日を教えていただいたら幸いです。\n\nご確認の程、どうぞ宜しくお願い申し上げます。\n\n以上です。",
+        "FMV PIC": "Hwan Kim",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
+    },
+    {
         "DATE": "2026-11-11T03:08:28+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
@@ -50967,12 +50976,12 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
     },
     {
-        "DATE": "2026-11-11T03:12:00+00:00",
-        "CC NUMBER": "CC-0084689",
-        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
-        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
-        "Communication Content": "Fuji Konda様。\n\nいつもお世話になっております。\n\nPatchの発行予定日が１０日だと教えていただいたのですが、１０日だと昨日でした。\n\nいつ頃いただけますでしょうか？\n\nパッチの発行日を教えていただいたら幸いです。\n\nご確認の程、どうぞ宜しくお願い申し上げます。\n\n以上です。",
-        "FMV PIC": "Hwan Kim",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
+        "DATE": "2026-11-11T03:27:08+00:00",
+        "CC NUMBER": "CC-0076309",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 3A22 occurs on RH28_RH28にて3A22エラーが発生する[NXTR-S]",
+        "Communication Content": "平林さん\n\nWR部品到着済みの為Closeしてください。\n\nFMV 高津",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xqteNYAQ"
     }
 ]
