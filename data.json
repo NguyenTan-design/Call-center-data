@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-11T04:04:47+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "FMV Vu Phuoc-san\n\nDo you have any update?\n\nIf there is no reply, I will close this case at the end of next week.\n\nIf you need any help after closing this case, please open a new ticket (mention this CC number.)\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
+        "DATE": "2026-11-11T04:02:48+00:00",
+        "CC NUMBER": "CC-0085567",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim Optimize completes successfully without detecting a missing Part Number in an AVL group_AVLグループ内に不足しているPart Numberが存在するにもかかわらず、Nexim Optimizeがそれを検出せず正常完了する[NXTR-S]",
+        "Communication Content": "Dear Hoang Minh-san,\n\nThank you for the inquiry,\n\nIt had been supported from the Nexim V3.3.0 which planned to be release within December/2026.\n\nThe error message will be show like below.\n\n================\n\nPart Number \"304001755092\" does not exist in the job.\n\nFailed to execute optimization.\n\n================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Olq4zYAB"
+    },
+    {
+        "DATE": "2026-11-11T04:00:11+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "FMV-Chien-san\n\nWe will close this case.\n\nCall center Amano",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-11-11T03:54:17+00:00",
         "CC NUMBER": "CC-0083207",
         "Customer": "JABIL VIETNAM CO., LTD.]",
