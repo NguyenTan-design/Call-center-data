@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-11T03:29:24+00:00",
+        "CC NUMBER": "NEW:CC-0085752",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The machine freezes after editing the job on the machine_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt approximately 9:10 AM today, at the Liteon customer site, after using the During Editing function on Line S06-M2, the machine displayed error code 6A040008 and became unresponsive, preventing any further operation.\n\nWe attempted to restart the NPI Server, but this did not resolve the issue. We then restarted the machine, which successfully resolved the freezing issue and restored normal operation.\n\n1. Machine version: V2.DBd\n\n2. LCU version: V2.35\n\n3. Nexim ver: 3.2.110\n\nI would like to attach trace data file.\n\nPlease help us to investiage because the customer need a explaination\n\nThanks and best regards!\n\nFMV-Vu Thien",
+        "FMV PIC": "Vu Thien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PNivxYAD"
+    },
+    {
+        "DATE": "2026-11-11T03:27:08+00:00",
+        "CC NUMBER": "CC-0076309",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 3A22 occurs on RH28_RH28にて3A22エラーが発生する[NXTR-S]",
+        "Communication Content": "平林さん\n\nWR部品到着済みの為Closeしてください。\n\nFMV 高津",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xqteNYAQ"
+    },
+    {
         "DATE": "2026-11-11T03:12:00+00:00",
         "CC NUMBER": "CC-0084689",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
@@ -50974,14 +50992,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-11T03:27:08+00:00",
-        "CC NUMBER": "CC-0076309",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 3A22 occurs on RH28_RH28にて3A22エラーが発生する[NXTR-S]",
-        "Communication Content": "平林さん\n\nWR部品到着済みの為Closeしてください。\n\nFMV 高津",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xqteNYAQ"
     }
 ]
