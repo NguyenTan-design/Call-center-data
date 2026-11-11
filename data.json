@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-11T16:58:09+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Nam-san\n\nThe designer offers the following perspective:\n\n1：Increase the applied voltage by changing the current setting\n\n2：Change the measurement mode to SLOW\n\n3：Set the “Frequency Setting” to “High Frequency”\n\nRegarding \"1,\" this is something that has already been implemented.\n\nRegarding \"2,\" this is a setting within the LCR meter itself, so it is likely a parameter that cannot be modified by the customer.\n\nRegarding \"3,\" I believe it will require changes to the application.\n\nHowever, they say there is no guarantee that trying methods 2 and 3 will lead to an improvement.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
+        "DATE": "2026-11-11T16:45:12+00:00",
+        "CC NUMBER": "NEW:CC-0085801",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim V3.2.100 – Vision Test Part Outline Issue_[NXTR]",
+        "Communication Content": "Dear Call Center,\n\nWhile using the Vision Test function in Nexim V3.2.110, we encountered an issue where the part outline does not fit the image correctly, although the Vision processing result is OK. The part can still run normally on the production line.\n\nThis case may be similar to: CC-0082961\n\nWe try to use the patch: 5789_V3.2.100_Plan_Patch which you guy mention in the CC-0082961 for LiteOn customer, but after that we can not open any Shape data to edit.\n\nPls check the capture: After applied Patch on the client PC.png\n\nQuestion:\n\nCan we use that patch for Luxshare Precision (Yi'an) customer? If that is not possible, please propose a suitable patch for Luxshare.\n\nPlease review the attached file and help to provide us with your analysis and advice.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PUVXMYA5"
+    },
+    {
         "DATE": "2026-11-11T14:31:24+00:00",
         "CC NUMBER": "CC-0082807",
         "Customer": "BYD Electronics Vietnam Company Limited]",
