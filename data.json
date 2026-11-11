@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-11T04:53:25+00:00",
+        "CC NUMBER": "CC-0085559",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Automatic Nozzle Lowering and Nozzle Skip Issue_[NXTR-S]",
+        "Communication Content": "コールセンター御中　近田さん\n\n本件について補足させてください。\n\n現在は気づいたら自動でノズルのスキップが増えていき、フロアレイアウトに！マークが増えています。\n\nそこには理由も記されていなければ、エンジニア、オペレータは何をしたらいいか分かりません。\n\n当チケットの目的は以下２つです。\n\n①　なぜスキップされているのかを知りたい。どんなエラーがスキップのトリガーとなるのか知りたい。⇒これは一先ずお客さんへの回答のために知りたい。\n\n②　当件からVoCに移行して、将来的にはスキップの理由をどこかに表示させてほしい\n\nということで引き続きスキップの理由について確認をお願いします。\n\nFMV Akira",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OjhyYYAR"
+    },
+    {
+        "DATE": "2026-11-11T04:53:00+00:00",
+        "CC NUMBER": "CC-0084845",
+        "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
+        "TOPIC": "Urgent[CANON VIETNAM CO.,LTD (TS Factory)]_The The H02 head has  error codes 3A19 and 8CDE during operation._H02ヘッドは、動作中にエラーコード3A19および8CDEを表示します。[NXTIII]",
+        "Communication Content": "Dear Amano san\n\n本件先週日本へ返却済みです。\n\n顧客ヘッドの為、調査期間の確認をお願いいたします。\n\nまた、調査後は日本にて修理するという理解で問題ありませんよね？\n\nFMV 高津",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MkmIzYAJ"
+    },
+    {
+        "DATE": "2026-11-11T04:40:34+00:00",
+        "CC NUMBER": "CC-0073842",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Not Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]__FMCラベルフィーダのNXTR対応日程[NXTR-S]",
+        "Communication Content": "コールセンター御中\n\nV2.4ベースのLuxshare向け特殊バージョンが12月中旬にリリースされると聞いています。\n\nその中にFMC製ラベルフィーダも対応されると思っていていいでしょうか？\n\n顧客マネージャーより「いつ使えるようになる？」と質問を受けていますので最終確認となります。\n\nFMV Akira",
+        "FMV PIC": "Xue DeZhou",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000rV9tLYAS"
+    },
+    {
         "DATE": "2026-11-11T04:04:47+00:00",
         "CC NUMBER": "CC-0084507",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
