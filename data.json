@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T03:54:17+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI'm sorry for late reply.\n\nSo I can understand that we can not find the exactly cause for this issue.\n\nAnd currently, I see Nexim can not export job file by right click on group folder then export all sub folder and job file inside.\n\nCould you please consider adding this feature ?\n\nBest Regards,\n\nFMV-SON",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-11-11T03:29:24+00:00",
         "CC NUMBER": "NEW:CC-0085752",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
