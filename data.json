@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T20:03:36+00:00",
+        "CC NUMBER": "CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san\n\nI have an important announcement and one question.\n\n【Important announcement】\n\nWe apologize,we have discovered a bug in the Nexim “5947 Patch” that we sent you.\n\nWe will fix it immediately and prepare a new patch.（Note：We expect to have the patch ready by November 16.）\n\n【Question】\n\nYou say that you “have already received V2.DMK.”\n\nUnder what circumstances did you receive it? (CC-00****?)　\n\nPlease provide the relevant case number.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
         "DATE": "2026-11-11T16:58:09+00:00",
         "CC NUMBER": "CC-0083499",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
