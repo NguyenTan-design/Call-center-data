@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T08:17:43+00:00",
+        "CC NUMBER": "CC-0085720",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_80003410 – 幅の広い...",
+        "Communication Content": "Dear Amano-san,\n\nThank you for your inquiry.\n\nWe have set up the TVR Position Pickup function on Feeder 54 of Module 3R for part number 4035103972.\n\nCurrently, the pickup success rate is approximately 70% to 85%, and the main error observed is Error Code 80003410.\n\nBased on our observations, during TVR recognition the machine only applies pickup offset correction in the X and Y directions. However, Q-axis (rotation) offset correction does not appear to be applied.\n\nPlease refer to the attached file for detailed information and supporting data.\n\nIf any additional information is required for your analysis, please let us know. We will provide further details and updates as needed.\n\nBest regards,\n\nFMV-Ha",
+        "FMV PIC": "Vuong Ha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP"
+    },
+    {
         "DATE": "2026-11-11T07:02:37+00:00",
         "CC NUMBER": "CC-0084507",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
