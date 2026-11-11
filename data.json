@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-11T03:08:28+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nIs there any update for this case?\n\nFrom the log, the process started at 07:00 on September 15 and continued running until 00:36 on September 16.\n\nA total of 2,772 jobs were successfully exported in approximately 15.5 hours.\n\nSince there are 12,248 jobs in NeximDB, and it takes approximately 20 to 30 seconds per job,\n\nthe entire export process is expected to take about 3 to 4 days to complete.\n\nIf the status of NeximDataBackup in Task Scheduler is still Running, please wait for the process to finish.\n\nThere is also a possibility that the previous execution did not complete normally.\n\nFor example, it may have been terminated forcibly and stopped before all jobs were exported.\n\nPossible causes include a power outage, service termination, insufficient memory, or other unknown factors.\n\nIf the Auto Backup Tool (export process) takes too long and could not wait to complete, it may be better using a NeximDB backup instead.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
         "DATE": "2026-11-11T02:40:53+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -50956,5 +50965,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-11T03:12:00+00:00",
+        "CC NUMBER": "CC-0084689",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
+        "Communication Content": "Fuji Konda様。\n\nいつもお世話になっております。\n\nPatchの発行予定日が１０日だと教えていただいたのですが、１０日だと昨日でした。\n\nいつ頃いただけますでしょうか？\n\nパッチの発行日を教えていただいたら幸いです。\n\nご確認の程、どうぞ宜しくお願い申し上げます。\n\n以上です。",
+        "FMV PIC": "Hwan Kim",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
     }
 ]
