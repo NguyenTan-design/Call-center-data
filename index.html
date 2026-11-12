@@ -163,9 +163,7 @@
     table-layout: fixed;
   }
 
-  /* Sửa lỗi: Chỉ áp dụng Header màu xanh cho bảng chính, tránh đè lên bảng Lịch sử */
-  #basic-view table thead th,
-  #detail-view table thead th {
+  thead th {
     position: sticky;
     top: 0;
     background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -1268,18 +1266,6 @@
   /* ============================================================
      History Modal
      ============================================================ */
-  #history-modal table thead th {
-    position: sticky;
-    top: 0;
-    background: #f8fafc;
-    color: #334155;
-    z-index: 10;
-    border-bottom: 2px solid #cbd5e1;
-    font-weight: 600;
-    text-align: left;
-    padding: 12px 10px;
-  }
-
   #history-tbody tr:nth-child(even) { background: #f8fafc; }
   #history-tbody tr:hover { background: var(--primary-soft); transition: background .12s ease; }
   #history-tbody td { padding: 10px 12px; border-bottom: 1px solid #eef2f7; vertical-align: top; }
@@ -1538,20 +1524,19 @@
       <h2>🕒 Lịch sử đăng nhập</h2>
       <button id="history-modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
     </div>
-    <!-- Thêm display: flex; flex-direction: column; để modal không bị kéo giãn sai -->
     <div class="modal-body" style="padding: 0; display: flex; flex-direction: column;">
       <div id="history-loading" style="padding: 30px; text-align: center; color: #64748b;">Đang tải lịch sử...</div>
       <div id="history-error" style="padding: 30px; text-align: center; color: #dc2626; display: none;"></div>
       <div id="history-table-wrap" style="overflow-x: auto; display: none; flex: 1 1 auto;">
         <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
           <thead>
-            <tr>
-              <th>Thời gian</th>
-              <th>Tài khoản</th>
-              <th>IP</th>
-              <th>Quốc gia</th>
-              <th>Trạng thái</th>
-              <th>Thiết bị</th>
+            <tr style="background: #f8fafc; color: #334155; position: sticky; top: 0; z-index: 10; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding: 12px 10px; font-weight: 600;">Thời gian</th>
+              <th style="padding: 12px 10px; font-weight: 600;">Tài khoản</th>
+              <th style="padding: 12px 10px; font-weight: 600;">IP</th>
+              <th style="padding: 12px 10px; font-weight: 600;">Quốc gia</th>
+              <th style="padding: 12px 10px; font-weight: 600;">Trạng thái</th>
+              <th style="padding: 12px 10px; font-weight: 600;">Thiết bị</th>
             </tr>
           </thead>
           <tbody id="history-tbody"></tbody>
@@ -1864,7 +1849,7 @@
     });
     const data = await res.json().catch(() => ({}));
     if (!res.ok || !data.token) {
-      throw new Error(data.error || `Login failed (HTTP ${res.status})`);
+      throw new Error(data.message || data.error || `Đăng nhập thất bại (HTTP ${res.status})`);
     }
     authToken = data.token;
     authFailureHandled = false;
@@ -1969,21 +1954,20 @@
         mode: "cors",
         headers: { "Accept": "application/json" }
       });
+      
+      let data = {};
+      try { data = await res.json(); } catch(e) {}
+
       if (!res.ok) {
-        throw new Error(`HTTP ${res.status}: Không thể lấy dữ liệu lịch sử.`);
+        throw new Error(data.message || `HTTP ${res.status}: Không thể lấy dữ liệu lịch sử.`);
       }
       
-      const data = await res.json();
-      
-      // Parse dữ liệu chính xác từ Backend trả về
       let list = [];
-      if (Array.isArray(data)) {
-        list = data;
-      } else if (data && typeof data === 'object') {
+      if (Array.isArray(data)) list = data;
+      else if (data && typeof data === 'object') {
         if (Array.isArray(data.logs)) list = data.logs;
         else if (Array.isArray(data.history)) list = data.history;
         else if (Array.isArray(data.data)) list = data.data;
-        else if (Array.isArray(data.records)) list = data.records;
       }
 
       renderHistoryData(list);
@@ -2018,7 +2002,6 @@
     list.forEach(item => {
       const tr = document.createElement("tr");
 
-      // 1. Thời gian
       const tdTime = document.createElement("td");
       const timeVal = item.timestamp || item.time;
       const d = new Date(timeVal);
@@ -2027,23 +2010,19 @@
       tdTime.style.whiteSpace = "nowrap";
       tdTime.style.padding = "10px";
 
-      // 2. Tài khoản
       const tdUser = document.createElement("td");
       tdUser.textContent = item.username || item.user || "—";
       tdUser.style.fontWeight = "bold";
       tdUser.style.padding = "10px";
 
-      // 3. IP
       const tdIp = document.createElement("td");
       tdIp.textContent = item.ip || "—";
       tdIp.style.padding = "10px";
 
-      // 4. Quốc gia
       const tdCountry = document.createElement("td");
       tdCountry.textContent = (item.country === "Unknown" || !item.country) ? "—" : item.country;
       tdCountry.style.padding = "10px";
       
-      // 5. Trạng thái (Sửa lại: kiểm tra item.action)
       const tdStatus = document.createElement("td");
       const badge = document.createElement("span");
       const isSuccess = item.action === "LOGIN_SUCCESS" || item.success === true;
@@ -2052,7 +2031,6 @@
       tdStatus.appendChild(badge);
       tdStatus.style.padding = "10px";
 
-      // 6. Thiết bị (User-Agent)
       const tdUa = document.createElement("td");
       tdUa.className = "history-ua";
       tdUa.textContent = item.userAgent || item.device || "—";
@@ -2107,14 +2085,13 @@
   }
 
   // ============================================================
-  // COLUMN HIDE / SHOW — CHỈ DÙNG CHO DETAIL
+  // COLUMN HIDE / SHOW
   // ============================================================
   function attachColumnHideButtons(theadRow, onChange) {
     const ths = theadRow.querySelectorAll("th");
     ths.forEach((th, idx) => {
       const colType = th.dataset.colType || "";
       if (colType === "ccnumber") return;
-
       if (th.querySelector(".col-hide-btn")) return;
 
       const btn = document.createElement("button");
@@ -2170,11 +2147,9 @@
 
   function updateColgroup() {
     if (!detailColgroup) return;
-
     detailColgroup.replaceChildren();
 
     const hidden = hiddenColumns.detail;
-
     detailColTypes.forEach((type, idx) => {
       const col = document.createElement("col");
       if (hidden[idx]) {
@@ -2192,7 +2167,6 @@
   function updateTableWidth() {
     const table = detailTable;
     if (!table) return;
-
     const hidden = hiddenColumns.detail;
     const hasHidden = Object.keys(hidden).some(k => hidden[k]);
 
@@ -2217,7 +2191,6 @@
   function renderHiddenColsToolbar(onChange) {
     const container = hiddenColsDetail;
     if (!container) return;
-
     const table = detailTable;
     if (!table) return;
 
@@ -2228,16 +2201,13 @@
 
     ths.forEach((th, idx) => {
       if (!hidden[idx]) return;
-
       const label = getHeaderLabel(th, idx);
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "col-show-btn";
       btn.textContent = `+ ${label}`;
       btn.title = `Hiện lại cột "${label}"`;
-      btn.addEventListener("click", () => {
-        showColumn(idx, onChange);
-      });
+      btn.addEventListener("click", () => showColumn(idx, onChange));
       container.appendChild(btn);
     });
   }
@@ -2250,10 +2220,10 @@
   }
 
   // ============================================================
-  // STATUS API
+  // STATUS API (BỔ SUNG ĐỒNG BỘ)
   // ============================================================
-  async function loadStatuses() {
-    if (statusesLoaded) return statusMap;
+  async function loadStatuses(force = false) {
+    if (statusesLoaded && !force) return statusMap;
     if (statusesLoading) return statusesLoading;
 
     statusesLoading = (async () => {
@@ -2263,18 +2233,13 @@
           mode: "cors",
           headers: { "Accept": "application/json" }
         });
+        
+        let data = {};
+        try { data = await res.json(); } catch(e) {}
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-        const data = await res.json();
         statusMap.clear();
-
-        const list = Array.isArray(data)
-          ? data
-          : Array.isArray(data?.statuses)
-            ? data.statuses
-            : Array.isArray(data?.data)
-              ? data.data
-              : null;
+        const list = Array.isArray(data) ? data : (Array.isArray(data?.statuses) ? data.statuses : null);
 
         if (list) {
           list.forEach(entry => {
@@ -2295,28 +2260,25 @@
               [FIELD_OPEN_DAY]:       opeKey ? entry[opeKey] : null
             });
           });
-        } else if (data && typeof data === "object") {
-          Object.entries(data).forEach(([cc, st]) => {
-            const key = normalizeCc(cc);
-            const val = String(st ?? "").trim();
-            if (key && val) {
-              statusMap.set(key, {
-                [FIELD_CURRENT_STATUS]: val,
-                [FIELD_PRIORITY]: "",
-                [FIELD_OPEN_DAY]: null
-              });
-            }
-          });
         }
+
+        // Lưu bộ nhớ tạm để không bị mất khi F5
+        try {
+          localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
+        } catch(_) {}
 
         statusesLoaded = true;
       } catch (err) {
-        if (err.isAuthError) {
-          // handleAuthFailure đã xử lý — không set statusesLoaded để retry sau
-        } else {
-          console.error("loadStatuses failed:", err);
-          statusesLoaded = true;
-        }
+        if (err.isAuthError) return;
+        console.error("loadStatuses failed:", err);
+        
+        // Khôi phục từ bộ nhớ tạm nếu API lỗi
+        try {
+          const cached = localStorage.getItem("cc_status_cache");
+          if (cached && statusMap.size === 0) {
+            JSON.parse(cached).forEach(([cc, val]) => statusMap.set(cc, val));
+          }
+        } catch(_) {}
       } finally {
         statusesLoading = null;
       }
@@ -2372,6 +2334,12 @@
     } else {
       statusMap.set(ccNumber, { ...entry });
     }
+    
+    // Cập nhật bộ nhớ tạm
+    try {
+      localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
+    } catch(_) {}
+
     return true;
   }
 
@@ -2612,26 +2580,27 @@
   }
 
   async function ensureGraphData() {
-    if (graphLoaded) return;
+    if (!graphLoaded) {
+      graphStatus.textContent = "Loading graph data...";
+      graphStatus.style.display = "block";
+      const [res] = await Promise.all([
+        fetch(GRAPH_DATA_SOURCE),
+        loadCustomerList("nat")
+      ]);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const raw = await res.json();
 
-    graphStatus.textContent = "Loading graph data...";
-    graphStatus.style.display = "block";
+      graphData = raw.map(item => ({
+        ...item,
+        __customer: normalize(item["Customer"])
+      }));
 
-    const [res] = await Promise.all([
-      fetch(GRAPH_DATA_SOURCE),
-      loadCustomerList("nat"),
-      loadStatuses()
-    ]);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const raw = await res.json();
-
-    graphData = raw.map(item => ({
-      ...item,
-      __customer: normalize(item["Customer"])
-    }));
-
-    graphLoaded = true;
-    graphStatus.style.display = "none";
+      graphLoaded = true;
+      graphStatus.style.display = "none";
+    }
+    
+    // Luôn gọi loadStatuses (force = true) để lấy dữ liệu mới nhất mỗi khi mở Graph Mode
+    await loadStatuses(true);
   }
 
   // ============================================================
@@ -3199,7 +3168,16 @@
     detailTitle.textContent = title;
 
     const showCharts = title === ONGOING_DETAIL_TITLE;
-    detailChartsData = showCharts ? buildDetailChartsData(detailRecordsAll) : null;
+    
+    // Nếu statusMap rỗng, tải lại status để đảm bảo dữ liệu biểu đồ chính xác
+    if (showCharts && statusMap.size === 0) {
+      loadStatuses().then(() => {
+        detailChartsData = buildDetailChartsData(detailRecordsAll);
+        renderDetailCharts();
+      });
+    } else {
+      detailChartsData = showCharts ? buildDetailChartsData(detailRecordsAll) : null;
+    }
 
     detailChartsVisibleMobile = false;
     updateDetailChartsVisibility();
@@ -3421,7 +3399,6 @@
     detailThead.appendChild(trHead);
 
     attachColumnHideButtons(trHead, () => renderDetailTableRows());
-
     updateColgroup();
 
     renderDetailTableRows();
@@ -3530,7 +3507,6 @@
     });
 
     detailTbody.appendChild(fragment);
-
     applyHiddenColumns();
   }
 
