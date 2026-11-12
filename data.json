@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-12T01:53:36+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Kaki san\n\nToday this error 9481 share information error happen again when change over from Pair to no pair production.\n\nIt happen at module 4L about 8:00 am. I take trace data \" 20261112_084328_trace-9481 ERROR at module 4L\" , please help me continue invest it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-12T01:47:02+00:00",
+        "CC NUMBER": "CC-0083094",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Purple Screen Error When Using the Edit Cavity Pick Function for Stacked Tray Feeder_[NXTR-S]",
+        "Communication Content": "Dear Konda san,\n\nI have received the new version you sent.\n\nI will confirm the upgrade schedule with the customer and inform you of the results once it has been finalized.\n\nThank you for your support.\n\nFMV-Chien.",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Gzj0DYAR"
+    },
+    {
+        "DATE": "2026-11-12T01:43:34+00:00",
+        "CC NUMBER": "CC-0082712",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_new head RH08 alarm an error 8000198D_新しいヘッド RH08 でアラームが発生、エラーコード 8000198D[NXTR-S]",
+        "Communication Content": "Dear Moriya-san,\n\nsince we not get WR parts yet( WHRS-011762),\n\nso pls keep open this case.\n\nAfter we replace them then will inform to you result\n\nThank you !\n\nFMV-Long",
+        "FMV PIC": "Ninh Long",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001FzgsTYAR"
+    },
+    {
         "DATE": "2026-11-12T01:28:07+00:00",
         "CC NUMBER": "CC-0084699",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
