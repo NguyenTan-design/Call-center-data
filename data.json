@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-12T01:28:07+00:00",
+        "CC NUMBER": "CC-0084699",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_On-machine edit hang up_機上編集でフリーズする[NXTR-S]",
+        "Communication Content": "Pham Duc-san\n\nWe will send you the application form for the countermeasure app. Please check if it improves the issue.\n\nPlease download the file.\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nInstallCD_V2.2Be.zip\n\nfile release date\t: 7 day\n\nDownload limit times\t: 10 times\n\nDownload Password\t: \"vfZTExcd\"\n\nZIP File Password\t:  \"Bxm6M6fD\"\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nCall center Amano",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MA9UhYAL"
+    },
+    {
+        "DATE": "2026-11-12T01:19:17+00:00",
+        "CC NUMBER": "NEW:CC-0085816",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Unstable Pickup Center Compensation Using TVR Function_[NXTR-S]",
+        "Communication Content": "Dear  Call Center\n\nThe customer uses a large number of copper pillar components (Part No.: 070-640200-295H) at their production site. Whenever a feeder is replaced, the pickup position must be recalibrated. If there is a significant deviation in the component pickup center, the placement position will also shift accordingly, potentially resulting in product defects.\n\nSince the customer's products are extremely high-value and have very strict placement accuracy requirements, they would like to enable the TVR (Component Vision Recognition) function to identify each component before pickup and automatically compensate for the pickup center. The purpose is to reduce machine downtime caused by repeated pickup position calibration and prevent placement defects resulting from failure to recalibrate the pickup position after material changes.\n\nI have attempted to enable the TVR function and configure the component pickup center through the position compensation settings. However, during machine testing, the compensated pickup center position was extremely unstable, resulting in significant increases in component placement deviations.\n\nI have collected the relevant test data and would appreciate your assistance in investigating the potential causes of this pickup center instability.\n\nAs many components used in the customer's products require the TVR function to calibrate their pickup centers, I have already prepared the JOB files and all relevant data. I would greatly appreciate it if you could investigate this issue and confirm the root cause as soon as possible.\n\nThank you very much for your support and assistance.\n\nCurrent software versions at the customer's production site:\n\nMachine version: V2.DMe\n\nLCU version: V2.35\n\nNEXIM version: 3.2.110",
+        "FMV PIC": "Hu Quan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PXr8HYAT"
+    },
+    {
         "DATE": "2026-11-12T00:16:53+00:00",
         "CC NUMBER": "CC-0085458",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
