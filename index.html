@@ -25,8 +25,14 @@
 
   * { box-sizing: border-box; }
 
-  body {
+  html, body {
     margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden; /* Chống tràn màn hình ngang */
+  }
+
+  body {
     padding: 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
@@ -404,7 +410,8 @@
     padding: 16px 18px;
     overflow-y: auto;
     white-space: pre-wrap;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere; /* Fix: Ngắt dòng kể cả khi không có khoảng trắng */
+    word-break: break-word;
     font-size: 14px;
     line-height: 1.55;
     color: var(--text);
@@ -1154,8 +1161,7 @@
   body:not(.authenticated) #detail-view,
   body:not(.authenticated) #slice-tooltip,
   body:not(.authenticated) #status-menu,
-  body:not(.authenticated) #content-modal,
-  body:not(.authenticated) #history-modal {
+  body:not(.authenticated) #content-modal {
     display: none !important;
   }
 
@@ -1264,20 +1270,6 @@
   }
 
   /* ============================================================
-     History Modal
-     ============================================================ */
-  #history-tbody tr:nth-child(even) { background: #f8fafc; }
-  #history-tbody tr:hover { background: var(--primary-soft); transition: background .12s ease; }
-  #history-tbody td { padding: 10px 12px; border-bottom: 1px solid #eef2f7; vertical-align: top; }
-  .history-status-badge {
-    display: inline-block; padding: 3px 9px; border-radius: 10px; font-size: 11px; font-weight: 700; color: #fff;
-    letter-spacing: .2px;
-  }
-  .history-status-badge.success { background: #16a34a; box-shadow: 0 1px 2px rgba(22,163,74,.3); }
-  .history-status-badge.fail { background: #dc2626; box-shadow: 0 1px 2px rgba(220,38,38,.3); }
-  .history-ua { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-
-  /* ============================================================
      Scrollbar tinh tế
      ============================================================ */
   .table-wrapper::-webkit-scrollbar,
@@ -1318,13 +1310,26 @@
     body { padding: 8px; }
 
     .sticky-header {
-      flex-direction: row;
-      align-items: center;
+      flex-wrap: wrap; /* Cho phép xuống dòng khi không đủ chỗ */
+      justify-content: center;
       padding: 10px 12px;
       margin-bottom: 10px;
       border-radius: 10px;
+      gap: 8px;
     }
-    .sticky-header h1 { font-size: 17px; line-height: 1.2; letter-spacing: -.2px; }
+    .sticky-header h1 { 
+      flex: 1 1 100%;
+      text-align: center;
+      font-size: 18px; 
+      margin-bottom: 4px;
+    }
+    .sticky-header .mode-btn,
+    .sticky-header .logout-btn {
+      flex: 1 1 40%; /* Chia đều nút trên mobile */
+      font-size: 13px;
+      padding: 8px 10px;
+      text-align: center;
+    }
 
     .toolbar { gap: 8px; }
     .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px 12px; }
@@ -1345,7 +1350,18 @@
     th, td { font-size: 9px; padding: 3px; }
     th { font-size: 10px; }
 
-    .modal-box { max-height: 90vh; }
+    /* Fix lỗi Popup tràn màn hình trên điện thoại */
+    .modal-overlay { padding: 10px; }
+    .modal-box { 
+      max-height: 90vh; 
+      width: 100%; 
+      max-width: 100%;
+    }
+    .modal-body {
+      padding: 12px;
+      overflow-wrap: anywhere; 
+      word-break: break-word;
+    }
 
     .charts-grid { grid-template-columns: 1fr; }
     .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
@@ -1418,7 +1434,6 @@
   <h1 id="page-title">NA TEAM CC Management</h1>
   <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
-  <button id="history-btn" class="mode-btn" type="button" style="background:#475569; border-color:#475569;">🕒 Lịch sử</button>
   <button id="logout-btn" class="logout-btn" type="button" title="Đăng xuất">Logout</button>
 </div>
 
@@ -1515,34 +1530,6 @@
       <button id="modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
     </div>
     <div id="modal-body" class="modal-body"></div>
-  </div>
-</div>
-
-<div id="history-modal" class="modal-overlay">
-  <div class="modal-box" style="max-width: 900px;">
-    <div class="modal-header" style="background: linear-gradient(180deg, #64748b 0%, #475569 100%);">
-      <h2>🕒 Lịch sử đăng nhập</h2>
-      <button id="history-modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
-    </div>
-    <div class="modal-body" style="padding: 0; display: flex; flex-direction: column;">
-      <div id="history-loading" style="padding: 30px; text-align: center; color: #64748b;">Đang tải lịch sử...</div>
-      <div id="history-error" style="padding: 30px; text-align: center; color: #dc2626; display: none;"></div>
-      <div id="history-table-wrap" style="overflow-x: auto; display: none; flex: 1 1 auto;">
-        <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
-          <thead>
-            <tr style="background: #f8fafc; color: #334155; position: sticky; top: 0; z-index: 10; border-bottom: 2px solid #cbd5e1;">
-              <th style="padding: 12px 10px; font-weight: 600;">Thời gian</th>
-              <th style="padding: 12px 10px; font-weight: 600;">Tài khoản</th>
-              <th style="padding: 12px 10px; font-weight: 600;">IP</th>
-              <th style="padding: 12px 10px; font-weight: 600;">Quốc gia</th>
-              <th style="padding: 12px 10px; font-weight: 600;">Trạng thái</th>
-              <th style="padding: 12px 10px; font-weight: 600;">Thiết bị</th>
-            </tr>
-          </thead>
-          <tbody id="history-tbody"></tbody>
-        </table>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -1918,132 +1905,6 @@
     location.reload();
   });
 
-  // ============================================================
-  // HISTORY LOGIC
-  // ============================================================
-  const historyBtn        = document.getElementById("history-btn");
-  const historyModal      = document.getElementById("history-modal");
-  const historyModalClose = document.getElementById("history-modal-close");
-  const historyLoading    = document.getElementById("history-loading");
-  const historyError      = document.getElementById("history-error");
-  const historyTableWrap  = document.getElementById("history-table-wrap");
-  const historyTbody      = document.getElementById("history-tbody");
-
-  historyBtn.addEventListener("click", () => {
-    historyModal.classList.add("show");
-    loadHistory();
-  });
-
-  historyModalClose.addEventListener("click", () => {
-    historyModal.classList.remove("show");
-  });
-
-  historyModal.addEventListener("click", (e) => {
-    if (e.target === historyModal) historyModal.classList.remove("show");
-  });
-
-  async function loadHistory() {
-    historyLoading.style.display = "block";
-    historyError.style.display = "none";
-    historyTableWrap.style.display = "none";
-    historyTbody.replaceChildren();
-
-    try {
-      const res = await authFetch(`${STATUS_API_BASE}/history`, {
-        method: "GET",
-        mode: "cors",
-        headers: { "Accept": "application/json" }
-      });
-      
-      let data = {};
-      try { data = await res.json(); } catch(e) {}
-
-      if (!res.ok) {
-        throw new Error(data.message || `HTTP ${res.status}: Không thể lấy dữ liệu lịch sử.`);
-      }
-      
-      let list = [];
-      if (Array.isArray(data)) list = data;
-      else if (data && typeof data === 'object') {
-        if (Array.isArray(data.logs)) list = data.logs;
-        else if (Array.isArray(data.history)) list = data.history;
-        else if (Array.isArray(data.data)) list = data.data;
-      }
-
-      renderHistoryData(list);
-      
-      historyLoading.style.display = "none";
-      historyTableWrap.style.display = "block";
-    } catch (err) {
-      if (err.isAuthError) return;
-      console.error("Load history failed:", err);
-      historyLoading.style.display = "none";
-      historyError.textContent = err.message || "Có lỗi xảy ra khi tải lịch sử.";
-      historyError.style.display = "block";
-    }
-  }
-
-  function renderHistoryData(list) {
-    if (!Array.isArray(list) || list.length === 0) {
-      const tr = document.createElement("tr");
-      const td = document.createElement("td");
-      td.colSpan = 6;
-      td.style.textAlign = "center";
-      td.style.color = "#999";
-      td.style.padding = "30px";
-      td.textContent = "Chưa có lịch sử đăng nhập nào.";
-      tr.appendChild(td);
-      historyTbody.appendChild(tr);
-      return;
-    }
-
-    const fragment = document.createDocumentFragment();
-    
-    list.forEach(item => {
-      const tr = document.createElement("tr");
-
-      const tdTime = document.createElement("td");
-      const timeVal = item.timestamp || item.time;
-      const d = new Date(timeVal);
-      const timeStr = isNaN(d.getTime()) ? (timeVal || "—") : d.toLocaleString("vi-VN");
-      tdTime.textContent = timeStr;
-      tdTime.style.whiteSpace = "nowrap";
-      tdTime.style.padding = "10px";
-
-      const tdUser = document.createElement("td");
-      tdUser.textContent = item.username || item.user || "—";
-      tdUser.style.fontWeight = "bold";
-      tdUser.style.padding = "10px";
-
-      const tdIp = document.createElement("td");
-      tdIp.textContent = item.ip || "—";
-      tdIp.style.padding = "10px";
-
-      const tdCountry = document.createElement("td");
-      tdCountry.textContent = (item.country === "Unknown" || !item.country) ? "—" : item.country;
-      tdCountry.style.padding = "10px";
-      
-      const tdStatus = document.createElement("td");
-      const badge = document.createElement("span");
-      const isSuccess = item.action === "LOGIN_SUCCESS" || item.success === true;
-      badge.className = `history-status-badge ${isSuccess ? "success" : "fail"}`;
-      badge.textContent = isSuccess ? "Thành công" : "Thất bại";
-      tdStatus.appendChild(badge);
-      tdStatus.style.padding = "10px";
-
-      const tdUa = document.createElement("td");
-      tdUa.className = "history-ua";
-      tdUa.textContent = item.userAgent || item.device || "—";
-      tdUa.title = item.userAgent || item.device || "";
-      tdUa.style.padding = "10px";
-
-      tr.append(tdTime, tdUser, tdIp, tdCountry, tdStatus, tdUa);
-      fragment.appendChild(tr);
-    });
-
-    historyTbody.appendChild(fragment);
-  }
-
   bootstrap();
 
   // ============================================================
@@ -2220,7 +2081,7 @@
   }
 
   // ============================================================
-  // STATUS API (BỔ SUNG ĐỒNG BỘ)
+  // STATUS API
   // ============================================================
   async function loadStatuses(force = false) {
     if (statusesLoaded && !force) return statusMap;
@@ -2262,7 +2123,6 @@
           });
         }
 
-        // Lưu bộ nhớ tạm để không bị mất khi F5
         try {
           localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
         } catch(_) {}
@@ -2272,7 +2132,6 @@
         if (err.isAuthError) return;
         console.error("loadStatuses failed:", err);
         
-        // Khôi phục từ bộ nhớ tạm nếu API lỗi
         try {
           const cached = localStorage.getItem("cc_status_cache");
           if (cached && statusMap.size === 0) {
@@ -2314,16 +2173,15 @@
       body: JSON.stringify(body)
     });
 
+    let data = {};
+    try { data = await res.json(); } catch(e) {}
+    
     if (!res.ok) {
-      const text = await res.text().catch(() => "");
-      throw new Error(`HTTP ${res.status} ${text}`);
+      throw new Error(data.message || `HTTP ${res.status} Lỗi khi lưu.`);
     }
 
     let merged = null;
-    try {
-      const data = await res.json();
-      if (data && data.record && typeof data.record === "object") merged = data.record;
-    } catch (_) { }
+    if (data && data.record && typeof data.record === "object") merged = data.record;
 
     if (merged) {
       statusMap.set(ccNumber, {
@@ -2335,7 +2193,6 @@
       statusMap.set(ccNumber, { ...entry });
     }
     
-    // Cập nhật bộ nhớ tạm
     try {
       localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
     } catch(_) {}
@@ -2599,7 +2456,6 @@
       graphStatus.style.display = "none";
     }
     
-    // Luôn gọi loadStatuses (force = true) để lấy dữ liệu mới nhất mỗi khi mở Graph Mode
     await loadStatuses(true);
   }
 
@@ -3169,7 +3025,6 @@
 
     const showCharts = title === ONGOING_DETAIL_TITLE;
     
-    // Nếu statusMap rỗng, tải lại status để đảm bảo dữ liệu biểu đồ chính xác
     if (showCharts && statusMap.size === 0) {
       loadStatuses().then(() => {
         detailChartsData = buildDetailChartsData(detailRecordsAll);
@@ -3846,7 +3701,6 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       if (contentModal.classList.contains("show")) closeContentModal();
-      if (historyModal.classList.contains("show")) historyModal.classList.remove("show");
       hideStatusMenu();
     }
   });
