@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-12T03:40:36+00:00",
+        "CC NUMBER": "NEW:CC-0085826",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_2 board go to module 1_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nAt Mitac customer we are face to issue: 2 board go to module 1. I see at 9:12 signal of M2M have abnormal. Normal have board inside module 1, signal busy1 of M2M will change to black color. But at time 9:12 inside module 1 have board, this signal still white color. Please check more at trace data and video for investigate and support we resolve this issue\n\nThank for your support",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PZegXYAT"
+    },
+    {
         "DATE": "2026-11-12T02:06:37+00:00",
         "CC NUMBER": "CC-0083559",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
