@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-12T07:19:40+00:00",
+        "CC NUMBER": "NEW:CC-0085846",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_ray Unit LT2 Error – 00007D55 / Subcode 00000006_[NXTIII]",
+        "Communication Content": "Dear Call Center,\n\nWe are currently providing onsite support to Luxshare Van Trung, D2-3F factory, and have encountered an issue with Tray Unit LT2.\n\nThe machine displays the following error:\n\nMachine Information:\n\nModule: NXTM6F 017441 Ver. 9.35\n\nTray LT2: TU24E 001658 Ver. 3.00e\n\nError Code: 00007D55\n\nSubcode: 00000006\n\n\"An operation related command was issued from a state in which operation is not possible.\"\n\n\"Communication between machine and tray unit failed.\"\n\nSymptom:\n\nThe error occurs after pressing the COMPLETE button on the B-Magazine.\n\nThe issue only occurs with the B-Magazine when it is operated independently.\n\nThe A-Magazine operates normally without any issues.\n\nWe have already performed several troubleshooting actions, but the issue remains unresolved.\n\n(Please refer to the On-site work history (English) field)\n\nWe are creating this ticket to seek your advice on further investigation and troubleshooting.\n\nWe have also attached the trace data for your analysis.\n\nWe would appreciate your feedback at your earliest convenience.\n\nThank you & Br,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Pbhf6YAB"
+    },
+    {
         "DATE": "2026-11-12T06:43:59+00:00",
         "CC NUMBER": "CC-0083672",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
