@@ -163,7 +163,9 @@
     table-layout: fixed;
   }
 
-  thead th {
+  /* Sửa lỗi: Chỉ áp dụng Header màu xanh cho bảng chính, tránh đè lên bảng Lịch sử */
+  #basic-view table thead th,
+  #detail-view table thead th {
     position: sticky;
     top: 0;
     background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -1266,6 +1268,18 @@
   /* ============================================================
      History Modal
      ============================================================ */
+  #history-modal table thead th {
+    position: sticky;
+    top: 0;
+    background: #f8fafc;
+    color: #334155;
+    z-index: 10;
+    border-bottom: 2px solid #cbd5e1;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 10px;
+  }
+
   #history-tbody tr:nth-child(even) { background: #f8fafc; }
   #history-tbody tr:hover { background: var(--primary-soft); transition: background .12s ease; }
   #history-tbody td { padding: 10px 12px; border-bottom: 1px solid #eef2f7; vertical-align: top; }
@@ -1524,19 +1538,20 @@
       <h2>🕒 Lịch sử đăng nhập</h2>
       <button id="history-modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
     </div>
-    <div class="modal-body" style="padding: 0;">
-      <div id="history-loading" style="padding: 20px; text-align: center; color: #64748b;">Đang tải lịch sử...</div>
-      <div id="history-error" style="padding: 20px; text-align: center; color: #dc2626; display: none;"></div>
-      <div id="history-table-wrap" style="overflow-x: auto; display: none;">
+    <!-- Thêm display: flex; flex-direction: column; để modal không bị kéo giãn sai -->
+    <div class="modal-body" style="padding: 0; display: flex; flex-direction: column;">
+      <div id="history-loading" style="padding: 30px; text-align: center; color: #64748b;">Đang tải lịch sử...</div>
+      <div id="history-error" style="padding: 30px; text-align: center; color: #dc2626; display: none;"></div>
+      <div id="history-table-wrap" style="overflow-x: auto; display: none; flex: 1 1 auto;">
         <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
           <thead>
-            <tr style="background: #f1f5f9; color: #334155; position: sticky; top: 0;">
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">Thời gian</th>
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">Tài khoản</th>
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">IP</th>
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">Quốc gia</th>
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">Trạng thái</th>
-              <th style="padding: 10px; border-bottom: 2px solid #cbd5e1;">Thiết bị</th>
+            <tr>
+              <th>Thời gian</th>
+              <th>Tài khoản</th>
+              <th>IP</th>
+              <th>Quốc gia</th>
+              <th>Trạng thái</th>
+              <th>Thiết bị</th>
             </tr>
           </thead>
           <tbody id="history-tbody"></tbody>
@@ -1959,7 +1974,19 @@
       }
       
       const data = await res.json();
-      renderHistoryData(data);
+      
+      // Parse dữ liệu chính xác từ Backend trả về
+      let list = [];
+      if (Array.isArray(data)) {
+        list = data;
+      } else if (data && typeof data === 'object') {
+        if (Array.isArray(data.logs)) list = data.logs;
+        else if (Array.isArray(data.history)) list = data.history;
+        else if (Array.isArray(data.data)) list = data.data;
+        else if (Array.isArray(data.records)) list = data.records;
+      }
+
+      renderHistoryData(list);
       
       historyLoading.style.display = "none";
       historyTableWrap.style.display = "block";
@@ -1979,7 +2006,7 @@
       td.colSpan = 6;
       td.style.textAlign = "center";
       td.style.color = "#999";
-      td.style.padding = "20px";
+      td.style.padding = "30px";
       td.textContent = "Chưa có lịch sử đăng nhập nào.";
       tr.appendChild(td);
       historyTbody.appendChild(tr);
@@ -1993,36 +2020,44 @@
 
       // 1. Thời gian
       const tdTime = document.createElement("td");
-      const d = new Date(item.time);
-      const timeStr = isNaN(d.getTime()) ? item.time : d.toLocaleString("vi-VN");
+      const timeVal = item.timestamp || item.time;
+      const d = new Date(timeVal);
+      const timeStr = isNaN(d.getTime()) ? (timeVal || "—") : d.toLocaleString("vi-VN");
       tdTime.textContent = timeStr;
       tdTime.style.whiteSpace = "nowrap";
+      tdTime.style.padding = "10px";
 
       // 2. Tài khoản
       const tdUser = document.createElement("td");
-      tdUser.textContent = item.username || "—";
+      tdUser.textContent = item.username || item.user || "—";
       tdUser.style.fontWeight = "bold";
+      tdUser.style.padding = "10px";
 
       // 3. IP
       const tdIp = document.createElement("td");
       tdIp.textContent = item.ip || "—";
+      tdIp.style.padding = "10px";
 
       // 4. Quốc gia
       const tdCountry = document.createElement("td");
-      tdCountry.textContent = item.country === "Unknown" ? "—" : (item.country || "—");
+      tdCountry.textContent = (item.country === "Unknown" || !item.country) ? "—" : item.country;
+      tdCountry.style.padding = "10px";
       
-      // 5. Trạng thái
+      // 5. Trạng thái (Sửa lại: kiểm tra item.action)
       const tdStatus = document.createElement("td");
       const badge = document.createElement("span");
-      badge.className = `history-status-badge ${item.success ? "success" : "fail"}`;
-      badge.textContent = item.success ? "Thành công" : "Thất bại";
+      const isSuccess = item.action === "LOGIN_SUCCESS" || item.success === true;
+      badge.className = `history-status-badge ${isSuccess ? "success" : "fail"}`;
+      badge.textContent = isSuccess ? "Thành công" : "Thất bại";
       tdStatus.appendChild(badge);
+      tdStatus.style.padding = "10px";
 
       // 6. Thiết bị (User-Agent)
       const tdUa = document.createElement("td");
       tdUa.className = "history-ua";
-      tdUa.textContent = item.userAgent || "—";
-      tdUa.title = item.userAgent || "";
+      tdUa.textContent = item.userAgent || item.device || "—";
+      tdUa.title = item.userAgent || item.device || "";
+      tdUa.style.padding = "10px";
 
       tr.append(tdTime, tdUser, tdIp, tdCountry, tdStatus, tdUa);
       fragment.appendChild(tr);
