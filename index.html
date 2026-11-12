@@ -666,8 +666,6 @@
     height: calc(100vh - 270px);
   }
 
-  /* Bảng Detail: table-layout fixed.
-     Width bảng do JS set cứng khi có cột ẩn. */
   #detail-view table {
     width: 100%;
     border-collapse: collapse;
@@ -1014,7 +1012,8 @@
   body:not(.authenticated) #detail-view,
   body:not(.authenticated) #slice-tooltip,
   body:not(.authenticated) #status-menu,
-  body:not(.authenticated) #content-modal {
+  body:not(.authenticated) #content-modal,
+  body:not(.authenticated) #history-modal {
     display: none !important;
   }
 
@@ -1101,6 +1100,17 @@
     cursor: pointer;
   }
   .logout-btn:hover { background: #ffebee; }
+
+  /* History Modal */
+  #history-tbody tr:nth-child(even) { background: #fafafa; }
+  #history-tbody tr:hover { background: #eef6ff; }
+  #history-tbody td { padding: 8px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+  .history-status-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: bold; color: #fff;
+  }
+  .history-status-badge.success { background: #43a047; }
+  .history-status-badge.fail { background: #e53935; }
+  .history-ua { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
   @media (max-width: 768px) {
     body { padding: 8px; }
@@ -1204,6 +1214,7 @@
   <h1 id="page-title">NA TEAM CC Management</h1>
   <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
+  <button id="history-btn" class="mode-btn" type="button" style="background:#546e7a; border-color:#546e7a;">🕒 Lịch sử</button>
   <button id="logout-btn" class="logout-btn" type="button" title="Đăng xuất">Logout</button>
 </div>
 
@@ -1303,14 +1314,42 @@
   </div>
 </div>
 
+<div id="history-modal" class="modal-overlay">
+  <div class="modal-box" style="max-width: 900px;">
+    <div class="modal-header" style="background: #546e7a;">
+      <h2>🕒 Lịch sử đăng nhập</h2>
+      <button id="history-modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body" style="padding: 0;">
+      <div id="history-loading" style="padding: 20px; text-align: center; color: #777;">Đang tải lịch sử...</div>
+      <div id="history-error" style="padding: 20px; text-align: center; color: #c62828; display: none;"></div>
+      <div id="history-table-wrap" style="overflow-x: auto; display: none;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+          <thead>
+            <tr style="background: #eceff1; color: #333; position: sticky; top: 0;">
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">Thời gian</th>
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">Tài khoản</th>
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">IP</th>
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">Quốc gia</th>
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">Trạng thái</th>
+              <th style="padding: 10px; border-bottom: 2px solid #cfd8dc;">Thiết bị</th>
+            </tr>
+          </thead>
+          <tbody id="history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="login-screen" class="login-screen">
   <form id="login-form" class="login-box" autocomplete="on">
-    <h2>🔒 Đăng Nhập </h2>
-    <label for="login-username">Account</label>
+    <h2>🔒 Đăng Nhập</h2>
+    <label for="login-username">Tài khoản</label>
     <input id="login-username" name="username" type="text" autocomplete="username" required>
-    <label for="login-password">Password</label>
+    <label for="login-password">Mật khẩu</label>
     <input id="login-password" name="password" type="password" autocomplete="current-password" required>
-    <button id="login-submit" type="submit">Login</button>
+    <button id="login-submit" type="submit">Đăng Nhập</button>
     <p id="login-error" class="login-error"></p>
   </form>
 </div>
@@ -1664,7 +1703,7 @@
       loginPassword.focus();
     } finally {
       loginSubmit.disabled = false;
-      loginSubmit.textContent = "Login";
+      loginSubmit.textContent = "Đăng Nhập";
     }
   });
 
@@ -1674,6 +1713,119 @@
     clearStoredToken();
     location.reload();
   });
+
+  // ============================================================
+  // HISTORY LOGIC
+  // ============================================================
+  const historyBtn        = document.getElementById("history-btn");
+  const historyModal      = document.getElementById("history-modal");
+  const historyModalClose = document.getElementById("history-modal-close");
+  const historyLoading    = document.getElementById("history-loading");
+  const historyError      = document.getElementById("history-error");
+  const historyTableWrap  = document.getElementById("history-table-wrap");
+  const historyTbody      = document.getElementById("history-tbody");
+
+  historyBtn.addEventListener("click", () => {
+    historyModal.classList.add("show");
+    loadHistory();
+  });
+
+  historyModalClose.addEventListener("click", () => {
+    historyModal.classList.remove("show");
+  });
+
+  historyModal.addEventListener("click", (e) => {
+    if (e.target === historyModal) historyModal.classList.remove("show");
+  });
+
+  async function loadHistory() {
+    historyLoading.style.display = "block";
+    historyError.style.display = "none";
+    historyTableWrap.style.display = "none";
+    historyTbody.replaceChildren();
+
+    try {
+      const res = await authFetch(`${STATUS_API_BASE}/history`, {
+        method: "GET",
+        mode: "cors",
+        headers: { "Accept": "application/json" }
+      });
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}: Không thể lấy dữ liệu lịch sử.`);
+      }
+      
+      const data = await res.json();
+      renderHistoryData(data);
+      
+      historyLoading.style.display = "none";
+      historyTableWrap.style.display = "block";
+    } catch (err) {
+      if (err.isAuthError) return;
+      console.error("Load history failed:", err);
+      historyLoading.style.display = "none";
+      historyError.textContent = err.message || "Có lỗi xảy ra khi tải lịch sử.";
+      historyError.style.display = "block";
+    }
+  }
+
+  function renderHistoryData(list) {
+    if (!Array.isArray(list) || list.length === 0) {
+      const tr = document.createElement("tr");
+      const td = document.createElement("td");
+      td.colSpan = 6;
+      td.style.textAlign = "center";
+      td.style.color = "#999";
+      td.style.padding = "20px";
+      td.textContent = "Chưa có lịch sử đăng nhập nào.";
+      tr.appendChild(td);
+      historyTbody.appendChild(tr);
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+    
+    list.forEach(item => {
+      const tr = document.createElement("tr");
+
+      // 1. Thời gian
+      const tdTime = document.createElement("td");
+      const d = new Date(item.time);
+      const timeStr = isNaN(d.getTime()) ? item.time : d.toLocaleString("vi-VN");
+      tdTime.textContent = timeStr;
+      tdTime.style.whiteSpace = "nowrap";
+
+      // 2. Tài khoản
+      const tdUser = document.createElement("td");
+      tdUser.textContent = item.username || "—";
+      tdUser.style.fontWeight = "bold";
+
+      // 3. IP
+      const tdIp = document.createElement("td");
+      tdIp.textContent = item.ip || "—";
+
+      // 4. Quốc gia
+      const tdCountry = document.createElement("td");
+      tdCountry.textContent = item.country === "Unknown" ? "—" : (item.country || "—");
+      
+      // 5. Trạng thái
+      const tdStatus = document.createElement("td");
+      const badge = document.createElement("span");
+      badge.className = `history-status-badge ${item.success ? "success" : "fail"}`;
+      badge.textContent = item.success ? "Thành công" : "Thất bại";
+      tdStatus.appendChild(badge);
+
+      // 6. Thiết bị (User-Agent)
+      const tdUa = document.createElement("td");
+      tdUa.className = "history-ua";
+      tdUa.textContent = item.userAgent || "—";
+      tdUa.title = item.userAgent || "";
+
+      tr.append(tdTime, tdUser, tdIp, tdCountry, tdStatus, tdUa);
+      fragment.appendChild(tr);
+    });
+
+    historyTbody.appendChild(fragment);
+  }
 
   bootstrap();
 
@@ -3479,6 +3631,7 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       if (contentModal.classList.contains("show")) closeContentModal();
+      if (historyModal.classList.contains("show")) historyModal.classList.remove("show");
       hideStatusMenu();
     }
   });
