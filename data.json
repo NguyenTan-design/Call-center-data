@@ -1,5 +1,59 @@
 [
     {
+        "DATE": "2026-11-12T04:17:34+00:00",
+        "CC NUMBER": "CC-0082975",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8F5A error when load job from Nexim_[NXTR-S]",
+        "Communication Content": "Dear Takatsu san,\n\nTung san,\n\nWe already send you V2.DBe via FTS.\n\nto.takatsu@fuji.co.jp\n\nDownload password: \"5UF4ER2F\"\n\nZIP file password: \"G7E6m4y6\"\n\ntung@fuji-smt.com.sg\n\nDownload password: \"5UF4ER2F\"\n\nZIP file password: \"G7E6m4y6\"\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
+    },
+    {
+        "DATE": "2026-11-12T04:15:49+00:00",
+        "CC NUMBER": "CC-0085458",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing  information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Toyama -San\n\nThank you for your Support\n\n I will contact the client and then send you the program.\n\nPlease wait for me\n\nFMV Thuong",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OOdIDYA1"
+    },
+    {
+        "DATE": "2026-11-12T04:13:21+00:00",
+        "CC NUMBER": "CC-0084847",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Hangup during command \"adjust sensor\"_[NXTR-S]",
+        "Communication Content": "Vu Tung-san\n\nWe will send you the application form for the countermeasure app. Please check if it improves the issue.\n\nPlease download the file.\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nInstallCD_V2.2Be.zip\n\nfile release date\t: 7 day\n\nDownload limit times\t: 10 times\n\nDownload Password\t: \"JaC2wKfr\"\n\nZIP File Password\t:  \"zvcgaevY\"\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nCall center Amano",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MlWfCYAV"
+    },
+    {
+        "DATE": "2026-11-12T04:12:05+00:00",
+        "CC NUMBER": "CC-0084503",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 89910000 (Purple Screen)_[NXTR-S]",
+        "Communication Content": "Dear Ma san\n\nAfter the customer followed your interim instructions, the issue did not recur. However, the customer is not satisfied with this solution. Please look into this further to develop a more definitive, long-term resolution.\n\nThank for your support\n\nDung FMV",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lhs29YAB"
+    },
+    {
+        "DATE": "2026-11-12T04:08:27+00:00",
+        "CC NUMBER": "CC-0083672",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI apologize for not providing you with the complete information.\n\n=> Regarding the patch we received from your team, we downloaded and installed it for our customer.\n\nAfter installing the patch, the issue was resolved.\n\n     However, another issue occurred after upgrading the machine's NXTR software version from V2.2Bm to V2.2Bu.\n\nAn issue occurred with the traceability output file. All information in the Traceability Output file is missing.\n\nFor details, please refer to CC-0085458\n\nThanks\n\nFMV Thuongnv",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
+    },
+    {
+        "DATE": "2026-11-12T04:03:53+00:00",
+        "CC NUMBER": "CC-0085380",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nWe follow advice of Akira-san . We have already change local hot of CFX tool form line sever PC name to LCU PC name. After reset PC we see service of CFX can not running. Please help me investigate more.\n\nThank for your support\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+    },
+    {
         "DATE": "2026-11-12T03:40:36+00:00",
         "CC NUMBER": "NEW:CC-0085826",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
