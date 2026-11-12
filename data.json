@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-12T08:05:31+00:00",
+        "CC NUMBER": "CC-0083760",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Error code 1988 with RH08 head_[NXTR-S]",
+        "Communication Content": "Dear Ma shimeng San,\n\nWe have not yet replaced the oring, packing inside the center shaft to confirm the root cause.\n\nPlease open this ticket\n\nAfter we replacing the spare part, will update to you result.\n\nBest Regards,\n\nXuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IubjZYAR"
+    },
+    {
+        "DATE": "2026-11-12T08:03:08+00:00",
+        "CC NUMBER": "CC-0082249",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_During production, the machine Error 8D390000 The queue used for saving production results is full, 853A0000 Host service communication error_[NXTR-S]",
+        "Communication Content": "Dear Chien-san,\n\nWe have sent SECS/GEM bug-fix patch LCU 1080_LCUPatch_SecsGem_RestartExceptionFix_forV2.20 via file transfer account.\n\nPlease use the download password below.\n\nDownload : \"AdrwVpTC\"\n\nZIP :\"nttywmnC\"\n\nThank you.\n\nBR,\n\nFUJI Ma",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001EngDdYAJ"
+    },
+    {
+        "DATE": "2026-11-12T07:57:08+00:00",
+        "CC NUMBER": "CC-0085567",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim Optimize completes successfully without detecting a missing Part Number in an AVL group_AVLグループ内に不足しているPart Numberが存在するにもかかわらず、Nexim Optimizeがそれを検出せず正常完了する[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nI have a few questions and would appreciate your advice on the following matters:\n\n1. NXTR version compatibility with Nexim V3.3.0\n\nGoertek A9-3F is currently using Nexim V3.2.21 and NXTR V2.3Ps.\n\nIf we need to upgrade Nexim to V3.3.0, which NXTR version would be required? Are NXTR V2.3Ps and V2.3Pz1 both compatible with Nexim V3.3.0?\n\n2. Software version standardization across Goertek factories in Vietnam\n\nWe would like all Goertek factories in Vietnam to use the same software versions for easier management and to maintain version consistency across all factories.\n\nCurrently, besides A9-3F, another Goertek factory, A2-4F, is also using Nexim V3.2.21, but with NXTR V2.3Pz1 and the following patches installed:\n\nPatch 1: 0874_LCUPatch_V2.30orV2.31_SP22\n\nPatch 2: 1005_LCUPatch_NXTR_OnMcEdit_SaveDialogInoperable_forV2.31\n\nIf we upgrade Nexim at A2-4F to V3.3.0, could you please advise whether these two patches can still be used with the new version?\n\nAdditionally, if upgrading the NXTR software version is mandatory, have the issues addressed by these two patches already been fixed in the newer NXTR version, or would we still need to install the patches separately?\n\nThank you very much for your continued support and assistance.\n\nI look forward to your feedback.\n\nBest regards,\n\nFMV - Minh",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Olq4zYAB"
+    },
+    {
+        "DATE": "2026-11-12T07:56:34+00:00",
+        "CC NUMBER": "CC-0084801",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder position displayed incorrectly on the Machine screen_装置画面でフィーダー位置が正しく表示されない[NXTR-S]",
+        "Communication Content": "Dear Pham Minh Duc-san,\n\nThe version had been ready and send through file transfer system.\n\n============================\n\nInstallCD_V2.DBe.zip\n\nduc.pm@fuji-smt.com.sg\n\nDownload PW\t: \"8UACdT2d\"\n\nZIPfile open PW\t: \"Bt3NV3zf\"\n\n============================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MTVo5YAH"
+    },
+    {
         "DATE": "2026-11-12T07:52:45+00:00",
         "CC NUMBER": "CC-0083369",
         "Customer": "TAISHODO VIETNAM COMPANY LIMITED]",
