@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-12T05:21:23+00:00",
+        "CC NUMBER": "CC-0085801",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim V3.2.100 – Vision Test Part Outline Issue_[NXTR]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for supported\n\nSince this patch addresses a significant number of issues,\n\nwe would like you to verify whether it conflicts with customer current version or any previously installed patches.\n\nPlease also check the version of the file included in the zip archive.\n\nAs I know last time at the Mitac customer and Liteon customer no need perform DB update procedure.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PUVXMYA5"
+    },
+    {
         "DATE": "2026-11-12T04:45:26+00:00",
         "CC NUMBER": "CC-0085801",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
