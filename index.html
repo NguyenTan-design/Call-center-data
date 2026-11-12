@@ -131,16 +131,22 @@
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: var(--row-hover); }
 
+  /* ============================================================
+     Bảng Basic (load từ data.json)
+     ============================================================ */
   #basic-view table { width: 100%; }
 
-  #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }
-  #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: red; font-weight: bold; }
-  #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }
-  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }
-  #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }
-  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }
-  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }
+  #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }  /* DATE */
+  #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: red; font-weight: bold; }  /* CC NUMBER */
+  #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }  /* CUSTOMER */
+  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }  /* TOPIC */
+  #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }  /* COMMUNICATION CONTENT */
+  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }  /* FMV PIC */
+  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }  /* ACTION */
 
+  /* ============================================================
+     Header column hide/show toggle button (Detail)
+     ============================================================ */
   #detail-view thead th {
     overflow: hidden;
     padding-right: 22px;
@@ -611,6 +617,9 @@
     display: inline-block;
   }
 
+  /* ============================================================
+     Detail view
+     ============================================================ */
   #detail-view { display: none; }
 
   #detail-view .detail-toolbar {
@@ -657,6 +666,8 @@
     height: calc(100vh - 270px);
   }
 
+  /* Bảng Detail: table-layout fixed.
+     Width bảng do JS set cứng khi có cột ẩn. */
   #detail-view table {
     width: 100%;
     border-collapse: collapse;
@@ -685,6 +696,7 @@
     padding-right: 22px;
   }
 
+  /* TOPIC */
   #detail-view th[data-col-type="topic"],
   #detail-view td[data-col-type="topic"] {
     white-space: normal !important;
@@ -695,12 +707,14 @@
     vertical-align: top;
   }
 
+  /* GO TO WEB */
   #detail-view th[data-col-type="link"],
   #detail-view td[data-col-type="link"] {
     text-align: center;
     padding: 4px;
   }
 
+  /* Current Status */
   #detail-view th[data-col-type="status"],
   #detail-view td[data-col-type="status"] {
     white-space: normal !important;
@@ -710,6 +724,7 @@
     text-align: left;
   }
 
+  /* Priority */
   #detail-view th[data-col-type="priority"],
   #detail-view td[data-col-type="priority"] {
     white-space: normal !important;
@@ -719,6 +734,7 @@
     text-align: left;
   }
 
+  /* Open day */
   #detail-view th[data-col-type="openday"],
   #detail-view td[data-col-type="openday"] {
     text-align: center;
@@ -726,6 +742,7 @@
     white-space: normal !important;
   }
 
+  /* CC NUMBER: sticky left + chữ đỏ */
   #detail-view th[data-col-type="ccnumber"],
   #detail-view td[data-col-type="ccnumber"] {
     position: sticky;
@@ -774,11 +791,17 @@
   }
   #detail-view .detail-link-btn:hover { background: var(--primary-dark); }
 
+  /* ============================================================
+     Cột ẩn
+     ============================================================ */
   #detail-view th.col-hidden,
   #detail-view td.col-hidden {
     display: none !important;
   }
 
+  /* ============================================================
+     Detail charts
+     ============================================================ */
   #detail-charts {
     display: none;
     margin-bottom: 15px;
@@ -982,6 +1005,103 @@
   .status-menu button:hover { background: #eaf3fd; }
   .status-menu button.current { background: #e3f2fd; font-weight: bold; }
 
+  /* ============================================================
+     AUTH / LOGIN
+     ============================================================ */
+  body:not(.authenticated) .sticky-header,
+  body:not(.authenticated) #basic-view,
+  body:not(.authenticated) #graph-view,
+  body:not(.authenticated) #detail-view,
+  body:not(.authenticated) #slice-tooltip,
+  body:not(.authenticated) #status-menu,
+  body:not(.authenticated) #content-modal {
+    display: none !important;
+  }
+
+  .login-screen {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #1976d2 0%, #0d5db8 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5000;
+    padding: 20px;
+  }
+  .login-screen.hidden { display: none; }
+
+  .login-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 28px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .35);
+  }
+  .login-box h2 {
+    margin: 0 0 22px;
+    text-align: center;
+    color: #1976d2;
+    font-size: 20px;
+  }
+  .login-box label {
+    display: block;
+    font-size: 12.5px;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  .login-box input {
+    width: 100%;
+    padding: 11px 12px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .login-box input:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, .15);
+  }
+  .login-box button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+  .login-box button[type="submit"]:hover { background: #0d5db8; }
+  .login-box button[type="submit"]:disabled { opacity: .6; cursor: not-allowed; }
+
+  .login-error {
+    color: #c62828;
+    font-size: 13px;
+    text-align: center;
+    min-height: 18px;
+    margin: 10px 0 0;
+    line-height: 1.3;
+  }
+
+  .logout-btn {
+    flex: 0 0 auto;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #c62828;
+    border-radius: 6px;
+    background: #fff;
+    color: #c62828;
+    cursor: pointer;
+  }
+  .logout-btn:hover { background: #ffebee; }
+
   @media (max-width: 768px) {
     body { padding: 8px; }
 
@@ -1084,6 +1204,7 @@
   <h1 id="page-title">NA TEAM CC Management</h1>
   <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
+  <button id="logout-btn" class="logout-btn" type="button" title="Đăng xuất">Logout</button>
 </div>
 
 <div id="basic-view">
@@ -1180,6 +1301,18 @@
     </div>
     <div id="modal-body" class="modal-body"></div>
   </div>
+</div>
+
+<div id="login-screen" class="login-screen">
+  <form id="login-form" class="login-box" autocomplete="on">
+    <h2>🔒 CC Management</h2>
+    <label for="login-username">Account</label>
+    <input id="login-username" name="username" type="text" autocomplete="username" required>
+    <label for="login-password">Password</label>
+    <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+    <button id="login-submit" type="submit">Login</button>
+    <p id="login-error" class="login-error"></p>
+  </form>
 </div>
 
 <script>
@@ -1400,9 +1533,157 @@
 
   let isMobile = window.matchMedia("(max-width: 768px)").matches;
 
-  init();
+  // ============================================================
+  // AUTH
+  // ============================================================
+  const AUTH_TOKEN_KEY = "cc_auth_token";
 
+  let authToken = "";
+  try { authToken = sessionStorage.getItem(AUTH_TOKEN_KEY) || ""; } catch (_) {}
+  let authFailureHandled = false;
+
+  const loginScreen   = document.getElementById("login-screen");
+  const loginForm     = document.getElementById("login-form");
+  const loginUsername = document.getElementById("login-username");
+  const loginPassword = document.getElementById("login-password");
+  const loginSubmit   = document.getElementById("login-submit");
+  const loginError    = document.getElementById("login-error");
+  const logoutBtn     = document.getElementById("logout-btn");
+
+  function storeToken(t) {
+    try { sessionStorage.setItem(AUTH_TOKEN_KEY, t); } catch (_) {}
+  }
+  function clearStoredToken() {
+    try { sessionStorage.removeItem(AUTH_TOKEN_KEY); } catch (_) {}
+  }
+
+  async function authFetch(url, options = {}) {
+    const opts = { ...options, headers: { ...(options.headers || {}) } };
+    if (authToken) opts.headers["Authorization"] = `Bearer ${authToken}`;
+    const res = await fetch(url, opts);
+    if (res.status === 401) {
+      handleAuthFailure();
+      const err = new Error("Phiên đăng nhập đã hết hạn.");
+      err.isAuthError = true;
+      throw err;
+    }
+    return res;
+  }
+
+  function handleAuthFailure() {
+    if (authFailureHandled) return;
+    authFailureHandled = true;
+    authToken = "";
+    clearStoredToken();
+    alert("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.");
+    location.reload();
+  }
+
+  function showLoginScreen() {
+    document.body.classList.remove("authenticated");
+    loginScreen.classList.remove("hidden");
+    setTimeout(() => {
+      loginPassword.value = "";
+      loginUsername.focus();
+    }, 50);
+  }
+
+  function hideLoginScreen() {
+    loginScreen.classList.add("hidden");
+    document.body.classList.add("authenticated");
+  }
+
+  function showLoginError(msg) {
+    loginError.textContent = msg || "";
+  }
+
+  async function attemptLogin(username, password) {
+    const res = await fetch(`${STATUS_API_BASE}/login`, {
+      method: "POST",
+      mode: "cors",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({ username, password })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data.token) {
+      throw new Error(data.error || `Login failed (HTTP ${res.status})`);
+    }
+    authToken = data.token;
+    authFailureHandled = false;
+    storeToken(authToken);
+    return data;
+  }
+
+  async function verifyExistingToken() {
+    if (!authToken) return false;
+    try {
+      const res = await fetch(`${STATUS_API_BASE}/me`, {
+        method: "GET",
+        mode: "cors",
+        headers: { "Authorization": `Bearer ${authToken}`, "Accept": "application/json" }
+      });
+      return res.ok;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  async function bootstrap() {
+    if (authToken) {
+      const ok = await verifyExistingToken();
+      if (ok) {
+        hideLoginScreen();
+        await init();
+        return;
+      }
+      authToken = "";
+      clearStoredToken();
+    }
+    showLoginScreen();
+  }
+
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = loginUsername.value.trim();
+    const password = loginPassword.value;
+    if (!username || !password) {
+      showLoginError("Vui lòng nhập đầy đủ tài khoản và mật khẩu.");
+      return;
+    }
+    showLoginError("");
+    loginSubmit.disabled = true;
+    loginSubmit.textContent = "Đang đăng nhập...";
+    try {
+      await attemptLogin(username, password);
+      hideLoginScreen();
+      await init();
+    } catch (err) {
+      console.error("Login failed:", err);
+      showLoginError(err.message || "Đăng nhập thất bại.");
+      loginPassword.value = "";
+      loginPassword.focus();
+    } finally {
+      loginSubmit.disabled = false;
+      loginSubmit.textContent = "Login";
+    }
+  });
+
+  logoutBtn.addEventListener("click", () => {
+    if (!confirm("Bạn có chắc muốn đăng xuất?")) return;
+    authToken = "";
+    clearStoredToken();
+    location.reload();
+  });
+
+  bootstrap();
+
+  // ============================================================
+  // INIT
+  // ============================================================
+  let initialized = false;
   async function init() {
+    if (initialized) return;
+    initialized = true;
     try {
       const res = await fetch("data.json");
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -1417,11 +1698,12 @@
       }));
 
       filteredData = allData;
-      status.remove();
+      if (status && status.parentNode) status.remove();
       renderTable();
     } catch (err) {
       console.error(err);
-      status.textContent = "Failed to load data.json.";
+      initialized = false;
+      if (status) status.textContent = "Failed to load data.json.";
     }
   }
 
@@ -1433,6 +1715,9 @@
     return String(cc ?? "").trim();
   }
 
+  // ============================================================
+  // COLUMN HIDE / SHOW — CHỈ DÙNG CHO DETAIL
+  // ============================================================
   function attachColumnHideButtons(theadRow, onChange) {
     const ths = theadRow.querySelectorAll("th");
     ths.forEach((th, idx) => {
@@ -1502,7 +1787,6 @@
     detailColTypes.forEach((type, idx) => {
       const col = document.createElement("col");
       if (hidden[idx]) {
-
         col.style.setProperty("display", "none", "important");
       } else {
         const w = DETAIL_COL_WIDTHS[type] || 120;
@@ -1574,13 +1858,16 @@
     return clone.textContent.trim() || `Cột ${idx + 1}`;
   }
 
+  // ============================================================
+  // STATUS API
+  // ============================================================
   async function loadStatuses() {
     if (statusesLoaded) return statusMap;
     if (statusesLoading) return statusesLoading;
 
     statusesLoading = (async () => {
       try {
-        const res = await fetch(STATUS_API_GET, {
+        const res = await authFetch(STATUS_API_GET, {
           method: "GET",
           mode: "cors",
           headers: { "Accept": "application/json" }
@@ -1633,8 +1920,12 @@
 
         statusesLoaded = true;
       } catch (err) {
-        console.error("loadStatuses failed:", err);
-        statusesLoaded = true;
+        if (err.isAuthError) {
+          // handleAuthFailure đã xử lý — không set statusesLoaded để retry sau
+        } else {
+          console.error("loadStatuses failed:", err);
+          statusesLoaded = true;
+        }
       } finally {
         statusesLoading = null;
       }
@@ -1660,7 +1951,7 @@
       body[f] = f === FIELD_OPEN_DAY ? entry[f] : (entry[f] || "");
     });
 
-    const res = await fetch(STATUS_API_POST, {
+    const res = await authFetch(STATUS_API_POST, {
       method: "POST",
       mode: "cors",
       headers: {
@@ -1679,7 +1970,7 @@
     try {
       const data = await res.json();
       if (data && data.record && typeof data.record === "object") merged = data.record;
-    } catch (_) {  }
+    } catch (_) { }
 
     if (merged) {
       statusMap.set(ccNumber, {
@@ -1693,6 +1984,9 @@
     return true;
   }
 
+  // ============================================================
+  // CUSTOMER LIST
+  // ============================================================
   function extractCustomerNames(data) {
     if (Array.isArray(data)) {
       return data.map(entry => {
@@ -1746,6 +2040,9 @@
     applyFilters();
   }
 
+  // ============================================================
+  // EVENT LISTENERS
+  // ============================================================
   ccInput.addEventListener("input", debounce(() => {
     filters.cc = ccInput.value.trim().toLowerCase();
     applyFilters();
@@ -1817,7 +2114,6 @@
     hideStatusMenu();
     onViewportChange();
   }, RESIZE_DEBOUNCE_MS));
-
   window.addEventListener("scroll", () => {
     if (statusMenu.classList.contains("show")) hideStatusMenu();
   }, { capture: true, passive: true });
@@ -1838,6 +2134,9 @@
     }
   }
 
+  // ============================================================
+  // VIEW SWITCHING
+  // ============================================================
   graphModeBtn.addEventListener("click", showGraphView);
   basicModeBtn.addEventListener("click", showBasicView);
 
@@ -1944,6 +2243,9 @@
     graphStatus.style.display = "none";
   }
 
+  // ============================================================
+  // CHARTS (Graph view)
+  // ============================================================
   function renderAllCharts() {
     resetSliceInteraction();
 
@@ -2434,6 +2736,9 @@
     container.appendChild(legend);
   }
 
+  // ============================================================
+  // DETAIL VIEW
+  // ============================================================
   function isLinkColumn(colName) {
     return /go\s*to/i.test(colName) && /web|link/i.test(colName);
   }
@@ -2526,6 +2831,9 @@
     window.scrollTo(0, 0);
   }
 
+  // ============================================================
+  // DETAIL CHARTS
+  // ============================================================
   function buildDetailChartsData(records) {
     return {
       site:     buildDetailSlicesByField(records, "Customer", "Site"),
@@ -2629,6 +2937,9 @@
     }
   }
 
+  // ============================================================
+  // RENDER DETAIL TABLE
+  // ============================================================
   function renderDetailTable() {
     detailThead.replaceChildren();
     detailTbody.replaceChildren();
@@ -2832,6 +3143,9 @@
     applyHiddenColumns();
   }
 
+  // ============================================================
+  // Editable cells
+  // ============================================================
   function buildEditableCell(td, record, type) {
     const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
     const cc = ccKey ? normalizeCc(record[ccKey]) : "";
@@ -3001,6 +3315,9 @@
     });
   }
 
+  // ============================================================
+  // Value menu
+  // ============================================================
   function openValueMenu(cell, type) {
     const cc = cell.dataset.cc;
     if (!cc) {
@@ -3105,6 +3422,7 @@
         updateDetailChartsVisibility();
       }
     } catch (err) {
+      if (err.isAuthError) return;
       console.error("saveStatusEntry failed:", err);
       cell.classList.remove("saving");
       cell.classList.add("error");
@@ -3143,6 +3461,9 @@
     selectedDetailRow = tr;
   }
 
+  // ============================================================
+  // MODAL / BASIC TABLE
+  // ============================================================
   tbody.addEventListener("click", (e) => {
     const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
     if (!td) return;
