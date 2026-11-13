@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-13T22:47:52+00:00",
+        "CC NUMBER": "CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama-san\n\nThank you for your update.\n\nBest regards,\n\nFMV-VU",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
+        "DATE": "2026-11-13T22:37:11+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Bui Dung-san\n\nSince the image is still dark, the light may be the cause. Please check to see if all the LEDs on the light are lit.\n\nCould you please try replacing the light and camera as a set again?\n\nCall center Amano",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-11-13T21:57:35+00:00",
         "CC NUMBER": "CC-0085566",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
