@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-13T14:51:00+00:00",
+        "CC NUMBER": "CC-0085458",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing  information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear Toyama -San\n\nI have sent you the two programs you requested.\n\n・LA7S-T01-L2-2-PCB_T01\n\n・LA7B-T01-L2-1-PCB_T01\n\nPlease check the attachment.\n\nFMV Thuong",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OOdIDYA1"
+    },
+    {
+        "DATE": "2026-11-13T14:45:08+00:00",
+        "CC NUMBER": "CC-0083672",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_There is missing Part 2D code information in the Traceability output file_[NXTR-S]",
+        "Communication Content": "Dear FMV Marie Terazawa-san,\n\nThank you for the update.\n\nPlease send us NXTR Version V2.40 once it is officially released.\n\nFMV: Thuongnv",
+        "FMV PIC": "Nguyen Van Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IehGOYAZ"
+    },
+    {
+        "DATE": "2026-11-13T14:41:34+00:00",
+        "CC NUMBER": "CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_ジョブ上で表示されるサイクルタイムが、実際のサイクルタイムと一致しない。[NXTR-S]",
+        "Communication Content": "寺澤さん\n\n承知しました。再発を待ってトレースを再取得しますのでお待ちください。\n\nFMV Akira",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
         "DATE": "2026-11-13T14:06:34+00:00",
         "CC NUMBER": "CC-0084818",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
