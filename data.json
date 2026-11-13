@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-13T13:47:59+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_NXTRの操作画面にて、画像モニターに切り替えると表示が左上の方へ縮小されている時がある[NXTR-S]",
+        "Communication Content": "Dear Mr Hamamoto,\n\nWe yesterday did updated the new V2.DMm version to that production line. During the updating progress, the machine didn't have any problems. However, this morning when we have checked the monitor panel, we have seen that the issue reoccurred. We saw small images on the panel of that specified machine.\n\nPlease kindly help us to solve this issue.\n\nHave a nice day.\n\nBest regards,\n\nNhon Doan.",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
+        "DATE": "2026-11-13T13:46:45+00:00",
+        "CC NUMBER": "CC-0085202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_9481 fail to share informaiton_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV·,\n\nWe will provide an update on the patch development schedule on Monday, November 16.\n\nThank you for your understanding.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NkJhpYAF"
+    },
+    {
+        "DATE": "2026-11-13T13:20:32+00:00",
+        "CC NUMBER": "CC-0069740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
+        "Communication Content": "コールセンター御中\n\n本件の落としどころを顧客、営業、FMV交えて話しました。\n\n簡潔に言うと、「顧客とFMVが協力して破損基板を修理する」です。\n\n既に営業経由で設計から修理箇所、方法、注意点などは提供頂いております。\n\n現在のステータスはFMVの方で修理部品を購入済みであり、修理待ちです。\n\n手での引き抜きについては今後も監視/教育は継続していきます。\n\n尚、修理時にはFUJIでの対策品とほぼ同等の抵抗値の部品と交換を行います。\n\n本件はクローズしていただいて構いません。\n\nFMV Akira",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+    },
+    {
         "DATE": "2026-11-12T10:32:14+00:00",
         "CC NUMBER": "NEW:CC-0085852",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
