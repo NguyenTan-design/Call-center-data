@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-13T16:46:29+00:00",
+        "CC NUMBER": "CC-0083417",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_8F550000 (A nozzle that cannot be returned to the nozzle station is mounted on the holder)_[NXTR-S]",
+        "Communication Content": "Dear Duong san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nIf there is no update until 20.Nov, I will close this case.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HxJ7UYAV"
+    },
+    {
+        "DATE": "2026-11-13T16:44:33+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_NXTRの操作画面にて、画像モニターに切り替えると表示が左上の方へ縮小されている時がある[NXTR-S]",
+        "Communication Content": "Dear Doan Nhon-san\n\nHave you captured any machine traces or videos since updating to V2.DMm?\n\nIf so, please send them to us.\n\nLet me just double-check a few things.\n\n・Once this situation occurs, is restarting the only solution?\n\n・I had heard that this was happening with a specific module.　Was it the same module this time as well?\n\n・Regarding When the Issue Occurs\n\nIs there any pattern? For example, does it occur the first time after powering on, etc.?\n\nOr does it suddenly start happening even though it was displaying normally up until then?\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
+        "DATE": "2026-11-13T16:42:34+00:00",
+        "CC NUMBER": "CC-0084793",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Hana Micron_Misalignment IC mounted by head RH08_[NXTR-S]",
+        "Communication Content": "Dear Hoang san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nDoes customer accept to change the head to RH02 head?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1"
+    },
+    {
         "DATE": "2026-11-13T15:36:19+00:00",
         "CC NUMBER": "CC-0085186",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
