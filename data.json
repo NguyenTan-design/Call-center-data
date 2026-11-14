@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-14T00:14:25+00:00",
+        "CC NUMBER": "CC-0085826",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_2 board go to module 1_[NXTR-S]",
+        "Communication Content": "Dear Dung san,\n\nThis is an issue with the conveyor firmware.\n\nDuring the board-loading process, the conveyor firmware initiates a periodic sensitivity adjustment for the board-detection sensor. While this adjustment was underway, the \"Board Present\" (BA) signal from the preceding conveyor cycled from ON to OFF and back to ON; this triggered an unintended operation, causing a board to be incorrectly loaded.\n\nThe corrected version is scheduled for release the week after next. Is this acceptable?\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PZegXYAT"
+    },
+    {
         "DATE": "2026-11-13T22:47:52+00:00",
         "CC NUMBER": "CC-0084975",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
