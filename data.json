@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-14T05:09:08+00:00",
+        "CC NUMBER": "NEW:CC-0085924",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Inquiry About Error 8000B035 During Job Transmission_[NXTR-S]",
+        "Communication Content": "Dear Call Center\n\n- Currently, at LUXSHARE MERRY NGHE AN, the customer is using a BGA component with a ball diameter of 0.116 mm.\n\nWhen this component is assigned to a module using the RH08 head with PC01 part camera, Job optimization and Data Check were completed without any errors.. However, when transmitting the job to the machine, error 8000B035 – \"A part not supported by head has been allocated\" occurs, requiring the component to be reassigned to RH20 or RH28.\n\n- The customer would like to understand why Optimize and Data Check does not detect this issue, however the error only occurs when the job is transmitted to the machine. This requires additional job modifications and wastes time, affecting changeover time.\n\n-I have attached the trace data and customer's job for your reference.\n\nPart location:  Module 4, Slot 44\n\nThank you for your support.\n\nBest regards\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Pv4uUYAR"
+    },
+    {
         "DATE": "2026-11-14T00:47:14+00:00",
         "CC NUMBER": "CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
