@@ -1,0 +1,3859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="customer-service.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CC Management</title>
+<style>
+  :root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --primary-soft: #eff6ff;
+    --border: #e2e8f0;
+    --border-strong: #cbd5e1;
+    --row-alt: #f8fafc;
+    --row-hover: #eff6ff;
+    --cell-line-height: 1.4;
+    --status-closed: #43a047;
+    --status-ongoing: #fb8c00;
+    --text: #1e293b;
+    --text-soft: #475569;
+    --text-muted: #64748b;
+    --danger: #dc2626;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden; /* Chống tràn màn hình ngang */
+  }
+
+  body {
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  /* ============================================================
+     Sticky header
+     ============================================================ */
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 0 15px;
+    padding: 12px 16px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 4px 14px rgba(15, 23, 42, .04);
+  }
+
+  .sticky-header h1 {
+    margin: 0;
+    color: #0f172a;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    flex: 1 1 auto;
+    letter-spacing: -.3px;
+  }
+
+  .sticky-header .mode-btn { flex: 0 0 auto; }
+
+  /* ============================================================
+     Toolbar
+     ============================================================ */
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .toolbar input[type="text"] {
+    flex: 1 1 200px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text);
+    transition: border-color .18s ease, box-shadow .18s ease;
+  }
+
+  .toolbar input[type="text"]::placeholder { color: #94a3b8; }
+
+  .toolbar input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .12);
+  }
+
+  .toggle-btn {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all .18s ease;
+  }
+
+  .toggle-btn:hover {
+    background: var(--primary-soft);
+    border-color: var(--primary-dark);
+  }
+
+  .toggle-btn.active {
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-color: var(--primary-dark);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .28);
+  }
+
+  #clear-filters {
+    flex: 0 0 auto;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text-soft);
+    cursor: pointer;
+    transition: all .18s ease;
+  }
+  #clear-filters:hover {
+    background: #f1f5f9;
+    border-color: var(--border-strong);
+  }
+
+  #status {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin: 0 0 8px;
+    text-align: center;
+  }
+
+  /* ============================================================
+     Table wrapper & table
+     ============================================================ */
+  .table-wrapper {
+    background: #fff;
+    border-radius: 12px;
+    overflow: auto;
+    height: calc(100vh - 190px);
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 4px 16px rgba(15, 23, 42, .05);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    z-index: 10;
+    font-weight: 600;
+    letter-spacing: .2px;
+  }
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 9px 10px;
+    font-size: 13px;
+    vertical-align: top;
+    color: var(--text);
+  }
+
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  tbody tr:hover { background: var(--row-hover); transition: background .12s ease; }
+
+  /* ============================================================
+     Bảng Basic (load từ data.json)
+     ============================================================ */
+  #basic-view table { width: 100%; }
+
+  #basic-view th:nth-child(1), #basic-view td:nth-child(1) { width: 10%; }
+  #basic-view th:nth-child(2), #basic-view td:nth-child(2) { width: 10%; color: var(--danger); font-weight: 700; }
+  #basic-view th:nth-child(3), #basic-view td:nth-child(3) { width: 15%; }
+  #basic-view th:nth-child(4), #basic-view td:nth-child(4) { width: 20%; }
+  #basic-view th:nth-child(5), #basic-view td:nth-child(5) { width: 25%; }
+  #basic-view th:nth-child(6), #basic-view td:nth-child(6) { width: 10%; }
+  #basic-view th:nth-child(7), #basic-view td:nth-child(7) { width: 10%; text-align: center; }
+
+  /* ============================================================
+     Header column hide/show toggle button (Detail)
+     ============================================================ */
+  #detail-view thead th {
+    overflow: hidden;
+    padding-right: 22px;
+  }
+
+  .col-hide-btn {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, .18);
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .45;
+    padding: 0;
+    transition: opacity .15s ease, background .15s ease, transform .15s ease;
+    z-index: 20;
+  }
+  .col-hide-btn:hover { opacity: 1; background: rgba(255, 255, 255, .35); transform: scale(1.08); }
+
+  .hidden-cols-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 10px;
+    padding: 8px 10px;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    min-height: 0;
+  }
+
+  .hidden-cols-toolbar:empty { display: none; }
+
+  .hidden-cols-toolbar::before {
+    content: "Ẩn:";
+    font-size: 11.5px;
+    color: #92400e;
+    font-weight: 700;
+    margin-right: 4px;
+    align-self: center;
+  }
+
+  .col-show-btn {
+    padding: 4px 10px;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #92400e;
+    background: #fef3c7;
+    border: 1px solid #fcd34d;
+    border-radius: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .15s ease;
+  }
+  .col-show-btn:hover { background: #fde68a; border-color: #f59e0b; }
+
+  .cell-value {
+    display: block;
+    width: 100%;
+    line-height: var(--cell-line-height);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  td[data-label="TOPIC"] .cell-value {
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-overflow: clip;
+  }
+
+  .cell-value.clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: var(--clamp-lines, 3);
+    -webkit-line-clamp: var(--clamp-lines, 3);
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  td[data-label="COMMUNICATION CONTENT"] { cursor: pointer; }
+  td[data-label="COMMUNICATION CONTENT"]:hover { background: #dbeafe; }
+
+  .action-btn {
+    display: inline-block;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(37, 99, 235, .25);
+    transition: all .18s ease;
+  }
+  .action-btn:hover {
+    background: linear-gradient(180deg, var(--primary-dark) 0%, #1e40af 100%);
+    box-shadow: 0 3px 8px rgba(37, 99, 235, .35);
+    transform: translateY(-1px);
+  }
+
+  .empty-row td {
+    text-align: center;
+    color: #94a3b8;
+    padding: 24px;
+  }
+
+  /* ============================================================
+     Pagination
+     ============================================================ */
+  #pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  #pagination button {
+    padding: 6px 14px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--text-soft);
+    font-weight: 500;
+    transition: all .15s ease;
+  }
+  #pagination button:hover:not(:disabled) {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  #pagination button:disabled { cursor: not-allowed; opacity: .45; }
+  #pagination strong { color: var(--text-soft); font-size: 13px; }
+
+  /* ============================================================
+     Modal
+     ============================================================ */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, .55);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+    animation: fadeIn .18s ease;
+  }
+  .modal-overlay.show { display: flex; }
+
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+  .modal-box {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 700px;
+    width: 100%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, .35), 0 4px 12px rgba(15, 23, 42, .2);
+    animation: slideUp .22s cubic-bezier(.16,1,.3,1);
+    overflow: hidden;
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+  }
+  .modal-header h2 { margin: 0; font-size: 16px; font-weight: 600; }
+
+  .modal-close {
+    background: rgba(255, 255, 255, .15);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 2px 10px;
+    border-radius: 6px;
+    transition: background .15s ease;
+  }
+  .modal-close:hover { background: rgba(255, 255, 255, .3); }
+
+  .modal-body {
+    padding: 16px 18px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere; /* Fix: Ngắt dòng kể cả khi không có khoảng trắng */
+    word-break: break-word;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  /* ============================================================
+     Mode / Back buttons
+     ============================================================ */
+  .mode-btn {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #43a047 0%, #2e7d32 100%);
+    color: #fff;
+    cursor: pointer;
+    transition: all .18s ease;
+    box-shadow: 0 1px 3px rgba(46, 125, 50, .25);
+  }
+  .mode-btn:hover {
+    background: linear-gradient(180deg, #2e7d32 0%, #1b5e20 100%);
+    box-shadow: 0 3px 8px rgba(46, 125, 50, .35);
+  }
+
+  .back-btn {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text-soft);
+    cursor: pointer;
+    transition: all .18s ease;
+  }
+  .back-btn:hover { background: #f1f5f9; border-color: #94a3b8; }
+
+  /* ============================================================
+     Graph view
+     ============================================================ */
+  #graph-view { display: none; }
+
+  #graph-status {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin: 0 0 8px;
+    text-align: center;
+  }
+
+  .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .chart-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 4px 14px rgba(15, 23, 42, .05);
+    padding: 16px;
+    transition: box-shadow .2s ease, transform .2s ease;
+  }
+  .chart-card:hover {
+    box-shadow: 0 4px 20px rgba(15, 23, 42, .1), 0 8px 24px rgba(15, 23, 42, .06);
+  }
+  .chart-card-wide { grid-column: 1 / -1; }
+
+  .chart-card h3 {
+    margin: 0 0 12px;
+    text-align: center;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -.1px;
+  }
+
+  .chart-empty {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 13px;
+    padding: 24px 0;
+  }
+
+  .chart-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .chart-svg-wrap svg { display: block; }
+
+  .chart-svg-wrap circle.pie-slice {
+    cursor: pointer;
+    transition: transform .3s cubic-bezier(.34, 1.56, .64, 1),
+                filter .3s ease;
+  }
+  .chart-svg-wrap circle.pie-slice:hover {
+    filter: drop-shadow(0 3px 5px rgba(15, 23, 42, .3));
+  }
+  .chart-svg-wrap circle.pie-slice.active {
+    filter: drop-shadow(0 10px 14px rgba(15, 23, 42, .45))
+            drop-shadow(0 2px 4px rgba(15, 23, 42, .3));
+  }
+
+  .slice-tooltip {
+    position: fixed;
+    transform: translate(-50%, -100%);
+    background: #0f172a;
+    color: #fff;
+    padding: 9px 13px;
+    border-radius: 8px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    white-space: nowrap;
+    pointer-events: none;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, .4);
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .15s ease;
+  }
+  .slice-tooltip.show { opacity: 1; visibility: visible; }
+
+  .slice-tooltip .tooltip-title {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+
+  .chart-legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 320px;
+  }
+  .chart-legend li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    font-size: 12.5px;
+    color: var(--text);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .12s ease;
+  }
+  .chart-legend li:hover { background: var(--primary-soft); }
+
+  .legend-dot {
+    flex: 0 0 auto;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  }
+
+  .legend-label {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .legend-value {
+    flex: 0 0 auto;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  .bar-chart-list {
+    max-height: 460px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+
+  .bar-row {
+    display: grid;
+    grid-template-columns: 160px 1fr 34px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 7px;
+    font-size: 12.5px;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 6px;
+    transition: background .15s ease;
+  }
+  .bar-row:hover { background: var(--primary-soft); }
+
+  .bar-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--text);
+  }
+
+  .bar-track {
+    position: relative;
+    display: block;
+    height: 14px;
+    background: #eef2f7;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-radius: 7px;
+    transition: width .4s cubic-bezier(.16,1,.3,1);
+  }
+
+  .bar-value {
+    text-align: right;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  .na-rank-list {
+    max-height: 520px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+  .na-rank-row {
+    padding: 8px 8px 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f5f9;
+    border-radius: 8px;
+    transition: background .15s ease;
+  }
+  .na-rank-row:hover { background: #f8fbff; }
+
+  .na-rank-label {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .na-rank-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .na-rank-bar {
+    display: grid;
+    grid-template-columns: 56px 1fr 40px;
+    align-items: center;
+    gap: 8px;
+    font-size: 11.5px;
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: background .12s ease;
+  }
+  .na-rank-bar:hover { background: var(--primary-soft); }
+
+  .na-rank-bar-tag {
+    color: var(--text-muted);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .na-rank-track {
+    position: relative;
+    display: block;
+    height: 12px;
+    background: #eef2f7;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .na-rank-fill {
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    transition: width .4s cubic-bezier(.16,1,.3,1);
+  }
+  .na-rank-fill.total { background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%); }
+  .na-rank-fill.closed { background: linear-gradient(90deg, #66bb6a 0%, #43a047 100%); }
+  .na-rank-fill.ongoing { background: linear-gradient(90deg, #ffa726 0%, #fb8c00 100%); }
+
+  .na-rank-value {
+    text-align: right;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  .na-rank-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--text-soft);
+  }
+  .na-rank-legend .item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .na-rank-legend .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+
+  /* ============================================================
+     Detail view
+     ============================================================ */
+  #detail-view { display: none; }
+
+  #detail-view .detail-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  #detail-view .detail-info {
+    font-size: 14px;
+    color: var(--text);
+  }
+  #detail-view .detail-info strong { color: var(--primary); }
+
+  #detail-view .detail-count {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin-left: 8px;
+  }
+
+  #detail-view .detail-search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  #detail-view .detail-search input[type="text"] {
+    flex: 1 1 220px;
+    padding: 9px 12px;
+    font-size: 13px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text);
+    transition: border-color .18s ease, box-shadow .18s ease;
+  }
+  #detail-view .detail-search input[type="text"]::placeholder { color: #94a3b8; }
+  #detail-view .detail-search input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .15);
+  }
+
+  #detail-view .table-wrapper {
+    height: calc(100vh - 270px);
+  }
+
+  #detail-view table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  #detail-view th,
+  #detail-view td {
+    font-size: 12.5px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding: 6px 8px;
+    vertical-align: top;
+  }
+
+  #detail-view th {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    z-index: 10;
+    white-space: nowrap;
+    padding-right: 22px;
+    font-weight: 600;
+  }
+
+  /* TOPIC */
+  #detail-view th[data-col-type="topic"],
+  #detail-view td[data-col-type="topic"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    vertical-align: top;
+  }
+
+  /* GO TO WEB */
+  #detail-view th[data-col-type="link"],
+  #detail-view td[data-col-type="link"] {
+    text-align: center;
+    padding: 4px;
+  }
+
+  /* Current Status */
+  #detail-view th[data-col-type="status"],
+  #detail-view td[data-col-type="status"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /* Priority */
+  #detail-view th[data-col-type="priority"],
+  #detail-view td[data-col-type="priority"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /* Open day */
+  #detail-view th[data-col-type="openday"],
+  #detail-view td[data-col-type="openday"] {
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal !important;
+  }
+
+  /* CC NUMBER: sticky left + chữ đỏ */
+  #detail-view th[data-col-type="ccnumber"],
+  #detail-view td[data-col-type="ccnumber"] {
+    position: sticky;
+    left: 0;
+    color: var(--danger);
+    font-weight: 700;
+    background: #fff;
+    z-index: 5;
+    box-shadow: 2px 0 3px -1px rgba(15, 23, 42, .12);
+    white-space: nowrap !important;
+    text-overflow: clip !important;
+    overflow: visible !important;
+  }
+  #detail-view th[data-col-type="ccnumber"] {
+    z-index: 15;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    padding-right: 8px;
+  }
+  #detail-view tbody tr:hover td[data-col-type="ccnumber"] {
+    background: var(--row-hover);
+  }
+  #detail-view tbody tr:nth-child(even) td[data-col-type="ccnumber"] {
+    background: var(--row-alt);
+  }
+
+  #detail-view tbody tr.detail-row {
+    cursor: pointer;
+    transition: background .15s ease;
+  }
+  #detail-view tbody tr.detail-row.selected {
+    background: #e0e7ff !important;
+    box-shadow: inset 4px 0 0 var(--primary);
+  }
+  #detail-view tbody tr.detail-row.selected td { color: #0f172a; }
+
+  #detail-view .detail-link-btn {
+    display: inline-block;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(37, 99, 235, .25);
+    transition: all .15s ease;
+  }
+  #detail-view .detail-link-btn:hover {
+    box-shadow: 0 3px 8px rgba(37, 99, 235, .35);
+    transform: translateY(-1px);
+  }
+
+  /* ============================================================
+     Cột ẩn
+     ============================================================ */
+  #detail-view th.col-hidden,
+  #detail-view td.col-hidden {
+    display: none !important;
+  }
+
+  /* ============================================================
+     Detail charts
+     ============================================================ */
+  #detail-charts {
+    display: none;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  #detail-charts.show { display: block; }
+
+  #detail-charts .detail-charts-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    width: 100%;
+  }
+
+  #detail-charts .chart-card {
+    padding: 10px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  #detail-charts .chart-card h3 {
+    font-size: 13.5px;
+    margin-bottom: 8px;
+  }
+
+  #detail-charts .chart-svg-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #detail-charts .chart-svg-wrap svg {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  #detail-charts .chart-body { width: 100%; }
+
+  #detail-charts .chart-legend {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #detail-charts .chart-legend li {
+    font-size: 10.5px;
+    padding: 2px 4px;
+  }
+
+  #toggle-detail-charts {
+    display: none;
+    flex: 0 0 auto;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #43a047 0%, #2e7d32 100%);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(46, 125, 50, .25);
+    transition: all .18s ease;
+  }
+  #toggle-detail-charts:hover {
+    background: linear-gradient(180deg, #2e7d32 0%, #1b5e20 100%);
+  }
+  #toggle-detail-charts.visible { display: inline-block; }
+
+  /* ============================================================
+     Status cell
+     ============================================================ */
+  .status-cell {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    border: 1px dashed transparent;
+    transition: background .2s ease, border-color .2s ease;
+    min-height: 20px;
+    font-size: 12px;
+    line-height: 1.35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .status-cell:hover {
+    background: var(--primary-soft);
+    border-color: #93c5fd;
+  }
+
+  .status-cell.hold-progress {
+    background: linear-gradient(
+      to right,
+      #bfdbfe 0%,
+      #bfdbfe var(--hold-progress, 0%),
+      transparent var(--hold-progress, 0%),
+      transparent 100%
+    );
+    border-color: var(--primary);
+  }
+
+  .status-cell.empty { color: #94a3b8; font-style: italic; }
+
+  .status-cell.saving {
+    background: #fef9c3;
+    border-color: #facc15;
+  }
+
+  .status-cell.saved {
+    background: #dcfce7;
+    border-color: #4ade80;
+  }
+
+  .status-cell.error {
+    background: #fee2e2;
+    border-color: #f87171;
+    color: #991b1b;
+  }
+
+  .status-cell.readonly {
+    cursor: default;
+    background: #f8fafc;
+    border-color: #e2e8f0;
+    color: var(--text);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .status-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: normal;
+    color: #fff;
+    background: #64748b;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    letter-spacing: .2px;
+  }
+  .status-badge[data-status="New case"]                  { background: #2563eb; }
+  .status-badge[data-status="FUJI JP Investigating"]     { background: #9333ea; }
+  .status-badge[data-status="On Going"]                  { background: #f97316; }
+  .status-badge[data-status="Waiting for FMV Action"]    { background: #0d9488; }
+  .status-badge[data-status="Under Consideration"]       { background: #4f46e5; }
+  .status-badge[data-status="Pending"]                   { background: #64748b; }
+
+  .priority-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: normal;
+    color: #fff;
+    background: #64748b;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    letter-spacing: .2px;
+  }
+  .priority-badge[data-priority^="S:"] { background: #dc2626; }
+  .priority-badge[data-priority^="A:"] { background: #ea580c; }
+  .priority-badge[data-priority^="B:"] { background: #eab308; color: #1f2937; }
+  .priority-badge[data-priority^="C:"] { background: #16a34a; }
+  .priority-badge[data-priority^="D:"] { background: #64748b; }
+
+  /* ============================================================
+     Status menu
+     ============================================================ */
+  .status-menu {
+    position: fixed;
+    z-index: 1500;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, .22), 0 4px 12px rgba(15, 23, 42, .12);
+    padding: 6px;
+    min-width: 260px;
+    max-width: 380px;
+    max-height: 70vh;
+    overflow-y: auto;
+    display: none;
+    animation: slideUp .15s ease;
+  }
+  .status-menu.show { display: block; }
+
+  .status-menu .menu-title {
+    font-size: 11.5px;
+    color: var(--text-muted);
+    padding: 6px 10px 8px;
+    border-bottom: 1px solid #eef2f7;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+  }
+
+  .status-menu button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: transparent;
+    padding: 9px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: var(--text);
+    white-space: normal;
+    line-height: 1.35;
+    transition: background .12s ease;
+  }
+  .status-menu button:hover { background: var(--primary-soft); }
+  .status-menu button.current {
+    background: #dbeafe;
+    font-weight: 700;
+    color: var(--primary-dark);
+  }
+
+  /* ============================================================
+     AUTH / LOGIN
+     ============================================================ */
+  body:not(.authenticated) .sticky-header,
+  body:not(.authenticated) #basic-view,
+  body:not(.authenticated) #graph-view,
+  body:not(.authenticated) #detail-view,
+  body:not(.authenticated) #slice-tooltip,
+  body:not(.authenticated) #status-menu,
+  body:not(.authenticated) #content-modal {
+    display: none !important;
+  }
+
+  .login-screen {
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(circle at 15% 20%, rgba(255,255,255,.12) 0%, transparent 45%),
+      radial-gradient(circle at 85% 80%, rgba(255,255,255,.1) 0%, transparent 50%),
+      linear-gradient(135deg, #1e40af 0%, #1d4ed8 45%, #0f172a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5000;
+    padding: 20px;
+  }
+  .login-screen.hidden { display: none; }
+
+  .login-box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 34px 30px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, .5), 0 8px 20px rgba(15, 23, 42, .3);
+    animation: slideUp .3s cubic-bezier(.16,1,.3,1);
+  }
+  .login-box h2 {
+    margin: 0 0 24px;
+    text-align: center;
+    color: var(--primary);
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+  }
+  .login-box label {
+    display: block;
+    font-size: 12.5px;
+    color: var(--text-soft);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .login-box input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #fff;
+    color: var(--text);
+    transition: border-color .18s ease, box-shadow .18s ease;
+  }
+  .login-box input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .15);
+  }
+  .login-box button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 4px;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, .35);
+    transition: all .18s ease;
+  }
+  .login-box button[type="submit"]:hover {
+    background: linear-gradient(180deg, var(--primary-dark) 0%, #1e40af 100%);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, .45);
+    transform: translateY(-1px);
+  }
+  .login-box button[type="submit"]:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+
+  .login-error {
+    color: var(--danger);
+    font-size: 13px;
+    text-align: center;
+    min-height: 18px;
+    margin: 10px 0 0;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+
+  .logout-btn {
+    flex: 0 0 auto;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #dc2626;
+    border-radius: 8px;
+    background: #fff;
+    color: #dc2626;
+    cursor: pointer;
+    transition: all .18s ease;
+  }
+  .logout-btn:hover {
+    background: #fef2f2;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, .18);
+  }
+
+  /* ============================================================
+     Scrollbar tinh tế
+     ============================================================ */
+  .table-wrapper::-webkit-scrollbar,
+  .bar-chart-list::-webkit-scrollbar,
+  .na-rank-list::-webkit-scrollbar,
+  .status-menu::-webkit-scrollbar,
+  .modal-body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .table-wrapper::-webkit-scrollbar-thumb,
+  .bar-chart-list::-webkit-scrollbar-thumb,
+  .na-rank-list::-webkit-scrollbar-thumb,
+  .status-menu::-webkit-scrollbar-thumb,
+  .modal-body::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+  }
+  .table-wrapper::-webkit-scrollbar-thumb:hover,
+  .bar-chart-list::-webkit-scrollbar-thumb:hover,
+  .na-rank-list::-webkit-scrollbar-thumb:hover,
+  .status-menu::-webkit-scrollbar-thumb:hover,
+  .modal-body::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+  .table-wrapper::-webkit-scrollbar-track,
+  .bar-chart-list::-webkit-scrollbar-track,
+  .na-rank-list::-webkit-scrollbar-track,
+  .status-menu::-webkit-scrollbar-track,
+  .modal-body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* ============================================================
+     Responsive
+     ============================================================ */
+  @media (max-width: 768px) {
+    body { padding: 8px; }
+
+    .sticky-header {
+      flex-wrap: wrap; /* Cho phép xuống dòng khi không đủ chỗ */
+      justify-content: center;
+      padding: 10px 12px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      gap: 8px;
+    }
+    .sticky-header h1 { 
+      flex: 1 1 100%;
+      text-align: center;
+      font-size: 18px; 
+      margin-bottom: 4px;
+    }
+    .sticky-header .mode-btn,
+    .sticky-header .logout-btn {
+      flex: 1 1 40%; /* Chia đều nút trên mobile */
+      font-size: 13px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+
+    .toolbar { gap: 8px; }
+    .toolbar input[type="text"] { flex: 1 1 100%; font-size: 13px; padding: 9px 12px; }
+    .toggle-btn, #clear-filters { flex: 1 1 auto; text-align: center; padding: 9px 10px; font-size: 13px; }
+
+    #pagination { flex-wrap: wrap; justify-content: space-between; }
+    #pagination strong { flex: 1 1 100%; order: 2; text-align: center; font-size: 12px; }
+
+    .table-wrapper {
+      height: auto;
+      max-height: calc(100vh - 300px);
+      box-shadow: none;
+      background: transparent;
+      border: none;
+    }
+
+    table { table-layout: fixed; }
+    th, td { font-size: 9px; padding: 3px; }
+    th { font-size: 10px; }
+
+    /* Fix lỗi Popup tràn màn hình trên điện thoại */
+    .modal-overlay { padding: 10px; }
+    .modal-box { 
+      max-height: 90vh; 
+      width: 100%; 
+      max-width: 100%;
+    }
+    .modal-body {
+      padding: 12px;
+      overflow-wrap: anywhere; 
+      word-break: break-word;
+    }
+
+    .charts-grid { grid-template-columns: 1fr; }
+    .bar-row { grid-template-columns: 100px 1fr 30px; font-size: 11px; }
+
+    .na-rank-bar { grid-template-columns: 48px 1fr 34px; font-size: 10.5px; }
+
+    #detail-view th, #detail-view td { font-size: 10px; padding: 3px; }
+    .status-cell { font-size: 10.5px; }
+
+    #detail-view .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    #basic-view .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    #basic-view table { width: 100%; min-width: 0; table-layout: fixed; }
+    #basic-view th, #basic-view td { padding: 2px; overflow: hidden; }
+    #basic-view th {
+      font-size: 8px;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      line-height: 1.15;
+    }
+    #basic-view td { overflow-wrap: anywhere; }
+    #basic-view td[data-label="TOPIC"] .cell-value {
+      max-width: none;
+      width: 100%;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+    #basic-view .cell-value { overflow-wrap: anywhere; }
+    #basic-view .action-btn { padding: 3px 2px; font-size: 8px; max-width: 100%; box-sizing: border-box; }
+
+    #detail-charts {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    #detail-charts .detail-charts-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      width: 100%;
+    }
+    #detail-charts .chart-card {
+      width: 100%;
+      padding: 10px;
+    }
+    #detail-charts .chart-svg-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #detail-charts .chart-svg-wrap svg {
+      width: 33%;
+      max-width: 33%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+    #detail-charts .chart-legend { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <h1 id="page-title">NA TEAM CC Management</h1>
+  <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
+  <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
+  <button id="logout-btn" class="logout-btn" type="button" title="Đăng xuất">Logout</button>
+</div>
+
+<div id="basic-view">
+  <div class="toolbar">
+    <input id="search-cc" type="text" placeholder="Search CC Number">
+    <input id="search-topic" type="text" placeholder="Search Topic">
+    <input id="search-content" type="text" placeholder="Search Communication Content">
+    <button id="filter-new" class="toggle-btn" type="button" aria-pressed="false">NEW only</button>
+    <button id="filter-nat" class="toggle-btn" type="button" aria-pressed="false">NAT</button>
+    <button id="filter-other" class="toggle-btn" type="button" aria-pressed="false">OTHER</button>
+    <button id="clear-filters" type="button">Clear</button>
+  </div>
+
+  <p id="status">Loading data...</p>
+
+  <div id="pagination"></div>
+
+  <div class="table-wrapper">
+    <table id="basic-table">
+      <thead>
+        <tr id="basic-thead-row">
+          <th>DATE</th>
+          <th>CC NUMBER</th>
+          <th>CUSTOMER</th>
+          <th>TOPIC</th>
+          <th>COMMUNICATION CONTENT</th>
+          <th>FMV PIC</th>
+          <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div id="graph-view">
+  <p id="graph-status">Loading graph data...</p>
+
+  <div class="charts-grid">
+    <div class="chart-card" id="chart-open-close"></div>
+    <div class="chart-card" id="chart-na-rank"></div>
+    <div class="chart-card" id="chart-na-inquiry"></div>
+    <div class="chart-card" id="chart-fmv-inquiry"></div>
+    <div class="chart-card chart-card-wide" id="chart-fmv-rank"></div>
+  </div>
+</div>
+
+<div id="detail-view">
+  <div class="detail-toolbar">
+    <div class="detail-info">
+      <span id="detail-title">Detail</span>
+      <span id="detail-count" class="detail-count"></span>
+    </div>
+    <div style="display:flex; gap:8px; align-items:center;">
+      <button id="toggle-detail-charts" type="button">📊 Show graph</button>
+      <button id="detail-back-btn" class="back-btn" type="button">⬅ BACK</button>
+    </div>
+  </div>
+
+  <div id="detail-charts">
+    <div class="detail-charts-grid">
+      <div class="chart-card" id="detail-chart-site"></div>
+      <div class="chart-card" id="detail-chart-inquiry"></div>
+      <div class="chart-card" id="detail-chart-status"></div>
+      <div class="chart-card" id="detail-chart-priority"></div>
+    </div>
+  </div>
+
+  <div class="detail-search">
+    <input id="detail-search-cc" type="text" placeholder="Search CC Number">
+    <input id="detail-search-topic" type="text" placeholder="Search Topic">
+  </div>
+
+  <div id="hidden-cols-detail" class="hidden-cols-toolbar"></div>
+
+  <div class="table-wrapper">
+    <table id="detail-table">
+      <colgroup id="detail-colgroup"></colgroup>
+      <thead id="detail-thead"></thead>
+      <tbody id="detail-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div id="slice-tooltip" class="slice-tooltip"></div>
+
+<div id="status-menu" class="status-menu" role="menu" aria-label="Select value"></div>
+
+<div id="content-modal" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h2 id="modal-title">Communication Content</h2>
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+  </div>
+</div>
+
+<div id="login-screen" class="login-screen">
+  <form id="login-form" class="login-box" autocomplete="on">
+    <h2>🔒 Đăng Nhập</h2>
+    <label for="login-username">Tài khoản</label>
+    <input id="login-username" name="username" type="text" autocomplete="username" required>
+    <label for="login-password">Mật khẩu</label>
+    <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+    <button id="login-submit" type="submit">Đăng Nhập</button>
+    <p id="login-error" class="login-error"></p>
+  </form>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const ROWS_PER_PAGE = 50;
+  const SEARCH_DEBOUNCE_MS = 200;
+  const RESIZE_DEBOUNCE_MS = 150;
+  const NEW_KEYWORD = "new";
+  const CONTENT_LABEL = "COMMUNICATION CONTENT";
+  const SLICE_RESET_MS = 3000;
+  const HOLD_MS = 5000;
+
+  const STATUS_COL_NAME   = "Current Status";
+  const PRIORITY_COL_NAME = "Priority";
+  const OPENDAY_COL_NAME  = "Open day";
+
+  const FIELD_CURRENT_STATUS = "Current status";
+  const FIELD_PRIORITY       = "Priority";
+  const FIELD_OPEN_DAY       = "Open day";
+
+  const STATUS_OPTIONS = [
+    "New case",
+    "FUJI JP Investigating",
+    "On Going",
+    "Waiting for FMV Action",
+    "Under Consideration",
+    "Pending"
+  ];
+
+  const PRIORITY_OPTIONS = [
+    "S:Machine Stop",
+    "A:Sometimes Stop/Customer focus on the issue",
+    "B:Need to Fix ASAP",
+    "C:Need to make schedule",
+    "D:Not Urgent"
+  ];
+
+  const TITLE_BASIC  = "NA TEAM CC Management";
+  const TITLE_GRAPH  = "Graph Mode - NA TEAM Overview";
+  const TITLE_DETAIL = "Detail records";
+
+  const ONGOING_DETAIL_TITLE = "NA Open-Close Case — On Going";
+
+  const COLUMNS = [
+    { field: "DATE", label: "DATE" },
+    { field: "CC NUMBER", label: "CC NUMBER" },
+    { field: "Customer", label: "CUSTOMER" },
+    { field: "TOPIC", label: "TOPIC" },
+    { field: "Communication Content", label: CONTENT_LABEL },
+    { field: "FMV PIC", label: "FMV PIC" }
+  ];
+
+  const FIELD_MAP = {
+    cc:      { field: "CC NUMBER", key: "__cc" },
+    topic:   { field: "TOPIC", key: "__topic" },
+    content: { field: "Communication Content", key: "__content" }
+  };
+
+  const CUSTOMER_LIST_SOURCES = {
+    nat: "NAT.json",
+    other: "OTHER.json"
+  };
+
+  const customerListCache = {};
+
+  const GRAPH_DATA_SOURCE = "data2.json";
+
+  const STATUS_API_BASE = "https://call-center-data.quoctan91.workers.dev";
+  const STATUS_API_GET  = `${STATUS_API_BASE}/statuses`;
+  const STATUS_API_POST = `${STATUS_API_BASE}/statuses`;
+
+  const STATUS_CLOSED = "Closed";
+  const STATUS_ONGOING = "On Going";
+
+  const CHART_PALETTE = [
+    "#1976d2", "#e53935", "#43a047", "#fb8c00", "#8e24aa",
+    "#00897b", "#c0ca33", "#6d4c41", "#3949ab", "#d81b60",
+    "#00acc1", "#f4511e"
+  ];
+
+  const STATUS_COLOR_MAP = {
+    "New case":               "#1976d2",
+    "FUJI JP Investigating":  "#8e24aa",
+    "On Going":               "#fb8c00",
+    "Waiting for FMV Action": "#00897b",
+    "Under Consideration":    "#3949ab",
+    "Pending":                "#757575",
+    "Unspecified":            "#bdbdbd"
+  };
+
+  const PRIORITY_COLOR_MAP = {
+    "S:Machine Stop":                                  "#c62828",
+    "A:Sometimes Stop/Customer focus on the issue":    "#ef6c00",
+    "B:Need to Fix ASAP":                              "#f9a825",
+    "C:Need to make schedule":                         "#2e7d32",
+    "D:Not Urgent":                                    "#607d8b",
+    "Unspecified":                                     "#bdbdbd"
+  };
+
+  const DETAIL_COL_WIDTHS = {
+    ccnumber:    120,
+    date:        110,
+    customer:    160,
+    topic:       260,
+    inquirytype: 130,
+    link:        110,
+    casestatus:  110,
+    status:      155,
+    priority:    130,
+    openday:     110
+  };
+
+  function getStatusColor(label) {
+    return STATUS_COLOR_MAP[label] || "#bdbdbd";
+  }
+
+  function getPriorityColor(label) {
+    return PRIORITY_COLOR_MAP[label] || "#bdbdbd";
+  }
+
+  let allData = [];
+  let filteredData = [];
+  let currentPage = 1;
+  let openContentCell = null;
+
+  let graphData = null;
+  let graphLoaded = false;
+
+  const statusMap = new Map();
+  let statusesLoaded = false;
+  let statusesLoading = null;
+
+  let selectedDetailRow = null;
+
+  let detailRecordsAll = [];
+  let detailSearch = { cc: "", topic: "" };
+
+  let detailColumns = [];
+
+  let savedGraphScrollY = 0;
+
+  let previousDetailState = null;
+
+  let detailChartsData = null;
+  let detailChartsVisibleMobile = false;
+
+  const hiddenColumns = { detail: {} };
+
+  const detailColumnLabels = [];
+  let detailColTypes = [];
+
+  const filters = {
+    cc: "",
+    topic: "",
+    content: "",
+    newOnly: false,
+    customerGroup: null
+  };
+
+  const tbody = document.getElementById("tbody");
+  const pagination = document.getElementById("pagination");
+  const status = document.getElementById("status");
+
+  const ccInput = document.getElementById("search-cc");
+  const topicInput = document.getElementById("search-topic");
+  const contentInput = document.getElementById("search-content");
+  const newBtn = document.getElementById("filter-new");
+  const natBtn = document.getElementById("filter-nat");
+  const otherBtn = document.getElementById("filter-other");
+  const clearBtn = document.getElementById("clear-filters");
+
+  const contentModal = document.getElementById("content-modal");
+  const modalTitle = document.getElementById("modal-title");
+  const modalBody = document.getElementById("modal-body");
+  const modalClose = document.getElementById("modal-close");
+
+  const basicView = document.getElementById("basic-view");
+  const graphView = document.getElementById("graph-view");
+  const detailView = document.getElementById("detail-view");
+  const graphModeBtn = document.getElementById("graph-mode-btn");
+  const basicModeBtn = document.getElementById("basic-mode-btn");
+  const graphStatus = document.getElementById("graph-status");
+  const chartOpenClose = document.getElementById("chart-open-close");
+  const chartNaInquiry = document.getElementById("chart-na-inquiry");
+  const chartFmvInquiry = document.getElementById("chart-fmv-inquiry");
+  const chartFmvRank = document.getElementById("chart-fmv-rank");
+  const chartNaRank = document.getElementById("chart-na-rank");
+
+  const basicTable = document.getElementById("basic-table");
+  const hiddenColsDetail = document.getElementById("hidden-cols-detail");
+  const detailTable = document.getElementById("detail-table");
+  const detailColgroup = document.getElementById("detail-colgroup");
+
+  const detailTitle = document.getElementById("detail-title");
+  const detailCount = document.getElementById("detail-count");
+  const detailThead = document.getElementById("detail-thead");
+  const detailTbody = document.getElementById("detail-tbody");
+  const detailBackBtn = document.getElementById("detail-back-btn");
+  const detailSearchCc = document.getElementById("detail-search-cc");
+  const detailSearchTopic = document.getElementById("detail-search-topic");
+
+  const detailCharts = document.getElementById("detail-charts");
+  const detailChartSite = document.getElementById("detail-chart-site");
+  const detailChartInquiry = document.getElementById("detail-chart-inquiry");
+  const detailChartStatus = document.getElementById("detail-chart-status");
+  const detailChartPriority = document.getElementById("detail-chart-priority");
+  const toggleDetailChartsBtn = document.getElementById("toggle-detail-charts");
+
+  const pageTitle = document.getElementById("page-title");
+  const stickyHeader = document.querySelector(".sticky-header");
+  const sliceTooltip = document.getElementById("slice-tooltip");
+  const statusMenu = document.getElementById("status-menu");
+
+  let activeSliceEl = null;
+  let sliceResetTimer = null;
+
+  let isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+  // ============================================================
+  // AUTH
+  // ============================================================
+  const AUTH_TOKEN_KEY = "cc_auth_token";
+
+  let authToken = "";
+  try { authToken = sessionStorage.getItem(AUTH_TOKEN_KEY) || ""; } catch (_) {}
+  let authFailureHandled = false;
+
+  const loginScreen   = document.getElementById("login-screen");
+  const loginForm     = document.getElementById("login-form");
+  const loginUsername = document.getElementById("login-username");
+  const loginPassword = document.getElementById("login-password");
+  const loginSubmit   = document.getElementById("login-submit");
+  const loginError    = document.getElementById("login-error");
+  const logoutBtn     = document.getElementById("logout-btn");
+
+  function storeToken(t) {
+    try { sessionStorage.setItem(AUTH_TOKEN_KEY, t); } catch (_) {}
+  }
+  function clearStoredToken() {
+    try { sessionStorage.removeItem(AUTH_TOKEN_KEY); } catch (_) {}
+  }
+
+  async function authFetch(url, options = {}) {
+    const opts = { ...options, headers: { ...(options.headers || {}) } };
+    if (authToken) opts.headers["Authorization"] = `Bearer ${authToken}`;
+    const res = await fetch(url, opts);
+    if (res.status === 401) {
+      handleAuthFailure();
+      const err = new Error("Phiên đăng nhập đã hết hạn.");
+      err.isAuthError = true;
+      throw err;
+    }
+    return res;
+  }
+
+  function handleAuthFailure() {
+    if (authFailureHandled) return;
+    authFailureHandled = true;
+    authToken = "";
+    clearStoredToken();
+    alert("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.");
+    location.reload();
+  }
+
+  function showLoginScreen() {
+    document.body.classList.remove("authenticated");
+    loginScreen.classList.remove("hidden");
+    setTimeout(() => {
+      loginPassword.value = "";
+      loginUsername.focus();
+    }, 50);
+  }
+
+  function hideLoginScreen() {
+    loginScreen.classList.add("hidden");
+    document.body.classList.add("authenticated");
+  }
+
+  function showLoginError(msg) {
+    loginError.textContent = msg || "";
+  }
+
+  async function attemptLogin(username, password) {
+    const res = await fetch(`${STATUS_API_BASE}/login`, {
+      method: "POST",
+      mode: "cors",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({ username, password })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data.token) {
+      throw new Error(data.message || data.error || `Đăng nhập thất bại (HTTP ${res.status})`);
+    }
+    authToken = data.token;
+    authFailureHandled = false;
+    storeToken(authToken);
+    return data;
+  }
+
+  async function verifyExistingToken() {
+    if (!authToken) return false;
+    try {
+      const res = await fetch(`${STATUS_API_BASE}/me`, {
+        method: "GET",
+        mode: "cors",
+        headers: { "Authorization": `Bearer ${authToken}`, "Accept": "application/json" }
+      });
+      return res.ok;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  async function bootstrap() {
+    if (authToken) {
+      const ok = await verifyExistingToken();
+      if (ok) {
+        hideLoginScreen();
+        await init();
+        return;
+      }
+      authToken = "";
+      clearStoredToken();
+    }
+    showLoginScreen();
+  }
+
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = loginUsername.value.trim();
+    const password = loginPassword.value;
+    if (!username || !password) {
+      showLoginError("Vui lòng nhập đầy đủ tài khoản và mật khẩu.");
+      return;
+    }
+    showLoginError("");
+    loginSubmit.disabled = true;
+    loginSubmit.textContent = "Đang đăng nhập...";
+    try {
+      await attemptLogin(username, password);
+      hideLoginScreen();
+      await init();
+    } catch (err) {
+      console.error("Login failed:", err);
+      showLoginError(err.message || "Đăng nhập thất bại.");
+      loginPassword.value = "";
+      loginPassword.focus();
+    } finally {
+      loginSubmit.disabled = false;
+      loginSubmit.textContent = "Đăng Nhập";
+    }
+  });
+
+  logoutBtn.addEventListener("click", () => {
+    if (!confirm("Bạn có chắc muốn đăng xuất?")) return;
+    authToken = "";
+    clearStoredToken();
+    location.reload();
+  });
+
+  bootstrap();
+
+  // ============================================================
+  // INIT
+  // ============================================================
+  let initialized = false;
+  async function init() {
+    if (initialized) return;
+    initialized = true;
+    try {
+      const res = await fetch("data.json");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      allData = data.map(item => ({
+        ...item,
+        __cc: String(item["CC NUMBER"] ?? "").toLowerCase(),
+        __topic: String(item["TOPIC"] ?? "").toLowerCase(),
+        __content: String(item["Communication Content"] ?? "").toLowerCase(),
+        __customer: normalize(item["Customer"])
+      }));
+
+      filteredData = allData;
+      if (status && status.parentNode) status.remove();
+      renderTable();
+    } catch (err) {
+      console.error(err);
+      initialized = false;
+      if (status) status.textContent = "Failed to load data.json.";
+    }
+  }
+
+  function normalize(text) {
+    return String(text ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+  }
+
+  function normalizeCc(cc) {
+    return String(cc ?? "").trim();
+  }
+
+  // ============================================================
+  // COLUMN HIDE / SHOW
+  // ============================================================
+  function attachColumnHideButtons(theadRow, onChange) {
+    const ths = theadRow.querySelectorAll("th");
+    ths.forEach((th, idx) => {
+      const colType = th.dataset.colType || "";
+      if (colType === "ccnumber") return;
+      if (th.querySelector(".col-hide-btn")) return;
+
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "col-hide-btn";
+      btn.textContent = "−";
+      btn.title = "Ẩn cột này";
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        hideColumn(idx, onChange);
+      });
+      th.appendChild(btn);
+    });
+  }
+
+  function hideColumn(idx, onChange) {
+    hiddenColumns.detail[idx] = true;
+    applyHiddenColumns();
+    renderHiddenColsToolbar(onChange);
+  }
+
+  function showColumn(idx, onChange) {
+    delete hiddenColumns.detail[idx];
+    applyHiddenColumns();
+    renderHiddenColsToolbar(onChange);
+  }
+
+  function applyHiddenColumns() {
+    const table = detailTable;
+    if (!table) return;
+
+    const hidden = hiddenColumns.detail;
+    const headRow = table.querySelector("thead tr:first-child");
+    const headCells = headRow ? headRow.children : [];
+    const totalCols = headCells.length;
+
+    for (let i = 0; i < totalCols; i++) {
+      headCells[i].classList.toggle("col-hidden", !!hidden[i]);
+    }
+
+    const bodyRows = detailTbody.children;
+    for (let r = 0; r < bodyRows.length; r++) {
+      const cells = bodyRows[r].children;
+      const n = Math.min(totalCols, cells.length);
+      for (let i = 0; i < n; i++) {
+        cells[i].classList.toggle("col-hidden", !!hidden[i]);
+      }
+    }
+
+    updateColgroup();
+    updateTableWidth();
+  }
+
+  function updateColgroup() {
+    if (!detailColgroup) return;
+    detailColgroup.replaceChildren();
+
+    const hidden = hiddenColumns.detail;
+    detailColTypes.forEach((type, idx) => {
+      const col = document.createElement("col");
+      if (hidden[idx]) {
+        col.style.setProperty("display", "none", "important");
+      } else {
+        const w = DETAIL_COL_WIDTHS[type] || 120;
+        col.style.setProperty("width", `${w}px`, "important");
+        col.style.setProperty("min-width", `${w}px`, "important");
+        col.style.setProperty("max-width", `${w}px`, "important");
+      }
+      detailColgroup.appendChild(col);
+    });
+  }
+
+  function updateTableWidth() {
+    const table = detailTable;
+    if (!table) return;
+    const hidden = hiddenColumns.detail;
+    const hasHidden = Object.keys(hidden).some(k => hidden[k]);
+
+    if (!hasHidden) {
+      table.style.removeProperty("width");
+      table.style.removeProperty("min-width");
+      table.style.removeProperty("max-width");
+      return;
+    }
+
+    let total = 0;
+    detailColTypes.forEach((type, idx) => {
+      if (hidden[idx]) return;
+      total += DETAIL_COL_WIDTHS[type] || 120;
+    });
+
+    table.style.setProperty("width", `${total}px`, "important");
+    table.style.setProperty("min-width", `${total}px`, "important");
+    table.style.setProperty("max-width", `${total}px`, "important");
+  }
+
+  function renderHiddenColsToolbar(onChange) {
+    const container = hiddenColsDetail;
+    if (!container) return;
+    const table = detailTable;
+    if (!table) return;
+
+    const ths = table.querySelectorAll("thead tr:first-child th");
+    const hidden = hiddenColumns.detail;
+
+    container.replaceChildren();
+
+    ths.forEach((th, idx) => {
+      if (!hidden[idx]) return;
+      const label = getHeaderLabel(th, idx);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "col-show-btn";
+      btn.textContent = `+ ${label}`;
+      btn.title = `Hiện lại cột "${label}"`;
+      btn.addEventListener("click", () => showColumn(idx, onChange));
+      container.appendChild(btn);
+    });
+  }
+
+  function getHeaderLabel(th, idx) {
+    if (detailColumnLabels[idx]) return detailColumnLabels[idx];
+    const clone = th.cloneNode(true);
+    clone.querySelectorAll(".col-hide-btn").forEach(b => b.remove());
+    return clone.textContent.trim() || `Cột ${idx + 1}`;
+  }
+
+  // ============================================================
+  // STATUS API
+  // ============================================================
+  async function loadStatuses(force = false) {
+    if (statusesLoaded && !force) return statusMap;
+    if (statusesLoading) return statusesLoading;
+
+    statusesLoading = (async () => {
+      try {
+        const res = await authFetch(STATUS_API_GET, {
+          method: "GET",
+          mode: "cors",
+          headers: { "Accept": "application/json" }
+        });
+        
+        let data = {};
+        try { data = await res.json(); } catch(e) {}
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        statusMap.clear();
+        const list = Array.isArray(data) ? data : (Array.isArray(data?.statuses) ? data.statuses : null);
+
+        if (list) {
+          list.forEach(entry => {
+            if (!entry || typeof entry !== "object") return;
+            const keys = Object.keys(entry);
+            const ccKey = keys.find(k => /cc\s*number/i.test(k));
+            if (!ccKey) return;
+            const cc = normalizeCc(entry[ccKey]);
+            if (!cc) return;
+
+            const curKey = keys.find(k => /^current\s*status$/i.test(k));
+            const priKey = keys.find(k => /^priority$/i.test(k));
+            const opeKey = keys.find(k => /^open\s*day$/i.test(k));
+
+            statusMap.set(cc, {
+              [FIELD_CURRENT_STATUS]: curKey ? String(entry[curKey] ?? "").trim() : "",
+              [FIELD_PRIORITY]:       priKey ? String(entry[priKey] ?? "").trim() : "",
+              [FIELD_OPEN_DAY]:       opeKey ? entry[opeKey] : null
+            });
+          });
+        }
+
+        try {
+          localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
+        } catch(_) {}
+
+        statusesLoaded = true;
+      } catch (err) {
+        if (err.isAuthError) return;
+        console.error("loadStatuses failed:", err);
+        
+        try {
+          const cached = localStorage.getItem("cc_status_cache");
+          if (cached && statusMap.size === 0) {
+            JSON.parse(cached).forEach(([cc, val]) => statusMap.set(cc, val));
+          }
+        } catch(_) {}
+      } finally {
+        statusesLoading = null;
+      }
+      return statusMap;
+    })();
+
+    return statusesLoading;
+  }
+
+  function getStatusEntry(cc) {
+    if (!cc) return { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
+    const cur = statusMap.get(cc);
+    return cur || { [FIELD_CURRENT_STATUS]: "", [FIELD_PRIORITY]: "", [FIELD_OPEN_DAY]: null };
+  }
+
+  async function saveStatusEntry(ccNumber, entry, changedFields) {
+    const fields = Array.isArray(changedFields) && changedFields.length
+      ? changedFields
+      : [FIELD_CURRENT_STATUS, FIELD_PRIORITY, FIELD_OPEN_DAY];
+
+    const body = { "CC NUMBER": ccNumber };
+    fields.forEach(f => {
+      body[f] = f === FIELD_OPEN_DAY ? entry[f] : (entry[f] || "");
+    });
+
+    const res = await authFetch(STATUS_API_POST, {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(body)
+    });
+
+    let data = {};
+    try { data = await res.json(); } catch(e) {}
+    
+    if (!res.ok) {
+      throw new Error(data.message || `HTTP ${res.status} Lỗi khi lưu.`);
+    }
+
+    let merged = null;
+    if (data && data.record && typeof data.record === "object") merged = data.record;
+
+    if (merged) {
+      statusMap.set(ccNumber, {
+        [FIELD_CURRENT_STATUS]: String(merged[FIELD_CURRENT_STATUS] ?? "").trim(),
+        [FIELD_PRIORITY]:       String(merged[FIELD_PRIORITY] ?? "").trim(),
+        [FIELD_OPEN_DAY]:       merged[FIELD_OPEN_DAY] ?? null
+      });
+    } else {
+      statusMap.set(ccNumber, { ...entry });
+    }
+    
+    try {
+      localStorage.setItem("cc_status_cache", JSON.stringify(Array.from(statusMap.entries())));
+    } catch(_) {}
+
+    return true;
+  }
+
+  // ============================================================
+  // CUSTOMER LIST
+  // ============================================================
+  function extractCustomerNames(data) {
+    if (Array.isArray(data)) {
+      return data.map(entry => {
+        if (typeof entry === "string") return entry;
+        if (entry && typeof entry === "object") {
+          const key = Object.keys(entry).find(k => /customer/i.test(k));
+          return key ? entry[key] : Object.values(entry)[0];
+        }
+        return "";
+      });
+    }
+    if (data && typeof data === "object") {
+      const arrKey = Object.keys(data).find(k => Array.isArray(data[k]));
+      if (arrKey) return extractCustomerNames(data[arrKey]);
+    }
+    return [];
+  }
+
+  async function loadCustomerList(group) {
+    if (customerListCache[group]) return customerListCache[group];
+
+    const res = await fetch(CUSTOMER_LIST_SOURCES[group]);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    const names = extractCustomerNames(data).map(normalize).filter(Boolean);
+    const set = new Set(names);
+    customerListCache[group] = set;
+    return set;
+  }
+
+  async function setCustomerGroup(group) {
+    const nextGroup = filters.customerGroup === group ? null : group;
+
+    if (nextGroup) {
+      try {
+        await loadCustomerList(nextGroup);
+      } catch (err) {
+        console.error(err);
+        alert(`Cannot load ${CUSTOMER_LIST_SOURCES[nextGroup]}`);
+        return;
+      }
+    }
+
+    filters.customerGroup = nextGroup;
+    natBtn.classList.toggle("active", nextGroup === "nat");
+    natBtn.setAttribute("aria-pressed", String(nextGroup === "nat"));
+    otherBtn.classList.toggle("active", nextGroup === "other");
+    otherBtn.setAttribute("aria-pressed", String(nextGroup === "other"));
+
+    applyFilters();
+  }
+
+  // ============================================================
+  // EVENT LISTENERS
+  // ============================================================
+  ccInput.addEventListener("input", debounce(() => {
+    filters.cc = ccInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  topicInput.addEventListener("input", debounce(() => {
+    filters.topic = topicInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  contentInput.addEventListener("input", debounce(() => {
+    filters.content = contentInput.value.trim().toLowerCase();
+    applyFilters();
+  }, SEARCH_DEBOUNCE_MS));
+
+  newBtn.addEventListener("click", () => {
+    filters.newOnly = !filters.newOnly;
+    newBtn.classList.toggle("active", filters.newOnly);
+    newBtn.setAttribute("aria-pressed", String(filters.newOnly));
+    applyFilters();
+  });
+
+  natBtn.addEventListener("click", () => setCustomerGroup("nat"));
+  otherBtn.addEventListener("click", () => setCustomerGroup("other"));
+
+  clearBtn.addEventListener("click", () => {
+    filters.cc = "";
+    filters.topic = "";
+    filters.content = "";
+    filters.newOnly = false;
+    filters.customerGroup = null;
+
+    ccInput.value = "";
+    topicInput.value = "";
+    contentInput.value = "";
+    newBtn.classList.remove("active");
+    newBtn.setAttribute("aria-pressed", "false");
+    natBtn.classList.remove("active");
+    natBtn.setAttribute("aria-pressed", "false");
+    otherBtn.classList.remove("active");
+    otherBtn.setAttribute("aria-pressed", "false");
+
+    applyFilters();
+  });
+
+  detailSearchCc.addEventListener("input", debounce(() => {
+    detailSearch.cc = detailSearchCc.value.trim().toLowerCase();
+    renderDetailTableRows();
+  }, SEARCH_DEBOUNCE_MS));
+
+  detailSearchTopic.addEventListener("input", debounce(() => {
+    detailSearch.topic = detailSearchTopic.value.trim().toLowerCase();
+    renderDetailTableRows();
+  }, SEARCH_DEBOUNCE_MS));
+
+  detailTbody.addEventListener("click", (e) => {
+    const tr = e.target.closest("tr.detail-row");
+    if (tr && detailTbody.contains(tr)) selectDetailRow(tr);
+  });
+
+  toggleDetailChartsBtn.addEventListener("click", () => {
+    detailChartsVisibleMobile = !detailChartsVisibleMobile;
+    updateDetailChartsVisibility();
+  });
+
+  window.addEventListener("resize", debounce(() => {
+    adjustRowHeights();
+    updateHeaderOffset();
+    hideStatusMenu();
+    onViewportChange();
+  }, RESIZE_DEBOUNCE_MS));
+  window.addEventListener("scroll", () => {
+    if (statusMenu.classList.contains("show")) hideStatusMenu();
+  }, { capture: true, passive: true });
+  updateHeaderOffset();
+
+  function updateHeaderOffset() {
+    if (!stickyHeader) return;
+    const marginBottom = parseFloat(getComputedStyle(stickyHeader).marginBottom) || 0;
+    const headerHeight = stickyHeader.offsetHeight + marginBottom;
+    document.documentElement.style.setProperty("--header-height", `${headerHeight}px`);
+  }
+
+  function onViewportChange() {
+    const nowMobile = window.matchMedia("(max-width: 768px)").matches;
+    if (nowMobile !== isMobile) {
+      isMobile = nowMobile;
+      updateDetailChartsVisibility();
+    }
+  }
+
+  // ============================================================
+  // VIEW SWITCHING
+  // ============================================================
+  graphModeBtn.addEventListener("click", showGraphView);
+  basicModeBtn.addEventListener("click", showBasicView);
+
+  detailBackBtn.addEventListener("click", () => {
+    if (previousDetailState) {
+      const prev = previousDetailState;
+      previousDetailState = null;
+
+      detailRecordsAll = prev.records || [];
+      detailSearch = { cc: "", topic: "" };
+      detailSearchCc.value = "";
+      detailSearchTopic.value = "";
+
+      detailTitle.textContent = prev.title;
+
+      const showCharts = prev.title === ONGOING_DETAIL_TITLE;
+      detailChartsData = prev.chartsData || null;
+      detailChartsVisibleMobile = !!prev.chartsVisibleMobile;
+
+      if (showCharts && detailChartsData) {
+        renderDetailCharts();
+      } else {
+        clearDetailCharts();
+      }
+      updateDetailChartsVisibility();
+
+      renderDetailTable();
+
+      hideAllViews();
+      detailView.style.display = "block";
+      pageTitle.textContent = TITLE_DETAIL;
+      updateHeaderOffset();
+
+      requestAnimationFrame(() => {
+        window.scrollTo(0, prev.scrollY || 0);
+      });
+      return;
+    }
+
+    hideAllViews();
+    graphView.style.display = "block";
+    graphModeBtn.style.display = "none";
+    basicModeBtn.style.display = "";
+    pageTitle.textContent = TITLE_GRAPH;
+    updateHeaderOffset();
+    window.scrollTo(0, savedGraphScrollY);
+  });
+
+  function hideAllViews() {
+    basicView.style.display = "none";
+    graphView.style.display = "none";
+    detailView.style.display = "none";
+  }
+
+  function showBasicView() {
+    hideAllViews();
+    basicView.style.display = "block";
+    graphModeBtn.style.display = "";
+    basicModeBtn.style.display = "none";
+    pageTitle.textContent = TITLE_BASIC;
+    resetSliceInteraction();
+    updateHeaderOffset();
+  }
+
+  async function showGraphView() {
+    closeContentModal();
+    hideAllViews();
+    graphView.style.display = "block";
+    graphModeBtn.style.display = "none";
+    basicModeBtn.style.display = "";
+    pageTitle.textContent = TITLE_GRAPH;
+    updateHeaderOffset();
+
+    try {
+      await ensureGraphData();
+      renderAllCharts();
+    } catch (err) {
+      console.error(err);
+      graphStatus.textContent = "Failed to load data2.json or NAT.json.";
+      graphStatus.style.display = "block";
+    }
+  }
+
+  async function ensureGraphData() {
+    if (!graphLoaded) {
+      graphStatus.textContent = "Loading graph data...";
+      graphStatus.style.display = "block";
+      const [res] = await Promise.all([
+        fetch(GRAPH_DATA_SOURCE),
+        loadCustomerList("nat")
+      ]);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const raw = await res.json();
+
+      graphData = raw.map(item => ({
+        ...item,
+        __customer: normalize(item["Customer"])
+      }));
+
+      graphLoaded = true;
+      graphStatus.style.display = "none";
+    }
+    
+    await loadStatuses(true);
+  }
+
+  // ============================================================
+  // CHARTS (Graph view)
+  // ============================================================
+  function renderAllCharts() {
+    resetSliceInteraction();
+
+    const natSet = customerListCache.nat || new Set();
+    const natRecords = graphData.filter(r => natSet.has(r.__customer));
+    const totalNAT = natRecords.length;
+    const totalAll = graphData.length;
+
+    const onGoingRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "On Going");
+    const closedRecords = natRecords.filter(r => (r["CASE STATUS"] || "").trim() === "Closed");
+    const otherStatusRecords = natRecords.filter(r => {
+      const s = (r["CASE STATUS"] || "").trim();
+      return s !== "On Going" && s !== "Closed";
+    });
+
+    const openCloseSlices = [
+      {
+        label: "On Going",
+        value: onGoingRecords.length,
+        color: "#fb8c00",
+        records: onGoingRecords,
+        detailTitle: ONGOING_DETAIL_TITLE
+      },
+      {
+        label: "Closed",
+        value: closedRecords.length,
+        color: "#43a047",
+        records: closedRecords,
+        detailTitle: "NA Open-Close Case — Closed"
+      }
+    ];
+    if (otherStatusRecords.length > 0) {
+      openCloseSlices.push({
+        label: "Other / Unspecified",
+        value: otherStatusRecords.length,
+        color: "#bdbdbd",
+        records: otherStatusRecords,
+        detailTitle: "NA Open-Close Case — Other / Unspecified"
+      });
+    }
+    renderPieCard(chartOpenClose, "NA Open-Close Case", openCloseSlices, totalNAT);
+
+    renderPieCard(
+      chartNaInquiry,
+      "NA Inquiry type",
+      buildInquirySlices(natRecords, "NA Inquiry type"),
+      totalNAT
+    );
+
+    renderPieCard(
+      chartFmvInquiry,
+      "FMV Inquiry type",
+      buildInquirySlices(graphData, "FMV Inquiry type"),
+      totalAll
+    );
+
+    renderBarCard(chartFmvRank, "FMV rank", buildCustomerRank(graphData));
+
+    renderNaRankCard(chartNaRank, "NA rank", buildNaRankEntries(natRecords));
+  }
+
+  function buildInquirySlices(records, chartTitle) {
+    const counts = new Map();
+    const groups = new Map();
+    records.forEach(r => {
+      const key = String(r["Inquiry type"] ?? "").trim() || "Unspecified";
+      counts.set(key, (counts.get(key) || 0) + 1);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([label, value], i) => {
+        const matching = groups.get(label);
+        return {
+          label,
+          value,
+          color: CHART_PALETTE[i % CHART_PALETTE.length],
+          records: matching,
+          detailTitle: `${chartTitle} — ${label}`
+        };
+      });
+  }
+
+  function buildCustomerRank(records) {
+    const counts = new Map();
+    const groups = new Map();
+    records.forEach(r => {
+      const key = String(r["Customer"] ?? "").trim() || "Unknown";
+      counts.set(key, (counts.get(key) || 0) + 1);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
+    });
+    return [...counts.entries()]
+      .map(([label, value]) => {
+        const matching = groups.get(label);
+        return {
+          label,
+          value,
+          records: matching,
+          detailTitle: `FMV rank — ${label}`
+        };
+      })
+      .sort((a, b) => b.value - a.value);
+  }
+
+  function buildNaRankEntries(records) {
+    const groups = new Map();
+
+    records.forEach(r => {
+      const label = String(r["Customer"] ?? "").trim() || "Unknown";
+      if (!groups.has(label)) {
+        groups.set(label, { total: [], closed: [], ongoing: [] });
+      }
+      const bucket = groups.get(label);
+      bucket.total.push(r);
+
+      const st = (r["CASE STATUS"] || "").trim();
+      if (st === "Closed") bucket.closed.push(r);
+      else if (st === "On Going") bucket.ongoing.push(r);
+    });
+
+    return [...groups.entries()]
+      .map(([label, b]) => ({
+        label,
+        totalCount: b.total.length,
+        closedCount: b.closed.length,
+        ongoingCount: b.ongoing.length,
+        totalRecords: b.total,
+        closedRecords: b.closed,
+        ongoingRecords: b.ongoing
+      }))
+      .sort((a, b) => b.totalCount - a.totalCount);
+  }
+
+  function renderPieCard(container, title, slices, total) {
+    container.replaceChildren();
+
+    const h3 = document.createElement("h3");
+    h3.textContent = title;
+    container.appendChild(h3);
+
+    if (!total) {
+      const empty = document.createElement("p");
+      empty.className = "chart-empty";
+      empty.textContent = "No data available.";
+      container.appendChild(empty);
+      return;
+    }
+
+    const body = document.createElement("div");
+    body.className = "chart-body";
+
+    const svgWrap = document.createElement("div");
+    svgWrap.className = "chart-svg-wrap";
+    svgWrap.appendChild(buildDonutSvg(total, slices));
+    body.appendChild(svgWrap);
+
+    const legend = document.createElement("ul");
+    legend.className = "chart-legend";
+    slices.forEach(slice => legend.appendChild(buildLegendItem(slice, total)));
+    body.appendChild(legend);
+
+    container.appendChild(body);
+  }
+
+  function buildDonutSvg(total, slices) {
+    const svgNS = "http://www.w3.org/2000/svg";
+    const size = 200;
+    const radius = 70;
+    const thickness = 28;
+    const cx = size / 2;
+    const cy = size / 2;
+    const circumference = 2 * Math.PI * radius;
+
+    const svg = document.createElementNS(svgNS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
+    svg.setAttribute("width", size);
+    svg.setAttribute("height", size);
+
+    const track = document.createElementNS(svgNS, "circle");
+    track.setAttribute("cx", cx);
+    track.setAttribute("cy", cy);
+    track.setAttribute("r", radius);
+    track.setAttribute("fill", "none");
+    track.setAttribute("stroke", "#eee");
+    track.setAttribute("stroke-width", thickness);
+    svg.appendChild(track);
+
+    let offsetAccum = 0;
+    slices.forEach(slice => {
+      if (slice.value <= 0) return;
+      const dash = (slice.value / total) * circumference;
+      const circle = document.createElementNS(svgNS, "circle");
+      circle.setAttribute("cx", cx);
+      circle.setAttribute("cy", cy);
+      circle.setAttribute("r", radius);
+      circle.setAttribute("fill", "none");
+      circle.setAttribute("stroke", slice.color);
+      circle.setAttribute("stroke-width", thickness);
+      circle.setAttribute("stroke-dasharray", `${dash} ${circumference - dash}`);
+      circle.setAttribute("stroke-dashoffset", String(-offsetAccum));
+      circle.classList.add("pie-slice");
+
+      circle.style.transformOrigin = `${cx}px ${cy}px`;
+      circle.style.transform = "rotate(-90deg)";
+      circle.dataset.baseTransform = "rotate(-90deg)";
+
+      circle.addEventListener("click", (evt) => toggleSlice(circle, slice, total, evt));
+
+      svg.appendChild(circle);
+      offsetAccum += dash;
+    });
+
+    const totalText = document.createElementNS(svgNS, "text");
+    totalText.setAttribute("x", cx);
+    totalText.setAttribute("y", cy - 3);
+    totalText.setAttribute("text-anchor", "middle");
+    totalText.setAttribute("font-size", "22");
+    totalText.setAttribute("font-weight", "bold");
+    totalText.setAttribute("fill", "#333");
+    totalText.textContent = String(total);
+    svg.appendChild(totalText);
+
+    const subText = document.createElementNS(svgNS, "text");
+    subText.setAttribute("x", cx);
+    subText.setAttribute("y", cy + 16);
+    subText.setAttribute("text-anchor", "middle");
+    subText.setAttribute("font-size", "11");
+    subText.setAttribute("fill", "#888");
+    subText.textContent = "records";
+    svg.appendChild(subText);
+
+    return svg;
+  }
+
+  function toggleSlice(circle, slice, total, evt) {
+    if (activeSliceEl === circle) {
+      clearSliceTimer();
+      if (detailView.style.display === "block") {
+        openDetailViewFromDetail(slice.detailTitle, slice.records);
+      } else {
+        openDetailView(slice.detailTitle, slice.records);
+      }
+      return;
+    }
+    if (activeSliceEl) {
+      clearSliceTimer();
+      deactivateSlice(activeSliceEl);
+    }
+    activateSlice(circle, slice, total, evt);
+  }
+
+  function activateSlice(circle, slice, total, evt) {
+    circle.classList.add("active");
+    circle.style.transform = `${circle.dataset.baseTransform} scale(1.10)`;
+    activeSliceEl = circle;
+    showSliceTooltip(slice, total, evt);
+
+    clearSliceTimer();
+    sliceResetTimer = setTimeout(() => {
+      if (activeSliceEl === circle) deactivateSlice(circle);
+      sliceResetTimer = null;
+    }, SLICE_RESET_MS);
+  }
+
+  function deactivateSlice(circle) {
+    circle.classList.remove("active");
+    circle.style.transform = circle.dataset.baseTransform || "";
+    if (activeSliceEl === circle) activeSliceEl = null;
+    hideSliceTooltip();
+  }
+
+  function clearSliceTimer() {
+    if (sliceResetTimer) {
+      clearTimeout(sliceResetTimer);
+      sliceResetTimer = null;
+    }
+  }
+
+  function resetSliceInteraction() {
+    clearSliceTimer();
+    if (activeSliceEl) {
+      activeSliceEl.classList.remove("active");
+      activeSliceEl.style.transform = activeSliceEl.dataset.baseTransform || "";
+      activeSliceEl = null;
+    }
+    hideSliceTooltip();
+  }
+
+  function showSliceTooltip(slice, total, evt) {
+    const pct = total > 0 ? (slice.value / total) * 100 : 0;
+    sliceTooltip.replaceChildren();
+
+    const title = document.createElement("span");
+    title.className = "tooltip-title";
+    title.textContent = slice.label;
+
+    const detail = document.createElement("span");
+    detail.textContent = `${slice.value} record (${pct.toFixed(1)}%) · tap again to view`;
+
+    sliceTooltip.append(title, detail);
+
+    const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
+    const x = point.clientX ?? window.innerWidth / 2;
+    const y = point.clientY ?? window.innerHeight / 2;
+
+    sliceTooltip.style.left = `${x}px`;
+    sliceTooltip.style.top = `${Math.max(y - 12, 40)}px`;
+    sliceTooltip.classList.add("show");
+  }
+
+  function hideSliceTooltip() {
+    sliceTooltip.classList.remove("show");
+  }
+
+  function buildLegendItem(slice, total) {
+    const li = document.createElement("li");
+
+    const dot = document.createElement("span");
+    dot.className = "legend-dot";
+    dot.style.background = slice.color;
+
+    const label = document.createElement("span");
+    label.className = "legend-label";
+    label.textContent = slice.label;
+    label.title = slice.label;
+
+    const value = document.createElement("span");
+    value.className = "legend-value";
+    const pct = total > 0 ? (slice.value / total) * 100 : 0;
+    value.textContent = `${slice.value} (${pct.toFixed(1)}%)`;
+
+    li.append(dot, label, value);
+
+    li.title = "Click to view records";
+    li.addEventListener("click", () => {
+      if (detailView.style.display === "block") {
+        openDetailViewFromDetail(slice.detailTitle, slice.records);
+      } else {
+        openDetailView(slice.detailTitle, slice.records);
+      }
+    });
+
+    return li;
+  }
+
+  function renderBarCard(container, title, entries) {
+    container.replaceChildren();
+
+    const h3 = document.createElement("h3");
+    h3.textContent = title;
+    container.appendChild(h3);
+
+    if (entries.length === 0) {
+      const empty = document.createElement("p");
+      empty.className = "chart-empty";
+      empty.textContent = "No data available.";
+      container.appendChild(empty);
+      return;
+    }
+
+    const maxValue = entries[0].value;
+    const list = document.createElement("div");
+    list.className = "bar-chart-list";
+
+    entries.forEach(entry => {
+      const row = document.createElement("div");
+      row.className = "bar-row";
+      row.title = `Click to view ${entry.value} record(s)`;
+
+      const label = document.createElement("span");
+      label.className = "bar-label";
+      label.textContent = entry.label;
+      label.title = entry.label;
+
+      const track = document.createElement("span");
+      track.className = "bar-track";
+      const fill = document.createElement("span");
+      fill.className = "bar-fill";
+      fill.style.width = `${maxValue > 0 ? (entry.value / maxValue) * 100 : 0}%`;
+      track.appendChild(fill);
+
+      const value = document.createElement("span");
+      value.className = "bar-value";
+      value.textContent = String(entry.value);
+
+      row.append(label, track, value);
+      row.addEventListener("click", () => openDetailView(entry.detailTitle, entry.records));
+
+      list.appendChild(row);
+    });
+
+    container.appendChild(list);
+  }
+
+  function renderNaRankCard(container, title, entries) {
+    container.replaceChildren();
+
+    const h3 = document.createElement("h3");
+    h3.textContent = title;
+    container.appendChild(h3);
+
+    if (entries.length === 0) {
+      const empty = document.createElement("p");
+      empty.className = "chart-empty";
+      empty.textContent = "No data available.";
+      container.appendChild(empty);
+      return;
+    }
+
+    const maxTotal = entries.reduce((m, e) => Math.max(m, e.totalCount), 0);
+
+    const list = document.createElement("div");
+    list.className = "na-rank-list";
+
+    const addBar = (rowEl, tagText, count, maxValue, colorClass, records, detailTitle) => {
+      const bar = document.createElement("div");
+      bar.className = "na-rank-bar";
+      bar.title = `Click to view ${count} record(s)`;
+
+      const tag = document.createElement("span");
+      tag.className = "na-rank-bar-tag";
+      tag.textContent = tagText;
+
+      const track = document.createElement("span");
+      track.className = "na-rank-track";
+      const fill = document.createElement("span");
+      fill.className = `na-rank-fill ${colorClass}`;
+      fill.style.width = `${maxValue > 0 ? (count / maxValue) * 100 : 0}%`;
+      track.appendChild(fill);
+
+      const val = document.createElement("span");
+      val.className = "na-rank-value";
+      val.textContent = String(count);
+
+      bar.append(tag, track, val);
+      bar.addEventListener("click", () => openDetailView(detailTitle, records));
+
+      rowEl.appendChild(bar);
+    };
+
+    entries.forEach(entry => {
+      const row = document.createElement("div");
+      row.className = "na-rank-row";
+
+      const label = document.createElement("div");
+      label.className = "na-rank-label";
+      label.textContent = entry.label;
+      label.title = entry.label;
+      row.appendChild(label);
+
+      const barsWrap = document.createElement("div");
+      barsWrap.className = "na-rank-bars";
+
+      addBar(barsWrap, "Total", entry.totalCount, maxTotal, "total",
+        entry.totalRecords, `NA rank — ${entry.label} (Total)`);
+      addBar(barsWrap, "Closed", entry.closedCount, maxTotal, "closed",
+        entry.closedRecords, `NA rank — ${entry.label} (Closed)`);
+      addBar(barsWrap, "On Going", entry.ongoingCount, maxTotal, "ongoing",
+        entry.ongoingRecords, `NA rank — ${entry.label} (On Going)`);
+
+      row.appendChild(barsWrap);
+      list.appendChild(row);
+    });
+
+    container.appendChild(list);
+
+    const legend = document.createElement("div");
+    legend.className = "na-rank-legend";
+
+    const legendItem = (label, color) => {
+      const item = document.createElement("span");
+      item.className = "item";
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      dot.style.background = color;
+      const text = document.createElement("span");
+      text.textContent = label;
+      item.append(dot, text);
+      return item;
+    };
+
+    legend.appendChild(legendItem("Total", "#1976d2"));
+    legend.appendChild(legendItem("Closed", "#43a047"));
+    legend.appendChild(legendItem("On Going", "#fb8c00"));
+
+    container.appendChild(legend);
+  }
+
+  // ============================================================
+  // DETAIL VIEW
+  // ============================================================
+  function isLinkColumn(colName) {
+    return /go\s*to/i.test(colName) && /web|link/i.test(colName);
+  }
+  function isTopicColumn(colName) {
+    return /^topic$/i.test(colName.trim());
+  }
+  function isStatusColumn(colName) {
+    return /^current\s*status$/i.test(colName.trim());
+  }
+  function isPriorityColumn(colName) {
+    return /^priority$/i.test(colName.trim());
+  }
+  function isOpenDayColumn(colName) {
+    return /^open\s*day$/i.test(colName.trim());
+  }
+  function isCcNumberColumn(colName) {
+    return /^cc\s*number$/i.test(colName.trim());
+  }
+  function isDateColumn(colName) {
+    return /^date$/i.test(colName.trim());
+  }
+  function isCustomerColumn(colName) {
+    return /^customer$/i.test(colName.trim());
+  }
+  function isInquiryTypeColumn(colName) {
+    return /^inquiry\s*type$/i.test(colName.trim());
+  }
+  function isCaseStatusColumn(colName) {
+    return /^case\s*status$/i.test(colName.trim());
+  }
+
+  function findColumnKey(keys, target) {
+    const t = target.toLowerCase();
+    return keys.find(k => k.toLowerCase() === t) || null;
+  }
+
+  function openDetailView(title, records) {
+    savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
+    previousDetailState = null;
+
+    openDetailViewInternal(title, records, false);
+  }
+
+  function openDetailViewFromDetail(title, records) {
+    previousDetailState = {
+      title: detailTitle.textContent,
+      records: detailRecordsAll.slice(),
+      scrollY: window.scrollY || window.pageYOffset || 0,
+      chartsData: detailChartsData,
+      chartsVisibleMobile: detailChartsVisibleMobile
+    };
+
+    openDetailViewInternal(title, records, true);
+  }
+
+  function openDetailViewInternal(title, records, keepPrevState) {
+    if (!keepPrevState) {
+      savedGraphScrollY = window.scrollY || window.pageYOffset || 0;
+      previousDetailState = null;
+    }
+
+    detailRecordsAll = records || [];
+    detailSearch = { cc: "", topic: "" };
+    detailSearchCc.value = "";
+    detailSearchTopic.value = "";
+
+    detailTitle.textContent = title;
+
+    const showCharts = title === ONGOING_DETAIL_TITLE;
+    
+    if (showCharts && statusMap.size === 0) {
+      loadStatuses().then(() => {
+        detailChartsData = buildDetailChartsData(detailRecordsAll);
+        renderDetailCharts();
+      });
+    } else {
+      detailChartsData = showCharts ? buildDetailChartsData(detailRecordsAll) : null;
+    }
+
+    detailChartsVisibleMobile = false;
+    updateDetailChartsVisibility();
+
+    if (showCharts) {
+      renderDetailCharts();
+    } else {
+      clearDetailCharts();
+    }
+
+    renderDetailTable();
+
+    closeContentModal();
+    resetSliceInteraction();
+    hideAllViews();
+    detailView.style.display = "block";
+    pageTitle.textContent = TITLE_DETAIL;
+    updateHeaderOffset();
+
+    window.scrollTo(0, 0);
+  }
+
+  // ============================================================
+  // DETAIL CHARTS
+  // ============================================================
+  function buildDetailChartsData(records) {
+    return {
+      site:     buildDetailSlicesByField(records, "Customer", "Site"),
+      inquiry:  buildDetailSlicesByField(records, "Inquiry type", "Inquiry type"),
+      status:   buildDetailSlicesByStatusField(records, FIELD_CURRENT_STATUS, "Current Status"),
+      priority: buildDetailSlicesByStatusField(records, FIELD_PRIORITY, "Priority")
+    };
+  }
+
+  function buildDetailSlicesByField(records, fieldName, chartTitle) {
+    const counts = new Map();
+    records.forEach(r => {
+      const key = String(r[fieldName] ?? "").trim() || "Unspecified";
+      counts.set(key, (counts.get(key) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([label, value], i) => {
+        const matching = records.filter(
+          r => (String(r[fieldName] ?? "").trim() || "Unspecified") === label
+        );
+        return {
+          label,
+          value,
+          color: CHART_PALETTE[i % CHART_PALETTE.length],
+          records: matching,
+          detailTitle: `${chartTitle} — ${label}`
+        };
+      });
+  }
+
+  function buildDetailSlicesByStatusField(records, statusField, chartTitle) {
+    const counts = new Map();
+    records.forEach(r => {
+      const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
+      const cc = ccKey ? normalizeCc(r[ccKey]) : "";
+      const entry = getStatusEntry(cc);
+      const val = String(entry[statusField] ?? "").trim() || "Unspecified";
+      counts.set(val, (counts.get(val) || 0) + 1);
+    });
+
+    const colorFn = statusField === FIELD_PRIORITY
+      ? getPriorityColor
+      : getStatusColor;
+
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([label, value]) => {
+        const matching = records.filter(r => {
+          const ccKey = Object.keys(r).find(k => /^cc\s*number$/i.test(k));
+          const cc = ccKey ? normalizeCc(r[ccKey]) : "";
+          const entry = getStatusEntry(cc);
+          return (String(entry[statusField] ?? "").trim() || "Unspecified") === label;
+        });
+        return {
+          label,
+          value,
+          color: colorFn(label),
+          records: matching,
+          detailTitle: `${chartTitle} — ${label}`
+        };
+      });
+  }
+
+  function renderDetailCharts() {
+    if (!detailChartsData) return;
+
+    const total = detailRecordsAll.length;
+
+    renderPieCard(detailChartSite, "Site", detailChartsData.site, total);
+    renderPieCard(detailChartInquiry, "Inquiry type", detailChartsData.inquiry, total);
+    renderPieCard(detailChartStatus, "Current Status", detailChartsData.status, total);
+    renderPieCard(detailChartPriority, "Priority", detailChartsData.priority, total);
+  }
+
+  function clearDetailCharts() {
+    detailChartSite.replaceChildren();
+    detailChartInquiry.replaceChildren();
+    detailChartStatus.replaceChildren();
+    detailChartPriority.replaceChildren();
+  }
+
+  function updateDetailChartsVisibility() {
+    const hasCharts = !!detailChartsData;
+
+    if (!hasCharts) {
+      detailCharts.classList.remove("show");
+      toggleDetailChartsBtn.classList.remove("visible");
+      return;
+    }
+
+    if (isMobile) {
+      toggleDetailChartsBtn.classList.add("visible");
+      toggleDetailChartsBtn.textContent = detailChartsVisibleMobile
+        ? "📉 Hide Graph"
+        : "📊 Show graph";
+      detailCharts.classList.toggle("show", detailChartsVisibleMobile);
+    } else {
+      toggleDetailChartsBtn.classList.remove("visible");
+      detailCharts.classList.add("show");
+    }
+  }
+
+  // ============================================================
+  // RENDER DETAIL TABLE
+  // ============================================================
+  function renderDetailTable() {
+    detailThead.replaceChildren();
+    detailTbody.replaceChildren();
+    selectedDetailRow = null;
+    hideStatusMenu();
+
+    detailColumnLabels.length = 0;
+    detailColTypes = [];
+
+    const records = detailRecordsAll;
+
+    if (!records || records.length === 0) {
+      detailCount.textContent = "— 0 record(s)";
+      detailColumns = [];
+      const trHead = document.createElement("tr");
+      const th = document.createElement("th");
+      th.textContent = "(no columns)";
+      trHead.appendChild(th);
+      detailThead.appendChild(trHead);
+
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.textContent = "No records.";
+      tr.appendChild(td);
+      detailTbody.appendChild(tr);
+
+      renderHiddenColsToolbar(() => renderDetailTableRows());
+      return;
+    }
+
+    const columnSet = new Set();
+    records.forEach(r => {
+      Object.keys(r).forEach(k => {
+        if (!k.startsWith("__")) columnSet.add(k);
+      });
+    });
+    let columns = [...columnSet];
+
+    const ccIdx = columns.findIndex(c => /^cc\s*number$/i.test(c.trim()));
+    const dateIdx = columns.findIndex(c => /^date$/i.test(c.trim()));
+    if (ccIdx >= 0 && dateIdx >= 0) {
+      const tmp = columns[ccIdx];
+      columns[ccIdx] = columns[dateIdx];
+      columns[dateIdx] = tmp;
+    }
+
+    const insertAfter = columns.findIndex(c => /^case\s*status$/i.test(c.trim()));
+    const customCols = [STATUS_COL_NAME, PRIORITY_COL_NAME, OPENDAY_COL_NAME];
+
+    customCols.forEach(name => {
+      const idx = columns.findIndex(c => c.toLowerCase() === name.toLowerCase());
+      if (idx >= 0) columns.splice(idx, 1);
+    });
+
+    if (insertAfter >= 0) {
+      columns.splice(insertAfter + 1, 0, ...customCols);
+    } else {
+      columns.push(...customCols);
+    }
+
+    detailColumns = columns;
+
+    const trHead = document.createElement("tr");
+    columns.forEach(col => {
+      const th = document.createElement("th");
+      th.textContent = col;
+      th.title = col;
+
+      let colType = "";
+      if (isCcNumberColumn(col)) colType = "ccnumber";
+      else if (isDateColumn(col)) colType = "date";
+      else if (isCustomerColumn(col)) colType = "customer";
+      else if (isTopicColumn(col)) colType = "topic";
+      else if (isInquiryTypeColumn(col)) colType = "inquirytype";
+      else if (isLinkColumn(col)) colType = "link";
+      else if (isCaseStatusColumn(col)) colType = "casestatus";
+      else if (isStatusColumn(col)) colType = "status";
+      else if (isPriorityColumn(col)) colType = "priority";
+      else if (isOpenDayColumn(col)) colType = "openday";
+
+      if (colType) th.dataset.colType = colType;
+      trHead.appendChild(th);
+
+      detailColumnLabels.push(col);
+      detailColTypes.push(colType);
+    });
+    detailThead.appendChild(trHead);
+
+    attachColumnHideButtons(trHead, () => renderDetailTableRows());
+    updateColgroup();
+
+    renderDetailTableRows();
+    applyHiddenColumns();
+    renderHiddenColsToolbar(() => renderDetailTableRows());
+  }
+
+  function renderDetailTableRows() {
+    detailTbody.replaceChildren();
+    selectedDetailRow = null;
+    hideStatusMenu();
+
+    const records = detailRecordsAll;
+    if (!records || records.length === 0) return;
+
+    const columns = detailColumns;
+    if (!columns || columns.length === 0) return;
+
+    const ccKey = findColumnKey(columns, "CC NUMBER");
+    const topicKey = findColumnKey(columns, "TOPIC");
+
+    const filtered = records.filter(r => {
+      if (detailSearch.cc && ccKey) {
+        const v = String(r[ccKey] ?? "").toLowerCase();
+        if (!v.includes(detailSearch.cc)) return false;
+      }
+      if (detailSearch.topic && topicKey) {
+        const v = String(r[topicKey] ?? "").toLowerCase();
+        if (!v.includes(detailSearch.topic)) return false;
+      }
+      return true;
+    });
+
+    const isFiltered = detailSearch.cc !== "" || detailSearch.topic !== "";
+    detailCount.textContent = isFiltered
+      ? `— ${filtered.length} / ${records.length} record(s)`
+      : `— ${records.length} record(s)`;
+
+    if (filtered.length === 0) {
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.colSpan = columns.length || 1;
+      td.textContent = "No matching records.";
+      tr.appendChild(td);
+      detailTbody.appendChild(tr);
+      return;
+    }
+
+    const colFlags = columns.map(col => ({
+      link: isLinkColumn(col),
+      status: isStatusColumn(col),
+      priority: isPriorityColumn(col),
+      openday: isOpenDayColumn(col),
+      topic: isTopicColumn(col)
+    }));
+
+    const fragment = document.createDocumentFragment();
+    filtered.forEach(r => {
+      const tr = document.createElement("tr");
+      tr.className = "detail-row";
+
+      const caseStatusVal = String(
+        r["CASE STATUS"] ?? r["Case Status"] ?? r["case status"] ?? ""
+      ).trim();
+      const isOnGoing = caseStatusVal.toLowerCase() === "on going";
+
+      columns.forEach((col, idx) => {
+        const td = document.createElement("td");
+        const colType = detailColTypes[idx] || "";
+        if (colType) td.dataset.colType = colType;
+
+        const val = r[col];
+        const flags = colFlags[idx];
+
+        if (flags.link) {
+          const url = String(val ?? "").trim();
+          if (url && url !== "#") {
+            const link = document.createElement("a");
+            link.className = "detail-link-btn";
+            link.href = url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = "Open";
+            link.title = url;
+            link.addEventListener("click", (e) => e.stopPropagation());
+            td.appendChild(link);
+          } else {
+            td.textContent = "";
+          }
+        } else if (flags.status) {
+          if (isOnGoing) buildEditableCell(td, r, "current-status");
+        } else if (flags.priority) {
+          if (isOnGoing) buildEditableCell(td, r, "priority");
+        } else if (flags.openday) {
+          buildOpenDayCell(td, r);
+        } else {
+          td.textContent = val == null ? "" : String(val);
+          if (!flags.topic) td.title = td.textContent;
+        }
+
+        tr.appendChild(td);
+      });
+
+      fragment.appendChild(tr);
+    });
+
+    detailTbody.appendChild(fragment);
+    applyHiddenColumns();
+  }
+
+  // ============================================================
+  // Editable cells
+  // ============================================================
+  function buildEditableCell(td, record, type) {
+    const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
+    const cc = ccKey ? normalizeCc(record[ccKey]) : "";
+    const entry = getStatusEntry(cc);
+
+    const isPriority = type === "priority";
+    const fieldName = isPriority ? FIELD_PRIORITY : FIELD_CURRENT_STATUS;
+    const value = String(entry[fieldName] ?? "").trim();
+
+    const cell = document.createElement("span");
+    cell.className = "status-cell";
+    cell.dataset.cc = cc;
+    cell.dataset.field = fieldName;
+    cell.dataset.value = value;
+    cell.dataset.type = type;
+
+    if (!cc) {
+      cell.classList.add("empty");
+      cell.textContent = "no CC";
+      td.appendChild(cell);
+      return;
+    }
+
+    if (value) {
+      const badge = document.createElement("span");
+      badge.className = isPriority ? "priority-badge" : "status-badge";
+      if (isPriority) badge.dataset.priority = value;
+      else badge.dataset.status = value;
+      badge.textContent = value;
+      cell.appendChild(badge);
+    } else {
+      cell.classList.add("empty");
+      cell.textContent = isPriority
+        ? "— (long-press 5s to set priority)"
+        : "— (long-press 5s to set status)";
+    }
+
+    attachLongPressHandler(cell, type);
+    td.appendChild(cell);
+  }
+
+  function buildOpenDayCell(td, record) {
+    const ccKey = Object.keys(record).find(k => /^cc\s*number$/i.test(k));
+    const cc = ccKey ? normalizeCc(record[ccKey]) : "";
+
+    const entry = getStatusEntry(cc);
+    let openDay = entry[FIELD_OPEN_DAY];
+    if (openDay == null || openDay === "" || isNaN(Number(openDay))) {
+      openDay = computeOpenDay(record["DATE"]);
+    }
+
+    const cell = document.createElement("span");
+    cell.className = "status-cell readonly";
+    cell.title = "Open day (không thể sửa)";
+
+    if (openDay == null || isNaN(Number(openDay))) {
+      cell.textContent = "—";
+    } else {
+      cell.textContent = String(openDay);
+    }
+
+    td.appendChild(cell);
+  }
+
+  function computeOpenDay(dateStr) {
+    if (!dateStr) return null;
+    const s = String(dateStr).trim();
+    if (!s) return null;
+
+    let date = null;
+
+    if (/^\d{4}-\d{1,2}-\d{1,2}/.test(s)) {
+      const d = new Date(s);
+      if (!isNaN(d.getTime())) date = d;
+    }
+
+    if (!date) {
+      const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+      if (m) {
+        const month = parseInt(m[1], 10);
+        const day   = parseInt(m[2], 10);
+        let year    = parseInt(m[3], 10);
+        if (year < 100) year = 2000 + year;
+        const d = new Date(year, month - 1, day);
+        if (!isNaN(d.getTime())) date = d;
+      }
+    }
+
+    if (!date) return null;
+
+    const target = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const today  = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const diffMs = today.getTime() - target.getTime();
+    return Math.round(diffMs / (1000 * 60 * 60 * 24));
+  }
+
+  function attachLongPressHandler(cell, type) {
+    let holdTimer = null;
+    let rafId = null;
+    let startTime = 0;
+    let fired = false;
+    let startX = 0;
+    let startY = 0;
+
+    const HOLD_MOVE_TOLERANCE = 12;
+
+    const cleanup = () => {
+      if (holdTimer) { clearTimeout(holdTimer); holdTimer = null; }
+      if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+      cell.classList.remove("hold-progress");
+      cell.style.removeProperty("--hold-progress");
+    };
+
+    const tick = () => {
+      const elapsed = performance.now() - startTime;
+      const pct = Math.min(100, (elapsed / HOLD_MS) * 100);
+      cell.style.setProperty("--hold-progress", `${pct}%`);
+      if (elapsed < HOLD_MS) rafId = requestAnimationFrame(tick);
+    };
+
+    const start = (evt) => {
+      if (evt.button != null && evt.button !== 0) return;
+      const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
+      startX = point.clientX ?? 0;
+      startY = point.clientY ?? 0;
+
+      fired = false;
+      startTime = performance.now();
+      cell.classList.add("hold-progress");
+      cell.style.setProperty("--hold-progress", "0%");
+
+      hideStatusMenu();
+
+      holdTimer = setTimeout(() => {
+        fired = true;
+        cleanup();
+        openValueMenu(cell, type);
+      }, HOLD_MS);
+
+      rafId = requestAnimationFrame(tick);
+    };
+
+    const move = (evt) => {
+      if (!holdTimer && !fired) return;
+      const point = evt.touches && evt.touches[0] ? evt.touches[0] : evt;
+      const dx = (point.clientX ?? 0) - startX;
+      const dy = (point.clientY ?? 0) - startY;
+      if (Math.hypot(dx, dy) > HOLD_MOVE_TOLERANCE) cleanup();
+    };
+
+    const end = () => { cleanup(); };
+
+    cell.addEventListener("mousedown", start);
+    cell.addEventListener("touchstart", start, { passive: true });
+    cell.addEventListener("mousemove", move);
+    cell.addEventListener("touchmove", move, { passive: true });
+    cell.addEventListener("mouseup", end);
+    cell.addEventListener("mouseleave", end);
+    cell.addEventListener("touchend", end);
+    cell.addEventListener("touchcancel", end);
+
+    cell.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+    });
+  }
+
+  // ============================================================
+  // Value menu
+  // ============================================================
+  function openValueMenu(cell, type) {
+    const cc = cell.dataset.cc;
+    if (!cc) {
+      alert("Record này không có CC NUMBER.");
+      return;
+    }
+
+    const isPriority = type === "priority";
+    const fieldName = isPriority ? FIELD_PRIORITY : FIELD_CURRENT_STATUS;
+    const options = isPriority ? PRIORITY_OPTIONS : STATUS_OPTIONS;
+    const currentValue = cell.dataset.value || "";
+
+    statusMenu.replaceChildren();
+
+    const title = document.createElement("div");
+    title.className = "menu-title";
+    title.textContent = isPriority
+      ? `CC ${cc} — chọn Priority`
+      : `CC ${cc} — chọn Current Status`;
+    statusMenu.appendChild(title);
+
+    options.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.textContent = opt;
+      if (opt === currentValue) btn.classList.add("current");
+      btn.addEventListener("click", () => {
+        hideStatusMenu();
+        applyValueChange(cell, cc, fieldName, opt, type);
+      });
+      statusMenu.appendChild(btn);
+    });
+
+    statusMenu.classList.add("show");
+    statusMenu.style.left = "-9999px";
+    statusMenu.style.top = "-9999px";
+
+    const rect = cell.getBoundingClientRect();
+    const menuRect = statusMenu.getBoundingClientRect();
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const margin = 8;
+
+    let left = rect.left;
+    let top = rect.bottom + 6;
+
+    if (left + menuRect.width + margin > vw) {
+      left = Math.max(margin, vw - menuRect.width - margin);
+    }
+    if (top + menuRect.height + margin > vh) {
+      top = Math.max(margin, rect.top - menuRect.height - 6);
+    }
+    statusMenu.style.left = `${left}px`;
+    statusMenu.style.top = `${top}px`;
+
+    setTimeout(() => {
+      document.addEventListener("mousedown", onDocClickForMenu, true);
+      document.addEventListener("touchstart", onDocClickForMenu, true);
+    }, 0);
+  }
+
+  function onDocClickForMenu(evt) {
+    if (!statusMenu.classList.contains("show")) return;
+    if (statusMenu.contains(evt.target)) return;
+    hideStatusMenu();
+  }
+
+  function hideStatusMenu() {
+    statusMenu.classList.remove("show");
+    document.removeEventListener("mousedown", onDocClickForMenu, true);
+    document.removeEventListener("touchstart", onDocClickForMenu, true);
+  }
+
+  async function applyValueChange(cell, cc, fieldName, newValue, type) {
+    const isPriority = type === "priority";
+
+    const entry = getStatusEntry(cc);
+    const prevValue = entry[fieldName] || "";
+    const updated = { ...entry, [fieldName]: newValue };
+
+    cell.classList.remove("empty");
+    cell.classList.add("saving");
+    cell.dataset.value = newValue;
+    cell.replaceChildren();
+
+    const badge = document.createElement("span");
+    badge.className = isPriority ? "priority-badge" : "status-badge";
+    if (isPriority) badge.dataset.priority = newValue;
+    else badge.dataset.status = newValue;
+    badge.textContent = newValue;
+    cell.appendChild(badge);
+
+    try {
+      await saveStatusEntry(cc, updated, [fieldName]);
+      cell.classList.remove("saving");
+      cell.classList.add("saved");
+      setTimeout(() => cell.classList.remove("saved"), 1500);
+
+      if (detailChartsData) {
+        detailChartsData = buildDetailChartsData(detailRecordsAll);
+        renderDetailCharts();
+        updateDetailChartsVisibility();
+      }
+    } catch (err) {
+      if (err.isAuthError) return;
+      console.error("saveStatusEntry failed:", err);
+      cell.classList.remove("saving");
+      cell.classList.add("error");
+      cell.title = `Lỗi khi lưu: ${err.message}`;
+
+      entry[fieldName] = prevValue;
+      cell.dataset.value = prevValue;
+      cell.replaceChildren();
+      if (prevValue) {
+        const oldBadge = document.createElement("span");
+        oldBadge.className = isPriority ? "priority-badge" : "status-badge";
+        if (isPriority) oldBadge.dataset.priority = prevValue;
+        else oldBadge.dataset.status = prevValue;
+        oldBadge.textContent = prevValue;
+        cell.appendChild(oldBadge);
+      } else {
+        cell.classList.add("empty");
+        cell.textContent = isPriority
+          ? "— (long-press 5s to set priority)"
+          : "— (long-press 5s to set status)";
+      }
+
+      alert(`Không lưu được giá trị. Vui lòng thử lại.\n${err.message}`);
+      setTimeout(() => cell.classList.remove("error"), 3000);
+    }
+  }
+
+  function selectDetailRow(tr) {
+    if (selectedDetailRow === tr) {
+      tr.classList.remove("selected");
+      selectedDetailRow = null;
+      return;
+    }
+    if (selectedDetailRow) selectedDetailRow.classList.remove("selected");
+    tr.classList.add("selected");
+    selectedDetailRow = tr;
+  }
+
+  // ============================================================
+  // MODAL / BASIC TABLE
+  // ============================================================
+  tbody.addEventListener("click", (e) => {
+    const td = e.target.closest(`td[data-label="${CONTENT_LABEL}"]`);
+    if (!td) return;
+    toggleContentModal(td);
+  });
+
+  modalClose.addEventListener("click", closeContentModal);
+
+  contentModal.addEventListener("click", (e) => {
+    if (e.target === contentModal) closeContentModal();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      if (contentModal.classList.contains("show")) closeContentModal();
+      hideStatusMenu();
+    }
+  });
+
+  function toggleContentModal(td) {
+    if (openContentCell === td) {
+      closeContentModal();
+      return;
+    }
+    const valueEl = td.querySelector(".cell-value");
+    const fullText = (valueEl ? valueEl.textContent : td.textContent) || "(empty)";
+    modalTitle.textContent = "Communication Content";
+    modalBody.textContent = fullText;
+    contentModal.classList.add("show");
+    openContentCell = td;
+  }
+
+  function closeContentModal() {
+    contentModal.classList.remove("show");
+    openContentCell = null;
+  }
+
+  function debounce(fn, delay) {
+    let timer = null;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), delay);
+    };
+  }
+
+  function applyFilters() {
+    const activeList = filters.customerGroup
+      ? customerListCache[filters.customerGroup]
+      : null;
+
+    filteredData = allData.filter(item =>
+      (filters.cc === "" || item[FIELD_MAP.cc.key].includes(filters.cc)) &&
+      (filters.topic === "" || item[FIELD_MAP.topic.key].includes(filters.topic)) &&
+      (filters.content === "" || item[FIELD_MAP.content.key].includes(filters.content)) &&
+      (!filters.newOnly || item[FIELD_MAP.cc.key].includes(NEW_KEYWORD)) &&
+      (!activeList || activeList.has(item.__customer))
+    );
+
+    currentPage = 1;
+    renderTable();
+  }
+
+  function renderTable() {
+    closeContentModal();
+
+    const start = (currentPage - 1) * ROWS_PER_PAGE;
+    const pageData = filteredData.slice(start, start + ROWS_PER_PAGE);
+    const fragment = document.createDocumentFragment();
+
+    if (pageData.length === 0) {
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.colSpan = COLUMNS.length + 1;
+      td.textContent = "No matching records.";
+      tr.appendChild(td);
+      fragment.appendChild(tr);
+    } else {
+      for (const item of pageData) {
+        fragment.appendChild(buildRow(item));
+      }
+    }
+
+    tbody.replaceChildren(fragment);
+    renderPagination();
+    requestAnimationFrame(adjustRowHeights);
+  }
+
+  function buildRow(item) {
+    const tr = document.createElement("tr");
+
+    for (const col of COLUMNS) {
+      const td = document.createElement("td");
+      td.dataset.label = col.label;
+
+      const value = document.createElement("span");
+      value.className = "cell-value";
+      value.textContent = item[col.field] ?? "";
+      td.appendChild(value);
+
+      tr.appendChild(td);
+    }
+
+    const actionTd = document.createElement("td");
+    actionTd.dataset.label = "ACTION";
+    const link = document.createElement("a");
+    link.className = "action-btn";
+    link.href = item["GO TO WEB"] || "#";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Open";
+    actionTd.appendChild(link);
+    tr.appendChild(actionTd);
+
+    return tr;
+  }
+
+  function adjustRowHeights() {
+    const rows = tbody.querySelectorAll("tr:not(.empty-row)");
+    const jobs = [];
+
+    rows.forEach(tr => {
+      const topicValue = tr.querySelector('td[data-label="TOPIC"] .cell-value');
+      if (!topicValue) return;
+
+      const lineHeight = parseFloat(getComputedStyle(topicValue).lineHeight) || 16;
+      const maxLines = Math.max(1, Math.round(topicValue.offsetHeight / lineHeight));
+      jobs.push({ tr, maxLines });
+    });
+
+    jobs.forEach(({ tr, maxLines }) => {
+      tr.querySelectorAll(
+        'td:not([data-label="TOPIC"]):not([data-label="ACTION"]) .cell-value'
+      ).forEach(span => {
+        span.style.setProperty("--clamp-lines", maxLines);
+        span.classList.add("clamp");
+      });
+    });
+  }
+
+  function renderPagination() {
+    const totalPages = Math.max(1, Math.ceil(filteredData.length / ROWS_PER_PAGE));
+    pagination.replaceChildren();
+
+    if (filteredData.length <= ROWS_PER_PAGE) {
+      const strong = document.createElement("strong");
+      strong.textContent = `Total: ${filteredData.length} records`;
+      pagination.appendChild(strong);
+      return;
+    }
+
+    const prev = document.createElement("button");
+    prev.textContent = "Prev";
+    prev.disabled = currentPage === 1;
+    prev.onclick = () => { currentPage--; renderTable(); };
+
+    const info = document.createElement("strong");
+    info.textContent = `Page ${currentPage} / ${totalPages}  |  Total ${filteredData.length} records`;
+
+    const next = document.createElement("button");
+    next.textContent = "Next";
+    next.disabled = currentPage === totalPages;
+    next.onclick = () => { currentPage++; renderTable(); };
+
+    pagination.append(prev, info, next);
+  }
+})();
+</script>
+
+</body>
+</html>
