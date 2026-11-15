@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-15T02:42:47+00:00",
+        "CC NUMBER": "CC-0084793",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Hana Micron_Misalignment IC mounted by head RH08_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nMy name is Chien and I am from FMV. I am responsible for supporting the Hana Micron customer.\n\nWe are currently lending the customer an RH02 Head so they can continue producing this model.\n\nThe customer has asked why the results are different under the same conditions for Vision Type, transportation, etc., when only the Head and Nozzle are changed:\n\n- RH02 → OK\n\n- RH08 → NG\n\nAccording to Fuji's specifications, the RH08 can handle components up to 45 × 38 mm. Could you please confirm whether this is correct?\n\nHana Micron currently only has RH08 Heads available. They do not have any RH02 Heads. Therefore, we would appreciate your support in providing a clear and reasonable technical explanation that we can share with the customer. We need to help them understand why the RH02 Head is more suitable for producing this model so that they can consider purchasing one.\n\nI have also attached the Datasheet provided by the customer for your reference and further evaluation.\n\nThank you very much for your support.\n\nFMV-Chien",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1"
+    },
+    {
         "DATE": "2026-11-14T05:09:08+00:00",
         "CC NUMBER": "NEW:CC-0085924",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
