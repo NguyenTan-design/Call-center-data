@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-16T15:48:00+00:00",
+        "CC NUMBER": "NEW:CC-0085993",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_After Module 1 finishes mounting components onto the PCB, the machine stops and does not transfer the board to Module 2_[NXTR-S]",
+        "Communication Content": "Dear Call Center Team,\n\nOn November 16, 2026, at 22:39, HPG2 LINE S01 encountered an issue where the machine stopped after Module 1 completed component mounting on the PCB. The machine failed to transfer the boards from Module 1 to Module 2.\n\nIssue details:\n\nThe issue occurred immediately after the production line changed to a new model.\n\nAction taken: Collected trace data, stopped Modules 1 and 2, and restarted them. However, the issue remained.\n\nAfter resetting the machine, only one PCB could be transferred to Module 2, while the remaining three PCBs stayed in Module 1.\n\nRecovery procedure:\n\n-Cleared the three remaining PCBs from Module 1.\n\n-Reset the machine.\n\n-Reset the LCU.\n\n-Resent the job from Nexim.\n\n-Result: OK. The machine returned to normal operation.\n\nI have attached the trace data collected during the issue . Could you please check the trace data and help investigate whether there were any abnormalities that may have caused this issue?\n\nBest regards,",
+        "FMV PIC": "Do Thang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QE3UnYAL"
+    },
+    {
         "DATE": "2026-11-16T13:47:48+00:00",
         "CC NUMBER": "CC-0084898",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
