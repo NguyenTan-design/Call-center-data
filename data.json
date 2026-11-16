@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-16T23:36:47+00:00",
+        "CC NUMBER": "CC-0075394",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The duration of WorkStageStarted to WorkStageCompleted is not proportional to the state transition duration_WorkStageStarted から WorkStageCompleted までの期間は、状態遷移の所要時間に比例していない。[NXT]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nSorry for reply so late\n\nThanks for supported\n\nYou mentioned that the only statuses received for Module 10 were 4, 5, 7, and 9. Could you please clarify what these status codes represent?\n\nAccording to the CFX standard, there are six main machine states (1000–6000), along with their corresponding substates. Therefore,  customer do not understand what the status codes 4, 5, 7, and 9 refer to.\n\nPlease clarify the definitions of these codes and explain how they correspond to the standard CFX machine states.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vCNsrYAG"
+    },
+    {
         "DATE": "2026-11-16T15:48:00+00:00",
         "CC NUMBER": "NEW:CC-0085993",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
