@@ -1,5 +1,59 @@
 [
     {
+        "DATE": "2026-11-16T08:15:15+00:00",
+        "CC NUMBER": "NEW:CC-0085982",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Overall processing: no matching start message observed in the existing data_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QBAB3YAP",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-11-16T07:42:57+00:00",
+        "CC NUMBER": "NEW:CC-0085976",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: MessageBody.OldStateDuration of StageStateChanged is missing or null_[NXTIII]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QA9YpYAL",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-11-16T07:14:38+00:00",
+        "CC NUMBER": "NEW:CC-0085969",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Device name contains line breaks or leading/trailing whitespace; may be split into different sources_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q9dtxYAB",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-11-16T04:06:10+00:00",
+        "CC NUMBER": "NEW:CC-0085948",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel finished mounting in module 4 but not transfer to next module_[NXTR-S]",
+        "Inquiry type": "08.Board transfer error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q5vfkYAB",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-11-16T02:54:45+00:00",
+        "CC NUMBER": "NEW:CC-0085945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line 3: TimeStamp of Heartbeat and other messages does not have seven fractional digits_[NXTR-S]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q4dGFYAZ",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-11-16T02:40:07+00:00",
+        "CC NUMBER": "NEW:CC-0085944",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_RH head not auto change to other holder when skip holder_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q5YMXYA3",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-11-14T05:09:08+00:00",
         "CC NUMBER": "NEW:CC-0085924",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
