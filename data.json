@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-17T06:26:51+00:00",
+        "CC NUMBER": "CC-0085982",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Overall processing: no matching start message observed in the existing data_[NXTR-S]",
+        "Communication Content": "Dear Vu san\n\nThank you very much for the inquiry.\n\nI already asked to designer team to check the trace data.\n\nOn the other hands, I would like to make sure if this line if NXT3 or NXTR because you selected NXTR-S in Machine type but machine software version is looks NXT3.\n\nCould you tell me which machine is that?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QBAB3YAP"
+    },
+    {
+        "DATE": "2026-11-17T06:21:59+00:00",
+        "CC NUMBER": "CC-0085969",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 : Device name contains line breaks or leading/trailing whitespace; may be split into different sources_[NXTR-S]",
+        "Communication Content": "Dear Vu san\n\nThank you very much for the inquiry.\n\nI already asked to designer team to check the trace data.\n\nOn the other hands, I would like to make sure if this line if NXT3 or NXTR because you selected NXTR-S in Machine type but machine software version is looks NXT3.\n\nCould you tell me which machine is that?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q9dtxYAB"
+    },
+    {
         "DATE": "2026-11-17T05:45:42+00:00",
         "CC NUMBER": "CC-0085276",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
