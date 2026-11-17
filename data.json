@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-17T04:55:12+00:00",
+        "CC NUMBER": "CC-0085945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line 3: TimeStamp of Heartbeat and other messages does not have seven fractional digits_[NXTR-S]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for the inquiry.\n\nI understand that this is same as CC-0085911.\n\nI confirmed with designer team that when the last digit is \"0\", the zero is omitted, resulting in a 6-digit number.\n\nThis is specification of CFX interface according to official CFX SDK.\n\nSo this is originally from official CFX specification.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q4dGFYAZ"
+    },
+    {
+        "DATE": "2026-11-17T04:53:00+00:00",
+        "CC NUMBER": "CC-0085911",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line6: TimeStamp of StageStateChanged and other messages does not have seven fractional digits_[NXTIII]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for the inquiry.\n\nI confirmed with designer team that when the last digit is \"0\", the zero is omitted, resulting in a 6-digit number.\n\nThis is specification of CFX interface according to official CFX SDK.\n\nSo this is originally from official CFX specification.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PogWgYAJ"
+    },
+    {
         "DATE": "2026-11-17T02:47:15+00:00",
         "CC NUMBER": "CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
