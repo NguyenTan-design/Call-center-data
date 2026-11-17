@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-17T11:13:39+00:00",
+        "CC NUMBER": "CC-0084689",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
+        "Communication Content": "Fuji Konda様。\n\nいつもお世話になっております。\n\n本日、いただいたパッチFileを適応してテストしてみました。\n\nテスト結果はTVR機能と１０umを共に使えるのを確認致しました。\n\nご対応ありがとうございます。\n\nそれに加えて、質問がありますが、Neximのバージョンが上がったりすると今のパッチFileは効きますでしょうか？\n\nそれとも、新しいバージョンが必要になりますか？\n\nお手数ですが、ご確認の程、どうぞ宜しくお願い致します。\n\n以上です。",
+        "FMV PIC": "Hwan Kim",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
+    },
+    {
         "DATE": "2026-11-17T10:54:44+00:00",
         "CC NUMBER": "CC-0085816",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
