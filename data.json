@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-17T09:13:29+00:00",
+        "CC NUMBER": "CC-0084818",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Cycle Time in the Job Does Not Match the Actual Cycle Time_ジョブ上で表示されるサイクルタイムが、実際のサイクルタイムと一致しない。[NXTR-S]",
+        "Communication Content": "FMV 高橋様\n\nお世話になっております。\n\n本件、頂いたログを調査した所、トラバースレートが動いていることでオプチと差が出ている可能性が出てまいりました。\n\nつきましては問題再発時に任意トレース、JOB、その時のjob.xmlを合わせて取得いただきたいです。\n\njob.xmlはLCUにリモデして、\n\nC:\\LCU\\DataAccess\\Data\\Job\n\nのデータをフォルダごと、伝送して問題解消する前に取得いただきたいです。\n\n※装置の内部データが原因でトラバースレートがおかしいのか、ジョブデータ作成時点でおかしいのかの切り分けをしたいため\n\nワークオーダーごとにフォルダ作成されており、そのフォルダ内にjob.xmlがあります。\n\nお手数ですが、問題発生時のワークオーダフォルダ丸ごと取得をお願いします。\n\n以上、宜しくお願い致します。\n\n株式会社ＦＵＪＩ\n\nカスタマーサービス部　\n\nカスタマーサポート課\n\n寺澤　真梨恵",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MbMh7YAF"
+    },
+    {
+        "DATE": "2026-11-17T09:08:04+00:00",
+        "CC NUMBER": "CC-0085924",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Inquiry About Error 8000B035 During Job Transmission_[NXTR-S]",
+        "Communication Content": "Dear Viet san,\n\nThe vision system determines whether a part is a dedicated/special part only after it is actually transmitted, so it cannot make that determination beforehand.\n\nAs a result, the error occurs after the transmission process.\n\nSince this is a system architecture/design limitation, it cannot be corrected.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Pv4uUYAR"
+    },
+    {
+        "DATE": "2026-11-17T09:01:33+00:00",
+        "CC NUMBER": "CC-0084689",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Whether the TVR function is available in high Accuracy mode_[NXTR-A]",
+        "Communication Content": "InterCEM キム様、\n\nいつもお世話になっております。\n\nパッチレポートの英中文を添付します。\n\n添付フォルダを確認ください。\n\nKonda,",
+        "FMV PIC": "Hwan Kim",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001M9XNpYAN"
+    },
+    {
         "DATE": "2026-11-17T08:44:45+00:00",
         "CC NUMBER": "NEW:CC-0086058",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
