@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-17T08:02:56+00:00",
+        "CC NUMBER": "NEW:CC-0086052",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: MessageBody.OldStateDuration of StationStateChanged is null; the previous state duration cannot be calculated_[NXTIII]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLTytYAH",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-11-17T02:37:05+00:00",
         "CC NUMBER": "NEW:CC-0086025",
         "Customer": "BYD Electronics Vietnam Company Limited]",
