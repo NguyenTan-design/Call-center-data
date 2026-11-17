@@ -6172,5 +6172,14 @@
         "Inquiry type": "12.Knowledge posting request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT",
         "CASE STATUS": "Closed"
+    },
+    {
+        "DATE": "2026-11-17T08:44:45+00:00",
+        "CC NUMBER": "NEW:CC-0086058",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Fault duration: no matching end message observed in the existing data_[NXT]",
+        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QMwsKYAT",
+        "CASE STATUS": ""
     }
 ]

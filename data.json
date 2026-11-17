@@ -52225,5 +52225,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-17T08:44:45+00:00",
+        "CC NUMBER": "NEW:CC-0086058",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Fault duration: no matching end message observed in the existing data_[NXT]",
+        "Communication Content": "Dear Call Center,\n\nDuring the customer's review of the CFX data on their system, they identified the following issue related to Line 5:\n\nIssue: Fault duration: No matching end message found in the existing data.\n\nA total of 2 groups and 2 messages were affected during this period.\n\nFaultOccurred.TimeStamp = \"2026-10-31T15:44:44.3481023+07:00\" (data row 21154399)\n\nFaultOccurred.MessageBody.Fault.OccurredAt = \"2026-10-31T15:44:44+07:00\" (data row 21154399)\n\nFaultOccurred.MessageBody.Fault.FaultOccurrenceId = \"54251fd3-dbf9-4ea1-9163-b7a75531b995\" (data row 21154399)\n\nVerdict: Pending manual confirmation. This does not necessarily indicate an equipment fault or a violation of any official standard.\n\nDevice mapping: The raw Source does not exactly match the CFX Handle in the acceptance list. However, the following device has been identified as a potential match based on the same device serial number:\n\n[25] / FUJI.NXTⅢ.SE0199460-64.V1000012-16.F1-3F-SMT-05-MOUNTER\n\nThe information above was provided directly by the customer. If any further details or clarification are required, please let me know, and I will coordinate with the customer to obtain the necessary information.\n\nWe would appreciate your assistance in investigating the possible root cause of this issue and providing recommendations on how to address it.\n\nThank you very much for your continued support.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QMwsKYAT"
     }
 ]
