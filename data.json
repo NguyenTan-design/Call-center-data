@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-17T00:06:49+00:00",
+        "CC NUMBER": "NEW:CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI am currently supporting production at the Luxshare factory in Nghe An. I encountered an issue with an NXTR 1R module using an RH01 head.\n\nIssue: When the head picks up a component and the component fails the vision inspection, the head moves it to a position above the panel on the machine conveyor. The head then retracts the Z-axis and rotates the holder on the Q-axis. Because the component is large, the head contacts its cover during this movement, causing the component to fall onto the PCB.\n\nCould you please advise whether the head can be configured to avoid retracting the Z-axis and rotating the Q-axis in this situation, to prevent the component from being dropped?\n\nThe customer’s PCBs and components are high-value, so I would greatly appreciate your urgent assistance.\n\nMachine version: V2.DMm\n\nLCU version: V2.35\n\nI have attached the relevant data and photos. Please analyze the issue and advise on a solution as soon as possible.\n\nThank you.\n\nBest regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
         "DATE": "2026-11-16T23:36:47+00:00",
         "CC NUMBER": "CC-0075394",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
