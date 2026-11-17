@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-17T09:30:17+00:00",
+        "CC NUMBER": "NEW:CC-0086049",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_new head RH08 alarm an error 8000198D_[NXTR-S]",
+        "Communication Content": "Dear Call center,\n\nWe have 1 case relating new head RH08 at \"Goertek smart technology vina\" customer alarm an error 8000198D\n\nthe head already sent to our head repair center to check more as below:\n\n- we checked and saw that this head already using new kind of value( 2 points blue marking)\n\n- Action from us:\n\n1. Replace the 2 new valve vacuum break and nozzle cleaning\n\n2. Maintenance again head, air cleaning head using Head Cleaner (2UHEXK0001**).\n\n3. Replaced new all mechanical valve\n\n4. Measure value of vacuum break and nozzle cleaning saw that out of spec and did adjustment again the vacuum break\n\n- After re-adjust, assembly to run on machine still alarm an error 198D\n\n- We disassembly head, check again the vacuum break and nozzle clearing detected that these value not keep the same with before( still out of spec).\n\n=> We assume that this head same phenomenon with RH08 mention at CC number: CC-0082712.\n\n5. Therefore, we would like to place an order for the following part items via WR follow parts list below:\n\n2AHEHB0023**　1\n\n2MHEHB0538**　3\n\nA60686　3\n\nA60846　3\n\nH74122　1\n\nH74741　1\n\n2MHEHB0385**　1\n\n2MHEHB0388**　2\n\n2MHEHB0205**　1\n\n2MHEHF0245**　1\n\n2MHEHA0953**　1\n\n2EHEHA0038**　1\n\n=> pls advise us this case\n\naddition information:\n\n- Line: A9-LINE2, module M5 Left side, type 2R, operating hours: 2940 (hrs)\n\n- Base S/N: SE0211546, Mfg: JUN 2026\n\n- Module S/N: HEBC11 0002269\n\n- Head S/N: HB1112 0002605",
+        "FMV PIC": "Duong Quyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLafKYAT"
+    },
+    {
+        "DATE": "2026-11-17T09:16:37+00:00",
+        "CC NUMBER": "CC-0084821",
+        "Customer": "LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]",
+        "TOPIC": "Urgent[LIANYUE VIETNAM COMPANY LIMITED(TP-LINK Vietnam)]_Unable to save job - Nexim SQL database hang up_[NXTR-S]",
+        "Communication Content": "Dear Mehdi san,\n\nThank you so your question,\n\nI'd like explained about 2 questions:\n\n1. With patch file 5220\n\n- We have installed it from Aug/2026.\n\n- after installed, Nexim system can run and save Job is normal.\n\n- But recently, this issue has happened again.\n\n2. With upgrade the Nexim 3.2.100 and NXTR machine v2.35.2\n\n- We have installed them on 8/Nov\n\n- From 9/Nov to present, no happen error 6A030016 and unable saving Job to Nexim, it is operate stable.\n\nThank you!\n\nDuong,",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Me1xvYAB"
+    },
+    {
         "DATE": "2026-11-17T09:13:29+00:00",
         "CC NUMBER": "CC-0084818",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
