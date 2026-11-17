@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-17T00:46:23+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "コールセンター御中\n\n補足です。\n\n当ラインには2438_PreventRejectPartDropModeFlag_Patchが適応されています。\n\nパッチ提供時に受けた説明では当パッチ関連の不具合であれば修正が難しいとは聞いていますがまずは情報までに。\n\nFMV Akira",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
         "DATE": "2026-11-17T00:06:49+00:00",
         "CC NUMBER": "NEW:CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
