@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-17T07:51:39+00:00",
+        "CC NUMBER": "CC-0085911",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line6: TimeStamp of StageStateChanged and other messages does not have seven fractional digits_[NXTIII]",
+        "Communication Content": "Dear Toyama san\n\nThank you very much for your support\n\nI will transfer this information to the customer.\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PogWgYAJ"
+    },
+    {
+        "DATE": "2026-11-17T07:49:59+00:00",
+        "CC NUMBER": "CC-0085945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line 3: TimeStamp of Heartbeat and other messages does not have seven fractional digits_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThank you very much for your support\n\nI will transfer this information to customer.\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q4dGFYAZ"
+    },
+    {
+        "DATE": "2026-11-17T07:44:49+00:00",
+        "CC NUMBER": "CC-0085191",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right cannot read the Skip Mark_[NXTR-S]",
+        "Communication Content": "Dear Hoang Kha-san,\n\nPlease find below the passwords for the corrected software we have sent.\n\nDownload Password  : 4caSEjyJ\n\nZIP file Password  : kfpApGkk\n\nPlease let us know if you have any issues downloading or extracting the file.\n\nBest regards,\n\nMehdi",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN"
+    },
+    {
+        "DATE": "2026-11-17T07:41:46+00:00",
+        "CC NUMBER": "CC-0085380",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX upload, but no production-related information_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nThank you very much for your support\n\nAfter input LCU name as you guide, Service of CFX can run normal. Please wait feedback form customer about data feedback, only they can check data ok or not.\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OBPOEYA5"
+    },
+    {
         "DATE": "2026-11-17T07:20:24+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
