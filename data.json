@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-17T02:47:15+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nI would like to provide the following additional information:\n\nThe machine is currently running version V2.DMm with the 2438_PreventRejectPartDropModeFlag_Patch.\n\nPreviously, the machine was running version V2.DMe with the same patch.\n\n1. Previous version + without patch: Same error\n\n2. previous version + 2438 patch: Same error\n\n3. Current version + 2438 patch: Same error\n\nThank you.\n\nBest regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
+        "DATE": "2026-11-17T02:37:05+00:00",
+        "CC NUMBER": "NEW:CC-0086025",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Question related to zabbix setting_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nRegarding case **CC-0085134**, I am planning to use Zabbix to monitor NeximDB and generate warnings for customers when database tables approach their capacity limits.\n\nI have followed the setup procedures described in the manual **T24005_A7 – Zabbix DB Monitoring Setup Procedures** and conducted an initial test on an FMV computer.\n\nDuring the test, I noticed some issues and would like to ask Fuji Japan for clarification as follows:\n\n**1. High table space usage**\n\nWe noticed that some database tables consistently show space usage above 70%, and in some cases, the usage exceeds 90%. Please refer to the attached screenshot, **\"Latest data.png\"**.\n\nEven after performing NeximDB maintenance according to manual **T21025-1**, the space usage of these tables remains high.\n\nCould you please clarify:\n\n- Is it normal for these tables to consistently have high space usage?\n\n- If the high usage is not normal, what actions should be taken to reduce their space usage?\n\n**2. Recommended tables and warning thresholds for monitoring**\n\nDue to the high space usage mentioned above, Zabbix currently generates a large number of warnings. This may cause customers to receive too many notifications and potentially overlook important warnings.\n\nPlease refer to the attached screenshot, **\"zabbix show warning.png\"**.\n\nTherefore, we would like Fuji Japan to advise which NeximDB tables are critical and should be monitored.\n\nSpecifically:\n\n- Which tables must be monitored to prevent potential database issues?\n\n- For which tables should we take action when space usage exceeds 70%?\n\n- Are there any tables that normally maintain high space usage and do not require immediate action?\n\nOur goal is to configure Zabbix with appropriate monitoring targets and warning thresholds so that customers receive only meaningful alerts requiring attention.\n\nYour advice would be highly appreciated.",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QII0eYAH"
+    },
+    {
         "DATE": "2026-11-17T01:31:02+00:00",
         "CC NUMBER": "CC-0085603",
         "Customer": "QISDA VIETNAM CO., LTD]",
