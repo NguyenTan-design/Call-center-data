@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T01:48:44+00:00",
+        "CC NUMBER": "NEW:CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have meet the issue.\n\nAbout 18:45, during calibration, module 5 was hang up like video I attached. Head not moving, can touch the vision monitor, but press emergency no have any alarm.  After that I have to reset machine to resume production.\n\nI take trace data. Please help me analyst this issue.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
         "DATE": "2026-11-18T01:20:13+00:00",
         "CC NUMBER": "CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
