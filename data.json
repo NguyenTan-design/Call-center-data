@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-18T02:00:50+00:00",
+        "CC NUMBER": "CC-0085801",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim V3.2.100 – Vision Test Part Outline Issue_[NXTR]",
+        "Communication Content": "Dear  Toyama san,\n\nThanks for your supported\n\nWe will discuss this matter with the customer and follow the procedures outlined in the guideline document.\n\nif any issue happen, we will create the new ticket.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PUVXMYA5"
+    },
+    {
+        "DATE": "2026-11-18T02:00:01+00:00",
+        "CC NUMBER": "CC-0086052",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: MessageBody.OldStateDuration of StationStateChanged is null; the previous state duration cannot be calculated_[NXTIII]",
+        "Communication Content": "Dear Toyama san\n\nThank you very much for your feed back.\n\nYou can handling to CC-0085976, and please take note at this case the customer raise more issue: the previous state duration cannot be calculated too.\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLTytYAH"
+    },
+    {
         "DATE": "2026-11-18T01:48:44+00:00",
         "CC NUMBER": "NEW:CC-0086086",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
