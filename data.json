@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T00:04:33+00:00",
+        "CC NUMBER": "CC-0084975",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
+        "Communication Content": "Dear Vu san\n\nSorry for keep you waiting.\n\nI sent countermeasure version to you via file transfer system.\n\nPlease kindly download it from the link with below password.\n\nDownload     : \"hhDmWYzx\"\n\nUnzip password   : \"xvQyRbPx\"\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Duong Vu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
+    },
+    {
         "DATE": "2026-11-17T23:49:58+00:00",
         "CC NUMBER": "CC-0086025",
         "Customer": "BYD Electronics Vietnam Company Limited]",
@@ -52333,14 +52342,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-18T00:04:33+00:00",
-        "CC NUMBER": "CC-0084975",
-        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
-        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Cannot use Rework function on the machine due to the machine alarm error code 8A510000 – Panel ID Reading Error_[NXTR-S]",
-        "Communication Content": "Dear Vu san\n\nSorry for keep you waiting.\n\nI sent countermeasure version to you via file transfer system.\n\nPlease kindly download it from the link with below password.\n\nDownload     : \"hhDmWYzx\"\n\nUnzip password   : \"xvQyRbPx\"\n\nThank you very much in advance.\n\nFUJI Toyama",
-        "FMV PIC": "Duong Vu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001N6F9uYAF"
     }
 ]
