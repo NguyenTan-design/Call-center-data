@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T15:41:12+00:00",
+        "CC NUMBER": "CC-0083882",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Urgent[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_There is no data in the Nexim Report_[Nexim]",
+        "Communication Content": "Dear Ka Ki san,\n\nAfter installing 5929_V3.2.100_SEE_Patch3.zip, the issue of missing data in Nexim Report has still not been resolved.\n\nFrom 11:20 AM to 11:35 AM on November 17, I deleted the jobs on the machines and restarted the Line Server PC, NXT machines, and NXTR machine.\n\nHowever, data is only available in the Analyze section, while the Monthly/Weekly/Daily sections still show no data.\n\nI have collected the trace data. Please refer to the attached file for further details.\n\nBR,\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JDBqIYAX"
+    },
+    {
         "DATE": "2026-11-18T13:55:20+00:00",
         "CC NUMBER": "CC-0084975",
         "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
