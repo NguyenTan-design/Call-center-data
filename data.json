@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-11-18T07:10:37+00:00",
+        "CC NUMBER": "NEW:CC-0086113",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module 3 can not load job when change over_[NXTR-S]",
+        "Communication Content": "Dear call center\n\nI have met the issue with change over from standard production to standard production (no pair robot)\n\nAbout 13h33, When change over job from Nexim , module 1,2 load job normally, But module 3 lane 2 can not load job (empty) but push START still producing status.\n\nWe have to delete job for module 1 and re transmit it again.\n\nI take trace data, please help me analyst this issue.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QWjyeYAD"
+    },
+    {
+        "DATE": "2026-11-18T07:05:51+00:00",
+        "CC NUMBER": "NEW:CC-0086112",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: State data gaps during overall processing_[NXTIII]",
+        "Communication Content": "We revive feed back of Mitac customer,  CFX line6: State data gaps during overall processing\n\nDetail issue: 218 / 218 processing records lack complete state coverage; the gap in this example is 3608.6102754999883 seconds.\n\nWorkStarted.TimeStamp = \"2026-10-28T15:59:40.1903374+07:00\" (data row 19995021)\n\nWorkStarted.MessageBody.Lane = 1 (data row 19995021)\n\nWorkStarted.MessageBody.Units = [{\"PositionNumber\":1,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":2,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":3,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":4,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":5,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":6,\"UnitIdentifier\":\"0C60-VQ444T9\"}] (data row 19995021)\n\nWorkStarted.MessageBody.TransactionID = \"8dd83273-6cf5-468e-97f9-ed9099fd887a\" (data row 19995021)\n\nWorkCompleted.TimeStamp = \"2026-10-30T10:08:52.2378765+07:00\" (data row 20725074)\n\nWorkCompleted.MessageBody.Units = [{\"PositionNumber\":1,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":2,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":3,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":4,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":5,\"UnitIdentifier\":\"0C60-VQ444T9\"},{\"PositionNumber\":6,\"UnitIdentifier\":\"0C60-VQ444T9\"}] (data row 20725074)\n\nFor the remaining per-message fields and the full JSON, open the case link.\n\nVerdict: pending manual confirmation; this does not indicate an equipment fault or a violation of any official standard.\n\nDevice mapping: the raw Source does not exactly match the CFX Handle in the acceptance list. Candidate with the same device serial number: [46] / FUJI.NXTⅢ.SE0199455-59.V1000007-11.F1-3F-SMT-06-MOUNTER\n\nPlease check data attached file and help me investigate more\n\nThanks\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QWwBmYAL"
+    },
+    {
+        "DATE": "2026-11-18T07:01:57+00:00",
+        "CC NUMBER": "CC-0085982",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Overall processing: no matching start message observed in the existing data_[NXT]",
+        "Communication Content": "Dear Vu san\n\nThank you very much for your update.\n\nOur designer investigated log file and found that this is related to using shuttle conveyor.\n\nAs you may know, there is some topics which is related to using shuttle conveyor previously NXT3 first module.\n\nIn case of using shuttle conveyor, the HostIF.PCBCHECKIN is sending to only lane 1 and not sending to lane 2 because the system doesn't determine which lane the PCB will transfer.\n\nAnd it not possible to synchronized information between them and doesn't send message to CFX side.\n\nSo please kindly arrange the dual conveyor between shuttle conveyor and first module.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QBAB3YAP"
+    },
+    {
+        "DATE": "2026-11-18T06:59:18+00:00",
+        "CC NUMBER": "NEW:CC-0086111",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: No complete matching fault found for the downtime interval_[NXTIII]",
+        "Communication Content": "Dear call center\n\nWe revive feed back of Mitac customer, CFX line6: No complete matching fault found for the downtime interval\n\nDetail issue: 604 segments in total have no matching fault interval.\n\nStationStateChanged.TimeStamp = \"2026-10-27T16:49:40.7344708+07:00\" (data row 19526430)\n\nStationStateChanged.MessageBody.NewState = \"1000\" (data row 19526430)\n\nStationStateChanged.MessageBody.OldState = \"5500\" (data row 19526430)\n\nStationStateChanged.MessageBody.OldStateDuration = \"00:00:00\" (data row 19526430)\n\nVerdict: pending manual confirmation; this does not indicate an equipment fault or a violation of any official standard.\n\nDevice mapping: the raw Source does not exactly match the CFX Handle in the acceptance list. Candidate with the same device serial number: [46] / FUJI.NXTⅢ.SE0199455-59.V1000007-11.F1-3F-SMT-06-MOUNTER\n\nPlease check data attached file and help me investigate more\n\nThanks\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QXNftYAH"
+    },
+    {
+        "DATE": "2026-11-18T06:56:42+00:00",
+        "CC NUMBER": "CC-0085976",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: MessageBody.OldStateDuration of StageStateChanged is missing or null_[NXTIII]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for the inquiry.\n\nI checked with designer team and confirmed that this is specification of CFX Interface and this specification is okay for IPC-CFX side.\n\nPlease kindly check below comments from designer team.\n\n---------------------------------------------------\n\nThe values will be `null` for the first `StageStateChanged` and `StationStateChanged` events after the `FUJI CFX Interface` service starts.\n\nThe `MessageBody.OldStateDuration` field represents the previous state. Therefore, when there is no previous state (at first startup), it will be `null`.\n\nThis is by design. The CFX specification itself also allows for `null` values.\n\n---------------------------------------------------\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QA9YpYAL"
+    },
+    {
         "DATE": "2026-11-18T06:16:33+00:00",
         "CC NUMBER": "CC-0075945",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
