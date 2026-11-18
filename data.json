@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T07:24:14+00:00",
+        "CC NUMBER": "CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear KaKi san\n\nI would like to confirm your question\n\n1. Is this the first time this issue has occurred?\n\nYes\n\n2. If this is the first occurrence, were there any changes between the last normal operation and the occurrence of this issue?\n\nA:   Change over and start production\n\n3. Is the machine currently unable to product, or has production returned to normal?\n\nA: After reset machine, it can production normally\n\nBefore this issue, have other issue with backup pin. Error 8F15, and then done fix 8F15 issue, this issue hangup happen.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
         "DATE": "2026-11-18T07:10:37+00:00",
         "CC NUMBER": "NEW:CC-0086113",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
