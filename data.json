@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T05:53:29+00:00",
+        "CC NUMBER": "CC-0085377",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Some report information in Nexim is inconsistent with the production data in FUJI’s auxiliary software._[Nexim]",
+        "Communication Content": "Dear Li Zhong Miao\n\nSorry for the late reply and thank you for your patience.\n\nI have confirmed with our design team that FUJIWEB and Nexim reports use different calculation methods for production data. Therefore, the reported values may differ even when referring to the same machine and time period.\n\nThe calculation definitions used in Nexim reports are as follows:\n\n1. Machine Error\n\nThe time from when an error occurs until the machine status changes to \"Loading\" or \"Run\".\n\nAny other machine statuses or errors occurring during this period are included in the duration of the initial error.\n\n2. ChangeOver\n\nThe time from the completion of the last PCB of the previous job until the start of production of the first PCB of the next job.\n\n3. Maintenance\n\nThe time from when the machine enters the Maintenance status until production resumes.\n\nOn the FUJIWEB side, the machine status information is obtained directly from the machine's status change notifications without modification.\n\nDue to these differences in calculation methods, the values displayed in FUJIWEB and Nexim reports are not expected to match in most cases.\n\nWe have also confirmed that there are currently no plans to modify the calculation methods to align the results between the two systems.\n\nSorry for any inconvenience this may cause and thank you for your understanding.\n\nLet me know if you have any further questions.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OCUwxYAH"
+    },
+    {
         "DATE": "2026-11-18T05:08:10+00:00",
         "CC NUMBER": "CC-0085852",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
