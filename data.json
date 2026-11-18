@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T05:08:10+00:00",
+        "CC NUMBER": "CC-0085852",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Request to Display Nozzle Name and Specification on Skip Holder Screen_スキップホルダー画面にノズル名と仕様を表示するよう依頼[NXTR-S]",
+        "Communication Content": "Pham Thoi-san\n\nThe mechanism works as follows: the actual nozzle ID is read from the 2D code on the nozzle, and the association between the 2D ID and the nozzle name is obtained from the job data.\n\nUnder the current specification, information for nozzles that are not used in the job is not loaded.\n\nThe reason is that the system is embedded and has memory limitations.\n\nIn this case, we believe the nozzle in question is not used in the job.\n\nFor the reason described above, it would be difficult to support this request under the current specification.\n\nCall center Amano",
+        "FMV PIC": "Pham Thoi",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PfNucYAF"
+    },
+    {
         "DATE": "2026-11-18T04:38:38+00:00",
         "CC NUMBER": "CC-0086086",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",

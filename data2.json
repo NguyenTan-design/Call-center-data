@@ -69,7 +69,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T15:48:00+00:00",
@@ -78,7 +78,7 @@
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_After Module 1 finishes mounting components onto the PCB, the machine stops and does not transfer the board to Module 2_[NXTR-S]",
         "Inquiry type": "09.Other trouble",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QE3UnYAL",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T08:15:15+00:00",
@@ -87,7 +87,7 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Overall processing: no matching start message observed in the existing data_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QBAB3YAP",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T07:42:57+00:00",
@@ -96,7 +96,7 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: MessageBody.OldStateDuration of StageStateChanged is missing or null_[NXTIII]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QA9YpYAL",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T07:14:38+00:00",
@@ -105,7 +105,7 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Device name contains line breaks or leading/trailing whitespace; may be split into different sources_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q9dtxYAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T04:06:10+00:00",
@@ -114,7 +114,7 @@
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Panel finished mounting in module 4 but not transfer to next module_[NXTR-S]",
         "Inquiry type": "08.Board transfer error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q5vfkYAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T02:54:45+00:00",
@@ -123,7 +123,7 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line 3: TimeStamp of Heartbeat and other messages does not have seven fractional digits_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q4dGFYAZ",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-16T02:40:07+00:00",
@@ -132,7 +132,7 @@
         "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_RH head not auto change to other holder when skip holder_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q5YMXYA3",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-14T05:09:08+00:00",
@@ -141,7 +141,7 @@
         "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Inquiry About Error 8000B035 During Job Transmission_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Pv4uUYAR",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-12T10:32:14+00:00",
@@ -150,7 +150,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Request to Display Nozzle Name and Specification on Skip Holder Screen_[NXTR-S]",
         "Inquiry type": "11.Request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PfNucYAF",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-12T07:19:40+00:00",
@@ -159,7 +159,7 @@
         "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_ray Unit LT2 Error – 00007D55 / Subcode 00000006_[NXTIII]",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Pbhf6YAB",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-12T03:40:36+00:00",
@@ -168,7 +168,7 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_2 board go to module 1_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PZegXYAT",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-12T01:19:17+00:00",
@@ -177,7 +177,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Unstable Pickup Center Compensation Using TVR Function_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PXr8HYAT",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-11T16:45:12+00:00",
@@ -186,7 +186,7 @@
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim V3.2.100 – Vision Test Part Outline Issue_[NXTR]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PUVXMYA5",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-11T03:29:24+00:00",
@@ -195,7 +195,7 @@
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The machine freezes after editing the job on the machine_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PNivxYAD",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-10T15:26:50+00:00",
@@ -204,7 +204,7 @@
         "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_[NXTR-A]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-10T03:36:54+00:00",
@@ -213,7 +213,7 @@
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Skip Mark Recognition Failure on NXTRC_[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PBwt2YAD",
-        "CASE STATUS": ""
+        "CASE STATUS": "On Going"
     },
     {
         "DATE": "2026-11-09T21:54:16+00:00",
