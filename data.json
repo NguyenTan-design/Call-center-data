@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-18T04:38:38+00:00",
+        "CC NUMBER": "CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung,\n\nThank you for your inquiry.\n\nWe have forwarded this issue to our Design team for further investigation.\n\nAfter reviewing the trace logs, I suspect that the issue may be related to the vision system.\n\nTo help us investigate further, could you please confirm the following?\n\n1. Is this the first time this issue has occurred?\n\n2. If this is the first occurrence, were there any changes between the last normal operation and the occurrence of this issue? For example:\n\n   - Changes to the production job\n\n   - Changes to the head being used\n\n   - Software or firmware updates\n\n   - Unit replacements or other maintenance work\n\n3. Is the machine currently unable to product, or has production returned to normal?\n\nAny additional information would be helpful for our investigation.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
         "DATE": "2026-11-18T04:07:56+00:00",
         "CC NUMBER": "CC-0084689",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
