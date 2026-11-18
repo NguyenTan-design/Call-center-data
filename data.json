@@ -1053,6 +1053,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
     },
     {
+        "DATE": "2026-11-13T13:47:59+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_NXTRの操作画面にて、画像モニターに切り替えると表示が左上の方へ縮小されている時がある[NXTR-S]",
+        "Communication Content": "Dear Mr Hamamoto,\n\nWe yesterday did updated the new V2.DMm version to that production line. During the updating progress, the machine didn't have any problems. However, this morning when we have checked the monitor panel, we have seen that the issue reoccurred. We saw small images on the panel of that specified machine.\n\nPlease kindly help us to solve this issue.\n\nHave a nice day.\n\nBest regards,\n\nNhon Doan.",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-11-13T13:46:45+00:00",
         "CC NUMBER": "CC-0085202",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -1195,6 +1204,15 @@
         "Communication Content": "Dear Takatsu san,\n\nTung san,\n\nWe already send you V2.DBe via FTS.\n\nto.takatsu@fuji.co.jp\n\nDownload password: \"5UF4ER2F\"\n\nZIP file password: \"G7E6m4y6\"\n\ntung@fuji-smt.com.sg\n\nDownload password: \"5UF4ER2F\"\n\nZIP file password: \"G7E6m4y6\"\n\nBR\n\nChi/Fuji",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GiMCoYAN"
+    },
+    {
+        "DATE": "2026-11-12T04:16:18+00:00",
+        "CC NUMBER": "CC-0084898",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Inconsistent Panel-Present Status in Monitor Areas_モニターエリアにおけるパネルの表示状態の不一致[NXTR-S]",
+        "Communication Content": "Nguyen Manh Cuong-san\n\nWe will send you the application form for the countermeasure app. Please check if it improves the issue.\n\nPlease download the file.\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nInstallCD_V2.2Be.zip\n\nfile release date\t: 7 day\n\nDownload limit times\t: 10 times\n\nDownload Password\t: \"nE2AypKE\"\n\nZIP File Password\t:  \"RnHUwmZZ\"\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nCall center Amano",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MsF3LYAV"
     },
     {
         "DATE": "2026-11-12T04:16:18+00:00",
@@ -2025,6 +2043,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LnRFSYA3"
     },
     {
+        "DATE": "2026-11-09T06:48:03+00:00",
+        "CC NUMBER": "CC-0084538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Error 8C34 during production_[NXTR-S]",
+        "Communication Content": "Dear Amano-san\n\nWe already check and find out the speed of network of port connection to machine is only 100Mb, we change new ethenet cable, now it is 1G. Thanks for your support. We can close it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LnRFSYA3"
+    },
+    {
         "DATE": "2026-11-09T06:47:11+00:00",
         "CC NUMBER": "CC-0083178",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -2385,6 +2412,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
     },
     {
+        "DATE": "2026-11-05T11:56:11+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported,\n\nCan you please tell me who confirmed that Mitac Vietnam doesn't have an issue on NXTR line with CFX function?\n\nas you know, The customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nbut currently they confirm that haven't production-related information it means that the equipment has not been sending the relevant CFX messages,\n\npls ref the CC-0085380 which you also supporting, could you please check whether all Work-related messages?\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-11-05T11:55:34+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -2410,6 +2446,15 @@
         "Communication Content": "Dear Cong san,\n\nThis is a bug in the device application.\n\nAn exception error was occurring because the process for recognizing and initializing the print head was overlapping with the process for outputting maintenance information.\n\nWe will implement a fix to prevent this exception error.\n\nWe will provide an update regarding the schedule for this fix.\n\nBR\n\nChi/Fuji",
         "FMV PIC": "Tran Cong",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001ONpwMYAT"
+    },
+    {
+        "DATE": "2026-11-05T11:12:48+00:00",
+        "CC NUMBER": "CC-0084144",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
+        "Communication Content": "Dear Yang san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
+        "FMV PIC": "hongfei yang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
     },
     {
         "DATE": "2026-11-05T11:12:12+00:00",
@@ -2457,6 +2502,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
     },
     {
+        "DATE": "2026-11-05T10:06:30+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nAs we discussed in the meeting, Mitac Vietnam doesn't have an issue on NXTR line with CFX because this line is single lane.\n\nNXT3 line is dual lane with shuttle conveyor, so that's why the issue has occurring.\n\nPlease kindly add dual conveyor between shuttle conveyor and first NXTR module once again.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-11-05T10:05:43+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -2491,6 +2545,15 @@
         "Communication Content": "Dear Do san\n\nSorry for keep you waiting.\n\nActually we have a plan to implement below improvement in near future.\n\nCould you please check with customer if these improvement is match to customer's request?\n\n*The machine show the error vision image if this vision error is making stop the machine.\n\n*The machine show the reason by icon why the machine need to exchange the nozzle\n\nFUJI Toyama",
         "FMV PIC": "Do Do",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
+        "DATE": "2026-11-05T07:24:25+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Mr Konda san,\n\nThank you for your continued support.\n\nWe apologize for the incomplete data provided earlier.\n\nWe have noted your advice and will ensure that all required Force Trace data is collected and provided if the issue occurs again.\n\nThank you for your support\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
     },
     {
         "DATE": "2026-11-05T07:24:25+00:00",
@@ -3321,6 +3384,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
     },
     {
+        "DATE": "2026-11-02T10:27:47+00:00",
+        "CC NUMBER": "CC-0084507",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nThank you for your advice.\n\nThis issue has mainly occurred on Modules 1, 2, and 3 of Line 4E\n\nWe have already replaced the MFU, and the issue has not occurred again so far.We  also checked Slot 26 of the MFU on Module 1 and found no abnormalities\n\nWe will continue to monitor the situation and provide further updates if the issue occurs again.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
+    },
+    {
         "DATE": "2026-11-02T10:27:38+00:00",
         "CC NUMBER": "CC-0085201",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -3794,6 +3866,15 @@
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
         "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum pres...",
         "Communication Content": "Deaar Amano Toru - san\n\nIs my understanding correct that the issue was resolved after replacing the right-side vacuum pump? That's right\n\n I will submit a warranty claim for the vacuum pump this.\n\nThankyou for your support.\n\nThank you and best regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP"
+    },
+    {
+        "DATE": "2026-10-29T08:41:49+00:00",
+        "CC NUMBER": "CC-0085090",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_- We are experiencing an issue with the NXTR machine. The NXTR Robot Right module keeps reporting the following alarms: - “Module vacuum start time out” — Code: 80001203 - “Module vacuum pres...",
+        "Communication Content": "Nguyen Van Thong-san\n\nIs my understanding correct that the issue was resolved after replacing the right-side vacuum pump?\n\nIf so, since the failure was caused by a defective vacuum pump, please submit a warranty claim for the vacuum pump.\n\nCall center Amano",
         "FMV PIC": "Nguyen Thong",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NNCZ5YAP"
     },
@@ -4545,6 +4626,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KrIKaYAN"
     },
     {
+        "DATE": "2026-10-26T04:24:20+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "FMV-DO-san\n\nPossible causes of the image becoming darker are limited to the following:\n\n・The physical height is incorrect.\n\n・The light source is dim.\n\nIf the issue is caused by deterioration of the light source, the only solution would be to replace the mark camera.\n\nRegarding the images, could you also provide captured images from the parts camera and conveyor mark camera, in addition to the nozzle station images?\n\nIf the light source has deteriorated, all images captured by the mark camera should appear darker. We would therefore like to compare the images from different locations.\n\nIn addition, you mentioned that the occurrence frequency decreased after adding shims. However, the machine cannot detect the changer height, so intentionally increasing the changer height raises the risk of overload during nozzle attachment and removal.\n\nIt can also place additional stress on the nozzle pins. Therefore, even as a temporary countermeasure, we do not recommend this approach.\n\nHow long has this machine been in operation since it was shipped?\n\nCall center Amano",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-10-26T04:23:21+00:00",
         "CC NUMBER": "NEW:CC-0084847",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -4597,6 +4687,15 @@
         "Communication Content": "Dear Marie-san,\n\nThank you for your support. We will install 1018_LCUPatch_NXTR_OnMcEdit_PickupOffset_forV2.35 on the PC and monitor this issue.\n\nBest regards,\n\nHa Ngoc Son",
         "FMV PIC": "Ha Son",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
+        "DATE": "2026-10-26T02:24:27+00:00",
+        "CC NUMBER": "CC-0084402",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
+        "Communication Content": "FMV-DO-san\n\nI am sending you the V2.3Pze version. Please check whether this version improves the issue.\n\nAs for the other cases, some are still under investigation, so each case needs to be reviewed individually.\n\nCall center Amano",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
     },
     {
         "DATE": "2026-10-26T02:24:27+00:00",
@@ -5254,6 +5353,15 @@
         "Communication Content": "Dear Call Center,\n\nCurrently at the customer Liteon, there is an issue of clogging of the syringe at the RH20 head. Each time an error is reported, the head needs to be replaced and the syringe must be removed and cleaned — this operation takes a lot of time.\n\nAt present, there is no maintenance item for the inner part of the syringe.\n\nSo, is there any measure to reduce this clogging/contamination issue? For example, when cleaning the head on the NXT line, oil can be used for maintenance. The current problem occurs very frequently, leading to line-stop errors during production. If there is a solution/action plan, please let us know so that we can respond back to the customer.\n\nThanks and best regards!\n\nFMV-Vu Thien",
         "FMV PIC": "Vu Thien",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Lr0QJYAZ"
+    },
+    {
+        "DATE": "2026-10-20T09:02:07+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nThe customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nBecause customers are afraid of experiencing the same issues as NXT3 line\n\nWe are monitoring the situation and hope for a positive result\n\nWe will provide an update once we receive feedback from the customer.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
     },
     {
         "DATE": "2026-10-20T09:02:07+00:00",
@@ -52738,59 +52846,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-10-26T02:24:27+00:00",
-        "CC NUMBER": "CC-0084402",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Error 1907 occurred while the machine was waiting for the next board to be placed_マシンが次の基板のセットを待機している間に、エラー 1907 が発生しました[NXTR-S]",
-        "Communication Content": "FMV-DO-san\n\nI am sending you the V2.3Pze version. Please check whether this version improves the issue.\n\nAs for the other cases, some are still under investigation, so each case needs to be reviewed individually.\n\nCall center Amano",
-        "FMV PIC": "Vu Phuoc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LJ8gRYAT"
-    },
-    {
-        "DATE": "2026-11-05T11:12:48+00:00",
-        "CC NUMBER": "CC-0084144",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_D701 Errors Not Counted in Accessory Software Pickup_[NXTR-S]",
-        "Communication Content": "Dear Yang san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
-        "FMV PIC": "hongfei yang",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KdpbPYAR"
-    },
-    {
-        "DATE": "2026-11-02T10:27:47+00:00",
-        "CC NUMBER": "CC-0084507",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Some W08F feeders automatically pull the component tape backward_一部のW08Fフィーダーでは、部品テープが自動的に後方に引き戻されることがあります[NXTR-S]",
-        "Communication Content": "Dear Call Center,\n\nThank you for your advice.\n\nThis issue has mainly occurred on Modules 1, 2, and 3 of Line 4E\n\nWe have already replaced the MFU, and the issue has not occurred again so far.We  also checked Slot 26 of the MFU on Module 1 and found no abnormalities\n\nWe will continue to monitor the situation and provide further updates if the issue occurs again.\n\nBest regards,\n\nFMV Vu Phuoc",
-        "FMV PIC": "Vu Phuoc",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001LhvEZYAZ"
-    },
-    {
-        "DATE": "2026-10-26T04:24:20+00:00",
-        "CC NUMBER": "CC-0079012",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
-        "Communication Content": "FMV-DO-san\n\nPossible causes of the image becoming darker are limited to the following:\n\n・The physical height is incorrect.\n\n・The light source is dim.\n\nIf the issue is caused by deterioration of the light source, the only solution would be to replace the mark camera.\n\nRegarding the images, could you also provide captured images from the parts camera and conveyor mark camera, in addition to the nozzle station images?\n\nIf the light source has deteriorated, all images captured by the mark camera should appear darker. We would therefore like to compare the images from different locations.\n\nIn addition, you mentioned that the occurrence frequency decreased after adding shims. However, the machine cannot detect the changer height, so intentionally increasing the changer height raises the risk of overload during nozzle attachment and removal.\n\nIt can also place additional stress on the nozzle pins. Therefore, even as a temporary countermeasure, we do not recommend this approach.\n\nHow long has this machine been in operation since it was shipped?\n\nCall center Amano",
-        "FMV PIC": "Bui Dung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
-    },
-    {
-        "DATE": "2026-11-12T04:16:18+00:00",
-        "CC NUMBER": "CC-0084898",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Inconsistent Panel-Present Status in Monitor Areas_モニターエリアにおけるパネルの表示状態の不一致[NXTR-S]",
-        "Communication Content": "Nguyen Manh Cuong-san\n\nWe will send you the application form for the countermeasure app. Please check if it improves the issue.\n\nPlease download the file.\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nInstallCD_V2.2Be.zip\n\nfile release date\t: 7 day\n\nDownload limit times\t: 10 times\n\nDownload Password\t: \"nE2AypKE\"\n\nZIP File Password\t:  \"RnHUwmZZ\"\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\nCall center Amano",
-        "FMV PIC": "Nguyen Manh Cuong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MsF3LYAV"
-    },
-    {
-        "DATE": "2026-11-05T11:56:11+00:00",
-        "CC NUMBER": "CC-0076011",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
-        "Communication Content": "Dear Toyama san,\n\nThanks for your supported,\n\nCan you please tell me who confirmed that Mitac Vietnam doesn't have an issue on NXTR line with CFX function?\n\nas you know, The customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nbut currently they confirm that haven't production-related information it means that the equipment has not been sending the relevant CFX messages,\n\npls ref the CC-0085380 which you also supporting, could you please check whether all Work-related messages?\n\nThanks\n\nFMV-DO",
-        "FMV PIC": "Do Do",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
     }
 ]
