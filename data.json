@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-18T09:25:50+00:00",
+        "CC NUMBER": "CC-0085377",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Some report information in Nexim is inconsistent with the production data in FUJI’s auxiliary software._[Nexim]",
+        "Communication Content": "Dear Ka Ki-san,\n\nThank you for your detailed explanation. We will clarify the reasons behind this situation to the client. Please close this ticket; should the client maintain their original position, we will open a new ticket.\n\nbest regards，\n\nMiao",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OCUwxYAH"
+    },
+    {
+        "DATE": "2026-11-18T09:24:33+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Ka Ki-san,\n\nThank you for your reply.\n\nWe currently have “Actual Pickup Body Height” set to 0.\n\nWe resolved the issue by upgrading the head unit version from V1.70 to V1.75.\n\nI also have a few questions:\n\n1. When vision inspection fails, why doesn’t the head take the rejected component directly to the discard position? Why does it first move to a position above the PCB before discarding it?\n\n2. Can this process be changed?\n\nFor large and heavy components, moving them above the PCB before discarding them creates a significant risk of the component being dropped onto the PCB.\n\nThank you.\n\nBest regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
         "DATE": "2026-11-18T08:26:59+00:00",
         "CC NUMBER": "CC-0086055",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
