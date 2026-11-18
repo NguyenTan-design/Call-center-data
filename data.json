@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-18T18:20:44+00:00",
+        "CC NUMBER": "CC-0085191",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Module M1 Right cannot read the Skip Mark_[NXTR-S]",
+        "Communication Content": "Dear Mehdi,\n\nThank you for your support.\n\nWe will discuss with the customer regarding the production schedule and proceed with the update when time is available.\n\nThank you!\n\nFMV-Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001NhQSwYAN"
+    },
+    {
+        "DATE": "2026-11-18T18:13:14+00:00",
+        "CC NUMBER": "NEW:CC-0086153",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_Machine Still Requests Tray Material After Changing the Supply Method from Tray to Feeder_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, we are experiencing the following issue at the customer's factory:\n\n- During production at Module 8 with part number 13404-S010011H-00, the customer ran out of the Tray-type material configured at Tray Slot 9. Therefore, the customer changed the material supply method from Tray (Slot 9) to Feeder (Slot 59).\n\n- After the change, we successfully performed Optimize, DataCheck, and updated the program to the machine.\n\nHowever, although the machine did not display any error warnings, when starting production, it still requested Tray-type material at Slot 9 for part number 13404-S010011H-00 instead of requesting Feeder-type material at Slot 59 as configured in the program.\n\n-The issue was resolved by deleting all jobs on the machine and in the LCU, then resending the job through NEXIM.\n\nWe have collected trace data, retrieved the program, and recorded a video at the machine.\n\nNexim    : Ver 3.2.110\n\nLCU          : Ver 2.35\n\nMachine : Ver 2.DMe\n\nThank you!\n\nFMV Kha",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QboRNYAZ"
+    },
+    {
         "DATE": "2026-11-18T15:41:12+00:00",
         "CC NUMBER": "CC-0083882",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
