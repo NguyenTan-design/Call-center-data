@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-19T07:46:21+00:00",
+        "CC NUMBER": "NEW:CC-0086202",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_When changeover, after transmit job, machine displayed 901B feeder part number mismatch_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nWhen chang-over, customer transmit the job to machine, machine will display 901B Feeder part number mismatch.  This condition often occurs every time customer change over.  Every time occur we need ready on each module and start again.\n\nMachine already upgrade unit for feeders but the same issue still happens\n\nPlease kindly refer to the attached trace and help to analyze this issue,\n\nThank you,\n\nFMV Tuan",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QhqWzYAJ"
+    },
+    {
+        "DATE": "2026-11-19T07:44:46+00:00",
+        "CC NUMBER": "NEW:CC-0086207",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Official documentation specifying the allowable positional tolerance for the backup pin_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAfter the head picks up the backup pin and places it onto the plate, the machine checks the position of the backup pin on the plate.\n\nThe customer would like to know the coordinate tolerance of the backup pin placement.\n\nCould you please help to provide the official documentation (In English and Chinese ) specifying the allowable positional tolerance for the backup pin?\n\nThank you very much,\n\nFMV Tuan",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QjwgHYAR"
+    },
+    {
         "DATE": "2026-11-19T07:25:07+00:00",
         "CC NUMBER": "CC-0079816",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
