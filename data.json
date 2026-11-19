@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T09:30:49+00:00",
+        "CC NUMBER": "CC-0075394",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The duration of WorkStageStarted to WorkStageCompleted is not proportional to the state transition duration_WorkStageStarted から WorkStageCompleted までの期間は、状態遷移の所要時間に比例していない。[NXT]",
+        "Communication Content": "Dear FMV-DO-san,\n\nSorry, the number status is the status is the information which used in Host Interface MCSTATUSCHANGE which come from machine.\n\nThe FUJI CFX Interface is using same machine status events and the following status conversion is applied.\n\nStatus,HostIF Name,CFX ResourceState\n\n4,Loading (Board Transfer),PRD\n\n5,Run (Placement),PRD\n\n7,Wait Next (Waiting for Next Process),SBY_NoProductBlocked\n\n9,Wait Previous (Waiting for Previous Process),SBY_NoProductStarved\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vCNsrYAG"
+    },
+    {
         "DATE": "2026-11-19T09:20:51+00:00",
         "CC NUMBER": "CC-0083499",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
