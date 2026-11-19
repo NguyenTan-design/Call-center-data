@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T03:19:24+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Hamamoto-san,\n\nI have rechecked the LCR measurement function for capacitor (C) components.\n\nFor some components, when entering the actual values measured manually by the Quality Control staff, the test results are PASS. However, when entering the actual values based on the component specifications, the test results are FAIL.\n\nIn addition, there are still some components that fail the test even when entering the actual values measured manually using the measuring equipment.\n\nI have collected samples of the problematic components and recorded their corresponding part numbers.\n\nI will send the component samples together with the part number information to your team for further testing and investigation to identify the root cause.\n\nAfter completing the investigation, please provide feedback on the test results so that I can report the findings to the customer.\n\nThank you for your support!\n\nBest regards,\n\nFMV-NAM.",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
         "DATE": "2026-11-19T02:44:36+00:00",
         "CC NUMBER": "CC-0083882",
         "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
