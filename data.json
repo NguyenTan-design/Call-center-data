@@ -126,6 +126,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLsCVYA1"
     },
     {
+        "DATE": "2026-11-18T07:02:35+00:00",
+        "CC NUMBER": "CC-0086055",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line6: Overall processing: no matching end message observed in the existing data_[NXTIII]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for your update.\n\nOur designer investigated log file and found that this is related to using shuttle conveyor.\n\nAs you may know, there is some topics which is related to using shuttle conveyor previously NXT3 first module.\n\nIn case of using shuttle conveyor, the HostIF.PCBCHECKIN is sending to only lane 1 and not sending to lane 2 because the system doesn't determine which lane the PCB will transfer.\n\nAnd it not possible to synchronized information between them and doesn't send message to CFX side.\n\nSo please kindly arrange the dual conveyor between shuttle conveyor and first module.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLsCVYA1"
+    },
+    {
         "DATE": "2026-11-18T07:01:57+00:00",
         "CC NUMBER": "CC-0085982",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -214,6 +223,15 @@
         "Communication Content": "Dear Chi-san,\n\nCan we disable this function? this is customer request. It make inconvenient during change over\n\nThank you\n\nTung-FMV",
         "FMV PIC": "Tran The",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-18T02:00:50+00:00",
+        "CC NUMBER": "CC-0085801",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Nexim V3.2.100 – Vision Test Part Outline Issue_[NXTR]",
+        "Communication Content": "Dear  Toyama san,\n\nThanks for your supported\n\nWe will discuss this matter with the customer and follow the procedures outlined in the guideline document.\n\nif any issue happen, we will create the new ticket.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PUVXMYA5"
     },
     {
         "DATE": "2026-11-18T02:00:50+00:00",
@@ -2457,6 +2475,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
     },
     {
+        "DATE": "2026-11-05T12:09:08+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Do san\n\nPlease do not mixed up several issue in one ticket.\n\nI understand that there is one issue with CFX which is not reported correct infomation but it is different topic than this case.\n\nI would like to confirm if this issue is happened on which line.\n\nPlease let us confirm one by one.\n\nOn the other hands, we did the meeting with Victor san and Taiwan agency on Tuesday.\n\nAnd Victor san told us that basically NXTR line doesn't have CFX issue because of this line is single conveyor.\n\nPlease kindly check and make same understanding with him at your side first.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
+    },
+    {
         "DATE": "2026-11-05T12:08:24+00:00",
         "CC NUMBER": "CC-0076047",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -2464,6 +2491,15 @@
         "Communication Content": "Dear Do san\n\nPlease do not mixed up several issue in one ticket.\n\nI understand that there is one issue with CFX which is not reported correct infomation but it is different topic than this case.\n\nI would like to confirm if this issue is happened on which line.\n\nPlease let us confirm one by one.\n\nOn the other hands, we did the meeting with Victor san and Taiwan agency on Tuesday.\n\nAnd Victor san told us that basically NXTR line doesn't have CFX issue because of this line is single conveyor.\n\nPlease kindly check and make same understanding with him at your side first.\n\nFUJI Toyama",
         "FMV PIC": "Do Do",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
+        "DATE": "2026-11-05T11:56:11+00:00",
+        "CC NUMBER": "CC-0076011",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface had issue when output the TrasationID=00000000_Fuji CFXインターフェースは、TrasationID＝00000000を出力する際に問題が発生しました。[Nexim]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported,\n\nCan you please tell me who confirmed that Mitac Vietnam doesn't have an issue on NXTR line with CFX function?\n\nas you know, The customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nbut currently they confirm that haven't production-related information it means that the equipment has not been sending the relevant CFX messages,\n\npls ref the CC-0085380 which you also supporting, could you please check whether all Work-related messages?\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wznDkYAI"
     },
     {
         "DATE": "2026-11-05T11:56:11+00:00",
@@ -3301,6 +3337,15 @@
         "Communication Content": "Dear Do Do san,\n\nInstead of configuring this on a part-by-part basis, we will add the setting of a distance between rejected parts in the machine configuration settings.\n\nIt will be planned to support this function in V2.60.\n\nNXTR V2.40 will be issued mid of Nov. So V2.60 will be released on Nov 2027.\n\nWould you agree to this? Please let me know.\n\nKonda,",
         "FMV PIC": "Do Do",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
+        "DATE": "2026-11-03T04:13:34+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano-San\n\nWe already swap lighting camera, mark camera with other module. The issue still happened same before swap. They no have mark camera spare, we only swap with other module.\n\nThanks for your sopport",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
     },
     {
         "DATE": "2026-11-03T04:13:34+00:00",
@@ -5544,6 +5589,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
     },
     {
+        "DATE": "2026-10-20T09:02:07+00:00",
+        "CC NUMBER": "CC-0076047",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface output The entire work order was processed late._Fuji CFXインターフェースは、作業指示全体の処理が遅延して出力されました。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThanks for your supported\n\nThe customer has agreed to the installation of CFX interface on the NXTR line single lane, effective October 19, 2026.\n\nBecause customers are afraid of experiencing the same issues as NXT3 line\n\nWe are monitoring the situation and hope for a positive result\n\nWe will provide an update once we receive feedback from the customer.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xDjWoYAK"
+    },
+    {
         "DATE": "2026-10-20T09:01:36+00:00",
         "CC NUMBER": "CC-0076011",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -5992,6 +6046,33 @@
         "Communication Content": "Dear Dinh san,\n\nWe will close this ticket.\n\nIf you have any update please create new ticket.\n\nThank you for your cooperation.\n\nBR,\n\nMa/FUJI",
         "FMV PIC": "Dinh Tu",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B0JqDYAV"
+    },
+    {
+        "DATE": "2026-10-16T01:47:06+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Thuong san,\n\nDear Konda-san,\n\nI have taken note of the information.\n\nThank you for your support\n\nFMV: Thuong Nguyen",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
+        "DATE": "2026-10-16T01:47:06+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Thuong san,\n\nDear Konda-san,\n\nI have taken note of the information.\n\nThank you for your support\n\nFMV: Thuong Nguyen",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
+    },
+    {
+        "DATE": "2026-10-16T01:47:06+00:00",
+        "CC NUMBER": "CC-0081359",
+        "Customer": "LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE-ICT(VAN TRUNG) COMPANY LIMITED]_Module 1R is hangup and cannot be operated_[NXTR-S]",
+        "Communication Content": "Dear Thuong san,\n\nDear Konda-san,\n\nI have taken note of the information.\n\nThank you for your support\n\nFMV: Thuong Nguyen",
+        "FMV PIC": "Nguyen Thuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CI22SYAT"
     },
     {
         "DATE": "2026-10-16T01:46:13+00:00",
