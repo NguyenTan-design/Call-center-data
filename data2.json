@@ -1548,15 +1548,6 @@
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-08-17T03:23:26+00:00",
-        "CC NUMBER": "NEW:CC-0080963",
-        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Normal[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]__AVL部品での部品ピッチ自動判別機能[Nexim]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001BHOv9YAH",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-08-14T15:35:37+00:00",
         "CC NUMBER": "NEW:CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
@@ -1737,15 +1728,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-08-03T16:26:26+00:00",
-        "CC NUMBER": "NEW:CC-0080483",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_No Nozzle to Pick-up Error When Part Height Exceeds Module 2RV Limit_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000019YLduYAG",
-        "CASE STATUS": "Closed"
-    },
-    {
         "DATE": "2026-08-03T15:23:32+00:00",
         "CC NUMBER": "NEW:CC-0080480",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
@@ -1788,15 +1770,6 @@
         "TOPIC": "Urgent[TOA VIETNAM CO., LTD.]_Unable to Edit Component After Vision Error_[AIMEXR]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018Lqo5YAC",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-07-29T08:09:38+00:00",
-        "CC NUMBER": "NEW:CC-0080231",
-        "Customer": "YASKAWA ELECTRIC (SHENYANG) CO., LTD.]",
-        "TOPIC": "Normal[YASKAWA ELECTRIC (SHENYANG) CO., LTD.]__Line自動段取りに関しての質問[FUJI Smart Factory]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000018o8EzYAI",
         "CASE STATUS": ""
     },
     {
@@ -1977,15 +1950,6 @@
         "TOPIC": "Very Urgent[BYD Electronics Vietnam Company Limited]_Module 2RV-R during production. The machine repeatedly reported Error 88D41911 and 8CC4190B. In addition, the following errors were also generated when the issue occurred: 8000B108, 8...",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017OKcCYAW",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-07-20T09:11:29+00:00",
-        "CC NUMBER": "NEW:CC-0079703",
-        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
-        "TOPIC": "Urgent[YASKAWA Vietnam Mechatronics system Co., Ltd.]__Line自動段取りが動かない[FUJI Smart Factory]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017MjDHYA0",
         "CASE STATUS": ""
     },
     {
@@ -2205,15 +2169,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-07-07T04:50:05+00:00",
-        "CC NUMBER": "NEW:CC-0078949",
-        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
-        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]__SmartLoader フィーダー斜め挿し検知＆ギロチン警告LEDに関して[NXTR-A]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015U1bCYAS",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-07-07T02:58:56+00:00",
         "CC NUMBER": "NEW:CC-0078939",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
@@ -2430,15 +2385,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-06-24T13:29:07+00:00",
-        "CC NUMBER": "NEW:CC-0078240",
-        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
-        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]__最終モジュールで欠品発生[NXTR-A]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000013Td5TYAS",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-06-24T02:10:50+00:00",
         "CC NUMBER": "NEW:CC-0078198",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
@@ -2463,15 +2409,6 @@
         "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_Checking the contact of parts on panels for NXTRs machine with head RH20_[NXTR-S]",
         "Inquiry type": "11.Request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000013HCP9YAO",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-06-22T16:18:17+00:00",
-        "CC NUMBER": "NEW:CC-0078100",
-        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
-        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]__トレースにギャザリングデータが落ちてこない[NXTR-A]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001381pVYAQ",
         "CASE STATUS": ""
     },
     {
@@ -2691,15 +2628,6 @@
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-06-02T23:58:10+00:00",
-        "CC NUMBER": "NEW:CC-0077009",
-        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
-        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_Analyze and improve the TVR recognition issue on RH02_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zupKrYAI",
-        "CASE STATUS": "Closed"
-    },
-    {
         "DATE": "2026-06-02T09:02:22+00:00",
         "CC NUMBER": "NEW:CC-0076980",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
@@ -2742,15 +2670,6 @@
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH28-The IPS mirror has come loose_[NXTR-S]",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zZIv0YAG",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-05-29T08:50:08+00:00",
-        "CC NUMBER": "NEW:CC-0076799",
-        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
-        "TOPIC": "Urgent[YASKAWA Vietnam Mechatronics system Co., Ltd.]__別オーダーで現生産配置を参照押した後、戻ると表示が正しくない[Nexim]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zEJnhYAG",
         "CASE STATUS": ""
     },
     {
@@ -3051,15 +2970,6 @@
         "CASE STATUS": "Closed"
     },
     {
-        "DATE": "2026-05-07T10:22:20+00:00",
-        "CC NUMBER": "NEW:CC-0075555",
-        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
-        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]__ロードセル使用モジュールのサイクルタイムが遅い[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vnkTzYAI",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-05-07T06:29:58+00:00",
         "CC NUMBER": "NEW:CC-0075534",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
@@ -3084,15 +2994,6 @@
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_863C0000: Insert order data mismatch_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vc41nYAA",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-05-05T04:51:46+00:00",
-        "CC NUMBER": "NEW:CC-0075431",
-        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
-        "TOPIC": "Urgent[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Regarding referece current feeder setup_現配置を参照するに関して[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vX6CLYA0",
         "CASE STATUS": ""
     },
     {
@@ -3159,30 +3060,12 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-04-24T08:52:04+00:00",
-        "CC NUMBER": "NEW:CC-0075122",
-        "Customer": "Fuji Machine Vietnam Co., Ltd.]",
-        "TOPIC": "Normal[Fuji Machine Vietnam Co., Ltd.]__Insight-Trace ライセンス申請[NXTR-S]",
-        "Inquiry type": "12.Knowledge posting request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uKU0AYAW",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-04-24T06:58:04+00:00",
         "CC NUMBER": "NEW:CC-0075117",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
         "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._[NXTR-S]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-04-24T02:15:31+00:00",
-        "CC NUMBER": "NEW:CC-0075091",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]__ワイドレンジの追加機能用パッチ[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uHx0FYAS",
         "CASE STATUS": ""
     },
     {
@@ -3771,15 +3654,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-03-13T04:06:56+00:00",
-        "CC NUMBER": "NEW:CC-0072706",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Production information suddenly stopped displaying for a specific line only._特定Lineだけ急に生産情報が表示されなくなった[Accessory Software]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000olZP3YAM",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-03-13T00:39:46+00:00",
         "CC NUMBER": "NEW:CC-0072691",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -4230,24 +4104,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2026-01-27T06:45:25+00:00",
-        "CC NUMBER": "NEW:CC-0070319",
-        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
-        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]__WA08a-Sガイドの溶接不良[NXTR-A]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ievG4YAI",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-26T04:20:22+00:00",
-        "CC NUMBER": "NEW:CC-0070228",
-        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
-        "TOPIC": "Normal[Hana Micron Vina Co., Ltd. (Bac Giang)]__IPS蛍光リングの交換推奨周期について[NXTR]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000iUsBRYA0",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2026-01-22T10:27:08+00:00",
         "CC NUMBER": "NEW:CC-0070116",
         "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
@@ -4263,15 +4119,6 @@
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Board not tranfer to next module after complete placement_[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000heO1FYAU",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-19T09:08:26+00:00",
-        "CC NUMBER": "NEW:CC-0069898",
-        "Customer": "Goertek Microelectronics Vietnam Company Limited]",
-        "TOPIC": "Normal[Goertek Microelectronics Vietnam Company Limited]__残テープカッター強制オフ機能[NXTR-S]",
-        "Inquiry type": "11.Request",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hccoHYAQ",
         "CASE STATUS": ""
     },
     {
@@ -4626,15 +4473,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2025-12-04T04:19:31+00:00",
-        "CC NUMBER": "NEW:CC-0067984",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]__ホストエラー発生中にフィーダーセットでブルースクリーン発生[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000cYOoUYAW",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2025-12-01T02:28:35+00:00",
         "CC NUMBER": "NEW:CC-0067717",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
@@ -4671,15 +4509,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2025-11-27T03:10:03+00:00",
-        "CC NUMBER": "NEW:CC-0067603",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]__生産完了基板が次工程に流れない問題[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000bkD1nYAE",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2025-11-23T07:45:22+00:00",
         "CC NUMBER": "NEW:CC-0067417",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
@@ -4713,15 +4542,6 @@
         "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_LCU services did not start automatically_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000axtv6YAA",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2025-11-20T03:07:30+00:00",
-        "CC NUMBER": "NEW:CC-0067311",
-        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
-        "TOPIC": "Very Urgent[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Job changing fails on Yamaha equipment via PLC communication_PLC通信でYamaha設備のJobが切り替わらない[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000aw2pXYAQ",
         "CASE STATUS": ""
     },
     {
@@ -4923,15 +4743,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2025-11-07T08:20:05+00:00",
-        "CC NUMBER": "NEW:CC-0066678",
-        "Customer": "FUKANG TECHNOLOGY COMPANY LIMITED]",
-        "TOPIC": "Normal[FUKANG TECHNOLOGY COMPANY LIMITED]__基板搬送時、94810000(基板情報共有エラー)が発生[NXTR-S]",
-        "Inquiry type": "08.Board transfer error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZVKhVYAX",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2025-11-07T07:54:08+00:00",
         "CC NUMBER": "NEW:CC-0066675",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
@@ -5121,15 +4932,6 @@
         "CASE STATUS": ""
     },
     {
-        "DATE": "2025-10-22T12:46:37+00:00",
-        "CC NUMBER": "NEW:CC-0065855",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Not Urgent[LITE-ON VIETNAM CO., LTD.]__Fuji Nexim Setup Station Serviceが起動しない。[Nexim]",
-        "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000XaBDIYA3",
-        "CASE STATUS": ""
-    },
-    {
         "DATE": "2025-10-22T03:50:58+00:00",
         "CC NUMBER": "NEW:CC-0065822",
         "Customer": "AUREUM VIETNAM COMPANY LIMITED]",
@@ -5280,15 +5082,6 @@
         "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_The syringe of holder C head H24S is bent._[NXTIII]",
         "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000VKod9YAD",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2025-09-26T00:58:35+00:00",
-        "CC NUMBER": "NEW:CC-0064646",
-        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
-        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_How to place SIP components even D716 occurs_[Nexim]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000Uw7KoYAJ",
         "CASE STATUS": ""
     },
     {
@@ -6018,15 +5811,6 @@
         "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Machine show error 98410000( Failed to share information_[NXTR-S]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001IekRaYAJ",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2025-07-21T23:31:05+00:00",
-        "CC NUMBER": "NEW:CC-0061690",
-        "Customer": "HANYANG DIGITECH VINA CO., LTD]",
-        "TOPIC": "Normal[HANYANG DIGITECH VINA CO., LTD]_The customer request the soft file for Flexa Licese Key with S/N: FL001-SE0136678-0001_[NXT]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001Iek6XYAR",
         "CASE STATUS": ""
     },
     {
