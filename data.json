@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T09:20:51+00:00",
+        "CC NUMBER": "CC-0083499",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_When NXTR automatically performs LCR measurement for capacitor (C) components during production, most C components show inaccurate measurement results that do not match the actual co...",
+        "Communication Content": "Dear Nam-san\n\nRegarding this matter, if you would like to request an investigation or corrective action,\n\nplease consult with your FUJI sales representative first.\n\nAs mentioned in a previous comment, components with a “high dielectric constant” are subject to the following limitations.\n\n\"For ceramic capacitors that have a high dielectric, there may be cases in which the nominal capacity value cannot be obtained.\"\n\nIt is difficult for the call center to provide any further information regarding cases that fall outside the specifications.\n\nIf you wish to conduct an investigation or implement improvements, this may require special paid services.\n\nPlease contact your FUJI sales representative.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Nam Nguyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IAUzgYAH"
+    },
+    {
         "DATE": "2026-11-19T09:02:16+00:00",
         "CC NUMBER": "NEW:CC-0086212",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
