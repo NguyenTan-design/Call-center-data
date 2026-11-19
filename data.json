@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-19T05:32:51+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen,\n\nAccording to our design team, the head moves to the mounting position before receiving the vision inspection result in order to improve mounting speed.\n\nIf you would like the head to wait for the inspection result and then either mount the component (OK) or discard it (NG), the Pre-Mount Discard function can be used.\n\nTo check whether a suitable patch is available for your environment, please provide the version.txt files from all PCs running Nexim?\n\nAdditionally, our design team recommends correcting the Actual Pickup Body Height value, as the current setting of \"0\" does not appear appropriate for the component shape.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
+        "DATE": "2026-11-19T05:19:25+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for your information.\n\nI understand that this issue still occurring and you already shred temporary workaround for clear the message with delete some data in the folder.\n\nHowever, the customer prior to run the production.\n\nIs this mean that the customer just ignore the multiple message from our system because of this message doesn't need?\n\nWe would like to know if this multiple message is affect to their production or system.\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
         "DATE": "2026-11-19T04:38:19+00:00",
         "CC NUMBER": "CC-0086025",
         "Customer": "BYD Electronics Vietnam Company Limited]",
