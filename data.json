@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T12:05:37+00:00",
+        "CC NUMBER": "CC-0083559",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_D701 Errors Not Counted in Accessory Software Pickup Statistics_[NXTR-S]",
+        "Communication Content": "Dear Chien sam\n\nWe checked trace data again and found that there was skipping feeder from the trace data.\n\nSo there was same situation happened at this customer as well.\n\nIf you really have not count situation without skipping, could you please share the detail with trace data and production data?\n\nThank you very much in advance.\n\nFUJI Toyama",
+        "FMV PIC": "Bui Chien",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001IIf0KYAT"
+    },
+    {
         "DATE": "2026-11-19T09:30:49+00:00",
         "CC NUMBER": "CC-0075394",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
