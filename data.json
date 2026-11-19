@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-19T02:07:17+00:00",
+        "CC NUMBER": "CC-0085982",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Overall processing: no matching start message observed in the existing data_[NXT]",
+        "Communication Content": "Dear Call Center,\n\nThank you very much for your support and for identifying the root cause of the issue.\n\nWe will discuss this with the customer and get back to you if there is any further update.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QBAB3YAP"
+    },
+    {
+        "DATE": "2026-11-19T01:58:44+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear Toyama-san,\n\nThank you very muck for your support\n\n*This issue still occur.\n\n*When i ask the customer How often is this issue happened? They did not provide a specific answer regarding how frequently it occurs. They only sent me a general description of the condition, as shown in the attached image.\n\n*I’ve shared instructions for a temporary workaround in the group, but they haven’t asked me to implement it yet. It seems they’re prioritizing production—they don’t want to stop the line to clear the circuit boards.\n\nFMV Dung",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
+        "DATE": "2026-11-19T01:58:09+00:00",
+        "CC NUMBER": "CC-0083178",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Mounter Machine – Hangup Error on Lane 1 Module 5 Line S05._NXTRでデュアルAA生産の際、レーン1の生産が途中で止まり不明な待ちの様な状態になる[NXTR-S]",
+        "Communication Content": "Dear Pham Hieu-san\n\nProblem Details\n\nA recovery process occurs while production is underway on one lane.\n\nAt that time, a “NG conveyor full” error occurs during production on the other lane.\n\nWhen these two events occur simultaneously, the issue described here arises.\n\nThe bug fix has been completed.\n\nThe bug fix has been completed.\n\nThere are also other issues at LITE-ON, such as CC-0085948.\n\nWe plan to release a version update that addresses these other issues as well.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Pham Hieu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HBPiSYAX"
+    },
+    {
         "DATE": "2026-11-19T01:42:06+00:00",
         "CC NUMBER": "CC-0086094",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
