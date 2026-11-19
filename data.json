@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T07:25:07+00:00",
+        "CC NUMBER": "CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "Dear Duc san,\n\nThe serial numbers (S/N) of the changeover modules that have already been made compatible with Sidelight2 in NXTR are as follows:\n\n1R: 847 and later\n\n2R: 471 and later\n\nSince the serial number is NXTR-1R(S)0001187, there is a possibility that it supports Sidelight2.\n\nPlease refer to the attached document, \"How to Check Whether Sidelight2 Is Supported\", and verify whether the unit is compatible.\n\nAfter checking, please send us a photo (screenshot) of the confirmation screen.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+    },
+    {
         "DATE": "2026-11-19T05:32:51+00:00",
         "CC NUMBER": "CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
