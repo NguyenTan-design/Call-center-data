@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-19T20:35:18+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Mr. Konda-san,\n\nWe recently upgraded the NXTR machine to Version V2.DBe. However, the same issue is still occurring on Module 4.\n\nWe have collected the trace data from Modules 3, 4, and 5 and uploaded it in the attached file. Could you please continue your analysis and help us identify the root cause of this issue?\n\nThank you very much for your continued support and assistance\n\nThanks & Best Regards!\n\nCong (Mr.)",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-19T15:36:44+00:00",
         "CC NUMBER": "CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
