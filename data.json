@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-20T07:07:29+00:00",
+        "CC NUMBER": "CC-0080867",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Customer request a \"Lane pitch setting\" when create nexim job_お客様より、NeximでJOBを作成する際に「Lane Pitch設定」機能を追加してほしいとの要望がありました。[NXTR]",
+        "Communication Content": "FMV Akira T様\n\nお世話になっております。\n\n本件、設計から調査に装置トレースとJOBの両方が必要と回答が出ております。\n\n現在も問題は発生していますでしょうか？\n\n発生している場合、装置トレースとJOBの両方がを取得可能でしょうか？\n\n以上、宜しくお願い致します。\n\n株式会社ＦＵＪＩ\n\nカスタマーサービス部　\n\nカスタマーサポート課\n\n寺澤　真梨恵",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001AvDbnYAF"
+    },
+    {
+        "DATE": "2026-11-20T07:07:11+00:00",
+        "CC NUMBER": "CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear KaKi san,\n\nI attach trace data as your request. Please check it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
+        "DATE": "2026-11-20T07:05:52+00:00",
+        "CC NUMBER": "CC-0086113",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module 3 can not load job when change over_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung,\n\nThanks for your explain but why after that, we delete job and transmit job again, 2 lane can load job and production normally.?\n\nAnd I check the setting of production mode is \"Dual (same job both lanes)\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QWjyeYAD"
+    },
+    {
         "DATE": "2026-11-20T06:26:40+00:00",
         "CC NUMBER": "CC-0079012",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
