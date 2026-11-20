@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-20T14:33:44+00:00",
+        "CC NUMBER": "NEW:CC-0086282",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Normal[Amkor Technology Vietnam Limited Liability Company]_Inquiry Regarding Remote Board Skip Behavior on NXTRA_[NXTR-A]",
+        "Communication Content": "Dear FUJI CALLCENTER,\n\nThe customer is currently using an NXTRA model as a demo machine.\n\nThe Remote Board Skip (RBS) option is enabled, and the configuration appears to be correct. Please refer to the attached image \"remote-setting.png\" for the settings.\n\nHowever, the following issue occurred:\n\nSituation\n\nOn Module #1, both the LEFT and RIGHT robots were manually skipped.\n\nAfter reading the PCB barcode, a Remote Board Skip command was executed.\n\n2026-11-19 11:35:18\n\nOperation  NXTR1  M1\n\n[(Host command) Remote board skip]\n\nTarget: 2R-L / Lane: 1\n\nPanel ID: AMV43260010704716037HGV\n\nBoard: 11: 3, 7, 13, 33, 35, 96, 106, 114, 145, 149...\n\n[Trace]\n\nThe PCB was mounted by the LEFT robot of Module #1 and was in process on the RIGHT robot. During production, the operator manually removed the PCB from the machine for cleaning.\n\nAfter cleaning, the same PCB was reloaded into Module #1 at approximately 14:08.\n\nAt 14:08, a new SPI process started, and Board No. 69 was additionally included in the Board Skip information.\n\nHowever, according to the machine Event Log, the machine used the same skip number but actually mounted Board No. 69 instead of skipping it.\n\nThe machine was operating using the existing RBS file.\n\nConcern\n\nWhat seems suspicious is the sequence of events.\n\nNormally, the Board Skip information is displayed after PCB Check-In, as observed at 11:35.\n\nHowever, at 14:08, the Board Skip information appeared first, and then PCB Check-In occurred.\n\nWe suspect this sequence may be related to the issue.\n\nThe RBS file and the corresponding TRACE data captured during PCB loading have been attached for analysis.\n\nQuestions\n\nCould this be a software bug?\n\nWhat is the root cause of this behavior?\n\nIs there a known condition that can trigger this issue?\n\nWhat preventive actions can be taken to avoid this phenomenon?\n\nWhat is the final recommended solution to ensure this issue does not occur again?\n\nIf any additional logs are required for further investigation, please let us know and we will provide them.\n\nThank you for your support.\n\nBest regards,",
+        "FMV PIC": "Kil Nam. KIM",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QyPiQYAV"
+    },
+    {
         "DATE": "2026-11-20T14:00:44+00:00",
         "CC NUMBER": "CC-0085407",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
