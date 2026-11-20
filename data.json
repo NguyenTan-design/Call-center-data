@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-20T03:16:29+00:00",
+        "CC NUMBER": "CC-0086212",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX line3: Service Fuji CFX interface auto turn off_CFX Line 3：FUJI CFX Interfaceサービスが自動的に停止する[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your support.\n\n- CC: When did the problem start?\n\n- FMV: I thing the problem was start from i install CFX for line 3 at 17/Nov/2026.\n\n- CC: Does the problem occur at all line/PC? Or specific line/PC?\n\n- FMV: I only install CFX 1 line NXTR for test\n\nI have attach C:\\CrashDumps folder\n\nPlease hepl me check and investigate more.\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Qkac7YAB"
+    },
+    {
         "DATE": "2026-11-20T03:05:50+00:00",
         "CC NUMBER": "CC-0085969",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
