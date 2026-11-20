@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-20T04:06:59+00:00",
+        "CC NUMBER": "CC-0085969",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 : Device name contains line breaks or leading/trailing whitespace; may be split into different sources_[NXT]",
+        "Communication Content": "Dear Call Center,\n\nWe checked the FUJI CFX Configuration and found one line containing an unexpected line break.\n\nWe have corrected it.\n\nThank you very much for your support.",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Q9dtxYAB"
+    },
+    {
+        "DATE": "2026-11-20T04:04:32+00:00",
+        "CC NUMBER": "CC-0086058",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Fault duration: no matching end message observed in the existing data_[NXT]",
+        "Communication Content": "Dear Vu san\n\nThank you very much for the inquiry.\n\nOur designer investigated log but there is remaining the log with the time period between 12,Nov to 16.Nov.\n\nSo we cannot find the record when the phenomenon happened on 31.Oct.\n\nSo we cannot investigated more deeply.\n\nOn the other hands, there is no same phenomenon between 12 to 16.Nov this phenomenon looks like happened only only specific time.\n\nPlease kindly monitor and take a same log when the issue happened next time.\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QMwsKYAT"
+    },
+    {
         "DATE": "2026-11-20T03:16:29+00:00",
         "CC NUMBER": "CC-0086212",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
