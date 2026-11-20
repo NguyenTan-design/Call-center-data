@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-20T05:33:56+00:00",
+        "CC NUMBER": "CC-0084880",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Feeder W08T1 Magnet Strength and  The copper piece is peeling off_[NXTR-S]",
+        "Communication Content": "Dear Tung san\n\nLet me close this case.\n\nIf you have any another question, please kindly register to new ticket.\n\nThank you very much for your support.\n\nFUJI Toyama",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MqijHYAR"
+    },
+    {
+        "DATE": "2026-11-20T05:30:25+00:00",
+        "CC NUMBER": "CC-0086113",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module 3 can not load job when change over_[NXTR-S]",
+        "Communication Content": "Dear Vu Tung,\n\nThank you for your inquiry.\n\nOur design team reviewed the trace data and confirmed that the machine is operating as designed.\n\nThe job is a single-lane job. Dual-lane production is unavailable with this job, so the machine runs production on one lane only.\n\nLet me know if you have further questions.\n\nBR,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QWjyeYAD"
+    },
+    {
+        "DATE": "2026-11-20T05:23:15+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Cong san,\n\nPlease let us know the situation when the problem occurred.\n\nWere the placement finished PCB not transfered? Or did they stop working even though production hadn't been completed?\n\nKonda,",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-20T05:02:59+00:00",
         "CC NUMBER": "CC-0075945",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
