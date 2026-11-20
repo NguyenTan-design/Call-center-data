@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-20T06:26:40+00:00",
+        "CC NUMBER": "CC-0079012",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Normal[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_8D062C01 Nozzle Station Mark Read Error_8D062C01 ノズルステーションのマーク読み取りエラー[NXTIII]",
+        "Communication Content": "Dear Amano san\n\nThank you very much for your support\n\nI have already swap the light and camera as a set again. But issue still same before swap.\n\nBefore test module3 line5: error rate is 2/10 time tests, module6 line5: error rate is 6/10 time tests.\n\nAfter test module3 line5: error rate is 2/10 time tests, module6 line5: error rate is 6/10 time tests.\n\nAt customer all module this issue occurs, so i don`t know swap to which module for confirm the light and camera. Can you sent me 1 set the light and camera for test?\n\nFMV Dung\n\nFMV Dung",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000015codAYAQ"
+    },
+    {
         "DATE": "2026-11-20T05:46:56+00:00",
         "CC NUMBER": "CC-0086086",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
