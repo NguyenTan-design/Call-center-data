@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-20T05:46:56+00:00",
+        "CC NUMBER": "CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nTo investigate why the machine hung during nozzle bend measurement,\n\ncould you please collect the machine trace data covering November 16, 2026, from 00:00 to 19:00 (local time)?\n\nThank you for your cooperation.\n\nBest regards,\n\n柯麒(Ka Ki)\n\nFUJI",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
+        "DATE": "2026-11-20T05:41:13+00:00",
+        "CC NUMBER": "CC-0075117",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._画面に表示されるエラーコードとエラー画像内のエラーコードをどのように同期させるか。[NXTR-S]",
+        "Communication Content": "Dear Do san\n\nSorry for pushing you.\n\nDo you have any update for this case?\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
         "DATE": "2026-11-20T05:33:56+00:00",
         "CC NUMBER": "CC-0084880",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
