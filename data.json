@@ -1,5 +1,50 @@
 [
     {
+        "DATE": "2026-11-20T01:46:34+00:00",
+        "CC NUMBER": "CC-0086049",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_new head RH08 alarm an error 8000198D_[NXTR-S]",
+        "Communication Content": "Dear Quyen san,\n\nWe consider this to be the same issue as CC-0082712. Please replace the bearing.\n\nWe would also like to collect the removed bearing for reference purposes.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Duong Quyen",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QLafKYAT"
+    },
+    {
+        "DATE": "2026-11-20T00:36:11+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Cong san,\n\nSorry but, this issue was not fixed in V2.DBe.\n\nIt is still under investigating.  Please wait our reply.\n\nKonda,",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
+        "DATE": "2026-11-20T00:34:46+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear Dung san\n\nThank you very much for your reply.\n\nI understand that the production is running normally but it's affect to CFX system.\n\nWhat kind affect does CFX has due to this issue?\n\nWe are currently preparing patch but we found some small issue.\n\nThis issue is not affect often but we are thinking that if this issue is not affect to production and CFX system, we would like to postpone the release date and release completely fine patch.\n\nIn this case, we can release okay patch on end of January currently.\n\nCould you tell me you opinion?\n\nPlease kindly check,\n\nFUJI Toyama",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
+        "DATE": "2026-11-20T00:30:53+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Tung-san,\n\nWe have reviewed the video and trace data you provided previously.\n\nThe feeder is advancing the tape by one pitch in the reverse direction during the initial positioning operation after the feeder is set.\n\nAnalysis\n\nAs part of the initial positioning operation, the feeder is designed to return the tape to the position where it was when the power was last turned off. (This is intended to restore the tape to the component position that was prepared during kitting.)\n\nIf the tape is pulled or otherwise moved while the feeder power is OFF, the feeder will attempt to return to the previously recorded position, resulting in movement in the reverse direction.\n\nRequest\n\nCould you please verify the kitting operation?\n\nSpecifically, please confirm whether the operator is performing component indexing manually without using the kitting stand, or carrying out any other operation that may pull or move the tape while the feeder power is OFF.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-20T00:20:20+00:00",
+        "CC NUMBER": "CC-0082959",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Small Images on monitoring_NXTRの操作画面にて、画像モニターに切り替えると表示が左上の方へ縮小されている時がある[NXTR-S]",
+        "Communication Content": "Dear Doan Nhon-san\n\nV2.DMm was supposed to be the version that resolved this issue.\n\nHowever, just in case it didn’t resolve the issue, I’ve set up a log to capture the details.\n\nI apologize for the inconvenience, but if the issue recurs, please capture a trace immediately after the symptom occurs.\n\nPlease also review my previous question.\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001Ge02oYAB"
+    },
+    {
         "DATE": "2026-11-19T20:35:18+00:00",
         "CC NUMBER": "CC-0085407",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
