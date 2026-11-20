@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-20T02:43:44+00:00",
+        "CC NUMBER": "CC-0084793",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_Hana Micron_Misalignment IC mounted by head RH08_[NXTR-S]",
+        "Communication Content": "Dear Chien san\n\nSorry for keep you waiting.\n\nWe are checking with designer team.\n\nWe would like to confirm some points regarding to placement shifting condition.\n\nCould you please provide below information?\n\n*Picture of shifting placement from AOI.\n\n*Shifting placement position(Board number, sequence number)\n\n*If there is tendency of which position has shifting placement often\n\nFUJI Toyama",
+        "FMV PIC": "Ngo Hoang",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001MSeAGYA1"
+    },
+    {
+        "DATE": "2026-11-20T02:43:04+00:00",
+        "CC NUMBER": "CC-0075945",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX: The same Panel ID is sending the same message multiple times._CFX：同一のパネルIDが同じメッセージを複数回送信しています。[Nexim]",
+        "Communication Content": "Dear Toyama san\n\nThank you very much for your support.\n\nIn the group chat the other day, I brought up the idea of ​​pushing back the patch release to next year, but I haven’t received a response yet. In my personal opinion, we should wait until next year to release the patch in its entirety.\n\nFMV Dung",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wn0NGYAY"
+    },
+    {
         "DATE": "2026-11-20T01:46:34+00:00",
         "CC NUMBER": "CC-0086049",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
