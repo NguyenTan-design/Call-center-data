@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-21T11:06:47+00:00",
+        "CC NUMBER": "NEW:CC-0086290",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Can not load APAM job when change APAM mode_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met problem when loading APAM job.\n\nAbout 17:56, when loading APAM job for module 1L only, the machine hangup like the video, I have to reset machine. after that I select APAM mode for both robot, JOb APAM can load. I try at version 2. DBc and 2.DBe also same problem. load APAM job for 1 side will be hangup.\n\nI take trace data, please help me fix this issue.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R3GpnYAF"
+    },
+    {
         "DATE": "2026-11-21T09:06:08+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
