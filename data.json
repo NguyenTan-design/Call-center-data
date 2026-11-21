@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-21T02:27:07+00:00",
+        "CC NUMBER": "NEW:CC-0086287",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module hangup during produciton_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the issue.\n\nAt 8h42, during production, module 2 hangup- head not moving. I have to cycle stop and start again can resume produciton. I take trace data and video. Please help me analyst it.\n\nIt happen at newest version V2.DBe. this phenomenon happen many time at all version. customer make noise. Please help to find the rootcause.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R0vJBYAZ"
+    },
+    {
         "DATE": "2026-11-20T14:33:44+00:00",
         "CC NUMBER": "NEW:CC-0086282",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
