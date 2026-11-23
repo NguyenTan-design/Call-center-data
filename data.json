@@ -1,5 +1,68 @@
 [
     {
+        "DATE": "2026-11-23T05:37:01+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_AVL Listに登録したパートナンバーが無いJOBで、NXTRのデータチェックをかけると内部処理異常になる[NXTR-S]",
+        "Communication Content": "Dear Minh-san\n\nWe have identified the cause of this issue.\n\nWe will make a correction to ensure that an internal processing error does not occur even when a part number listed in the AVL does not exist.\n\nWe plan to release a fixed version on November 27 and are proceeding accordingly.\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
+        "DATE": "2026-11-23T02:25:20+00:00",
+        "CC NUMBER": "NEW:CC-0086303",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_How to display \"Maximum Placing Pressure\" data in Fujitrax Web？_[Nexim]",
+        "Communication Content": "Dear Call Center,\n\nWe have a question regarding the traceability database system used by Lite-On. When querying the \"placement\" table via SQL Developer, we can see values ​​for \"Maximum Placing Pressure\"; however, no corresponding data appears when we perform a query in FUJITRAXWEB. Could you please advise on the necessary configuration to ensure this data is displayed in FUJITRAXWEB?\n\nI have attached images for your reference. Thank you for your support.\n\nBest regards,\n\nZhongmiao",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RAs8pYAD"
+    },
+    {
+        "DATE": "2026-11-23T02:08:25+00:00",
+        "CC NUMBER": "CC-0086290",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Can not load APAM job when change APAM mode_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nApologies for the interruption. We have found a solution to the issue, so please close this ticket. Should any further questions arise, we will reach out to you again.Thank you for your help and support.\n\nBest Regards\n\nMiao",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R3GpnYAF"
+    },
+    {
+        "DATE": "2026-11-23T01:00:44+00:00",
+        "CC NUMBER": "CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san\n\nCC-0084026　Luxshare Precision (Yi'an) Co.,Ltd　6028_V3.2.100_DataUpdate_Optimizer_Patch\n\nI have sent the updated patch “6028” via the file transfer account.\n\nThe password is as follows:\n\nDownload\t: \"j8PVPwBY\"\n\nZIP\t: \"6D7V2eP2\"\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
+        "DATE": "2026-11-22T13:46:01+00:00",
+        "CC NUMBER": "CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nPlease provide an update on the progress of modifying the patch 5947_V3.2.100_DataUpdate_Optimizer_Patch. The customer is urging us to upgrade to version V2.DNc so they can use the \"Is Push Sequence\" function.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
+        "DATE": "2026-11-22T10:34:53+00:00",
+        "CC NUMBER": "CC-0076174",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Backup table was scratched or rusted so backup pin check function Error_[NXTR-S]",
+        "Communication Content": "Dear Toyama san\n\nLast time, we got 3 pen from Fuji Japan, but it is temporary. After 1 week it scratch again at table clamp position and have to pain again. Until now, The pen has run out of ink. So Change ne backup table is neccesary.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000xUhlaYAC"
+    },
+    {
+        "DATE": "2026-11-22T04:34:40+00:00",
+        "CC NUMBER": "NEW:CC-0086291",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Conveyance problem_[NXTR-S]",
+        "Communication Content": "Dear Call Center Team,\n\nWe have encountered a conveyance issue at Luxshare ICT.\n\nAfter the PCB was conveyed into the machine, the equipment failed to mount components onto the PCB. However, the PCB was automatically conveyed to the next stage even though the components had not been mounted.\n\nAdditionally, when the issue occurred, the error code was not saved on the computer, so I could not remember the exact error code number. However, since the Call Center team requires us to provide an error code when reporting an issue, I entered a similar error code in the system for your reference. If this issue occurs again, I will make sure to record the exact error code number and provide it to you for further investigation.\n\nCould you please help us investigate the root cause of this issue and advise us on the appropriate corrective actions?\n\nWe look forward to hearing from you.\n\nBest regards,\n\nNhon Doan,",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R6hQRYAZ"
+    },
+    {
         "DATE": "2026-11-21T11:06:47+00:00",
         "CC NUMBER": "NEW:CC-0086290",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
