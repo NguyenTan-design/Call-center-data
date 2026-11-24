@@ -1755,7 +1755,7 @@
       <div class="report-toolbar">
         <input id="report-search-topic" type="text" placeholder="Search TOPIC">
         <input id="report-search-cc" type="text" placeholder="Search CC NUMBER">
-        <input id="report-search-content" type="text" placeholder="Search COMMUNICATION CONTENT">
+        <input id="report-search-content" type="text" placeholder="Search linked COMMUNICATION CONTENT">
       </div>
       <div class="report-actions">
         <label class="report-select-all-label">
@@ -1771,11 +1771,10 @@
           <thead>
             <tr>
               <th style="width:36px"></th>
-              <th style="width:100px">DATE</th>
-              <th style="width:130px">CC NUMBER</th>
-              <th style="width:180px">CUSTOMER</th>
-              <th style="width:220px">TOPIC</th>
-              <th>COMMUNICATION CONTENT</th>
+              <th style="width:110px">DATE</th>
+              <th style="width:150px">CC NUMBER</th>
+              <th style="width:220px">CUSTOMER</th>
+              <th>TOPIC</th>
             </tr>
           </thead>
           <tbody id="report-tbody"></tbody>
@@ -2247,7 +2246,8 @@ clearStoredUserInfo();
 
   const REPORT_PAGE_SIZE = 100;
 
-  let reportData     = null;   // tất cả record đã normalize
+  let reportData     = null;   // danh sách record chọn từ data2.json
+  let reportCommunicationByCC = new Map(); // nội dung lấy từ data.json, khóa theo CC NUMBER đã chuẩn hóa
   let reportFiltered = [];     // sau khi filter
   let reportSelected = new Set(); // Set<__reportId>
   let reportAnchorIdx = -1;
@@ -2280,67 +2280,177 @@ clearStoredUserInfo();
       .trim() || "report";
   }
 
-  // Chuẩn hoá CC NUMBER theo yêu cầu:
-  //  - Nếu có "NEW:" ở đầu -> bỏ, chỉ lấy 10 ký tự cuối
-  //  - Ngược lại giữ nguyên
+  // Chuẩn hóa CC NUMBER dùng chung cho data2.json và data.json.
+  // NEW:CC-0086303 -> CC-0086303 (lấy 10 ký tự cuối sau NEW:).
+  // Chuẩn hóa chữ hoa để không bị lệch khi so khớp do khác kiểu chữ.
   function normalizeReportCC(cc) {
-    const s = String(cc ?? "").trim();
-    const m = s.match(/^NEW:\s*(.*)$/i);
-    if (m) {
-      const rest = m[1].trim();
-      return rest.length > 10 ? rest.slice(-10) : rest;
-    }
-    return s;
+    const source = String(cc ?? "").trim();
+    const newMatch = source.match(/^NEW:\s*(.*)$/i);
+    const normalized = newMatch
+      ? newMatch[1].trim().slice(-10)
+      : source;
+    return normalized.trim().toUpperCase();
   }
 
-  function parseDateForSort(dateStr) {
-    if (!dateStr) return 0;
-    const s = String(dateStr).trim();
-    const t = Date.parse(s);
-    if (!isNaN(t)) return t;
-    const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
-    if (m) {
-      let year = parseInt(m[3], 10);
+  // Chuyển ngày về timestamp để sắp xếp từ cũ đến mới.
+  // Ưu tiên ISO (YYYY-MM-DD); định dạng có dấu / hoặc - theo DD/MM/YYYY,
+  // ngoại trừ trường hợp phần đầu rõ ràng là tháng (phần thứ hai > 12).
+  function parseDateForSort(dateValue) {
+    if (dateValue === null || dateValue === undefined || dateValue === "") return 0;
+
+    if (typeof dateValue === "number" && Number.isFinite(dateValue)) {
+      if (dateValue > 1e12) return dateValue;                 // milliseconds
+      if (dateValue > 1e9) return dateValue * 1000;          // Unix seconds
+      if (dateValue > 20000 && dateValue < 100000) {         // Excel serial date
+        return new Date(Date.UTC(1899, 11, 30) + dateValue * 86400000).getTime();
+      }
+    }
+
+    const s = String(dateValue).trim();
+    if (!s) return 0;
+
+    // Một số file JSON xuất ngày Excel dưới dạng chuỗi số.
+    if (/^\d+(?:\.\d+)?$/.test(s)) {
+      const numericDate = Number(s);
+      if (numericDate > 1e12) return numericDate;
+      if (numericDate > 1e9) return numericDate * 1000;
+      if (numericDate > 20000 && numericDate < 100000) {
+        return new Date(Date.UTC(1899, 11, 30) + numericDate * 86400000).getTime();
+      }
+    }
+
+    const yearFirst = s.match(/^(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})(.*)$/);
+    if (yearFirst) {
+      const parsedIso = Date.parse(s);
+      if (!Number.isNaN(parsedIso)) return parsedIso;
+      const y = Number(yearFirst[1]), mo = Number(yearFirst[2]), d = Number(yearFirst[3]);
+      const date = new Date(y, mo - 1, d);
+      return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+    }
+
+    const dayMonthYear = s.match(/^(\d{1,2})[/.\-](\d{1,2})[/.\-](\d{2,4})(?:[ T](\d{1,2}):(\d{2})(?::(\d{2}))?)?$/);
+    if (dayMonthYear) {
+      const first = Number(dayMonthYear[1]);
+      const second = Number(dayMonthYear[2]);
+      let day = first;
+      let month = second;
+      if (first <= 12 && second > 12) {
+        month = first;
+        day = second;
+      }
+      let year = Number(dayMonthYear[3]);
       if (year < 100) year += 2000;
-      return new Date(year, parseInt(m[2], 10) - 1, parseInt(m[1], 10)).getTime();
+      const date = new Date(
+        year, month - 1, day,
+        Number(dayMonthYear[4] || 0),
+        Number(dayMonthYear[5] || 0),
+        Number(dayMonthYear[6] || 0)
+      );
+      return Number.isNaN(date.getTime()) ? 0 : date.getTime();
     }
-    return 0;
+
+    const parsed = Date.parse(s);
+    return Number.isNaN(parsed) ? 0 : parsed;
   }
 
-  // --- load data2.json -------------------------------------------
+  // --- load report list from data2.json and communication contents from data.json ---
   async function loadReportData() {
     if (reportData) return reportData;
     if (reportLoading) return reportLoading;
 
     reportLoading = (async () => {
-      const res = await fetch(GRAPH_DATA_SOURCE);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const raw = await res.json();
+      const [listResponse, contentResponse] = await Promise.all([
+        fetch(GRAPH_DATA_SOURCE),
+        fetch("data.json")
+      ]);
 
-      reportData = raw.map((item, idx) => {
+      if (!listResponse.ok) {
+        throw new Error(`Cannot load ${GRAPH_DATA_SOURCE}: HTTP ${listResponse.status}`);
+      }
+      if (!contentResponse.ok) {
+        throw new Error(`Cannot load data.json: HTTP ${contentResponse.status}`);
+      }
+
+      const [listRaw, contentRaw] = await Promise.all([
+        listResponse.json(),
+        contentResponse.json()
+      ]);
+
+      if (!Array.isArray(listRaw)) {
+        throw new Error(`${GRAPH_DATA_SOURCE} must contain a JSON array.`);
+      }
+      if (!Array.isArray(contentRaw)) {
+        throw new Error("data.json must contain a JSON array.");
+      }
+
+      // Chỉ lấy COMMUNICATION CONTENT từ data.json và gom theo CC NUMBER.
+      const communicationMap = new Map();
+      contentRaw.forEach((item, idx) => {
+        const ccRaw = _getFieldValue(item, [/^cc\s*number$/i, /cc\s*number/i, /cc.*num/i]);
+        const ccKey = normalizeReportCC(ccRaw);
+        if (!ccKey) return;
+
+        const dateRaw = _getFieldValue(item, [/^date$/i, /date/i]);
+        const contentRawValue = _getFieldValue(item, [
+          /^communication\s*content$/i,
+          /communication\s*content/i,
+          /^content$/i
+        ]);
+        const content = String(contentRawValue ?? "");
+        if (!content.trim()) return;
+
+        if (!communicationMap.has(ccKey)) communicationMap.set(ccKey, []);
+        communicationMap.get(ccKey).push({
+          __sourceOrder: idx,
+          __cc_norm: ccKey,
+          __date: String(dateRaw ?? ""),
+          __content: content
+        });
+      });
+
+      // Sắp xếp nội dung liên lạc theo thời gian tăng dần (cũ -> mới).
+      for (const records of communicationMap.values()) {
+        records.sort((a, b) => {
+          const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+          return diff || a.__sourceOrder - b.__sourceOrder;
+        });
+      }
+      reportCommunicationByCC = communicationMap;
+
+      // data2.json chỉ cung cấp danh sách record để MASTER chọn và metadata.
+      // Không đọc Communication Content từ data2.json.
+      reportData = listRaw.map((item, idx) => {
         const ccRaw       = _getFieldValue(item, [/^cc\s*number$/i, /cc\s*number/i, /cc.*num/i]);
         const dateRaw     = _getFieldValue(item, [/^date$/i, /date/i]);
         const customerRaw = _getFieldValue(item, [/^customer$/i, /customer/i]);
         const topicRaw    = _getFieldValue(item, [/^topic$/i, /topic/i]);
-        const contentRaw  = _getFieldValue(item,
-          [/^communication\s*content$/i, /communication\s*content/i, /content/i]);
+        const ccKey       = normalizeReportCC(ccRaw);
+        const linkedContents = reportCommunicationByCC.get(ccKey) || [];
 
         return {
           ...item,
           __reportId: idx,
           __cc:       normalizeCc(ccRaw),
-          __cc_norm:  normalizeReportCC(ccRaw),
+          __cc_norm:  ccKey,
           __date:     String(dateRaw ?? ""),
           __customer: String(customerRaw ?? ""),
           __topic:    String(topicRaw ?? ""),
-          __content:  String(contentRaw ?? "")
+          // Chỉ dùng để hỗ trợ chức năng tìm kiếm nội dung trong danh sách REPORT.
+          __content:  linkedContents.map(record => record.__content).join("\n")
         };
       });
 
       return reportData;
     })();
 
-    return reportLoading;
+    try {
+      return await reportLoading;
+    } catch (error) {
+      reportLoading = null;
+      reportData = null;
+      reportCommunicationByCC = new Map();
+      throw error;
+    }
   }
 
   // --- modal lifecycle -------------------------------------------
@@ -2352,14 +2462,14 @@ clearStoredUserInfo();
     reportModal.classList.add("show");
     if (!reportData) {
       reportTbody.innerHTML =
-        '<tr class="empty-row"><td colspan="6">Loading data2.json...</td></tr>';
+        '<tr class="empty-row"><td colspan="5">Loading report data...</td></tr>';
     }
     loadReportData()
       .then(() => { applyReportFilters(); })
       .catch(err => {
         console.error("Report data load failed:", err);
         reportTbody.innerHTML =
-          '<tr class="empty-row"><td colspan="6">Failed to load data2.json.</td></tr>';
+          '<tr class="empty-row"><td colspan="5">Failed to load report data. Please check data.json and data2.json.</td></tr>';
       });
   }
   function closeReportModal() {
@@ -2374,7 +2484,8 @@ clearStoredUserInfo();
 
     reportFiltered = reportData.filter(r => {
       if (topic   && !r.__topic.toLowerCase().includes(topic))     return false;
-      if (cc      && !r.__cc.toLowerCase().includes(cc))           return false;
+      if (cc && !r.__cc.toLowerCase().includes(cc) &&
+          !r.__cc_norm.toLowerCase().includes(cc)) return false;
       if (content && !r.__content.toLowerCase().includes(content)) return false;
       return true;
     });
@@ -2398,7 +2509,7 @@ clearStoredUserInfo();
       const tr = document.createElement("tr");
       tr.className = "empty-row";
       const td = document.createElement("td");
-      td.colSpan = 6;
+      td.colSpan = 5;
       td.textContent = "No records match the current filters.";
       tr.appendChild(td);
       reportTbody.appendChild(tr);
@@ -2431,7 +2542,6 @@ clearStoredUserInfo();
         tr.appendChild(mk(r.__cc));
         tr.appendChild(mk(r.__customer));
         tr.appendChild(mk(r.__topic));
-        tr.appendChild(mk(r.__content));
 
         tr.addEventListener("click", (e) => handleReportRowClick(e, i));
         reportTbody.appendChild(tr);
@@ -2529,13 +2639,20 @@ clearStoredUserInfo();
     reportGenerateBtn.disabled = totalSelected === 0;
   }
 
-  // --- Generate report -------------------------------------------
-  function buildReportElement(ccNumber, records) {
-    const sorted = records.slice().sort(
-      (a, b) => parseDateForSort(a.__date) - parseDateForSort(b.__date));
+  // --- Generate report -----------------------------------------------------
+  function buildReportElement(ccNumber, reportRecords, communicationRecords) {
+    const sortedMetadata = reportRecords.slice().sort((a, b) => {
+      const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+      return diff;
+    });
+    const sortedCommunication = (communicationRecords || []).slice().sort((a, b) => {
+      const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+      return diff || (a.__sourceOrder || 0) - (b.__sourceOrder || 0);
+    });
 
-    const customer = (sorted.find(r => r.__customer) || {}).__customer || "(N/A)";
-    const topic    = (sorted.find(r => r.__topic)    || {}).__topic    || "(N/A)";
+    // CUSTOMER và TOPIC lấy từ record trong data2.json có cùng CC NUMBER.
+    const customer = (sortedMetadata.find(r => r.__customer) || {}).__customer || "(N/A)";
+    const topic = (sortedMetadata.find(r => r.__topic) || {}).__topic || "(N/A)";
 
     const wrap = document.createElement("div");
     wrap.style.fontFamily = 'Arial, Helvetica, sans-serif';
@@ -2553,8 +2670,11 @@ clearStoredUserInfo();
     h1.style.paddingBottom = '8px';
     wrap.appendChild(h1);
 
+    // Khối metadata nằm ở đầu tài liệu để luôn xuất hiện từ trang đầu tiên.
     const meta = document.createElement("div");
     meta.style.margin = '10px 0 16px 0';
+    meta.style.pageBreakInside = 'avoid';
+    meta.style.breakInside = 'avoid';
     const cLine = document.createElement("div");
     cLine.innerHTML = `<strong>Customer:</strong> ${_escapeHtml(customer)}`;
     const tLine = document.createElement("div");
@@ -2569,31 +2689,42 @@ clearStoredUserInfo();
     hr.style.margin = '12px 0';
     wrap.appendChild(hr);
 
-    sorted.forEach((r, idx) => {
+    if (sortedCommunication.length === 0) {
+      const empty = document.createElement("div");
+      empty.textContent = "No COMMUNICATION CONTENT records found in data.json for this CC NUMBER.";
+      empty.style.fontStyle = 'italic';
+      empty.style.color = '#666';
+      wrap.appendChild(empty);
+      return wrap;
+    }
+
+    // Ghép toàn bộ COMMUNICATION CONTENT trong data.json theo thứ tự thời gian cũ -> mới.
+    sortedCommunication.forEach((record, idx) => {
       const entry = document.createElement("div");
       entry.style.marginBottom = '10px';
+      entry.style.pageBreakInside = 'avoid';
+      entry.style.breakInside = 'avoid';
 
-      const d = document.createElement("div");
-      d.style.fontWeight = 'bold';
-      d.style.marginBottom = '4px';
-      d.textContent = `Date: ${r.__date || "(N/A)"}`;
-      entry.appendChild(d);
+      const dateLine = document.createElement("div");
+      dateLine.style.fontWeight = 'bold';
+      dateLine.style.marginBottom = '4px';
+      dateLine.textContent = `Date: ${record.__date || "(N/A)"}`;
+      entry.appendChild(dateLine);
 
-      const c = document.createElement("div");
-      c.style.whiteSpace = 'pre-wrap';
-      c.style.wordBreak = 'break-word';
-      c.textContent = r.__content || "(no content)";
-      entry.appendChild(c);
-
+      const contentLine = document.createElement("div");
+      contentLine.style.whiteSpace = 'pre-wrap';
+      contentLine.style.wordBreak = 'break-word';
+      contentLine.textContent = record.__content;
+      entry.appendChild(contentLine);
       wrap.appendChild(entry);
 
-      if (idx < sorted.length - 1) {
-        const sep = document.createElement("div");
-        sep.style.textAlign = 'center';
-        sep.style.color = '#888';
-        sep.style.margin = '8px 0';
-        sep.textContent = "------------------";
-        wrap.appendChild(sep);
+      if (idx < sortedCommunication.length - 1) {
+        const separator = document.createElement("div");
+        separator.style.textAlign = 'center';
+        separator.style.color = '#888';
+        separator.style.margin = '8px 0';
+        separator.textContent = "------------------";
+        wrap.appendChild(separator);
       }
     });
 
@@ -2629,7 +2760,8 @@ clearStoredUserInfo();
   }
 
   async function generatePDFForCC(ccNumber, records) {
-    const el = buildReportElement(ccNumber, records);
+    const communicationRecords = reportCommunicationByCC.get(ccNumber) || [];
+    const el = buildReportElement(ccNumber, records, communicationRecords);
     const hidden = document.createElement("div");
     hidden.style.position = 'fixed';
     hidden.style.left = '-99999px';
@@ -2686,7 +2818,8 @@ clearStoredUserInfo();
           const dir = await window.showDirectoryPicker({ mode: 'readwrite' });
           let saved = 0;
           for (const [cc, records] of entries) {
-            const el = buildReportElement(cc, records);
+            const communicationRecords = reportCommunicationByCC.get(cc) || [];
+            const el = buildReportElement(cc, records, communicationRecords);
             const hidden = document.createElement("div");
             hidden.style.position = 'fixed';
             hidden.style.left = '-99999px';
