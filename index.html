@@ -279,6 +279,42 @@
     text-overflow: ellipsis;
   }
 
+  .cc-cell-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+  }
+  .cc-cell-content .cell-value {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+  .cc-quick-filter {
+    flex: 0 0 17px;
+    width: 17px;
+    height: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(148, 163, 184, .28);
+    border-radius: 4px;
+    background: rgba(148, 163, 184, .10);
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1;
+    opacity: .42;
+    cursor: pointer;
+    transition: opacity .15s ease, background .15s ease, border-color .15s ease;
+  }
+  .cc-quick-filter:hover {
+    opacity: .95;
+    background: rgba(148, 163, 184, .22);
+    border-color: rgba(148, 163, 184, .65);
+    color: #cbd5e1;
+  }
+
   td[data-label="TOPIC"] .cell-value {
     white-space: normal;
     overflow-wrap: break-word;
@@ -1951,6 +1987,7 @@
 
   const filters = {
     cc: "",
+    ccGroup: "", // lọc tất cả record có cùng CC NUMBER đã chuẩn hóa (MASTER quick filter)
     topic: "",
     content: "",
     newOnly: false,
@@ -2280,16 +2317,12 @@ clearStoredUserInfo();
       .trim() || "report";
   }
 
-  // Chuẩn hóa CC NUMBER dùng chung cho data2.json và data.json.
-  // NEW:CC-0086303 -> CC-0086303 (lấy 10 ký tự cuối sau NEW:).
-  // Chuẩn hóa chữ hoa để không bị lệch khi so khớp do khác kiểu chữ.
+  // Chuẩn hóa CC NUMBER thống nhất cho data.json, data2.json và bộ lọc nhanh.
+  // NEW:CC-0086303 -> CC-0086303; bỏ NEW: rồi chỉ so khớp 10 ký tự cuối.
   function normalizeReportCC(cc) {
     const source = String(cc ?? "").trim();
-    const newMatch = source.match(/^NEW:\s*(.*)$/i);
-    const normalized = newMatch
-      ? newMatch[1].trim().slice(-10)
-      : source;
-    return normalized.trim().toUpperCase();
+    const withoutNewPrefix = source.replace(/^NEW:\s*/i, "").trim();
+    return withoutNewPrefix.slice(-10).trim().toUpperCase();
   }
 
   // Chuyển ngày về timestamp để sắp xếp từ cũ đến mới.
@@ -2609,13 +2642,26 @@ clearStoredUserInfo();
     const filteredSelected = reportFiltered.reduce(
       (n, r) => n + (reportSelected.has(r.__reportId) ? 1 : 0), 0);
 
+    // Một PDF được tạo cho mỗi CC NUMBER duy nhất; các record trùng CC được gộp chung.
+    const selectedCCs = new Set();
+    let selectedWithoutCC = 0;
+    if (reportData) {
+      for (const r of reportData) {
+        if (!reportSelected.has(r.__reportId)) continue;
+        if (r.__cc_norm) selectedCCs.add(r.__cc_norm);
+        else selectedWithoutCC++;
+      }
+    }
+
     if (totalSelected === 0) {
       reportSelectionInfo.textContent = "0 selected";
-    } else if (totalSelected === filteredSelected) {
-      reportSelectionInfo.textContent = `${totalSelected} selected`;
     } else {
+      const scopeText = totalSelected === filteredSelected
+        ? ""
+        : ` (${filteredSelected} in current filter)`;
+      const missingText = selectedWithoutCC ? ` · ${selectedWithoutCC} without CC` : "";
       reportSelectionInfo.textContent =
-        `${totalSelected} selected (${filteredSelected} in current filter)`;
+        `${totalSelected} records · ${selectedCCs.size} reports${scopeText}${missingText}`;
     }
 
     if (reportFiltered.length === 0) {
@@ -2732,30 +2778,18 @@ clearStoredUserInfo();
   }
 
   async function saveBlobWithPicker(blob, filename) {
-    if ('showSaveFilePicker' in window) {
-      try {
-        const handle = await window.showSaveFilePicker({
-          suggestedName: filename,
-          types: [{ description: 'PDF Document', accept: { 'application/pdf': ['.pdf'] } }]
-        });
-        const writable = await handle.createWritable();
-        await writable.write(blob);
-        await writable.close();
-        return true;
-      } catch (err) {
-        if (err && err.name === 'AbortError') return false;
-        console.warn("showSaveFilePicker failed, fallback to download:", err);
-      }
-    }
-    // Fallback: download
+    // Không mở hộp thoại Save As: tự tải xuống với tên CC NUMBER.pdf.
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
     a.download = filename;
+    a.style.display = "none";
     document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
-    setTimeout(() => URL.revokeObjectURL(url), 3000);
+    a.remove();
+    // Giữ object URL đủ lâu để trình duyệt bắt đầu tải file.
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    await new Promise(resolve => setTimeout(resolve, 120));
     return true;
   }
 
@@ -2787,80 +2821,63 @@ clearStoredUserInfo();
   }
 
   async function generateReport() {
-    if (reportSelected.size === 0) return;
+    if (reportSelected.size === 0 || !Array.isArray(reportData)) return;
 
-    // Gom nhóm các record được chọn theo CC NUMBER đã chuẩn hoá
+    // Lấy trực tiếp toàn bộ record đã chọn, sau đó gom theo CC NUMBER chuẩn hóa.
+    // 702 record nhưng chỉ có 696 CC NUMBER duy nhất thì đúng là tạo 696 PDF,
+    // vì mỗi PDF chứa toàn bộ lịch sử COMMUNICATION CONTENT của một CC NUMBER.
+    const selectedRecords = reportData.filter(r => reportSelected.has(r.__reportId));
     const groups = new Map();
-    reportSelected.forEach(id => {
-      const r = reportData.find(x => x.__reportId === id);
-      if (!r) return;
-      const cc = r.__cc_norm || "UNKNOWN";
+    let skippedMissingCC = 0;
+
+    for (const record of selectedRecords) {
+      const cc = record.__cc_norm || normalizeReportCC(record.__cc);
+      if (!cc) {
+        skippedMissingCC++;
+        continue;
+      }
       if (!groups.has(cc)) groups.set(cc, []);
-      groups.get(cc).push(r);
-    });
+      groups.get(cc).push(record);
+    }
 
-    const entries = [...groups.entries()];
-    if (entries.length === 0) return;
-
-    if (entries.length > 5 &&
-        !confirm(`This will generate ${entries.length} separate PDF reports. Continue?`)) {
+    const entries = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+    if (entries.length === 0) {
+      alert("No report can be generated because the selected records do not contain a valid CC NUMBER.");
       return;
     }
 
+    const consolidatedRecords = selectedRecords.length - skippedMissingCC - entries.length;
+    const confirmationLines = [
+      `${selectedRecords.length} record(s) selected.`,
+      `${entries.length} PDF report(s) will be generated for ${entries.length} unique CC NUMBER value(s).`,
+      "Records with the same CC NUMBER will be combined into one PDF report."
+    ];
+    if (consolidatedRecords > 0) {
+      confirmationLines.push(`${consolidatedRecords} duplicate-CC record(s) will be included in their matching reports.`);
+    }
+    if (skippedMissingCC > 0) {
+      confirmationLines.push(`${skippedMissingCC} record(s) without a CC NUMBER will be skipped.`);
+    }
+    confirmationLines.push("Continue?");
+
+    if (entries.length > 5 && !confirm(confirmationLines.join("\n"))) return;
+
     const originalText = reportGenerateBtn.textContent;
     reportGenerateBtn.disabled = true;
-    reportGenerateBtn.textContent = "Generating...";
 
     try {
-      // Nhiều CC -> thử chọn folder 1 lần
-      if (entries.length > 1 && 'showDirectoryPicker' in window) {
-        try {
-          const dir = await window.showDirectoryPicker({ mode: 'readwrite' });
-          let saved = 0;
-          for (const [cc, records] of entries) {
-            const communicationRecords = reportCommunicationByCC.get(cc) || [];
-            const el = buildReportElement(cc, records, communicationRecords);
-            const hidden = document.createElement("div");
-            hidden.style.position = 'fixed';
-            hidden.style.left = '-99999px';
-            hidden.style.top = '0';
-            hidden.style.width = '210mm';
-            hidden.style.background = '#fff';
-            hidden.appendChild(el);
-            document.body.appendChild(hidden);
-
-            try {
-              const blob = await html2pdf().set({
-                margin: [10, 10, 10, 10],
-                image: { type: 'jpeg', quality: 0.95 },
-                html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', logging: false },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-                pagebreak: { mode: ['css', 'legacy'] }
-              }).from(el).outputPdf('blob');
-
-              const fileName = _sanitizeFilename(cc) + '.pdf';
-              const fh = await dir.getFileHandle(fileName, { create: true });
-              const w = await fh.createWritable();
-              await w.write(blob);
-              await w.close();
-              saved++;
-            } finally {
-              document.body.removeChild(hidden);
-            }
-          }
-          alert(`Saved ${saved} report(s).`);
-          return;
-        } catch (err) {
-          if (err && err.name === 'AbortError') return;
-          console.warn("Directory picker failed, fallback to per-file:", err);
-        }
-      }
-
-      // Từng file (hoặc fallback)
+      let saved = 0;
       for (const [cc, records] of entries) {
+        reportGenerateBtn.textContent = `Generating ${saved + 1}/${entries.length}...`;
         const ok = await generatePDFForCC(cc, records);
-        if (!ok) return; // user cancelled
+        if (!ok) return;
+        saved++;
       }
+
+      const summary = `Downloaded ${saved} PDF report(s) for ${selectedRecords.length} selected record(s).`;
+      alert(skippedMissingCC > 0
+        ? `${summary}\nSkipped ${skippedMissingCC} record(s) without a valid CC NUMBER.`
+        : summary);
     } catch (err) {
       console.error("Generate report failed:", err);
       alert("Failed to generate report: " + (err.message || err));
@@ -3278,6 +3295,7 @@ clearStoredUserInfo();
 
   clearBtn.addEventListener("click", () => {
     filters.cc = "";
+    filters.ccGroup = "";
     filters.topic = "";
     filters.content = "";
     filters.newOnly = false;
@@ -4723,12 +4741,40 @@ clearStoredUserInfo();
     };
   }
 
+  function filterMainByCCNumber(rawCC) {
+    if (!isMasterUser()) return;
+    const normalizedCC = normalizeReportCC(rawCC);
+    if (!normalizedCC) return;
+
+    // Đây là bộ lọc nhóm độc lập: bỏ các điều kiện lọc cũ để hiện đủ record cùng CC.
+    filters.cc = "";
+    filters.ccGroup = normalizedCC;
+    filters.topic = "";
+    filters.content = "";
+    filters.newOnly = false;
+    filters.customerGroup = null;
+
+    ccInput.value = "";
+    topicInput.value = "";
+    contentInput.value = "";
+    newBtn.classList.remove("active");
+    newBtn.setAttribute("aria-pressed", "false");
+    natBtn.classList.remove("active");
+    natBtn.setAttribute("aria-pressed", "false");
+    otherBtn.classList.remove("active");
+    otherBtn.setAttribute("aria-pressed", "false");
+
+    applyFilters();
+    status.textContent = `Showing all records for CC NUMBER: ${normalizedCC}`;
+  }
+
   function applyFilters() {
     const activeList = filters.customerGroup
       ? customerListCache[filters.customerGroup]
       : null;
 
     filteredData = allData.filter(item =>
+      (!filters.ccGroup || normalizeReportCC(item["CC NUMBER"]) === filters.ccGroup) &&
       (filters.cc === "" || item[FIELD_MAP.cc.key].includes(filters.cc)) &&
       (filters.topic === "" || item[FIELD_MAP.topic.key].includes(filters.topic)) &&
       (filters.content === "" || item[FIELD_MAP.content.key].includes(filters.content)) &&
@@ -4776,7 +4822,31 @@ clearStoredUserInfo();
       const value = document.createElement("span");
       value.className = "cell-value";
       value.textContent = item[col.field] ?? "";
-      td.appendChild(value);
+
+      if (col.field === "CC NUMBER") {
+        const ccWrap = document.createElement("div");
+        ccWrap.className = "cc-cell-content";
+        ccWrap.appendChild(value);
+
+        // Nút lọc nhanh chỉ hiển thị với tài khoản MASTER.
+        if (isMasterUser() && normalizeReportCC(item[col.field])) {
+          const quickFilterBtn = document.createElement("button");
+          quickFilterBtn.type = "button";
+          quickFilterBtn.className = "cc-quick-filter";
+          quickFilterBtn.textContent = "⌕";
+          quickFilterBtn.title = `Show all records with CC NUMBER ${normalizeReportCC(item[col.field])}`;
+          quickFilterBtn.setAttribute("aria-label", "Filter all records with this CC NUMBER");
+          quickFilterBtn.addEventListener("click", (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            filterMainByCCNumber(item[col.field]);
+          });
+          ccWrap.appendChild(quickFilterBtn);
+        }
+        td.appendChild(ccWrap);
+      } else {
+        td.appendChild(value);
+      }
 
       tr.appendChild(td);
     }
