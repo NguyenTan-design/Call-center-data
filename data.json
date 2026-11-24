@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-24T09:16:30+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen,\n\nYou mentioned earlier that you had already installed Patch 2438.\n\nBut the Version.txt file you provided shows that Patch 2438 was not installed. Could you please confirm whether it is now installed?\n\nIf it is installed, please open the affected job and check whether [Prevent Reject Part Drop Mode] is set to On. The job file was not attached, so we could not verify the setting on our side.\n\nIf the setting is On and the machine still does not operate as expected, please let us know the time when the issue occurs in your machine trace so we can ask our machine application team to investigate.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
         "DATE": "2026-11-24T07:47:13+00:00",
         "CC NUMBER": "CC-0086290",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
