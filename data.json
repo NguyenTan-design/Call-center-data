@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-24T07:47:13+00:00",
+        "CC NUMBER": "CC-0086290",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Can not load APAM job when change APAM mode_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san\n\nIn the module configuration settings used at the customer site, the parameter \"Changeover guidance timing when changing jobs during production\" was set to \"per module.\" By changing this setting to \"per robot,\" we were able to successfully retrieve the APAM JOB for one side.Thank you for your support.\n\nRegards\n\nMiao",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R3GpnYAF"
+    },
+    {
         "DATE": "2026-11-24T07:30:55+00:00",
         "CC NUMBER": "CC-0084503",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
