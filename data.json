@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-24T04:10:31+00:00",
+        "CC NUMBER": "CC-0086291",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Conveyance problem_[NXTR-S]",
+        "Communication Content": "Dear Nhon san\n\nThank you very much for the inquiry.\n\nI checked trace data but there is no data and Event log somehow.\n\nSo I cannot check what was happened at that time.\n\nCould you please take a trace data again with time period when the issue happened and share it to me?\n\nPlease kindly check.\n\nFUJI Toyama",
+        "FMV PIC": "Doan Nhon",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001R6hQRYAZ"
+    },
+    {
         "DATE": "2026-11-24T02:54:32+00:00",
         "CC NUMBER": "CC-0086290",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
