@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-24T01:05:47+00:00",
+        "CC NUMBER": "CC-0082754",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Lagging/freezing issue when editing the job on the machine._装置上でジョブを編集する際に、動作の遅延やフリーズが発生する問題。[NXTR-S]",
+        "Communication Content": "Dear Ha Ngoc Son-san,\n\nThere is no update since 2026-10-26 and almost 1month past.\n\nIs there any update for this case?\n\nIf there is no update until November 30th, we would like to understand that no more problem after the patch applied and\n\nautomatically close the case.\n\n===================\n\nThank you for your support. We will install 1018_LCUPatch_NXTR_OnMcEdit_PickupOffset_forV2.35 on the PC and monitor this issue.\n\n===================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001G6O7cYAF"
+    },
+    {
         "DATE": "2026-11-24T00:44:39+00:00",
         "CC NUMBER": "CC-0086113",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
