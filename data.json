@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-24T20:17:38+00:00",
+        "CC NUMBER": "CC-0085559",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Automatic Nozzle Lowering and Nozzle Skip Issue_[NXTR-S]",
+        "Communication Content": "Dear DUC san,\n\nWe couldn't find any instances of nozzle skips in the trace data, so we were unable to investigate the cause.\n\nI apologize, but could you please acquire the force trace data (press and hold the cycle stop button 10 seconds) when the nozzle returns to the station?\n\nKonda,",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OjhyYYAR"
+    },
+    {
+        "DATE": "2026-11-24T20:13:07+00:00",
+        "CC NUMBER": "CC-0086207",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Official documentation specifying the allowable positional tolerance for the backup pin_[NXTR-S]",
+        "Communication Content": "Dear Nguyen Tuan san,\n\nAccording to our designers, it is possible to issue the official documentation.\n\nHowever, before we issue this document, please provide some background on why they need it.\n\nKonda,",
+        "FMV PIC": "Nguyen Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QjwgHYAR"
+    },
+    {
         "DATE": "2026-11-24T09:16:30+00:00",
         "CC NUMBER": "CC-0086008",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
