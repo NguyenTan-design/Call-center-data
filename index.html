@@ -279,21 +279,23 @@
     text-overflow: ellipsis;
   }
 
-  .cc-cell-content {
+  /* Nút lọc CC NUMBER đặt trong cột ACTION, ngay dưới nút Open. */
+  .action-cell-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 4px;
+    justify-content: flex-start;
+    gap: 5px;
     min-width: 0;
   }
-  .cc-cell-content .cell-value {
-    flex: 1 1 auto;
-    width: auto;
-    min-width: 0;
+  .action-cell-content .action-btn {
+    min-width: 48px;
+    text-align: center;
   }
-  .cc-quick-filter {
-    flex: 0 0 17px;
-    width: 17px;
-    height: 17px;
+  .action-cc-filter {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -308,7 +310,7 @@
     cursor: pointer;
     transition: opacity .15s ease, background .15s ease, border-color .15s ease;
   }
-  .cc-quick-filter:hover {
+  .action-cc-filter:hover {
     opacity: .95;
     background: rgba(148, 163, 184, .22);
     border-color: rgba(148, 163, 184, .65);
@@ -1626,6 +1628,9 @@
     }
     #basic-view .cell-value { overflow-wrap: anywhere; }
     #basic-view .action-btn { padding: 3px 2px; font-size: 8px; max-width: 100%; box-sizing: border-box; }
+    #basic-view .action-cell-content { gap: 3px; }
+    #basic-view .action-cell-content .action-btn { min-width: 0; }
+    #basic-view .action-cc-filter { width: 16px; height: 16px; flex-basis: 16px; font-size: 11px; }
 
     #detail-charts {
       width: 100%;
@@ -1659,6 +1664,7 @@
       font-size: 13px;
       padding: 8px 10px;
     }
+    #report-modal.modal-overlay { padding: 0; }
     #report-modal .modal-box.report-modal-box {
       max-width: 100vw;
       width: 100vw;
@@ -1666,8 +1672,32 @@
       max-height: 100vh;
       border-radius: 0;
     }
-    .report-toolbar { flex-direction: column; }
-    .report-toolbar input[type="text"] { flex: 1 1 100%; font-size: 12px; }
+    /* Keep REPORT search fields inside the phone viewport. */
+    .report-modal-body {
+      width: 100%;
+      min-width: 0;
+      padding: 8px 10px;
+      gap: 8px;
+    }
+    .report-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      width: 100%;
+      min-width: 0;
+      gap: 6px;
+      flex: 0 0 auto;
+    }
+    .report-toolbar input[type="text"] {
+      display: block;
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+      flex: none;
+      padding: 8px 10px;
+      font-size: 12px;
+      height: 36px;
+    }
     .report-actions { flex-wrap: wrap; }
     .report-actions-spacer { display: none; }
     #report-table th, #report-table td { font-size: 10px; padding: 4px 5px; }
@@ -4822,44 +4852,41 @@ clearStoredUserInfo();
       const value = document.createElement("span");
       value.className = "cell-value";
       value.textContent = item[col.field] ?? "";
-
-      if (col.field === "CC NUMBER") {
-        const ccWrap = document.createElement("div");
-        ccWrap.className = "cc-cell-content";
-        ccWrap.appendChild(value);
-
-        // Nút lọc nhanh chỉ hiển thị với tài khoản MASTER.
-        if (isMasterUser() && normalizeReportCC(item[col.field])) {
-          const quickFilterBtn = document.createElement("button");
-          quickFilterBtn.type = "button";
-          quickFilterBtn.className = "cc-quick-filter";
-          quickFilterBtn.textContent = "⌕";
-          quickFilterBtn.title = `Show all records with CC NUMBER ${normalizeReportCC(item[col.field])}`;
-          quickFilterBtn.setAttribute("aria-label", "Filter all records with this CC NUMBER");
-          quickFilterBtn.addEventListener("click", (event) => {
-            event.preventDefault();
-            event.stopPropagation();
-            filterMainByCCNumber(item[col.field]);
-          });
-          ccWrap.appendChild(quickFilterBtn);
-        }
-        td.appendChild(ccWrap);
-      } else {
-        td.appendChild(value);
-      }
-
+      td.appendChild(value);
       tr.appendChild(td);
     }
 
     const actionTd = document.createElement("td");
     actionTd.dataset.label = "ACTION";
+    const actionContent = document.createElement("div");
+    actionContent.className = "action-cell-content";
+
     const link = document.createElement("a");
     link.className = "action-btn";
     link.href = item["GO TO WEB"] || "#";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = "Open";
-    actionTd.appendChild(link);
+    actionContent.appendChild(link);
+
+    // Nút lọc nhanh nằm ngay dưới Open và chỉ hiển thị với tài khoản MASTER.
+    const normalizedCC = normalizeReportCC(item["CC NUMBER"]);
+    if (isMasterUser() && normalizedCC) {
+      const quickFilterBtn = document.createElement("button");
+      quickFilterBtn.type = "button";
+      quickFilterBtn.className = "action-cc-filter";
+      quickFilterBtn.textContent = "⌕";
+      quickFilterBtn.title = `Show all records with CC NUMBER ${normalizedCC}`;
+      quickFilterBtn.setAttribute("aria-label", "Filter all records with this CC NUMBER");
+      quickFilterBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        filterMainByCCNumber(item["CC NUMBER"]);
+      });
+      actionContent.appendChild(quickFilterBtn);
+    }
+
+    actionTd.appendChild(actionContent);
     tr.appendChild(actionTd);
 
     return tr;
