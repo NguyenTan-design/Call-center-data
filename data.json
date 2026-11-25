@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-25T10:26:26+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\n You mean, sent the feeder happen this issue to Japan?\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-25T10:24:57+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nI would like to confirm some your question\n\nHas the tape come off the sprocket?\n\nIs the component no longer at the pick-up (index) position?\n\nAre there any other abnormal conditions?\n\nA: Yes, sometimes the tape come off the sprocket and component no longer at pickup position\n\nRegarding the frequency of occurrence, you mentioned that it happens every time during setup changeover. Does it occur every time on all feeders, all slots, and all modules?\n\nA: Yes, it happen all time change over at feeder 8t slot, but not all slot (randomly, about 50-70% slot/ MFU)\n\nI will sent you the video and trace again tomorrow.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
         "DATE": "2026-11-25T10:08:22+00:00",
         "CC NUMBER": "CC-0082866",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
