@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-25T09:02:14+00:00",
+        "CC NUMBER": "CC-0082883",
+        "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
+        "TOPIC": "Urgent[Hana Micron Vina Co., Ltd. (Bac Giang)]_When moving the stack tray down to lower the tray of components and moving into the machine, there is an issue where component on the tray pop out of their positions._スタックトレイを下げて部品トレイの位置を下げ、機械内...",
+        "Communication Content": "Dear Chien san\n\nSorry for the late reply.\n\nI will check current issue so please wait a few days.\n\nBR.\n\nMoriya",
+        "FMV PIC": "Pham Doanh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GSFaHYAX"
+    },
+    {
         "DATE": "2026-11-25T08:26:19+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -53980,5 +53989,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-25T09:02:48+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen,\n\nAccording to our design team, the Pre-Mount Discard function(Patch 2438) currently supports only RH28, RH20, and RH08.\n\nFor RH01 and RH02, is still under development.\n\nIf this function is urgently required, we can coordinate with our design team to arrange an early release of a test version.\n\nHowever, this will require both further technical confirmation and additional preparation time.\n\nCould you please confirm whether this issue occurred only on machines using RH01 or RH02 heads?\n\nIf the issue also occurred when using RH28, RH20, or RH08 heads with Patch 2438 installed, could you please upload the machine trace logs for further investigation?\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒 (Ka Ki)",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
     }
 ]
