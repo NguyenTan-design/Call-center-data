@@ -9,18 +9,18 @@
   :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
-    --primary-soft: #eff6ff;
-    --border: #e2e8f0;
-    --border-strong: #cbd5e1;
-    --row-alt: #f8fafc;
-    --row-hover: #eff6ff;
+    --primary-soft: #1e3a5f;
+    --border: #334155;
+    --border-strong: #475569;
+    --row-alt: #0f172a;
+    --row-hover: #334155;
     --cell-line-height: 1.4;
     --status-closed: #43a047;
     --status-ongoing: #fb8c00;
-    --text: #1e293b;
-    --text-soft: #475569;
-    --text-muted: #64748b;
-    --danger: #dc2626;
+    --text: #e2e8f0;
+    --text-soft: #cbd5e1;
+    --text-muted: #94a3b8;
+    --danger: #f87171;
   }
 
   * { box-sizing: border-box; }
@@ -35,7 +35,7 @@
   body {
     padding: 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
     color: var(--text);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -55,7 +55,7 @@
     gap: 12px;
     margin: 0 0 15px;
     padding: 12px 16px;
-    background: #ffffff;
+    background: #1e293b;
     border: 1px solid var(--border);
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 4px 14px rgba(15, 23, 42, .04);
@@ -63,7 +63,7 @@
 
   .sticky-header h1 {
     margin: 0;
-    color: #0f172a;
+    color: #e2e8f0;
     font-size: 22px;
     font-weight: 700;
     text-align: left;
@@ -89,7 +89,7 @@
     font-size: 14px;
     border: 1px solid var(--border);
     border-radius: 8px;
-    background: #fff;
+    background: #1e293b;
     color: var(--text);
     transition: border-color .18s ease, box-shadow .18s ease;
   }
@@ -109,8 +109,8 @@
     font-weight: 600;
     border: 1px solid var(--primary);
     border-radius: 8px;
-    background: #fff;
-    color: var(--primary);
+    background: #1e293b;
+    color: #93c5fd;
     cursor: pointer;
     transition: all .18s ease;
   }
@@ -134,13 +134,13 @@
     font-weight: 500;
     border: 1px solid var(--border);
     border-radius: 8px;
-    background: #fff;
+    background: #1e293b;
     color: var(--text-soft);
     cursor: pointer;
     transition: all .18s ease;
   }
   #clear-filters:hover {
-    background: #f1f5f9;
+    background: #334155;
     border-color: var(--border-strong);
   }
 
@@ -155,7 +155,7 @@
      Table wrapper & table
      ============================================================ */
   .table-wrapper {
-    background: #fff;
+    background: #1e293b;
     border-radius: 12px;
     overflow: auto;
     height: calc(100vh - 190px);
@@ -239,8 +239,8 @@
     gap: 6px;
     margin: 0 0 10px;
     padding: 8px 10px;
-    background: #fffbeb;
-    border: 1px solid #fde68a;
+    background: #422006;
+    border: 1px solid #78350f;
     border-radius: 8px;
     min-height: 0;
   }
@@ -250,7 +250,7 @@
   .hidden-cols-toolbar::before {
     content: "Ẩn:";
     font-size: 11.5px;
-    color: #92400e;
+    color: #fcd34d;
     font-weight: 700;
     margin-right: 4px;
     align-self: center;
@@ -260,15 +260,15 @@
     padding: 4px 10px;
     font-size: 11.5px;
     font-weight: 700;
-    color: #92400e;
-    background: #fef3c7;
-    border: 1px solid #fcd34d;
+    color: #fcd34d;
+    background: #422006;
+    border: 1px solid #a16207;
     border-radius: 14px;
     cursor: pointer;
     white-space: nowrap;
     transition: all .15s ease;
   }
-  .col-show-btn:hover { background: #fde68a; border-color: #f59e0b; }
+  .col-show-btn:hover { background: #78350f; border-color: #ca8a04; }
 
   .cell-value {
     display: block;
@@ -277,6 +277,44 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+
+  /* Nút lọc CC NUMBER đặt trong cột ACTION, ngay dưới nút Open. */
+  .action-cell-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    min-width: 0;
+  }
+  .action-cell-content .action-btn {
+    min-width: 48px;
+    text-align: center;
+  }
+  .action-cc-filter {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(148, 163, 184, .28);
+    border-radius: 4px;
+    background: rgba(148, 163, 184, .10);
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1;
+    opacity: .42;
+    cursor: pointer;
+    transition: opacity .15s ease, background .15s ease, border-color .15s ease;
+  }
+  .action-cc-filter:hover {
+    opacity: .95;
+    background: rgba(148, 163, 184, .22);
+    border-color: rgba(148, 163, 184, .65);
+    color: #cbd5e1;
   }
 
   td[data-label="TOPIC"] .cell-value {
@@ -295,7 +333,7 @@
   }
 
   td[data-label="COMMUNICATION CONTENT"] { cursor: pointer; }
-  td[data-label="COMMUNICATION CONTENT"]:hover { background: #dbeafe; }
+  td[data-label="COMMUNICATION CONTENT"]:hover { background: #1e3a5f; }
 
   .action-btn {
     display: inline-block;
@@ -335,7 +373,7 @@
     cursor: pointer;
     border: 1px solid var(--border);
     border-radius: 6px;
-    background: #fff;
+    background: #1e293b;
     color: var(--text-soft);
     font-weight: 500;
     transition: all .15s ease;
@@ -370,7 +408,7 @@
   @keyframes slideUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
   .modal-box {
-    background: #fff;
+    background: #1e293b;
     border-radius: 12px;
     max-width: 700px;
     width: 100%;
@@ -445,12 +483,12 @@
     font-weight: 600;
     border: 1px solid var(--border-strong);
     border-radius: 8px;
-    background: #fff;
+    background: #1e293b;
     color: var(--text-soft);
     cursor: pointer;
     transition: all .18s ease;
   }
-  .back-btn:hover { background: #f1f5f9; border-color: #94a3b8; }
+  .back-btn:hover { background: #334155; border-color: #94a3b8; }
 
   /* ============================================================
      Graph view
@@ -471,7 +509,7 @@
   }
 
   .chart-card {
-    background: #fff;
+    background: #1e293b;
     border: 1px solid var(--border);
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 4px 14px rgba(15, 23, 42, .05);
@@ -619,7 +657,7 @@
     position: relative;
     display: block;
     height: 14px;
-    background: #eef2f7;
+    background: #334155;
     border-radius: 7px;
     overflow: hidden;
   }
@@ -651,7 +689,7 @@
     border-radius: 8px;
     transition: background .15s ease;
   }
-  .na-rank-row:hover { background: #f8fbff; }
+  .na-rank-row:hover { background: #1e3a5f; }
 
   .na-rank-label {
     font-size: 12.5px;
@@ -692,7 +730,7 @@
     position: relative;
     display: block;
     height: 12px;
-    background: #eef2f7;
+    background: #334155;
     border-radius: 6px;
     overflow: hidden;
   }
@@ -753,7 +791,7 @@
     font-size: 14px;
     color: var(--text);
   }
-  #detail-view .detail-info strong { color: var(--primary); }
+  #detail-view .detail-info strong { color: #93c5fd; }
 
   #detail-view .detail-count {
     font-size: 12.5px;
@@ -773,7 +811,7 @@
     font-size: 13px;
     border: 1px solid var(--border);
     border-radius: 8px;
-    background: #fff;
+    background: #1e293b;
     color: var(--text);
     transition: border-color .18s ease, box-shadow .18s ease;
   }
@@ -870,7 +908,7 @@
     left: 0;
     color: var(--danger);
     font-weight: 700;
-    background: #fff;
+    background: #1e293b;
     z-index: 5;
     box-shadow: 2px 0 3px -1px rgba(15, 23, 42, .12);
     white-space: nowrap !important;
@@ -895,10 +933,10 @@
     transition: background .15s ease;
   }
   #detail-view tbody tr.detail-row.selected {
-    background: #e0e7ff !important;
+    background: #1e3a5f !important;
     box-shadow: inset 4px 0 0 var(--primary);
   }
-  #detail-view tbody tr.detail-row.selected td { color: #0f172a; }
+  #detail-view tbody tr.detail-row.selected td { color: #e2e8f0; }
 
   #detail-view .detail-link-btn {
     display: inline-block;
@@ -1020,14 +1058,14 @@
 
   .status-cell:hover {
     background: var(--primary-soft);
-    border-color: #93c5fd;
+    border-color: #3b82f6;
   }
 
   .status-cell.hold-progress {
     background: linear-gradient(
       to right,
-      #bfdbfe 0%,
-      #bfdbfe var(--hold-progress, 0%),
+      #1e40af 0%,
+      #1e40af var(--hold-progress, 0%),
       transparent var(--hold-progress, 0%),
       transparent 100%
     );
@@ -1037,25 +1075,25 @@
   .status-cell.empty { color: #94a3b8; font-style: italic; }
 
   .status-cell.saving {
-    background: #fef9c3;
-    border-color: #facc15;
+    background: #422006;
+    border-color: #ca8a04;
   }
 
   .status-cell.saved {
-    background: #dcfce7;
-    border-color: #4ade80;
+    background: #14532d;
+    border-color: #22c55e;
   }
 
   .status-cell.error {
-    background: #fee2e2;
-    border-color: #f87171;
-    color: #991b1b;
+    background: #450a0a;
+    border-color: #dc2626;
+    color: #fca5a5;
   }
 
   .status-cell.readonly {
     cursor: default;
-    background: #f8fafc;
-    border-color: #e2e8f0;
+    background: #0f172a;
+    border-color: #334155;
     color: var(--text);
     font-weight: 700;
     text-align: center;
@@ -1104,7 +1142,7 @@
   .status-menu {
     position: fixed;
     z-index: 1500;
-    background: #fff;
+    background: #1e293b;
     border: 1px solid var(--border);
     border-radius: 10px;
     box-shadow: 0 12px 32px rgba(15, 23, 42, .22), 0 4px 12px rgba(15, 23, 42, .12);
@@ -1147,9 +1185,9 @@
   }
   .status-menu button:hover { background: var(--primary-soft); }
   .status-menu button.current {
-    background: #dbeafe;
+    background: #1e3a5f;
     font-weight: 700;
-    color: var(--primary-dark);
+    color: #93c5fd;
   }
 
   /* ============================================================
@@ -1181,7 +1219,7 @@
   .login-screen.hidden { display: none; }
 
   .login-box {
-    background: #fff;
+    background: #1e293b;
     border-radius: 14px;
     padding: 34px 30px;
     width: 100%;
@@ -1192,7 +1230,7 @@
   .login-box h2 {
     margin: 0 0 24px;
     text-align: center;
-    color: var(--primary);
+    color: #93c5fd;
     font-size: 21px;
     font-weight: 700;
     letter-spacing: -.2px;
@@ -1212,7 +1250,7 @@
     border-radius: 8px;
     font-size: 14px;
     box-sizing: border-box;
-    background: #fff;
+    background: #0f172a;
     color: var(--text);
     transition: border-color .18s ease, box-shadow .18s ease;
   }
@@ -1257,15 +1295,15 @@
     padding: 10px 14px;
     font-size: 14px;
     font-weight: 600;
-    border: 1px solid #dc2626;
+    border: 1px solid var(--danger);
     border-radius: 8px;
-    background: #fff;
-    color: #dc2626;
+    background: #1e293b;
+    color: var(--danger);
     cursor: pointer;
     transition: all .18s ease;
   }
   .logout-btn:hover {
-    background: #fef2f2;
+    background: #450a0a;
     box-shadow: 0 2px 8px rgba(220, 38, 38, .18);
   }
 
@@ -1302,6 +1340,198 @@
   .modal-body::-webkit-scrollbar-track {
     background: transparent;
   }
+
+  /* ============================================================
+     REPORT (MASTER only)
+     ============================================================ */
+  .report-btn {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #7c3aed;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #8b5cf6 0%, #7c3aed 100%);
+    color: #fff;
+    cursor: pointer;
+    transition: all .18s ease;
+    box-shadow: 0 1px 3px rgba(124, 58, 237, .25);
+  }
+  .report-btn:hover {
+    background: linear-gradient(180deg, #7c3aed 0%, #6d28d9 100%);
+    box-shadow: 0 3px 8px rgba(124, 58, 237, .35);
+  }
+
+  #report-modal .modal-box.report-modal-box {
+    max-width: 96vw;
+    width: 96vw;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .report-modal-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 18px;
+    gap: 10px;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  .report-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 0 0 auto;
+  }
+  .report-toolbar input[type="text"] {
+    flex: 1 1 200px;
+    padding: 9px 12px;
+    font-size: 13px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #0f172a;
+    color: var(--text);
+  }
+  .report-toolbar input[type="text"]::placeholder { color: #94a3b8; }
+  .report-toolbar input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .15);
+  }
+
+  .report-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 0 0 auto;
+    padding: 8px 10px;
+    background: #0f172a;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  .report-select-all-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+  }
+  .report-select-all-label input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .report-actions-spacer { flex: 1 1 auto; }
+
+  #report-selection-info {
+    color: #93c5fd;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .report-generate-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #43a047 0%, #2e7d32 100%);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(46, 125, 50, .25);
+    transition: all .18s ease;
+  }
+  .report-generate-btn:hover:not(:disabled) {
+    background: linear-gradient(180deg, #2e7d32 0%, #1b5e20 100%);
+    box-shadow: 0 3px 8px rgba(46, 125, 50, .35);
+  }
+  .report-generate-btn:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+
+  .report-table-wrapper {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #1e293b;
+  }
+  #report-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #report-table thead th {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    font-weight: 600;
+    z-index: 2;
+  }
+  #report-table th,
+  #report-table td {
+    border: 1px solid var(--border);
+    padding: 6px 8px;
+    font-size: 12px;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--text);
+  }
+  #report-table tbody tr.report-row {
+    cursor: pointer;
+    transition: background .12s ease;
+  }
+  #report-table tbody tr.report-row:hover {
+    background: var(--row-hover);
+  }
+  #report-table tbody tr.report-row.selected {
+    background: #1e3a5f !important;
+    box-shadow: inset 4px 0 0 #8b5cf6;
+  }
+  #report-table tbody tr.report-row.selected td { color: #fff; }
+  #report-table input[type="checkbox"] {
+    pointer-events: none;
+    width: 14px;
+    height: 14px;
+  }
+
+  .report-pagination {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  .report-pagination button {
+    padding: 6px 14px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #1e293b;
+    color: var(--text-soft);
+    font-weight: 500;
+  }
+  .report-pagination button:hover:not(:disabled) {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  .report-pagination button:disabled { opacity: .45; cursor: not-allowed; }
 
   /* ============================================================
      Responsive
@@ -1398,6 +1628,9 @@
     }
     #basic-view .cell-value { overflow-wrap: anywhere; }
     #basic-view .action-btn { padding: 3px 2px; font-size: 8px; max-width: 100%; box-sizing: border-box; }
+    #basic-view .action-cell-content { gap: 3px; }
+    #basic-view .action-cell-content .action-btn { min-width: 0; }
+    #basic-view .action-cc-filter { width: 16px; height: 16px; flex-basis: 16px; font-size: 11px; }
 
     #detail-charts {
       width: 100%;
@@ -1425,6 +1658,50 @@
       aspect-ratio: 1 / 1;
     }
     #detail-charts .chart-legend { max-width: 100%; }
+
+    .sticky-header .report-btn {
+      flex: 1 1 40%;
+      font-size: 13px;
+      padding: 8px 10px;
+    }
+    #report-modal.modal-overlay { padding: 0; }
+    #report-modal .modal-box.report-modal-box {
+      max-width: 100vw;
+      width: 100vw;
+      height: 100vh;
+      max-height: 100vh;
+      border-radius: 0;
+    }
+    /* Keep REPORT search fields inside the phone viewport. */
+    .report-modal-body {
+      width: 100%;
+      min-width: 0;
+      padding: 8px 10px;
+      gap: 8px;
+    }
+    .report-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      width: 100%;
+      min-width: 0;
+      gap: 6px;
+      flex: 0 0 auto;
+    }
+    .report-toolbar input[type="text"] {
+      display: block;
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+      flex: none;
+      padding: 8px 10px;
+      font-size: 12px;
+      height: 36px;
+    }
+    .report-actions { flex-wrap: wrap; }
+    .report-actions-spacer { display: none; }
+    #report-table th, #report-table td { font-size: 10px; padding: 4px 5px; }
+
   }
 </style>
 </head>
@@ -1434,6 +1711,7 @@
   <h1 id="page-title">NA TEAM CC Management</h1>
   <button id="graph-mode-btn" class="mode-btn" type="button">📊 Graph mode</button>
   <button id="basic-mode-btn" class="mode-btn" type="button" style="display:none">⬅ Basic mode</button>
+  <button id="report-btn" class="report-btn" type="button" style="display:none" title="Generate report (MASTER only)">📄 REPORT</button>
   <button id="logout-btn" class="logout-btn" type="button" title="Đăng xuất">Logout</button>
 </div>
 
@@ -1533,6 +1811,46 @@
   </div>
 </div>
 
+<div id="report-modal" class="modal-overlay">
+  <div class="modal-box report-modal-box">
+    <div class="modal-header">
+      <h2>📄 Generate Report</h2>
+      <button id="report-modal-close" class="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="report-modal-body">
+      <div class="report-toolbar">
+        <input id="report-search-topic" type="text" placeholder="Search TOPIC">
+        <input id="report-search-cc" type="text" placeholder="Search CC NUMBER">
+        <input id="report-search-content" type="text" placeholder="Search linked COMMUNICATION CONTENT">
+      </div>
+      <div class="report-actions">
+        <label class="report-select-all-label">
+          <input type="checkbox" id="report-select-all">
+          <span>Select All (filtered)</span>
+        </label>
+        <span id="report-selection-info">0 selected</span>
+        <div class="report-actions-spacer"></div>
+        <button id="report-generate-btn" class="report-generate-btn" type="button" disabled>📄 Generate Report</button>
+      </div>
+      <div class="report-table-wrapper">
+        <table id="report-table">
+          <thead>
+            <tr>
+              <th style="width:36px"></th>
+              <th style="width:110px">DATE</th>
+              <th style="width:150px">CC NUMBER</th>
+              <th style="width:220px">CUSTOMER</th>
+              <th>TOPIC</th>
+            </tr>
+          </thead>
+          <tbody id="report-tbody"></tbody>
+        </table>
+      </div>
+      <div class="report-pagination" id="report-pagination"></div>
+    </div>
+  </div>
+</div>
+
 <div id="login-screen" class="login-screen">
   <form id="login-form" class="login-box" autocomplete="on">
     <h2>🔒 Đăng Nhập</h2>
@@ -1545,6 +1863,7 @@
   </form>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script>
 (() => {
   "use strict";
@@ -1698,6 +2017,7 @@
 
   const filters = {
     cc: "",
+    ccGroup: "", // lọc tất cả record có cùng CC NUMBER đã chuẩn hóa (MASTER quick filter)
     topic: "",
     content: "",
     newOnly: false,
@@ -1766,10 +2086,18 @@
   // ============================================================
   // AUTH
   // ============================================================
-  const AUTH_TOKEN_KEY = "cc_auth_token";
+    const AUTH_TOKEN_KEY = "cc_auth_token";
+  const AUTH_USER_KEY  = "cc_auth_user";
+  const AUTH_ROLE_KEY  = "cc_auth_role";
 
   let authToken = "";
-  try { authToken = sessionStorage.getItem(AUTH_TOKEN_KEY) || ""; } catch (_) {}
+  let authUsername = "";
+  let authRole = "";
+  try {
+    authToken = sessionStorage.getItem(AUTH_TOKEN_KEY) || "";
+    authUsername = sessionStorage.getItem(AUTH_USER_KEY) || "";
+    authRole = sessionStorage.getItem(AUTH_ROLE_KEY) || "";
+  } catch (_) {}
   let authFailureHandled = false;
 
   const loginScreen   = document.getElementById("login-screen");
@@ -1786,7 +2114,61 @@
   function clearStoredToken() {
     try { sessionStorage.removeItem(AUTH_TOKEN_KEY); } catch (_) {}
   }
+  function storeUserInfo(username, role) {
+    authUsername = username || "";
+    authRole = role || "";
+    try {
+      if (username) sessionStorage.setItem(AUTH_USER_KEY, username);
+      if (role)     sessionStorage.setItem(AUTH_ROLE_KEY, role);
+    } catch (_) {}
+  }
+  function clearStoredUserInfo() {
+    authUsername = "";
+    authRole = "";
+    try {
+      sessionStorage.removeItem(AUTH_USER_KEY);
+      sessionStorage.removeItem(AUTH_ROLE_KEY);
+    } catch (_) {}
+  }
 
+  function extractRole(data) {
+    if (!data || typeof data !== "object") return "";
+    const list = [
+      data.role, data.Role, data.userRole, data.user_role,
+      data.user_type, data.type, data.group,
+      data.user?.role, data.user?.Role, data.user?.userRole,
+      data.user?.type, data.profile?.role
+    ];
+    for (const v of list) {
+      if (typeof v === "string" && v.trim()) return v.trim();
+    }
+    return "";
+  }
+
+  function extractUsername(data) {
+    if (!data || typeof data !== "object") return "";
+    const list = [
+      data.username, data.userName, data.user_name,
+      data.name, data.user?.username, data.user?.userName,
+      data.user?.name, data.profile?.username
+    ];
+    for (const v of list) {
+      if (typeof v === "string" && v.trim()) return v.trim();
+    }
+    return "";
+  }
+
+  function isMasterUser() {
+    if (String(authRole || "").toUpperCase().includes("MASTER")) return true;
+    if (authUsername && String(authUsername).toLowerCase() === "master") return true;
+    return false;
+  }
+
+  function updateReportButtonVisibility() {
+    const btn = document.getElementById("report-btn");
+    if (!btn) return;
+    btn.style.display = isMasterUser() ? "" : "none";
+  }
   async function authFetch(url, options = {}) {
     const opts = { ...options, headers: { ...(options.headers || {}) } };
     if (authToken) opts.headers["Authorization"] = `Bearer ${authToken}`;
@@ -1805,6 +2187,7 @@
     authFailureHandled = true;
     authToken = "";
     clearStoredToken();
+    clearStoredUserInfo();
     alert("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.");
     location.reload();
   }
@@ -1818,9 +2201,10 @@
     }, 50);
   }
 
-  function hideLoginScreen() {
+    function hideLoginScreen() {
     loginScreen.classList.add("hidden");
     document.body.classList.add("authenticated");
+    updateReportButtonVisibility();
   }
 
   function showLoginError(msg) {
@@ -1841,10 +2225,11 @@
     authToken = data.token;
     authFailureHandled = false;
     storeToken(authToken);
+    storeUserInfo(username, extractRole(data));
     return data;
   }
 
-  async function verifyExistingToken() {
+    async function verifyExistingToken() {
     if (!authToken) return false;
     try {
       const res = await fetch(`${STATUS_API_BASE}/me`, {
@@ -1852,7 +2237,12 @@
         mode: "cors",
         headers: { "Authorization": `Bearer ${authToken}`, "Accept": "application/json" }
       });
-      return res.ok;
+      if (!res.ok) return false;
+      const data = await res.json().catch(() => ({}));
+      const role = extractRole(data);
+      const username = extractUsername(data);
+      storeUserInfo(username || authUsername, role || authRole);
+      return true;
     } catch (_) {
       return false;
     }
@@ -1902,8 +2292,657 @@
     if (!confirm("Bạn có chắc muốn đăng xuất?")) return;
     authToken = "";
     clearStoredToken();
+clearStoredUserInfo();
     location.reload();
   });
+
+  // ============================================================
+  // REPORT FEATURE (MASTER only)
+  // ============================================================
+  const reportBtn              = document.getElementById("report-btn");
+  const reportModal            = document.getElementById("report-modal");
+  const reportModalClose       = document.getElementById("report-modal-close");
+  const reportSearchTopic      = document.getElementById("report-search-topic");
+  const reportSearchCc         = document.getElementById("report-search-cc");
+  const reportSearchContent    = document.getElementById("report-search-content");
+  const reportSelectAll        = document.getElementById("report-select-all");
+  const reportSelectionInfo    = document.getElementById("report-selection-info");
+  const reportGenerateBtn      = document.getElementById("report-generate-btn");
+  const reportTbody            = document.getElementById("report-tbody");
+  const reportPaginationEl     = document.getElementById("report-pagination");
+
+  const REPORT_PAGE_SIZE = 100;
+
+  let reportData     = null;   // danh sách record chọn từ data2.json
+  let reportCommunicationByCC = new Map(); // nội dung lấy từ data.json, khóa theo CC NUMBER đã chuẩn hóa
+  let reportFiltered = [];     // sau khi filter
+  let reportSelected = new Set(); // Set<__reportId>
+  let reportAnchorIdx = -1;
+  let reportAnchorState = false;
+  let reportPageNum = 1;
+  let reportLoading = null;
+
+  // --- helpers ---------------------------------------------------
+  function _findFieldKey(record, regexes) {
+    const keys = Object.keys(record).filter(k => !k.startsWith("__"));
+    for (const re of regexes) {
+      const found = keys.find(k => re.test(k));
+      if (found) return found;
+    }
+    return null;
+  }
+  function _getFieldValue(record, regexes) {
+    const key = _findFieldKey(record, regexes);
+    return key != null ? record[key] : "";
+  }
+  function _escapeHtml(s) {
+    return String(s ?? "").replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+  function _sanitizeFilename(name) {
+    return String(name || "report")
+      .replace(/[\\/:*?"<>|]+/g, "_")
+      .replace(/\s+/g, "_")
+      .trim() || "report";
+  }
+
+  // Chuẩn hóa CC NUMBER thống nhất cho data.json, data2.json và bộ lọc nhanh.
+  // NEW:CC-0086303 -> CC-0086303; bỏ NEW: rồi chỉ so khớp 10 ký tự cuối.
+  function normalizeReportCC(cc) {
+    const source = String(cc ?? "").trim();
+    const withoutNewPrefix = source.replace(/^NEW:\s*/i, "").trim();
+    return withoutNewPrefix.slice(-10).trim().toUpperCase();
+  }
+
+  // Chuyển ngày về timestamp để sắp xếp từ cũ đến mới.
+  // Ưu tiên ISO (YYYY-MM-DD); định dạng có dấu / hoặc - theo DD/MM/YYYY,
+  // ngoại trừ trường hợp phần đầu rõ ràng là tháng (phần thứ hai > 12).
+  function parseDateForSort(dateValue) {
+    if (dateValue === null || dateValue === undefined || dateValue === "") return 0;
+
+    if (typeof dateValue === "number" && Number.isFinite(dateValue)) {
+      if (dateValue > 1e12) return dateValue;                 // milliseconds
+      if (dateValue > 1e9) return dateValue * 1000;          // Unix seconds
+      if (dateValue > 20000 && dateValue < 100000) {         // Excel serial date
+        return new Date(Date.UTC(1899, 11, 30) + dateValue * 86400000).getTime();
+      }
+    }
+
+    const s = String(dateValue).trim();
+    if (!s) return 0;
+
+    // Một số file JSON xuất ngày Excel dưới dạng chuỗi số.
+    if (/^\d+(?:\.\d+)?$/.test(s)) {
+      const numericDate = Number(s);
+      if (numericDate > 1e12) return numericDate;
+      if (numericDate > 1e9) return numericDate * 1000;
+      if (numericDate > 20000 && numericDate < 100000) {
+        return new Date(Date.UTC(1899, 11, 30) + numericDate * 86400000).getTime();
+      }
+    }
+
+    const yearFirst = s.match(/^(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})(.*)$/);
+    if (yearFirst) {
+      const parsedIso = Date.parse(s);
+      if (!Number.isNaN(parsedIso)) return parsedIso;
+      const y = Number(yearFirst[1]), mo = Number(yearFirst[2]), d = Number(yearFirst[3]);
+      const date = new Date(y, mo - 1, d);
+      return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+    }
+
+    const dayMonthYear = s.match(/^(\d{1,2})[/.\-](\d{1,2})[/.\-](\d{2,4})(?:[ T](\d{1,2}):(\d{2})(?::(\d{2}))?)?$/);
+    if (dayMonthYear) {
+      const first = Number(dayMonthYear[1]);
+      const second = Number(dayMonthYear[2]);
+      let day = first;
+      let month = second;
+      if (first <= 12 && second > 12) {
+        month = first;
+        day = second;
+      }
+      let year = Number(dayMonthYear[3]);
+      if (year < 100) year += 2000;
+      const date = new Date(
+        year, month - 1, day,
+        Number(dayMonthYear[4] || 0),
+        Number(dayMonthYear[5] || 0),
+        Number(dayMonthYear[6] || 0)
+      );
+      return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+    }
+
+    const parsed = Date.parse(s);
+    return Number.isNaN(parsed) ? 0 : parsed;
+  }
+
+  // --- load report list from data2.json and communication contents from data.json ---
+  async function loadReportData() {
+    if (reportData) return reportData;
+    if (reportLoading) return reportLoading;
+
+    reportLoading = (async () => {
+      const [listResponse, contentResponse] = await Promise.all([
+        fetch(GRAPH_DATA_SOURCE),
+        fetch("data.json")
+      ]);
+
+      if (!listResponse.ok) {
+        throw new Error(`Cannot load ${GRAPH_DATA_SOURCE}: HTTP ${listResponse.status}`);
+      }
+      if (!contentResponse.ok) {
+        throw new Error(`Cannot load data.json: HTTP ${contentResponse.status}`);
+      }
+
+      const [listRaw, contentRaw] = await Promise.all([
+        listResponse.json(),
+        contentResponse.json()
+      ]);
+
+      if (!Array.isArray(listRaw)) {
+        throw new Error(`${GRAPH_DATA_SOURCE} must contain a JSON array.`);
+      }
+      if (!Array.isArray(contentRaw)) {
+        throw new Error("data.json must contain a JSON array.");
+      }
+
+      // Chỉ lấy COMMUNICATION CONTENT từ data.json và gom theo CC NUMBER.
+      const communicationMap = new Map();
+      contentRaw.forEach((item, idx) => {
+        const ccRaw = _getFieldValue(item, [/^cc\s*number$/i, /cc\s*number/i, /cc.*num/i]);
+        const ccKey = normalizeReportCC(ccRaw);
+        if (!ccKey) return;
+
+        const dateRaw = _getFieldValue(item, [/^date$/i, /date/i]);
+        const contentRawValue = _getFieldValue(item, [
+          /^communication\s*content$/i,
+          /communication\s*content/i,
+          /^content$/i
+        ]);
+        const content = String(contentRawValue ?? "");
+        if (!content.trim()) return;
+
+        if (!communicationMap.has(ccKey)) communicationMap.set(ccKey, []);
+        communicationMap.get(ccKey).push({
+          __sourceOrder: idx,
+          __cc_norm: ccKey,
+          __date: String(dateRaw ?? ""),
+          __content: content
+        });
+      });
+
+      // Sắp xếp nội dung liên lạc theo thời gian tăng dần (cũ -> mới).
+      for (const records of communicationMap.values()) {
+        records.sort((a, b) => {
+          const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+          return diff || a.__sourceOrder - b.__sourceOrder;
+        });
+      }
+      reportCommunicationByCC = communicationMap;
+
+      // data2.json chỉ cung cấp danh sách record để MASTER chọn và metadata.
+      // Không đọc Communication Content từ data2.json.
+      reportData = listRaw.map((item, idx) => {
+        const ccRaw       = _getFieldValue(item, [/^cc\s*number$/i, /cc\s*number/i, /cc.*num/i]);
+        const dateRaw     = _getFieldValue(item, [/^date$/i, /date/i]);
+        const customerRaw = _getFieldValue(item, [/^customer$/i, /customer/i]);
+        const topicRaw    = _getFieldValue(item, [/^topic$/i, /topic/i]);
+        const ccKey       = normalizeReportCC(ccRaw);
+        const linkedContents = reportCommunicationByCC.get(ccKey) || [];
+
+        return {
+          ...item,
+          __reportId: idx,
+          __cc:       normalizeCc(ccRaw),
+          __cc_norm:  ccKey,
+          __date:     String(dateRaw ?? ""),
+          __customer: String(customerRaw ?? ""),
+          __topic:    String(topicRaw ?? ""),
+          // Chỉ dùng để hỗ trợ chức năng tìm kiếm nội dung trong danh sách REPORT.
+          __content:  linkedContents.map(record => record.__content).join("\n")
+        };
+      });
+
+      return reportData;
+    })();
+
+    try {
+      return await reportLoading;
+    } catch (error) {
+      reportLoading = null;
+      reportData = null;
+      reportCommunicationByCC = new Map();
+      throw error;
+    }
+  }
+
+  // --- modal lifecycle -------------------------------------------
+  function openReportModal() {
+    if (!isMasterUser()) {
+      alert("Only MASTER account can use this feature.");
+      return;
+    }
+    reportModal.classList.add("show");
+    if (!reportData) {
+      reportTbody.innerHTML =
+        '<tr class="empty-row"><td colspan="5">Loading report data...</td></tr>';
+    }
+    loadReportData()
+      .then(() => { applyReportFilters(); })
+      .catch(err => {
+        console.error("Report data load failed:", err);
+        reportTbody.innerHTML =
+          '<tr class="empty-row"><td colspan="5">Failed to load report data. Please check data.json and data2.json.</td></tr>';
+      });
+  }
+  function closeReportModal() {
+    reportModal.classList.remove("show");
+  }
+
+  // --- filter / render -------------------------------------------
+  function applyReportFilters() {
+    const topic   = reportSearchTopic.value.trim().toLowerCase();
+    const cc      = reportSearchCc.value.trim().toLowerCase();
+    const content = reportSearchContent.value.trim().toLowerCase();
+
+    reportFiltered = reportData.filter(r => {
+      if (topic   && !r.__topic.toLowerCase().includes(topic))     return false;
+      if (cc && !r.__cc.toLowerCase().includes(cc) &&
+          !r.__cc_norm.toLowerCase().includes(cc)) return false;
+      if (content && !r.__content.toLowerCase().includes(content)) return false;
+      return true;
+    });
+
+    reportAnchorIdx = -1;
+    reportPageNum = 1;
+    renderReportTable();
+    updateReportUI();
+  }
+
+  function renderReportTable() {
+    reportTbody.replaceChildren();
+
+    const total = reportFiltered.length;
+    const totalPages = Math.max(1, Math.ceil(total / REPORT_PAGE_SIZE));
+    if (reportPageNum > totalPages) reportPageNum = totalPages;
+    const start = (reportPageNum - 1) * REPORT_PAGE_SIZE;
+    const end   = Math.min(start + REPORT_PAGE_SIZE, total);
+
+    if (total === 0) {
+      const tr = document.createElement("tr");
+      tr.className = "empty-row";
+      const td = document.createElement("td");
+      td.colSpan = 5;
+      td.textContent = "No records match the current filters.";
+      tr.appendChild(td);
+      reportTbody.appendChild(tr);
+    } else {
+      for (let i = start; i < end; i++) {
+        const r = reportFiltered[i];
+        const tr = document.createElement("tr");
+        tr.className = "report-row";
+        tr.dataset.idx = String(i);
+        if (reportSelected.has(r.__reportId)) tr.classList.add("selected");
+
+        const cbCell = document.createElement("td");
+        const cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.checked = reportSelected.has(r.__reportId);
+        cb.tabIndex = -1;
+        cbCell.appendChild(cb);
+        tr.appendChild(cbCell);
+
+        const mk = (txt) => {
+          const td = document.createElement("td");
+          const sp = document.createElement("span");
+          sp.className = "cell-value";
+          sp.textContent = txt;
+          sp.title = txt;
+          td.appendChild(sp);
+          return td;
+        };
+        tr.appendChild(mk(r.__date));
+        tr.appendChild(mk(r.__cc));
+        tr.appendChild(mk(r.__customer));
+        tr.appendChild(mk(r.__topic));
+
+        tr.addEventListener("click", (e) => handleReportRowClick(e, i));
+        reportTbody.appendChild(tr);
+      }
+    }
+
+    renderReportPagination(totalPages, total);
+  }
+
+  function renderReportPagination(totalPages, total) {
+    reportPaginationEl.replaceChildren();
+    if (total === 0) return;
+
+    const prev = document.createElement("button");
+    prev.type = "button";
+    prev.textContent = "« Prev";
+    prev.disabled = reportPageNum <= 1;
+    prev.addEventListener("click", () => {
+      if (reportPageNum > 1) { reportPageNum--; renderReportTable(); updateReportUI(); }
+    });
+
+    const info = document.createElement("strong");
+    info.textContent = `Page ${reportPageNum} / ${totalPages} — ${total} record(s)`;
+
+    const next = document.createElement("button");
+    next.type = "button";
+    next.textContent = "Next »";
+    next.disabled = reportPageNum >= totalPages;
+    next.addEventListener("click", () => {
+      if (reportPageNum < totalPages) { reportPageNum++; renderReportTable(); updateReportUI(); }
+    });
+
+    reportPaginationEl.append(prev, info, next);
+  }
+
+  // --- SHIFT-click multi-select (giống Excel) --------------------
+  function handleReportRowClick(e, filteredIdx) {
+    const r = reportFiltered[filteredIdx];
+    if (!r) return;
+
+    if (e.shiftKey && reportAnchorIdx !== -1) {
+      const start = Math.min(reportAnchorIdx, filteredIdx);
+      const end   = Math.max(reportAnchorIdx, filteredIdx);
+      for (let i = start; i <= end; i++) {
+        const rec = reportFiltered[i];
+        if (!rec) continue;
+        if (reportAnchorState) reportSelected.add(rec.__reportId);
+        else                   reportSelected.delete(rec.__reportId);
+      }
+    } else {
+      const id = r.__reportId;
+      const nowSel = !reportSelected.has(id);
+      if (nowSel) reportSelected.add(id);
+      else        reportSelected.delete(id);
+      reportAnchorIdx = filteredIdx;
+      reportAnchorState = nowSel;
+    }
+
+    renderReportTable();
+    updateReportUI();
+  }
+
+  function updateReportUI() {
+    const totalSelected    = reportSelected.size;
+    const filteredSelected = reportFiltered.reduce(
+      (n, r) => n + (reportSelected.has(r.__reportId) ? 1 : 0), 0);
+
+    // Một PDF được tạo cho mỗi CC NUMBER duy nhất; các record trùng CC được gộp chung.
+    const selectedCCs = new Set();
+    let selectedWithoutCC = 0;
+    if (reportData) {
+      for (const r of reportData) {
+        if (!reportSelected.has(r.__reportId)) continue;
+        if (r.__cc_norm) selectedCCs.add(r.__cc_norm);
+        else selectedWithoutCC++;
+      }
+    }
+
+    if (totalSelected === 0) {
+      reportSelectionInfo.textContent = "0 selected";
+    } else {
+      const scopeText = totalSelected === filteredSelected
+        ? ""
+        : ` (${filteredSelected} in current filter)`;
+      const missingText = selectedWithoutCC ? ` · ${selectedWithoutCC} without CC` : "";
+      reportSelectionInfo.textContent =
+        `${totalSelected} records · ${selectedCCs.size} reports${scopeText}${missingText}`;
+    }
+
+    if (reportFiltered.length === 0) {
+      reportSelectAll.checked = false;
+      reportSelectAll.indeterminate = false;
+      reportSelectAll.disabled = true;
+    } else {
+      reportSelectAll.disabled = false;
+      if (filteredSelected === 0) {
+        reportSelectAll.checked = false;
+        reportSelectAll.indeterminate = false;
+      } else if (filteredSelected === reportFiltered.length) {
+        reportSelectAll.checked = true;
+        reportSelectAll.indeterminate = false;
+      } else {
+        reportSelectAll.checked = false;
+        reportSelectAll.indeterminate = true;
+      }
+    }
+
+    reportGenerateBtn.disabled = totalSelected === 0;
+  }
+
+  // --- Generate report -----------------------------------------------------
+  function buildReportElement(ccNumber, reportRecords, communicationRecords) {
+    const sortedMetadata = reportRecords.slice().sort((a, b) => {
+      const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+      return diff;
+    });
+    const sortedCommunication = (communicationRecords || []).slice().sort((a, b) => {
+      const diff = parseDateForSort(a.__date) - parseDateForSort(b.__date);
+      return diff || (a.__sourceOrder || 0) - (b.__sourceOrder || 0);
+    });
+
+    // CUSTOMER và TOPIC lấy từ record trong data2.json có cùng CC NUMBER.
+    const customer = (sortedMetadata.find(r => r.__customer) || {}).__customer || "(N/A)";
+    const topic = (sortedMetadata.find(r => r.__topic) || {}).__topic || "(N/A)";
+
+    const wrap = document.createElement("div");
+    wrap.style.fontFamily = 'Arial, Helvetica, sans-serif';
+    wrap.style.color = '#000';
+    wrap.style.background = '#fff';
+    wrap.style.padding = '16px 20px';
+    wrap.style.fontSize = '12pt';
+    wrap.style.lineHeight = '1.5';
+
+    const h1 = document.createElement("h1");
+    h1.textContent = `REPORT: ${ccNumber}`;
+    h1.style.fontSize = '20pt';
+    h1.style.margin = '0 0 6px 0';
+    h1.style.borderBottom = '2px solid #333';
+    h1.style.paddingBottom = '8px';
+    wrap.appendChild(h1);
+
+    // Khối metadata nằm ở đầu tài liệu để luôn xuất hiện từ trang đầu tiên.
+    const meta = document.createElement("div");
+    meta.style.margin = '10px 0 16px 0';
+    meta.style.pageBreakInside = 'avoid';
+    meta.style.breakInside = 'avoid';
+    const cLine = document.createElement("div");
+    cLine.innerHTML = `<strong>Customer:</strong> ${_escapeHtml(customer)}`;
+    const tLine = document.createElement("div");
+    tLine.innerHTML = `<strong>Topic:</strong> ${_escapeHtml(topic)}`;
+    meta.appendChild(cLine);
+    meta.appendChild(tLine);
+    wrap.appendChild(meta);
+
+    const hr = document.createElement("hr");
+    hr.style.border = 'none';
+    hr.style.borderTop = '1px solid #bbb';
+    hr.style.margin = '12px 0';
+    wrap.appendChild(hr);
+
+    if (sortedCommunication.length === 0) {
+      const empty = document.createElement("div");
+      empty.textContent = "No COMMUNICATION CONTENT records found in data.json for this CC NUMBER.";
+      empty.style.fontStyle = 'italic';
+      empty.style.color = '#666';
+      wrap.appendChild(empty);
+      return wrap;
+    }
+
+    // Ghép toàn bộ COMMUNICATION CONTENT trong data.json theo thứ tự thời gian cũ -> mới.
+    sortedCommunication.forEach((record, idx) => {
+      const entry = document.createElement("div");
+      entry.style.marginBottom = '10px';
+      entry.style.pageBreakInside = 'avoid';
+      entry.style.breakInside = 'avoid';
+
+      const dateLine = document.createElement("div");
+      dateLine.style.fontWeight = 'bold';
+      dateLine.style.marginBottom = '4px';
+      dateLine.textContent = `Date: ${record.__date || "(N/A)"}`;
+      entry.appendChild(dateLine);
+
+      const contentLine = document.createElement("div");
+      contentLine.style.whiteSpace = 'pre-wrap';
+      contentLine.style.wordBreak = 'break-word';
+      contentLine.textContent = record.__content;
+      entry.appendChild(contentLine);
+      wrap.appendChild(entry);
+
+      if (idx < sortedCommunication.length - 1) {
+        const separator = document.createElement("div");
+        separator.style.textAlign = 'center';
+        separator.style.color = '#888';
+        separator.style.margin = '8px 0';
+        separator.textContent = "------------------";
+        wrap.appendChild(separator);
+      }
+    });
+
+    return wrap;
+  }
+
+  async function saveBlobWithPicker(blob, filename) {
+    // Không mở hộp thoại Save As: tự tải xuống với tên CC NUMBER.pdf.
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.style.display = "none";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    // Giữ object URL đủ lâu để trình duyệt bắt đầu tải file.
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    await new Promise(resolve => setTimeout(resolve, 120));
+    return true;
+  }
+
+  async function generatePDFForCC(ccNumber, records) {
+    const communicationRecords = reportCommunicationByCC.get(ccNumber) || [];
+    const el = buildReportElement(ccNumber, records, communicationRecords);
+    const hidden = document.createElement("div");
+    hidden.style.position = 'fixed';
+    hidden.style.left = '-99999px';
+    hidden.style.top = '0';
+    hidden.style.width = '210mm';
+    hidden.style.background = '#fff';
+    hidden.appendChild(el);
+    document.body.appendChild(hidden);
+
+    try {
+      const blob = await html2pdf().set({
+        margin: [10, 10, 10, 10],
+        image: { type: 'jpeg', quality: 0.95 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', logging: false },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { mode: ['css', 'legacy'] }
+      }).from(el).outputPdf('blob');
+
+      return await saveBlobWithPicker(blob, _sanitizeFilename(ccNumber) + '.pdf');
+    } finally {
+      document.body.removeChild(hidden);
+    }
+  }
+
+  async function generateReport() {
+    if (reportSelected.size === 0 || !Array.isArray(reportData)) return;
+
+    // Lấy trực tiếp toàn bộ record đã chọn, sau đó gom theo CC NUMBER chuẩn hóa.
+    // 702 record nhưng chỉ có 696 CC NUMBER duy nhất thì đúng là tạo 696 PDF,
+    // vì mỗi PDF chứa toàn bộ lịch sử COMMUNICATION CONTENT của một CC NUMBER.
+    const selectedRecords = reportData.filter(r => reportSelected.has(r.__reportId));
+    const groups = new Map();
+    let skippedMissingCC = 0;
+
+    for (const record of selectedRecords) {
+      const cc = record.__cc_norm || normalizeReportCC(record.__cc);
+      if (!cc) {
+        skippedMissingCC++;
+        continue;
+      }
+      if (!groups.has(cc)) groups.set(cc, []);
+      groups.get(cc).push(record);
+    }
+
+    const entries = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+    if (entries.length === 0) {
+      alert("No report can be generated because the selected records do not contain a valid CC NUMBER.");
+      return;
+    }
+
+    const consolidatedRecords = selectedRecords.length - skippedMissingCC - entries.length;
+    const confirmationLines = [
+      `${selectedRecords.length} record(s) selected.`,
+      `${entries.length} PDF report(s) will be generated for ${entries.length} unique CC NUMBER value(s).`,
+      "Records with the same CC NUMBER will be combined into one PDF report."
+    ];
+    if (consolidatedRecords > 0) {
+      confirmationLines.push(`${consolidatedRecords} duplicate-CC record(s) will be included in their matching reports.`);
+    }
+    if (skippedMissingCC > 0) {
+      confirmationLines.push(`${skippedMissingCC} record(s) without a CC NUMBER will be skipped.`);
+    }
+    confirmationLines.push("Continue?");
+
+    if (entries.length > 5 && !confirm(confirmationLines.join("\n"))) return;
+
+    const originalText = reportGenerateBtn.textContent;
+    reportGenerateBtn.disabled = true;
+
+    try {
+      let saved = 0;
+      for (const [cc, records] of entries) {
+        reportGenerateBtn.textContent = `Generating ${saved + 1}/${entries.length}...`;
+        const ok = await generatePDFForCC(cc, records);
+        if (!ok) return;
+        saved++;
+      }
+
+      const summary = `Downloaded ${saved} PDF report(s) for ${selectedRecords.length} selected record(s).`;
+      alert(skippedMissingCC > 0
+        ? `${summary}\nSkipped ${skippedMissingCC} record(s) without a valid CC NUMBER.`
+        : summary);
+    } catch (err) {
+      console.error("Generate report failed:", err);
+      alert("Failed to generate report: " + (err.message || err));
+    } finally {
+      reportGenerateBtn.disabled = reportSelected.size === 0;
+      reportGenerateBtn.textContent = originalText;
+    }
+  }
+
+  // --- Wire events -----------------------------------------------
+  reportBtn.addEventListener("click", openReportModal);
+  reportModalClose.addEventListener("click", closeReportModal);
+  reportModal.addEventListener("click", (e) => {
+    if (e.target === reportModal) closeReportModal();
+  });
+
+  reportSearchTopic.addEventListener("input",   debounce(applyReportFilters, SEARCH_DEBOUNCE_MS));
+  reportSearchCc.addEventListener("input",      debounce(applyReportFilters, SEARCH_DEBOUNCE_MS));
+  reportSearchContent.addEventListener("input", debounce(applyReportFilters, SEARCH_DEBOUNCE_MS));
+
+  reportSelectAll.addEventListener("change", () => {
+    if (reportSelectAll.checked) {
+      reportFiltered.forEach(r => reportSelected.add(r.__reportId));
+    } else {
+      reportFiltered.forEach(r => reportSelected.delete(r.__reportId));
+    }
+    reportAnchorIdx = -1;
+    renderReportTable();
+    updateReportUI();
+  });
+
+  reportGenerateBtn.addEventListener("click", generateReport);
+
+  // Đảm bảo nút đúng trạng thái khi reload với token có sẵn
+  document.addEventListener("DOMContentLoaded", updateReportButtonVisibility);
 
   bootstrap();
 
@@ -2286,6 +3325,7 @@
 
   clearBtn.addEventListener("click", () => {
     filters.cc = "";
+    filters.ccGroup = "";
     filters.topic = "";
     filters.content = "";
     filters.newOnly = false;
@@ -2647,7 +3687,7 @@
     track.setAttribute("cy", cy);
     track.setAttribute("r", radius);
     track.setAttribute("fill", "none");
-    track.setAttribute("stroke", "#eee");
+    track.setAttribute("stroke", "#334155");
     track.setAttribute("stroke-width", thickness);
     svg.appendChild(track);
 
@@ -2682,7 +3722,7 @@
     totalText.setAttribute("text-anchor", "middle");
     totalText.setAttribute("font-size", "22");
     totalText.setAttribute("font-weight", "bold");
-    totalText.setAttribute("fill", "#333");
+    totalText.setAttribute("fill", "#e2e8f0");
     totalText.textContent = String(total);
     svg.appendChild(totalText);
 
@@ -2691,7 +3731,7 @@
     subText.setAttribute("y", cy + 16);
     subText.setAttribute("text-anchor", "middle");
     subText.setAttribute("font-size", "11");
-    subText.setAttribute("fill", "#888");
+    subText.setAttribute("fill", "#94a3b8");
     subText.textContent = "records";
     svg.appendChild(subText);
 
@@ -3731,12 +4771,40 @@
     };
   }
 
+  function filterMainByCCNumber(rawCC) {
+    if (!isMasterUser()) return;
+    const normalizedCC = normalizeReportCC(rawCC);
+    if (!normalizedCC) return;
+
+    // Đây là bộ lọc nhóm độc lập: bỏ các điều kiện lọc cũ để hiện đủ record cùng CC.
+    filters.cc = "";
+    filters.ccGroup = normalizedCC;
+    filters.topic = "";
+    filters.content = "";
+    filters.newOnly = false;
+    filters.customerGroup = null;
+
+    ccInput.value = "";
+    topicInput.value = "";
+    contentInput.value = "";
+    newBtn.classList.remove("active");
+    newBtn.setAttribute("aria-pressed", "false");
+    natBtn.classList.remove("active");
+    natBtn.setAttribute("aria-pressed", "false");
+    otherBtn.classList.remove("active");
+    otherBtn.setAttribute("aria-pressed", "false");
+
+    applyFilters();
+    status.textContent = `Showing all records for CC NUMBER: ${normalizedCC}`;
+  }
+
   function applyFilters() {
     const activeList = filters.customerGroup
       ? customerListCache[filters.customerGroup]
       : null;
 
     filteredData = allData.filter(item =>
+      (!filters.ccGroup || normalizeReportCC(item["CC NUMBER"]) === filters.ccGroup) &&
       (filters.cc === "" || item[FIELD_MAP.cc.key].includes(filters.cc)) &&
       (filters.topic === "" || item[FIELD_MAP.topic.key].includes(filters.topic)) &&
       (filters.content === "" || item[FIELD_MAP.content.key].includes(filters.content)) &&
@@ -3785,19 +4853,40 @@
       value.className = "cell-value";
       value.textContent = item[col.field] ?? "";
       td.appendChild(value);
-
       tr.appendChild(td);
     }
 
     const actionTd = document.createElement("td");
     actionTd.dataset.label = "ACTION";
+    const actionContent = document.createElement("div");
+    actionContent.className = "action-cell-content";
+
     const link = document.createElement("a");
     link.className = "action-btn";
     link.href = item["GO TO WEB"] || "#";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = "Open";
-    actionTd.appendChild(link);
+    actionContent.appendChild(link);
+
+    // Nút lọc nhanh nằm ngay dưới Open và chỉ hiển thị với tài khoản MASTER.
+    const normalizedCC = normalizeReportCC(item["CC NUMBER"]);
+    if (isMasterUser() && normalizedCC) {
+      const quickFilterBtn = document.createElement("button");
+      quickFilterBtn.type = "button";
+      quickFilterBtn.className = "action-cc-filter";
+      quickFilterBtn.textContent = "⌕";
+      quickFilterBtn.title = `Show all records with CC NUMBER ${normalizedCC}`;
+      quickFilterBtn.setAttribute("aria-label", "Filter all records with this CC NUMBER");
+      quickFilterBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        filterMainByCCNumber(item["CC NUMBER"]);
+      });
+      actionContent.appendChild(quickFilterBtn);
+    }
+
+    actionTd.appendChild(actionContent);
     tr.appendChild(actionTd);
 
     return tr;

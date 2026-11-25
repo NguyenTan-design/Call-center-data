@@ -317,6 +317,47 @@
     color: #cbd5e1;
   }
 
+  .action-pdf-preview {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(167, 139, 250, .45);
+    border-radius: 4px;
+    background: rgba(139, 92, 246, .14);
+    color: #c4b5fd;
+    font-size: 11px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .action-pdf-preview:hover {
+    background: rgba(139, 92, 246, .3);
+    border-color: #a78bfa;
+  }
+  .action-quick-tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  #cc-pdf-preview-modal .modal-box {
+    max-width: 96vw;
+    width: 96vw;
+    height: 92vh;
+    max-height: 92vh;
+  }
+  #cc-pdf-preview-frame {
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+    border: 0;
+    background: #fff;
+  }
+
+
   td[data-label="TOPIC"] .cell-value {
     white-space: normal;
     overflow-wrap: break-word;
@@ -1868,6 +1909,26 @@
 (() => {
   "use strict";
 
+  // Inline PDF preview modal (created once; only opened for MASTER users).
+  const pdfPreviewModal = document.createElement("div");
+  pdfPreviewModal.id = "cc-pdf-preview-modal";
+  pdfPreviewModal.className = "modal-overlay";
+  pdfPreviewModal.setAttribute("aria-hidden", "true");
+  pdfPreviewModal.innerHTML = `
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="cc-pdf-preview-title">
+      <div class="modal-header">
+        <h2 id="cc-pdf-preview-title">PDF Preview</h2>
+        <button type="button" class="modal-close" id="cc-pdf-preview-close" aria-label="Close preview">×</button>
+      </div>
+      <iframe id="cc-pdf-preview-frame" title="PDF report preview"></iframe>
+    </div>`;
+  document.body.appendChild(pdfPreviewModal);
+  document.getElementById("cc-pdf-preview-close").addEventListener("click", closePDFPreview);
+  pdfPreviewModal.addEventListener("click", e => {
+    if (e.target === pdfPreviewModal) closePDFPreview();
+  });
+
+
   const ROWS_PER_PAGE = 50;
   const SEARCH_DEBOUNCE_MS = 200;
   const RESIZE_DEBOUNCE_MS = 150;
@@ -2823,30 +2884,85 @@ clearStoredUserInfo();
     return true;
   }
 
-  async function generatePDFForCC(ccNumber, records) {
+  async function createPDFBlobForCC(ccNumber, records) {
     const communicationRecords = reportCommunicationByCC.get(ccNumber) || [];
     const el = buildReportElement(ccNumber, records, communicationRecords);
     const hidden = document.createElement("div");
-    hidden.style.position = 'fixed';
-    hidden.style.left = '-99999px';
-    hidden.style.top = '0';
-    hidden.style.width = '210mm';
-    hidden.style.background = '#fff';
+    hidden.style.position = "fixed";
+    hidden.style.left = "-99999px";
+    hidden.style.top = "0";
+    hidden.style.width = "210mm";
+    hidden.style.background = "#fff";
     hidden.appendChild(el);
     document.body.appendChild(hidden);
 
     try {
-      const blob = await html2pdf().set({
+      return await html2pdf().set({
         margin: [10, 10, 10, 10],
-        image: { type: 'jpeg', quality: 0.95 },
-        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', logging: false },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-        pagebreak: { mode: ['css', 'legacy'] }
-      }).from(el).outputPdf('blob');
-
-      return await saveBlobWithPicker(blob, _sanitizeFilename(ccNumber) + '.pdf');
+        image: { type: "jpeg", quality: 0.95 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: "#ffffff", logging: false },
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+        pagebreak: { mode: ["css", "legacy"] }
+      }).from(el).outputPdf("blob");
     } finally {
       document.body.removeChild(hidden);
+    }
+  }
+
+  async function generatePDFForCC(ccNumber, records) {
+    const blob = await createPDFBlobForCC(ccNumber, records);
+    return await saveBlobWithPicker(blob, _sanitizeFilename(ccNumber) + ".pdf");
+  }
+
+  async function previewPDFForCC(ccNumber) {
+    if (!isMasterUser()) return;
+    if (!Array.isArray(reportData)) {
+      alert("Report data is not ready. Please try again.");
+      return;
+    }
+    const records = reportData.filter(r =>
+      (r.__cc_norm || normalizeReportCC(r.__cc)) === ccNumber
+    );
+    if (!records.length) {
+      alert(`No report records found for CC NUMBER ${ccNumber}.`);
+      return;
+    }
+
+    const modal = document.getElementById("cc-pdf-preview-modal");
+    const frame = document.getElementById("cc-pdf-preview-frame");
+    const title = document.getElementById("cc-pdf-preview-title");
+    const close = document.getElementById("cc-pdf-preview-close");
+    title.textContent = `PDF Preview — ${ccNumber}`;
+    frame.src = "about:blank";
+    modal.classList.add("show");
+    modal.setAttribute("aria-hidden", "false");
+    close.focus();
+
+    try {
+      const blob = await createPDFBlobForCC(ccNumber, records);
+      if (!modal.classList.contains("show")) return;
+      const oldUrl = modal.dataset.pdfUrl;
+      if (oldUrl) URL.revokeObjectURL(oldUrl);
+      const url = URL.createObjectURL(blob);
+      modal.dataset.pdfUrl = url;
+      frame.src = url;
+    } catch (err) {
+      console.error("PDF preview failed:", err);
+      alert("Failed to preview PDF: " + (err.message || err));
+      closePDFPreview();
+    }
+  }
+
+  function closePDFPreview() {
+    const modal = document.getElementById("cc-pdf-preview-modal");
+    const frame = document.getElementById("cc-pdf-preview-frame");
+    if (!modal) return;
+    modal.classList.remove("show");
+    modal.setAttribute("aria-hidden", "true");
+    frame.src = "about:blank";
+    if (modal.dataset.pdfUrl) {
+      URL.revokeObjectURL(modal.dataset.pdfUrl);
+      delete modal.dataset.pdfUrl;
     }
   }
 
@@ -4883,7 +4999,24 @@ clearStoredUserInfo();
         event.stopPropagation();
         filterMainByCCNumber(item["CC NUMBER"]);
       });
-      actionContent.appendChild(quickFilterBtn);
+      const quickTools = document.createElement("div");
+      quickTools.className = "action-quick-tools";
+      quickTools.appendChild(quickFilterBtn);
+
+      // PDF preview is MASTER-only and uses the same CC NUMBER as this row.
+      const previewBtn = document.createElement("button");
+      previewBtn.type = "button";
+      previewBtn.className = "action-pdf-preview";
+      previewBtn.textContent = "▣";
+      previewBtn.title = `Preview PDF report for ${normalizedCC}`;
+      previewBtn.setAttribute("aria-label", `Preview PDF report for ${normalizedCC}`);
+      previewBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        previewPDFForCC(normalizedCC);
+      });
+      quickTools.appendChild(previewBtn);
+      actionContent.appendChild(quickTools);
     }
 
     actionTd.appendChild(actionContent);
