@@ -1672,6 +1672,18 @@
     #basic-view .action-cell-content { gap: 3px; }
     #basic-view .action-cell-content .action-btn { min-width: 0; }
     #basic-view .action-cc-filter { width: 16px; height: 16px; flex-basis: 16px; font-size: 11px; }
+    /* Trên mobile, xếp nút ▣ ngay bên dưới nút ⌕. */
+    #basic-view .action-quick-tools {
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+    #basic-view .action-pdf-preview {
+      width: 16px;
+      height: 16px;
+      flex-basis: 16px;
+      font-size: 10px;
+    }
 
     #detail-charts {
       width: 100%;
@@ -5013,7 +5025,17 @@ clearStoredUserInfo();
       previewBtn.addEventListener("click", (event) => {
         event.preventDefault();
         event.stopPropagation();
-        previewPDFForCC(normalizedCC);
+
+        // Mobile: mở đúng popup Communication Content của dòng hiện tại.
+        // Desktop: giữ nguyên chức năng xem trước PDF theo CC NUMBER.
+        if (window.matchMedia("(max-width: 768px)").matches) {
+          const communicationCell = tr.querySelector(`td[data-label="${CONTENT_LABEL}"]`);
+          if (communicationCell) {
+            toggleContentModal(communicationCell);
+          }
+        } else {
+          previewPDFForCC(normalizedCC);
+        }
       });
       quickTools.appendChild(previewBtn);
       actionContent.appendChild(quickTools);
