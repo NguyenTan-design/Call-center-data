@@ -2926,6 +2926,44 @@ clearStoredUserInfo();
     return await saveBlobWithPicker(blob, _sanitizeFilename(ccNumber) + ".pdf");
   }
 
+  async function openReportContentModalForCC(ccNumber) {
+    if (!isMasterUser()) return;
+
+    // Dùng chung popup Communication Content, nhưng nội dung là báo cáo
+    // được tạo bởi cùng logic với nút Generate Report / xuất PDF.
+    const requestCC = String(ccNumber || "").trim();
+    if (!requestCC) return;
+
+    openContentCell = null;
+    contentModal.dataset.reportCc = requestCC;
+    modalTitle.textContent = `Generate Report — ${requestCC}`;
+    modalBody.textContent = "Generating report...";
+    contentModal.classList.add("show");
+
+    try {
+      const loadedRecords = await loadReportData();
+      // Không ghi đè popup nếu người dùng đã đóng hoặc mở báo cáo CC khác.
+      if (!contentModal.classList.contains("show") || contentModal.dataset.reportCc !== requestCC) return;
+
+      const records = loadedRecords.filter(r =>
+        (r.__cc_norm || normalizeReportCC(r.__cc)) === requestCC
+      );
+      if (!records.length) {
+        modalBody.textContent = `No report records found for CC NUMBER ${requestCC}.`;
+        return;
+      }
+
+      const communicationRecords = reportCommunicationByCC.get(requestCC) || [];
+      const reportElement = buildReportElement(requestCC, records, communicationRecords);
+      modalBody.replaceChildren(reportElement);
+    } catch (err) {
+      console.error("Report content loading failed:", err);
+      if (contentModal.classList.contains("show") && contentModal.dataset.reportCc === requestCC) {
+        modalBody.textContent = "Failed to generate report content. Please check data.json and data2.json.";
+      }
+    }
+  }
+
   async function previewPDFForCC(ccNumber) {
     if (!isMasterUser()) return;
     if (!Array.isArray(reportData)) {
@@ -4880,6 +4918,7 @@ clearStoredUserInfo();
     }
     const valueEl = td.querySelector(".cell-value");
     const fullText = (valueEl ? valueEl.textContent : td.textContent) || "(empty)";
+    delete contentModal.dataset.reportCc;
     modalTitle.textContent = "Communication Content";
     modalBody.textContent = fullText;
     contentModal.classList.add("show");
@@ -4888,6 +4927,7 @@ clearStoredUserInfo();
 
   function closeContentModal() {
     contentModal.classList.remove("show");
+    delete contentModal.dataset.reportCc;
     openContentCell = null;
   }
 
@@ -5020,19 +5060,17 @@ clearStoredUserInfo();
       previewBtn.type = "button";
       previewBtn.className = "action-pdf-preview";
       previewBtn.textContent = "▣";
-      previewBtn.title = `Preview PDF report for ${normalizedCC}`;
-      previewBtn.setAttribute("aria-label", `Preview PDF report for ${normalizedCC}`);
+      previewBtn.title = `Open generated report for ${normalizedCC}`;
+      previewBtn.setAttribute("aria-label", `Open generated report for ${normalizedCC}`);
       previewBtn.addEventListener("click", (event) => {
         event.preventDefault();
         event.stopPropagation();
 
-        // Mobile: mở đúng popup Communication Content của dòng hiện tại.
-        // Desktop: giữ nguyên chức năng xem trước PDF theo CC NUMBER.
+        // Mobile: dùng kiểu popup Communication Content, hiển thị nội dung
+        // báo cáo giống phần nội dung được đưa vào PDF khi Generate Report.
+        // Desktop: giữ nguyên chức năng PDF Preview.
         if (window.matchMedia("(max-width: 768px)").matches) {
-          const communicationCell = tr.querySelector(`td[data-label="${CONTENT_LABEL}"]`);
-          if (communicationCell) {
-            toggleContentModal(communicationCell);
-          }
+          openReportContentModalForCC(normalizedCC);
         } else {
           previewPDFForCC(normalizedCC);
         }
