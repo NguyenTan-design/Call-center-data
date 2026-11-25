@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-25T08:26:19+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nAfter the issue occurs, what is the condition of the tape position? We would like to understand the state of the tape after the reverse operation. For example:\n\nHas the tape come off the sprocket?\n\nIs the component no longer at the pick-up (index) position?\n\nAre there any other abnormal conditions?\n\nRegarding the frequency of occurrence, you mentioned that it happens every time during setup changeover. Does it occur every time on all feeders, all slots, and all modules?\n\nIf there was a specific trigger or point in time when this issue started occurring, please let us know.\n\nIf the issue is reproducible, we would like to consider conducting a reproduction test at FUJI. In that case, please send us one of the feeders on which the issue occurs.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
         "DATE": "2026-11-25T07:18:44+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
