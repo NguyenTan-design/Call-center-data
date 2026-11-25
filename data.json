@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-25T07:18:44+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nAfter each time like that, Normally we have to removing the feeder and performing the setup process again?\n\nBut not all feeder, depend on the distance of tape reverting.  if revert the long tape, have to remove and setup again. if short, just use button on the feeder to move forward.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-25T07:10:06+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Tung-san,\n\nPlease let us know what recovery procedure is performed after the tape is pitch-fed in the reverse direction.\n\nAccording to the trace, the following behavior was observed:\n\nThe feeder was mounted and \"Initial Positioning\" was executed.\n\nNo completion response was received from the feeder within 6060 ms, resulting in a timeout.\n\nAfter that, were you able to clear the feeder error on the machine and resume production?\n\nOr was any manual intervention required, such as removing the feeder and performing the kitting/setup process again?\n\nWe would appreciate it if you could provide details of the recovery operation.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-25T07:08:21+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nCould you please provide update on the release of the new OCPU version with enhanced log functionality?\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-11-25T06:05:56+00:00",
         "CC NUMBER": "CC-0084818",
         "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
