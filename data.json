@@ -1,5 +1,41 @@
 [
     {
+        "DATE": "2026-11-25T10:08:22+00:00",
+        "CC NUMBER": "CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
+        "Communication Content": "FMV Akiraさん\n\n勘違いしてました。\n\n今このユーザーの使っているバージョンを教えてください。\n\nそこで修正されているかどうか聞いてみます\n\n森谷",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD"
+    },
+    {
+        "DATE": "2026-11-25T10:01:14+00:00",
+        "CC NUMBER": "CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
+        "Communication Content": "FMV Akiraさん\n\n遅くなりすみません。\n\n一応確認してますが、CC-0084847と同件で、すでにリリース済みのV2.DBeで修正済みかもしれません。\n\nお待ちください。\n\n森谷",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD"
+    },
+    {
+        "DATE": "2026-11-25T09:55:45+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Ka Ki-san,\n\nThank you for your information.\n\n1. If this function is urgently required, we can coordinate with our design team to arrange an early release of a test version. However, this will require both further technical confirmation and additional preparation time. → The basic issue has now been resolved, so this is no longer urgent. Please provide us with the most complete version available.\n\n2. Could you please confirm whether this issue occurred only on machines using RH01 or RH02 heads? Yes, that’s correct.\n\n3. If the issue also occurred when using RH28, RH20, or RH08 heads with Patch 2438 installed, could you please upload the machine trace logs for further investigation? → At present, we only need this function for RH01 or RH02 heads.\n\nThank you for your support.\n\nBest regards,\n\nThong Nguyen",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
+        "DATE": "2026-11-25T09:02:48+00:00",
+        "CC NUMBER": "CC-0086008",
+        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
+        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
+        "Communication Content": "Dear Thong Nguyen,\n\nAccording to our design team, the Pre-Mount Discard function(Patch 2438) currently supports only RH28, RH20, and RH08.\n\nFor RH01 and RH02, is still under development.\n\nIf this function is urgently required, we can coordinate with our design team to arrange an early release of a test version.\n\nHowever, this will require both further technical confirmation and additional preparation time.\n\nCould you please confirm whether this issue occurred only on machines using RH01 or RH02 heads?\n\nIf the issue also occurred when using RH28, RH20, or RH08 heads with Patch 2438 installed, could you please upload the machine trace logs for further investigation?\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒 (Ka Ki)",
+        "FMV PIC": "Nguyen Thong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
+    },
+    {
         "DATE": "2026-11-25T09:02:14+00:00",
         "CC NUMBER": "CC-0082883",
         "Customer": "Hana Micron Vina Co., Ltd. (Bac Giang)]",
@@ -53989,14 +54025,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-11-25T09:02:48+00:00",
-        "CC NUMBER": "CC-0086008",
-        "Customer": "LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]",
-        "TOPIC": "Urgent[LUXSHARE TECHNOLOGIES (VIETNAM) CO., LTD]_Urgent Support Request — RH01 Head Drops Oversized Components After Vision Error_[NXTR-S]",
-        "Communication Content": "Dear Thong Nguyen,\n\nAccording to our design team, the Pre-Mount Discard function(Patch 2438) currently supports only RH28, RH20, and RH08.\n\nFor RH01 and RH02, is still under development.\n\nIf this function is urgently required, we can coordinate with our design team to arrange an early release of a test version.\n\nHowever, this will require both further technical confirmation and additional preparation time.\n\nCould you please confirm whether this issue occurred only on machines using RH01 or RH02 heads?\n\nIf the issue also occurred when using RH28, RH20, or RH08 heads with Patch 2438 installed, could you please upload the machine trace logs for further investigation?\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒 (Ka Ki)",
-        "FMV PIC": "Nguyen Thong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QFq22YAD"
     }
 ]
