@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-26T08:59:41+00:00",
+        "CC NUMBER": "CC-0086058",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_CFX Line 5 :Fault duration: no matching end message observed in the existing data_[NXT]",
+        "Communication Content": "Dear Call Center,\n\nThank you very much for your support.\n\nWe will continue monitoring the issue and contact the customer to keep them updated. We will inform you as soon as the issue occurs again.\n\nBest regards,\n\nFMV Vu Phuoc",
+        "FMV PIC": "Vu Phuoc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QMwsKYAT"
+    },
+    {
+        "DATE": "2026-11-26T08:58:28+00:00",
+        "CC NUMBER": "NEW:CC-0086613",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Module 1R lane 2 can not load job_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have met the issue.\n\nAt 15:36, when change over, we load job by nexim but module 1R lane 2 can not load job (refer to picture I attached).\n\nAfter that we have to delete job and transmit job again. Before it, no error happen, and job is No pair production.\n\nI taka trace data, please help me investigate it.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RrQUCYA3"
+    },
+    {
         "DATE": "2026-11-26T08:41:48+00:00",
         "CC NUMBER": "NEW:CC-0086612",
         "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
