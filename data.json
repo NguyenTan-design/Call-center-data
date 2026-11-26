@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-26T00:08:43+00:00",
+        "CC NUMBER": "CC-0086086",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Machine hang up during calibration_[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV,\n\nThank you for providing the trace logs.\n\nWe found that the parts camera recognition process is normally performed before the head recognition process during machine startup.\n\nHowever, depending on the clamping status of the remaining tape box or the module, these processes may be performed in reverse order.\n\nAs a result, production may start without the necessary information being registered, leading to the reported issue\n\nThe fix will be included in the next version, which is currently scheduled to be released on December 4 or December 9.\n\nLet me know if you have any further questions.\n\nThank you for your patience and cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒 (Ka Ki)",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QTEzNYAX"
+    },
+    {
         "DATE": "2026-11-25T12:58:07+00:00",
         "CC NUMBER": "CC-0081535",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
