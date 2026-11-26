@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-26T04:59:00+00:00",
+        "CC NUMBER": "CC-0086025",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Question related to zabbix setting_[Nexim]",
+        "Communication Content": "Dear Cao Tuan,\n\nThank you for your patience.\n\nBased on our design team's investigation, please find our answers below.\n\n1. High tablespace usage\n\nIn Oracle, different types of data are stored in different tablespaces:\n\n- USER1: Part data, such as Shape and Package data.\n\n- USER2: WorkTable data.\n\n- USER3: Job-related data, such as JobData and CadData.\n\nThe space usage of each tablespace depends on the amount of stored data and the customer's operational conditions.\n\nTo reduce database space usage, we recommend deleting job data and part data that are no longer needed.\n\nFor WorkTable data, we will provide Patch 6038_WorkTableCleanup_Patch, which allows you to delete only WorkTable data.\n\nThe following patches have been released for database capacity expansion and maintenance.\n\nDocument No.: 2026-1939\n\n- 1763_INDX1_NeximDB_add_datafiles\n\n- 1764_USER1_NeximDB_add_datafiles\n\n- 1883_JobDatabaseMaintenance2\n\n- 2424_USER3_INDX3_NeximDB_add_datafiles\n\n- 5021_USER2_INDX2_NeximDB_add_datafiles\n\n- 6038_WorkTableCleanup_Patch\n\nPlease use these patches as needed.\n\n2. Recommended tablespaces and warning thresholds for monitoring\n\nQ1: Which tables must be monitored to prevent potential database issues?\n\nAll tablespaces need to be monitored. There are no specific tablespaces that require higher priority than others.\n\nQ2: For which tables should we take action when space usage exceeds 70%?\n\nThe appropriate threshold for taking action depends on the customer's operational conditions. Therefore, we cannot specify a fixed threshold that applies to customers.\n\nHowever, setting a warning threshold at 70% or 80% is considered effective for early notification. Please note that these thresholds do not guarantee that all database capacity-related issues can be prevented.\n\nQ3: Are there any tables that normally maintain high space usage and do not require immediate action?\n\nAll tablespaces require attention when their space usage becomes high. There are no specific tablespaces that can be excluded from monitoring or capacity management.\n\nWe recommend monitoring all tablespaces in Zabbix and adjusting the warning thresholds according to each customer's operational conditions.\n\nLet me know if you have any further questions.\n\nThank you for your cooperation.\n\nBest regards,\n\nFUJI\n\n柯麒(Ka Ki)",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QII0eYAH"
+    },
+    {
         "DATE": "2026-11-26T04:30:48+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
