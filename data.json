@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-26T04:21:11+00:00",
+        "CC NUMBER": "CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "Dear DUC san,\n\nBased on the S/N and the information shown on the adjustment screen, there is a high possibility that a SideLight2-compatible camera is installed.\n\nFor our investigation, could you please provide the following information?\n\n1. A trace captured immediately after power-on while performing a long press of [Cycle Stop].\n\n There may be a record of the camera identification code in the trace.\n\n However, if more processing than expected has occurred after power-on, the record may no longer be available.\n\n2. Please let us know if there have been any changes to the machine or its configuration.\n\n Our understanding is that a SideLight2-compatible camera was installed at the time of shipment.\n\nDid SideLight2 suddenly become unavailable?\n\nIs this the first time you have used SideLight2 due to a panel ID reading failure?\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+    },
+    {
+        "DATE": "2026-11-26T04:14:10+00:00",
+        "CC NUMBER": "CC-0082866",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_The machine hangs out when adjusting the conveyor sensor._[NXTR-S]",
+        "Communication Content": "Moriya san,\n\nThe current version is 2.2DMe\n\nFMV Akira",
+        "FMV PIC": "Hoang Kha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GPj1wYAD"
+    },
+    {
         "DATE": "2026-11-26T03:40:51+00:00",
         "CC NUMBER": "CC-0084845",
         "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
