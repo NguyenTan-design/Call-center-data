@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-26T08:41:48+00:00",
+        "CC NUMBER": "NEW:CC-0086612",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Regarding Communication with the AP (NWA110AX)_AP(NWA110AX)の通信に関して[Nexim]",
+        "Communication Content": "Dear Call Center\n\nWe are currently using an AP (NWA110AX) purchased from FUJI at Yaskwa.\n\nThere were no issues at the time of installation (around December 2025), but we recently investigated reports of sporadic timeout errors on PDAs.\n\nPreviously, the AP was placed on desks where PCs were located or on AOI machines.\n\nHowever, since the manufacturer’s manual states that the AP is designed to be suspended from the ceiling, we changed the setup to suspend it from the ceiling.\n\nWe also verified and adjusted the following settings:\n\n・Maximum output: 30 dBm\n\n・Channel width: 20 MHz\n\n・Tested on 2.4 GHz and 5 GHz\n\n・Reset\n\n・AP firmware update\n\nWe tried the above measures, but the signal remains unstable.\n\nWhen running a ping from the LineServer PC to the AP, the response time is 1 ms, which is fine.\n\nHowever, when running a ping from the LineServer to the PDA,\n\nthe response time ranges from 2 ms to 813 ms, with timeouts occurring, and an average of 268 ms,the connection is unstable.\n\nTherefore, we think the AP’s signal is unstable. Is there any way to improve this?\n\nSince this customer only has one Fuji AP, we cannot verify the issue by switching to a different AP. However, when we test the ping via the customer’s AP, the response time ranges from 2 ms to 265 ms, with an average of 63 ms—which is stable. There are also no disconnections.\n\nCurrently, we are having the customer use their AP as a temporary measure, but since they have also requested an improvement using the Fuji AP they purchased, we would appreciate your advice.",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RpuRXYAZ"
+    },
+    {
         "DATE": "2026-11-26T08:23:22+00:00",
         "CC NUMBER": "CC-0084845",
         "Customer": "CANON VIETNAM CO.,LTD (TS Factory)]",
