@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-26T06:44:32+00:00",
+        "CC NUMBER": "CC-0084227",
+        "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
+        "TOPIC": "Urgent[LUXSHARE - ICT (NGHE AN) LIMITED]_8000D47B: An error occurred in the communication with the camera_8000D47B: カメラとの通信中にエラーが発生しました[NXTR-S]",
+        "Communication Content": "Dear Ma Shimeng San,\n\nPls close this ticket.\n\nThank you!\n\nBest Regards,\n\nXuan Trung",
+        "FMV PIC": "Nguyen Trung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001KsT11YAF"
+    },
+    {
         "DATE": "2026-11-26T05:34:33+00:00",
         "CC NUMBER": "CC-0084227",
         "Customer": "LUXSHARE - ICT (NGHE AN) LIMITED]",
@@ -54151,5 +54160,14 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
+    },
+    {
+        "DATE": "2026-11-26T06:59:05+00:00",
+        "CC NUMBER": "CC-0076867",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_RH20 Nozzle was rust so many_RH20ノズルは錆びていました[NXTR-S]",
+        "Communication Content": "Dear Nguyen Trong Nham san,\n\nSorry for the delayed response.\n\nWe are still investigating the root cause of the issue and would appreciate a little more time.\n\nThank you for your understanding and cooperation.\n\nBR,\n\nFUJI Ma",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000zZo3dYAC"
     }
 ]
