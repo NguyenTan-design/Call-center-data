@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T01:10:56+00:00",
+        "CC NUMBER": "CC-0086612",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Regarding Communication with the AP (NWA110AX)_AP(NWA110AX)の通信に関して[Nexim]",
+        "Communication Content": "FMA 高津様\n\nお世話になっております。\n\nPDAから通信チェックが可能かと思いますが、その場合、どのような状況でしょうか？\n\nもし、PDAとAP間の通信が安定しないのであれば、問題の発生タイミングが位置変更の関係上、\n\nPDAとAPの位置が通信が難しい環境なのではないかと思われます。\n\n現在、顧客APを使用しているとのことですが、このAPはFUJIAPと同じく天井につるす位置にあるのでしょうか？\n\n例えば、顧客APと同じ位置に移動した場合、状況は改善されるのでしょうか？\n\n以上、宜しくお願い致します。\n\n株式会社ＦＵＪＩ\n\nカスタマーサービス部　\n\nカスタマーサポート課\n\n寺澤　真梨恵",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RpuRXYAZ"
+    },
+    {
         "DATE": "2026-11-26T12:28:04+00:00",
         "CC NUMBER": "CC-0080899",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
