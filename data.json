@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-27T04:29:38+00:00",
+        "CC NUMBER": "CC-0084026",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_\"Is Push Sequence\" function error_[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san\n\nV2.DNc includes “bug fixes up to V2.DMk.”\n\nThank you\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001JXMo0YAH"
+    },
+    {
+        "DATE": "2026-11-27T04:22:58+00:00",
+        "CC NUMBER": "CC-0079816",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_When \"Sidelight2\" is selected for the [Lighting Pattern for Panel ID] to read the panel ID, no image is displayed on the monitor_[NXTR-S]",
+        "Communication Content": "Dear Chi-san,\n\nI have collected the trace data as request. In addition, I also collected trace data when the Panel ID read failure occur.\n\nPlease refer to the attach files:\n\n- 20261127_102954_trace_When restart the module.zip: Collect when restart the module.\n\n- 20261127_085614_trace_When the error occur.zip: Collect when the module failed to read the Panel ID.\n\nRegarding your questions:\n\nThere have been no changes to the machine or its configuration.\n\nThe customer is currently using IDs printed by a laser marking machine. During our support activities, we found that the SideLight2 function could read the Panel ID without using the Panel ID Recovery function.\n\nWe discovered the issue on Module 1R (S/N: 0001187) after the EMG button was pressed, when the module required Panel ID reconfirmation.\n\nBR,\n\nFMV-DUC",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK000017d9uxYAA"
+    },
+    {
+        "DATE": "2026-11-27T04:17:02+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear FMV-DUC-san,\n\nThe version had been ready and send through file transfer system.\n\n=======================\n\nOCPU_V2.3Aa_InstallDisc.zip\n\nduc@fuji-smt.com.sg\n\nDownload PW\t: \"6S5883Ph\"\n\nZIPfile open PW\t: \"tYdZdSGZ\"\n\n=======================\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-11-27T03:55:06+00:00",
         "CC NUMBER": "NEW:CC-0086655",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
