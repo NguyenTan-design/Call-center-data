@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-27T07:41:09+00:00",
+        "CC NUMBER": "CC-0082933",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Urgent[GOERTEK TECHNOLOGY VINA CO.,LTD]_Nexim show error \"Internal processing error\" when perform data check, but optimize completed without error_AVL Listに登録したパートナンバーが無いJOBで、NXTRのデータチェックをかけると内部処理異常になる[NXTR-S]",
+        "Communication Content": "Dear Minh-san\n\nCC-0082933　GOERTEK TECHNOLOGY VINA　NXTR V2.3Pzh\n\nI have sent the updated version of NXTR via your file transfer account.\n\nThe password is as follows:\n\nDownload\t: \"As6HQPnv\"\n\nZIP\t: \"myUZ327m\"\n\nRegards\n\nHamamoto",
+        "FMV PIC": "Hoang Minh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GcJZOYA3"
+    },
+    {
+        "DATE": "2026-11-27T07:29:32+00:00",
+        "CC NUMBER": "CC-0075836",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Distance for Reject error parts on a reject conveyor of tray unit-RM_トレイユニット（RM）のリジェクトコンベア上における不良部品（Rejectエラー品）の距離[NXTR]",
+        "Communication Content": "Dear Konda san,\n\nThanks for your supported\n\nCC: Instead of configuring this on a part-by-part basis, we will add the setting of a distance between rejected parts in the machine configuration settings.\n\nIt will be planned to support this function in V2.60.\n\nFMV: The customer and we have agreed on this approach. It provides great flexibility, allowing the customer to define the desired distance for part rejection.\n\nWe look forward to receiving the updated version soon.\n\nThanks\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000wYNs1YAG"
+    },
+    {
+        "DATE": "2026-11-27T07:27:29+00:00",
+        "CC NUMBER": "CC-0085826",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_2 board go to module 1_[NXTR-S]",
+        "Communication Content": "FMV Dung san,\n\nWe already send you V2.3Pzh via FTS.\n\nDownload password: \"xUzmmGPY\"\n\nZIP file password: \"A2rnfGhR\"\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Bui Dung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PZegXYAT"
+    },
+    {
         "DATE": "2026-11-27T06:57:07+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
