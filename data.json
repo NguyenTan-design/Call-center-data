@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-27T02:33:25+00:00",
+        "CC NUMBER": "CC-0086612",
+        "Customer": "YASKAWA Vietnam Mechatronics system Co., Ltd.]",
+        "TOPIC": "Normal[YASKAWA Vietnam Mechatronics system Co., Ltd.]_Regarding Communication with the AP (NWA110AX)_AP(NWA110AX)の通信に関して[Nexim]",
+        "Communication Content": "寺澤さん\n\nPDAからですとそもそも通信速度、受信速度が50~70mbです。またWifiが切れている事もあります。\n\n顧客AP経由ですと600~700mb。その為、APの問題と思います。\n\nただファイルに簡易配置図保存させて貰いましたが、APからNXTR付近まで最大でも約20mぐらいです。\n\n一応Googleで電波距離調べてみましたが、半径15~30mなので範囲には入っているかと。\n\nまたフロア一面には壁はなく、障害物となる様な物もありません、PC机、MFU、Neotelタワーぐらい(APとNXTRの位置関係上、間をふさぐ様な位置関係ではない。)\n\nもし、PDAとAP間の通信が安定しないのであれば、問題の発生タイミングが位置変更の関係上、\n\nPDAとAPの位置が通信が難しい環境なのではないかと思われます。\n\n→通信が安定しなくなった、通信エラーが散発し出したので、天井に位置変更して貰いました。\n\n設計上吊るす形を想定しているようなので。なので元々の位置でも悪いです。\n\n現在、顧客APを使用しているとのことですが、このAPはFUJIAPと同じく天井につるす位置にあるのでしょうか？\n\n例えば、顧客APと同じ位置に移動した場合、状況は改善されるのでしょうか？\n\n→顧客APの位置は生産フロアには見当たらなかったので、確認して貰っています。\n\n正直APであんまり困ったことないので、APの問題なのか何なのかが分からず。\n\nFMV 高津",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RpuRXYAZ"
+    },
+    {
+        "DATE": "2026-11-27T02:23:33+00:00",
+        "CC NUMBER": "CC-0081343",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_About optimize the waste‑tape box design_[NXTR-S]",
+        "Communication Content": "平林さん\n\n回答ありがとうございます。\n\n新旧タイプがあることを訪問時のミーティングでもお伝えしています。\n\n旧品については今まで通りリペア、残テープ以外を入れないことを徹底させております。\n\nクローズとしてください。\n\nFMV Akira",
+        "FMV PIC": "Pham Duc",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CEJY1YAP"
+    },
+    {
         "DATE": "2026-11-27T01:59:20+00:00",
         "CC NUMBER": "CC-0085993",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
