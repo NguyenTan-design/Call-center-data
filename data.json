@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T23:03:34+00:00",
+        "CC NUMBER": "CC-0085407",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_the NXTR machine screen displays the status \"Producing\", but in reality the two robots have stopped and are not moving._[NXTR-S]",
+        "Communication Content": "Dear Cong san,\n\nWe discovered that during the process of unloading the PCB, while the left and right robots were operating simultaneously, the processes became misaligned.\n\nWe will address this as a priority.\n\nKonda,",
+        "FMV PIC": "Tran Cong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001OGgcwYAD"
+    },
+    {
         "DATE": "2026-11-27T22:42:35+00:00",
         "CC NUMBER": "CC-0075836",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
