@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-27T03:01:01+00:00",
+        "CC NUMBER": "CC-0080899",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_NXTR Nozzle Detection Error Caused by Background Reflection_[NXTR-S]",
+        "Communication Content": "Dear Moriya san,\n\nDue to the customer’s production schedule, I cannot replace all the reflective plates at the same time. The replacement can only be carried out during changeover, so collect and replace all the reflective plates will take some time.\n\nI will inform you once the replacement and collection of all reflective plates have been completed.\n\nThank you!\n\nFMV-DUC",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001B4Q8OYAV"
+    },
+    {
+        "DATE": "2026-11-27T02:57:32+00:00",
+        "CC NUMBER": "CC-0085720",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_80003410 – Parts are being picked shifted in the Q-direction beyond the tolerance specified in the part data when using the TVR function with wide-package components_80003410 – 幅の広い...",
+        "Communication Content": "Dear Amano-san,\n\nI apologize for the delay in providing this update.\n\nCurrently, the customer is using the standard package and is not using the TVR Position Pick-up option. As a result, the pickup rate has reached 100%.\n\nHowever, we are concerned that in future NPI production plans, some new models may require the use of this TVR option again. Therefore, we would appreciate it if this functionality could be reviewed and improved for future applications.\n\nFor detailed information, please refer to the attached file.\n\nWe look forward to receiving your feedback and recommendations.\n\nBest regards,\n\nFMV-Ha",
+        "FMV PIC": "Vuong Ha",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001PJCI0YAP"
+    },
+    {
         "DATE": "2026-11-27T02:43:55+00:00",
         "CC NUMBER": "CC-0076174",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
