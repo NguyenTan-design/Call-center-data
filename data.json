@@ -37998,6 +37998,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000i7V2YYAU"
     },
     {
+        "DATE": "2026-01-22T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0070068",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_After the emergency stop button was released, the machine still did not respond_[NXTR]",
+        "Communication Content": "Dear Call center\n\nOur customer had the issue with emergency push button. When technicians push the emergency button to do something, then they released push button, sometimes the NXTR module still did not respond, look like the emergency button still in pushing position\n\nThe temporary solution for this case : When issue occur, technician will pull out the MFU by I/O related signal, then put into machine again. The machine then will change to normal status.\n\nOur troubleshoot action:\n\n1: Replace emergency push button -> same error\n\n2: Replace base interface board -> same error\n\nI got the trace file when the issue happend at 3h45 pm 22/1/2026, please refer it and help to give the advice for this case\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000i1xPjYAI"
+    },
+    {
         "DATE": "2026-01-22T08:18:02+00:00",
         "CC NUMBER": "CC-0069875",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -38034,6 +38043,141 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eSE7YYAW"
     },
     {
+        "DATE": "2026-01-21T11:51:41+00:00",
+        "CC NUMBER": "CC-0069217",
+        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
+        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_Are the factory's CPK test records available for the NXTR feeder?_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nThanks for your strong supported\n\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000fxKMTYA2"
+    },
+    {
+        "DATE": "2026-01-21T11:11:41+00:00",
+        "CC NUMBER": "CC-0068819",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup_Fuji CFX インターフェースのセットアップ[Nexim]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your supported.\n\nWe already applied  the patch follow the SoftWareNotice#2024-1012 3550 patch released. It include in the software which CC send to us\n\nIt seems that the time in the FLP is not synchronized with the Fuji system.\nWe have synchronized and will need more time to monitor for any further issues.\n\nThanks\nFMV-Do",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eSE7YYAW"
+    },
+    {
+        "DATE": "2026-01-21T10:35:41+00:00",
+        "CC NUMBER": "CC-0070022",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._NXTR-S 2RV右ロボットモジュールは、製造中にX軸基板で通信リンクエラーを報告しました。[NXTR-S]",
+        "Communication Content": "Dear Dinh-san\n\nSharing information from past cases with the same error code on 2RV.\nPlease check the following: Is there any damage or loose connection?\nWe will perform trace analysis in parallel.Sharing information from past cases with the same error code on 2RV.\nPlease check the following: Is there any damage or loose connection?\nWe will perform trace analysis in parallel.\n\n>Flat cable X: 2RHESH0002** (2EHESH0002** CNE2-CN1)\n>Flat cable Y::2RHESA0004** (2EHESA0006** CNE2-M2CNH2)\n>BOARD HEIGHT SENSOR\n>Harness between X AXIS EXTEND BOARD-HEAD to X AXIS COMMON BOARD: CN6-CN19\n>Harness between X AXIS EXTEND BOARD-HEAD to X AXIS COMMON BOARD: CN11-CN18\n>X AXIS BOARD COOLING FAN1\n>Harness of Mark Light Source : 2EHEGL0005**\n>MARK LIGHT CONTROL BOARD: FH2106A1F\n\nBR.\nMoriya",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA"
+    },
+    {
+        "DATE": "2026-01-21T09:17:41+00:00",
+        "CC NUMBER": "CC-0062804",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Kaizen navigator can not conver DB with many Base in Base table_[NXTR-S]",
+        "Communication Content": "Dear TUAN CAO-san,\n\nWe are planning to incorporate a function equivalent to Kaizen Navi into FSF 3.0 (Smart Monitor) in the future.\nThe specifications are still under review at this stage.\n\nI have communicated your request to the design team.\n\nCall center Amano",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001If1DYYAZ"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0069971",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
+        "Communication Content": "Dear Hamamoto san,\n\nThe customer’s technician handled this issue directly, and when I asked, they described their process to me and stated that they did not perform any handling on the L side.\n\nCurrently, the customer wants to analyze this problem and proceed with a warranty claim for this part number.\n\nI have uploaded images of the Holder and the Nozzle picker.\n\nThanks!\nThe",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0069652",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Load job on each module_各モジュールにジョブをロードする[NXTR-S]",
+        "Communication Content": "Dear Amano san\n\nThis ticket will address the issue where “one lane switches unexpectedly.”\n\nWe have created a separate ticket, CC-0070006, for the issue where the main screen does not appear after pressing the cycle stop button.\n\nFMV takatsu",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000guNjRYAU"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0070006",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
+        "Communication Content": "There are two cases requiring fixes in CC-0069652, so we will split them into separate tickets.\n\nThis ticket will be registered as a ticket for the following issue:\n\n\"Pressing Cycle Stop does not transition to the main screen.\"",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0066538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV-san,\n\nThank you for the update.\n\nI had tried to import the Job:TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4 to the V3.1.105 but the error occurred.\nThere was no problem at the SP-2552-1R_BOT_R1_L3S06_ REVX4.Job importing.\nWas the :TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4 is the one export from customer Nexim and pass to use?\nHave you import to other environment and export then past to us?\nIf import >> export is done, please share the original Job which export from customer Nexim directly.\n\nThank you and Best Regards,\nMarie Terazawa\nQuality Assurance Dept.\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0069875",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_ジョブ送信時にブルースクリーンが発生[NXTR-S]",
+        "Communication Content": "Dear Miao-san\n\nThank you for the response.\nI will check the trace also.\n\nBR.\nMoriya",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0069257",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine is hanging long time and must restart machine_マシンが長時間応答しないため、再起動が必要[NXTR-S]",
+        "Communication Content": "Dear Dinh-san\n\nThis issue occurs during pair robot production.\nApplication errors were occurring due to the timing of feeder insertion/removal and feeder mark reading.\n\nWe are working towards a January 30th application release target for this fix.\n\nBR.\nMoriya",
+        "FMV PIC": "Dinh Duong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000g1UgfYAE"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0068710",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08 vacuum break too strong_RH08の真空破壊圧が強すぎる[NXTR-S]",
+        "Communication Content": "FMV 高津さん、\n\n現地での確認ありがとうございます。\n\nサイクルタイムへの影響はあるものの実生産で問題が無い事が\n\n確認出来ましたので設計に対応を依頼させて頂きます。\n\n加藤",
+        "FMV PIC": "Nguyen Trong Nham",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eC7y2YAC"
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "CC-0069971",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
+        "Communication Content": "Dear FMV The-san\n\nI have a few questions.\n\n・After an 8B75 error occurred on both L and R\n→Do you know why the operator only removed the backup pins on the R side?\nAnd did they not touch the L side at all?\n\n・After removing only the backup pin on the R side and restarting, did you notice any unusual sounds or other abnormalities at that time?\n\n・Do you have any photos showing the damage to the picker nozzle and syringe in holder A?\n\nWe are investigating the situation based on the trace. Please wait a moment.\n\nThank you\nBR\nHamamoto",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
+    },
+    {
+        "DATE": "2026-01-21T06:06:41+00:00",
+        "CC NUMBER": "CC-0070006",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
+        "Communication Content": "FMV takatsu-san\n\nWe are currently analyzing the trace data.\nHowever, the traces you provided may be insufficient. If the issue occurs again, we would like you to capture an arbitrary trace at the time of recurrence.\nBased on the trace acquisition status below, it is possible that the information we need is missing.\n\n◆ Line S06 – Module 5\nSince the arbitrary trace was taken after performing various operations such as clearing the board memory, the detailed trace data from when the problem actually occurred may no longer remain.\n\n◆ Line S06 – Module 3\nAn arbitrary trace was not captured.\n\nCall center Amano",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
+    },
+    {
+        "DATE": "2026-01-21T06:06:36+00:00",
+        "CC NUMBER": "CC-0069652",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Load job on each module_各モジュールにジョブをロードする[NXTR-S]",
+        "Communication Content": "FMV takatsu-san\n\nAt Module 4 on the S17 line, Lane 2 began switching to the next production job, and production stopped at the setup guidance screen.\nThis behavior is as designed for this situation.\n\nFirst, regarding Module 4, the setting value for “Timing of setup guidance during job change in production” is not related.\nThis setting only applies in 2R configurations.\nFor 1R, since there is only one robot, “per robot” and “per module” refer to the same thing.\n\nThe key point in this case was that the component in Slot 46, which was being used for production on Lane 1, was raised to the recovery position due to a pickup error.\nIt is normal and expected behavior for Lane 2’s job to change while Lane 1 is in production (this is according to specification).\nUnder normal conditions, even if a job that would cause a consistency-check NG on the opposite lane is loaded, production continues.\n\nHowever, in this case, the component in Slot 46 had been lifted to the recovery position, meaning production could no longer continue.\nTherefore, the system exited the production state and displayed the setup guidance.\n\n設計とやり取りしているかと思いますが回答更新しておきます。\n\nCall center Amano",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000guNjRYAU"
+    },
+    {
+        "DATE": "2026-01-21T05:59:41+00:00",
+        "CC NUMBER": "NEW:CC-0070022",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._[NXTR-S]",
+        "Communication Content": "Dear: Call Center\n\nCurrently, the customer site at BYD Vietnam is experiencing an issue with the NXTR 2Rv module. The detailed error phenomenon is as follows:\n\nNXTR-S module 2RV Right robot during production reported error codes 8000B108 communication link error on the X-axis board, 190B, and 190C. When the errors occurred, the Z-axis moved downward.\n\n Actions taken:\n\nPerformed head maintenance=> The issue still occurred.\n\nReplaced the head However=> the issue still persisted.\n\nreconnected the cables inside the module CPU box=> The issue continued to happen.\n\nOnly restarting the module could temporarily recover the operation, but the issue reoccurred.\n\nWe have acquired the trace data at the time the error occurred. Kindly review the trace data and support us in investigating this issue.\n\nThank you for your kind support.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA"
+    },
+    {
         "DATE": "2026-01-20T10:27:07+00:00",
         "CC NUMBER": "CC-0057970",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
@@ -38050,6 +38194,24 @@
         "Communication Content": "Dear Call center\n\nI have encountered this issue. Today about 11:00 am （Vietnam time）, when transmit new job to machine, line S17-module 4 Error Blue Screen.\n\nAction: We have to reset machine and after that keep cycles stop 10s to get trace data.\n\nMachine version now is 2.2Ds\n\nI attached trace data, please help me continue investigate this issue.\n\nThank you\n\nMiao-FMV",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
+    },
+    {
+        "DATE": "2026-01-20T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069971",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
+        "Communication Content": "Dear Call Center Team,\n\nWe are currently facing an issue related to the NXTR-S machine with RH28 head, a syringe and nozzle picker have been broken:\n\nAfter changing the program, the technician pressed Start, and the machine displayed the errors “8B75 Backup pin dropped error” and “8F15 Pin removal request” on both L and R robots.\n\nAfter that, the technician manually removed the backup pin on the Right side (the Left side was not removed) and pressed Start again.\n\nSubsequently, the machine showed the errors “8665E1F4 Zs-robot operation error” and “80003A18 00000002 Over speed.”\n\nThe head was removed for inspection, and Holder A was found to be broken.\n\nCurrently, a new head has been installed, and production has resumed.\n\nActions taken:\n\nChecked nozzle NHJ001-RH28 and confirmed it was broken → removed and replaced the nozzle.\n\nChecked the syringe on Holder A and confirmed it was broken → skipped Nozzle A and restarted production.\n\nChecked the related backup pin → confirmed it is usable.\n\nRe-checked and cleaned the stocker set and backup plate.\n\nRe-checked the head and confirmed only Holder A was damaged → test run showed normal operation.\n\nChanged to another head.\n\nPlease help us analyze the data and provide your advice on this case.\n\nThanks!\n\nFMV-The",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
+    },
+    {
+        "DATE": "2026-01-20T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069968",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The phenomenon is occurring while the NXTR machine is operating normally_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have meet this issue. Today about 11:00 am (VietNam time), The phenomenon is occurring while the NXTR machine is operating normally, line S17-module 4 Error Blue Screen.\n\nAction: We have to reset machine and after that keep cycles stop 10s to get trace data.\n\nMachine version now is 2.2Ds\n\nI attached trace data, Please help me continue investigate this issue.\n\nThanks you\n\nMiao-FMV",
+        "FMV PIC": "Li Miao",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hn2RLYAY"
     },
     {
         "DATE": "2026-01-20T08:35:22+00:00",
@@ -38160,6 +38322,132 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hccoHYAQ"
     },
     {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069127",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine application error_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nWe already send you V2.30 by file transfer system.\nDownload password: \"ZD4dMjr7\"\nZIP file password: \"HpdJRJ3d\"\n\nBR\nChi/Fuji",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000fmB85YAE"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069798",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Vacuum monitoring function  based stop setting_[NXTIII]",
+        "Communication Content": "Dear Phuong san,\n\nSince the regulator installed in the AHC and the vacuum pump installed in the NXTIII are different,\nthe negative pressure reference levels of the NXTIII differ from those of the AHC.\n\nThe NXTIII continues production without generating an error as long as the negative pressure level does not affect placement accuracy.\nIn contrast, the AHC is designed with a preventive approach and therefore detects deviations much more strictly.\nAs a result, the reported outcome has occurred.\n\nFor the setting “Number of Consecutive Inspection Vacuum Error Results to Stop Operation”,\nthe associated error code is 1958.\n\nThe specific vacuum pressure reference values for the NXTIII are internally defined and cannot be changed; therefore, we refrain from disclosing them.\n\nBR\nChi/Fuji",
+        "FMV PIC": "Nguyen Phuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hCto4YAC"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0066704",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_パネルは2つのモジュール間で転送できません[NXTR-S]",
+        "Communication Content": "Dear Tan-san\n\nThe same chattering is still occurring.\nWe will conduct a reproduction test at FUJI.\nScheduled for update on January 30.\n\nBR.\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0064359",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Feeder temperature is high at NXTR-S machine_NXTR-Sでフィーダーの温度が高い[NXTR-S]",
+        "Communication Content": "Dear TUAN-san\n\nRegarding CPU Temperature Countermeasures\nWe are currently investigating whether reversing the fan direction in the module bed and base section can lower the internal temperature. Update scheduled for January 30.\n\nBR.\nMoriya",
+        "FMV PIC": "Cao Tuan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000UJHDdYAP"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069486",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8D351704 Data setting error. The Number of registered item exceeds the limit_8D351704 データ設定エラー。登録済みアイテム数が上限を超えています。[NXTR-S]",
+        "Communication Content": "Dear Tung-san\n\nAdditional Information\n\nIssues are occurring due to timeouts or unexpected disconnections when connecting to ProfilerDB.\n\nIs the ProfilerDB configuration in the layout correct?\nIs tnsnames.ora written correctly?\nAre there any network issues, such as latency?\nProblems with ProfilerDB itself are also possible.\n\nWhen did this start happening?\nDid it start occurring after any specific actions were taken?\n\nPlease retrieve the alert logs for both ProfilerDB and MaterialDB.\nSearch for “alert_”DB name“.log” on your PC.\n\nBR.\nMoriya",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gbnJJYAY"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069852",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_モジュール紫色の画面エラー[NXTR-S]",
+        "Communication Content": "Dinh Tu-san\n\nI will check with the design team.\nPlease wait for a while.\n\nCall center Amano",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
+        "Communication Content": "Dear Moriya-san\n\nThank for your answer.\n\nPlease refer to attached file for the summary list of malfunction feeder\n\nFor another points\n\n・Were any feeder modifications, manual pulling, or other operations performed around the time the feeder failure occurred?\n\n　If there appears to be a triggering cause, could you please specify it?\n\n=> Our engineer confirm that there is no modifications, feeder is in original condition. Customer inform that the issues occurred during production time, we are not sure what is the trigger, we just know that the workers sometimes will pull the tape directly , but not using operation panel.\n\n・You mentioned multiple failures. Could you provide the failure dates and number of units affected?\n\n=> Please check the list file\n\n・You noted normal operation after replacing the control board. Is it still functioning normally now?\n\n=> Yes, after replacing the control board, there is no issue with feeder.\n\nCustomer compare between W08F and W08T, they complain that the main control board of W08T is easy to damaged by reverse current when pulling part tape. I explain to them by the content of T24014. Customer question, will Fuji improver this point in future?\n\nThank.\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069875",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_[NXTR-S]",
+        "Communication Content": "Dear Call center\n\nI have meet this issue. Today about 7:00 am (VietNam time), when transmit new job to machine, line S06-module 2 Error Blue Screen.\n\nAction: We have to reset machine and after that keep cycles stop 10s to get trace data.\n\nMachine version now is 2.2Dr follow CC-0069124\n\nI attached trace data, Please help me continue investigate this issue.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0067710",
+        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
+        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_After upgrading to V2.1Hu, all feeders display error 8971E615, can't production._V2.1Huにバージョンアップ後に全Feederで8971E615エラーとなり生産出来ない[NXTR-A]",
+        "Communication Content": "コールセンター　御中\n\n原因はバージョンアップ時にデータコピー時に通信がおかしかった可能性がありますが、\n原因のトレースが取れていない。次回バージョンアップ時期が未定の為一旦Close致します。\n再発時は別チケット取得します。\n\nFMV 高津",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000c7EWeYAM"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
+        "Communication Content": "Dear Tan-san\n\nCan we collect the faulty boards to investigate whether this phenomenon is related to T24014?\n\nWe will respond to your questions.\n\n>1. Under what conditions do the F1 and F2 fuses on the W08t main control board blow?\n\n→ If an overcurrent flows through the fuse, or if a component downstream of the fuse experiences a ground fault, an overcurrent occurs, causing the fuse to blow.\n\n　\n\n> Please provide the W08t electrical schematic showing the F1/F2 circuits and clearly indicate the protection targets for both fuses.\n\n→ Protection targets for the fuses:\n\n　F1: Protection for the entire feeder\n\n　F2: Protection for the feed motor control circuit\n\n>2. Based on T24014, if an operator pulls the tape without using the control panel, the control board will be damaged.\n\n>Will the F1/F2 fuses blow in this case? We understand the control board will be damaged. Additionally, what happens to F1 and F2? Will they burn out?\n\n→In previous cases where pulling occurred, the F2 fuse blew.\n\n>3. If the board is damaged due to tape pulling, can replacing fuses F1 and F2 restore the board?\n\n→In this case, replacing the fuses will not restore it.\n\nThe control board itself must be replaced.\n\nAdditional confirmation points.\n\n・Were any feeder modifications, manual pulling, or other operations performed around the time the feeder failure occurred?\n\n　If there appears to be a triggering cause, could you please specify it?\n\n・You mentioned multiple failures. Could you provide the failure dates and number of units affected?\n\n・You noted normal operation after replacing the control board. Is it still functioning normally now?\n\nBR.\n\nMoriya",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0066538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nA: What error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\n\nQ:=> another message was show. Please see the attach file.\n\nA: If set to \"No\" appropriate error message show and possible to correct the setting?\n Q: => Can optimize normally.\n\nI attach job file \"TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4\"  and picture when selecr No & YES. please help me to analyst it.\n\nThank you and Best Regards,\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0057970",
+        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_One-sided traceability of component 2D codes is incorrect on a two-piece board._2枚取りの基板で片側の部品2Dコードが正しくない。[Nexim]",
+        "Communication Content": "Dear FMV-Long-san,\n\nSo final is 1 Job cannot exist have 2 panelID`\n\n>> Yes, Panel ID is unique so only 1 PanelID could be set.\n\nand no way to binding placement data of board 1-8 to panelID1, board 9-16 to panelID2\n\n>> If the customer would like to set the separate 16 Board, the BoardID per 1 Board will be require.\n\n      There is no method to handle separate 8 Board as 1 BoardID.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nQuality Assurance Dept.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Takatsu Toyotaka",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHNq7YAH"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0069798",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Vacuum monitoring function  based stop setting_[NXTIII]",
+        "Communication Content": "Dear Chi san,\n\nThanks for your quick respond.\n\nJabil informed me that they use a head test that results in FAIL vacuum on the AHC machine (please refer to the attached file resultFailVacuum.zip for detailed test results). However, when this vacuum-failed head is installed on the production line and the setting is configured to Level 1 at:\n\n[Module Configuration] – [Operation Settings] – [Vacuum Monitoring Function Based Stop Setting] – [Number of Consecutive Inspection Vacuum Error Results to Stop Operation] --> the module does not report any error.\n\nI would like to ask whether the vacuum inspection method on the AHC and the vacuum monitoring function on the module are different, and whether the customer’s current setting is appropriate.\n\nCould you please share with us any relevant images when the machine reports an error related to this setting/function?\n\nRegards,\n\nPhuong-FMV",
+        "FMV PIC": "Nguyen Phuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hCto4YAC"
+    },
+    {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "CC-0066538",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
+        "Communication Content": "Dear Tung-FMV-san,\n\nWhat error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\nIf set to \"No\" appropriate error message show and possible to correct the setting?\nCould you share the error Job and the message show when set \"No\" and \"Yes\"?\n\nThank you and Best Regards,\nMarie Terazawa\nQuality Assurance Dept.\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
+    },
+    {
         "DATE": "2026-01-19T08:44:59+00:00",
         "CC NUMBER": "NEW:CC-0069895",
         "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
@@ -38176,6 +38464,24 @@
         "Communication Content": "Dear Tung-san\n\nThe cause remains unknown and is currently under investigation.\n\nKnown facts:\n\nFailure to create internal data files\n\nRestores after restarting the LCU\n\nBased on the above, we suspect the phenomenon occurs when the LCU is under load.\n\nWe are addressing this while also considering enhanced tracing.\n\nWe will provide another status update on Wednesday, January 21.\n\nBR.\n\nMoriya",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000fm7PRYAY"
+    },
+    {
+        "DATE": "2026-01-18T09:06:36+00:00",
+        "CC NUMBER": "CC-0069617",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine reported alarm 853A0000. While the machine was in production, it suddenly started operating in simulation._853Aエラー発生する[NXTR-S]",
+        "Communication Content": "Dear: Moriya-san\n\nThank you for your support.\n\nCurrently, the customer has temporarily replaced the LCU, as multiple abnormalities have occurred during production.\n\nWe will continue to monitor this issue. If it occurs again, the emergency stop button will be pressed and trace data will be acquired.\n\nThanks.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000grLCbYAM"
+    },
+    {
+        "DATE": "2026-01-17T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069852",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_[NXTR-S]",
+        "Communication Content": "LineS407  15/01/2026 02:27PM  Module 20\n\nDear: Call Center\n\nCurrently, at the customer site BYD Vietnam, an error occurs when the module is turned off and then turned back on. After pressing Start, the machine reports an error and displays the message and purple screen is displayed, \"as shown in the attached image\".\n\n“An Application error occurred. You need to restart the device.”\n\nError code : 00000000\n\nSub error: 00000000\n\nRestarting the machine=> the same error is still displayed.\n\nClean the connector between the MFU and the module=> the same error is still displayed.\n\nturning off the module and then swapping the MFU with another module=> both modules operated normally in production.\n\nKindly help analyze the root cause of this issue and advise effective countermeasures to prevent recurrence.\n\nThanks.",
+        "FMV PIC": "Dinh Tu",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW"
     },
     {
         "DATE": "2026-01-16T14:14:16+00:00",
@@ -54145,219 +54451,12 @@
     },
     {
         "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "CC-0069217",
-        "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
-        "TOPIC": "Urgent[TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]_Are the factory's CPK test records available for the NXTR feeder?_[NXTR-S]",
-        "Communication Content": "Dear Chi san,\n\nThanks for your strong supported\n\nFMV-Do",
-        "FMV PIC": "Do Do",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000fxKMTYA2"
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "CC-0068819",
-        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
-        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_Fuji CFX interface setup_Fuji CFX インターフェースのセットアップ[Nexim]",
-        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your supported.\n\nWe already applied  the patch follow the SoftWareNotice#2024-1012 3550 patch released. It include in the software which CC send to us\n\nIt seems that the time in the FLP is not synchronized with the Fuji system.\n\nWe have synchronized and will need more time to monitor for any further issues.\n\nThanks\n\nFMV-Do",
-        "FMV PIC": "Do Do",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eSE7YYAW"
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "CC-0070022",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._NXTR-S 2RV右ロボットモジュールは、製造中にX軸基板で通信リンクエラーを報告しました。[NXTR-S]",
-        "Communication Content": "Dear Dinh-san\n\nSharing information from past cases with the same error code on 2RV.\n\nPlease check the following: Is there any damage or loose connection?\n\nWe will perform trace analysis in parallel.Sharing information from past cases with the same error code on 2RV.\n\nPlease check the following: Is there any damage or loose connection?\n\nWe will perform trace analysis in parallel.\n\n>Flat cable X: 2RHESH0002** (2EHESH0002** CNE2-CN1)\n\n>Flat cable Y::2RHESA0004** (2EHESA0006** CNE2-M2CNH2)\n\n>BOARD HEIGHT SENSOR\n\n>Harness between X AXIS EXTEND BOARD-HEAD to X AXIS COMMON BOARD: CN6-CN19\n\n>Harness between X AXIS EXTEND BOARD-HEAD to X AXIS COMMON BOARD: CN11-CN18\n\n>X AXIS BOARD COOLING FAN1\n\n>Harness of Mark Light Source : 2EHEGL0005**\n\n>MARK LIGHT CONTROL BOARD: FH2106A1F\n\nBR.\n\nMoriya",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA"
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "CC-0062804",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Kaizen navigator can not conver DB with many Base in Base table_[NXTR-S]",
-        "Communication Content": "Dear TUAN CAO-san,\n\nWe are planning to incorporate a function equivalent to Kaizen Navi into FSF 3.0 (Smart Monitor) in the future.\n\nThe specifications are still under review at this stage.\n\nI have communicated your request to the design team.\n\nCall center Amano",
-        "FMV PIC": "Cao Tuan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001If1DYYAZ"
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070022",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._[NXTR-S]",
-        "Communication Content": "Dear: Call Center\n\nCurrently, the customer site at BYD Vietnam is experiencing an issue with the NXTR 2Rv module. The detailed error phenomenon is as follows:\n\nNXTR-S module 2RV Right robot during production reported error codes 8000B108 communication link error on the X-axis board, 190B, and 190C. When the errors occurred, the Z-axis moved downward.\n\n Actions taken:\n\nPerformed head maintenance=> The issue still occurred.\n\nReplaced the head However=> the issue still persisted.\n\nreconnected the cables inside the module CPU box=> The issue continued to happen.\n\nOnly restarting the module could temporarily recover the operation, but the issue reoccurred.\n\nWe have acquired the trace data at the time the error occurred. Kindly review the trace data and support us in investigating this issue.\n\nThank you for your kind support.",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA"
-    },
-    {
-        "DATE": "2026-01-21T06:06:41+00:00",
-        "CC NUMBER": "CC-0070006",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
-        "Communication Content": "FMV takatsu-san\n\nWe are currently analyzing the trace data.\nHowever, the traces you provided may be insufficient. If the issue occurs again, we would like you to capture an arbitrary trace at the time of recurrence.\nBased on the trace acquisition status below, it is possible that the information we need is missing.\n\n◆ Line S06 – Module 5\nSince the arbitrary trace was taken after performing various operations such as clearing the board memory, the detailed trace data from when the problem actually occurred may no longer remain.\n\n◆ Line S06 – Module 3\nAn arbitrary trace was not captured.\n\nCall center Amano",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
-    },
-    {
-        "DATE": "2026-01-21T06:06:36+00:00",
-        "CC NUMBER": "CC-0069652",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Load job on each module_各モジュールにジョブをロードする[NXTR-S]",
-        "Communication Content": "FMV takatsu-san\n\nAt Module 4 on the S17 line, Lane 2 began switching to the next production job, and production stopped at the setup guidance screen.\nThis behavior is as designed for this situation.\n\nFirst, regarding Module 4, the setting value for “Timing of setup guidance during job change in production” is not related.\nThis setting only applies in 2R configurations.\nFor 1R, since there is only one robot, “per robot” and “per module” refer to the same thing.\n\nThe key point in this case was that the component in Slot 46, which was being used for production on Lane 1, was raised to the recovery position due to a pickup error.\nIt is normal and expected behavior for Lane 2’s job to change while Lane 1 is in production (this is according to specification).\nUnder normal conditions, even if a job that would cause a consistency-check NG on the opposite lane is loaded, production continues.\n\nHowever, in this case, the component in Slot 46 had been lifted to the recovery position, meaning production could no longer continue.\nTherefore, the system exited the production state and displayed the setup guidance.\n\n設計とやり取りしているかと思いますが回答更新しておきます。\n\nCall center Amano",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000guNjRYAU"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0069971",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
-        "Communication Content": "Dear Hamamoto san,\n\nThe customer’s technician handled this issue directly, and when I asked, they described their process to me and stated that they did not perform any handling on the L side.\n\nCurrently, the customer wants to analyze this problem and proceed with a warranty claim for this part number.\n\nI have uploaded images of the Holder and the Nozzle picker.\n\nThanks!\nThe",
-        "FMV PIC": "Tran The",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0069652",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Load job on each module_各モジュールにジョブをロードする[NXTR-S]",
-        "Communication Content": "Dear Amano san\n\nThis ticket will address the issue where “one lane switches unexpectedly.”\n\nWe have created a separate ticket, CC-0070006, for the issue where the main screen does not appear after pressing the cycle stop button.\n\nFMV takatsu",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000guNjRYAU"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070006",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
-        "Communication Content": "There are two cases requiring fixes in CC-0069652, so we will split them into separate tickets.\n\nThis ticket will be registered as a ticket for the following issue:\n\n\"Pressing Cycle Stop does not transition to the main screen.\"",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0066538",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
-        "Communication Content": "Dear Tung-FMV-san,\n\nThank you for the update.\n\nI had tried to import the Job:TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4 to the V3.1.105 but the error occurred.\nThere was no problem at the SP-2552-1R_BOT_R1_L3S06_ REVX4.Job importing.\nWas the :TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4 is the one export from customer Nexim and pass to use?\nHave you import to other environment and export then past to us?\nIf import >> export is done, please share the original Job which export from customer Nexim directly.\n\nThank you and Best Regards,\nMarie Terazawa\nQuality Assurance Dept.\nCallcenter FUJI CORPORATION",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0069875",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_ジョブ送信時にブルースクリーンが発生[NXTR-S]",
-        "Communication Content": "Dear Miao-san\n\nThank you for the response.\nI will check the trace also.\n\nBR.\nMoriya",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0069257",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine is hanging long time and must restart machine_マシンが長時間応答しないため、再起動が必要[NXTR-S]",
-        "Communication Content": "Dear Dinh-san\n\nThis issue occurs during pair robot production.\nApplication errors were occurring due to the timing of feeder insertion/removal and feeder mark reading.\n\nWe are working towards a January 30th application release target for this fix.\n\nBR.\nMoriya",
-        "FMV PIC": "Dinh Duong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000g1UgfYAE"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0068710",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_RH08 vacuum break too strong_RH08の真空破壊圧が強すぎる[NXTR-S]",
-        "Communication Content": "FMV 高津さん、\n\n現地での確認ありがとうございます。\n\nサイクルタイムへの影響はあるものの実生産で問題が無い事が\n\n確認出来ましたので設計に対応を依頼させて頂きます。\n\n加藤",
-        "FMV PIC": "Nguyen Trong Nham",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eC7y2YAC"
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "CC-0069971",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
-        "Communication Content": "Dear FMV The-san\n\nI have a few questions.\n\n・After an 8B75 error occurred on both L and R\n→Do you know why the operator only removed the backup pins on the R side?\nAnd did they not touch the L side at all?\n\n・After removing only the backup pin on the R side and restarting, did you notice any unusual sounds or other abnormalities at that time?\n\n・Do you have any photos showing the damage to the picker nozzle and syringe in holder A?\n\nWe are investigating the situation based on the trace. Please wait a moment.\n\nThank you\nBR\nHamamoto",
-        "FMV PIC": "Tran The",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
-    },
-    {
-        "DATE": "2026-01-20T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069971",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
-        "Communication Content": "Dear Call Center Team,\n\nWe are currently facing an issue related to the NXTR-S machine with RH28 head, a syringe and nozzle picker have been broken:\n\nAfter changing the program, the technician pressed Start, and the machine displayed the errors “8B75 Backup pin dropped error” and “8F15 Pin removal request” on both L and R robots.\n\nAfter that, the technician manually removed the backup pin on the Right side (the Left side was not removed) and pressed Start again.\n\nSubsequently, the machine showed the errors “8665E1F4 Zs-robot operation error” and “80003A18 00000002 Over speed.”\n\nThe head was removed for inspection, and Holder A was found to be broken.\n\nCurrently, a new head has been installed, and production has resumed.\n\nActions taken:\n\nChecked nozzle NHJ001-RH28 and confirmed it was broken → removed and replaced the nozzle.\n\nChecked the syringe on Holder A and confirmed it was broken → skipped Nozzle A and restarted production.\n\nChecked the related backup pin → confirmed it is usable.\n\nRe-checked and cleaned the stocker set and backup plate.\n\nRe-checked the head and confirmed only Holder A was damaged → test run showed normal operation.\n\nChanged to another head.\n\nPlease help us analyze the data and provide your advice on this case.\n\nThanks!\n\nFMV-The",
-        "FMV PIC": "Tran The",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2"
-    },
-    {
-        "DATE": "2026-01-20T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069968",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The phenomenon is occurring while the NXTR machine is operating normally_[NXTR-S]",
-        "Communication Content": "Dear Call center\n\nI have meet this issue. Today about 11:00 am (VietNam time), The phenomenon is occurring while the NXTR machine is operating normally, line S17-module 4 Error Blue Screen.\n\nAction: We have to reset machine and after that keep cycles stop 10s to get trace data.\n\nMachine version now is 2.2Ds\n\nI attached trace data, Please help me continue investigate this issue.\n\nThanks you\n\nMiao-FMV",
-        "FMV PIC": "Li Miao",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hn2RLYAY"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069127",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Machine application error_[NXTR-S]",
-        "Communication Content": "Dear Tung san,\n\nWe already send you V2.30 by file transfer system.\nDownload password: \"ZD4dMjr7\"\nZIP file password: \"HpdJRJ3d\"\n\nBR\nChi/Fuji",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000fmB85YAE"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069798",
-        "Customer": "JABIL VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Vacuum monitoring function  based stop setting_[NXTIII]",
-        "Communication Content": "Dear Phuong san,\n\nSince the regulator installed in the AHC and the vacuum pump installed in the NXTIII are different,\nthe negative pressure reference levels of the NXTIII differ from those of the AHC.\n\nThe NXTIII continues production without generating an error as long as the negative pressure level does not affect placement accuracy.\nIn contrast, the AHC is designed with a preventive approach and therefore detects deviations much more strictly.\nAs a result, the reported outcome has occurred.\n\nFor the setting “Number of Consecutive Inspection Vacuum Error Results to Stop Operation”,\nthe associated error code is 1958.\n\nThe specific vacuum pressure reference values for the NXTIII are internally defined and cannot be changed; therefore, we refrain from disclosing them.\n\nBR\nChi/Fuji",
-        "FMV PIC": "Nguyen Phuong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hCto4YAC"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0066704",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_パネルは2つのモジュール間で転送できません[NXTR-S]",
-        "Communication Content": "Dear Tan-san\n\nThe same chattering is still occurring.\nWe will conduct a reproduction test at FUJI.\nScheduled for update on January 30.\n\nBR.\nMoriya",
+        "CC NUMBER": "NEW:CC-0042572",
+        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
+        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Cycle Diagram Viewer license application_[Fuji Flexa]",
+        "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0064359",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Normal[BYD Electronics Vietnam Company Limited]_Feeder temperature is high at NXTR-S machine_NXTR-Sでフィーダーの温度が高い[NXTR-S]",
-        "Communication Content": "Dear TUAN-san\n\nRegarding CPU Temperature Countermeasures\nWe are currently investigating whether reversing the fan direction in the module bed and base section can lower the internal temperature. Update scheduled for January 30.\n\nBR.\nMoriya",
-        "FMV PIC": "Cao Tuan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000UJHDdYAP"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069486",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8D351704 Data setting error. The Number of registered item exceeds the limit_8D351704 データ設定エラー。登録済みアイテム数が上限を超えています。[NXTR-S]",
-        "Communication Content": "Dear Tung-san\n\nAdditional Information\n\nIssues are occurring due to timeouts or unexpected disconnections when connecting to ProfilerDB.\n\nIs the ProfilerDB configuration in the layout correct?\nIs tnsnames.ora written correctly?\nAre there any network issues, such as latency?\nProblems with ProfilerDB itself are also possible.\n\nWhen did this start happening?\nDid it start occurring after any specific actions were taken?\n\nPlease retrieve the alert logs for both ProfilerDB and MaterialDB.\nSearch for “alert_”DB name“.log” on your PC.\n\nBR.\nMoriya",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gbnJJYAY"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069852",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_モジュール紫色の画面エラー[NXTR-S]",
-        "Communication Content": "Dinh Tu-san\n\nI will check with the design team.\nPlease wait for a while.\n\nCall center Amano",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069740",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
-        "Communication Content": "Dear Moriya-san\n\nThank for your answer.\n\nPlease refer to attached file for the summary list of malfunction feeder\n\nFor another points\n\n・Were any feeder modifications, manual pulling, or other operations performed around the time the feeder failure occurred?\n\n　If there appears to be a triggering cause, could you please specify it?\n\n=> Our engineer confirm that there is no modifications, feeder is in original condition. Customer inform that the issues occurred during production time, we are not sure what is the trigger, we just know that the workers sometimes will pull the tape directly , but not using operation panel.\n\n・You mentioned multiple failures. Could you provide the failure dates and number of units affected?\n\n=> Please check the list file\n\n・You noted normal operation after replacing the control board. Is it still functioning normally now?\n\n=> Yes, after replacing the control board, there is no issue with feeder.\n\nCustomer compare between W08F and W08T, they complain that the main control board of W08T is easy to damaged by reverse current when pulling part tape. I explain to them by the content of T24014. Customer question, will Fuji improver this point in future?\n\nThank.\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
     },
     {
         "DATE": "2026-01-19T09:06:36+00:00",
@@ -54367,104 +54466,5 @@
         "Communication Content": "Dear Moriya san\n\nThanks for your advice. We will setting and follow it.\n\nThanks you\n\nTung-FMV",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gbnJJYAY"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069875",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_[NXTR-S]",
-        "Communication Content": "Dear Call center\n\nI have meet this issue. Today about 7:00 am (VietNam time), when transmit new job to machine, line S06-module 2 Error Blue Screen.\n\nAction: We have to reset machine and after that keep cycles stop 10s to get trace data.\n\nMachine version now is 2.2Dr follow CC-0069124\n\nI attached trace data, Please help me continue investigate this issue.\n\nThanks you\n\nTung-FMV",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0067710",
-        "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
-        "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_After upgrading to V2.1Hu, all feeders display error 8971E615, can't production._V2.1Huにバージョンアップ後に全Feederで8971E615エラーとなり生産出来ない[NXTR-A]",
-        "Communication Content": "コールセンター　御中\n\n原因はバージョンアップ時にデータコピー時に通信がおかしかった可能性がありますが、\n原因のトレースが取れていない。次回バージョンアップ時期が未定の為一旦Close致します。\n再発時は別チケット取得します。\n\nFMV 高津",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000c7EWeYAM"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069740",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
-        "Communication Content": "Dear Tan-san\n\nCan we collect the faulty boards to investigate whether this phenomenon is related to T24014?\n\nWe will respond to your questions.\n\n>1. Under what conditions do the F1 and F2 fuses on the W08t main control board blow?\n\n→ If an overcurrent flows through the fuse, or if a component downstream of the fuse experiences a ground fault, an overcurrent occurs, causing the fuse to blow.\n\n　\n\n> Please provide the W08t electrical schematic showing the F1/F2 circuits and clearly indicate the protection targets for both fuses.\n\n→ Protection targets for the fuses:\n\n　F1: Protection for the entire feeder\n\n　F2: Protection for the feed motor control circuit\n\n>2. Based on T24014, if an operator pulls the tape without using the control panel, the control board will be damaged.\n\n>Will the F1/F2 fuses blow in this case? We understand the control board will be damaged. Additionally, what happens to F1 and F2? Will they burn out?\n\n→In previous cases where pulling occurred, the F2 fuse blew.\n\n>3. If the board is damaged due to tape pulling, can replacing fuses F1 and F2 restore the board?\n\n→In this case, replacing the fuses will not restore it.\n\nThe control board itself must be replaced.\n\nAdditional confirmation points.\n\n・Were any feeder modifications, manual pulling, or other operations performed around the time the feeder failure occurred?\n\n　If there appears to be a triggering cause, could you please specify it?\n\n・You mentioned multiple failures. Could you provide the failure dates and number of units affected?\n\n・You noted normal operation after replacing the control board. Is it still functioning normally now?\n\nBR.\n\nMoriya",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0066538",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
-        "Communication Content": "Dear Marie Terazawa-san,\n\nA: What error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\n\nQ:=> another message was show. Please see the attach file.\n\nA: If set to \"No\" appropriate error message show and possible to correct the setting?\n Q: => Can optimize normally.\n\nI attach job file \"TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4\"  and picture when selecr No & YES. please help me to analyst it.\n\nThank you and Best Regards,\nTung-FMV",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0057970",
-        "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
-        "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_One-sided traceability of component 2D codes is incorrect on a two-piece board._2枚取りの基板で片側の部品2Dコードが正しくない。[Nexim]",
-        "Communication Content": "Dear FMV-Long-san,\n\nSo final is 1 Job cannot exist have 2 panelID`\n\n>> Yes, Panel ID is unique so only 1 PanelID could be set.\n\nand no way to binding placement data of board 1-8 to panelID1, board 9-16 to panelID2\n\n>> If the customer would like to set the separate 16 Board, the BoardID per 1 Board will be require.\n\n      There is no method to handle separate 8 Board as 1 BoardID.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nQuality Assurance Dept.\n\nCallcenter FUJI CORPORATION",
-        "FMV PIC": "Takatsu Toyotaka",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHNq7YAH"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069798",
-        "Customer": "JABIL VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Vacuum monitoring function  based stop setting_[NXTIII]",
-        "Communication Content": "Dear Chi san,\n\nThanks for your quick respond.\n\nJabil informed me that they use a head test that results in FAIL vacuum on the AHC machine (please refer to the attached file resultFailVacuum.zip for detailed test results). However, when this vacuum-failed head is installed on the production line and the setting is configured to Level 1 at:\n\n[Module Configuration] – [Operation Settings] – [Vacuum Monitoring Function Based Stop Setting] – [Number of Consecutive Inspection Vacuum Error Results to Stop Operation] --> the module does not report any error.\n\nI would like to ask whether the vacuum inspection method on the AHC and the vacuum monitoring function on the module are different, and whether the customer’s current setting is appropriate.\n\nCould you please share with us any relevant images when the machine reports an error related to this setting/function?\n\nRegards,\n\nPhuong-FMV",
-        "FMV PIC": "Nguyen Phuong",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hCto4YAC"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0066538",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
-        "Communication Content": "Dear Tung-FMV-san,\n\nWhat error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\nIf set to \"No\" appropriate error message show and possible to correct the setting?\nCould you share the error Job and the message show when set \"No\" and \"Yes\"?\n\nThank you and Best Regards,\nMarie Terazawa\nQuality Assurance Dept.\nCallcenter FUJI CORPORATION",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
-    },
-    {
-        "DATE": "2026-01-18T09:06:36+00:00",
-        "CC NUMBER": "CC-0069617",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine reported alarm 853A0000. While the machine was in production, it suddenly started operating in simulation._853Aエラー発生する[NXTR-S]",
-        "Communication Content": "Dear: Moriya-san\n\nThank you for your support.\n\nCurrently, the customer has temporarily replaced the LCU, as multiple abnormalities have occurred during production.\n\nWe will continue to monitor this issue. If it occurs again, the emergency stop button will be pressed and trace data will be acquired.\n\nThanks.",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000grLCbYAM"
-    },
-    {
-        "DATE": "2026-01-17T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069852",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_[NXTR-S]",
-        "Communication Content": "LineS407  15/01/2026 02:27PM  Module 20\n\nDear: Call Center\n\nCurrently, at the customer site BYD Vietnam, an error occurs when the module is turned off and then turned back on. After pressing Start, the machine reports an error and displays the message and purple screen is displayed, \"as shown in the attached image\".\n\n“An Application error occurred. You need to restart the device.”\n\nError code : 00000000\n\nSub error: 00000000\n\nRestarting the machine=> the same error is still displayed.\n\nClean the connector between the MFU and the module=> the same error is still displayed.\n\nturning off the module and then swapping the MFU with another module=> both modules operated normally in production.\n\nKindly help analyze the root cause of this issue and advise effective countermeasures to prevent recurrence.\n\nThanks.",
-        "FMV PIC": "Dinh Tu",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW"
-    },
-    {
-        "DATE": "2026-01-22T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070068",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_After the emergency stop button was released, the machine still did not respond_[NXTR]",
-        "Communication Content": "Dear Call center\n\nOur customer had the issue with emergency push button. When technicians push the emergency button to do something, then they released push button, sometimes the NXTR module still did not respond, look like the emergency button still in pushing position\n\nThe temporary solution for this case : When issue occur, technician will pull out the MFU by I/O related signal, then put into machine again. The machine then will change to normal status.\n\nOur troubleshoot action:\n\n1: Replace emergency push button -> same error\n\n2: Replace base interface board -> same error\n\nI got the trace file when the issue happend at 3h45 pm 22/1/2026, please refer it and help to give the advice for this case\n\nThank\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000i1xPjYAI"
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0042572",
-        "Customer": "MERRY & LUXSHARE (VIET NAM) CO.,LTD]",
-        "TOPIC": "Normal[MERRY & LUXSHARE (VIET NAM) CO.,LTD]_Cycle Diagram Viewer license application_[Fuji Flexa]",
-        "Communication Content": "Cycle Diagram Viewer license application",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
     }
 ]

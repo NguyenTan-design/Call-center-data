@@ -4374,6 +4374,51 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-01-22T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0070068",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_After the emergency stop button was released, the machine still did not respond_[NXTR]",
+        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000i1xPjYAI",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-01-21T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0070006",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-01-21T05:59:41+00:00",
+        "CC NUMBER": "NEW:CC-0070022",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-01-20T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069971",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
+        "Inquiry type": "09.Other trouble",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2",
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-01-20T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069968",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The phenomenon is occurring while the NXTR machine is operating normally_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hn2RLYAY",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-01-19T11:48:51+00:00",
         "CC NUMBER": "NEW:CC-0069907",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
@@ -4392,13 +4437,31 @@
         "CASE STATUS": ""
     },
     {
+        "DATE": "2026-01-19T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069875",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_[NXTR-S]",
+        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4",
+        "CASE STATUS": ""
+    },
+    {
         "DATE": "2026-01-19T08:44:59+00:00",
         "CC NUMBER": "NEW:CC-0069895",
         "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
         "TOPIC": "Urgent[GOERTEK MICROELECTRONICS VINA CO., LTD.]_M2M cannot transmit board skip information to the LCU._[NXTR-S]",
         "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hcC94YAE",
-        "CASE STATUS": "Closed"
+        "CASE STATUS": ""
+    },
+    {
+        "DATE": "2026-01-17T09:06:36+00:00",
+        "CC NUMBER": "NEW:CC-0069852",
+        "Customer": "BYD Electronics Vietnam Company Limited]",
+        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_[NXTR-S]",
+        "Inquiry type": "10.Question",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW",
+        "CASE STATUS": ""
     },
     {
         "DATE": "2026-01-16T02:39:53+00:00",
@@ -4524,7 +4587,7 @@
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Patch to solve error 6709ffff happened when open Nexim job_[NXTR]",
         "Inquiry type": "11.Request",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gDvhqYAC",
-        "CASE STATUS": "Closed"
+        "CASE STATUS": ""
     },
     {
         "DATE": "2026-01-06T07:57:51+00:00",
@@ -4605,7 +4668,7 @@
         "TOPIC": "Normal[GOERTEK MICROELECTRONICS VINA CO., LTD.]_Question about NXTR floor conditions for machine installation_[NXTR]",
         "Inquiry type": "10.Question",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000evAeoYAE",
-        "CASE STATUS": "Closed"
+        "CASE STATUS": ""
     },
     {
         "DATE": "2025-12-20T04:42:49+00:00",
@@ -4875,7 +4938,7 @@
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_HOSTIF issue -Machine didn't stop after receive STOPEQUIP command from upper host_[NXTR]",
         "Inquiry type": "01.Host error Nexim/Flexa/Trax/Accessory",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000agIa7YAE",
-        "CASE STATUS": "Closed"
+        "CASE STATUS": ""
     },
     {
         "DATE": "2025-11-18T03:11:36+00:00",
@@ -5019,7 +5082,7 @@
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Panel can not transfer between 2 modules_[NXTR-S]",
         "Inquiry type": "08.Board transfer error",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZaL53YAF",
-        "CASE STATUS": "Closed"
+        "CASE STATUS": ""
     },
     {
         "DATE": "2025-11-07T14:59:40+00:00",
@@ -6289,69 +6352,6 @@
         "Inquiry type": "07.Missing process",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000iZkEnYAK",
         "CASE STATUS": ""
-    },
-    {
-        "DATE": "2024-01-30T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070022",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The NXTR-S 2RV right robot module reported a communication link error on the X-axis board during production._[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hsh5eYAA",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-21T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070006",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Pressing the cycle stop button does not return to the main screen._サイクルストップを押してもメイン画面に移行しない。[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-20T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069971",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Broken syringe holder and nozzle picker while operating backup pin_[NXTR-S]",
-        "Inquiry type": "09.Other trouble",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hoHWMYA2",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-20T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069968",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_The phenomenon is occurring while the NXTR machine is operating normally_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hn2RLYAY",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069875",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Blue screen when transmit job_[NXTR-S]",
-        "Inquiry type": "02.Application/Servo/Image processing/On-machine editing error",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-17T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0069852",
-        "Customer": "BYD Electronics Vietnam Company Limited]",
-        "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_[NXTR-S]",
-        "Inquiry type": "10.Question",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW",
-        "CASE STATUS": ""
-    },
-    {
-        "DATE": "2026-01-22T09:06:36+00:00",
-        "CC NUMBER": "NEW:CC-0070068",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_After the emergency stop button was released, the machine still did not respond_[NXTR]",
-        "Inquiry type": "03.Damage to mechanical parts / electrical components and malfunction",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000i1xPjYAI",
-        "CASE STATUS": "Closed"
     },
     {
         "DATE": "2024-01-30T09:06:36+00:00",
