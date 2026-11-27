@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T11:07:57+00:00",
+        "CC NUMBER": "CC-0081535",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Normal[Luxshare Precision (Yi'an) Co.,Ltd]_Question regarding OPCU/OCPU:_OPCU/OCPUに関する質問[NXTR-S]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for your support.\n\nI have updated the OCPU to version V2.3Aa and test it with 2 MFU.\n\nI have collected trace data for both test cases. Please refer to the attach files.\n\nBR,\n\nFMV-DUC",
+        "FMV PIC": "Ha Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001CiDv3YAF"
+    },
+    {
         "DATE": "2026-11-27T10:23:19+00:00",
         "CC NUMBER": "NEW:CC-0086691",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
