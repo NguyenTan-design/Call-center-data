@@ -54378,16 +54378,16 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hXAMVYA4"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0067710",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
         "TOPIC": "Normal[GOERTEK TECHNOLOGY VINA CO.,LTD]_After upgrading to V2.1Hu, all feeders display error 8971E615, can't production._V2.1Huにバージョンアップ後に全Feederで8971E615エラーとなり生産出来ない[NXTR-A]",
-        "Communication Content": "コールセンター　御中\n\n原因はバージョンアップ時にデータコピー時に通信がおかしかった可能性がありますが、\n\n原因のトレースが取れていない。次回バージョンアップ時期が未定の為一旦Close致します。\n\n再発時は別チケット取得します。\n\nFMV 高津",
+        "Communication Content": "コールセンター　御中\n\n原因はバージョンアップ時にデータコピー時に通信がおかしかった可能性がありますが、\n原因のトレースが取れていない。次回バージョンアップ時期が未定の為一旦Close致します。\n再発時は別チケット取得します。\n\nFMV 高津",
         "FMV PIC": "Takatsu Toyotaka",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000c7EWeYAM"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0069740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
@@ -54396,7 +54396,7 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0066538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
