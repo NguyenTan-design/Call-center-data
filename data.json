@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T03:55:06+00:00",
+        "CC NUMBER": "NEW:CC-0086655",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Normal[Amkor Technology Vietnam Limited Liability Company]_Pick-up z-zero_[NXTR-A]",
+        "Communication Content": "To: FUJI Call Center\n\nCurrently, our customer, Amkor Vina, is using NXTR-A machines.\n\nTherefore, we would like to inquire about the Pick-up Z-Zero position of feeders used on NXTR-A machines, such as WA08a and WA08b.\n\nRegarding another inquiry (CC-0021196), we confirmed the Pick-up Z point information for the W08F type feeder used on NXTIII equipment.\n\nCould you please confirm whether the Pick-up Z-Zero position is the same between NXTR and NXTIII machines?\n\nIn other words, we understand that for both Paper and Emboss tape types, the Height Offset is set based on the Feeder Z-Zero position.\n\nDepending on the package type, is it correct that the pickup height should be adjusted upward from the Machine Default Pickup Height as follows?\n\nEmboss tape: +0.1 mm\n\nPaper tape: +0.2 mm\n\nSpecifically:\n\nW08F Emboss, 2 Pitch\n\nPickup height = Tape bottom surface + approximately 0.1 mm\n\nW08F Paper, 2 Pitch\n\nWhen Body Dimension X is less than 0.5 mm:\n\nPickup height = Tape bottom surface + approximately 0.2 mm\n\nCould you please confirm whether our understanding is correct?\n\nAdditionally, we have received information that ASM machines use a non-contact pickup method, with the nozzle picking the component from approximately 60 μm above the component surface.\n\nCould you please clarify whether FUJI machines use a contact pickup method, where the nozzle touches the component, or whether they also use a non-contact pickup method?\n\nThank you for your support.\n\nBest regards,",
+        "FMV PIC": "Kil Nam. KIM",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001RyPqRYAV"
+    },
+    {
         "DATE": "2026-11-27T03:14:37+00:00",
         "CC NUMBER": "CC-0086207",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
