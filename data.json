@@ -38448,6 +38448,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
     },
     {
+        "DATE": "2026-01-19T09:06:09+00:00",
+        "CC NUMBER": "CC-0069486",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8D351704 Data setting error. The Number of registered item exceeds the limit_8D351704 データ設定エラー。登録済みアイテム数が上限を超えています。[NXTR-S]",
+        "Communication Content": "Dear Moriya san\n\nThanks for your advice. We will setting and follow it.\n\nThanks you\n\nTung-FMV",
+        "FMV PIC": "Vu Tung",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gbnJJYAY"
+    },
+    {
         "DATE": "2026-01-19T08:44:59+00:00",
         "CC NUMBER": "NEW:CC-0069895",
         "Customer": "GOERTEK MICROELECTRONICS VINA CO., LTD.]",
@@ -54405,7 +54414,7 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-22T04:43:36+00:00",
         "CC NUMBER": "CC-0069740",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
@@ -54457,14 +54466,5 @@
         "Communication Content": "Cycle Diagram Viewer license application",
         "FMV PIC": "Nguyen Tan",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001DIdgOYAT"
-    },
-    {
-        "DATE": "2026-01-19T09:06:36+00:00",
-        "CC NUMBER": "CC-0069486",
-        "Customer": "LITE-ON VIETNAM CO., LTD.]",
-        "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_8D351704 Data setting error. The Number of registered item exceeds the limit_8D351704 データ設定エラー。登録済みアイテム数が上限を超えています。[NXTR-S]",
-        "Communication Content": "Dear Moriya san\n\nThanks for your advice. We will setting and follow it.\n\nThanks you\n\nTung-FMV",
-        "FMV PIC": "Vu Tung",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000gbnJJYAY"
     }
 ]
