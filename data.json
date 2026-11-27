@@ -38043,6 +38043,15 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000eSE7YYAW"
     },
     {
+        "DATE": "2026-01-22T04:43:36+00:00",
+        "CC NUMBER": "CC-0069740",
+        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
+        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
+        "Communication Content": "Dear Moriya-san\n\nCustomer is considering purchase new W08T control PCB or new W08T to replace NG feeder.\n\nI'm discussing with customer whether customer accept to gather some malfunction boards and send to Fuji JP to do further investigate or not.  I will update to you latter\n\nThank\n\nTan",
+        "FMV PIC": "Nguyen Tan",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
+    },
+    {
         "DATE": "2026-01-21T11:51:41+00:00",
         "CC NUMBER": "CC-0069217",
         "Customer": "TONLY ELECTRONICS TECHNOLOGY VIETNAM CO.,LTD]",
@@ -54412,15 +54421,6 @@
         "Communication Content": "Dear Amano san\n\nYesterday I test at S03, line direction from R-L\n\n1. Produced per module setting for 1R and 2R (Version 2.2Ds)\n\n2. At Line S03, Module 3R, after both lanes ran out of boards, the machine automatically loaded the new job.(After the job was loaded, Module 3L continued running normally.)\n\n3. Module 3L ran out of components. After the operator skipped the component, the machine displayed a Nozzle shortage error on Module 3R (Module 3R take change over action and alarm shortage nozzle) so all module 3 must stop.\n\nSo it mean setting \"guidance after panel are produced per module\" now not meet the customer requirement.\n\nI attach trace data and video, please help me check and advise me next setting.\n\nThanks you\n\nTung-FMV",
         "FMV PIC": "Takatsu Toyotaka",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hs4XPYAY"
-    },
-    {
-        "DATE": "2026-01-22T04:43:36+00:00",
-        "CC NUMBER": "CC-0069740",
-        "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
-        "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_Question about feeder W08t_W08tフィーダについての質問[NXTR-S]",
-        "Communication Content": "Dear Moriya-san\n\nCustomer is considering purchase new W08T control PCB or new W08T to replace NG feeder.\n\nI'm discussing with customer whether customer accept to gather some malfunction boards and send to Fuji JP to do further investigate or not.  I will update to you latter\n\nThank\n\nTan",
-        "FMV PIC": "Nguyen Tan",
-        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000h7LjoYAE"
     },
     {
         "DATE": "2024-01-30T09:06:36+00:00",
