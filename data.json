@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T08:04:46+00:00",
+        "CC NUMBER": "CC-0075117",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_How to synchronize the error code displayed on the screen and the error code in the error image._画面に表示されるエラーコードとエラー画像内のエラーコードをどのように同期させるか。[NXTR-S]",
+        "Communication Content": "Dear Toyama san,\n\nThanks for your supported\n\nCC: *The machine show the error vision image if this vision error is making stop the machine.\n\n        *The machine show the reason by icon why the machine need to exchange the nozzle\n\nFMV: ・Machine error: 93F10000: Nozzle exchange error, Image Explore error: D715\n\n                 Just to clarify, are you referring specifically to above issue?\n\n=>This would certainly help the customer identify the issue and troubleshoot it more effectively.\n\nWith the other error code, The customer expects the error code displayed on the screen when an error occurs to match the error code shown in the image within Image Explorer.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000uLJ7SYAW"
+    },
+    {
         "DATE": "2026-11-27T07:53:45+00:00",
         "CC NUMBER": "CC-0083008",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
