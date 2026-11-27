@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T06:57:07+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Chi san,\n\nThe Kitting operation sequence is Perform Reel setting at Kitting stand and set feeder to MFU (refer to the video I attached). After that MFU will be bring to set to machine. so it mean from Feeder have power at Kittng stand to setting at Machine, no action to pull tape at feeder manually.\n\nThank you\n\nTung-FMV",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
         "DATE": "2026-11-27T06:13:48+00:00",
         "CC NUMBER": "CC-0083942",
         "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
