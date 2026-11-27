@@ -54400,12 +54400,12 @@
         "CC NUMBER": "CC-0066538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
-        "Communication Content": "Dear Marie Terazawa-san,\n\nA: What error message show when set to \"Yes\"?\n\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\n\nWhen optimization fails, an incorrect error message is shown:\n\n“The module cannot correctly assign marks and components with the configured offset.”\n\nIs the same error message show like the past?\n\nQ:=> another message was show. Please see the attach file.\n\nA: If set to \"No\" appropriate error message show and possible to correct the setting?\n\n Q: => Can optimize normally.\n\nI attach job file \"TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4\"  and picture when selecr No & YES. please help me to analyst it.\n\nThank you and Best Regards,\n\nTung-FMV",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nA: What error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\n\nQ:=> another message was show. Please see the attach file.\n\nA: If set to \"No\" appropriate error message show and possible to correct the setting?\n Q: => Can optimize normally.\n\nI attach job file \"TUNG-FMV TEST PAIR-DO NOT DELETE _ REVX4\"  and picture when selecr No & YES. please help me to analyst it.\n\nThank you and Best Regards,\nTung-FMV",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0057970",
         "Customer": "GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]",
         "TOPIC": "Urgent[GOERTEK ELECTRONICS VIETNAM COMPANY LIMITED]_One-sided traceability of component 2D codes is incorrect on a two-piece board._2枚取りの基板で片側の部品2Dコードが正しくない。[Nexim]",
@@ -54414,7 +54414,7 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500IR00001HHNq7YAH"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0069798",
         "Customer": "JABIL VIETNAM CO., LTD.]",
         "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Vacuum monitoring function  based stop setting_[NXTIII]",
@@ -54423,16 +54423,16 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hCto4YAC"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-19T09:06:36+00:00",
         "CC NUMBER": "CC-0066538",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
         "TOPIC": "Urgent[LITE-ON VIETNAM CO., LTD.]_Nexim optimize job pair robot error_Neximでジョブの最適化を行う際に、ペアロボットエラーが発生する[NXTR-S]",
-        "Communication Content": "Dear Tung-FMV-san,\n\nWhat error message show when set to \"Yes\"?\n\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\n\nWhen optimization fails, an incorrect error message is shown:\n\n“The module cannot correctly assign marks and components with the configured offset.”\n\nIs the same error message show like the past?\n\nIf set to \"No\" appropriate error message show and possible to correct the setting?\n\nCould you share the error Job and the message show when set \"No\" and \"Yes\"?\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nQuality Assurance Dept.\n\nCallcenter FUJI CORPORATION",
+        "Communication Content": "Dear Tung-FMV-san,\n\nWhat error message show when set to \"Yes\"?\nThere is an issue in the optimization process for pair‑robot production where an appropriate error message is not displayed when an error occurs.\nWhen optimization fails, an incorrect error message is shown:\n“The module cannot correctly assign marks and components with the configured offset.”\nIs the same error message show like the past?\nIf set to \"No\" appropriate error message show and possible to correct the setting?\nCould you share the error Job and the message show when set \"No\" and \"Yes\"?\n\nThank you and Best Regards,\nMarie Terazawa\nQuality Assurance Dept.\nCallcenter FUJI CORPORATION",
         "FMV PIC": "Vu Tung",
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000ZDvE3YAL"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-18T09:06:36+00:00",
         "CC NUMBER": "CC-0069617",
         "Customer": "BYD Electronics Vietnam Company Limited]",
         "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_The machine reported alarm 853A0000. While the machine was in production, it suddenly started operating in simulation._853Aエラー発生する[NXTR-S]",
@@ -54441,7 +54441,7 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000grLCbYAM"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-17T09:06:36+00:00",
         "CC NUMBER": "NEW:CC-0069852",
         "Customer": "BYD Electronics Vietnam Company Limited]",
         "TOPIC": "Urgent[BYD Electronics Vietnam Company Limited]_Module purple screen error_[NXTR-S]",
@@ -54450,7 +54450,7 @@
         "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000hOLqZYAW"
     },
     {
-        "DATE": "2024-01-30T09:06:36+00:00",
+        "DATE": "2026-01-22T09:06:36+00:00",
         "CC NUMBER": "NEW:CC-0070068",
         "Customer": "Luxshare Precision (Yi'an) Co.,Ltd]",
         "TOPIC": "Urgent[Luxshare Precision (Yi'an) Co.,Ltd]_After the emergency stop button was released, the machine still did not respond_[NXTR]",
