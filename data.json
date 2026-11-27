@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-27T10:23:19+00:00",
+        "CC NUMBER": "NEW:CC-0086691",
+        "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
+        "TOPIC": "Urgent[Luxvisions Innovation Technology (Yian) Co., Ltd.]_SECS/GEM LoadComponent Issue_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nCurrently, we are experiencing the following issue at Luxvision innovation Nghe An.\n\nThe customer is using SECS/GEM with the LoadComponent function. We have enabled the following settings in the SECS/GEM Setting Tool:\n\n- Bit 6: LoadComponent mode\n\n- VID 51: WaitResponseLoadComponent\n\nWhen transmitting a job via LCUWeb, the job transmission process becomes extremely slow.\n\nAfter the transmission is completed, none of the feeders on the line can be recognized by the machines. Instead, a server connection icon is displayed, and the following error message appears on the machine screen: EQP RELLY S2F41 ERROR.\n\nI also checked the SECS/GEM log file and found the following additional error: Recipe check file T3 timeout.\n\n(I have attached screenshots of both errors and the machine screen showing that the feeders are not recognized.)\n\nAction:\n\n- We have to restart the LCU PC before the machines can recognize the feeders again. However, if we transmit the job via LCUWeb again, the same issue occurs.\n\nWe have conducted the following tests:\n\n1,  Disable LoadComponent and VID 51: When both LoadComponent mode and VID 51 are disabled in the SECS/GEM Setting Tool, job transmission via LCUWeb is still relatively slow. However, the machines can recognize all feeders normally, and production can resume.\n\n2,  Completely disable SECS/GEM: When SECS/GEM is completely disabled, job updates via LCUWeb become much faster, and all feeders are recognized normally by the machines.\n\nI have attached the trace data, SECS/GEM logs, and relevant screenshots. Please check and help us resolve this issue.\n\nThe error occurred in the trace data at 14:32 on November 27, 2026.\n\nThank you and Best Regards\n\nViet",
+        "FMV PIC": "Tran Viet",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001S4MJ6YAN"
+    },
+    {
         "DATE": "2026-11-27T09:46:04+00:00",
         "CC NUMBER": "CC-0086282",
         "Customer": "Amkor Technology Vietnam Limited Liability Company]",
