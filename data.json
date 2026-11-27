@@ -1,5 +1,23 @@
 [
     {
+        "DATE": "2026-11-27T09:46:04+00:00",
+        "CC NUMBER": "CC-0086282",
+        "Customer": "Amkor Technology Vietnam Limited Liability Company]",
+        "TOPIC": "Urgent[Amkor Technology Vietnam Limited Liability Company]_Inquiry Regarding Remote Board Skip Behavior on NXTRA_NXTRAにおけるリモート基板スキップ動作に関するお問い合わせ[NXTR-A]",
+        "Communication Content": "Dear Kil Nam. KIM-san,\n\nThank you for the inquiry.\n\nFor the operation of the Remote Board Skip function for NXTR, the LCU will wait 10secs for RBS to be created and read the RBS file then pass to machine.\n\nAnd this time, there was old RBS remain in the folder so that information had been used.\n\nAs for the temporary solution, if the customer would read the same PanelID to redo the production, please deleted the old RBS file.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Kil Nam. KIM",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001QyPiQYAV"
+    },
+    {
+        "DATE": "2026-11-27T09:31:29+00:00",
+        "CC NUMBER": "NEW:CC-0086685",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder Becomes Unavailable After Editing Part Data in On-Machine Edit_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt 15:10 2026-11-27, we face an issue at HPG2-S17 M1-R. After editing the part data at Slot 51 and clicking \"Save\", all feeders installed in the machine became unavailable after the program was loaded and the machine entered Production Mode.\n\n*Actions Taken:\n\n1. Unclamped the MFU (using machine command) and reinstalled it into the machine → NG.\n\n2. Opened On-Machine Edit to check whether any part data settings were incorrect. However, the machine hang up when open On-Machine Edit -> Restart machine -> OK.\n\nPlease review trace file as attachment and help investigate this issue.\n\nThank you for your time and support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001S4M1MYAV"
+    },
+    {
         "DATE": "2026-11-27T08:04:46+00:00",
         "CC NUMBER": "CC-0075117",
         "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
