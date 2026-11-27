@@ -1,5 +1,32 @@
 [
     {
+        "DATE": "2026-11-27T07:53:45+00:00",
+        "CC NUMBER": "CC-0083008",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder W08T auto reverse pitch while change over_[NXTR-S]",
+        "Communication Content": "Dear Tung san,\n\nThank you for the video.\n\nIf possible, we would also appreciate it if you could provide a video showing the reel setup process (component leader preparation/feed start).\n\nIn addition, please continue with the following checks:\n\nFor the feeder where the issue occurred, perform kitting on the kitting stand (reel loading and component leader preparation), then insert it into the machine and confirm whether the return operation functions normally.\n\nIf there are multiple kitting stands, please perform the above check on each stand.\n\nUse the affected feeder in production on an NXTR machine, then after some time, remove and reinsert the feeder, or restart the machine, and confirm whether the return operation functions normally afterward.\n\nBR\n\nChi/Fuji",
+        "FMV PIC": "Tran The",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001GrDmzYAF"
+    },
+    {
+        "DATE": "2026-11-27T07:47:15+00:00",
+        "CC NUMBER": "CC-0083207",
+        "Customer": "JABIL VIETNAM CO., LTD.]",
+        "TOPIC": "Urgent[JABIL VIETNAM CO., LTD.]_Auto backup tool run incompleted cause missing data_自動バックアップツールが正常に完了せず、データ欠損が発生した[Nexim]",
+        "Communication Content": "Dear FMV-SON-san,\n\nIs there any update for this case?\n\nCould we close the case?\n\nYes, it is not possible to export the Job per folder.\n\nAnd there is no plan to support such function.\n\nIf you select the Job one by one beyond the folder then you could export all select Job.\n\nThis way, the multiple Job could be export but not possible to export with each folder.\n\nThank you and Best Regards,\n\nMarie Terazawa\n\nCustomer Service Dept.\n\nCustomer Support sec.\n\nCallcenter FUJI CORPORATION",
+        "FMV PIC": "Nguyen Son",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001HG0D7YAL"
+    },
+    {
+        "DATE": "2026-11-27T07:44:51+00:00",
+        "CC NUMBER": "CC-0075394",
+        "Customer": "MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]",
+        "TOPIC": "Urgent[MITAC TECHNOLOGY (VIETNAM) COMPANY LIMITED]_The duration of WorkStageStarted to WorkStageCompleted is not proportional to the state transition duration_WorkStageStarted から WorkStageCompleted までの期間は、状態遷移の所要時間に比例していない。[NXT]",
+        "Communication Content": "Dear Marie Terazawa-san,\n\nThank you for the detailed explanation.\n\nWe have already responded to the Mitac customer.\n\nso let's wait for the customer's feedback and confirmation.\n\nThanks\n\nFMV-DO",
+        "FMV PIC": "Do Do",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00000vCNsrYAG"
+    },
+    {
         "DATE": "2026-11-27T07:41:09+00:00",
         "CC NUMBER": "CC-0082933",
         "Customer": "GOERTEK TECHNOLOGY VINA CO.,LTD]",
