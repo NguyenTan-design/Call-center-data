@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-28T13:48:57+00:00",
+        "CC NUMBER": "NEW:CC-0086708",
+        "Customer": "LITE-ON VIETNAM CO., LTD.]",
+        "TOPIC": "Normal[LITE-ON VIETNAM CO., LTD.]_Feeder Becomes Unavailable After Scanning Tape ID and Reinstalling into the Machine_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt 15:57, we scanned the Tape ID of the feeder at slot M6-51 and reinstalled it into the machine. The feeder then became unavailable.\n\nA few minutes later, the same issue occurred at M3. Each time a feeder was scanned in Tape ID mode and reinstalled into the machine, it became unavailable.\n\nThe issue was resolved after restarting the machine.\n\nPlease review the attached trace file and help investigate this issue.\n\nThank you for your time and support.\n\nBest regards,\n\nManh Cuong",
+        "FMV PIC": "Nguyen Manh Cuong",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001SBTviYAH"
+    },
+    {
         "DATE": "2026-11-28T09:43:43+00:00",
         "CC NUMBER": "NEW:CC-0086706",
         "Customer": "Luxvisions Innovation Technology (Yian) Co., Ltd.]",
