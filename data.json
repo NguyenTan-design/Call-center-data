@@ -1,5 +1,14 @@
 [
     {
+        "DATE": "2026-11-28T16:39:35+00:00",
+        "CC NUMBER": "NEW:CC-0086710",
+        "Customer": "RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]",
+        "TOPIC": "Urgent[RQ TECHNOLOGY ELECTRONICS VIETNAM COMPANY LIMITED]_Machine hang-up during production and no report any error_[NXTR-S]",
+        "Communication Content": "Dear Call Center,\n\nAt RQ Technology Electronics, the customer is using NXTR-S machines. We are experiencing an issue where, during auto production, the machine suddenly hangs up and becomes unresponsive without displaying any error message. We have to restart the machine to resume production.\n\nNote: We previously replaced the Module Control Board for this module (CC-0079516). The issue of this CC had not occurred again on both modules for a long time after the replacement. (The error of CC-0079516)\n\nIssue details:\n\nTime of occurrence: 04:16–04:19, November 28, 2026 (Vietnam time, UTC+7)\n\nMachine version: V2.3Pzd\n\nNexim version: 3.2.21\n\nLCU version: 2.31\n\nWe would like to attach the trace data collected by the customer for your reference.\n\nIf you need any further information, please let me know.\n\nPlease help us investigate this issue.\n\nThank you!\n\nBest regards,\n\nFMV – Quynh Nguyen",
+        "FMV PIC": "Nguyen Quynh",
+        "GO TO WEB": "https://community.fuji.co.jp/ccrs/500TK00001SC6sIYAT"
+    },
+    {
         "DATE": "2026-11-28T14:12:57+00:00",
         "CC NUMBER": "CC-0085407",
         "Customer": "LITE-ON VIETNAM CO., LTD.]",
